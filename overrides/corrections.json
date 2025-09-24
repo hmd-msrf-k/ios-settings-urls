@@ -1,0 +1,8 @@
+{
+	"prefs:root=Sounds&path=Reminder&path=Personalized%20Spatial%20Audio": {
+		"url": "prefs:root=Sounds&path=Personalized%20Spatial%20Audio"
+	},
+	"bridge:root=com.apple.NanoCalendarBridgeSettings&path=Shared%20Calendar%20Alerts": {
+		"label_id": "SHARED_CALENDAR_CHANGES"
+	}
+}

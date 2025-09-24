@@ -1,0 +1,181 @@
+[
+	{
+    "url": "prefs:root=General&path=STORAGE_MGMT",
+    "manifest": "/System/Library/PreferenceManifestsInternal/PreferencesManifests.bundle/SettingsSearchManifest-com.apple.settings.storage",
+    "label_id": "STORAGE"
+  },
+  {
+    "url": "prefs:root=SCREEN_TIME&path=SCREEN_TIME_SUMMARY",
+    "manifest": "/System/Library/PreferenceManifests/ScreenTimeSettingsSearch.bundle/SettingsSearchManifest-com.apple.ScreenTime",
+    "label": {
+      "en": "See All App & Website Activity"
+    }
+  },
+  {
+    "url": "prefs:root=DISPLAY&path=APPEARANCE",
+    "manifest": "/System/Library/PreferenceManifestsInternal/DisplayAndBrightnessPreferencesManifests.bundle/SettingsSearchManifest-Display",
+    "label_id": "APPEARANCE"
+  },
+  {
+    "url": "prefs:root=HOME_SCREEN_DOCK&path=MULTITASKING_DOCK",
+    "manifest": "/System/Library/PreferenceManifestsInternal/DisplayAndBrightnessPreferencesManifests.bundle/SettingsSearchManifest-HomeScreeniPad",
+    "label": {
+      "en": "Dock"
+    }
+  },
+  {
+    "url": "prefs:root=com.apple.MultitaskingAndGesturesSettings",
+    "manifest": "/System/Library/PreferenceManifestsInternal/DisplayAndBrightnessPreferencesManifests.bundle/SettingsSearchManifest-MultitaskingAndGesturesiPad",
+    "label": {
+      "en": "Multitasking & Gestures"
+    },
+    "comments": "Could this be automatically retrieved from the _DESCRIPTION keys?"
+  },
+  {
+    "url": "prefs:root=com.apple.MultitaskingAndGesturesSettings&path=Productivity",
+    "manifest": "/System/Library/PreferenceManifestsInternal/DisplayAndBrightnessPreferencesManifests.bundle/SettingsSearchManifest-MultitaskingAndGesturesiPad",
+    "label_id": "PRODUCTIVITY_GESTURES"
+  },
+  {
+    "url": "prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts",
+    "manifest": "/System/Library/PreferenceManifestsInternal/AccessibilitySettingsSearch.bundle/SettingsSearchManifest-com.apple.AccessibilitySettings",
+    "label_id": "KEYBOARD_SHORTCUTS"
+  },
+  {
+    "url": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS",
+    "manifest": "/System/Library/PreferenceManifestsInternal/AccessibilitySettingsSearch.bundle/SettingsSearchManifest-com.apple.AccessibilitySettings",
+    "label_id": "FULL_KEYBOARD_ACCESS"
+  },
+  {
+    "url": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/KEY_REPEAT",
+    "manifest": "/System/Library/PreferenceManifestsInternal/AccessibilitySettingsSearch.bundle/SettingsSearchManifest-com.apple.AccessibilitySettings",
+    "label_id": "KEY_REPEAT"
+  },
+  {
+    "url": "prefs:root=ACCESSIBILITY&path=KEYBOARDS/STICKY_KEYS",
+    "manifest": "/System/Library/PreferenceManifestsInternal/AccessibilitySettingsSearch.bundle/SettingsSearchManifest-com.apple.AccessibilitySettings",
+    "label_id": "STICKY_KEYS"
+  },
+  {
+    "url": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE",
+    "manifest": "/System/Library/PreferenceManifestsInternal/AccessibilitySettingsSearch.bundle/SettingsSearchManifest-com.apple.AccessibilitySettings",
+    "label_id": "ASSISTIVETOUCH"
+  },
+  {
+    "url": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTVirtualTrackpadCellID/BORDER",
+    "manifest": "/System/Library/PreferenceManifestsInternal/AccessibilitySettingsSearch.bundle/SettingsSearchManifest-com.apple.AccessibilitySettings",
+    "label_id": "AST_VIRTUAL_TRACKPAD_BORDER"
+  },
+  {
+    "url": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTVirtualTrackpadCellID/TRACKPAD",
+    "manifest": "/System/Library/PreferenceManifestsInternal/AccessibilitySettingsSearch.bundle/SettingsSearchManifest-com.apple.AccessibilitySettings",
+    "label_id": "AST_VIRTUAL_TRACKPAD_APPEARANCE"
+  },
+  {
+    "url": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/DWELL",
+    "manifest": "/System/Library/PreferenceManifestsInternal/AccessibilitySettingsSearch.bundle/SettingsSearchManifest-com.apple.AccessibilitySettings",
+    "label_id": "DWELL_CONTROL"
+  },
+  {
+    "url": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS",
+    "manifest": "/System/Library/PreferenceManifestsInternal/AccessibilitySettingsSearch.bundle/SettingsSearchManifest-com.apple.AccessibilitySettings",
+    "label_id": "TOUCH_ACCOMMODATIONS"
+  },
+  {
+    "url": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/Pointer",
+    "manifest": "/System/Library/PreferenceManifestsInternal/AccessibilitySettingsSearch.bundle/SettingsSearchManifest-com.apple.AccessibilitySettings",
+    "label_id": "POINTER_CONTROL"
+  },
+  {
+    "url": "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/UPWARDS_HUD",
+    "manifest": "/System/Library/PreferenceManifestsInternal/AccessibilitySettingsSearch.bundle/SettingsSearchManifest-com.apple.AccessibilitySettings",
+    "label_id": "UPWARDS_HUD"
+  },
+  {
+    "url": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSelectionGroupIdentifier",
+    "manifest": "/System/Library/PreferenceManifestsInternal/AccessibilitySettingsSearch.bundle/SettingsSearchManifest-com.apple.AccessibilitySettings",
+    "label_id": "SWITCH_CONTROL_MODE"
+  },
+  {
+    "url": "prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CameraPointPickerSwitch",
+    "manifest": "/System/Library/PreferenceManifestsInternal/AccessibilitySettingsSearch.bundle/SettingsSearchManifest-com.apple.AccessibilitySettings",
+    "label_id": "HEAD_TRACKING"
+  },
+  {
+    "url": "prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_VOCABULARY",
+    "manifest": "/System/Library/PreferenceManifestsInternal/AccessibilitySettingsSearch.bundle/SettingsSearchManifest-com.apple.AccessibilitySettings",
+    "label_id": "VOCABULARY"
+  },
+  {
+    "url": "prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE/HomeButtonAssistantTitle",
+    "manifest": "/System/Library/PreferenceManifestsInternal/AccessibilitySettingsSearch.bundle/SettingsSearchManifest-com.apple.AccessibilitySettings",
+    "label_id": "HOME_BUTTON"
+  },
+  {
+    "url": "prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXCSEnableSpecID",
+    "manifest": "/System/Library/PreferenceManifestsInternal/AccessibilitySettingsSearch.bundle/SettingsSearchManifest-com.apple.AccessibilitySettings",
+    "label_id": "COMFORT_SOUNDS"
+  },
+  {
+    "url": "prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION",
+    "manifest": "/System/Library/PreferenceManifestsInternal/AccessibilitySettingsSearch.bundle/SettingsSearchManifest-com.apple.AccessibilitySettings",
+    "label_id": "LIVE_TRANSCRIPTIONS"
+  },
+  {
+    "url": "prefs:root=ACCESSIBILITY&path=AIRPODS",
+    "manifest": "/System/Library/PreferenceManifestsInternal/AccessibilitySettingsSearch.bundle/SettingsSearchManifest-com.apple.AccessibilitySettings",
+    "label": {
+      "en": "AirPods"
+    }
+  },
+  {
+    "url": "prefs:root=ACCESSIBILITY&path=OnDeviceEyeTracking",
+    "manifest": "/System/Library/PreferenceManifestsInternal/AccessibilitySettingsSearch.bundle/SettingsSearchManifest-com.apple.AccessibilitySettings",
+    "label_id": "EYE_TRACKING"
+  },
+  {
+    "url": "prefs:root=ACCESSIBILITY&path=CAMERA_CONTROL",
+    "manifest": "/System/Library/PreferenceManifestsInternal/AccessibilitySettingsSearch.bundle/SettingsSearchManifest-com.apple.AccessibilitySettings",
+    "label_id": "CAMERA_CONTROL"
+  },
+  {
+    "url": "prefs:root=CAMERA&path=Record%20Video",
+    "manifest": "/System/Library/PreferenceManifestsInternal/PreferencesManifests.bundle/SettingsSearchManifest-com.apple.camera.settings",
+    "label": {
+      "en": "Record Video"
+    }
+  },
+  {
+    "url": "prefs:root=APPLE_ACCOUNT",
+    "manifest": "/System/Library/PreferenceManifests/AppleAccountSettingsSearch.bundle/SettingsSearchManifest-com.apple.castlesettings",
+    "label_id": "APPLEID_PATH"
+  },
+  {
+    "url": "prefs:root=Phone&path=Show%20My%20Caller%20ID/Primary",
+    "manifest": "/System/Library/PreferenceManifestsInternal/PreferencesManifests.bundle/SettingsSearchManifest-com.apple.mobilephone.settings",
+    "label_id": "SHOW_MY_CALLER_ID"
+  },
+  {
+    "url": "settings-navigation://com.apple.Settings.Apps",
+    "label": {
+      "en": "Apps"
+    }
+  },
+  {
+    "url": "bridge:root=ACCESSIBILITY&path=TapticChimesCell",
+    "manifest": "/System/Library/BridgeManifests/BridgeManifests.bundle/SettingsSearchManifest-com.apple.AccessibilitySettings.axbundle",
+    "label_id": "CHIMES"
+  },
+  {
+    "url": "bridge:root=com.apple.HeartRateSettings",
+    "manifest": "/System/Library/BridgeManifests/BridgeManifests.bundle/SettingsSearchManifest-com.apple.HeartRateSettings",
+    "label_id": "HEART"
+  },
+  {
+    "url": "bridge:root=GENERAL_LINK&path=WAKE_SCREEN",
+    "manifest": "/System/Library/PrivateFrameworks/PBBridgeSupport.framework/SettingsSearchManifest",
+    "label": {
+      "en": "Wake Screen"
+    }
+  }
+]

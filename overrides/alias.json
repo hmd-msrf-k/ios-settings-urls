@@ -1,0 +1,20 @@
+{
+	"prefs:root=APPLE_ACCOUNT": {
+		"recursive": true,
+		"aliases": [
+			"settings-navigation://com.apple.Settings.AppleAccount"
+		]
+	},
+	"prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE": {
+		"recursive": true,
+		"aliases": [
+			"prefs:root=CASTLE"
+		]
+	},
+	"prefs:root=Privacy": {
+		"recursive": true,
+		"aliases": [
+			"settings-navigation://com.apple.Settings.PrivacyAndSecurity"
+		]
+	}
+}
