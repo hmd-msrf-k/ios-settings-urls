@@ -4,12 +4,13 @@ from pathlib import Path
 from plistlib import load as load_plist
 from urllib.parse import urlparse, parse_qs, quote
 from json import dump as dump_json, load as load_json
-from typing import Generator, Iterable, Self, TypeAlias
+from typing import Generator, Iterable, Self
 
 # Constants
 ROOT_STR = "(root)"
 FALLBACK_LOCALE = "en"
 SEPARATOR = " → "
+ALT_LOCALIZATION_SEPARATOR = " | "
 ALIAS_SEPARATOR = " or "  # For now at least, this isn't localized
 BASE_PATH = Path("/System/Library")
 UNKNOWN_PLACEHOLDER = "UNKNOWN_LABEL"
@@ -27,11 +28,8 @@ BUNDLE_LOCATIONS = (
 # Keys for localizations that change based on device type
 DEVICE_TYPES = ("iphone", "ipad", "ipod", "mac", "applevision", "other")
 
-# TODO: use type statements once a-Shell upgrades to Python >=3.12
-# type LocalizationString = str | dict[str, dict[str, str]]
-LocalizationString: TypeAlias = str | dict[str, dict[str, str]]  # Only key in dict case is NSStringDeviceSpecificRuleType
-# type NewOverride = dict[str, str | dict[str, str] | list[str]]
-NewOverride: TypeAlias = dict[str, str | dict[str, str] | list[str]]
+type LocalizationString = str | dict[str, dict[str, str]]  # Only key in dict case is NSStringDeviceSpecificRuleType
+type NewOverride = dict[str, str | dict[str, str] | list[str]]
 
 all_locales: set[str] = set()  # All the locales that have strings defined in localizations
 # URLs that are wrong in the search manifests but can be easily remapped
@@ -267,6 +265,10 @@ class Bundle:
 					# and also because the manifest may not exist yet,
 					# if the loctable or lproj is loaded before the actual manifest.
 					self.loctables[str(file).removesuffix(".loctable")] = loctable_contents
+					# Make sure to update the locales here!
+					# In the past I was getting lucky with some stray .lproj folders populating the locale list,
+					# but I guess those have finally gone away in recent versions.
+					all_locales.update(loctable_contents.keys())
 				elif file.name.endswith(".strings"):
 					# This is a special case, where there's a single strings file alongside the plist.
 					# Since a strings file only has one level, there's only one localization language.
@@ -316,7 +318,48 @@ class Bundle:
 class URLTree:
 	def __init__(self):
 		self.root: RawSettingsURL | None = None
+		# These are only necessary for localization.
+		# There are some cases where the same URL is declared multiple times in the search manifests,
+		# but with different requiredCapabilities deciding which version is used on which platform
+		# (first known case: Accessibility -> Touch on iOS, Interaction on AVP)
+		self.duplicate_roots: list[RawSettingsURL] = []
 		self.urls: dict[str, URLTree] = {}
+	
+	def get_root_localization(self, locale: str) -> str | None:
+		"""
+		Get all localizations for the label of this tree's root in a single string.
+		:param locale: Locale key for the localizations
+		:return: Combined localized label, or None if no localizations were found.
+		"""
+		if self.root is None:
+			raise Exception("Tried to get localization of null root")
+		
+		# List all the available localizations for this URL and locale
+		root_localizations: list[str] = []
+		root_urls_with_unknown_localization: list[RawSettingsURL] = []
+		for root_url in [self.root, *self.duplicate_roots]:
+			locale_key = locale if locale in root_url.localized_labels else FALLBACK_LOCALE
+			if locale_key in root_url.localized_labels:
+				root_localizations.append(sanitize_key(root_url.localized_labels[locale_key]))
+			else:
+				root_urls_with_unknown_localization.append(root_url)
+		
+		# Only complain about not having a localization and put out an UNKNOWN
+		# if no valid localizations have been found
+		if len(root_localizations) == 0:
+			# Only add one UNKNOWN, don't need a ton of them
+			for url_with_unknown_localization in root_urls_with_unknown_localization:
+				# Print usages of the fallback label. They need to be addressed before publishing.
+				# This does not trigger when overrides are needed to fill in gaps.
+				if locale == FALLBACK_LOCALE:
+					print("UNKNOWN PLACEHOLDER USED")
+					print("  URL: " + url_with_unknown_localization.url)
+					print("  Manifest: " + str(url_with_unknown_localization.manifest_path))
+					print("  Label ID: " + url_with_unknown_localization.label_id)
+			return None
+		else:
+			root_localizations = list(sorted(set(root_localizations)))  # Remove duplicates
+		return ALT_LOCALIZATION_SEPARATOR.join(root_localizations)
 
 	def build_localized_tree(self, locale: str) -> dict | str | list[str]:
 		"""
@@ -337,10 +380,8 @@ class URLTree:
 				merge_into(result, ROOT_STR, self.root.url)
 			for subtree in self.urls.values():
 				if subtree.root is not None:
-					key_locale = locale if locale in subtree.root.localized_labels else FALLBACK_LOCALE
-					if key_locale in subtree.root.localized_labels:
-						key = sanitize_key(subtree.root.localized_labels[key_locale])
-					else:
+					key = subtree.get_root_localization(locale)
+					if key is None:
 						key = f"{UNKNOWN_PLACEHOLDER}_{unassigned_id}"
 						unassigned_id += 1
 				else:
@@ -358,18 +399,9 @@ class URLTree:
 		:return: Generator that yields a full Markdown list of the URLs in this subtree.
 		"""
 		if self.root is not None:
-			locale_key = locale if locale in self.root.localized_labels else FALLBACK_LOCALE
-			if locale_key in self.root.localized_labels:
-				label = sanitize_key(self.root.localized_labels[locale_key])
-			else:
+			label = self.get_root_localization(locale)
+			if label is None:
 				label = UNKNOWN_PLACEHOLDER
-				# Print usages of the fallback label. They need to be addressed before publishing.
-				# This does not trigger when overrides are needed to fill in gaps.
-				if locale == FALLBACK_LOCALE:
-					print("UNKNOWN PLACEHOLDER USED")
-					print("  URL: " + self.root.url)
-					print("  Manifest: " + str(self.root.manifest_path))
-					print("  Label ID: " + self.root.label_id)
 			prefix += label
 			# Apply aliases if any exist
 			urls_for_line = [self.root.url]
@@ -397,7 +429,12 @@ class URLTree:
 				current_tree.urls[path_segment] = URLTree()
 			current_tree = current_tree.urls[path_segment]
 		# Now current tree is the subtree for which the provided URL is the root
-		current_tree.root = url
+		# If there's already a root URL provided, then add the inserted URL to the
+		# list of duplicate roots, to make sure its localizations will at least be included
+		if current_tree.root is None:
+			current_tree.root = url
+		else:
+			current_tree.duplicate_roots.append(url)
 
 	def add_alias(self, url: str, alias: str, recursive: bool, path_segments_rev: list[str] | None = None):
 		"""
@@ -406,7 +443,13 @@ class URLTree:
 		:param alias: Alias for the original URL
 		:param recursive: Whether this alias can also be used as a prefix for children of the main URL
 		"""
-		if self.root is not None and self.root.url == url:
+		# The removesuffix() here is for a really stupid reason.
+		# If the plist has an extra trailing slash in the URL that we want to alias,
+		# then the URL obviously won't match here because the corrections don't include that.
+		# That causes the pop() below to eventually raise an exception on an empty list.
+		# Removing the trailing slash here is a temp fix at best.
+		# TODO: actually fix this, and remove the workaround.
+		if self.root is not None and self.root.url.removesuffix("/") == url:
 			self.root.add_alias(alias)  # Add alias to the URL directly
 			# Apply to children if recursive
 			# This isn't particularly efficient, I suppose, but it has to work.
@@ -511,13 +554,15 @@ def add_override(override: dict):
 	Add an override URL to the tree.
 	:param override: JSON representation of the override
 	"""
-	# Bundle path is manifest 
+	# Bundle path is manifest
 	override_label_id = override.get("label_id")
 	manifest_path_str = (override["manifest"] + ".plist") if "manifest" in override else ""
 	override_url = RawSettingsURL(override["url"], "" if override_label_id is None else override_label_id, Path(manifest_path_str)) # Label ID doesn't matter
 	if type(override_label_id) is str:
 		# Use label_id to get the localizations from the manifest
-		override_url_manifest = manifests[override["manifest"]]
+		# Resolve the manifest relative to the current base path,
+		# so that the override files don't need to include that information.
+		override_url_manifest = manifests[str(BASE_PATH / override["manifest"])]
 		for lang, lang_localizations in override_url_manifest.strings.items():
 			# Only add the localized label IDs that actually exist in the manifest's strings
 			# All other uses will use the fallback
@@ -536,7 +581,7 @@ for additional_override in additional_overrides:
 
 # Create a folder for the current iOS version under versions/
 # Doing this first so that the file containing the needed overrides has somewhere to go
-with open("/System/Library/CoreServices/SystemVersion.plist", "rb") as fp:
+with open(BASE_PATH / "CoreServices" / "SystemVersion.plist", "rb") as fp:
 	ios_version: str = load_plist(fp)["ProductVersion"]
 version_folder = Path(".") / "versions" / ios_version
 makedirs(version_folder, exist_ok=True)
@@ -590,7 +635,7 @@ def find_missing_urls():
 							# - #NumericalPreferencePickerGroupIdentifier
 							# This isn't a great heuristic for where the manifest with the real label is, depending on the area.
 							# But for now, it doesn't need to be any better.
-							new_override["manifest"] = str(subtree.root.manifest_path).removesuffix(".plist")
+							new_override["manifest"] = str(subtree.root.manifest_path).removeprefix(str(BASE_PATH)).removeprefix("/").removesuffix(".plist")
 							override_url_segments = list(get_path_segments(subtree.root.url))
 							last_segment = override_url_segments[-1]
 							second_last_segment = override_url_segments[-2]
@@ -604,7 +649,7 @@ def find_missing_urls():
 				if not found_similar_child:  # Only write out the ones that we couldn't automatically generate overrides for.
 					# Default manifest (where many of these are found) if one could not be found in immediate children
 					if "manifest" not in new_override:
-						new_override["manifest"] = "/System/Library/PreferenceManifestsInternal/AccessibilitySettingsSearch.bundle/SettingsSearchManifest-com.apple.AccessibilitySettings"
+						new_override["manifest"] = "PreferenceManifestsInternal/AccessibilitySettingsSearch.bundle/SettingsSearchManifest-com.apple.AccessibilitySettings"
 					new_override["label_id"] = ""
 					new_override["label"] = { "en": "" }
 					# Just for me: a list of the immediate children of this URL, as hints for manual search
@@ -619,25 +664,35 @@ find_missing_urls()
 # Load and add aliases to the tree (like prefs:root=CASTLE)
 # Aliases file structure:
 # {
-#   "original_url": {
-#     "recursive": bool,
-#     "aliases": list[str]
-#   }
+#   "original_url": list[str | {
+#     "url": str,
+#     "recursive": bool? (default: true)
+#   }]
 # }
+# Default
 # I'm doing this after load the gaps and not before,
 # because if a gap URL has an alias (e.g. prefs:root=APPLE_ACCOUNT),
 # then applying the alias will throw an exception due to popping from an empty list.
 # So we actually need to run two searches to make sure everything works out correctly.
 # I hate running the search twice, but it just needs to work.
+# - Top level for each key is an array of aliases, not a dictionary
+# - An alias can be a string or a dictionary
+# - Assumed recursive unless `"recursive": false` is specified
 with open(OVERRIDES / "alias.json", "r") as fp:
-	alias_overrides: dict[str, dict] = load_json(fp)
+	alias_overrides: dict[str, list[str | dict]] = load_json(fp)
 for orig_url, aliases_info in alias_overrides.items():
-	aliases_for_url: list[str] = aliases_info["aliases"]
-	aliases_are_recursive: bool = aliases_info["recursive"]
-	for alias in aliases_for_url:
+	for alias in aliases_info:
+		if type(alias) is str:
+			alias_url = alias
+			alias_is_recursive: bool = True
+		elif type(alias) is dict and "url" in alias:
+			alias_url = alias["url"]
+			alias_is_recursive: bool = alias.get("recursive", True)
+		else:
+			continue
 		# Yes, this does some unnecessary traversal of the tree.
 		# It just has to work, though.
-		tree.add_alias(orig_url, alias, aliases_are_recursive)
+		tree.add_alias(orig_url, alias_url, alias_is_recursive)
 
 # Now that the aliases are applied, run the search for missing URLs again.
 # This will be what we actually write to the JSON.
@@ -645,30 +700,30 @@ urls_to_override.clear()
 find_missing_urls()
 
 
-# Copy the relevant source files out of /System/Library for easier inspection,
-# to speed up the process of manually creating and reviewing overrides.
-# This is not strictly necessary, and the files should never be committed.
-# It's just a convenience for me.
-manifests_for_manual_search: set[str] = set()
-for needed_override in urls_to_override:
-	override_manifest = needed_override["manifest"]
-	if type(override_manifest) is str and override_manifest not in manifests_for_manual_search:
-		# Copy manifest and the localization (just EN if it's the .lproj format) to version folder for easy transfer
-		manifest_name = Path(override_manifest).name
-		manifest_loctable_original = Path(override_manifest + ".loctable")
-		manifest_en_lproj_original = Path(override_manifest) / ".." / "en.lproj" / (manifest_name + ".strings")
-		copy(override_manifest + ".plist",  version_folder / (manifest_name + ".plist"))
-		if manifest_loctable_original.exists():
-			copy(manifest_loctable_original, version_folder / (manifest_name + ".loctable"))
-		elif manifest_en_lproj_original.exists():
-			copy(manifest_en_lproj_original, version_folder / (manifest_name + ".strings"))
-		manifests_for_manual_search.add(override_manifest)  # Don't copy the file again
+# # Copy the relevant source files out of /System/Library for easier inspection,
+# # to speed up the process of manually creating and reviewing overrides.
+# # This is not strictly necessary, and the files should never be committed.
+# # It's just a convenience for me.
+# manifests_for_manual_search: set[str] = set()
+# for needed_override in urls_to_override:
+# 	override_manifest = needed_override["manifest"]
+# 	if type(override_manifest) is str and override_manifest not in manifests_for_manual_search:
+# 		# Copy manifest and the localization (just EN if it's the .lproj format) to version folder for easy transfer
+# 		manifest_name = Path(override_manifest).name
+# 		manifest_loctable_original = Path(override_manifest + ".loctable")
+# 		manifest_en_lproj_original = Path(override_manifest) / ".." / "en.lproj" / (manifest_name + ".strings")
+# 		copy(override_manifest + ".plist",  version_folder / (manifest_name + ".plist"))
+# 		if manifest_loctable_original.exists():
+# 			copy(manifest_loctable_original, version_folder / (manifest_name + ".loctable"))
+# 		elif manifest_en_lproj_original.exists():
+# 			copy(manifest_en_lproj_original, version_folder / (manifest_name + ".strings"))
+# 		manifests_for_manual_search.add(override_manifest)  # Don't copy the file again
 
 
 # Write out the overrides that need manual investigation.
 if len(urls_to_override) > 0:
 	with open(version_folder / "need-overrides.json", "w") as fp:
-		dump_json(urls_to_override, fp, indent=2)
+		dump_json(urls_to_override, fp, indent='\t')
 	print(f"{len(urls_to_override)} override{'' if len(urls_to_override) == 1 else 's'} needed")
 else:
 	print("No overrides needed")
@@ -716,6 +771,6 @@ with open("./settings-urls.md", "w") as fp:
 	fp.write("\n".join(combined_settings_tree.build_markdown_lines(FALLBACK_LOCALE)))
 localized_tree = combined_settings_tree.build_localized_tree(FALLBACK_LOCALE)
 with open("./settings-urls.json", "w") as fp:
-	dump_json(localized_tree, fp, indent=None)
+	dump_json(localized_tree, fp, indent=None)  # No extra whitespace, for machine consumption
 with open("./settings-urls-sorted.json", "w") as fp:
 	dump_json(localized_tree, fp, sort_keys=True, indent=4)
