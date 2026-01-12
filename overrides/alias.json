@@ -1,20 +1,10 @@
 {
-	"prefs:root=APPLE_ACCOUNT": {
-		"recursive": true,
-		"aliases": [
-			"settings-navigation://com.apple.Settings.AppleAccount"
-		]
-	},
-	"prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE": {
-		"recursive": true,
-		"aliases": [
-			"prefs:root=CASTLE"
-		]
-	},
-	"prefs:root=Privacy": {
-		"recursive": true,
-		"aliases": [
-			"settings-navigation://com.apple.Settings.PrivacyAndSecurity"
-		]
-	}
+	"prefs:root=APPLE_ACCOUNT": ["settings-navigation://com.apple.Settings.AppleAccount"],
+	"prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE": ["prefs:root=CASTLE"],
+	"prefs:root=Privacy": ["settings-navigation://com.apple.Settings.PrivacyAndSecurity"],
+	"settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari": ["prefs:root=SAFARI"],
+	"prefs:root=INTERNET_TETHERING": ["prefs:root=MOBILE_DATA_SETTINGS_ID&path=INTERNET_TETHERING"],
+	"prefs:root=NOTES": ["settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes"],
+	"prefs:root=VPN": ["prefs:root=General&path=ManagedConfigurationList/VPN"],
+	"prefs:root=MEASURE": ["settings-navigation://com.apple.Settings.Apps/com.apple.measure"]
 }
