@@ -1,0 +1,14 @@
+- Құпиялылық және қауіпсіздік: `settings-navigation://com.apple.Settings.PrivacyAndSecurity`
+- Құпиялылық және қауіпсіздік → Қауіпсіздікті тексеру: `settings-navigation://com.apple.Settings.PrivacyAndSecurity/SAFETY_CHECK`
+- Apps: `settings-navigation://com.apple.Settings.Apps`
+- Apps → Safari: `settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari/` or `prefs:root=SAFARI`
+- Apps → Safari → Кеңейтімдер: `settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari/WEB_EXTENSIONS` or `prefs:root=SAFARI&path=WEB_EXTENSIONS`
+- Apps → Safari → Қалқымалы терезелерді блоктау: `settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari#BLOCK_POPUPS`
+- Apps → Safari → Сайт аралық қадағалауға жол бермеу: `settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari#TRACKER_PROTECTION`
+- Apps → Safari → Авто толтыру: `settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari/AUTO_FILL` or `prefs:root=SAFARI&path=AUTO_FILL`
+- Apps → Safari → Жүктеп алулар: `settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari/DOWNLOADS` or `prefs:root=SAFARI&path=DOWNLOADS`
+- Apps → Құпиясөздер: `settings-navigation://com.apple.Settings.Apps/com.apple.Passwords`
+- Apps → Құпиясөздер → Қауіпсіздік ұсыныстары: `settings-navigation://com.apple.Settings.Apps/com.apple.Passwords#SECURITY_RECOMMENDATIONS`
+- Үй: `settings-navigation://com.apple.Settings.HomeKit`
+- Search: `settings-navigation://com.apple.Settings.Search`
+- Теледидар провайдері: `settings-navigation://com.apple.Settings.TVProvider`

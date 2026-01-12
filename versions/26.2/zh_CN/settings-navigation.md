@@ -1,0 +1,14 @@
+- 隐私与安全性: `settings-navigation://com.apple.Settings.PrivacyAndSecurity`
+- 隐私与安全性 → 安全检查: `settings-navigation://com.apple.Settings.PrivacyAndSecurity/SAFETY_CHECK`
+- Apps: `settings-navigation://com.apple.Settings.Apps`
+- Apps → Safari浏览器: `settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari/` or `prefs:root=SAFARI`
+- Apps → Safari浏览器 → 扩展: `settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari/WEB_EXTENSIONS` or `prefs:root=SAFARI&path=WEB_EXTENSIONS`
+- Apps → Safari浏览器 → 阻止弹出式窗口: `settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari#BLOCK_POPUPS`
+- Apps → Safari浏览器 → 防止跨站跟踪: `settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari#TRACKER_PROTECTION`
+- Apps → Safari浏览器 → 自动填充: `settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari/AUTO_FILL` or `prefs:root=SAFARI&path=AUTO_FILL`
+- Apps → Safari浏览器 → 下载: `settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari/DOWNLOADS` or `prefs:root=SAFARI&path=DOWNLOADS`
+- Apps → 密码: `settings-navigation://com.apple.Settings.Apps/com.apple.Passwords`
+- Apps → 密码 → 安全建议: `settings-navigation://com.apple.Settings.Apps/com.apple.Passwords#SECURITY_RECOMMENDATIONS`
+- 家庭: `settings-navigation://com.apple.Settings.HomeKit`
+- Search: `settings-navigation://com.apple.Settings.Search`
+- 电视提供商: `settings-navigation://com.apple.Settings.TVProvider`

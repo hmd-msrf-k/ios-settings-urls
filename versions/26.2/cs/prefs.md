@@ -1,0 +1,414 @@
+- Baterie: `prefs:root=BATTERY_USAGE`
+- Baterie → Režim nízké spotřeby: `prefs:root=BATTERY_USAGE#BATTERY_SAVER_MODE`
+- Baterie → Kondice baterie: `prefs:root=BATTERY_USAGE#BATTERY_HEALTH_ID`
+- Obecné: `prefs:root=General`
+- Obecné → VPN a správa zařízení: `prefs:root=General&path=ManagedConfigurationList`
+- Obecné → Automatické vyplňování a hesla: `prefs:root=General&path=AUTOFILL`
+- Obecné → Automatické vyplňování a hesla → Automatické vyplnění hesel: `prefs:root=General&path=AUTOFILL#AUTOFILL`
+- Obecné → Automatické vyplňování a hesla → Odstranit ověřovací kódy: `prefs:root=General&path=AUTOFILL#CLEAN_UP_VERIFICATION_CODES`
+- Obecné → Automatické vyplňování a hesla → Nastavení ověřovacích kódů: `prefs:root=General&path=AUTOFILL#SET_UP_VERIFICATION_CODES`
+- Obecné → AppleCare a záruka: `prefs:root=General&path=COVERAGE/`
+- Obecné → Slovník: `prefs:root=General&path=DICTIONARY`
+- Obecné → Klávesnice: `prefs:root=General&path=Keyboard`
+- Obecné → Klávesnice → Klávesnice: `prefs:root=General&path=Keyboard/KEYBOARDS`
+- Obecné → Klávesnice → Náhrada textu: `prefs:root=General&path=Keyboard/USER_DICTIONARY`
+- Obecné → Klávesnice → Auto velká písmena: `prefs:root=General&path=Keyboard#KeyboardAutocapitalization`
+- Obecné → Klávesnice → Auto korektura: `prefs:root=General&path=Keyboard#KeyboardAutocorrection`
+- Obecné → Klávesnice → Zkontrolovat pravopis: `prefs:root=General&path=Keyboard#KeyboardCheckSpelling`
+- Obecné → Klávesnice → Povolit Caps Lock: `prefs:root=General&path=Keyboard#KeyboardCapsLock`
+- Obecné → Klávesnice → Zkratky: `prefs:root=General&path=Keyboard#KeyboardAssistant`
+- Obecné → Klávesnice → Predikce: `prefs:root=General&path=Keyboard#KeyboardPrediction`
+- Obecné → Klávesnice → Chytrá interpunkce: `prefs:root=General&path=Keyboard#SmartTyping`
+- Obecné → Klávesnice → Rozdělená klávesnice: `prefs:root=General&path=Keyboard#RivenKeyboard`
+- Obecné → Klávesnice → Zapnout Key Flicks: `prefs:root=General&path=Keyboard#GesturesEnabled`
+- Obecné → Klávesnice → Náhledy znaků: `prefs:root=General&path=Keyboard#KeyboardAllowPaddle`
+- Obecné → Klávesnice → Klávesová zkratka „.“: `prefs:root=General&path=Keyboard#KeyboardPeriodShortcut`
+- Obecné → Klávesnice → Chcete‑li začít psát, přejeďte: `prefs:root=General&path=Keyboard#KeyboardContinuousPathEnabled`
+- Obecné → Klávesnice → Zapnout diktování: `prefs:root=General&path=Keyboard#Dictation`
+- Obecné → Klávesnice → Automatická interpunkce: `prefs:root=General&path=Keyboard#AutoPunctuationSetting`
+- Obecné → Aktualizace softwaru: `prefs:root=General&path=SOFTWARE_UPDATE_LINK`
+- Obecné → Aktualizace softwaru → Automatické aktualizace: `prefs:root=General&path=SOFTWARE_UPDATE_LINK/SUAutomaticUpdateButton`
+- Obecné → Úložiště: `prefs:root=General&path=STORAGE_MGMT`
+- Obecné → Úložiště → Úložiště: `prefs:root=General&path=STORAGE_MGMT#MANAGE`
+- Obecné → Úložiště → Odložit nepoužívané: `prefs:root=General&path=STORAGE_MGMT#OFFLOAD`
+- Obecné → Obraz v obrazu: `prefs:root=General&path=PiP_SPEC`
+- Obecné → Trackpad | Trackpad a myš: `prefs:root=General&path=POINTERS`
+- Obecné → NFC: `prefs:root=General&path=NFC_LINK`
+- Obecné → VPN: `prefs:root=General&path=VPN`
+- Obecné → CarPlay: `prefs:root=General&path=CARPLAY`
+- Obecné → Informace: `prefs:root=General&path=About`
+- Obecné → Informace → Důvěryhodné certifikáty: `prefs:root=General&path=About/CERT_TRUST_SETTINGS`
+- Obecné → Informace → Sériové číslo: `prefs:root=General&path=About#SerialNumber`
+- Obecné → Informace → Číslo modelu: `prefs:root=General&path=About#ProductModel`
+- Obecné → Informace → Název modelu: `prefs:root=General&path=About#ProductModelName`
+- Obecné → Informace → Verze iOS: `prefs:root=General&path=About/SW_VERSION_SPECIFIER`
+- Obecné → Právní informace a standardy: `prefs:root=General&path=LEGAL_AND_REGULATORY`
+- Obecné → Právní informace a standardy → Záruka: `prefs:root=General&path=LEGAL_AND_REGULATORY#Warranty`
+- Obecné → AirDrop: `prefs:root=General&path=AIRDROP_LINK`
+- Obecné → AirDrop → Přiblížením zařízení k sobě: `prefs:root=General&path=AIRDROP_LINK#AIRDROP_NFC_ID`
+- Obecné → Tlačítko plochy: `prefs:root=General&path=HOME_BUTTON`
+- Obecné → Postranní přepínač: `prefs:root=General#Rotation_Switch_Action_Group`
+- Obecné → Aktualizace aplikací na pozadí: `prefs:root=General&path=AUTO_CONTENT_DOWNLOAD`
+- Obecné → Datum a čas: `prefs:root=General&path=DATE_AND_TIME`
+- Obecné → TV výstup: `prefs:root=General&path=TV_OUT`
+- Obecné → Resetovat: `prefs:root=General&path=Reset`
+- Obecné → Resetovat → Obnovit všechna nastavení: `prefs:root=General&path=Reset#settingsErase`
+- Obecné → Resetovat → Smazat data a nastavení: `prefs:root=General&path=Reset#fullErase`
+- Obecné → Resetovat → Obnovit nastavení sítě: `prefs:root=General&path=Reset#RESET_NETWORK_LABEL`
+- Obecné → Resetovat → Odstranit všechny mobilní datové tarify: `prefs:root=General&path=Reset#cellularErase`
+- Obecné → Resetovat → Odběratelské služby: `prefs:root=General&path=Reset#SUBSCRIBER_SERVICES_ID`
+- Obecné → Resetovat → Obnovit slovník klávesnice: `prefs:root=General&path=Reset#RESET_KEYBOARD_DICTIONARY_LABEL`
+- Obecné → Resetovat → Obnovit uspořádání plochy: `prefs:root=General&path=Reset#RESET_ICONS_LABEL`
+- Obecné → Resetovat → Obnovit polohu a soukromí: `prefs:root=General&path=Reset#RESET_PRIVACY_LABEL`
+- Obecné → Vypnout: `prefs:root=General#SHUTDOWN_LABEL`
+- Obecné → AirPlay a Kontinuita: `prefs:root=General&path=CONTINUITY_SPEC`
+- Obecné → AirPlay a Kontinuita → Handoff: `prefs:root=General&path=CONTINUITY_SPEC#CONTINUITY`
+- Obecné → AirPlay a Kontinuita → Předat na HomePod: `prefs:root=General&path=CONTINUITY_SPEC#TRANSFER_TO_HOMEPOD`
+- Obecné → AirPlay a Kontinuita → Automatické AirPlay: `prefs:root=General&path=CONTINUITY_SPEC#AUTOMATICALLY_AIRPLAY`
+- Obecné → AirPlay a Kontinuita → Fotoaparát přes Kontinuitu: `prefs:root=General&path=CONTINUITY_SPEC#WOMBAT_CAMERA`
+- Obecné → Jazyk a oblast: `prefs:root=General&path=INTERNATIONAL`
+- Obecné → Jazyk a oblast → Další jazyky…: `prefs:root=General&path=INTERNATIONAL#NEW_PREFERRED_LANGUAGE`
+- Obecné → Jazyk a oblast → Preferované pořadí jazyků: `prefs:root=General&path=INTERNATIONAL#PREFERRED_LANGUAGE_GROUP`
+- Obecné → Jazyk a oblast → Přidat jazyk…: `prefs:root=General&path=INTERNATIONAL#ADD_PREFERRED_LANGUAGE`
+- Obecné → Jazyk a oblast → Oblast: `prefs:root=General&path=INTERNATIONAL/LOCALE`
+- Obecné → Jazyk a oblast → Čísla: `prefs:root=General&path=INTERNATIONAL/NUMBERING_SYSTEM`
+- Obecné → Jazyk a oblast → Kalendář: `prefs:root=General&path=INTERNATIONAL/CALENDAR`
+- Obecné → Jazyk a oblast → Jednotky teploty: `prefs:root=General&path=INTERNATIONAL/TEMPERATURE_UNIT`
+- Účet Apple: `prefs:root=APPLE_ACCOUNT` or `settings-navigation://com.apple.Settings.AppleAccount`
+- Účet Apple → Ověření kontaktů klíčem: `prefs:root=APPLE_ACCOUNT&path=TRANSPARENCY` or `settings-navigation://com.apple.Settings.AppleAccount/TRANSPARENCY`
+- Účet Apple → iCloud: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE` or `prefs:root=CASTLE`
+- Účet Apple → iCloud → Úložiště na iCloudu: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/STORAGE_AND_BACKUP` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/STORAGE_AND_BACKUP` or `prefs:root=CASTLE&path=STORAGE_AND_BACKUP`
+- Účet Apple → iCloud → iCloud Drive: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Ubiquity` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Ubiquity` or `prefs:root=CASTLE&path=com.apple.Dataclass.Ubiquity`
+- Účet Apple → iCloud → Fotky: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.MediaStream` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.MediaStream` or `prefs:root=CASTLE&path=com.apple.Dataclass.MediaStream`
+- Účet Apple → iCloud → Mail: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Mail` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail` or `prefs:root=CASTLE&path=com.apple.Dataclass.Mail`
+- Účet Apple → iCloud → Kontakty: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Contacts` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Contacts` or `prefs:root=CASTLE&path=com.apple.Dataclass.Contacts`
+- Účet Apple → iCloud → Kalendář: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Calendars` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Calendars` or `prefs:root=CASTLE&path=com.apple.Dataclass.Calendars`
+- Účet Apple → iCloud → Připomínky: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Reminders` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Reminders` or `prefs:root=CASTLE&path=com.apple.Dataclass.Reminders`
+- Účet Apple → iCloud → Safari: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Bookmarks` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Bookmarks` or `prefs:root=CASTLE&path=com.apple.Dataclass.Bookmarks`
+- Účet Apple → iCloud → Poznámky: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Notes` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Notes` or `prefs:root=CASTLE&path=com.apple.Dataclass.Notes`
+- Účet Apple → iCloud → News: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.News` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.News` or `prefs:root=CASTLE&path=com.apple.Dataclass.News`
+- Účet Apple → iCloud → Záloha: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/BACKUP` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/BACKUP` or `prefs:root=CASTLE&path=BACKUP`
+- Účet Apple → iCloud → Zdraví: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Health` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Health` or `prefs:root=CASTLE&path=com.apple.Dataclass.Health`
+- Účet Apple → iCloud → Hesla a klíčenka: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.KeychainSync` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.KeychainSync` or `prefs:root=CASTLE&path=com.apple.Dataclass.KeychainSync`
+- Účet Apple → iCloud → Skrýt můj e‑mail: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/PRIVATE_EMAIL_MANAGE` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/PRIVATE_EMAIL_MANAGE` or `prefs:root=CASTLE&path=PRIVATE_EMAIL_MANAGE`
+- Účet Apple → Sdílet moji polohu: `prefs:root=APPLE_ACCOUNT&path=LOCATION_SHARING` or `settings-navigation://com.apple.Settings.AppleAccount/LOCATION_SHARING`
+- Účet Apple → Sdílet moji polohu → Najít: `prefs:root=APPLE_ACCOUNT&path=LOCATION_SHARING/FindMyDevice-Settings` or `settings-navigation://com.apple.Settings.AppleAccount/LOCATION_SHARING/FindMyDevice-Settings`
+- Účet Apple → Jméno, telefonní čísla, e-mail: `prefs:root=APPLE_ACCOUNT&path=APPLE_ACCOUNT_CONTACT` or `settings-navigation://com.apple.Settings.AppleAccount/APPLE_ACCOUNT_CONTACT`
+- Účet Apple → Heslo a zabezpečení: `prefs:root=APPLE_ACCOUNT&path=PASSWORD_AND_SECURITY` or `settings-navigation://com.apple.Settings.AppleAccount/PASSWORD_AND_SECURITY`
+- Účet Apple → Platby a doručování: `prefs:root=APPLE_ACCOUNT&path=PAYMENT_AND_SHIPPING` or `settings-navigation://com.apple.Settings.AppleAccount/PAYMENT_AND_SHIPPING`
+- Účet Apple → Předplacené služby: `prefs:root=APPLE_ACCOUNT&path=SUBSCRIPTIONS` or `settings-navigation://com.apple.Settings.AppleAccount/SUBSCRIPTIONS`
+- Účet Apple → Rodina: `prefs:root=APPLE_ACCOUNT&path=Family` or `settings-navigation://com.apple.Settings.AppleAccount/Family`
+- Oznámení: `prefs:root=NOTIFICATIONS_ID`
+- Oznámení → Naplánovaný souhrn: `prefs:root=NOTIFICATIONS_ID&path=SCHEDULED_DELIVERY_ID`
+- Počasí: `prefs:root=WEATHER`
+- Freeform: `prefs:root=FREEFORM`
+- Režim soustředění: `prefs:root=DO_NOT_DISTURB`
+- Režim soustředění → Stav soustředění: `prefs:root=DO_NOT_DISTURB&path=status`
+- Deník: `prefs:root=JOURNAL`
+- Peněženka a Apple Pay: `prefs:root=PASSBOOK`
+- Peněženka a Apple Pay → Apple Cash: `prefs:root=PASSBOOK#Apple%C2%A0Cash`
+- Peněženka a Apple Pay → Platební karty: `prefs:root=PASSBOOK#SETTINGS_PAYMENT_CARDS_GROUP`
+- Peněženka a Apple Pay → Přidat kartu: `prefs:root=PASSBOOK#Add%20Card`
+- Peněženka a Apple Pay → Dvojí stisknutí postranního tlačítka: `prefs:root=PASSBOOK#Double-Click%20Side%20Button`
+- Peněženka a Apple Pay → Sledování objednávek: `prefs:root=PASSBOOK#ORDER_TRACKING`
+- Vzhled | Zobrazení a jas: `prefs:root=DISPLAY`
+- Vzhled | Zobrazení a jas → Vzhled: `prefs:root=DISPLAY#DEVICE_APPEARANCE`
+- Vzhled | Zobrazení a jas → True Tone: `prefs:root=DISPLAY#WHITE_BALANCE`
+- Vzhled | Zobrazení a jas → Night Shift: `prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION`
+- Vzhled | Zobrazení a jas → Night Shift → Podle rozvrhu: `prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION#SCHEDULED`
+- Vzhled | Zobrazení a jas → Night Shift → Ručně zapnout do zítřka: `prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION#MANUAL`
+- Vzhled | Zobrazení a jas → Night Shift → Teplota barev: `prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION#COLOR_TEMPERATURE`
+- Vzhled | Zobrazení a jas → Automatické zamykání: `prefs:root=DISPLAY&path=AUTOLOCK`
+- Vzhled | Zobrazení a jas → Probudit zvednutím: `prefs:root=DISPLAY#RAISE_TO_WAKE`
+- Vzhled | Zobrazení a jas → Zamknout/Odemknout: `prefs:root=DISPLAY#SMART_CASE_LOCK_SPEC`
+- Vzhled | Zobrazení a jas → Velikost textu: `prefs:root=DISPLAY&path=TEXT_SIZE`
+- Vzhled | Zobrazení a jas → Tučný text: `prefs:root=DISPLAY#BOLD_TEXT`
+- Vzhled | Zobrazení a jas → Jas: `prefs:root=DISPLAY#BRIGHTNESS`
+- Vzhled | Zobrazení a jas → Nastavení displeje: `prefs:root=DISPLAY#DISPLAY_ZOOM_GROUP`
+- Vzhled | Zobrazení a jas → Vzhled: `prefs:root=DISPLAY&path=APPEARANCE`
+- Vzhled | Zobrazení a jas → Vzhled → Zvětšení v okně: `prefs:root=DISPLAY&path=APPEARANCE#WINDOW_ZOOM`
+- Vzhled | Zobrazení a jas → Vzhled → Obouruční zvětšení v okně: `prefs:root=DISPLAY&path=APPEARANCE#TWO_HANDED_WINDOW_ZOOM`
+- Vzhled | Zobrazení a jas → Zobrazení: `prefs:root=DISPLAY&path=MAGNIFY`
+- Vzhled | Zobrazení a jas → Trvale zapnutý displej: `prefs:root=DISPLAY&path=ALWAYS_ON`
+- Vzhled | Zobrazení a jas → Trvale zapnutý displej → Trvale zapnutý displej: `prefs:root=DISPLAY&path=ALWAYS_ON#ALWAYS_ON`
+- Vzhled | Zobrazení a jas → Kompatibilní aplikace: `prefs:root=DISPLAY&path=COMPATIBLE_APPEARANCE`
+- Vzhled | Zobrazení a jas → Kompatibilní aplikace → Tmavý, Světlý: `prefs:root=DISPLAY&path=COMPATIBLE_APPEARANCE#COMPATIBLE_APPEARANCE_CHOICES`
+- Měření: `prefs:root=MEASURE` or `settings-navigation://com.apple.Settings.Apps/com.apple.measure`
+- Měření → Měrné jednotky: `prefs:root=MEASURE#MEASURE_UNITS` or `settings-navigation://com.apple.Settings.Apps/com.apple.measure#MEASURE_UNITS#MEASURE_UNITS`
+- Měření → Imperiální: `prefs:root=MEASURE#Imperial` or `settings-navigation://com.apple.Settings.Apps/com.apple.measure#Imperial#Imperial`
+- Měření → Metrické: `prefs:root=MEASURE#Metric` or `settings-navigation://com.apple.Settings.Apps/com.apple.measure#Metric#Metric`
+- Tapeta: `prefs:root=Wallpaper`
+- Ovládací centrum: `prefs:root=ControlCenter`
+- Ovládací centrum → Přístup v aplikacích: `prefs:root=ControlCenter#ALLOWED_WITHIN_APPS`
+- Ovládací centrum → Upravit ovládací prvky: `prefs:root=ControlCenter&path=CUSTOMIZE_CONTROLS`
+- Diktafon: `prefs:root=VOICE_MEMOS`
+- Diktafon → Odstranit smazané: `prefs:root=VOICE_MEMOS&path=RCVoiceMemosRecentlyDeletedWindowKey`
+- Diktafon → Kvalita zvuku: `prefs:root=VOICE_MEMOS&path=RCVoiceMemosAudioQualityKey`
+- Diktafon → Polohově závislé názvy: `prefs:root=VOICE_MEMOS#RCVoiceMemosUseLocationBasedNaming`
+- Kalendář: `prefs:root=CALENDAR`
+- Kalendář → Přepsat časové pásmo: `prefs:root=CALENDAR&path=TimeZoneCityArray`
+- Kalendář → Alternativní kalendáře: `prefs:root=CALENDAR&path=Alternate%20Calendars`
+- Kalendář → Čísla týdnů: `prefs:root=CALENDAR#Week%20Numbers`
+- Kalendář → Zobrazit odmítnutí pozvaných: `prefs:root=CALENDAR#Show%20Invitee%20Declines`
+- Kalendář → Synchronizace: `prefs:root=CALENDAR&path=Sync`
+- Kalendář → Výchozí časy upozornění: `prefs:root=CALENDAR&path=Default%20Alert%20Times`
+- Kalendář → Začátek týdne: `prefs:root=CALENDAR&path=Start%20Week%20On`
+- Kalendář → Návrhy míst: `prefs:root=CALENDAR#Location%20Suggestions`
+- Vývojář: `prefs:root=DEVELOPER_SETTINGS`
+- Vývojář → Vícecestné zasíťování: `prefs:root=DEVELOPER_SETTINGS&path=MULTI_PATH_AGG`
+- Vývojář → Vícecestné zasíťování → Vícecestné zasíťování: `prefs:root=DEVELOPER_SETTINGS&path=MULTI_PATH_AGG#Multipath%20Networking`
+- Vývojář → Vzhled: `prefs:root=DEVELOPER_SETTINGS#UIAppearanceGroup`
+- Vývojář → Tmavý vzhled: `prefs:root=DEVELOPER_SETTINGS#UIAppearanceSettings`
+- Vývojář → Spárovaná zařízení: `prefs:root=DEVELOPER_SETTINGS#DTPairedDevicesGroup`
+- Vývojář → Smazat důvěryhodné počítače: `prefs:root=DEVELOPER_SETTINGS#CLEAR_TRUSTED_COMPUTERS`
+- Vývojář → Protokolování: `prefs:root=DEVELOPER_SETTINGS&path=DTInstrumentsSettings`
+- Vývojář → Automatizace rozhraní | Zapnout automatizaci rozhraní: `prefs:root=DEVELOPER_SETTINGS#UIAGroup`
+- Vývojář → Sítě: `prefs:root=DEVELOPER_SETTINGS#NLCGroup`
+- Vývojář → Network Link Conditioner: `prefs:root=DEVELOPER_SETTINGS&path=NLC`
+- Vývojář → Dodatečné protokolování: `prefs:root=DEVELOPER_SETTINGS#ADDITIONAL_LOGGING`
+- Vývojář → Povolit HTTP služby: `prefs:root=DEVELOPER_SETTINGS#ALLOW_HTTP_SERVICES`
+- Vývojář → Vypnout omezení rychlosti: `prefs:root=DEVELOPER_SETTINGS#DISABLE_RATE_LIMITING`
+- Vývojář → Nepovinný NFC Pass Key: `prefs:root=DEVELOPER_SETTINGS#NFC_PASS_KEY_OPTIONAL`
+- Vývojář → Testování mediálních služeb: `prefs:root=DEVELOPER_SETTINGS#MEDIA_SERVICES_TESTING`
+- Vývojář → Resetovat mediální služby: `prefs:root=DEVELOPER_SETTINGS#RESET_MEDIA_SERVICES`
+- Vývojář → Testování News: `prefs:root=DEVELOPER_SETTINGS#NEWS_TESTING`
+- Vývojář → Při příštím spuštění resetovat místní data: `prefs:root=DEVELOPER_SETTINGS#RESET_LOCAL_DATA_ON_NEXT_LAUNCH`
+- Vývojář → Testování Media Player Frameworku: `prefs:root=DEVELOPER_SETTINGS#RoutineSettingsGroup`
+- Vývojář → API přehratelného obsahu: `prefs:root=DEVELOPER_SETTINGS&path=RoutineSettings`
+- Vývojář → Poskytovatel TV: `prefs:root=DEVELOPER_SETTINGS&path=VideoSubscriberAccountSettings`
+- Vývojář → API ClassKitu: `prefs:root=DEVELOPER_SETTINGS&path=ClassKitSettings`
+- Vývojář → Testování CoreSpotlightu: `prefs:root=DEVELOPER_SETTINGS#CORESPOTLIGHT_TESTING`
+- Vývojář → Reindexovat všechny položky: `prefs:root=DEVELOPER_SETTINGS#REINDEX_ALL_ITEMS`
+- Vývojář → Reindexovat položky s identifikátory: `prefs:root=DEVELOPER_SETTINGS#REINDEX_ALL_ITEMS_WITH_IDENTIFIERS`
+- Vývojář → Testování zkratek: `prefs:root=DEVELOPER_SETTINGS#SIRI_ACTIONS_TESTING`
+- Vývojář → Zobrazit nedávno použité zkratky: `prefs:root=DEVELOPER_SETTINGS#DISPLAY_DONATIONS_SPOTLIGHT`
+- Vývojář → Zobrazit nadcházející média: `prefs:root=DEVELOPER_SETTINGS#DISPLAY_UPCOMING_MEDIA`
+- Vývojář → Zobrazit dodané zkratky na zamknuté obrazovce: `prefs:root=DEVELOPER_SETTINGS#DISPLAY_DONATIONS_LOCKSCREEN`
+- Vývojář → Vynutit synchronizaci zkratek do hodinek: `prefs:root=DEVELOPER_SETTINGS#SIRI_ACTIONS_SYNC_WATCHOS`
+- Vývojář → Testování MIDI-CI: `prefs:root=DEVELOPER_SETTINGS#MIDI_CI_API_BETA`
+- Vývojář → Zapnout MIDI-CI: `prefs:root=DEVELOPER_SETTINGS#MIDI_CI_API_BETA_ENABLE`
+- Vývojář → Detekce zamrznutí: `prefs:root=DEVELOPER_SETTINGS#HANGTRACER_EXTERNAL_CONFIGURE`
+- Face ID a kód | Kódový zámek | Touch ID a kód: `prefs:root=PASSCODE`
+- Face ID a kód | Kódový zámek | Touch ID a kód → Vypnout kódový zámek: `prefs:root=PASSCODE#PASSCODE_OFF`
+- Face ID a kód | Kódový zámek | Touch ID a kód → Změnit kód zámku: `prefs:root=PASSCODE#CHANGE_PASSCODE`
+- Face ID a kód | Kódový zámek | Touch ID a kód → Požadovat kód: `prefs:root=PASSCODE&path=PASSCODE_REQ`
+- Face ID a kód | Kódový zámek | Touch ID a kód → Hlasové vytáčení: `prefs:root=PASSCODE#VOICE_DIAL`
+- Face ID a kód | Kódový zámek | Touch ID a kód → Povolit přístup při uzamčení: `prefs:root=PASSCODE#ALLOW_ACCESS_WHEN_LOCKED`
+- Face ID a kód | Kódový zámek | Touch ID a kód → Odpovědět zprávou: `prefs:root=PASSCODE#REPLY_WITH_MESSAGE_SWITCH`
+- Face ID a kód | Kódový zámek | Touch ID a kód → Ovládání domova: `prefs:root=PASSCODE#HOME_CONTROL_SWITCH`
+- Face ID a kód | Kódový zámek | Touch ID a kód → Peněženka: `prefs:root=PASSCODE#WALLET_SWITCH`
+- Face ID a kód | Kódový zámek | Touch ID a kód → Zmeškané hovory: `prefs:root=PASSCODE#RETURN_MISSED_CALLS_SWITCH`
+- Face ID a kód | Kódový zámek | Touch ID a kód → Smazat data: `prefs:root=PASSCODE#WIPE_DEVICE`
+- Face ID a kód | Kódový zámek | Touch ID a kód → Odemykání pomocí Apple Watch: `prefs:root=PASSCODE#AUTO_UNLOCK_DEVICES_GROUP`
+- Face ID a kód | Kódový zámek | Touch ID a kód → Ochrana odcizených zařízení: `prefs:root=PASSCODE#DTO_GROUP_ID`
+- Telefon: `prefs:root=Phone`
+- Telefon → Moje číslo: `prefs:root=Phone&path=My%20Number`
+- Telefon → Příchozí hovory: `prefs:root=Phone&path=INCOMING_CALL_STYLE`
+- Telefon → Oznámení hovorů: `prefs:root=Phone&path=ANNOUNCE_CALLS`
+- Telefon → Oznamování SMS/hovorů: `prefs:root=Phone&path=CLASSIFICATION_AND_REPORTING`
+- Telefon → Odpovědět zprávou: `prefs:root=Phone&path=Respond%20with%20Text`
+- Telefon → Přesměrování hovoru: `prefs:root=Phone&path=Call%20Forwarding`
+- Telefon → Přesměrování hovoru → Přesměrování hovoru: `prefs:root=Phone&path=Call%20Forwarding#idMasterOnOffSwitch`
+- Telefon → Čekání hovoru: `prefs:root=Phone&path=Call%20Waiting`
+- Telefon → Zobrazit moje ID volanému: `prefs:root=Phone&path=Show%20My%20Caller%20ID`
+- Telefon → Zobrazit moje ID volanému → Zobrazit moje ID volanému: `prefs:root=Phone&path=Show%20My%20Caller%20ID/Primary`
+- Telefon → Zobrazit moje ID volanému → Zobrazit moje ID volanému → Zobrazit moje ID volanému: `prefs:root=Phone&path=Show%20My%20Caller%20ID/Primary#Show%20My%20Caller%20ID`
+- Telefon → Umlčet neznámé volající: `prefs:root=Phone#SILENCE_CALLS`
+- Telefon → Zablokované kontakty: `prefs:root=Phone&path=SPECIFIER_IDENTIFIER_BLACKLIST`
+- Telefon → Asistované vytáčení: `prefs:root=Phone&path=Dial%20Assist`
+- Poznámky: `prefs:root=NOTES` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes`
+- Poznámky → Výchozí účet: `prefs:root=NOTES&path=Default%20Account` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes/Default%20Account`
+- Poznámky → Heslo: `prefs:root=NOTES&path=Password` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes/Password`
+- Poznámky → Řazení poznámek: `prefs:root=NOTES&path=Sort%20Notes%20By` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes/Sort%20Notes%20By`
+- Poznámky → Nové poznámky začínají: `prefs:root=NOTES&path=New%20Notes%20Start%20With` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes/New%20Notes%20Start%20With`
+- Poznámky → Řadit odškrtnuté položky: `prefs:root=NOTES&path=Sort%20Checked%20Items` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes/Sort%20Checked%20Items`
+- Poznámky → Linky a mřížky: `prefs:root=NOTES&path=Lines%20%26%20Grids` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes/Lines%20%26%20Grids`
+- Poznámky → Uložit do Fotek: `prefs:root=NOTES#Save%20to%20Photos` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes#Save%20to%20Photos#Save%20to%20Photos`
+- Poznámky → Přístup ze zamknuté obrazovky: `prefs:root=NOTES&path=Access%20Notes%20from%20Lock%20Screen` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes/Access%20Notes%20from%20Lock%20Screen`
+- Knihy: `prefs:root=IBOOKS`
+- Knihy → Online obsah: `prefs:root=IBOOKS#BKAllowOnlineContent`
+- Knihy → SYNCHRONIZACE: `prefs:root=IBOOKS#SYNCING`
+- Knihy → Rozečtené: `prefs:root=IBOOKS#BKLibrary.ReadingNow`
+- Knihy → iCloud Drive: `prefs:root=IBOOKS#BCSyncICloudDrive`
+- Knihy → ČETBA: `prefs:root=IBOOKS#READING`
+- Knihy → Oboustranné zarovnání: `prefs:root=IBOOKS#BKFullJustification`
+- Knihy → Automatické dělení slov: `prefs:root=IBOOKS#BKAutoHyphenation`
+- Knihy → Listovat na obou okrajích: `prefs:root=IBOOKS#BKLeftTapTurnToNext`
+- Knihy → Čtenářské cíle: `prefs:root=IBOOKS#READING_GOALS`
+- Knihy → Smazat data čtenářských cílů: `prefs:root=IBOOKS#BKReadingGoalsShouldClearDataKey`
+- Knihy → HLEDÁNÍ: `prefs:root=IBOOKS#SEARCHING`
+- Knihy → Knihkupectví: `prefs:root=IBOOKS#BKIncludeBookStoreResultsInSearch`
+- Knihy → AUDIOKNIHY: `prefs:root=IBOOKS#AUDIOBOOKS`
+- Knihy → Přeskočit vpřed: `prefs:root=IBOOKS&path=BKAudioBookSkipForward`
+- Knihy → Přeskočit zpět: `prefs:root=IBOOKS&path=BKAudioBookSkipBackward`
+- Knihy → EXTERNÍ OVLÁDACÍ PRVKY: `prefs:root=IBOOKS#BKRemoteSkipInsteadOfNextTrackDefaultKey`
+- Knihy → Další/předchozí: `prefs:root=IBOOKS#Next/Previous`
+- Knihy → Přeskočit vpřed/zpět: `prefs:root=IBOOKS#Skip%20Forward/Back`
+- Knihy → SOUKROMÍ: `prefs:root=IBOOKS#PRIVACY`
+- Knihy → Resetovat identifikátor: `prefs:root=IBOOKS#BAResetAnalyticsUserID`
+- Knihy → Uznání: `prefs:root=IBOOKS&path=Acknowledgements`
+- Game Center: `prefs:root=GAMECENTER`
+- Tíseň SOS: `prefs:root=EMERGENCY_SOS`
+- Tíseň SOS → Volání postranním tlačítkem: `prefs:root=EMERGENCY_SOS#CALL_WITH_SIDE_BUTTON`
+- Tíseň SOS → Automaticky zavolat: `prefs:root=EMERGENCY_SOS#AUTO_CALL`
+- Tíseň SOS → Nouzové kontakty: `prefs:root=EMERGENCY_SOS#EMERGENCY_CONTACTS`
+- Tíseň SOS → Zvuk odpočtu: `prefs:root=EMERGENCY_SOS#ALARM_SOUND_SWITCH`
+- Připomínky: `prefs:root=REMINDERS`
+- Připomínky → Výchozí seznam: `prefs:root=REMINDERS&path=DEFAULT_LIST`
+- Připomínky → Výchozí seznam → Připomínky: `prefs:root=REMINDERS&path=DEFAULT_LIST#preferredDefaultListID`
+- Připomínky → Dnešní oznámení: `prefs:root=REMINDERS#todayNotificationFireTime`
+- Připomínky → Zobrazit jako po termínu: `prefs:root=REMINDERS#showRemindersAsOverdue`
+- Mobilní data: `prefs:root=MOBILE_DATA_SETTINGS_ID`
+- Mobilní data → Volby dat: `prefs:root=MOBILE_DATA_SETTINGS_ID&path=CELLULAR_DATA_OPTIONS`
+- Mobilní data → Volby dat → Režim malého objemu dat: `prefs:root=MOBILE_DATA_SETTINGS_ID&path=CELLULAR_DATA_OPTIONS#Low%20Data%20Mode`
+- Mobilní data → Mobilní data: `prefs:root=MOBILE_DATA_SETTINGS_ID&path=SHOW_ALL`
+- WLAN | Wi‑Fi: `prefs:root=WIFI`
+- Kontakty: `prefs:root=CONTACTS`
+- Kontakty → Povolit Kontaktům přístup: `prefs:root=CONTACTS#Allow%20Contacts%20To%20Access`
+- Kontakty → Siri: `prefs:root=CONTACTS&path=SIRI_AND_SEARCH`
+- Kontakty → Řazení: `prefs:root=CONTACTS&path=ContactsSortOrder`
+- Kontakty → Zobrazení: `prefs:root=CONTACTS&path=PersonNameOrder`
+- Kontakty → Krátké jméno: `prefs:root=CONTACTS&path=PersonShortName`
+- Kontakty → Krátké jméno → Krátké jméno: `prefs:root=CONTACTS&path=PersonShortName#Short%20Name`
+- Kontakty → Krátké jméno → Preferovat přezdívky: `prefs:root=CONTACTS&path=PersonShortName#Prefer%20Nicknames`
+- Kontakty → Moje info: `prefs:root=CONTACTS&path=MeCard`
+- Kontakty → Importovat kontakty ze SIM: `prefs:root=CONTACTS#SIMImport`
+- Zkratky: `prefs:root=SHORTCUTS`
+- Zkratky → Synchronizace přes iCloud: `prefs:root=SHORTCUTS#WFCloudKitSyncEnabled`
+- Zkratky → Synchronizovat pořadí: `prefs:root=SHORTCUTS#WFCloudKitSyncOrderEnabled`
+- Zkratky → Právní upozornění: `prefs:root=SHORTCUTS&path=Legal%20Notices`
+- TV | Videa: `prefs:root=TVAPP`
+- TV | Videa → Přehrávat přes mobilní data: `prefs:root=TVAPP#com.apple.videos%3AVideosUseCellularDataEnabledSetting`
+- TV | Videa → Kvalita přehrávání: `prefs:root=TVAPP#com.apple.videos%3APlaybackQualityGroup`
+- TV | Videa → Nákupy a výpůjčky: `prefs:root=TVAPP&path=com.apple.videos%3APreferredPurchaseResolution`
+- TV | Videa → Domácí sdílení: `prefs:root=TVAPP#com.apple.videos%3AHomeSharingFooter`
+- Hudba: `prefs:root=MUSIC`
+- Hudba → Zobrazit Apple Music: `prefs:root=MUSIC#com.apple.Music%3AAppleMusicEnabled`
+- Hudba → Přidávat skladby z playlistů: `prefs:root=MUSIC#com.apple.Music%3AAddPlaylistSongsToMyMusicSwitch`
+- Hudba → Zobrazit hodnocení: `prefs:root=MUSIC#com.apple.Music%3AShowStarRatings`
+- Hudba → Synchronizovat knihovnu: `prefs:root=MUSIC#com.apple.Music%3ACloudMusicLibraryEnabled`
+- Hudba → Mobilní data: `prefs:root=MUSIC&path=com.apple.Music%3ACellularData`
+- Hudba → Stažená hudba: `prefs:root=MUSIC&path=com.apple.Music%3AMusicUsageLink`
+- Hudba → Optimalizovat úložiště: `prefs:root=MUSIC&path=com.apple.Music%3AOptimizeStorage`
+- Hudba → Automatická stahování: `prefs:root=MUSIC#com.apple.Music%3AMusicAutomaticDownload`
+- Hudba → EQ: `prefs:root=MUSIC&path=com.apple.Music%3AEQ`
+- Hudba → Vyrovnat hlasitost: `prefs:root=MUSIC#com.apple.Music%3ASoundCheck`
+- Hudba → Použít historii přehrávání: `prefs:root=MUSIC#com.apple.Music%3APrivateListening`
+- Fotoaparát: `prefs:root=CAMERA`
+- Fotoaparát → Formáty: `prefs:root=CAMERA&path=CameraFormatsSettingsList`
+- Fotoaparát → Formáty → Apple ProRaw: `prefs:root=CAMERA&path=CameraFormatsSettingsList#CAMUserPreferenceEnableLinearDNGControl`
+- Fotoaparát → Record Video: `prefs:root=CAMERA&path=Record%20Video`
+- Fotoaparát → Record Video → HDR video: `prefs:root=CAMERA&path=Record%20Video#HDR%20Video`
+- Fotoaparát → Zachovat nastavení: `prefs:root=CAMERA&path=CameraPreserveSettingsSwitch`
+- Fotoaparát → Zachovat nastavení → Režim fotoaparátu: `prefs:root=CAMERA&path=CameraPreserveSettingsSwitch#CAMUserPreferencePreserveCaptureMode`
+- Fotoaparát → Mřížka: `prefs:root=CAMERA#CameraGridSwitch`
+- Fotoaparát → Skenovat QR kódy: `prefs:root=CAMERA#CameraQRBannerSwitch`
+- Kompas: `prefs:root=COMPASS`
+- Kompas → Použít geografický sever: `prefs:root=COMPASS#USE_TRUE_NORTH`
+- Kontakty s nákazou: `prefs:root=EXPOSURE_NOTIFICATION`
+- Pošta: `prefs:root=MAIL`
+- Pošta → Účty: `prefs:root=MAIL&path=ACCOUNTS`
+- Pošta → Účty → Přidat účet: `prefs:root=MAIL&path=ACCOUNTS#ADD_ACCOUNT`
+- Pošta → Účty → Vyzvedávání dat: `prefs:root=MAIL&path=ACCOUNTS#FETCH_NEW_DATA`
+- Pošta → Náhled: `prefs:root=MAIL&path=Preview`
+- Pošta → Zobrazit Pro mě/Kopie: `prefs:root=MAIL#Show%20To/Cc%20Labels`
+- Pošta → Volby přejetí: `prefs:root=MAIL&path=Swipe%20Options`
+- Pošta → Zeptat se před smazáním: `prefs:root=MAIL#Ask%20Before%20Deleting`
+- Pošta → Načíst vzdálené obrázky: `prefs:root=MAIL#Load%20Remote%20Images`
+- Pošta → Uspořádat do vláken: `prefs:root=MAIL#Organize%20by%20Thread`
+- Pošta → Sbalit přečtené zprávy: `prefs:root=MAIL#Collapse%20Read%20Messages`
+- Pošta → Nejnovější zprávy nahoře: `prefs:root=MAIL#Most%20Recent%20Message%20on%20Top`
+- Pošta → Úplná vlákna: `prefs:root=MAIL#Complete%20Threads`
+- Pošta → Vlákna s vypnutými upozorněními: `prefs:root=MAIL&path=Muted%20Thread%20Action`
+- Pošta → Ignorovat zablokované: `prefs:root=MAIL#Ignore%20Blocked%20Senders`
+- Pošta → Blokované: `prefs:root=MAIL&path=Blocked%20Sender%20Options`
+- Pošta → Zablokováno: `prefs:root=MAIL&path=Blocked`
+- Pošta → Skrytá kopie sobě: `prefs:root=MAIL#Always%20Bcc%20Myself`
+- Pošta → Označit adresy: `prefs:root=MAIL&path=Mark%20Addresses`
+- Pošta → Zvýšit úroveň citace: `prefs:root=MAIL&path=Increase%20Quote%20Level`
+- Pošta → Přílohy v odpovědích: `prefs:root=MAIL&path=Include%20Attachments%20with%20Replies`
+- Pošta → Podpis: `prefs:root=MAIL&path=Signature`
+- Bluetooth: `prefs:root=Bluetooth`
+- News: `prefs:root=NEWS`
+- News → Zobrazit náhledy článků: `prefs:root=NEWS#show_excerpt_mode`
+- News → Omezit články v zobrazení Dnes: `prefs:root=NEWS#showStoriesFromFavoritesSpecifierID`
+- News → Soukromí: `prefs:root=NEWS#Privacy`
+- News → Resetovat identifikátor: `prefs:root=NEWS#reset_identifier`
+- News → Uznání: `prefs:root=NEWS&path=Acknowledgements`
+- Fotky: `prefs:root=Photos`
+- Fotky → Fotky na iCloudu: `prefs:root=Photos#iCloudPhotosSwitch`
+- Fotky → Optimalizovat úložiště: `prefs:root=Photos#iCloudOptimizeStorageOption`
+- Fotky → Stáhnout a ponechat původní: `prefs:root=Photos#iCloudKeepOriginalsOption`
+- Fotky → Sdílená alba: `prefs:root=Photos#SharedStreamsSwitch`
+- Fotky → Mobilní data: `prefs:root=Photos&path=CellularDataLinkList`
+- Fotky → Automatické přehrávání videí: `prefs:root=Photos#VideoAutoplaySwitch`
+- Fotky → Zobrazit úplné HDR: `prefs:root=Photos#ImageModulationSwitch`
+- Fotky → Zobrazit svátky: `prefs:root=Photos#MEMORIES_HOLIDAY_CALENDAR_EVENTS_SWITCH`
+- Fotky → Přenos na Mac nebo PC: `prefs:root=Photos#TransferGroup`
+- Podcasty: `prefs:root=PODCASTS`
+- Soukromí a zabezpečení: `prefs:root=Privacy` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity`
+- Soukromí a zabezpečení → Zdraví: `prefs:root=Privacy&path=HEALTH` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/HEALTH`
+- Soukromí a zabezpečení → Zdravotní data: `prefs:root=Privacy&path=HEALTH_DATA` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/HEALTH_DATA`
+- Soukromí a zabezpečení → Poloha: `prefs:root=Privacy&path=LOCATION` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/LOCATION`
+- Soukromí a zabezpečení → Poloha → Sdílet moji polohu: `prefs:root=Privacy&path=LOCATION/LOCATION_SHARING` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/LOCATION/LOCATION_SHARING`
+- Soukromí a zabezpečení → Kontakty: `prefs:root=Privacy&path=CONTACTS` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/CONTACTS`
+- Soukromí a zabezpečení → Kalendáře: `prefs:root=Privacy&path=CALENDARS` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/CALENDARS`
+- Soukromí a zabezpečení → Připomínky: `prefs:root=Privacy&path=REMINDERS` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/REMINDERS`
+- Soukromí a zabezpečení → Fotky: `prefs:root=Privacy&path=PHOTOS` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/PHOTOS`
+- Soukromí a zabezpečení → Bluetooth sdílení: `prefs:root=Privacy&path=BT_PERIPHERAL` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/BT_PERIPHERAL`
+- Soukromí a zabezpečení → Mikrofon: `prefs:root=Privacy&path=MICROPHONE` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/MICROPHONE`
+- Soukromí a zabezpečení → Rozpoznávání řeči: `prefs:root=Privacy&path=SPEECH_RECOGNITION` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/SPEECH_RECOGNITION`
+- Soukromí a zabezpečení → Fotoaparát: `prefs:root=Privacy&path=CAMERA` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/CAMERA`
+- Soukromí a zabezpečení → HomeKit: `prefs:root=Privacy&path=WILLOW` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/WILLOW`
+- Soukromí a zabezpečení → Média a Apple Music: `prefs:root=Privacy&path=MEDIALIBRARY` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/MEDIALIBRARY`
+- Soukromí a zabezpečení → Analýza: `prefs:root=Privacy&path=PROBLEM_REPORTING` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/PROBLEM_REPORTING`
+- Soukromí a zabezpečení → Reklamy: `prefs:root=Privacy&path=ADVERTISING` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/ADVERTISING`
+- Soukromí a zabezpečení → Soubory a složky: `prefs:root=Privacy&path=FILEACCESS` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/FILEACCESS`
+- Soukromí a zabezpečení → Sledování: `prefs:root=Privacy&path=USER_TRACKING` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/USER_TRACKING`
+- Soukromí a zabezpečení → Zpráva o soukromí v aplikacích: `prefs:root=Privacy&path=PRIVACY_REPORT` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/PRIVACY_REPORT`
+- Soukromí a zabezpečení → Režim blokování: `prefs:root=Privacy#LOCKDOWN_MODE` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity#LOCKDOWN_MODE#LOCKDOWN_MODE`
+- Soukromí a zabezpečení → Důvěrný obsah: `prefs:root=Privacy#NUDITY_DETECTION` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity#NUDITY_DETECTION#NUDITY_DETECTION`
+- FaceTime: `prefs:root=FACETIME`
+- Čas u obrazovky: `prefs:root=SCREEN_TIME`
+- Zvuk | Zvuky a haptika: `prefs:root=Sounds`
+- Zvuk | Zvuky a haptika → Bezpečnost sluchátek: `prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING`
+- Zvuk | Zvuky a haptika → Bezpečnost sluchátek → Lightning adaptéry: `prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING/HEADPHONE_LIGHTNING_ADAPTERS`
+- Zvuk | Zvuky a haptika → Bezpečnost sluchátek → Oznámení o sluchátkách: `prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING#SHSHeadphoneWeeklyNotificationsKey`
+- Zvuk | Zvuky a haptika → Bezpečnost sluchátek → Tlumit hlasité zvuky: `prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING#SHSHeadphoneLevelLimitSwitchKey`
+- Zvuk | Zvuky a haptika → Zvukové efekty: `prefs:root=Sounds&path=SOUND_EFFECTS`
+- Zvuk | Zvuky a haptika → Zvonění a výstrahy: `prefs:root=Sounds#RINGER_AND_ALERT_GROUP`
+- Zvuk | Zvuky a haptika → Měnit tlačítky: `prefs:root=Sounds#CHANGE_WITH_BUTTONS`
+- Zvuk | Zvuky a haptika → Zvuky a vibrace: `prefs:root=Sounds#SOUNDS_ALERT_GROUP`
+- Zvuk | Zvuky a haptika → Vyzvánění: `prefs:root=Sounds&path=Ringtone`
+- Zvuk | Zvuky a haptika → Zvuk SMS: `prefs:root=Sounds&path=Text_Messages`
+- Zvuk | Zvuky a haptika → Záznamník: `prefs:root=Sounds&path=Voicemail`
+- Zvuk | Zvuky a haptika → Nová pošta: `prefs:root=Sounds&path=NEW_MAIL`
+- Zvuk | Zvuky a haptika → Odeslaná pošta: `prefs:root=Sounds&path=SENT_MAIL`
+- Zvuk | Zvuky a haptika → Zvuk kalendáře: `prefs:root=Sounds&path=Calendar%20Alarm`
+- Zvuk | Zvuky a haptika → Zvuk připomínek: `prefs:root=Sounds&path=Reminder%20Alerts`
+- Zvuk | Zvuky a haptika → Klapání klávesnice: `prefs:root=Sounds#KEYBOARD_SOUND_SWITCH`
+- Zvuk | Zvuky a haptika → Zvuk zámku: `prefs:root=Sounds#LOCK_SOUND_SWITCH`
+- Zvuk | Zvuky a haptika → Přizpůsobení prostorového zvuku: `prefs:root=Sounds&path=Personalized%20Spatial%20Audio`
+- Apple Pencil: `prefs:root=Pencil`
+- Apple Pencil → Apple Pencil: `prefs:root=Pencil#PrefersPencilDraws`
+- Apple Pencil → Apple Pencil: `prefs:root=Pencil#PencilTextInput`
+- Zprávy: `prefs:root=MESSAGES`
+- Akcie: `prefs:root=STOCKS`
+- Akcie → Soukromí: `prefs:root=STOCKS#Privacy`
+- Akcie → Resetovat identifikátor: `prefs:root=STOCKS#reset_identifier`
+- Přeložit: `prefs:root=TRANSLATE`
+- Přeložit → Samostatný režim: `prefs:root=TRANSLATE#OnDeviceOnly`
+- Siri: `prefs:root=SIRI`
+- Siri → Povolit Siri při uzamčení: `prefs:root=SIRI#ASSISTANT_LOCK_SCREEN_ACCESS`
+- Siri → Jazyk: `prefs:root=SIRI&path=LANGUAGE_ID`
+- Siri → Hlas Siri: `prefs:root=SIRI&path=VOICE_ID`
+- Siri → Hlasová odezva: `prefs:root=SIRI&path=VOICE_FEEDBACK_ID`
+- Siri → Moje údaje: `prefs:root=SIRI&path=MY_INFO`
+- Zdravotní data | Zdraví: `prefs:root=HEALTH`
+- App Store: `prefs:root=STORE`
+- App Store → Automatická stahování: `prefs:root=STORE#Automatic%20Downloads`
+- App Store → Aktualizace aplikací: `prefs:root=STORE#App%20Updates`
+- App Store → Stahování aplikací: `prefs:root=STORE&path=App%20Downloads`
+- App Store → Automatická videa: `prefs:root=STORE&path=Video%20Autoplay`
+- App Store → Hodnocení a recenze: `prefs:root=STORE#In-App%20Ratings%20&%20Reviews`
+- Letový režim: `prefs:root=ROOT#AIRPLANE_MODE`

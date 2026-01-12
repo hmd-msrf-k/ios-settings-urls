@@ -1,0 +1,14 @@
+- Soukromí a zabezpečení: `settings-navigation://com.apple.Settings.PrivacyAndSecurity`
+- Soukromí a zabezpečení → Bezpečnostní kontrola: `settings-navigation://com.apple.Settings.PrivacyAndSecurity/SAFETY_CHECK`
+- Apps: `settings-navigation://com.apple.Settings.Apps`
+- Apps → Safari: `settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari/` or `prefs:root=SAFARI`
+- Apps → Safari → Rozšíření: `settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari/WEB_EXTENSIONS` or `prefs:root=SAFARI&path=WEB_EXTENSIONS`
+- Apps → Safari → Blokovat pop‑upy: `settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari#BLOCK_POPUPS`
+- Apps → Safari → Nesledovat napříč stránkami: `settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari#TRACKER_PROTECTION`
+- Apps → Safari → Vyplňování: `settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari/AUTO_FILL` or `prefs:root=SAFARI&path=AUTO_FILL`
+- Apps → Safari → Stahování: `settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari/DOWNLOADS` or `prefs:root=SAFARI&path=DOWNLOADS`
+- Apps → Hesla: `settings-navigation://com.apple.Settings.Apps/com.apple.Passwords`
+- Apps → Hesla → Doporučení pro zabezpečení: `settings-navigation://com.apple.Settings.Apps/com.apple.Passwords#SECURITY_RECOMMENDATIONS`
+- Domácnost: `settings-navigation://com.apple.Settings.HomeKit`
+- Search: `settings-navigation://com.apple.Settings.Search`
+- Poskytovatel TV: `settings-navigation://com.apple.Settings.TVProvider`

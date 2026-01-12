@@ -1,0 +1,414 @@
+- Akkumulátor: `prefs:root=BATTERY_USAGE`
+- Akkumulátor → Alacsony töltöttségű mód: `prefs:root=BATTERY_USAGE#BATTERY_SAVER_MODE`
+- Akkumulátor → Akku állapota: `prefs:root=BATTERY_USAGE#BATTERY_HEALTH_ID`
+- Általános: `prefs:root=General`
+- Általános → VPN- és eszközfelügyelet: `prefs:root=General&path=ManagedConfigurationList`
+- Általános → Automatikus kitöltés és jelszavak: `prefs:root=General&path=AUTOFILL`
+- Általános → Automatikus kitöltés és jelszavak → Automatikus jelszókitöltés: `prefs:root=General&path=AUTOFILL#AUTOFILL`
+- Általános → Automatikus kitöltés és jelszavak → Ellenőrzőkódok törlése: `prefs:root=General&path=AUTOFILL#CLEAN_UP_VERIFICATION_CODES`
+- Általános → Automatikus kitöltés és jelszavak → Ellenőrzőkódok beállítása: `prefs:root=General&path=AUTOFILL#SET_UP_VERIFICATION_CODES`
+- Általános → AppleCare és jótállás: `prefs:root=General&path=COVERAGE/`
+- Általános → Szótár: `prefs:root=General&path=DICTIONARY`
+- Általános → Billentyűzet: `prefs:root=General&path=Keyboard`
+- Általános → Billentyűzet → Billentyűzetek: `prefs:root=General&path=Keyboard/KEYBOARDS`
+- Általános → Billentyűzet → Szöveg cseréje: `prefs:root=General&path=Keyboard/USER_DICTIONARY`
+- Általános → Billentyűzet → Automatikus nagybetűk: `prefs:root=General&path=Keyboard#KeyboardAutocapitalization`
+- Általános → Billentyűzet → Automatikus javítás: `prefs:root=General&path=Keyboard#KeyboardAutocorrection`
+- Általános → Billentyűzet → Helyesírás-ellenőrzés: `prefs:root=General&path=Keyboard#KeyboardCheckSpelling`
+- Általános → Billentyűzet → Caps Lock: `prefs:root=General&path=Keyboard#KeyboardCapsLock`
+- Általános → Billentyűzet → Parancsok: `prefs:root=General&path=Keyboard#KeyboardAssistant`
+- Általános → Billentyűzet → Prediktív: `prefs:root=General&path=Keyboard#KeyboardPrediction`
+- Általános → Billentyűzet → Intelligens írásjelek: `prefs:root=General&path=Keyboard#SmartTyping`
+- Általános → Billentyűzet → Osztott billentyűzet: `prefs:root=General&path=Keyboard#RivenKeyboard`
+- Általános → Billentyűzet → Billentyűpöccintések engedélyezése: `prefs:root=General&path=Keyboard#GesturesEnabled`
+- Általános → Billentyűzet → Karakter-előnézet: `prefs:root=General&path=Keyboard#KeyboardAllowPaddle`
+- Általános → Billentyűzet → „.” parancs: `prefs:root=General&path=Keyboard#KeyboardPeriodShortcut`
+- Általános → Billentyűzet → Csúsztatva gépelés: `prefs:root=General&path=Keyboard#KeyboardContinuousPathEnabled`
+- Általános → Billentyűzet → Diktálás engedélyezése: `prefs:root=General&path=Keyboard#Dictation`
+- Általános → Billentyűzet → Automatikus írásjelek: `prefs:root=General&path=Keyboard#AutoPunctuationSetting`
+- Általános → Szoftverfrissítés: `prefs:root=General&path=SOFTWARE_UPDATE_LINK`
+- Általános → Szoftverfrissítés → Automatikus frissítések: `prefs:root=General&path=SOFTWARE_UPDATE_LINK/SUAutomaticUpdateButton`
+- Általános → Tárhely: `prefs:root=General&path=STORAGE_MGMT`
+- Általános → Tárhely → Tárhely: `prefs:root=General&path=STORAGE_MGMT#MANAGE`
+- Általános → Tárhely → Nem használt appok eltávolítása: `prefs:root=General&path=STORAGE_MGMT#OFFLOAD`
+- Általános → Kép a képben: `prefs:root=General&path=PiP_SPEC`
+- Általános → Trackpad | Trackpad és egér: `prefs:root=General&path=POINTERS`
+- Általános → NFC: `prefs:root=General&path=NFC_LINK`
+- Általános → VPN: `prefs:root=General&path=VPN`
+- Általános → CarPlay: `prefs:root=General&path=CARPLAY`
+- Általános → Névjegy: `prefs:root=General&path=About`
+- Általános → Névjegy → Megbízható tanúsítványok: `prefs:root=General&path=About/CERT_TRUST_SETTINGS`
+- Általános → Névjegy → Sorozatszám: `prefs:root=General&path=About#SerialNumber`
+- Általános → Névjegy → Modellszám: `prefs:root=General&path=About#ProductModel`
+- Általános → Névjegy → Modellnév: `prefs:root=General&path=About#ProductModelName`
+- Általános → Névjegy → iOS-verzió: `prefs:root=General&path=About/SW_VERSION_SPECIFIER`
+- Általános → Jogi információk és szabályozás: `prefs:root=General&path=LEGAL_AND_REGULATORY`
+- Általános → Jogi információk és szabályozás → Garancia: `prefs:root=General&path=LEGAL_AND_REGULATORY#Warranty`
+- Általános → AirDrop: `prefs:root=General&path=AIRDROP_LINK`
+- Általános → AirDrop → Eszközök összeérintése: `prefs:root=General&path=AIRDROP_LINK#AIRDROP_NFC_ID`
+- Általános → Főgomb: `prefs:root=General&path=HOME_BUTTON`
+- Általános → Oldalsó kapcsoló: `prefs:root=General#Rotation_Switch_Action_Group`
+- Általános → Appfrissítés a háttérben: `prefs:root=General&path=AUTO_CONTENT_DOWNLOAD`
+- Általános → Dátum és idő: `prefs:root=General&path=DATE_AND_TIME`
+- Általános → Tv-kimenet: `prefs:root=General&path=TV_OUT`
+- Általános → Alaphelyzetbe állítás: `prefs:root=General&path=Reset`
+- Általános → Alaphelyzetbe állítás → Beállítások alaphelyzetbe állítása: `prefs:root=General&path=Reset#settingsErase`
+- Általános → Alaphelyzetbe állítás → Összes tartalom és beállítás törlése: `prefs:root=General&path=Reset#fullErase`
+- Általános → Alaphelyzetbe állítás → Hálózati beállítások alaphelyzetbe állítása: `prefs:root=General&path=Reset#RESET_NETWORK_LABEL`
+- Általános → Alaphelyzetbe állítás → Az összes mobiladat-előfizetés eltávolítása: `prefs:root=General&path=Reset#cellularErase`
+- Általános → Alaphelyzetbe állítás → Előfizetői szolgáltatások: `prefs:root=General&path=Reset#SUBSCRIBER_SERVICES_ID`
+- Általános → Alaphelyzetbe állítás → Billentyűzet szótárának alaphelyzetbe állítása: `prefs:root=General&path=Reset#RESET_KEYBOARD_DICTIONARY_LABEL`
+- Általános → Alaphelyzetbe állítás → Főképernyő alaphelyzetbe állítása: `prefs:root=General&path=Reset#RESET_ICONS_LABEL`
+- Általános → Alaphelyzetbe állítás → Helyzet- és adatvédelmi adatok alaphelyzetbe állítása: `prefs:root=General&path=Reset#RESET_PRIVACY_LABEL`
+- Általános → Kikapcsolás: `prefs:root=General#SHUTDOWN_LABEL`
+- Általános → AirPlay és Folytonosság: `prefs:root=General&path=CONTINUITY_SPEC`
+- Általános → AirPlay és Folytonosság → Handoff: `prefs:root=General&path=CONTINUITY_SPEC#CONTINUITY`
+- Általános → AirPlay és Folytonosság → Átirányítás a HomePodra: `prefs:root=General&path=CONTINUITY_SPEC#TRANSFER_TO_HOMEPOD`
+- Általános → AirPlay és Folytonosság → Automatikus AirPlay: `prefs:root=General&path=CONTINUITY_SPEC#AUTOMATICALLY_AIRPLAY`
+- Általános → AirPlay és Folytonosság → Folytonossági kamera: `prefs:root=General&path=CONTINUITY_SPEC#WOMBAT_CAMERA`
+- Általános → Nyelv és régió: `prefs:root=General&path=INTERNATIONAL`
+- Általános → Nyelv és régió → Egyéb nyelvek…: `prefs:root=General&path=INTERNATIONAL#NEW_PREFERRED_LANGUAGE`
+- Általános → Nyelv és régió → Előnyben részesített nyelvek sorrendje: `prefs:root=General&path=INTERNATIONAL#PREFERRED_LANGUAGE_GROUP`
+- Általános → Nyelv és régió → Nyelv hozzáadása…: `prefs:root=General&path=INTERNATIONAL#ADD_PREFERRED_LANGUAGE`
+- Általános → Nyelv és régió → Régió: `prefs:root=General&path=INTERNATIONAL/LOCALE`
+- Általános → Nyelv és régió → Számok: `prefs:root=General&path=INTERNATIONAL/NUMBERING_SYSTEM`
+- Általános → Nyelv és régió → Naptár: `prefs:root=General&path=INTERNATIONAL/CALENDAR`
+- Általános → Nyelv és régió → Hőmérsékleti egység: `prefs:root=General&path=INTERNATIONAL/TEMPERATURE_UNIT`
+- Apple-fiók: `prefs:root=APPLE_ACCOUNT` or `settings-navigation://com.apple.Settings.AppleAccount`
+- Apple-fiók → Kontakt-kulcsellenőrzés: `prefs:root=APPLE_ACCOUNT&path=TRANSPARENCY` or `settings-navigation://com.apple.Settings.AppleAccount/TRANSPARENCY`
+- Apple-fiók → iCloud: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE` or `prefs:root=CASTLE`
+- Apple-fiók → iCloud → iCloud-tárhely: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/STORAGE_AND_BACKUP` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/STORAGE_AND_BACKUP` or `prefs:root=CASTLE&path=STORAGE_AND_BACKUP`
+- Apple-fiók → iCloud → iCloud Drive: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Ubiquity` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Ubiquity` or `prefs:root=CASTLE&path=com.apple.Dataclass.Ubiquity`
+- Apple-fiók → iCloud → Fotók: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.MediaStream` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.MediaStream` or `prefs:root=CASTLE&path=com.apple.Dataclass.MediaStream`
+- Apple-fiók → iCloud → Mail: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Mail` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail` or `prefs:root=CASTLE&path=com.apple.Dataclass.Mail`
+- Apple-fiók → iCloud → Kontaktok: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Contacts` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Contacts` or `prefs:root=CASTLE&path=com.apple.Dataclass.Contacts`
+- Apple-fiók → iCloud → Naptár: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Calendars` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Calendars` or `prefs:root=CASTLE&path=com.apple.Dataclass.Calendars`
+- Apple-fiók → iCloud → Emlékeztetők: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Reminders` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Reminders` or `prefs:root=CASTLE&path=com.apple.Dataclass.Reminders`
+- Apple-fiók → iCloud → Safari: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Bookmarks` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Bookmarks` or `prefs:root=CASTLE&path=com.apple.Dataclass.Bookmarks`
+- Apple-fiók → iCloud → Jegyzetek: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Notes` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Notes` or `prefs:root=CASTLE&path=com.apple.Dataclass.Notes`
+- Apple-fiók → iCloud → News: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.News` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.News` or `prefs:root=CASTLE&path=com.apple.Dataclass.News`
+- Apple-fiók → iCloud → Biztonsági mentés: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/BACKUP` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/BACKUP` or `prefs:root=CASTLE&path=BACKUP`
+- Apple-fiók → iCloud → Egészség: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Health` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Health` or `prefs:root=CASTLE&path=com.apple.Dataclass.Health`
+- Apple-fiók → iCloud → Jelszavak és Kulcskarika: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.KeychainSync` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.KeychainSync` or `prefs:root=CASTLE&path=com.apple.Dataclass.KeychainSync`
+- Apple-fiók → iCloud → E-mail-cím elrejtése: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/PRIVATE_EMAIL_MANAGE` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/PRIVATE_EMAIL_MANAGE` or `prefs:root=CASTLE&path=PRIVATE_EMAIL_MANAGE`
+- Apple-fiók → Saját helyzet megosztása: `prefs:root=APPLE_ACCOUNT&path=LOCATION_SHARING` or `settings-navigation://com.apple.Settings.AppleAccount/LOCATION_SHARING`
+- Apple-fiók → Saját helyzet megosztása → Lokátor: `prefs:root=APPLE_ACCOUNT&path=LOCATION_SHARING/FindMyDevice-Settings` or `settings-navigation://com.apple.Settings.AppleAccount/LOCATION_SHARING/FindMyDevice-Settings`
+- Apple-fiók → Név, telefonszámok és e-mail: `prefs:root=APPLE_ACCOUNT&path=APPLE_ACCOUNT_CONTACT` or `settings-navigation://com.apple.Settings.AppleAccount/APPLE_ACCOUNT_CONTACT`
+- Apple-fiók → Jelszó és biztonság: `prefs:root=APPLE_ACCOUNT&path=PASSWORD_AND_SECURITY` or `settings-navigation://com.apple.Settings.AppleAccount/PASSWORD_AND_SECURITY`
+- Apple-fiók → Fizetés és szállítás: `prefs:root=APPLE_ACCOUNT&path=PAYMENT_AND_SHIPPING` or `settings-navigation://com.apple.Settings.AppleAccount/PAYMENT_AND_SHIPPING`
+- Apple-fiók → Előfizetések: `prefs:root=APPLE_ACCOUNT&path=SUBSCRIPTIONS` or `settings-navigation://com.apple.Settings.AppleAccount/SUBSCRIPTIONS`
+- Apple-fiók → Család: `prefs:root=APPLE_ACCOUNT&path=Family` or `settings-navigation://com.apple.Settings.AppleAccount/Family`
+- Értesítések: `prefs:root=NOTIFICATIONS_ID`
+- Értesítések → Ütemezett összegzés: `prefs:root=NOTIFICATIONS_ID&path=SCHEDULED_DELIVERY_ID`
+- Időjárás: `prefs:root=WEATHER`
+- Freeform: `prefs:root=FREEFORM`
+- Fókusz: `prefs:root=DO_NOT_DISTURB`
+- Fókusz → Fókusz állapota: `prefs:root=DO_NOT_DISTURB&path=status`
+- Napló: `prefs:root=JOURNAL`
+- Tárca és Apple Pay: `prefs:root=PASSBOOK`
+- Tárca és Apple Pay → Apple Cash: `prefs:root=PASSBOOK#Apple%C2%A0Cash`
+- Tárca és Apple Pay → Fizetési kártyák: `prefs:root=PASSBOOK#SETTINGS_PAYMENT_CARDS_GROUP`
+- Tárca és Apple Pay → Kártya hozzáadása: `prefs:root=PASSBOOK#Add%20Card`
+- Tárca és Apple Pay → Oldalsó gomb dupla kattintása: `prefs:root=PASSBOOK#Double-Click%20Side%20Button`
+- Tárca és Apple Pay → Rendelés nyomon követése: `prefs:root=PASSBOOK#ORDER_TRACKING`
+- Kijelző és fényerő | Megjelenés: `prefs:root=DISPLAY`
+- Kijelző és fényerő | Megjelenés → Megjelenés: `prefs:root=DISPLAY#DEVICE_APPEARANCE`
+- Kijelző és fényerő | Megjelenés → True Tone: `prefs:root=DISPLAY#WHITE_BALANCE`
+- Kijelző és fényerő | Megjelenés → Night Shift: `prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION`
+- Kijelző és fényerő | Megjelenés → Night Shift → Ütemezett: `prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION#SCHEDULED`
+- Kijelző és fényerő | Megjelenés → Night Shift → Manuális engedély. holnapig: `prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION#MANUAL`
+- Kijelző és fényerő | Megjelenés → Night Shift → Színhőmérséklet: `prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION#COLOR_TEMPERATURE`
+- Kijelző és fényerő | Megjelenés → Automatikus zárolás: `prefs:root=DISPLAY&path=AUTOLOCK`
+- Kijelző és fényerő | Megjelenés → Emelés az ébresztéshez: `prefs:root=DISPLAY#RAISE_TO_WAKE`
+- Kijelző és fényerő | Megjelenés → Zárolás/feloldás: `prefs:root=DISPLAY#SMART_CASE_LOCK_SPEC`
+- Kijelző és fényerő | Megjelenés → Szövegméret: `prefs:root=DISPLAY&path=TEXT_SIZE`
+- Kijelző és fényerő | Megjelenés → Félkövér szöveg: `prefs:root=DISPLAY#BOLD_TEXT`
+- Kijelző és fényerő | Megjelenés → Fényerő: `prefs:root=DISPLAY#BRIGHTNESS`
+- Kijelző és fényerő | Megjelenés → Kijelzőnagyítás: `prefs:root=DISPLAY#DISPLAY_ZOOM_GROUP`
+- Kijelző és fényerő | Megjelenés → Megjelenés: `prefs:root=DISPLAY&path=APPEARANCE`
+- Kijelző és fényerő | Megjelenés → Megjelenés → Ablak nagyítása: `prefs:root=DISPLAY&path=APPEARANCE#WINDOW_ZOOM`
+- Kijelző és fényerő | Megjelenés → Megjelenés → Kétkezes ablakméretezés: `prefs:root=DISPLAY&path=APPEARANCE#TWO_HANDED_WINDOW_ZOOM`
+- Kijelző és fényerő | Megjelenés → Nézet: `prefs:root=DISPLAY&path=MAGNIFY`
+- Kijelző és fényerő | Megjelenés → Mindig bekapcsolt kijelző: `prefs:root=DISPLAY&path=ALWAYS_ON`
+- Kijelző és fényerő | Megjelenés → Mindig bekapcsolt kijelző → Mindig bekapcsolt kijelző: `prefs:root=DISPLAY&path=ALWAYS_ON#ALWAYS_ON`
+- Kijelző és fényerő | Megjelenés → Kompatibilis appok: `prefs:root=DISPLAY&path=COMPATIBLE_APPEARANCE`
+- Kijelző és fényerő | Megjelenés → Kompatibilis appok → Sötét, Világos: `prefs:root=DISPLAY&path=COMPATIBLE_APPEARANCE#COMPATIBLE_APPEARANCE_CHOICES`
+- Mérés: `prefs:root=MEASURE` or `settings-navigation://com.apple.Settings.Apps/com.apple.measure`
+- Mérés → Mértékegységek: `prefs:root=MEASURE#MEASURE_UNITS` or `settings-navigation://com.apple.Settings.Apps/com.apple.measure#MEASURE_UNITS#MEASURE_UNITS`
+- Mérés → Angolszász: `prefs:root=MEASURE#Imperial` or `settings-navigation://com.apple.Settings.Apps/com.apple.measure#Imperial#Imperial`
+- Mérés → Metrikus: `prefs:root=MEASURE#Metric` or `settings-navigation://com.apple.Settings.Apps/com.apple.measure#Metric#Metric`
+- Háttérkép: `prefs:root=Wallpaper`
+- Vezérlőközpont: `prefs:root=ControlCenter`
+- Vezérlőközpont → Hozzáférés appból: `prefs:root=ControlCenter#ALLOWED_WITHIN_APPS`
+- Vezérlőközpont → Vezérlők testreszabása: `prefs:root=ControlCenter&path=CUSTOMIZE_CONTROLS`
+- Hangjegyzetek: `prefs:root=VOICE_MEMOS`
+- Hangjegyzetek → Töröltek eltávolítása: `prefs:root=VOICE_MEMOS&path=RCVoiceMemosRecentlyDeletedWindowKey`
+- Hangjegyzetek → Hangminőség: `prefs:root=VOICE_MEMOS&path=RCVoiceMemosAudioQualityKey`
+- Hangjegyzetek → Helyzetalapú elnevezés: `prefs:root=VOICE_MEMOS#RCVoiceMemosUseLocationBasedNaming`
+- Naptár: `prefs:root=CALENDAR`
+- Naptár → Időzóna felülbírálása: `prefs:root=CALENDAR&path=TimeZoneCityArray`
+- Naptár → Alternatív naptárak: `prefs:root=CALENDAR&path=Alternate%20Calendars`
+- Naptár → Hetek száma: `prefs:root=CALENDAR#Week%20Numbers`
+- Naptár → Elutasított meghívások megjelenítése: `prefs:root=CALENDAR#Show%20Invitee%20Declines`
+- Naptár → Szinkronizálás: `prefs:root=CALENDAR&path=Sync`
+- Naptár → Alapértelmezett jelzésidő: `prefs:root=CALENDAR&path=Default%20Alert%20Times`
+- Naptár → Ekkor indul a hét: `prefs:root=CALENDAR&path=Start%20Week%20On`
+- Naptár → Javasolt helyek: `prefs:root=CALENDAR#Location%20Suggestions`
+- Fejlesztő: `prefs:root=DEVELOPER_SETTINGS`
+- Fejlesztő → Több útvonalas hálózat: `prefs:root=DEVELOPER_SETTINGS&path=MULTI_PATH_AGG`
+- Fejlesztő → Több útvonalas hálózat → Több útvonalas hálózat: `prefs:root=DEVELOPER_SETTINGS&path=MULTI_PATH_AGG#Multipath%20Networking`
+- Fejlesztő → Megjelenés: `prefs:root=DEVELOPER_SETTINGS#UIAppearanceGroup`
+- Fejlesztő → Sötét megjelenés: `prefs:root=DEVELOPER_SETTINGS#UIAppearanceSettings`
+- Fejlesztő → Párosított eszközök: `prefs:root=DEVELOPER_SETTINGS#DTPairedDevicesGroup`
+- Fejlesztő → Megbízható számítógépek törlése: `prefs:root=DEVELOPER_SETTINGS#CLEAR_TRUSTED_COMPUTERS`
+- Fejlesztő → Naplózás: `prefs:root=DEVELOPER_SETTINGS&path=DTInstrumentsSettings`
+- Fejlesztő → Felhasználóifelület-automatizálás | Felhasználóifelület-automatizálás engedélyezése: `prefs:root=DEVELOPER_SETTINGS#UIAGroup`
+- Fejlesztő → Hálózatkezelés: `prefs:root=DEVELOPER_SETTINGS#NLCGroup`
+- Fejlesztő → Hálózatikapcsolat-kondicionáló: `prefs:root=DEVELOPER_SETTINGS&path=NLC`
+- Fejlesztő → További naplózás: `prefs:root=DEVELOPER_SETTINGS#ADDITIONAL_LOGGING`
+- Fejlesztő → HTTP-szolgáltatások engedélyezése: `prefs:root=DEVELOPER_SETTINGS#ALLOW_HTTP_SERVICES`
+- Fejlesztő → Gyakoriság korlátozásának letiltása: `prefs:root=DEVELOPER_SETTINGS#DISABLE_RATE_LIMITING`
+- Fejlesztő → Nem kötelező NFC-belépőkártya: `prefs:root=DEVELOPER_SETTINGS#NFC_PASS_KEY_OPTIONAL`
+- Fejlesztő → Médiaszolgáltatások tesztelése: `prefs:root=DEVELOPER_SETTINGS#MEDIA_SERVICES_TESTING`
+- Fejlesztő → Médiaszolgáltatások alaphelyzetbe állítása: `prefs:root=DEVELOPER_SETTINGS#RESET_MEDIA_SERVICES`
+- Fejlesztő → A News tesztelése: `prefs:root=DEVELOPER_SETTINGS#NEWS_TESTING`
+- Fejlesztő → Helyi adatok alaphelyzetbe állítása a következő indításkor: `prefs:root=DEVELOPER_SETTINGS#RESET_LOCAL_DATA_ON_NEXT_LAUNCH`
+- Fejlesztő → Médialejátszó-keretrendszer tesztelése: `prefs:root=DEVELOPER_SETTINGS#RoutineSettingsGroup`
+- Fejlesztő → Lejátszható tartalom API-ja: `prefs:root=DEVELOPER_SETTINGS&path=RoutineSettings`
+- Fejlesztő → Televíziószolgáltató: `prefs:root=DEVELOPER_SETTINGS&path=VideoSubscriberAccountSettings`
+- Fejlesztő → ClassKit API: `prefs:root=DEVELOPER_SETTINGS&path=ClassKitSettings`
+- Fejlesztő → CoreSpotlight-tesztelés: `prefs:root=DEVELOPER_SETTINGS#CORESPOTLIGHT_TESTING`
+- Fejlesztő → Összes elem újraindexelése: `prefs:root=DEVELOPER_SETTINGS#REINDEX_ALL_ITEMS`
+- Fejlesztő → Az azonosítóval rendelkező összes elem újraindexelése: `prefs:root=DEVELOPER_SETTINGS#REINDEX_ALL_ITEMS_WITH_IDENTIFIERS`
+- Fejlesztő → Parancsok tesztelése: `prefs:root=DEVELOPER_SETTINGS#SIRI_ACTIONS_TESTING`
+- Fejlesztő → Legutóbbi parancsok megjelenítése: `prefs:root=DEVELOPER_SETTINGS#DISPLAY_DONATIONS_SPOTLIGHT`
+- Fejlesztő → Közelgő média megjelenítése: `prefs:root=DEVELOPER_SETTINGS#DISPLAY_UPCOMING_MEDIA`
+- Fejlesztő → Adományok megjelenítése a zárolási képernyőn: `prefs:root=DEVELOPER_SETTINGS#DISPLAY_DONATIONS_LOCKSCREEN`
+- Fejlesztő → A parancsok Watchra történő szinkronizálásának kényszerítése: `prefs:root=DEVELOPER_SETTINGS#SIRI_ACTIONS_SYNC_WATCHOS`
+- Fejlesztő → MIDI-CI-tesztelés: `prefs:root=DEVELOPER_SETTINGS#MIDI_CI_API_BETA`
+- Fejlesztő → MIDI-CI engedélyezése: `prefs:root=DEVELOPER_SETTINGS#MIDI_CI_API_BETA_ENABLE`
+- Fejlesztő → Fagyásészlelés: `prefs:root=DEVELOPER_SETTINGS#HANGTRACER_EXTERNAL_CONFIGURE`
+- Face ID és jelkód | Jelkód | Touch ID és jelkód: `prefs:root=PASSCODE`
+- Face ID és jelkód | Jelkód | Touch ID és jelkód → Jelkód kikapcsolása: `prefs:root=PASSCODE#PASSCODE_OFF`
+- Face ID és jelkód | Jelkód | Touch ID és jelkód → Jelkód módosítása: `prefs:root=PASSCODE#CHANGE_PASSCODE`
+- Face ID és jelkód | Jelkód | Touch ID és jelkód → Jelkód igénylése: `prefs:root=PASSCODE&path=PASSCODE_REQ`
+- Face ID és jelkód | Jelkód | Touch ID és jelkód → Hangtárcsázás: `prefs:root=PASSCODE#VOICE_DIAL`
+- Face ID és jelkód | Jelkód | Touch ID és jelkód → Elérés engedélyezése zárolásnál: `prefs:root=PASSCODE#ALLOW_ACCESS_WHEN_LOCKED`
+- Face ID és jelkód | Jelkód | Touch ID és jelkód → Válasz üzenettel: `prefs:root=PASSCODE#REPLY_WITH_MESSAGE_SWITCH`
+- Face ID és jelkód | Jelkód | Touch ID és jelkód → Otthonvezérlés: `prefs:root=PASSCODE#HOME_CONTROL_SWITCH`
+- Face ID és jelkód | Jelkód | Touch ID és jelkód → Tárca: `prefs:root=PASSCODE#WALLET_SWITCH`
+- Face ID és jelkód | Jelkód | Touch ID és jelkód → Nem fogadott hívások visszahívása: `prefs:root=PASSCODE#RETURN_MISSED_CALLS_SWITCH`
+- Face ID és jelkód | Jelkód | Touch ID és jelkód → Adatok törlése: `prefs:root=PASSCODE#WIPE_DEVICE`
+- Face ID és jelkód | Jelkód | Touch ID és jelkód → Feloldás Apple Watchcsal: `prefs:root=PASSCODE#AUTO_UNLOCK_DEVICES_GROUP`
+- Face ID és jelkód | Jelkód | Touch ID és jelkód → Ellopott eszköz védelme: `prefs:root=PASSCODE#DTO_GROUP_ID`
+- Telefon: `prefs:root=Phone`
+- Telefon → Saját szám: `prefs:root=Phone&path=My%20Number`
+- Telefon → Bejövő hívások: `prefs:root=Phone&path=INCOMING_CALL_STYLE`
+- Telefon → Hívások bejelentése: `prefs:root=Phone&path=ANNOUNCE_CALLS`
+- Telefon → SMS-ek/hívások jelentése: `prefs:root=Phone&path=CLASSIFICATION_AND_REPORTING`
+- Telefon → Válasz szöveges üzenettel: `prefs:root=Phone&path=Respond%20with%20Text`
+- Telefon → Hívásátirányítás: `prefs:root=Phone&path=Call%20Forwarding`
+- Telefon → Hívásátirányítás → Hívásátirányítás: `prefs:root=Phone&path=Call%20Forwarding#idMasterOnOffSwitch`
+- Telefon → Hívásvárakoztatás: `prefs:root=Phone&path=Call%20Waiting`
+- Telefon → Hívószámkijelzés: `prefs:root=Phone&path=Show%20My%20Caller%20ID`
+- Telefon → Hívószámkijelzés → Hívószámkijelzés: `prefs:root=Phone&path=Show%20My%20Caller%20ID/Primary`
+- Telefon → Hívószámkijelzés → Hívószámkijelzés → Hívószámkijelzés: `prefs:root=Phone&path=Show%20My%20Caller%20ID/Primary#Show%20My%20Caller%20ID`
+- Telefon → Ismeretlen hívók némítása: `prefs:root=Phone#SILENCE_CALLS`
+- Telefon → Letiltott kontaktok: `prefs:root=Phone&path=SPECIFIER_IDENTIFIER_BLACKLIST`
+- Telefon → Tárcsázási segítség: `prefs:root=Phone&path=Dial%20Assist`
+- Jegyzetek: `prefs:root=NOTES` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes`
+- Jegyzetek → Alapértelmezett fiók: `prefs:root=NOTES&path=Default%20Account` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes/Default%20Account`
+- Jegyzetek → Jelszó: `prefs:root=NOTES&path=Password` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes/Password`
+- Jegyzetek → A jegyzetek rendezése: `prefs:root=NOTES&path=Sort%20Notes%20By` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes/Sort%20Notes%20By`
+- Jegyzetek → Az új jegyz. kezdete: `prefs:root=NOTES&path=New%20Notes%20Start%20With` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes/New%20Notes%20Start%20With`
+- Jegyzetek → Bejelölt elemek rendezése: `prefs:root=NOTES&path=Sort%20Checked%20Items` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes/Sort%20Checked%20Items`
+- Jegyzetek → Vonalak és rácsok: `prefs:root=NOTES&path=Lines%20%26%20Grids` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes/Lines%20%26%20Grids`
+- Jegyzetek → Mentés a Fotókba: `prefs:root=NOTES#Save%20to%20Photos` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes#Save%20to%20Photos#Save%20to%20Photos`
+- Jegyzetek → Jegyzetek a zárolási képernyőről: `prefs:root=NOTES&path=Access%20Notes%20from%20Lock%20Screen` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes/Access%20Notes%20from%20Lock%20Screen`
+- Könyvek: `prefs:root=IBOOKS`
+- Könyvek → Online tartalom: `prefs:root=IBOOKS#BKAllowOnlineContent`
+- Könyvek → SZINKRONIZÁLÁS: `prefs:root=IBOOKS#SYNCING`
+- Könyvek → Most olvasott: `prefs:root=IBOOKS#BKLibrary.ReadingNow`
+- Könyvek → iCloud Drive: `prefs:root=IBOOKS#BCSyncICloudDrive`
+- Könyvek → OLVASÁS: `prefs:root=IBOOKS#READING`
+- Könyvek → Sorkizárás: `prefs:root=IBOOKS#BKFullJustification`
+- Könyvek → Automatikus elválasztás: `prefs:root=IBOOKS#BKAutoHyphenation`
+- Könyvek → Lapozás mindkét margóval: `prefs:root=IBOOKS#BKLeftTapTurnToNext`
+- Könyvek → Olvasási célok: `prefs:root=IBOOKS#READING_GOALS`
+- Könyvek → Olvasási célok adatainak törlése: `prefs:root=IBOOKS#BKReadingGoalsShouldClearDataKey`
+- Könyvek → KERESÉS: `prefs:root=IBOOKS#SEARCHING`
+- Könyvek → Book Store: `prefs:root=IBOOKS#BKIncludeBookStoreResultsInSearch`
+- Könyvek → HANGOSKÖNYV: `prefs:root=IBOOKS#AUDIOBOOKS`
+- Könyvek → Léptetés előre: `prefs:root=IBOOKS&path=BKAudioBookSkipForward`
+- Könyvek → Visszaugrás: `prefs:root=IBOOKS&path=BKAudioBookSkipBackward`
+- Könyvek → KÜLSŐ VEZÉRLŐK: `prefs:root=IBOOKS#BKRemoteSkipInsteadOfNextTrackDefaultKey`
+- Könyvek → Következő/előző: `prefs:root=IBOOKS#Next/Previous`
+- Könyvek → Léptetés előre/vissza: `prefs:root=IBOOKS#Skip%20Forward/Back`
+- Könyvek → ADATVÉDELEM: `prefs:root=IBOOKS#PRIVACY`
+- Könyvek → Azonosító alaphelyzetbe állítása: `prefs:root=IBOOKS#BAResetAnalyticsUserID`
+- Könyvek → Nyilatkozatok: `prefs:root=IBOOKS&path=Acknowledgements`
+- Game Center: `prefs:root=GAMECENTER`
+- Vészhelyzet – SOS: `prefs:root=EMERGENCY_SOS`
+- Vészhelyzet – SOS → Hívás az oldalsó gombbal: `prefs:root=EMERGENCY_SOS#CALL_WITH_SIDE_BUTTON`
+- Vészhelyzet – SOS → Automatikus hívás: `prefs:root=EMERGENCY_SOS#AUTO_CALL`
+- Vészhelyzet – SOS → Fontos elérhetőségek: `prefs:root=EMERGENCY_SOS#EMERGENCY_CONTACTS`
+- Vészhelyzet – SOS → Visszaszámláláshang: `prefs:root=EMERGENCY_SOS#ALARM_SOUND_SWITCH`
+- Emlékeztetők: `prefs:root=REMINDERS`
+- Emlékeztetők → Alapértelmezett lista: `prefs:root=REMINDERS&path=DEFAULT_LIST`
+- Emlékeztetők → Alapértelmezett lista → Emlékeztetők: `prefs:root=REMINDERS&path=DEFAULT_LIST#preferredDefaultListID`
+- Emlékeztetők → Mai értesítés: `prefs:root=REMINDERS#todayNotificationFireTime`
+- Emlékeztetők → Megjelenítés lejártként: `prefs:root=REMINDERS#showRemindersAsOverdue`
+- Mobilhálózat: `prefs:root=MOBILE_DATA_SETTINGS_ID`
+- Mobilhálózat → Mobiladat-lehetőségek: `prefs:root=MOBILE_DATA_SETTINGS_ID&path=CELLULAR_DATA_OPTIONS`
+- Mobilhálózat → Mobiladat-lehetőségek → Alacsony adatforgalmú mód: `prefs:root=MOBILE_DATA_SETTINGS_ID&path=CELLULAR_DATA_OPTIONS#Low%20Data%20Mode`
+- Mobilhálózat → Mobiladat-forgalom: `prefs:root=MOBILE_DATA_SETTINGS_ID&path=SHOW_ALL`
+- WLAN | Wi-Fi: `prefs:root=WIFI`
+- Kontaktok: `prefs:root=CONTACTS`
+- Kontaktok → Hozzáférés engedélyezése a Kontaktok számára: `prefs:root=CONTACTS#Allow%20Contacts%20To%20Access`
+- Kontaktok → Siri: `prefs:root=CONTACTS&path=SIRI_AND_SEARCH`
+- Kontaktok → Rendezési sorrend: `prefs:root=CONTACTS&path=ContactsSortOrder`
+- Kontaktok → Kijelzési sorrend: `prefs:root=CONTACTS&path=PersonNameOrder`
+- Kontaktok → Rövid név: `prefs:root=CONTACTS&path=PersonShortName`
+- Kontaktok → Rövid név → Rövid név: `prefs:root=CONTACTS&path=PersonShortName#Short%20Name`
+- Kontaktok → Rövid név → Becenevek előnyben részesítése: `prefs:root=CONTACTS&path=PersonShortName#Prefer%20Nicknames`
+- Kontaktok → Saját információk: `prefs:root=CONTACTS&path=MeCard`
+- Kontaktok → SIM-kontaktok importálása: `prefs:root=CONTACTS#SIMImport`
+- Parancsok: `prefs:root=SHORTCUTS`
+- Parancsok → iCloud-szinkronizálás: `prefs:root=SHORTCUTS#WFCloudKitSyncEnabled`
+- Parancsok → Parancssorrend szinkronizálása: `prefs:root=SHORTCUTS#WFCloudKitSyncOrderEnabled`
+- Parancsok → Jogi nyilatkozatok: `prefs:root=SHORTCUTS&path=Legal%20Notices`
+- TV | Videók: `prefs:root=TVAPP`
+- TV | Videók → Mobiladat-hálózat használata a lejátszáshoz: `prefs:root=TVAPP#com.apple.videos%3AVideosUseCellularDataEnabledSetting`
+- TV | Videók → Lejátszás minősége: `prefs:root=TVAPP#com.apple.videos%3APlaybackQualityGroup`
+- TV | Videók → Vásárlások és kölcsönzések: `prefs:root=TVAPP&path=com.apple.videos%3APreferredPurchaseResolution`
+- TV | Videók → Otthoni megosztás: `prefs:root=TVAPP#com.apple.videos%3AHomeSharingFooter`
+- Zene: `prefs:root=MUSIC`
+- Zene → Az Apple Music megjelenítése: `prefs:root=MUSIC#com.apple.Music%3AAppleMusicEnabled`
+- Zene → Lejátszásilista-dalok hozzáadása: `prefs:root=MUSIC#com.apple.Music%3AAddPlaylistSongsToMyMusicSwitch`
+- Zene → Csillagértékelések: `prefs:root=MUSIC#com.apple.Music%3AShowStarRatings`
+- Zene → Könyvtár szinkronizálása: `prefs:root=MUSIC#com.apple.Music%3ACloudMusicLibraryEnabled`
+- Zene → Mobiladat-forgalom: `prefs:root=MUSIC&path=com.apple.Music%3ACellularData`
+- Zene → Letöltött zene: `prefs:root=MUSIC&path=com.apple.Music%3AMusicUsageLink`
+- Zene → Tárhely optimalizálása: `prefs:root=MUSIC&path=com.apple.Music%3AOptimizeStorage`
+- Zene → Automatikus letöltések: `prefs:root=MUSIC#com.apple.Music%3AMusicAutomaticDownload`
+- Zene → Hangszínszabályzó: `prefs:root=MUSIC&path=com.apple.Music%3AEQ`
+- Zene → Normalizálás: `prefs:root=MUSIC#com.apple.Music%3ASoundCheck`
+- Zene → Hallgatási előzmények használata: `prefs:root=MUSIC#com.apple.Music%3APrivateListening`
+- Kamera: `prefs:root=CAMERA`
+- Kamera → Formátumok: `prefs:root=CAMERA&path=CameraFormatsSettingsList`
+- Kamera → Formátumok → Apple ProRaw: `prefs:root=CAMERA&path=CameraFormatsSettingsList#CAMUserPreferenceEnableLinearDNGControl`
+- Kamera → Record Video: `prefs:root=CAMERA&path=Record%20Video`
+- Kamera → Record Video → HDR-videó: `prefs:root=CAMERA&path=Record%20Video#HDR%20Video`
+- Kamera → Beállítások megőrzése: `prefs:root=CAMERA&path=CameraPreserveSettingsSwitch`
+- Kamera → Beállítások megőrzése → Kameramód: `prefs:root=CAMERA&path=CameraPreserveSettingsSwitch#CAMUserPreferencePreserveCaptureMode`
+- Kamera → Rács: `prefs:root=CAMERA#CameraGridSwitch`
+- Kamera → QR-kódok beolvasása: `prefs:root=CAMERA#CameraQRBannerSwitch`
+- Iránytű: `prefs:root=COMPASS`
+- Iránytű → Földrajzi észak használata: `prefs:root=COMPASS#USE_TRUE_NORTH`
+- Fertőzéskitettség-értesítés: `prefs:root=EXPOSURE_NOTIFICATION`
+- Mail: `prefs:root=MAIL`
+- Mail → Fiókok: `prefs:root=MAIL&path=ACCOUNTS`
+- Mail → Fiókok → Fiók hozzáadása: `prefs:root=MAIL&path=ACCOUNTS#ADD_ACCOUNT`
+- Mail → Fiókok → Új adatok begyűjtése: `prefs:root=MAIL&path=ACCOUNTS#FETCH_NEW_DATA`
+- Mail → Előnézet: `prefs:root=MAIL&path=Preview`
+- Mail → Címzett/Másolat: `prefs:root=MAIL#Show%20To/Cc%20Labels`
+- Mail → Legyintés beállításai: `prefs:root=MAIL&path=Swipe%20Options`
+- Mail → Kérdezés törlés előtt: `prefs:root=MAIL#Ask%20Before%20Deleting`
+- Mail → Képek betöltése: `prefs:root=MAIL#Load%20Remote%20Images`
+- Mail → Szálakra rendezés: `prefs:root=MAIL#Organize%20by%20Thread`
+- Mail → Olvasott üzenetek összecsukása: `prefs:root=MAIL#Collapse%20Read%20Messages`
+- Mail → Újabb üzenetek felül: `prefs:root=MAIL#Most%20Recent%20Message%20on%20Top`
+- Mail → Teljes szálak megjelenítése: `prefs:root=MAIL#Complete%20Threads`
+- Mail → Némítottszál-művelet: `prefs:root=MAIL&path=Muted%20Thread%20Action`
+- Mail → Blokkolt küldők figyelmen kívül hagyása: `prefs:root=MAIL#Ignore%20Blocked%20Senders`
+- Mail → Letiltott küldők beállításai: `prefs:root=MAIL&path=Blocked%20Sender%20Options`
+- Mail → Letiltott: `prefs:root=MAIL&path=Blocked`
+- Mail → Bcc magamnak: `prefs:root=MAIL#Always%20Bcc%20Myself`
+- Mail → Címek megjelölése: `prefs:root=MAIL&path=Mark%20Addresses`
+- Mail → Idézetszint növelése: `prefs:root=MAIL&path=Increase%20Quote%20Level`
+- Mail → Mellékletek válaszokba foglalása: `prefs:root=MAIL&path=Include%20Attachments%20with%20Replies`
+- Mail → Aláírás: `prefs:root=MAIL&path=Signature`
+- Bluetooth: `prefs:root=Bluetooth`
+- News: `prefs:root=NEWS`
+- News → Sztori előnézetének megjelenítése: `prefs:root=NEWS#show_excerpt_mode`
+- News → Sztorik korlátozása a Mai nézetben: `prefs:root=NEWS#showStoriesFromFavoritesSpecifierID`
+- News → Adatvédelem: `prefs:root=NEWS#Privacy`
+- News → Azonosító alaphelyzetbe állítása: `prefs:root=NEWS#reset_identifier`
+- News → Nyilatkozatok: `prefs:root=NEWS&path=Acknowledgements`
+- Fotók: `prefs:root=Photos`
+- Fotók → iCloud-fotók: `prefs:root=Photos#iCloudPhotosSwitch`
+- Fotók → Tárhely optimalizálása: `prefs:root=Photos#iCloudOptimizeStorageOption`
+- Fotók → Letöltés és eredetik megőrzése: `prefs:root=Photos#iCloudKeepOriginalsOption`
+- Fotók → Megosztott albumok: `prefs:root=Photos#SharedStreamsSwitch`
+- Fotók → Mobiladat-forgalom: `prefs:root=Photos&path=CellularDataLinkList`
+- Fotók → Videók automatikus lejátszása: `prefs:root=Photos#VideoAutoplaySwitch`
+- Fotók → Teljes HDR megtekintése: `prefs:root=Photos#ImageModulationSwitch`
+- Fotók → Ünnepnapra eső események: `prefs:root=Photos#MEMORIES_HOLIDAY_CALENDAR_EVENTS_SWITCH`
+- Fotók → Átvitel Macre vagy PC-re: `prefs:root=Photos#TransferGroup`
+- Podcastok: `prefs:root=PODCASTS`
+- Adatvédelem és biztonság: `prefs:root=Privacy` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity`
+- Adatvédelem és biztonság → Egészség: `prefs:root=Privacy&path=HEALTH` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/HEALTH`
+- Adatvédelem és biztonság → Egészség-adatok: `prefs:root=Privacy&path=HEALTH_DATA` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/HEALTH_DATA`
+- Adatvédelem és biztonság → Helyzet: `prefs:root=Privacy&path=LOCATION` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/LOCATION`
+- Adatvédelem és biztonság → Helyzet → Saját helyzet megosztása: `prefs:root=Privacy&path=LOCATION/LOCATION_SHARING` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/LOCATION/LOCATION_SHARING`
+- Adatvédelem és biztonság → Kontaktok: `prefs:root=Privacy&path=CONTACTS` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/CONTACTS`
+- Adatvédelem és biztonság → Naptárak: `prefs:root=Privacy&path=CALENDARS` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/CALENDARS`
+- Adatvédelem és biztonság → Emlékeztetők: `prefs:root=Privacy&path=REMINDERS` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/REMINDERS`
+- Adatvédelem és biztonság → Fotók: `prefs:root=Privacy&path=PHOTOS` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/PHOTOS`
+- Adatvédelem és biztonság → Bluetooth-megosztás: `prefs:root=Privacy&path=BT_PERIPHERAL` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/BT_PERIPHERAL`
+- Adatvédelem és biztonság → Mikrofon: `prefs:root=Privacy&path=MICROPHONE` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/MICROPHONE`
+- Adatvédelem és biztonság → Beszédfelismerés: `prefs:root=Privacy&path=SPEECH_RECOGNITION` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/SPEECH_RECOGNITION`
+- Adatvédelem és biztonság → Kamera: `prefs:root=Privacy&path=CAMERA` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/CAMERA`
+- Adatvédelem és biztonság → HomeKit: `prefs:root=Privacy&path=WILLOW` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/WILLOW`
+- Adatvédelem és biztonság → Média és Apple Music: `prefs:root=Privacy&path=MEDIALIBRARY` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/MEDIALIBRARY`
+- Adatvédelem és biztonság → Elemzés: `prefs:root=Privacy&path=PROBLEM_REPORTING` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/PROBLEM_REPORTING`
+- Adatvédelem és biztonság → Hirdetés: `prefs:root=Privacy&path=ADVERTISING` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/ADVERTISING`
+- Adatvédelem és biztonság → Fájlok és mappák: `prefs:root=Privacy&path=FILEACCESS` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/FILEACCESS`
+- Adatvédelem és biztonság → Követés: `prefs:root=Privacy&path=USER_TRACKING` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/USER_TRACKING`
+- Adatvédelem és biztonság → Appok adatvédelmi jelentése: `prefs:root=Privacy&path=PRIVACY_REPORT` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/PRIVACY_REPORT`
+- Adatvédelem és biztonság → Zárt mód: `prefs:root=Privacy#LOCKDOWN_MODE` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity#LOCKDOWN_MODE#LOCKDOWN_MODE`
+- Adatvédelem és biztonság → Érzékeny tartalom: `prefs:root=Privacy#NUDITY_DETECTION` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity#NUDITY_DETECTION#NUDITY_DETECTION`
+- FaceTime: `prefs:root=FACETIME`
+- Képernyőidő: `prefs:root=SCREEN_TIME`
+- Hangok | Hangok és haptikus jelzések: `prefs:root=Sounds`
+- Hangok | Hangok és haptikus jelzések → Fejhallgató-biztonság: `prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING`
+- Hangok | Hangok és haptikus jelzések → Fejhallgató-biztonság → Lightning-adapterek: `prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING/HEADPHONE_LIGHTNING_ADAPTERS`
+- Hangok | Hangok és haptikus jelzések → Fejhallgató-biztonság → Fejhallgató-értesítések: `prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING#SHSHeadphoneWeeklyNotificationsKey`
+- Hangok | Hangok és haptikus jelzések → Fejhallgató-biztonság → Hangerő-korlátozás: `prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING#SHSHeadphoneLevelLimitSwitchKey`
+- Hangok | Hangok és haptikus jelzések → Hangeffektusok: `prefs:root=Sounds&path=SOUND_EFFECTS`
+- Hangok | Hangok és haptikus jelzések → Csengő és jelzések: `prefs:root=Sounds#RINGER_AND_ALERT_GROUP`
+- Hangok | Hangok és haptikus jelzések → Állítás a gombokkal: `prefs:root=Sounds#CHANGE_WITH_BUTTONS`
+- Hangok | Hangok és haptikus jelzések → Hangok és rezgésminták: `prefs:root=Sounds#SOUNDS_ALERT_GROUP`
+- Hangok | Hangok és haptikus jelzések → Csengőhang: `prefs:root=Sounds&path=Ringtone`
+- Hangok | Hangok és haptikus jelzések → SMS-hang: `prefs:root=Sounds&path=Text_Messages`
+- Hangok | Hangok és haptikus jelzések → Új hangposta: `prefs:root=Sounds&path=Voicemail`
+- Hangok | Hangok és haptikus jelzések → Új levél: `prefs:root=Sounds&path=NEW_MAIL`
+- Hangok | Hangok és haptikus jelzések → Elküldött levél: `prefs:root=Sounds&path=SENT_MAIL`
+- Hangok | Hangok és haptikus jelzések → Naptárjelzések: `prefs:root=Sounds&path=Calendar%20Alarm`
+- Hangok | Hangok és haptikus jelzések → Emlékeztetőjelzések: `prefs:root=Sounds&path=Reminder%20Alerts`
+- Hangok | Hangok és haptikus jelzések → Billentyűhangok: `prefs:root=Sounds#KEYBOARD_SOUND_SWITCH`
+- Hangok | Hangok és haptikus jelzések → Zárolási hang: `prefs:root=Sounds#LOCK_SOUND_SWITCH`
+- Hangok | Hangok és haptikus jelzések → Személyre szabott térbeli hangzás: `prefs:root=Sounds&path=Personalized%20Spatial%20Audio`
+- Apple Pencil: `prefs:root=Pencil`
+- Apple Pencil → Apple Pencil: `prefs:root=Pencil#PrefersPencilDraws`
+- Apple Pencil → Apple Pencil: `prefs:root=Pencil#PencilTextInput`
+- Üzenetek: `prefs:root=MESSAGES`
+- Részvények: `prefs:root=STOCKS`
+- Részvények → Adatvédelem: `prefs:root=STOCKS#Privacy`
+- Részvények → Azonosító alaphelyzetbe állítása: `prefs:root=STOCKS#reset_identifier`
+- Fordító: `prefs:root=TRANSLATE`
+- Fordító → Eszközön történő feldolgozás: `prefs:root=TRANSLATE#OnDeviceOnly`
+- Siri: `prefs:root=SIRI`
+- Siri → Siri engedélyezése zárolásnál: `prefs:root=SIRI#ASSISTANT_LOCK_SCREEN_ACCESS`
+- Siri → Nyelv: `prefs:root=SIRI&path=LANGUAGE_ID`
+- Siri → Siri-beszédhang: `prefs:root=SIRI&path=VOICE_ID`
+- Siri → Beszédhangos visszajelzés: `prefs:root=SIRI&path=VOICE_FEEDBACK_ID`
+- Siri → Saját információk: `prefs:root=SIRI&path=MY_INFO`
+- Egészség | Egészség-adatok: `prefs:root=HEALTH`
+- App Store: `prefs:root=STORE`
+- App Store → Automatikus letöltések: `prefs:root=STORE#Automatic%20Downloads`
+- App Store → Appfrissítések: `prefs:root=STORE#App%20Updates`
+- App Store → Appletöltések: `prefs:root=STORE&path=App%20Downloads`
+- App Store → Videó automatikus lejátszása: `prefs:root=STORE&path=Video%20Autoplay`
+- App Store → Appon belüli értékelések és vélemények: `prefs:root=STORE#In-App%20Ratings%20&%20Reviews`
+- Repülőgép mód: `prefs:root=ROOT#AIRPLANE_MODE`

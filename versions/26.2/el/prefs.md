@@ -1,0 +1,414 @@
+- Μπαταρία: `prefs:root=BATTERY_USAGE`
+- Μπαταρία → Λειτουργία χαμηλής ισχύος: `prefs:root=BATTERY_USAGE#BATTERY_SAVER_MODE`
+- Μπαταρία → Υγεία μπαταρίας: `prefs:root=BATTERY_USAGE#BATTERY_HEALTH_ID`
+- Γενικά: `prefs:root=General`
+- Γενικά → VPN και διαχείριση συσκευών: `prefs:root=General&path=ManagedConfigurationList`
+- Γενικά → Αυτοσυμπλήρωση και συνθηματικά: `prefs:root=General&path=AUTOFILL`
+- Γενικά → Αυτοσυμπλήρωση και συνθηματικά → Αυτοσυμπλήρωση συνθηματικών: `prefs:root=General&path=AUTOFILL#AUTOFILL`
+- Γενικά → Αυτοσυμπλήρωση και συνθηματικά → Εκκαθάριση κωδικών επαλήθευσης: `prefs:root=General&path=AUTOFILL#CLEAN_UP_VERIFICATION_CODES`
+- Γενικά → Αυτοσυμπλήρωση και συνθηματικά → Διαμόρφωση κωδικών επαλήθευσης: `prefs:root=General&path=AUTOFILL#SET_UP_VERIFICATION_CODES`
+- Γενικά → AppleCare και εγγύηση: `prefs:root=General&path=COVERAGE/`
+- Γενικά → Λεξικό: `prefs:root=General&path=DICTIONARY`
+- Γενικά → Πληκτρολόγιο: `prefs:root=General&path=Keyboard`
+- Γενικά → Πληκτρολόγιο → Πληκτρολόγια: `prefs:root=General&path=Keyboard/KEYBOARDS`
+- Γενικά → Πληκτρολόγιο → Αντικατάσταση κειμένου: `prefs:root=General&path=Keyboard/USER_DICTIONARY`
+- Γενικά → Πληκτρολόγιο → Αυτόματη χρήση κεφαλαίων: `prefs:root=General&path=Keyboard#KeyboardAutocapitalization`
+- Γενικά → Πληκτρολόγιο → Αυτόματη διόρθωση: `prefs:root=General&path=Keyboard#KeyboardAutocorrection`
+- Γενικά → Πληκτρολόγιο → Έλεγχος ορθογραφίας: `prefs:root=General&path=Keyboard#KeyboardCheckSpelling`
+- Γενικά → Πληκτρολόγιο → Ενεργοποίηση του Caps Lock: `prefs:root=General&path=Keyboard#KeyboardCapsLock`
+- Γενικά → Πληκτρολόγιο → Συντομεύσεις: `prefs:root=General&path=Keyboard#KeyboardAssistant`
+- Γενικά → Πληκτρολόγιο → Προβλεπτικό: `prefs:root=General&path=Keyboard#KeyboardPrediction`
+- Γενικά → Πληκτρολόγιο → Έξυπνη στίξη: `prefs:root=General&path=Keyboard#SmartTyping`
+- Γενικά → Πληκτρολόγιο → Διαχωρισμός πληκτρολογίου: `prefs:root=General&path=Keyboard#RivenKeyboard`
+- Γενικά → Πληκτρολόγιο → Ενεργοποίηση τιναγμάτων πλήκτρων: `prefs:root=General&path=Keyboard#GesturesEnabled`
+- Γενικά → Πληκτρολόγιο → Προεπισκόπηση χαρακτήρων: `prefs:root=General&path=Keyboard#KeyboardAllowPaddle`
+- Γενικά → Πληκτρολόγιο → Συντόμευση «.»: `prefs:root=General&path=Keyboard#KeyboardPeriodShortcut`
+- Γενικά → Πληκτρολόγιο → Ολίσθηση για πληκτρολόγηση: `prefs:root=General&path=Keyboard#KeyboardContinuousPathEnabled`
+- Γενικά → Πληκτρολόγιο → Ενεργοποίηση Υπαγόρευσης: `prefs:root=General&path=Keyboard#Dictation`
+- Γενικά → Πληκτρολόγιο → Αυτόματη στίξη: `prefs:root=General&path=Keyboard#AutoPunctuationSetting`
+- Γενικά → Ενημέρωση λογισμικού: `prefs:root=General&path=SOFTWARE_UPDATE_LINK`
+- Γενικά → Ενημέρωση λογισμικού → Αυτόματες ενημερώσεις: `prefs:root=General&path=SOFTWARE_UPDATE_LINK/SUAutomaticUpdateButton`
+- Γενικά → Χώρος αποθήκευσης: `prefs:root=General&path=STORAGE_MGMT`
+- Γενικά → Χώρος αποθήκευσης → Χώρος αποθήκευσης: `prefs:root=General&path=STORAGE_MGMT#MANAGE`
+- Γενικά → Χώρος αποθήκευσης → Απεγκατάσταση αχρησιμοποίητων: `prefs:root=General&path=STORAGE_MGMT#OFFLOAD`
+- Γενικά → Εικόνα εντός εικόνας: `prefs:root=General&path=PiP_SPEC`
+- Γενικά → Επιφάνεια αφής | Επιφάνεια αφής και ποντίκι: `prefs:root=General&path=POINTERS`
+- Γενικά → NFC: `prefs:root=General&path=NFC_LINK`
+- Γενικά → VPN: `prefs:root=General&path=VPN`
+- Γενικά → CarPlay: `prefs:root=General&path=CARPLAY`
+- Γενικά → Πληροφορίες: `prefs:root=General&path=About`
+- Γενικά → Πληροφορίες → Αξιόπιστα πιστοποιητικά: `prefs:root=General&path=About/CERT_TRUST_SETTINGS`
+- Γενικά → Πληροφορίες → Σειριακός αριθμός: `prefs:root=General&path=About#SerialNumber`
+- Γενικά → Πληροφορίες → Αριθμός μοντέλου: `prefs:root=General&path=About#ProductModel`
+- Γενικά → Πληροφορίες → Όνομα μοντέλου: `prefs:root=General&path=About#ProductModelName`
+- Γενικά → Πληροφορίες → Έκδοση iOS: `prefs:root=General&path=About/SW_VERSION_SPECIFIER`
+- Γενικά → Νομικά και ρυθμιστικά: `prefs:root=General&path=LEGAL_AND_REGULATORY`
+- Γενικά → Νομικά και ρυθμιστικά → Εγγύηση: `prefs:root=General&path=LEGAL_AND_REGULATORY#Warranty`
+- Γενικά → AirDrop: `prefs:root=General&path=AIRDROP_LINK`
+- Γενικά → AirDrop → Τοποθέτηση συσκευών κοντά: `prefs:root=General&path=AIRDROP_LINK#AIRDROP_NFC_ID`
+- Γενικά → Κουμπί Αφετηρίας: `prefs:root=General&path=HOME_BUTTON`
+- Γενικά → Πλευρικός διακόπτης: `prefs:root=General#Rotation_Switch_Action_Group`
+- Γενικά → Ανανέωση στο παρασκήνιο: `prefs:root=General&path=AUTO_CONTENT_DOWNLOAD`
+- Γενικά → Ημερομηνία και ώρα: `prefs:root=General&path=DATE_AND_TIME`
+- Γενικά → Έξοδος TV: `prefs:root=General&path=TV_OUT`
+- Γενικά → Επαναφορά: `prefs:root=General&path=Reset`
+- Γενικά → Επαναφορά → Επαναφορά όλων των ρυθμίσεων: `prefs:root=General&path=Reset#settingsErase`
+- Γενικά → Επαναφορά → Σβήσιμο όλου του περιεχομένου και ρυθμίσεων: `prefs:root=General&path=Reset#fullErase`
+- Γενικά → Επαναφορά → Ρυθμίσεις δικτύου: `prefs:root=General&path=Reset#RESET_NETWORK_LABEL`
+- Γενικά → Επαναφορά → Αφαίρεση όλων των προγραμμάτων: `prefs:root=General&path=Reset#cellularErase`
+- Γενικά → Επαναφορά → Υπηρεσίες συνδρομητών: `prefs:root=General&path=Reset#SUBSCRIBER_SERVICES_ID`
+- Γενικά → Επαναφορά → Επαναφορά λεξικού πληκτρολογίου: `prefs:root=General&path=Reset#RESET_KEYBOARD_DICTIONARY_LABEL`
+- Γενικά → Επαναφορά → Επαναφορά διάταξης οθόνης Αφετηρίας: `prefs:root=General&path=Reset#RESET_ICONS_LABEL`
+- Γενικά → Επαναφορά → Επαναφορά τοποθεσίας και απορρήτου: `prefs:root=General&path=Reset#RESET_PRIVACY_LABEL`
+- Γενικά → Τερματισμός: `prefs:root=General#SHUTDOWN_LABEL`
+- Γενικά → AirPlay και Συνέχιση: `prefs:root=General&path=CONTINUITY_SPEC`
+- Γενικά → AirPlay και Συνέχιση → Handoff: `prefs:root=General&path=CONTINUITY_SPEC#CONTINUITY`
+- Γενικά → AirPlay και Συνέχιση → Μεταβίβαση στο HomePod: `prefs:root=General&path=CONTINUITY_SPEC#TRANSFER_TO_HOMEPOD`
+- Γενικά → AirPlay και Συνέχιση → Αυτόματο AirPlay: `prefs:root=General&path=CONTINUITY_SPEC#AUTOMATICALLY_AIRPLAY`
+- Γενικά → AirPlay και Συνέχιση → Κάμερα Συνέχισης: `prefs:root=General&path=CONTINUITY_SPEC#WOMBAT_CAMERA`
+- Γενικά → Γλώσσα και περιοχή: `prefs:root=General&path=INTERNATIONAL`
+- Γενικά → Γλώσσα και περιοχή → Άλλες γλώσσες…: `prefs:root=General&path=INTERNATIONAL#NEW_PREFERRED_LANGUAGE`
+- Γενικά → Γλώσσα και περιοχή → Σειρά προτιμώμενων γλωσσών: `prefs:root=General&path=INTERNATIONAL#PREFERRED_LANGUAGE_GROUP`
+- Γενικά → Γλώσσα και περιοχή → Προσθήκη γλώσσας…: `prefs:root=General&path=INTERNATIONAL#ADD_PREFERRED_LANGUAGE`
+- Γενικά → Γλώσσα και περιοχή → Περιοχή: `prefs:root=General&path=INTERNATIONAL/LOCALE`
+- Γενικά → Γλώσσα και περιοχή → Αριθμοί: `prefs:root=General&path=INTERNATIONAL/NUMBERING_SYSTEM`
+- Γενικά → Γλώσσα και περιοχή → Ημερολόγιο: `prefs:root=General&path=INTERNATIONAL/CALENDAR`
+- Γενικά → Γλώσσα και περιοχή → Μονάδα θερμοκρασίας: `prefs:root=General&path=INTERNATIONAL/TEMPERATURE_UNIT`
+- Λογαριασμός Apple: `prefs:root=APPLE_ACCOUNT` or `settings-navigation://com.apple.Settings.AppleAccount`
+- Λογαριασμός Apple → Επαλήθευση κλειδ. επαφής: `prefs:root=APPLE_ACCOUNT&path=TRANSPARENCY` or `settings-navigation://com.apple.Settings.AppleAccount/TRANSPARENCY`
+- Λογαριασμός Apple → iCloud: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE` or `prefs:root=CASTLE`
+- Λογαριασμός Apple → iCloud → Χώρος αποθήκευσης iCloud: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/STORAGE_AND_BACKUP` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/STORAGE_AND_BACKUP` or `prefs:root=CASTLE&path=STORAGE_AND_BACKUP`
+- Λογαριασμός Apple → iCloud → iCloud Drive: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Ubiquity` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Ubiquity` or `prefs:root=CASTLE&path=com.apple.Dataclass.Ubiquity`
+- Λογαριασμός Apple → iCloud → Φωτογραφίες: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.MediaStream` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.MediaStream` or `prefs:root=CASTLE&path=com.apple.Dataclass.MediaStream`
+- Λογαριασμός Apple → iCloud → Mail: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Mail` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail` or `prefs:root=CASTLE&path=com.apple.Dataclass.Mail`
+- Λογαριασμός Apple → iCloud → Επαφές: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Contacts` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Contacts` or `prefs:root=CASTLE&path=com.apple.Dataclass.Contacts`
+- Λογαριασμός Apple → iCloud → Ημερολόγιο: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Calendars` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Calendars` or `prefs:root=CASTLE&path=com.apple.Dataclass.Calendars`
+- Λογαριασμός Apple → iCloud → Υπομνήσεις: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Reminders` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Reminders` or `prefs:root=CASTLE&path=com.apple.Dataclass.Reminders`
+- Λογαριασμός Apple → iCloud → Safari: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Bookmarks` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Bookmarks` or `prefs:root=CASTLE&path=com.apple.Dataclass.Bookmarks`
+- Λογαριασμός Apple → iCloud → Σημειώσεις: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Notes` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Notes` or `prefs:root=CASTLE&path=com.apple.Dataclass.Notes`
+- Λογαριασμός Apple → iCloud → News: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.News` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.News` or `prefs:root=CASTLE&path=com.apple.Dataclass.News`
+- Λογαριασμός Apple → iCloud → Εφεδρικό αντίγραφο: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/BACKUP` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/BACKUP` or `prefs:root=CASTLE&path=BACKUP`
+- Λογαριασμός Apple → iCloud → Υγεία: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Health` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Health` or `prefs:root=CASTLE&path=com.apple.Dataclass.Health`
+- Λογαριασμός Apple → iCloud → Συνθηματικά και Κλειδοθήκη: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.KeychainSync` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.KeychainSync` or `prefs:root=CASTLE&path=com.apple.Dataclass.KeychainSync`
+- Λογαριασμός Apple → iCloud → Απόκρυψη email: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/PRIVATE_EMAIL_MANAGE` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/PRIVATE_EMAIL_MANAGE` or `prefs:root=CASTLE&path=PRIVATE_EMAIL_MANAGE`
+- Λογαριασμός Apple → Κοινοποίηση τοποθεσίας μου: `prefs:root=APPLE_ACCOUNT&path=LOCATION_SHARING` or `settings-navigation://com.apple.Settings.AppleAccount/LOCATION_SHARING`
+- Λογαριασμός Apple → Κοινοποίηση τοποθεσίας μου → Εύρεση: `prefs:root=APPLE_ACCOUNT&path=LOCATION_SHARING/FindMyDevice-Settings` or `settings-navigation://com.apple.Settings.AppleAccount/LOCATION_SHARING/FindMyDevice-Settings`
+- Λογαριασμός Apple → Όνομα, αριθμοί τηλεφώνου, email: `prefs:root=APPLE_ACCOUNT&path=APPLE_ACCOUNT_CONTACT` or `settings-navigation://com.apple.Settings.AppleAccount/APPLE_ACCOUNT_CONTACT`
+- Λογαριασμός Apple → Συνθηματικό και ασφάλεια: `prefs:root=APPLE_ACCOUNT&path=PASSWORD_AND_SECURITY` or `settings-navigation://com.apple.Settings.AppleAccount/PASSWORD_AND_SECURITY`
+- Λογαριασμός Apple → Πληρωμή και αποστολή: `prefs:root=APPLE_ACCOUNT&path=PAYMENT_AND_SHIPPING` or `settings-navigation://com.apple.Settings.AppleAccount/PAYMENT_AND_SHIPPING`
+- Λογαριασμός Apple → Συνδρομές: `prefs:root=APPLE_ACCOUNT&path=SUBSCRIPTIONS` or `settings-navigation://com.apple.Settings.AppleAccount/SUBSCRIPTIONS`
+- Λογαριασμός Apple → Οικογένεια: `prefs:root=APPLE_ACCOUNT&path=Family` or `settings-navigation://com.apple.Settings.AppleAccount/Family`
+- Γνωστοποιήσεις: `prefs:root=NOTIFICATIONS_ID`
+- Γνωστοποιήσεις → Προγραμματισμένη σύνοψη: `prefs:root=NOTIFICATIONS_ID&path=SCHEDULED_DELIVERY_ID`
+- Καιρός: `prefs:root=WEATHER`
+- Freeform: `prefs:root=FREEFORM`
+- Συγκέντρωση: `prefs:root=DO_NOT_DISTURB`
+- Συγκέντρωση → Κατάσταση Συγκέντρωσης: `prefs:root=DO_NOT_DISTURB&path=status`
+- Λεύκωμα: `prefs:root=JOURNAL`
+- Πορτοφόλι και Apple Pay: `prefs:root=PASSBOOK`
+- Πορτοφόλι και Apple Pay → Apple Cash: `prefs:root=PASSBOOK#Apple%C2%A0Cash`
+- Πορτοφόλι και Apple Pay → Κάρτες πληρωμής: `prefs:root=PASSBOOK#SETTINGS_PAYMENT_CARDS_GROUP`
+- Πορτοφόλι και Apple Pay → Νέα κάρτα: `prefs:root=PASSBOOK#Add%20Card`
+- Πορτοφόλι και Apple Pay → Διπλό κλικ στο πλευρικό κουμπί: `prefs:root=PASSBOOK#Double-Click%20Side%20Button`
+- Πορτοφόλι και Apple Pay → Παρακολούθηση παραγγελίας: `prefs:root=PASSBOOK#ORDER_TRACKING`
+- Εμφάνιση | Οθόνη και φωτεινότητα: `prefs:root=DISPLAY`
+- Εμφάνιση | Οθόνη και φωτεινότητα → Εμφάνιση: `prefs:root=DISPLAY#DEVICE_APPEARANCE`
+- Εμφάνιση | Οθόνη και φωτεινότητα → True Tone: `prefs:root=DISPLAY#WHITE_BALANCE`
+- Εμφάνιση | Οθόνη και φωτεινότητα → Night Shift: `prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION`
+- Εμφάνιση | Οθόνη και φωτεινότητα → Night Shift → Προγραμματισμένα: `prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION#SCHEDULED`
+- Εμφάνιση | Οθόνη και φωτεινότητα → Night Shift → Ενεργοποίηση χειροκίνητα μέχρι αύριο: `prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION#MANUAL`
+- Εμφάνιση | Οθόνη και φωτεινότητα → Night Shift → Θερμοκρασία χρωμάτων: `prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION#COLOR_TEMPERATURE`
+- Εμφάνιση | Οθόνη και φωτεινότητα → Αυτόματο κλείδωμα: `prefs:root=DISPLAY&path=AUTOLOCK`
+- Εμφάνιση | Οθόνη και φωτεινότητα → Σήκωμα για αφύπνιση: `prefs:root=DISPLAY#RAISE_TO_WAKE`
+- Εμφάνιση | Οθόνη και φωτεινότητα → Κλείδωμα/Ξεκλείδωμα: `prefs:root=DISPLAY#SMART_CASE_LOCK_SPEC`
+- Εμφάνιση | Οθόνη και φωτεινότητα → Μέγεθος κειμένου: `prefs:root=DISPLAY&path=TEXT_SIZE`
+- Εμφάνιση | Οθόνη και φωτεινότητα → Έντονο κείμενο: `prefs:root=DISPLAY#BOLD_TEXT`
+- Εμφάνιση | Οθόνη και φωτεινότητα → Φωτεινότητα: `prefs:root=DISPLAY#BRIGHTNESS`
+- Εμφάνιση | Οθόνη και φωτεινότητα → Ζουμ οθόνης: `prefs:root=DISPLAY#DISPLAY_ZOOM_GROUP`
+- Εμφάνιση | Οθόνη και φωτεινότητα → Εμφάνιση: `prefs:root=DISPLAY&path=APPEARANCE`
+- Εμφάνιση | Οθόνη και φωτεινότητα → Εμφάνιση → Ζουμ παραθύρου: `prefs:root=DISPLAY&path=APPEARANCE#WINDOW_ZOOM`
+- Εμφάνιση | Οθόνη και φωτεινότητα → Εμφάνιση → Ζουμ στο παράθυρο με δύο χέρια: `prefs:root=DISPLAY&path=APPEARANCE#TWO_HANDED_WINDOW_ZOOM`
+- Εμφάνιση | Οθόνη και φωτεινότητα → Προβολή: `prefs:root=DISPLAY&path=MAGNIFY`
+- Εμφάνιση | Οθόνη και φωτεινότητα → Πάντα ενεργή οθόνη: `prefs:root=DISPLAY&path=ALWAYS_ON`
+- Εμφάνιση | Οθόνη και φωτεινότητα → Πάντα ενεργή οθόνη → Πάντα ενεργή οθόνη: `prefs:root=DISPLAY&path=ALWAYS_ON#ALWAYS_ON`
+- Εμφάνιση | Οθόνη και φωτεινότητα → Συμβατές εφαρμογές: `prefs:root=DISPLAY&path=COMPATIBLE_APPEARANCE`
+- Εμφάνιση | Οθόνη και φωτεινότητα → Συμβατές εφαρμογές → Σκούρα, ανοιχτόχρωμη: `prefs:root=DISPLAY&path=COMPATIBLE_APPEARANCE#COMPATIBLE_APPEARANCE_CHOICES`
+- Μέτρηση: `prefs:root=MEASURE` or `settings-navigation://com.apple.Settings.Apps/com.apple.measure`
+- Μέτρηση → Μονάδες μέτρησης: `prefs:root=MEASURE#MEASURE_UNITS` or `settings-navigation://com.apple.Settings.Apps/com.apple.measure#MEASURE_UNITS#MEASURE_UNITS`
+- Μέτρηση → Βρετανικό σύστημα: `prefs:root=MEASURE#Imperial` or `settings-navigation://com.apple.Settings.Apps/com.apple.measure#Imperial#Imperial`
+- Μέτρηση → Μετρικό σύστημα: `prefs:root=MEASURE#Metric` or `settings-navigation://com.apple.Settings.Apps/com.apple.measure#Metric#Metric`
+- Ταπετσαρία: `prefs:root=Wallpaper`
+- Κέντρο ελέγχου: `prefs:root=ControlCenter`
+- Κέντρο ελέγχου → Πρόσβαση εντός εφαρμογών: `prefs:root=ControlCenter#ALLOWED_WITHIN_APPS`
+- Κέντρο ελέγχου → Προσαρμογή στοιχείων ελέγχου: `prefs:root=ControlCenter&path=CUSTOMIZE_CONTROLS`
+- Μαγνητόφωνο: `prefs:root=VOICE_MEMOS`
+- Μαγνητόφωνο → Σβήσιμο διαγραμμένων: `prefs:root=VOICE_MEMOS&path=RCVoiceMemosRecentlyDeletedWindowKey`
+- Μαγνητόφωνο → Ποιότητα ήχου: `prefs:root=VOICE_MEMOS&path=RCVoiceMemosAudioQualityKey`
+- Μαγνητόφωνο → Ονομασία βάσει τοποθεσίας: `prefs:root=VOICE_MEMOS#RCVoiceMemosUseLocationBasedNaming`
+- Ημερολόγιο: `prefs:root=CALENDAR`
+- Ημερολόγιο → Παράκαμψη ζώνης ώρας: `prefs:root=CALENDAR&path=TimeZoneCityArray`
+- Ημερολόγιο → Εναλλακτικά ημερολόγια: `prefs:root=CALENDAR&path=Alternate%20Calendars`
+- Ημερολόγιο → Αριθμοί εβδομάδων: `prefs:root=CALENDAR#Week%20Numbers`
+- Ημερολόγιο → Εμφάνιση απορριμμένων προσκλήσεων: `prefs:root=CALENDAR#Show%20Invitee%20Declines`
+- Ημερολόγιο → Συγχρονισμός: `prefs:root=CALENDAR&path=Sync`
+- Ημερολόγιο → Προεπιλογή ωρών ειδοποίησης: `prefs:root=CALENDAR&path=Default%20Alert%20Times`
+- Ημερολόγιο → Αρχή εβδομάδας: `prefs:root=CALENDAR&path=Start%20Week%20On`
+- Ημερολόγιο → Προτεινόμενες τοποθεσίες: `prefs:root=CALENDAR#Location%20Suggestions`
+- Δημιουργός: `prefs:root=DEVELOPER_SETTINGS`
+- Δημιουργός → Πολυδιαδρομική δικτύωση: `prefs:root=DEVELOPER_SETTINGS&path=MULTI_PATH_AGG`
+- Δημιουργός → Πολυδιαδρομική δικτύωση → Πολυδιαδρομική δικτύωση: `prefs:root=DEVELOPER_SETTINGS&path=MULTI_PATH_AGG#Multipath%20Networking`
+- Δημιουργός → Εμφάνιση: `prefs:root=DEVELOPER_SETTINGS#UIAppearanceGroup`
+- Δημιουργός → Σκούρα εμφάνιση: `prefs:root=DEVELOPER_SETTINGS#UIAppearanceSettings`
+- Δημιουργός → Ζευγοποιημένες συσκευές: `prefs:root=DEVELOPER_SETTINGS#DTPairedDevicesGroup`
+- Δημιουργός → Εκκαθάριση αξιόπιστων υπολογιστών: `prefs:root=DEVELOPER_SETTINGS#CLEAR_TRUSTED_COMPUTERS`
+- Δημιουργός → Καταγραφή: `prefs:root=DEVELOPER_SETTINGS&path=DTInstrumentsSettings`
+- Δημιουργός → Αυτοματοποίηση διεπαφής χρήστη | Ενεργοποίηση Αυτοματοποίησης: `prefs:root=DEVELOPER_SETTINGS#UIAGroup`
+- Δημιουργός → Δικτύωση: `prefs:root=DEVELOPER_SETTINGS#NLCGroup`
+- Δημιουργός → Προσομοιωτής σύνδεσης δικτύου: `prefs:root=DEVELOPER_SETTINGS&path=NLC`
+- Δημιουργός → Πρόσθετη καταγραφή: `prefs:root=DEVELOPER_SETTINGS#ADDITIONAL_LOGGING`
+- Δημιουργός → Επιτρέπονται υπηρεσίες HTTP: `prefs:root=DEVELOPER_SETTINGS#ALLOW_HTTP_SERVICES`
+- Δημιουργός → Απενεργοποίηση περιορισμού ρυθμού: `prefs:root=DEVELOPER_SETTINGS#DISABLE_RATE_LIMITING`
+- Δημιουργός → Κωδικός NFC προαιρετικός: `prefs:root=DEVELOPER_SETTINGS#NFC_PASS_KEY_OPTIONAL`
+- Δημιουργός → Δοκιμές στις Υπηρεσίες πολυμέσων: `prefs:root=DEVELOPER_SETTINGS#MEDIA_SERVICES_TESTING`
+- Δημιουργός → Επαναφορά των Υπηρεσιών πολυμέσων: `prefs:root=DEVELOPER_SETTINGS#RESET_MEDIA_SERVICES`
+- Δημιουργός → Δοκιμές στο News: `prefs:root=DEVELOPER_SETTINGS#NEWS_TESTING`
+- Δημιουργός → Εκκαθάριση τοπικών δεδομένων στην επόμενη εκκίνηση: `prefs:root=DEVELOPER_SETTINGS#RESET_LOCAL_DATA_ON_NEXT_LAUNCH`
+- Δημιουργός → Δοκιμές στο Πλαίσιο προγράμματος αναπαραγωγής πολυμέσων: `prefs:root=DEVELOPER_SETTINGS#RoutineSettingsGroup`
+- Δημιουργός → API αναπαράξιμου περιεχομένου: `prefs:root=DEVELOPER_SETTINGS&path=RoutineSettings`
+- Δημιουργός → Πάροχος τηλ. υπηρεσιών: `prefs:root=DEVELOPER_SETTINGS&path=VideoSubscriberAccountSettings`
+- Δημιουργός → API ClassKit: `prefs:root=DEVELOPER_SETTINGS&path=ClassKitSettings`
+- Δημιουργός → Δοκιμές στο CoreSpotlight: `prefs:root=DEVELOPER_SETTINGS#CORESPOTLIGHT_TESTING`
+- Δημιουργός → Εκ νέου ευρετηριοποίηση όλων των στοιχείων: `prefs:root=DEVELOPER_SETTINGS#REINDEX_ALL_ITEMS`
+- Δημιουργός → Εκ νέου ευρετηριοποίηση όλων των στοιχείων με αναγνωριστικά: `prefs:root=DEVELOPER_SETTINGS#REINDEX_ALL_ITEMS_WITH_IDENTIFIERS`
+- Δημιουργός → Δοκιμές στις Συντομεύσεις: `prefs:root=DEVELOPER_SETTINGS#SIRI_ACTIONS_TESTING`
+- Δημιουργός → Εμφάνιση πρόσφατων συντομεύσεων: `prefs:root=DEVELOPER_SETTINGS#DISPLAY_DONATIONS_SPOTLIGHT`
+- Δημιουργός → Εμφάνιση προσεχών πολυμέσων: `prefs:root=DEVELOPER_SETTINGS#DISPLAY_UPCOMING_MEDIA`
+- Δημιουργός → Εμφάνιση δωρεών στην οθόνη κλειδώματος: `prefs:root=DEVELOPER_SETTINGS#DISPLAY_DONATIONS_LOCKSCREEN`
+- Δημιουργός → Επιβολή συγχρονισμού συντομεύσεων σε Watch: `prefs:root=DEVELOPER_SETTINGS#SIRI_ACTIONS_SYNC_WATCHOS`
+- Δημιουργός → Δοκιμές στο MIDI-CI: `prefs:root=DEVELOPER_SETTINGS#MIDI_CI_API_BETA`
+- Δημιουργός → Ενεργοποίηση MIDI-CI: `prefs:root=DEVELOPER_SETTINGS#MIDI_CI_API_BETA_ENABLE`
+- Δημιουργός → Ανίχνευση διακοπής απόκρισης: `prefs:root=DEVELOPER_SETTINGS#HANGTRACER_EXTERNAL_CONFIGURE`
+- Face ID και κωδικός | Touch ID και κωδικός | Κωδικός: `prefs:root=PASSCODE`
+- Face ID και κωδικός | Touch ID και κωδικός | Κωδικός → Απενεργοποίηση κωδικού: `prefs:root=PASSCODE#PASSCODE_OFF`
+- Face ID και κωδικός | Touch ID και κωδικός | Κωδικός → Αλλαγή κωδικού: `prefs:root=PASSCODE#CHANGE_PASSCODE`
+- Face ID και κωδικός | Touch ID και κωδικός | Κωδικός → Απαίτηση κωδικού: `prefs:root=PASSCODE&path=PASSCODE_REQ`
+- Face ID και κωδικός | Touch ID και κωδικός | Κωδικός → Φωνητική κλήση: `prefs:root=PASSCODE#VOICE_DIAL`
+- Face ID και κωδικός | Touch ID και κωδικός | Κωδικός → Να επιτρέπεται η πρόσβαση από κλειδωμένη οθόνη: `prefs:root=PASSCODE#ALLOW_ACCESS_WHEN_LOCKED`
+- Face ID και κωδικός | Touch ID και κωδικός | Κωδικός → Απάντηση με μήνυμα: `prefs:root=PASSCODE#REPLY_WITH_MESSAGE_SWITCH`
+- Face ID και κωδικός | Touch ID και κωδικός | Κωδικός → Έλεγχος της Οικίας: `prefs:root=PASSCODE#HOME_CONTROL_SWITCH`
+- Face ID και κωδικός | Touch ID και κωδικός | Κωδικός → Πορτοφόλι: `prefs:root=PASSCODE#WALLET_SWITCH`
+- Face ID και κωδικός | Touch ID και κωδικός | Κωδικός → Επιστροφή αναπάντητων: `prefs:root=PASSCODE#RETURN_MISSED_CALLS_SWITCH`
+- Face ID και κωδικός | Touch ID και κωδικός | Κωδικός → Σβήσιμο δεδομένων: `prefs:root=PASSCODE#WIPE_DEVICE`
+- Face ID και κωδικός | Touch ID και κωδικός | Κωδικός → Ξεκλείδωμα μέσω Apple Watch: `prefs:root=PASSCODE#AUTO_UNLOCK_DEVICES_GROUP`
+- Face ID και κωδικός | Touch ID και κωδικός | Κωδικός → Προστασία κλεμμένης συσκευής: `prefs:root=PASSCODE#DTO_GROUP_ID`
+- Τηλέφωνο: `prefs:root=Phone`
+- Τηλέφωνο → Ο αριθμός μου: `prefs:root=Phone&path=My%20Number`
+- Τηλέφωνο → Εισερχόμενες: `prefs:root=Phone&path=INCOMING_CALL_STYLE`
+- Τηλέφωνο → Ανακοίνωση κλήσεων: `prefs:root=Phone&path=ANNOUNCE_CALLS`
+- Τηλέφωνο → Αναφορές SMS/κλήσεων: `prefs:root=Phone&path=CLASSIFICATION_AND_REPORTING`
+- Τηλέφωνο → Απάντηση με μήνυμα: `prefs:root=Phone&path=Respond%20with%20Text`
+- Τηλέφωνο → Προώθηση κλήσεων: `prefs:root=Phone&path=Call%20Forwarding`
+- Τηλέφωνο → Προώθηση κλήσεων → Προώθηση κλήσεων: `prefs:root=Phone&path=Call%20Forwarding#idMasterOnOffSwitch`
+- Τηλέφωνο → Αναμονή κλήσεων: `prefs:root=Phone&path=Call%20Waiting`
+- Τηλέφωνο → Εμφάνιση αριθμού μου: `prefs:root=Phone&path=Show%20My%20Caller%20ID`
+- Τηλέφωνο → Εμφάνιση αριθμού μου → Εμφάνιση αριθμού μου: `prefs:root=Phone&path=Show%20My%20Caller%20ID/Primary`
+- Τηλέφωνο → Εμφάνιση αριθμού μου → Εμφάνιση αριθμού μου → Εμφάνιση αριθμού μου: `prefs:root=Phone&path=Show%20My%20Caller%20ID/Primary#Show%20My%20Caller%20ID`
+- Τηλέφωνο → Σίγαση άγνωστων αριθμών: `prefs:root=Phone#SILENCE_CALLS`
+- Τηλέφωνο → Αποκλεισμένες επαφές: `prefs:root=Phone&path=SPECIFIER_IDENTIFIER_BLACKLIST`
+- Τηλέφωνο → Βοήθεια κλήσεων: `prefs:root=Phone&path=Dial%20Assist`
+- Σημειώσεις: `prefs:root=NOTES` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes`
+- Σημειώσεις → Προεπιλεγμένος λογαριασμός: `prefs:root=NOTES&path=Default%20Account` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes/Default%20Account`
+- Σημειώσεις → Συνθηματικό: `prefs:root=NOTES&path=Password` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes/Password`
+- Σημειώσεις → Ταξινόμηση κατά: `prefs:root=NOTES&path=Sort%20Notes%20By` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes/Sort%20Notes%20By`
+- Σημειώσεις → Στιλ νέων σημειώσεων: `prefs:root=NOTES&path=New%20Notes%20Start%20With` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes/New%20Notes%20Start%20With`
+- Σημειώσεις → Ταξινόμηση επιλεγμένων στοιχείων: `prefs:root=NOTES&path=Sort%20Checked%20Items` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes/Sort%20Checked%20Items`
+- Σημειώσεις → Γραμμές και πλέγματα: `prefs:root=NOTES&path=Lines%20%26%20Grids` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes/Lines%20%26%20Grids`
+- Σημειώσεις → Αποθήκευση στις Φωτογραφίες: `prefs:root=NOTES#Save%20to%20Photos` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes#Save%20to%20Photos#Save%20to%20Photos`
+- Σημειώσεις → Σημειώσεις από οθόνη κλειδώμ.: `prefs:root=NOTES&path=Access%20Notes%20from%20Lock%20Screen` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes/Access%20Notes%20from%20Lock%20Screen`
+- Βιβλία: `prefs:root=IBOOKS`
+- Βιβλία → Διαδικτυακό υλικό: `prefs:root=IBOOKS#BKAllowOnlineContent`
+- Βιβλία → ΣΥΓΧΡΟΝΙΣΜΟΣ: `prefs:root=IBOOKS#SYNCING`
+- Βιβλία → Σε ανάγνωση: `prefs:root=IBOOKS#BKLibrary.ReadingNow`
+- Βιβλία → iCloud Drive: `prefs:root=IBOOKS#BCSyncICloudDrive`
+- Βιβλία → ΣΕ ΑΝΑΓΝΩΣΗ: `prefs:root=IBOOKS#READING`
+- Βιβλία → Πλήρης στοίχιση: `prefs:root=IBOOKS#BKFullJustification`
+- Βιβλία → Αυτόματος συλλαβισμός: `prefs:root=IBOOKS#BKAutoHyphenation`
+- Βιβλία → Άγγιγμα για συνέχιση: `prefs:root=IBOOKS#BKLeftTapTurnToNext`
+- Βιβλία → Στόχοι ανάγνωσης: `prefs:root=IBOOKS#READING_GOALS`
+- Βιβλία → Εκκαθάριση δεδομένων στόχων ανάγνωσης: `prefs:root=IBOOKS#BKReadingGoalsShouldClearDataKey`
+- Βιβλία → ΑΝΑΖΗΤΗΣΗ: `prefs:root=IBOOKS#SEARCHING`
+- Βιβλία → Store βιβλίων: `prefs:root=IBOOKS#BKIncludeBookStoreResultsInSearch`
+- Βιβλία → ΗΧΟΒΙΒΛΙΑ: `prefs:root=IBOOKS#AUDIOBOOKS`
+- Βιβλία → Μετάβαση μπροστά: `prefs:root=IBOOKS&path=BKAudioBookSkipForward`
+- Βιβλία → Μετάβαση πίσω: `prefs:root=IBOOKS&path=BKAudioBookSkipBackward`
+- Βιβλία → ΕΞΩΤΕΡΙΚΑ ΣΤΟΙΧΕΙΑ ΕΛΕΓΧΟΥ: `prefs:root=IBOOKS#BKRemoteSkipInsteadOfNextTrackDefaultKey`
+- Βιβλία → Επόμενο/Προηγούμενο: `prefs:root=IBOOKS#Next/Previous`
+- Βιβλία → Μετάβαση μπροστά/πίσω: `prefs:root=IBOOKS#Skip%20Forward/Back`
+- Βιβλία → ΑΠΟΡΡΗΤΟ: `prefs:root=IBOOKS#PRIVACY`
+- Βιβλία → Επαναφορά αναγνωριστικού: `prefs:root=IBOOKS#BAResetAnalyticsUserID`
+- Βιβλία → Αναγνωρίσεις: `prefs:root=IBOOKS&path=Acknowledgements`
+- Game Center: `prefs:root=GAMECENTER`
+- Επείγον SOS: `prefs:root=EMERGENCY_SOS`
+- Επείγον SOS → Κλήση με πλευρικό κουμπί: `prefs:root=EMERGENCY_SOS#CALL_WITH_SIDE_BUTTON`
+- Επείγον SOS → Αυτόματη κλήση: `prefs:root=EMERGENCY_SOS#AUTO_CALL`
+- Επείγον SOS → Επαφές έκτακτης ανάγκης: `prefs:root=EMERGENCY_SOS#EMERGENCY_CONTACTS`
+- Επείγον SOS → Ήχος αντίστροφης μέτρησης: `prefs:root=EMERGENCY_SOS#ALARM_SOUND_SWITCH`
+- Υπομνήσεις: `prefs:root=REMINDERS`
+- Υπομνήσεις → Προεπιλεγμένη λίστα: `prefs:root=REMINDERS&path=DEFAULT_LIST`
+- Υπομνήσεις → Προεπιλεγμένη λίστα → Υπομνήσεις: `prefs:root=REMINDERS&path=DEFAULT_LIST#preferredDefaultListID`
+- Υπομνήσεις → Γνωστοποίηση «Σήμερα»: `prefs:root=REMINDERS#todayNotificationFireTime`
+- Υπομνήσεις → Εμφάνιση ως εκπρόθεσμων: `prefs:root=REMINDERS#showRemindersAsOverdue`
+- Κινητό δίκτυο: `prefs:root=MOBILE_DATA_SETTINGS_ID`
+- Κινητό δίκτυο → Επιλογές: `prefs:root=MOBILE_DATA_SETTINGS_ID&path=CELLULAR_DATA_OPTIONS`
+- Κινητό δίκτυο → Επιλογές → UNKNOWN_LABEL: `prefs:root=MOBILE_DATA_SETTINGS_ID&path=CELLULAR_DATA_OPTIONS#Low%20Data%20Mode`
+- Κινητό δίκτυο → Κινητό δίκτυο: `prefs:root=MOBILE_DATA_SETTINGS_ID&path=SHOW_ALL`
+- WLAN | Wi-Fi: `prefs:root=WIFI`
+- Επαφές: `prefs:root=CONTACTS`
+- Επαφές → Επιτρέπεται στις Επαφές η πρόσβαση: `prefs:root=CONTACTS#Allow%20Contacts%20To%20Access`
+- Επαφές → Siri: `prefs:root=CONTACTS&path=SIRI_AND_SEARCH`
+- Επαφές → Σειρά ταξινόμησης: `prefs:root=CONTACTS&path=ContactsSortOrder`
+- Επαφές → Σειρά εμφάνισης: `prefs:root=CONTACTS&path=PersonNameOrder`
+- Επαφές → Σύντομο όνομα: `prefs:root=CONTACTS&path=PersonShortName`
+- Επαφές → Σύντομο όνομα → Σύντομο όνομα: `prefs:root=CONTACTS&path=PersonShortName#Short%20Name`
+- Επαφές → Σύντομο όνομα → Προτίμηση προσωνυμίων: `prefs:root=CONTACTS&path=PersonShortName#Prefer%20Nicknames`
+- Επαφές → Τα στοιχεία μου: `prefs:root=CONTACTS&path=MeCard`
+- Επαφές → Εισαγωγή επαφών από SIM: `prefs:root=CONTACTS#SIMImport`
+- Συντομεύσεις: `prefs:root=SHORTCUTS`
+- Συντομεύσεις → Συγχρονισμός iCloud: `prefs:root=SHORTCUTS#WFCloudKitSyncEnabled`
+- Συντομεύσεις → Συγχρ. σειράς συντομεύσεων: `prefs:root=SHORTCUTS#WFCloudKitSyncOrderEnabled`
+- Συντομεύσεις → Νομικές ειδοποιήσεις: `prefs:root=SHORTCUTS&path=Legal%20Notices`
+- TV | Βίντεο: `prefs:root=TVAPP`
+- TV | Βίντεο → Χρήση κινητού δικτύου για αναπαραγωγή: `prefs:root=TVAPP#com.apple.videos%3AVideosUseCellularDataEnabledSetting`
+- TV | Βίντεο → Ποιότητα αναπαραγωγής: `prefs:root=TVAPP#com.apple.videos%3APlaybackQualityGroup`
+- TV | Βίντεο → Αγορές και ενοικιάσεις: `prefs:root=TVAPP&path=com.apple.videos%3APreferredPurchaseResolution`
+- TV | Βίντεο → Οικιακή κοινή χρήση: `prefs:root=TVAPP#com.apple.videos%3AHomeSharingFooter`
+- Μουσική: `prefs:root=MUSIC`
+- Μουσική → Εμφάνιση Apple Music: `prefs:root=MUSIC#com.apple.Music%3AAppleMusicEnabled`
+- Μουσική → Προσθήκη τραγουδιών λιστών: `prefs:root=MUSIC#com.apple.Music%3AAddPlaylistSongsToMyMusicSwitch`
+- Μουσική → Εμφάνιση βαθμολογιών: `prefs:root=MUSIC#com.apple.Music%3AShowStarRatings`
+- Μουσική → Συγχρονισμός βιβλιοθήκης: `prefs:root=MUSIC#com.apple.Music%3ACloudMusicLibraryEnabled`
+- Μουσική → Κινητό δίκτυο: `prefs:root=MUSIC&path=com.apple.Music%3ACellularData`
+- Μουσική → Ληφθείσα μουσική: `prefs:root=MUSIC&path=com.apple.Music%3AMusicUsageLink`
+- Μουσική → Βελτιστοποίηση χώρου: `prefs:root=MUSIC&path=com.apple.Music%3AOptimizeStorage`
+- Μουσική → Αυτόματες λήψεις: `prefs:root=MUSIC#com.apple.Music%3AMusicAutomaticDownload`
+- Μουσική → EQ: `prefs:root=MUSIC&path=com.apple.Music%3AEQ`
+- Μουσική → Έλεγχος ήχου: `prefs:root=MUSIC#com.apple.Music%3ASoundCheck`
+- Μουσική → Χρήση ιστορικού ακρόασης: `prefs:root=MUSIC#com.apple.Music%3APrivateListening`
+- Κάμερα: `prefs:root=CAMERA`
+- Κάμερα → Μορφές: `prefs:root=CAMERA&path=CameraFormatsSettingsList`
+- Κάμερα → Μορφές → Apple ProRaw: `prefs:root=CAMERA&path=CameraFormatsSettingsList#CAMUserPreferenceEnableLinearDNGControl`
+- Κάμερα → Record Video: `prefs:root=CAMERA&path=Record%20Video`
+- Κάμερα → Record Video → Βίντεο HDR: `prefs:root=CAMERA&path=Record%20Video#HDR%20Video`
+- Κάμερα → Διατήρηση ρυθμίσεων: `prefs:root=CAMERA&path=CameraPreserveSettingsSwitch`
+- Κάμερα → Διατήρηση ρυθμίσεων → Λειτουργία κάμερας: `prefs:root=CAMERA&path=CameraPreserveSettingsSwitch#CAMUserPreferencePreserveCaptureMode`
+- Κάμερα → Πλέγμα: `prefs:root=CAMERA#CameraGridSwitch`
+- Κάμερα → Σάρωση κωδικών QR: `prefs:root=CAMERA#CameraQRBannerSwitch`
+- Πυξίδα: `prefs:root=COMPASS`
+- Πυξίδα → Χρήση αληθούς βορρά: `prefs:root=COMPASS#USE_TRUE_NORTH`
+- Γνωστοποιήσεις έκθεσης: `prefs:root=EXPOSURE_NOTIFICATION`
+- Mail: `prefs:root=MAIL`
+- Mail → Λογαριασμοί: `prefs:root=MAIL&path=ACCOUNTS`
+- Mail → Λογαριασμοί → Προσθήκη λογαριασμού: `prefs:root=MAIL&path=ACCOUNTS#ADD_ACCOUNT`
+- Mail → Λογαριασμοί → Νέα δεδομένα: `prefs:root=MAIL&path=ACCOUNTS#FETCH_NEW_DATA`
+- Mail → Προεπισκόπηση: `prefs:root=MAIL&path=Preview`
+- Mail → Εμφάνιση Προς/Κοιν.: `prefs:root=MAIL#Show%20To/Cc%20Labels`
+- Mail → Επιλογές σάρωσης: `prefs:root=MAIL&path=Swipe%20Options`
+- Mail → Ερώτηση πριν από διαγραφή: `prefs:root=MAIL#Ask%20Before%20Deleting`
+- Mail → Φόρτωση απομακρυσμένων εικόνων: `prefs:root=MAIL#Load%20Remote%20Images`
+- Mail → Οργάνωση κατά συνομιλία: `prefs:root=MAIL#Organize%20by%20Thread`
+- Mail → Σύμπτυξη αναγνωσμένων: `prefs:root=MAIL#Collapse%20Read%20Messages`
+- Mail → Πιο πρόσφατο στην κορυφή: `prefs:root=MAIL#Most%20Recent%20Message%20on%20Top`
+- Mail → Πλήρεις συνομιλίες: `prefs:root=MAIL#Complete%20Threads`
+- Mail → Ενέργεια για συνομιλία σε σίγαση: `prefs:root=MAIL&path=Muted%20Thread%20Action`
+- Mail → Αγνόηση αποκλεισμένων αποστολέων: `prefs:root=MAIL#Ignore%20Blocked%20Senders`
+- Mail → Επιλογές αποκλ. αποστολέων: `prefs:root=MAIL&path=Blocked%20Sender%20Options`
+- Mail → Αποκλεισμένοι: `prefs:root=MAIL&path=Blocked`
+- Mail → Πάντα κρυφή κοινοποίηση σε μένα: `prefs:root=MAIL#Always%20Bcc%20Myself`
+- Mail → Σήμανση διευθύνσεων: `prefs:root=MAIL&path=Mark%20Addresses`
+- Mail → Αύξηση επιπέδου παράθεσης: `prefs:root=MAIL&path=Increase%20Quote%20Level`
+- Mail → Συμπερίληψη συνημμένων σε απαντήσεις: `prefs:root=MAIL&path=Include%20Attachments%20with%20Replies`
+- Mail → Υπογραφή: `prefs:root=MAIL&path=Signature`
+- Bluetooth: `prefs:root=Bluetooth`
+- News: `prefs:root=NEWS`
+- News → Εμφάνιση προεπισκόπησης άρθρων: `prefs:root=NEWS#show_excerpt_mode`
+- News → Περιορισμός άρθρων στο Σήμερα: `prefs:root=NEWS#showStoriesFromFavoritesSpecifierID`
+- News → Απόρρητο: `prefs:root=NEWS#Privacy`
+- News → Επαναφορά αναγνωριστικού: `prefs:root=NEWS#reset_identifier`
+- News → Αναγνωρίσεις: `prefs:root=NEWS&path=Acknowledgements`
+- Φωτογραφίες: `prefs:root=Photos`
+- Φωτογραφίες → Φωτογραφίες iCloud: `prefs:root=Photos#iCloudPhotosSwitch`
+- Φωτογραφίες → Βελτιστοποίηση χώρου: `prefs:root=Photos#iCloudOptimizeStorageOption`
+- Φωτογραφίες → Λήψη και διατήρηση αρχικών: `prefs:root=Photos#iCloudKeepOriginalsOption`
+- Φωτογραφίες → Κοινόχρηστα άλμπουμ: `prefs:root=Photos#SharedStreamsSwitch`
+- Φωτογραφίες → Κινητό δίκτυο: `prefs:root=Photos&path=CellularDataLinkList`
+- Φωτογραφίες → Αυτόματη αναπαραγωγή βίντεο: `prefs:root=Photos#VideoAutoplaySwitch`
+- Φωτογραφίες → Προβολή πλήρους HDR: `prefs:root=Photos#ImageModulationSwitch`
+- Φωτογραφίες → Εμφάνιση γεγονότων γιορτών: `prefs:root=Photos#MEMORIES_HOLIDAY_CALENDAR_EVENTS_SWITCH`
+- Φωτογραφίες → Μεταφορά σε Mac ή PC: `prefs:root=Photos#TransferGroup`
+- Podcast: `prefs:root=PODCASTS`
+- Απόρρητο και ασφάλεια: `prefs:root=Privacy` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity`
+- Απόρρητο και ασφάλεια → Υγεία: `prefs:root=Privacy&path=HEALTH` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/HEALTH`
+- Απόρρητο και ασφάλεια → Δεδομένα Υγείας: `prefs:root=Privacy&path=HEALTH_DATA` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/HEALTH_DATA`
+- Απόρρητο και ασφάλεια → Τοποθεσία: `prefs:root=Privacy&path=LOCATION` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/LOCATION`
+- Απόρρητο και ασφάλεια → Τοποθεσία → Κοινοποίηση τοποθεσίας μου: `prefs:root=Privacy&path=LOCATION/LOCATION_SHARING` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/LOCATION/LOCATION_SHARING`
+- Απόρρητο και ασφάλεια → Επαφές: `prefs:root=Privacy&path=CONTACTS` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/CONTACTS`
+- Απόρρητο και ασφάλεια → Ημερολόγια: `prefs:root=Privacy&path=CALENDARS` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/CALENDARS`
+- Απόρρητο και ασφάλεια → Υπομνήσεις: `prefs:root=Privacy&path=REMINDERS` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/REMINDERS`
+- Απόρρητο και ασφάλεια → Φωτογραφίες: `prefs:root=Privacy&path=PHOTOS` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/PHOTOS`
+- Απόρρητο και ασφάλεια → Κοινή χρήση Bluetooth: `prefs:root=Privacy&path=BT_PERIPHERAL` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/BT_PERIPHERAL`
+- Απόρρητο και ασφάλεια → Μικρόφωνο: `prefs:root=Privacy&path=MICROPHONE` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/MICROPHONE`
+- Απόρρητο και ασφάλεια → Αναγνώριση ομιλίας: `prefs:root=Privacy&path=SPEECH_RECOGNITION` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/SPEECH_RECOGNITION`
+- Απόρρητο και ασφάλεια → Κάμερα: `prefs:root=Privacy&path=CAMERA` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/CAMERA`
+- Απόρρητο και ασφάλεια → HomeKit: `prefs:root=Privacy&path=WILLOW` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/WILLOW`
+- Απόρρητο και ασφάλεια → Πολυμέσα και Apple Music: `prefs:root=Privacy&path=MEDIALIBRARY` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/MEDIALIBRARY`
+- Απόρρητο και ασφάλεια → Ανάλυση: `prefs:root=Privacy&path=PROBLEM_REPORTING` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/PROBLEM_REPORTING`
+- Απόρρητο και ασφάλεια → Διαφημίσεις: `prefs:root=Privacy&path=ADVERTISING` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/ADVERTISING`
+- Απόρρητο και ασφάλεια → Αρχεία και φάκελοι: `prefs:root=Privacy&path=FILEACCESS` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/FILEACCESS`
+- Απόρρητο και ασφάλεια → Ανίχνευση: `prefs:root=Privacy&path=USER_TRACKING` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/USER_TRACKING`
+- Απόρρητο και ασφάλεια → Αναφορά απορρήτου εφαρμογών: `prefs:root=Privacy&path=PRIVACY_REPORT` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/PRIVACY_REPORT`
+- Απόρρητο και ασφάλεια → Λειτουργία απομόνωσης: `prefs:root=Privacy#LOCKDOWN_MODE` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity#LOCKDOWN_MODE#LOCKDOWN_MODE`
+- Απόρρητο και ασφάλεια → Ευαίσθητο περιεχόμενο: `prefs:root=Privacy#NUDITY_DETECTION` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity#NUDITY_DETECTION#NUDITY_DETECTION`
+- FaceTime: `prefs:root=FACETIME`
+- Χρόνος επί οθόνης: `prefs:root=SCREEN_TIME`
+- Ήχοι | Ήχοι και απτικά: `prefs:root=Sounds`
+- Ήχοι | Ήχοι και απτικά → Ασφάλεια ακουστικών: `prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING`
+- Ήχοι | Ήχοι και απτικά → Ασφάλεια ακουστικών → Προσαρμογείς Lightning: `prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING/HEADPHONE_LIGHTNING_ADAPTERS`
+- Ήχοι | Ήχοι και απτικά → Ασφάλεια ακουστικών → Γνωστοποιήσεις ακουστικών: `prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING#SHSHeadphoneWeeklyNotificationsKey`
+- Ήχοι | Ήχοι και απτικά → Ασφάλεια ακουστικών → Μείωση δυνατών ήχων: `prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING#SHSHeadphoneLevelLimitSwitchKey`
+- Ήχοι | Ήχοι και απτικά → Ηχητικά εφέ: `prefs:root=Sounds&path=SOUND_EFFECTS`
+- Ήχοι | Ήχοι και απτικά → Κουδουνίσματα και ειδοποιήσεις: `prefs:root=Sounds#RINGER_AND_ALERT_GROUP`
+- Ήχοι | Ήχοι και απτικά → Αλλαγή με κουμπιά: `prefs:root=Sounds#CHANGE_WITH_BUTTONS`
+- Ήχοι | Ήχοι και απτικά → Ήχοι και μοτίβα δόνησης: `prefs:root=Sounds#SOUNDS_ALERT_GROUP`
+- Ήχοι | Ήχοι και απτικά → Κουδούνισμα: `prefs:root=Sounds&path=Ringtone`
+- Ήχοι | Ήχοι και απτικά → Τόνος SMS: `prefs:root=Sounds&path=Text_Messages`
+- Ήχοι | Ήχοι και απτικά → Νέο μήνυμα τηλεφωνητή: `prefs:root=Sounds&path=Voicemail`
+- Ήχοι | Ήχοι και απτικά → Νέο email: `prefs:root=Sounds&path=NEW_MAIL`
+- Ήχοι | Ήχοι και απτικά → Στάλθηκε email: `prefs:root=Sounds&path=SENT_MAIL`
+- Ήχοι | Ήχοι και απτικά → Ειδοποιήσεις Ημερολογίου: `prefs:root=Sounds&path=Calendar%20Alarm`
+- Ήχοι | Ήχοι και απτικά → Ειδοποιήσεις Υπομνήσεων: `prefs:root=Sounds&path=Reminder%20Alerts`
+- Ήχοι | Ήχοι και απτικά → Ήχοι πληκτρολογίου: `prefs:root=Sounds#KEYBOARD_SOUND_SWITCH`
+- Ήχοι | Ήχοι και απτικά → Ήχος κλειδώματος: `prefs:root=Sounds#LOCK_SOUND_SWITCH`
+- Ήχοι | Ήχοι και απτικά → Εξατομικευμένος χωρικός ήχος: `prefs:root=Sounds&path=Personalized%20Spatial%20Audio`
+- Apple Pencil: `prefs:root=Pencil`
+- Apple Pencil → Apple Pencil: `prefs:root=Pencil#PrefersPencilDraws`
+- Apple Pencil → Apple Pencil: `prefs:root=Pencil#PencilTextInput`
+- Μηνύματα: `prefs:root=MESSAGES`
+- Μετοχές: `prefs:root=STOCKS`
+- Μετοχές → Απόρρητο: `prefs:root=STOCKS#Privacy`
+- Μετοχές → Επαναφορά αναγνωριστικού: `prefs:root=STOCKS#reset_identifier`
+- Μετάφραση: `prefs:root=TRANSLATE`
+- Μετάφραση → Λειτουργία επί της συσκευής: `prefs:root=TRANSLATE#OnDeviceOnly`
+- Siri: `prefs:root=SIRI`
+- Siri → Σε οθόνη κλειδώματος: `prefs:root=SIRI#ASSISTANT_LOCK_SCREEN_ACCESS`
+- Siri → Γλώσσα: `prefs:root=SIRI&path=LANGUAGE_ID`
+- Siri → Φωνή Siri: `prefs:root=SIRI&path=VOICE_ID`
+- Siri → Φωνητική ανάδραση: `prefs:root=SIRI&path=VOICE_FEEDBACK_ID`
+- Siri → Στοιχεία μου: `prefs:root=SIRI&path=MY_INFO`
+- Δεδομένα Υγείας | Υγεία: `prefs:root=HEALTH`
+- App Store: `prefs:root=STORE`
+- App Store → Αυτόματες λήψεις: `prefs:root=STORE#Automatic%20Downloads`
+- App Store → Ενημερώσεις εφαρμογών: `prefs:root=STORE#App%20Updates`
+- App Store → Λήψεις εφαρμογών: `prefs:root=STORE&path=App%20Downloads`
+- App Store → Αυτόμ. αναπαραγωγή βίντεο: `prefs:root=STORE&path=Video%20Autoplay`
+- App Store → Βαθμολ./Κριτικές εντός εφαρμ.: `prefs:root=STORE#In-App%20Ratings%20&%20Reviews`
+- Χρήση σε πτήση: `prefs:root=ROOT#AIRPLANE_MODE`

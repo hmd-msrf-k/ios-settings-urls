@@ -1,0 +1,14 @@
+- Quyền riêng tư & Bảo mật: `settings-navigation://com.apple.Settings.PrivacyAndSecurity`
+- Quyền riêng tư & Bảo mật → Kiểm tra an toàn: `settings-navigation://com.apple.Settings.PrivacyAndSecurity/SAFETY_CHECK`
+- Apps: `settings-navigation://com.apple.Settings.Apps`
+- Apps → Safari: `settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari/` or `prefs:root=SAFARI`
+- Apps → Safari → Phần mở rộng: `settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari/WEB_EXTENSIONS` or `prefs:root=SAFARI&path=WEB_EXTENSIONS`
+- Apps → Safari → Chặn cửa sổ bật lên: `settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari#BLOCK_POPUPS`
+- Apps → Safari → Ngăn chặn theo dõi web chéo: `settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari#TRACKER_PROTECTION`
+- Apps → Safari → Tự động điền: `settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari/AUTO_FILL` or `prefs:root=SAFARI&path=AUTO_FILL`
+- Apps → Safari → Bản tải về: `settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari/DOWNLOADS` or `prefs:root=SAFARI&path=DOWNLOADS`
+- Apps → Mật khẩu: `settings-navigation://com.apple.Settings.Apps/com.apple.Passwords`
+- Apps → Mật khẩu → Các đề xuất về bảo mật: `settings-navigation://com.apple.Settings.Apps/com.apple.Passwords#SECURITY_RECOMMENDATIONS`
+- Nhà: `settings-navigation://com.apple.Settings.HomeKit`
+- Search: `settings-navigation://com.apple.Settings.Search`
+- Nhà cung cấp TV: `settings-navigation://com.apple.Settings.TVProvider`

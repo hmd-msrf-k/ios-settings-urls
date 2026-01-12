@@ -1,0 +1,414 @@
+- Baterija: `prefs:root=BATTERY_USAGE`
+- Baterija → Mod slabog napajanja: `prefs:root=BATTERY_USAGE#BATTERY_SAVER_MODE`
+- Baterija → Zdravlje baterije: `prefs:root=BATTERY_USAGE#BATTERY_HEALTH_ID`
+- Općenito: `prefs:root=General`
+- Općenito → VPN i upravljanje uređajem: `prefs:root=General&path=ManagedConfigurationList`
+- Općenito → Auto ispuna i lozinke: `prefs:root=General&path=AUTOFILL`
+- Općenito → Auto ispuna i lozinke → Auto ispuna lozinki: `prefs:root=General&path=AUTOFILL#AUTOFILL`
+- Općenito → Auto ispuna i lozinke → Očisti verifikacijske kodove: `prefs:root=General&path=AUTOFILL#CLEAN_UP_VERIFICATION_CODES`
+- Općenito → Auto ispuna i lozinke → Podesi verifikacijske kodove: `prefs:root=General&path=AUTOFILL#SET_UP_VERIFICATION_CODES`
+- Općenito → AppleCare i jamstvo: `prefs:root=General&path=COVERAGE/`
+- Općenito → Rječnik: `prefs:root=General&path=DICTIONARY`
+- Općenito → Tipkovnica: `prefs:root=General&path=Keyboard`
+- Općenito → Tipkovnica → Tipkovnice: `prefs:root=General&path=Keyboard/KEYBOARDS`
+- Općenito → Tipkovnica → Zamjena teksta: `prefs:root=General&path=Keyboard/USER_DICTIONARY`
+- Općenito → Tipkovnica → Veliko početno slovo: `prefs:root=General&path=Keyboard#KeyboardAutocapitalization`
+- Općenito → Tipkovnica → Auto ispravak: `prefs:root=General&path=Keyboard#KeyboardAutocorrection`
+- Općenito → Tipkovnica → Provjera pravopisa: `prefs:root=General&path=Keyboard#KeyboardCheckSpelling`
+- Općenito → Tipkovnica → Omogući Caps Lock: `prefs:root=General&path=Keyboard#KeyboardCapsLock`
+- Općenito → Tipkovnica → Prečaci: `prefs:root=General&path=Keyboard#KeyboardAssistant`
+- Općenito → Tipkovnica → Predviđanje: `prefs:root=General&path=Keyboard#KeyboardPrediction`
+- Općenito → Tipkovnica → Pametna interpunkcija: `prefs:root=General&path=Keyboard#SmartTyping`
+- Općenito → Tipkovnica → Razdvoji tipkovnicu: `prefs:root=General&path=Keyboard#RivenKeyboard`
+- Općenito → Tipkovnica → Omogući udarce tipki: `prefs:root=General&path=Keyboard#GesturesEnabled`
+- Općenito → Tipkovnica → Pregled znakova: `prefs:root=General&path=Keyboard#KeyboardAllowPaddle`
+- Općenito → Tipkovnica → “.” prečac: `prefs:root=General&path=Keyboard#KeyboardPeriodShortcut`
+- Općenito → Tipkovnica → Povucite za tipkanje: `prefs:root=General&path=Keyboard#KeyboardContinuousPathEnabled`
+- Općenito → Tipkovnica → Omogući Diktat: `prefs:root=General&path=Keyboard#Dictation`
+- Općenito → Tipkovnica → Automatska interpunkcija: `prefs:root=General&path=Keyboard#AutoPunctuationSetting`
+- Općenito → Ažuriranje softvera: `prefs:root=General&path=SOFTWARE_UPDATE_LINK`
+- Općenito → Ažuriranje softvera → Automatska ažuriranja: `prefs:root=General&path=SOFTWARE_UPDATE_LINK/SUAutomaticUpdateButton`
+- Općenito → Memorija: `prefs:root=General&path=STORAGE_MGMT`
+- Općenito → Memorija → Memorija: `prefs:root=General&path=STORAGE_MGMT#MANAGE`
+- Općenito → Memorija → Makni nekorištene aplikacije: `prefs:root=General&path=STORAGE_MGMT#OFFLOAD`
+- Općenito → Slika u slici: `prefs:root=General&path=PiP_SPEC`
+- Općenito → Dodirna površina | Dodirna površina i miš: `prefs:root=General&path=POINTERS`
+- Općenito → NFC: `prefs:root=General&path=NFC_LINK`
+- Općenito → VPN: `prefs:root=General&path=VPN`
+- Općenito → CarPlay: `prefs:root=General&path=CARPLAY`
+- Općenito → Više informacija: `prefs:root=General&path=About`
+- Općenito → Više informacija → Pouzdani certifikati: `prefs:root=General&path=About/CERT_TRUST_SETTINGS`
+- Općenito → Više informacija → Serijski broj: `prefs:root=General&path=About#SerialNumber`
+- Općenito → Više informacija → Broj modela: `prefs:root=General&path=About#ProductModel`
+- Općenito → Više informacija → Naziv modela: `prefs:root=General&path=About#ProductModelName`
+- Općenito → Više informacija → Verzija iOS-a: `prefs:root=General&path=About/SW_VERSION_SPECIFIER`
+- Općenito → Pravne i regulatorne informacije: `prefs:root=General&path=LEGAL_AND_REGULATORY`
+- Općenito → Pravne i regulatorne informacije → Jamstvo: `prefs:root=General&path=LEGAL_AND_REGULATORY#Warranty`
+- Općenito → AirDrop: `prefs:root=General&path=AIRDROP_LINK`
+- Općenito → AirDrop → Približavanje uređaja: `prefs:root=General&path=AIRDROP_LINK#AIRDROP_NFC_ID`
+- Općenito → Tipka Home: `prefs:root=General&path=HOME_BUTTON`
+- Općenito → Bočni prekidač: `prefs:root=General#Rotation_Switch_Action_Group`
+- Općenito → Osvježavanje aplikacija u pozadini: `prefs:root=General&path=AUTO_CONTENT_DOWNLOAD`
+- Općenito → Datum i vrijeme: `prefs:root=General&path=DATE_AND_TIME`
+- Općenito → TV izlaz: `prefs:root=General&path=TV_OUT`
+- Općenito → Resetiranje: `prefs:root=General&path=Reset`
+- Općenito → Resetiranje → Resetiraj sve postavke: `prefs:root=General&path=Reset#settingsErase`
+- Općenito → Resetiranje → Obriši sav sadržaj i postavke: `prefs:root=General&path=Reset#fullErase`
+- Općenito → Resetiranje → Resetiraj mrežne postavke: `prefs:root=General&path=Reset#RESET_NETWORK_LABEL`
+- Općenito → Resetiranje → Ukloni sve podatkovne planove: `prefs:root=General&path=Reset#cellularErase`
+- Općenito → Resetiranje → Pretplatničke usluge: `prefs:root=General&path=Reset#SUBSCRIBER_SERVICES_ID`
+- Općenito → Resetiranje → Resetiraj rječnik tipkovnice: `prefs:root=General&path=Reset#RESET_KEYBOARD_DICTIONARY_LABEL`
+- Općenito → Resetiranje → Resetiraj raspored početnog zaslona: `prefs:root=General&path=Reset#RESET_ICONS_LABEL`
+- Općenito → Resetiranje → Resetiraj lokaciju i privatnost: `prefs:root=General&path=Reset#RESET_PRIVACY_LABEL`
+- Općenito → Isključi: `prefs:root=General#SHUTDOWN_LABEL`
+- Općenito → AirPlay i kontinuitet: `prefs:root=General&path=CONTINUITY_SPEC`
+- Općenito → AirPlay i kontinuitet → Handoff: `prefs:root=General&path=CONTINUITY_SPEC#CONTINUITY`
+- Općenito → AirPlay i kontinuitet → Prebaci na HomePod: `prefs:root=General&path=CONTINUITY_SPEC#TRANSFER_TO_HOMEPOD`
+- Općenito → AirPlay i kontinuitet → Automatski AirPlay: `prefs:root=General&path=CONTINUITY_SPEC#AUTOMATICALLY_AIRPLAY`
+- Općenito → AirPlay i kontinuitet → Kamera kontinuiteta: `prefs:root=General&path=CONTINUITY_SPEC#WOMBAT_CAMERA`
+- Općenito → Jezik i regija: `prefs:root=General&path=INTERNATIONAL`
+- Općenito → Jezik i regija → Drugi jezici…: `prefs:root=General&path=INTERNATIONAL#NEW_PREFERRED_LANGUAGE`
+- Općenito → Jezik i regija → Preferirani redoslijed jezika: `prefs:root=General&path=INTERNATIONAL#PREFERRED_LANGUAGE_GROUP`
+- Općenito → Jezik i regija → Dodaj jezik…: `prefs:root=General&path=INTERNATIONAL#ADD_PREFERRED_LANGUAGE`
+- Općenito → Jezik i regija → Regija: `prefs:root=General&path=INTERNATIONAL/LOCALE`
+- Općenito → Jezik i regija → Brojevi: `prefs:root=General&path=INTERNATIONAL/NUMBERING_SYSTEM`
+- Općenito → Jezik i regija → Kalendar: `prefs:root=General&path=INTERNATIONAL/CALENDAR`
+- Općenito → Jezik i regija → Jedinica za temperaturu: `prefs:root=General&path=INTERNATIONAL/TEMPERATURE_UNIT`
+- Apple račun: `prefs:root=APPLE_ACCOUNT` or `settings-navigation://com.apple.Settings.AppleAccount`
+- Apple račun → Verifikacija ključa kontakta: `prefs:root=APPLE_ACCOUNT&path=TRANSPARENCY` or `settings-navigation://com.apple.Settings.AppleAccount/TRANSPARENCY`
+- Apple račun → iCloud: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE` or `prefs:root=CASTLE`
+- Apple račun → iCloud → iCloud memorija: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/STORAGE_AND_BACKUP` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/STORAGE_AND_BACKUP` or `prefs:root=CASTLE&path=STORAGE_AND_BACKUP`
+- Apple račun → iCloud → iCloud Drive: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Ubiquity` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Ubiquity` or `prefs:root=CASTLE&path=com.apple.Dataclass.Ubiquity`
+- Apple račun → iCloud → Foto: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.MediaStream` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.MediaStream` or `prefs:root=CASTLE&path=com.apple.Dataclass.MediaStream`
+- Apple račun → iCloud → Mail: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Mail` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail` or `prefs:root=CASTLE&path=com.apple.Dataclass.Mail`
+- Apple račun → iCloud → Kontakti: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Contacts` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Contacts` or `prefs:root=CASTLE&path=com.apple.Dataclass.Contacts`
+- Apple račun → iCloud → Kalendar: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Calendars` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Calendars` or `prefs:root=CASTLE&path=com.apple.Dataclass.Calendars`
+- Apple račun → iCloud → Podsjetnici: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Reminders` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Reminders` or `prefs:root=CASTLE&path=com.apple.Dataclass.Reminders`
+- Apple račun → iCloud → Safari: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Bookmarks` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Bookmarks` or `prefs:root=CASTLE&path=com.apple.Dataclass.Bookmarks`
+- Apple račun → iCloud → Bilješke: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Notes` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Notes` or `prefs:root=CASTLE&path=com.apple.Dataclass.Notes`
+- Apple račun → iCloud → News: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.News` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.News` or `prefs:root=CASTLE&path=com.apple.Dataclass.News`
+- Apple račun → iCloud → Sigurnosna kopija: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/BACKUP` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/BACKUP` or `prefs:root=CASTLE&path=BACKUP`
+- Apple račun → iCloud → Zdravlje: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Health` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Health` or `prefs:root=CASTLE&path=com.apple.Dataclass.Health`
+- Apple račun → iCloud → Lozinke i privjesak ključeva: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.KeychainSync` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.KeychainSync` or `prefs:root=CASTLE&path=com.apple.Dataclass.KeychainSync`
+- Apple račun → iCloud → Sakrij moj e-mail: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/PRIVATE_EMAIL_MANAGE` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/PRIVATE_EMAIL_MANAGE` or `prefs:root=CASTLE&path=PRIVATE_EMAIL_MANAGE`
+- Apple račun → Dijeli moju lokaciju: `prefs:root=APPLE_ACCOUNT&path=LOCATION_SHARING` or `settings-navigation://com.apple.Settings.AppleAccount/LOCATION_SHARING`
+- Apple račun → Dijeli moju lokaciju → Pronalaženje: `prefs:root=APPLE_ACCOUNT&path=LOCATION_SHARING/FindMyDevice-Settings` or `settings-navigation://com.apple.Settings.AppleAccount/LOCATION_SHARING/FindMyDevice-Settings`
+- Apple račun → Ime, telefonski brojevi, e-mail: `prefs:root=APPLE_ACCOUNT&path=APPLE_ACCOUNT_CONTACT` or `settings-navigation://com.apple.Settings.AppleAccount/APPLE_ACCOUNT_CONTACT`
+- Apple račun → Lozinka i sigurnost: `prefs:root=APPLE_ACCOUNT&path=PASSWORD_AND_SECURITY` or `settings-navigation://com.apple.Settings.AppleAccount/PASSWORD_AND_SECURITY`
+- Apple račun → Plaćanje i isporuka: `prefs:root=APPLE_ACCOUNT&path=PAYMENT_AND_SHIPPING` or `settings-navigation://com.apple.Settings.AppleAccount/PAYMENT_AND_SHIPPING`
+- Apple račun → Pretplate: `prefs:root=APPLE_ACCOUNT&path=SUBSCRIPTIONS` or `settings-navigation://com.apple.Settings.AppleAccount/SUBSCRIPTIONS`
+- Apple račun → Obitelj: `prefs:root=APPLE_ACCOUNT&path=Family` or `settings-navigation://com.apple.Settings.AppleAccount/Family`
+- Obavijesti: `prefs:root=NOTIFICATIONS_ID`
+- Obavijesti → Zakazani sažetak: `prefs:root=NOTIFICATIONS_ID&path=SCHEDULED_DELIVERY_ID`
+- Vrijeme: `prefs:root=WEATHER`
+- Freeform: `prefs:root=FREEFORM`
+- Fokus: `prefs:root=DO_NOT_DISTURB`
+- Fokus → Status fokusa: `prefs:root=DO_NOT_DISTURB&path=status`
+- Dnevnik: `prefs:root=JOURNAL`
+- Novčanik i Apple Pay: `prefs:root=PASSBOOK`
+- Novčanik i Apple Pay → Apple Cash: `prefs:root=PASSBOOK#Apple%C2%A0Cash`
+- Novčanik i Apple Pay → Platne kartice: `prefs:root=PASSBOOK#SETTINGS_PAYMENT_CARDS_GROUP`
+- Novčanik i Apple Pay → Dodaj karticu: `prefs:root=PASSBOOK#Add%20Card`
+- Novčanik i Apple Pay → Pritisnite dvaput bočnu tipku: `prefs:root=PASSBOOK#Double-Click%20Side%20Button`
+- Novčanik i Apple Pay → Praćenje narudžbe: `prefs:root=PASSBOOK#ORDER_TRACKING`
+- Izgled | Zaslon i svjetlina: `prefs:root=DISPLAY`
+- Izgled | Zaslon i svjetlina → Izgled: `prefs:root=DISPLAY#DEVICE_APPEARANCE`
+- Izgled | Zaslon i svjetlina → True Tone: `prefs:root=DISPLAY#WHITE_BALANCE`
+- Izgled | Zaslon i svjetlina → Night Shift: `prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION`
+- Izgled | Zaslon i svjetlina → Night Shift → Zakazano: `prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION#SCHEDULED`
+- Izgled | Zaslon i svjetlina → Night Shift → Ručno uključi do sutra: `prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION#MANUAL`
+- Izgled | Zaslon i svjetlina → Night Shift → Temperatura boje: `prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION#COLOR_TEMPERATURE`
+- Izgled | Zaslon i svjetlina → Auto zaključavanje: `prefs:root=DISPLAY&path=AUTOLOCK`
+- Izgled | Zaslon i svjetlina → Podignite za uključenje: `prefs:root=DISPLAY#RAISE_TO_WAKE`
+- Izgled | Zaslon i svjetlina → Otključavanje / zaključavanje: `prefs:root=DISPLAY#SMART_CASE_LOCK_SPEC`
+- Izgled | Zaslon i svjetlina → Veličina teksta: `prefs:root=DISPLAY&path=TEXT_SIZE`
+- Izgled | Zaslon i svjetlina → Podebljaj tekst: `prefs:root=DISPLAY#BOLD_TEXT`
+- Izgled | Zaslon i svjetlina → Svjetlina: `prefs:root=DISPLAY#BRIGHTNESS`
+- Izgled | Zaslon i svjetlina → Zumiranje zaslona: `prefs:root=DISPLAY#DISPLAY_ZOOM_GROUP`
+- Izgled | Zaslon i svjetlina → Izgled: `prefs:root=DISPLAY&path=APPEARANCE`
+- Izgled | Zaslon i svjetlina → Izgled → Prozor: `prefs:root=DISPLAY&path=APPEARANCE#WINDOW_ZOOM`
+- Izgled | Zaslon i svjetlina → Izgled → Zumiranje prozora s dvije ruke: `prefs:root=DISPLAY&path=APPEARANCE#TWO_HANDED_WINDOW_ZOOM`
+- Izgled | Zaslon i svjetlina → Prikaz: `prefs:root=DISPLAY&path=MAGNIFY`
+- Izgled | Zaslon i svjetlina → Uvijek uključen zaslon: `prefs:root=DISPLAY&path=ALWAYS_ON`
+- Izgled | Zaslon i svjetlina → Uvijek uključen zaslon → Uvijek uključen zaslon: `prefs:root=DISPLAY&path=ALWAYS_ON#ALWAYS_ON`
+- Izgled | Zaslon i svjetlina → Kompatibilne aplikacije: `prefs:root=DISPLAY&path=COMPATIBLE_APPEARANCE`
+- Izgled | Zaslon i svjetlina → Kompatibilne aplikacije → Tamni, svijetli: `prefs:root=DISPLAY&path=COMPATIBLE_APPEARANCE#COMPATIBLE_APPEARANCE_CHOICES`
+- Mjerenje: `prefs:root=MEASURE` or `settings-navigation://com.apple.Settings.Apps/com.apple.measure`
+- Mjerenje → Mjerne jedinice: `prefs:root=MEASURE#MEASURE_UNITS` or `settings-navigation://com.apple.Settings.Apps/com.apple.measure#MEASURE_UNITS#MEASURE_UNITS`
+- Mjerenje → Imperijalne: `prefs:root=MEASURE#Imperial` or `settings-navigation://com.apple.Settings.Apps/com.apple.measure#Imperial#Imperial`
+- Mjerenje → Metričke: `prefs:root=MEASURE#Metric` or `settings-navigation://com.apple.Settings.Apps/com.apple.measure#Metric#Metric`
+- Pozadina: `prefs:root=Wallpaper`
+- Kontrolni centar: `prefs:root=ControlCenter`
+- Kontrolni centar → Pristup unutar aplikacija: `prefs:root=ControlCenter#ALLOWED_WITHIN_APPS`
+- Kontrolni centar → Prilagodi kontrole: `prefs:root=ControlCenter&path=CUSTOMIZE_CONTROLS`
+- Diktafon: `prefs:root=VOICE_MEMOS`
+- Diktafon → Očisti obrisano: `prefs:root=VOICE_MEMOS&path=RCVoiceMemosRecentlyDeletedWindowKey`
+- Diktafon → Kvaliteta zvuka: `prefs:root=VOICE_MEMOS&path=RCVoiceMemosAudioQualityKey`
+- Diktafon → Naziv baziran na lokaciji: `prefs:root=VOICE_MEMOS#RCVoiceMemosUseLocationBasedNaming`
+- Kalendar: `prefs:root=CALENDAR`
+- Kalendar → Druga vremenska zona: `prefs:root=CALENDAR&path=TimeZoneCityArray`
+- Kalendar → Alternativni kalendari: `prefs:root=CALENDAR&path=Alternate%20Calendars`
+- Kalendar → Brojevi tjedana: `prefs:root=CALENDAR#Week%20Numbers`
+- Kalendar → Prikaži odbačene pozivnice: `prefs:root=CALENDAR#Show%20Invitee%20Declines`
+- Kalendar → Sinkroniziraj: `prefs:root=CALENDAR&path=Sync`
+- Kalendar → Standardno vrijeme alarma: `prefs:root=CALENDAR&path=Default%20Alert%20Times`
+- Kalendar → Prvi dan tjedna: `prefs:root=CALENDAR&path=Start%20Week%20On`
+- Kalendar → Prijedlozi za lokacije: `prefs:root=CALENDAR#Location%20Suggestions`
+- Developer: `prefs:root=DEVELOPER_SETTINGS`
+- Developer → Umrežavanje kroz više putanja: `prefs:root=DEVELOPER_SETTINGS&path=MULTI_PATH_AGG`
+- Developer → Umrežavanje kroz više putanja → Umrežavanje kroz više putanja: `prefs:root=DEVELOPER_SETTINGS&path=MULTI_PATH_AGG#Multipath%20Networking`
+- Developer → Izgled: `prefs:root=DEVELOPER_SETTINGS#UIAppearanceGroup`
+- Developer → Tamni izgled: `prefs:root=DEVELOPER_SETTINGS#UIAppearanceSettings`
+- Developer → Upareni uređaji: `prefs:root=DEVELOPER_SETTINGS#DTPairedDevicesGroup`
+- Developer → Očisti pouzdana računala: `prefs:root=DEVELOPER_SETTINGS#CLEAR_TRUSTED_COMPUTERS`
+- Developer → Izrada log zapisa: `prefs:root=DEVELOPER_SETTINGS&path=DTInstrumentsSettings`
+- Developer → Automatizacija sučelja | Omogući automatizaciju sučelja: `prefs:root=DEVELOPER_SETTINGS#UIAGroup`
+- Developer → Umrežavanje: `prefs:root=DEVELOPER_SETTINGS#NLCGroup`
+- Developer → Održavanje veze s mrežom: `prefs:root=DEVELOPER_SETTINGS&path=NLC`
+- Developer → Dodatno prijavljivanje: `prefs:root=DEVELOPER_SETTINGS#ADDITIONAL_LOGGING`
+- Developer → Dozvoli HTTP usluge: `prefs:root=DEVELOPER_SETTINGS#ALLOW_HTTP_SERVICES`
+- Developer → Onemogući ograničavanje brzine: `prefs:root=DEVELOPER_SETTINGS#DISABLE_RATE_LIMITING`
+- Developer → Opcionalni NFC ključ za prolaz: `prefs:root=DEVELOPER_SETTINGS#NFC_PASS_KEY_OPTIONAL`
+- Developer → Testiranje medijskih usluga: `prefs:root=DEVELOPER_SETTINGS#MEDIA_SERVICES_TESTING`
+- Developer → Resetiraj medijske usluge: `prefs:root=DEVELOPER_SETTINGS#RESET_MEDIA_SERVICES`
+- Developer → Testiranje aplikacije News: `prefs:root=DEVELOPER_SETTINGS#NEWS_TESTING`
+- Developer → Resetiraj lokalne podatke prilikom sljedećeg pokretanja: `prefs:root=DEVELOPER_SETTINGS#RESET_LOCAL_DATA_ON_NEXT_LAUNCH`
+- Developer → Testiranje okruženja aplikacije za medije: `prefs:root=DEVELOPER_SETTINGS#RoutineSettingsGroup`
+- Developer → API sadržaja koji se može reproducirati: `prefs:root=DEVELOPER_SETTINGS&path=RoutineSettings`
+- Developer → TV operater: `prefs:root=DEVELOPER_SETTINGS&path=VideoSubscriberAccountSettings`
+- Developer → ClassKit API: `prefs:root=DEVELOPER_SETTINGS&path=ClassKitSettings`
+- Developer → Testiranje CoreSpotlighta: `prefs:root=DEVELOPER_SETTINGS#CORESPOTLIGHT_TESTING`
+- Developer → Ponovno indeksiraj sve stavke: `prefs:root=DEVELOPER_SETTINGS#REINDEX_ALL_ITEMS`
+- Developer → Ponovno indeksiraj sve stavke s identifikatorima: `prefs:root=DEVELOPER_SETTINGS#REINDEX_ALL_ITEMS_WITH_IDENTIFIERS`
+- Developer → Testiranje prečaca: `prefs:root=DEVELOPER_SETTINGS#SIRI_ACTIONS_TESTING`
+- Developer → Prikaži nedavne prečace: `prefs:root=DEVELOPER_SETTINGS#DISPLAY_DONATIONS_SPOTLIGHT`
+- Developer → Prikaži nadolazeće medije: `prefs:root=DEVELOPER_SETTINGS#DISPLAY_UPCOMING_MEDIA`
+- Developer → Prikaži donacije na zaključanom zaslonu: `prefs:root=DEVELOPER_SETTINGS#DISPLAY_DONATIONS_LOCKSCREEN`
+- Developer → Prisilno sinkroniziraj prečace za gledanje: `prefs:root=DEVELOPER_SETTINGS#SIRI_ACTIONS_SYNC_WATCHOS`
+- Developer → Testiranje značajke MIDI-CI: `prefs:root=DEVELOPER_SETTINGS#MIDI_CI_API_BETA`
+- Developer → Omogući MIDI-CI: `prefs:root=DEVELOPER_SETTINGS#MIDI_CI_API_BETA_ENABLE`
+- Developer → Detekcija zastoja: `prefs:root=DEVELOPER_SETTINGS#HANGTRACER_EXTERNAL_CONFIGURE`
+- Face ID i šifra | Touch ID i šifra | Šifra: `prefs:root=PASSCODE`
+- Face ID i šifra | Touch ID i šifra | Šifra → Isključi šifru: `prefs:root=PASSCODE#PASSCODE_OFF`
+- Face ID i šifra | Touch ID i šifra | Šifra → Promijeni šifru: `prefs:root=PASSCODE#CHANGE_PASSCODE`
+- Face ID i šifra | Touch ID i šifra | Šifra → Traži šifru: `prefs:root=PASSCODE&path=PASSCODE_REQ`
+- Face ID i šifra | Touch ID i šifra | Šifra → Glasovno biranje: `prefs:root=PASSCODE#VOICE_DIAL`
+- Face ID i šifra | Touch ID i šifra | Šifra → Dozvoli pristup kad je uređaj zaključan: `prefs:root=PASSCODE#ALLOW_ACCESS_WHEN_LOCKED`
+- Face ID i šifra | Touch ID i šifra | Šifra → Odgovori porukom: `prefs:root=PASSCODE#REPLY_WITH_MESSAGE_SWITCH`
+- Face ID i šifra | Touch ID i šifra | Šifra → Upravljanje domom: `prefs:root=PASSCODE#HOME_CONTROL_SWITCH`
+- Face ID i šifra | Touch ID i šifra | Šifra → Novčanik: `prefs:root=PASSCODE#WALLET_SWITCH`
+- Face ID i šifra | Touch ID i šifra | Šifra → Uzvrati propuštene pozive: `prefs:root=PASSCODE#RETURN_MISSED_CALLS_SWITCH`
+- Face ID i šifra | Touch ID i šifra | Šifra → Obriši podatke: `prefs:root=PASSCODE#WIPE_DEVICE`
+- Face ID i šifra | Touch ID i šifra | Šifra → Otključaj pomoću Apple Watcha: `prefs:root=PASSCODE#AUTO_UNLOCK_DEVICES_GROUP`
+- Face ID i šifra | Touch ID i šifra | Šifra → Zaštita ukradenog uređaja: `prefs:root=PASSCODE#DTO_GROUP_ID`
+- Telefon: `prefs:root=Phone`
+- Telefon → Moj broj: `prefs:root=Phone&path=My%20Number`
+- Telefon → Dolazni pozivi: `prefs:root=Phone&path=INCOMING_CALL_STYLE`
+- Telefon → Najavi pozive: `prefs:root=Phone&path=ANNOUNCE_CALLS`
+- Telefon → Prijavljivanje SMS-a/poziva: `prefs:root=Phone&path=CLASSIFICATION_AND_REPORTING`
+- Telefon → Odgovori porukom: `prefs:root=Phone&path=Respond%20with%20Text`
+- Telefon → Prosljeđivanje poziva: `prefs:root=Phone&path=Call%20Forwarding`
+- Telefon → Prosljeđivanje poziva → Prosljeđivanje poziva: `prefs:root=Phone&path=Call%20Forwarding#idMasterOnOffSwitch`
+- Telefon → Poziv na čekanju: `prefs:root=Phone&path=Call%20Waiting`
+- Telefon → Pokaži moj ID pozivatelja: `prefs:root=Phone&path=Show%20My%20Caller%20ID`
+- Telefon → Pokaži moj ID pozivatelja → Pokaži moj ID pozivatelja: `prefs:root=Phone&path=Show%20My%20Caller%20ID/Primary`
+- Telefon → Pokaži moj ID pozivatelja → Pokaži moj ID pozivatelja → Pokaži moj ID pozivatelja: `prefs:root=Phone&path=Show%20My%20Caller%20ID/Primary#Show%20My%20Caller%20ID`
+- Telefon → Utišaj nepoznate pozivatelje: `prefs:root=Phone#SILENCE_CALLS`
+- Telefon → Blokirani kontakti: `prefs:root=Phone&path=SPECIFIER_IDENTIFIER_BLACKLIST`
+- Telefon → Pomoć pri biranju: `prefs:root=Phone&path=Dial%20Assist`
+- Bilješke: `prefs:root=NOTES` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes`
+- Bilješke → Standardni račun: `prefs:root=NOTES&path=Default%20Account` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes/Default%20Account`
+- Bilješke → Lozinka: `prefs:root=NOTES&path=Password` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes/Password`
+- Bilješke → Razvrstaj prema: `prefs:root=NOTES&path=Sort%20Notes%20By` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes/Sort%20Notes%20By`
+- Bilješke → Započni bilješke: `prefs:root=NOTES&path=New%20Notes%20Start%20With` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes/New%20Notes%20Start%20With`
+- Bilješke → Razvrstaj označene stavke: `prefs:root=NOTES&path=Sort%20Checked%20Items` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes/Sort%20Checked%20Items`
+- Bilješke → Linije i rešetke: `prefs:root=NOTES&path=Lines%20%26%20Grids` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes/Lines%20%26%20Grids`
+- Bilješke → Spremi u Foto: `prefs:root=NOTES#Save%20to%20Photos` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes#Save%20to%20Photos#Save%20to%20Photos`
+- Bilješke → Pristup sa zaključanog zaslona: `prefs:root=NOTES&path=Access%20Notes%20from%20Lock%20Screen` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes/Access%20Notes%20from%20Lock%20Screen`
+- Knjige: `prefs:root=IBOOKS`
+- Knjige → Online sadržaj: `prefs:root=IBOOKS#BKAllowOnlineContent`
+- Knjige → SINKRONIZIRANJE: `prefs:root=IBOOKS#SYNCING`
+- Knjige → Sad čitate: `prefs:root=IBOOKS#BKLibrary.ReadingNow`
+- Knjige → iCloud Drive: `prefs:root=IBOOKS#BCSyncICloudDrive`
+- Knjige → ČITANJE: `prefs:root=IBOOKS#READING`
+- Knjige → Poravnate obje strane: `prefs:root=IBOOKS#BKFullJustification`
+- Knjige → Auto rastavljanje riječi: `prefs:root=IBOOKS#BKAutoHyphenation`
+- Knjige → Listanje s obje margine: `prefs:root=IBOOKS#BKLeftTapTurnToNext`
+- Knjige → Ciljevi čitanja: `prefs:root=IBOOKS#READING_GOALS`
+- Knjige → Očisti podatke cilja čitanja: `prefs:root=IBOOKS#BKReadingGoalsShouldClearDataKey`
+- Knjige → PRETRAŽIVANJE: `prefs:root=IBOOKS#SEARCHING`
+- Knjige → Knjižara: `prefs:root=IBOOKS#BKIncludeBookStoreResultsInSearch`
+- Knjige → AUDIO KNJIGE: `prefs:root=IBOOKS#AUDIOBOOKS`
+- Knjige → Preskoči unaprijed: `prefs:root=IBOOKS&path=BKAudioBookSkipForward`
+- Knjige → Preskoči unatrag: `prefs:root=IBOOKS&path=BKAudioBookSkipBackward`
+- Knjige → VANJSKE KONTROLE: `prefs:root=IBOOKS#BKRemoteSkipInsteadOfNextTrackDefaultKey`
+- Knjige → Sljedeće/prethodno: `prefs:root=IBOOKS#Next/Previous`
+- Knjige → Preskoči unaprijed/unatrag: `prefs:root=IBOOKS#Skip%20Forward/Back`
+- Knjige → PRIVATNOST: `prefs:root=IBOOKS#PRIVACY`
+- Knjige → Resetiraj identifikator: `prefs:root=IBOOKS#BAResetAnalyticsUserID`
+- Knjige → Priznanja: `prefs:root=IBOOKS&path=Acknowledgements`
+- Game Center: `prefs:root=GAMECENTER`
+- Hitan poziv: `prefs:root=EMERGENCY_SOS`
+- Hitan poziv → Pozivanje bočnom tipkom: `prefs:root=EMERGENCY_SOS#CALL_WITH_SIDE_BUTTON`
+- Hitan poziv → Automatski poziv: `prefs:root=EMERGENCY_SOS#AUTO_CALL`
+- Hitan poziv → Hitni kontakti: `prefs:root=EMERGENCY_SOS#EMERGENCY_CONTACTS`
+- Hitan poziv → Zvuk odbrojavanja: `prefs:root=EMERGENCY_SOS#ALARM_SOUND_SWITCH`
+- Podsjetnici: `prefs:root=REMINDERS`
+- Podsjetnici → Standardni popis: `prefs:root=REMINDERS&path=DEFAULT_LIST`
+- Podsjetnici → Standardni popis → Podsjetnici: `prefs:root=REMINDERS&path=DEFAULT_LIST#preferredDefaultListID`
+- Podsjetnici → Današnja obavijest: `prefs:root=REMINDERS#todayNotificationFireTime`
+- Podsjetnici → Prikaži kao prekoračeno: `prefs:root=REMINDERS#showRemindersAsOverdue`
+- Mobilni podaci: `prefs:root=MOBILE_DATA_SETTINGS_ID`
+- Mobilni podaci → Opcije pod. plana: `prefs:root=MOBILE_DATA_SETTINGS_ID&path=CELLULAR_DATA_OPTIONS`
+- Mobilni podaci → Opcije pod. plana → Mod niske uporabe podataka: `prefs:root=MOBILE_DATA_SETTINGS_ID&path=CELLULAR_DATA_OPTIONS#Low%20Data%20Mode`
+- Mobilni podaci → Mobilni podaci: `prefs:root=MOBILE_DATA_SETTINGS_ID&path=SHOW_ALL`
+- WLAN | Wi-Fi: `prefs:root=WIFI`
+- Kontakti: `prefs:root=CONTACTS`
+- Kontakti → Dozvoli Kontaktima pristup: `prefs:root=CONTACTS#Allow%20Contacts%20To%20Access`
+- Kontakti → Siri: `prefs:root=CONTACTS&path=SIRI_AND_SEARCH`
+- Kontakti → Razvrstavanje: `prefs:root=CONTACTS&path=ContactsSortOrder`
+- Kontakti → Redoslijed prikaza: `prefs:root=CONTACTS&path=PersonNameOrder`
+- Kontakti → Kratko ime: `prefs:root=CONTACTS&path=PersonShortName`
+- Kontakti → Kratko ime → Kratko ime: `prefs:root=CONTACTS&path=PersonShortName#Short%20Name`
+- Kontakti → Kratko ime → Preferiraj nadimke: `prefs:root=CONTACTS&path=PersonShortName#Prefer%20Nicknames`
+- Kontakti → Moje informacije: `prefs:root=CONTACTS&path=MeCard`
+- Kontakti → Importiraj SIM kontakte: `prefs:root=CONTACTS#SIMImport`
+- Prečaci: `prefs:root=SHORTCUTS`
+- Prečaci → Sinkroniziraj putem iClouda: `prefs:root=SHORTCUTS#WFCloudKitSyncEnabled`
+- Prečaci → Sink. redoslijed prečaca: `prefs:root=SHORTCUTS#WFCloudKitSyncOrderEnabled`
+- Prečaci → Pravne napomene: `prefs:root=SHORTCUTS&path=Legal%20Notices`
+- TV | Videozapisi: `prefs:root=TVAPP`
+- TV | Videozapisi → Koristi mobilne podatke za reprodukciju: `prefs:root=TVAPP#com.apple.videos%3AVideosUseCellularDataEnabledSetting`
+- TV | Videozapisi → Kvaliteta reprodukcije: `prefs:root=TVAPP#com.apple.videos%3APlaybackQualityGroup`
+- TV | Videozapisi → Kupljene stavke i posudbe: `prefs:root=TVAPP&path=com.apple.videos%3APreferredPurchaseResolution`
+- TV | Videozapisi → Dijeljenje unutar doma: `prefs:root=TVAPP#com.apple.videos%3AHomeSharingFooter`
+- Glazba: `prefs:root=MUSIC`
+- Glazba → Prikaži Apple Music: `prefs:root=MUSIC#com.apple.Music%3AAppleMusicEnabled`
+- Glazba → Dodaj pjesme s liste: `prefs:root=MUSIC#com.apple.Music%3AAddPlaylistSongsToMyMusicSwitch`
+- Glazba → Ocjenjivanje zvjezdicama: `prefs:root=MUSIC#com.apple.Music%3AShowStarRatings`
+- Glazba → Sinkroniziraj medijateku: `prefs:root=MUSIC#com.apple.Music%3ACloudMusicLibraryEnabled`
+- Glazba → Mobilni podaci: `prefs:root=MUSIC&path=com.apple.Music%3ACellularData`
+- Glazba → Preuzeta glazba: `prefs:root=MUSIC&path=com.apple.Music%3AMusicUsageLink`
+- Glazba → Optimiziraj memoriju: `prefs:root=MUSIC&path=com.apple.Music%3AOptimizeStorage`
+- Glazba → Automatska preuzimanja: `prefs:root=MUSIC#com.apple.Music%3AMusicAutomaticDownload`
+- Glazba → EQ: `prefs:root=MUSIC&path=com.apple.Music%3AEQ`
+- Glazba → Uskladi glasnoću: `prefs:root=MUSIC#com.apple.Music%3ASoundCheck`
+- Glazba → Koristi povijest slušanja: `prefs:root=MUSIC#com.apple.Music%3APrivateListening`
+- Kamera: `prefs:root=CAMERA`
+- Kamera → Formati: `prefs:root=CAMERA&path=CameraFormatsSettingsList`
+- Kamera → Formati → Apple ProRaw: `prefs:root=CAMERA&path=CameraFormatsSettingsList#CAMUserPreferenceEnableLinearDNGControl`
+- Kamera → Record Video: `prefs:root=CAMERA&path=Record%20Video`
+- Kamera → Record Video → HDR video: `prefs:root=CAMERA&path=Record%20Video#HDR%20Video`
+- Kamera → Očuvanje postavki: `prefs:root=CAMERA&path=CameraPreserveSettingsSwitch`
+- Kamera → Očuvanje postavki → Mod kamere: `prefs:root=CAMERA&path=CameraPreserveSettingsSwitch#CAMUserPreferencePreserveCaptureMode`
+- Kamera → Rešetka: `prefs:root=CAMERA#CameraGridSwitch`
+- Kamera → Skeniraj QR kodove: `prefs:root=CAMERA#CameraQRBannerSwitch`
+- Kompas: `prefs:root=COMPASS`
+- Kompas → Koristi stvarni sjever: `prefs:root=COMPASS#USE_TRUE_NORTH`
+- Obavijesti o izloženosti: `prefs:root=EXPOSURE_NOTIFICATION`
+- Mail: `prefs:root=MAIL`
+- Mail → Računi: `prefs:root=MAIL&path=ACCOUNTS`
+- Mail → Računi → Dodaj račun: `prefs:root=MAIL&path=ACCOUNTS#ADD_ACCOUNT`
+- Mail → Računi → Dohvati nove podatke: `prefs:root=MAIL&path=ACCOUNTS#FETCH_NEW_DATA`
+- Mail → Pregled: `prefs:root=MAIL&path=Preview`
+- Mail → Prikaži oznake "Prima" i "Cc": `prefs:root=MAIL#Show%20To/Cc%20Labels`
+- Mail → Opcije povlačenja: `prefs:root=MAIL&path=Swipe%20Options`
+- Mail → Pitaj prije brisanja: `prefs:root=MAIL#Ask%20Before%20Deleting`
+- Mail → Učitaj slike: `prefs:root=MAIL#Load%20Remote%20Images`
+- Mail → Organiziraj prema nizu: `prefs:root=MAIL#Organize%20by%20Thread`
+- Mail → Sažmi pročitane poruke: `prefs:root=MAIL#Collapse%20Read%20Messages`
+- Mail → Najnovije poruke na vrh: `prefs:root=MAIL#Most%20Recent%20Message%20on%20Top`
+- Mail → Sve poruke niza: `prefs:root=MAIL#Complete%20Threads`
+- Mail → Postupak utišanog niza: `prefs:root=MAIL&path=Muted%20Thread%20Action`
+- Mail → Ignoriraj blokirane pošiljatelje: `prefs:root=MAIL#Ignore%20Blocked%20Senders`
+- Mail → Opcije blokiranih pošiljatelja: `prefs:root=MAIL&path=Blocked%20Sender%20Options`
+- Mail → Blokirani: `prefs:root=MAIL&path=Blocked`
+- Mail → Uvijek Bcc sebi: `prefs:root=MAIL#Always%20Bcc%20Myself`
+- Mail → Označi adrese: `prefs:root=MAIL&path=Mark%20Addresses`
+- Mail → Povećaj razinu uvlake: `prefs:root=MAIL&path=Increase%20Quote%20Level`
+- Mail → Dodaj privitke odgovorima: `prefs:root=MAIL&path=Include%20Attachments%20with%20Replies`
+- Mail → Potpis: `prefs:root=MAIL&path=Signature`
+- Bluetooth: `prefs:root=Bluetooth`
+- News: `prefs:root=NEWS`
+- News → Pokaži preglede članaka: `prefs:root=NEWS#show_excerpt_mode`
+- News → Ograniči članke u Danas: `prefs:root=NEWS#showStoriesFromFavoritesSpecifierID`
+- News → Privatnost: `prefs:root=NEWS#Privacy`
+- News → Resetiraj identifikator: `prefs:root=NEWS#reset_identifier`
+- News → Priznanja: `prefs:root=NEWS&path=Acknowledgements`
+- Foto: `prefs:root=Photos`
+- Foto → iCloud fotografije: `prefs:root=Photos#iCloudPhotosSwitch`
+- Foto → Optimiziraj memoriju: `prefs:root=Photos#iCloudOptimizeStorageOption`
+- Foto → Preuzmi i zadrži originale: `prefs:root=Photos#iCloudKeepOriginalsOption`
+- Foto → Dijeljeni albumi: `prefs:root=Photos#SharedStreamsSwitch`
+- Foto → Mobilni podaci: `prefs:root=Photos&path=CellularDataLinkList`
+- Foto → Automatski reproduciraj videozapise: `prefs:root=Photos#VideoAutoplaySwitch`
+- Foto → Prikaz u Full HDR-u: `prefs:root=Photos#ImageModulationSwitch`
+- Foto → Prikaži blagdanske događaje: `prefs:root=Photos#MEMORIES_HOLIDAY_CALENDAR_EVENTS_SWITCH`
+- Foto → Prijenos na Mac ili PC: `prefs:root=Photos#TransferGroup`
+- Podcasti: `prefs:root=PODCASTS`
+- Privatnost i sigurnost: `prefs:root=Privacy` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity`
+- Privatnost i sigurnost → Zdravlje: `prefs:root=Privacy&path=HEALTH` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/HEALTH`
+- Privatnost i sigurnost → Zdravstveni podaci: `prefs:root=Privacy&path=HEALTH_DATA` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/HEALTH_DATA`
+- Privatnost i sigurnost → Lokacija: `prefs:root=Privacy&path=LOCATION` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/LOCATION`
+- Privatnost i sigurnost → Lokacija → Dijeli moju lokaciju: `prefs:root=Privacy&path=LOCATION/LOCATION_SHARING` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/LOCATION/LOCATION_SHARING`
+- Privatnost i sigurnost → Kontakti: `prefs:root=Privacy&path=CONTACTS` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/CONTACTS`
+- Privatnost i sigurnost → Kalendari: `prefs:root=Privacy&path=CALENDARS` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/CALENDARS`
+- Privatnost i sigurnost → Podsjetnici: `prefs:root=Privacy&path=REMINDERS` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/REMINDERS`
+- Privatnost i sigurnost → Foto: `prefs:root=Privacy&path=PHOTOS` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/PHOTOS`
+- Privatnost i sigurnost → Bluetooth dijeljenje: `prefs:root=Privacy&path=BT_PERIPHERAL` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/BT_PERIPHERAL`
+- Privatnost i sigurnost → Mikrofon: `prefs:root=Privacy&path=MICROPHONE` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/MICROPHONE`
+- Privatnost i sigurnost → Prepoznavanje govora: `prefs:root=Privacy&path=SPEECH_RECOGNITION` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/SPEECH_RECOGNITION`
+- Privatnost i sigurnost → Kamera: `prefs:root=Privacy&path=CAMERA` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/CAMERA`
+- Privatnost i sigurnost → HomeKit: `prefs:root=Privacy&path=WILLOW` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/WILLOW`
+- Privatnost i sigurnost → Mediji i Apple Music: `prefs:root=Privacy&path=MEDIALIBRARY` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/MEDIALIBRARY`
+- Privatnost i sigurnost → Analiza: `prefs:root=Privacy&path=PROBLEM_REPORTING` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/PROBLEM_REPORTING`
+- Privatnost i sigurnost → Oglašavanje: `prefs:root=Privacy&path=ADVERTISING` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/ADVERTISING`
+- Privatnost i sigurnost → Datoteke i mape: `prefs:root=Privacy&path=FILEACCESS` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/FILEACCESS`
+- Privatnost i sigurnost → Praćenje: `prefs:root=Privacy&path=USER_TRACKING` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/USER_TRACKING`
+- Privatnost i sigurnost → Izvještaj o privatnosti aplikacije: `prefs:root=Privacy&path=PRIVACY_REPORT` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/PRIVACY_REPORT`
+- Privatnost i sigurnost → Mod zaključavanja: `prefs:root=Privacy#LOCKDOWN_MODE` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity#LOCKDOWN_MODE#LOCKDOWN_MODE`
+- Privatnost i sigurnost → Osjetljiv sadržaj: `prefs:root=Privacy#NUDITY_DETECTION` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity#NUDITY_DETECTION#NUDITY_DETECTION`
+- FaceTime: `prefs:root=FACETIME`
+- Vrijeme uporabe zaslona: `prefs:root=SCREEN_TIME`
+- Zvukovi | Zvukovi i vibracije: `prefs:root=Sounds`
+- Zvukovi | Zvukovi i vibracije → Sigurna uporaba slušalica: `prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING`
+- Zvukovi | Zvukovi i vibracije → Sigurna uporaba slušalica → Lightning adapteri: `prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING/HEADPHONE_LIGHTNING_ADAPTERS`
+- Zvukovi | Zvukovi i vibracije → Sigurna uporaba slušalica → Obavijesti o slušalicama: `prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING#SHSHeadphoneWeeklyNotificationsKey`
+- Zvukovi | Zvukovi i vibracije → Sigurna uporaba slušalica → Stišaj glasne zvukove: `prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING#SHSHeadphoneLevelLimitSwitchKey`
+- Zvukovi | Zvukovi i vibracije → Zvučni efekti: `prefs:root=Sounds&path=SOUND_EFFECTS`
+- Zvukovi | Zvukovi i vibracije → Zvono i alarmi: `prefs:root=Sounds#RINGER_AND_ALERT_GROUP`
+- Zvukovi | Zvukovi i vibracije → Promijeni tipkama: `prefs:root=Sounds#CHANGE_WITH_BUTTONS`
+- Zvukovi | Zvukovi i vibracije → Zvukovi i uzorci vibracije: `prefs:root=Sounds#SOUNDS_ALERT_GROUP`
+- Zvukovi | Zvukovi i vibracije → Melodija zvona: `prefs:root=Sounds&path=Ringtone`
+- Zvukovi | Zvukovi i vibracije → Zvuk poruke: `prefs:root=Sounds&path=Text_Messages`
+- Zvukovi | Zvukovi i vibracije → Nova govorna poruka: `prefs:root=Sounds&path=Voicemail`
+- Zvukovi | Zvukovi i vibracije → Novi e-mail: `prefs:root=Sounds&path=NEW_MAIL`
+- Zvukovi | Zvukovi i vibracije → Poslani e-mail: `prefs:root=Sounds&path=SENT_MAIL`
+- Zvukovi | Zvukovi i vibracije → Alarmi kalendara: `prefs:root=Sounds&path=Calendar%20Alarm`
+- Zvukovi | Zvukovi i vibracije → Alarmi podsjetnika: `prefs:root=Sounds&path=Reminder%20Alerts`
+- Zvukovi | Zvukovi i vibracije → Klik tipkovnice: `prefs:root=Sounds#KEYBOARD_SOUND_SWITCH`
+- Zvukovi | Zvukovi i vibracije → Zvuk zaključavanja: `prefs:root=Sounds#LOCK_SOUND_SWITCH`
+- Zvukovi | Zvukovi i vibracije → Personalizirani prostorni zvuk: `prefs:root=Sounds&path=Personalized%20Spatial%20Audio`
+- Apple Pencil: `prefs:root=Pencil`
+- Apple Pencil → Apple Pencil: `prefs:root=Pencil#PrefersPencilDraws`
+- Apple Pencil → Apple Pencil: `prefs:root=Pencil#PencilTextInput`
+- Poruke: `prefs:root=MESSAGES`
+- Dionice: `prefs:root=STOCKS`
+- Dionice → Privatnost: `prefs:root=STOCKS#Privacy`
+- Dionice → Resetiraj identifikator: `prefs:root=STOCKS#reset_identifier`
+- Prijevod: `prefs:root=TRANSLATE`
+- Prijevod → Mod prijevoda na uređaju: `prefs:root=TRANSLATE#OnDeviceOnly`
+- Siri: `prefs:root=SIRI`
+- Siri → Dozvoli Siri kad je uređaj zaklj.: `prefs:root=SIRI#ASSISTANT_LOCK_SCREEN_ACCESS`
+- Siri → Jezik: `prefs:root=SIRI&path=LANGUAGE_ID`
+- Siri → Glas za Siri: `prefs:root=SIRI&path=VOICE_ID`
+- Siri → Glasovni odgovori: `prefs:root=SIRI&path=VOICE_FEEDBACK_ID`
+- Siri → Moje informacije: `prefs:root=SIRI&path=MY_INFO`
+- Zdravlje | Zdravstveni podaci: `prefs:root=HEALTH`
+- App Store: `prefs:root=STORE`
+- App Store → Automatska preuzimanja: `prefs:root=STORE#Automatic%20Downloads`
+- App Store → Ažuriranja aplikacija: `prefs:root=STORE#App%20Updates`
+- App Store → Preuzimanje aplikacija: `prefs:root=STORE&path=App%20Downloads`
+- App Store → Auto reprodukcija videozapisa: `prefs:root=STORE&path=Video%20Autoplay`
+- App Store → Ocjene i osvrti u aplikaciji: `prefs:root=STORE#In-App%20Ratings%20&%20Reviews`
+- Zrakoplovni mod: `prefs:root=ROOT#AIRPLANE_MODE`

@@ -1,0 +1,414 @@
+- Pin: `prefs:root=BATTERY_USAGE`
+- Pin → Chế độ nguồn điện thấp: `prefs:root=BATTERY_USAGE#BATTERY_SAVER_MODE`
+- Pin → Tình trạng pin: `prefs:root=BATTERY_USAGE#BATTERY_HEALTH_ID`
+- Cài đặt chung: `prefs:root=General`
+- Cài đặt chung → Quản lý VPN & thiết bị: `prefs:root=General&path=ManagedConfigurationList`
+- Cài đặt chung → Tự động điền & Mật khẩu: `prefs:root=General&path=AUTOFILL`
+- Cài đặt chung → Tự động điền & Mật khẩu → Tự động điền mật khẩu: `prefs:root=General&path=AUTOFILL#AUTOFILL`
+- Cài đặt chung → Tự động điền & Mật khẩu → Dọn dẹp mã xác minh: `prefs:root=General&path=AUTOFILL#CLEAN_UP_VERIFICATION_CODES`
+- Cài đặt chung → Tự động điền & Mật khẩu → Thiết lập mã xác minh: `prefs:root=General&path=AUTOFILL#SET_UP_VERIFICATION_CODES`
+- Cài đặt chung → AppleCare & Bảo hành: `prefs:root=General&path=COVERAGE/`
+- Cài đặt chung → Từ điển: `prefs:root=General&path=DICTIONARY`
+- Cài đặt chung → Bàn phím: `prefs:root=General&path=Keyboard`
+- Cài đặt chung → Bàn phím → Bàn phím: `prefs:root=General&path=Keyboard/KEYBOARDS`
+- Cài đặt chung → Bàn phím → Thay thế văn bản: `prefs:root=General&path=Keyboard/USER_DICTIONARY`
+- Cài đặt chung → Bàn phím → Tự động viết hoa: `prefs:root=General&path=Keyboard#KeyboardAutocapitalization`
+- Cài đặt chung → Bàn phím → Tự động sửa: `prefs:root=General&path=Keyboard#KeyboardAutocorrection`
+- Cài đặt chung → Bàn phím → Kiểm tra chính tả: `prefs:root=General&path=Keyboard#KeyboardCheckSpelling`
+- Cài đặt chung → Bàn phím → Bật Caps Lock: `prefs:root=General&path=Keyboard#KeyboardCapsLock`
+- Cài đặt chung → Bàn phím → Phím tắt: `prefs:root=General&path=Keyboard#KeyboardAssistant`
+- Cài đặt chung → Bàn phím → Dự đoán: `prefs:root=General&path=Keyboard#KeyboardPrediction`
+- Cài đặt chung → Bàn phím → Dấu câu thông minh: `prefs:root=General&path=Keyboard#SmartTyping`
+- Cài đặt chung → Bàn phím → Chia bàn phím: `prefs:root=General&path=Keyboard#RivenKeyboard`
+- Cài đặt chung → Bàn phím → Bật Vuốt phím: `prefs:root=General&path=Keyboard#GesturesEnabled`
+- Cài đặt chung → Bàn phím → Xem trước ký tự: `prefs:root=General&path=Keyboard#KeyboardAllowPaddle`
+- Cài đặt chung → Bàn phím → Phím tắt “.”: `prefs:root=General&path=Keyboard#KeyboardPeriodShortcut`
+- Cài đặt chung → Bàn phím → Trượt để nhập: `prefs:root=General&path=Keyboard#KeyboardContinuousPathEnabled`
+- Cài đặt chung → Bàn phím → Bật Đọc chính tả: `prefs:root=General&path=Keyboard#Dictation`
+- Cài đặt chung → Bàn phím → Dấu câu tự động: `prefs:root=General&path=Keyboard#AutoPunctuationSetting`
+- Cài đặt chung → Cập nhật phần mềm: `prefs:root=General&path=SOFTWARE_UPDATE_LINK`
+- Cài đặt chung → Cập nhật phần mềm → Tự động cập nhật: `prefs:root=General&path=SOFTWARE_UPDATE_LINK/SUAutomaticUpdateButton`
+- Cài đặt chung → Dung lượng: `prefs:root=General&path=STORAGE_MGMT`
+- Cài đặt chung → Dung lượng → Dung lượng: `prefs:root=General&path=STORAGE_MGMT#MANAGE`
+- Cài đặt chung → Dung lượng → Gỡ bỏ ứng dụng ko dùng: `prefs:root=General&path=STORAGE_MGMT#OFFLOAD`
+- Cài đặt chung → Hình trong hình: `prefs:root=General&path=PiP_SPEC`
+- Cài đặt chung → Bàn di chuột | Bàn di chuột & Chuột: `prefs:root=General&path=POINTERS`
+- Cài đặt chung → NFC: `prefs:root=General&path=NFC_LINK`
+- Cài đặt chung → VPN: `prefs:root=General&path=VPN`
+- Cài đặt chung → CarPlay: `prefs:root=General&path=CARPLAY`
+- Cài đặt chung → Giới thiệu: `prefs:root=General&path=About`
+- Cài đặt chung → Giới thiệu → Chứng nhận được tin cậy: `prefs:root=General&path=About/CERT_TRUST_SETTINGS`
+- Cài đặt chung → Giới thiệu → Số sê-ri: `prefs:root=General&path=About#SerialNumber`
+- Cài đặt chung → Giới thiệu → Số máy: `prefs:root=General&path=About#ProductModel`
+- Cài đặt chung → Giới thiệu → Tên kiểu máy: `prefs:root=General&path=About#ProductModelName`
+- Cài đặt chung → Giới thiệu → Phiên bản iOS: `prefs:root=General&path=About/SW_VERSION_SPECIFIER`
+- Cài đặt chung → Pháp lý & Quy định: `prefs:root=General&path=LEGAL_AND_REGULATORY`
+- Cài đặt chung → Pháp lý & Quy định → Bảo hành: `prefs:root=General&path=LEGAL_AND_REGULATORY#Warranty`
+- Cài đặt chung → AirDrop: `prefs:root=General&path=AIRDROP_LINK`
+- Cài đặt chung → AirDrop → Đưa các thiết bị lại gần nhau: `prefs:root=General&path=AIRDROP_LINK#AIRDROP_NFC_ID`
+- Cài đặt chung → Nút Home: `prefs:root=General&path=HOME_BUTTON`
+- Cài đặt chung → Công tắc trượt: `prefs:root=General#Rotation_Switch_Action_Group`
+- Cài đặt chung → Làm mới ứng dụng trong nền: `prefs:root=General&path=AUTO_CONTENT_DOWNLOAD`
+- Cài đặt chung → Ngày & Giờ: `prefs:root=General&path=DATE_AND_TIME`
+- Cài đặt chung → Đầu ra TV: `prefs:root=General&path=TV_OUT`
+- Cài đặt chung → Đặt lại: `prefs:root=General&path=Reset`
+- Cài đặt chung → Đặt lại → Đặt lại tất cả cài đặt: `prefs:root=General&path=Reset#settingsErase`
+- Cài đặt chung → Đặt lại → Xóa tất cả nội dung và cài đặt: `prefs:root=General&path=Reset#fullErase`
+- Cài đặt chung → Đặt lại → Đặt lại cài đặt mạng: `prefs:root=General&path=Reset#RESET_NETWORK_LABEL`
+- Cài đặt chung → Đặt lại → Xóa tất cả gói cước dữ liệu di động: `prefs:root=General&path=Reset#cellularErase`
+- Cài đặt chung → Đặt lại → Dịch vụ của thuê bao: `prefs:root=General&path=Reset#SUBSCRIBER_SERVICES_ID`
+- Cài đặt chung → Đặt lại → Đặt lại từ điển bàn phím: `prefs:root=General&path=Reset#RESET_KEYBOARD_DICTIONARY_LABEL`
+- Cài đặt chung → Đặt lại → Đặt lại bố cục Màn hình chính: `prefs:root=General&path=Reset#RESET_ICONS_LABEL`
+- Cài đặt chung → Đặt lại → Đặt lại vị trí & quyền riêng tư: `prefs:root=General&path=Reset#RESET_PRIVACY_LABEL`
+- Cài đặt chung → Tắt máy: `prefs:root=General#SHUTDOWN_LABEL`
+- Cài đặt chung → AirPlay & Thông suốt: `prefs:root=General&path=CONTINUITY_SPEC`
+- Cài đặt chung → AirPlay & Thông suốt → Handoff: `prefs:root=General&path=CONTINUITY_SPEC#CONTINUITY`
+- Cài đặt chung → AirPlay & Thông suốt → Chuyển sang HomePod: `prefs:root=General&path=CONTINUITY_SPEC#TRANSFER_TO_HOMEPOD`
+- Cài đặt chung → AirPlay & Thông suốt → Tự động phát AirPlay: `prefs:root=General&path=CONTINUITY_SPEC#AUTOMATICALLY_AIRPLAY`
+- Cài đặt chung → AirPlay & Thông suốt → Camera thông suốt: `prefs:root=General&path=CONTINUITY_SPEC#WOMBAT_CAMERA`
+- Cài đặt chung → Ngôn ngữ & Vùng: `prefs:root=General&path=INTERNATIONAL`
+- Cài đặt chung → Ngôn ngữ & Vùng → Ngôn ngữ khác…: `prefs:root=General&path=INTERNATIONAL#NEW_PREFERRED_LANGUAGE`
+- Cài đặt chung → Ngôn ngữ & Vùng → Thứ tự ngôn ngữ ưu tiên: `prefs:root=General&path=INTERNATIONAL#PREFERRED_LANGUAGE_GROUP`
+- Cài đặt chung → Ngôn ngữ & Vùng → Thêm ngôn ngữ…: `prefs:root=General&path=INTERNATIONAL#ADD_PREFERRED_LANGUAGE`
+- Cài đặt chung → Ngôn ngữ & Vùng → Vùng: `prefs:root=General&path=INTERNATIONAL/LOCALE`
+- Cài đặt chung → Ngôn ngữ & Vùng → Số: `prefs:root=General&path=INTERNATIONAL/NUMBERING_SYSTEM`
+- Cài đặt chung → Ngôn ngữ & Vùng → Lịch: `prefs:root=General&path=INTERNATIONAL/CALENDAR`
+- Cài đặt chung → Ngôn ngữ & Vùng → Đơn vị nhiệt độ: `prefs:root=General&path=INTERNATIONAL/TEMPERATURE_UNIT`
+- Tài khoản Apple: `prefs:root=APPLE_ACCOUNT` or `settings-navigation://com.apple.Settings.AppleAccount`
+- Tài khoản Apple → Xác minh khóa liên hệ: `prefs:root=APPLE_ACCOUNT&path=TRANSPARENCY` or `settings-navigation://com.apple.Settings.AppleAccount/TRANSPARENCY`
+- Tài khoản Apple → iCloud: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE` or `prefs:root=CASTLE`
+- Tài khoản Apple → iCloud → Dung lượng iCloud: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/STORAGE_AND_BACKUP` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/STORAGE_AND_BACKUP` or `prefs:root=CASTLE&path=STORAGE_AND_BACKUP`
+- Tài khoản Apple → iCloud → iCloud Drive: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Ubiquity` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Ubiquity` or `prefs:root=CASTLE&path=com.apple.Dataclass.Ubiquity`
+- Tài khoản Apple → iCloud → Ảnh: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.MediaStream` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.MediaStream` or `prefs:root=CASTLE&path=com.apple.Dataclass.MediaStream`
+- Tài khoản Apple → iCloud → Mail: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Mail` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail` or `prefs:root=CASTLE&path=com.apple.Dataclass.Mail`
+- Tài khoản Apple → iCloud → Danh bạ: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Contacts` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Contacts` or `prefs:root=CASTLE&path=com.apple.Dataclass.Contacts`
+- Tài khoản Apple → iCloud → Lịch: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Calendars` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Calendars` or `prefs:root=CASTLE&path=com.apple.Dataclass.Calendars`
+- Tài khoản Apple → iCloud → Lời nhắc: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Reminders` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Reminders` or `prefs:root=CASTLE&path=com.apple.Dataclass.Reminders`
+- Tài khoản Apple → iCloud → Safari: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Bookmarks` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Bookmarks` or `prefs:root=CASTLE&path=com.apple.Dataclass.Bookmarks`
+- Tài khoản Apple → iCloud → Ghi chú: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Notes` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Notes` or `prefs:root=CASTLE&path=com.apple.Dataclass.Notes`
+- Tài khoản Apple → iCloud → News: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.News` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.News` or `prefs:root=CASTLE&path=com.apple.Dataclass.News`
+- Tài khoản Apple → iCloud → Sao lưu: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/BACKUP` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/BACKUP` or `prefs:root=CASTLE&path=BACKUP`
+- Tài khoản Apple → iCloud → Sức khỏe: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Health` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Health` or `prefs:root=CASTLE&path=com.apple.Dataclass.Health`
+- Tài khoản Apple → iCloud → Mật khẩu và chuỗi khóa: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.KeychainSync` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.KeychainSync` or `prefs:root=CASTLE&path=com.apple.Dataclass.KeychainSync`
+- Tài khoản Apple → iCloud → Ẩn địa chỉ email: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/PRIVATE_EMAIL_MANAGE` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/PRIVATE_EMAIL_MANAGE` or `prefs:root=CASTLE&path=PRIVATE_EMAIL_MANAGE`
+- Tài khoản Apple → Chia sẻ vị trí của tôi: `prefs:root=APPLE_ACCOUNT&path=LOCATION_SHARING` or `settings-navigation://com.apple.Settings.AppleAccount/LOCATION_SHARING`
+- Tài khoản Apple → Chia sẻ vị trí của tôi → Tìm: `prefs:root=APPLE_ACCOUNT&path=LOCATION_SHARING/FindMyDevice-Settings` or `settings-navigation://com.apple.Settings.AppleAccount/LOCATION_SHARING/FindMyDevice-Settings`
+- Tài khoản Apple → Tên, Số điện thoại, Email: `prefs:root=APPLE_ACCOUNT&path=APPLE_ACCOUNT_CONTACT` or `settings-navigation://com.apple.Settings.AppleAccount/APPLE_ACCOUNT_CONTACT`
+- Tài khoản Apple → Mật khẩu & Bảo mật: `prefs:root=APPLE_ACCOUNT&path=PASSWORD_AND_SECURITY` or `settings-navigation://com.apple.Settings.AppleAccount/PASSWORD_AND_SECURITY`
+- Tài khoản Apple → Thanh toán & Giao hàng: `prefs:root=APPLE_ACCOUNT&path=PAYMENT_AND_SHIPPING` or `settings-navigation://com.apple.Settings.AppleAccount/PAYMENT_AND_SHIPPING`
+- Tài khoản Apple → Đăng ký: `prefs:root=APPLE_ACCOUNT&path=SUBSCRIPTIONS` or `settings-navigation://com.apple.Settings.AppleAccount/SUBSCRIPTIONS`
+- Tài khoản Apple → Gia đình: `prefs:root=APPLE_ACCOUNT&path=Family` or `settings-navigation://com.apple.Settings.AppleAccount/Family`
+- Thông báo: `prefs:root=NOTIFICATIONS_ID`
+- Thông báo → Tóm tắt theo lịch trình: `prefs:root=NOTIFICATIONS_ID&path=SCHEDULED_DELIVERY_ID`
+- Thời tiết: `prefs:root=WEATHER`
+- Freeform: `prefs:root=FREEFORM`
+- Tập trung: `prefs:root=DO_NOT_DISTURB`
+- Tập trung → Trạng thái tập trung: `prefs:root=DO_NOT_DISTURB&path=status`
+- Nhật ký: `prefs:root=JOURNAL`
+- Ví & Apple Pay: `prefs:root=PASSBOOK`
+- Ví & Apple Pay → Apple Cash: `prefs:root=PASSBOOK#Apple%C2%A0Cash`
+- Ví & Apple Pay → Thẻ thanh toán: `prefs:root=PASSBOOK#SETTINGS_PAYMENT_CARDS_GROUP`
+- Ví & Apple Pay → Thêm thẻ: `prefs:root=PASSBOOK#Add%20Card`
+- Ví & Apple Pay → Bấm nút sườn hai lần: `prefs:root=PASSBOOK#Double-Click%20Side%20Button`
+- Ví & Apple Pay → Theo dõi đơn hàng: `prefs:root=PASSBOOK#ORDER_TRACKING`
+- Giao diện | Màn hình & Độ sáng: `prefs:root=DISPLAY`
+- Giao diện | Màn hình & Độ sáng → Giao diện: `prefs:root=DISPLAY#DEVICE_APPEARANCE`
+- Giao diện | Màn hình & Độ sáng → True Tone: `prefs:root=DISPLAY#WHITE_BALANCE`
+- Giao diện | Màn hình & Độ sáng → Night Shift: `prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION`
+- Giao diện | Màn hình & Độ sáng → Night Shift → Theo lịch trình: `prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION#SCHEDULED`
+- Giao diện | Màn hình & Độ sáng → Night Shift → Bật thủ công đến ngày mai: `prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION#MANUAL`
+- Giao diện | Màn hình & Độ sáng → Night Shift → Nhiệt độ màu: `prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION#COLOR_TEMPERATURE`
+- Giao diện | Màn hình & Độ sáng → Tự động khóa: `prefs:root=DISPLAY&path=AUTOLOCK`
+- Giao diện | Màn hình & Độ sáng → Đưa lên để bật: `prefs:root=DISPLAY#RAISE_TO_WAKE`
+- Giao diện | Màn hình & Độ sáng → Khóa / Mở khóa: `prefs:root=DISPLAY#SMART_CASE_LOCK_SPEC`
+- Giao diện | Màn hình & Độ sáng → Cỡ chữ: `prefs:root=DISPLAY&path=TEXT_SIZE`
+- Giao diện | Màn hình & Độ sáng → Chữ đậm: `prefs:root=DISPLAY#BOLD_TEXT`
+- Giao diện | Màn hình & Độ sáng → Độ sáng: `prefs:root=DISPLAY#BRIGHTNESS`
+- Giao diện | Màn hình & Độ sáng → Thu phóng màn hình: `prefs:root=DISPLAY#DISPLAY_ZOOM_GROUP`
+- Giao diện | Màn hình & Độ sáng → Giao diện: `prefs:root=DISPLAY&path=APPEARANCE`
+- Giao diện | Màn hình & Độ sáng → Giao diện → Thu phóng cửa sổ: `prefs:root=DISPLAY&path=APPEARANCE#WINDOW_ZOOM`
+- Giao diện | Màn hình & Độ sáng → Giao diện → Thu phóng cửa sổ bằng hai tay: `prefs:root=DISPLAY&path=APPEARANCE#TWO_HANDED_WINDOW_ZOOM`
+- Giao diện | Màn hình & Độ sáng → Xem: `prefs:root=DISPLAY&path=MAGNIFY`
+- Giao diện | Màn hình & Độ sáng → Màn hình luôn bật: `prefs:root=DISPLAY&path=ALWAYS_ON`
+- Giao diện | Màn hình & Độ sáng → Màn hình luôn bật → Màn hình luôn bật: `prefs:root=DISPLAY&path=ALWAYS_ON#ALWAYS_ON`
+- Giao diện | Màn hình & Độ sáng → Ứng dụng tương thích: `prefs:root=DISPLAY&path=COMPATIBLE_APPEARANCE`
+- Giao diện | Màn hình & Độ sáng → Ứng dụng tương thích → Tối, Sáng: `prefs:root=DISPLAY&path=COMPATIBLE_APPEARANCE#COMPATIBLE_APPEARANCE_CHOICES`
+- Đo: `prefs:root=MEASURE` or `settings-navigation://com.apple.Settings.Apps/com.apple.measure`
+- Đo → Các đơn vị đo: `prefs:root=MEASURE#MEASURE_UNITS` or `settings-navigation://com.apple.Settings.Apps/com.apple.measure#MEASURE_UNITS#MEASURE_UNITS`
+- Đo → Hệ Anh: `prefs:root=MEASURE#Imperial` or `settings-navigation://com.apple.Settings.Apps/com.apple.measure#Imperial#Imperial`
+- Đo → Hệ mét: `prefs:root=MEASURE#Metric` or `settings-navigation://com.apple.Settings.Apps/com.apple.measure#Metric#Metric`
+- Hình nền: `prefs:root=Wallpaper`
+- Trung tâm điều khiển: `prefs:root=ControlCenter`
+- Trung tâm điều khiển → Truy cập bên trong ứng dụng: `prefs:root=ControlCenter#ALLOWED_WITHIN_APPS`
+- Trung tâm điều khiển → Tùy chỉnh điều khiển: `prefs:root=ControlCenter&path=CUSTOMIZE_CONTROLS`
+- Ghi âm: `prefs:root=VOICE_MEMOS`
+- Ghi âm → Xóa vĩnh viễn: `prefs:root=VOICE_MEMOS&path=RCVoiceMemosRecentlyDeletedWindowKey`
+- Ghi âm → Chất lượng âm thanh: `prefs:root=VOICE_MEMOS&path=RCVoiceMemosAudioQualityKey`
+- Ghi âm → Đặt tên dựa trên vị trí: `prefs:root=VOICE_MEMOS#RCVoiceMemosUseLocationBasedNaming`
+- Lịch: `prefs:root=CALENDAR`
+- Lịch → Thay thế múi giờ: `prefs:root=CALENDAR&path=TimeZoneCityArray`
+- Lịch → Lịch thay thế: `prefs:root=CALENDAR&path=Alternate%20Calendars`
+- Lịch → Số tuần: `prefs:root=CALENDAR#Week%20Numbers`
+- Lịch → Hiển thị lời mời bị từ chối: `prefs:root=CALENDAR#Show%20Invitee%20Declines`
+- Lịch → Đồng bộ hóa: `prefs:root=CALENDAR&path=Sync`
+- Lịch → Giờ báo mặc định: `prefs:root=CALENDAR&path=Default%20Alert%20Times`
+- Lịch → Bắt đầu tuần vào: `prefs:root=CALENDAR&path=Start%20Week%20On`
+- Lịch → Gợi ý vị trí: `prefs:root=CALENDAR#Location%20Suggestions`
+- Nhà phát triển: `prefs:root=DEVELOPER_SETTINGS`
+- Nhà phát triển → Kết nối mạng nhiều đường dẫn: `prefs:root=DEVELOPER_SETTINGS&path=MULTI_PATH_AGG`
+- Nhà phát triển → Kết nối mạng nhiều đường dẫn → Kết nối mạng nhiều đường dẫn: `prefs:root=DEVELOPER_SETTINGS&path=MULTI_PATH_AGG#Multipath%20Networking`
+- Nhà phát triển → Giao diện: `prefs:root=DEVELOPER_SETTINGS#UIAppearanceGroup`
+- Nhà phát triển → Giao diện tối: `prefs:root=DEVELOPER_SETTINGS#UIAppearanceSettings`
+- Nhà phát triển → Thiết bị đã ghép đôi: `prefs:root=DEVELOPER_SETTINGS#DTPairedDevicesGroup`
+- Nhà phát triển → Xóa máy tính được tin cậy: `prefs:root=DEVELOPER_SETTINGS#CLEAR_TRUSTED_COMPUTERS`
+- Nhà phát triển → Ghi nhật ký: `prefs:root=DEVELOPER_SETTINGS&path=DTInstrumentsSettings`
+- Nhà phát triển → Bật tự động hóa UI | Tự động hóa UI: `prefs:root=DEVELOPER_SETTINGS#UIAGroup`
+- Nhà phát triển → Kết nối mạng: `prefs:root=DEVELOPER_SETTINGS#NLCGroup`
+- Nhà phát triển → Bộ điều tiết liên kết mạng: `prefs:root=DEVELOPER_SETTINGS&path=NLC`
+- Nhà phát triển → Ghi nhật ký bổ sung: `prefs:root=DEVELOPER_SETTINGS#ADDITIONAL_LOGGING`
+- Nhà phát triển → Cho phép dịch vụ HTTP: `prefs:root=DEVELOPER_SETTINGS#ALLOW_HTTP_SERVICES`
+- Nhà phát triển → Tắt giới hạn tốc độ: `prefs:root=DEVELOPER_SETTINGS#DISABLE_RATE_LIMITING`
+- Nhà phát triển → Khóa bảo mật NFC tùy chọn: `prefs:root=DEVELOPER_SETTINGS#NFC_PASS_KEY_OPTIONAL`
+- Nhà phát triển → Kiểm tra dịch vụ phương tiện: `prefs:root=DEVELOPER_SETTINGS#MEDIA_SERVICES_TESTING`
+- Nhà phát triển → Đặt lại dịch vụ phương tiện: `prefs:root=DEVELOPER_SETTINGS#RESET_MEDIA_SERVICES`
+- Nhà phát triển → Kiểm tra News: `prefs:root=DEVELOPER_SETTINGS#NEWS_TESTING`
+- Nhà phát triển → Đặt lại dữ liệu cục bộ trong lần khởi chạy tiếp theo: `prefs:root=DEVELOPER_SETTINGS#RESET_LOCAL_DATA_ON_NEXT_LAUNCH`
+- Nhà phát triển → Kiểm tra khung trình phát phương tiện: `prefs:root=DEVELOPER_SETTINGS#RoutineSettingsGroup`
+- Nhà phát triển → API nội dung có thể phát: `prefs:root=DEVELOPER_SETTINGS&path=RoutineSettings`
+- Nhà phát triển → Nhà cung cấp TV: `prefs:root=DEVELOPER_SETTINGS&path=VideoSubscriberAccountSettings`
+- Nhà phát triển → ClassKit API: `prefs:root=DEVELOPER_SETTINGS&path=ClassKitSettings`
+- Nhà phát triển → Kiểm tra CoreSpotlight: `prefs:root=DEVELOPER_SETTINGS#CORESPOTLIGHT_TESTING`
+- Nhà phát triển → Tạo lại chỉ mục tất cả các mục: `prefs:root=DEVELOPER_SETTINGS#REINDEX_ALL_ITEMS`
+- Nhà phát triển → Tạo lại chỉ mục tất cả các mục có mã định danh: `prefs:root=DEVELOPER_SETTINGS#REINDEX_ALL_ITEMS_WITH_IDENTIFIERS`
+- Nhà phát triển → Kiểm tra Phím tắt: `prefs:root=DEVELOPER_SETTINGS#SIRI_ACTIONS_TESTING`
+- Nhà phát triển → Hiển thị phím tắt gần đây: `prefs:root=DEVELOPER_SETTINGS#DISPLAY_DONATIONS_SPOTLIGHT`
+- Nhà phát triển → Hiển thị phương tiện sắp tới: `prefs:root=DEVELOPER_SETTINGS#DISPLAY_UPCOMING_MEDIA`
+- Nhà phát triển → Hiển thị tài trợ trên Màn hình khóa: `prefs:root=DEVELOPER_SETTINGS#DISPLAY_DONATIONS_LOCKSCREEN`
+- Nhà phát triển → Bắt buộc đồng bộ hóa phím tắt với Watch: `prefs:root=DEVELOPER_SETTINGS#SIRI_ACTIONS_SYNC_WATCHOS`
+- Nhà phát triển → Kiểm tra MIDI-CI: `prefs:root=DEVELOPER_SETTINGS#MIDI_CI_API_BETA`
+- Nhà phát triển → Bật MIDI-CI: `prefs:root=DEVELOPER_SETTINGS#MIDI_CI_API_BETA_ENABLE`
+- Nhà phát triển → Phát hiện treo: `prefs:root=DEVELOPER_SETTINGS#HANGTRACER_EXTERNAL_CONFIGURE`
+- Face ID & Mật mã | Mật mã | Touch ID & Mật mã: `prefs:root=PASSCODE`
+- Face ID & Mật mã | Mật mã | Touch ID & Mật mã → Tắt mật mã: `prefs:root=PASSCODE#PASSCODE_OFF`
+- Face ID & Mật mã | Mật mã | Touch ID & Mật mã → Thay đổi mật mã: `prefs:root=PASSCODE#CHANGE_PASSCODE`
+- Face ID & Mật mã | Mật mã | Touch ID & Mật mã → Yêu cầu mật mã: `prefs:root=PASSCODE&path=PASSCODE_REQ`
+- Face ID & Mật mã | Mật mã | Touch ID & Mật mã → Quay số bằng giọng nói: `prefs:root=PASSCODE#VOICE_DIAL`
+- Face ID & Mật mã | Mật mã | Touch ID & Mật mã → Cho phép truy cập khi bị khóa: `prefs:root=PASSCODE#ALLOW_ACCESS_WHEN_LOCKED`
+- Face ID & Mật mã | Mật mã | Touch ID & Mật mã → Trả lời bằng tin nhắn: `prefs:root=PASSCODE#REPLY_WITH_MESSAGE_SWITCH`
+- Face ID & Mật mã | Mật mã | Touch ID & Mật mã → Điều khiển Nhà: `prefs:root=PASSCODE#HOME_CONTROL_SWITCH`
+- Face ID & Mật mã | Mật mã | Touch ID & Mật mã → Ví: `prefs:root=PASSCODE#WALLET_SWITCH`
+- Face ID & Mật mã | Mật mã | Touch ID & Mật mã → Gọi lại cuộc gọi nhỡ: `prefs:root=PASSCODE#RETURN_MISSED_CALLS_SWITCH`
+- Face ID & Mật mã | Mật mã | Touch ID & Mật mã → Xóa dữ liệu: `prefs:root=PASSCODE#WIPE_DEVICE`
+- Face ID & Mật mã | Mật mã | Touch ID & Mật mã → Mở khóa bằng Apple Watch: `prefs:root=PASSCODE#AUTO_UNLOCK_DEVICES_GROUP`
+- Face ID & Mật mã | Mật mã | Touch ID & Mật mã → Bảo vệ thiết bị khi bị đánh cắp: `prefs:root=PASSCODE#DTO_GROUP_ID`
+- Điện thoại: `prefs:root=Phone`
+- Điện thoại → Số của tôi: `prefs:root=Phone&path=My%20Number`
+- Điện thoại → Cuộc gọi đến: `prefs:root=Phone&path=INCOMING_CALL_STYLE`
+- Điện thoại → Thông báo cuộc gọi: `prefs:root=Phone&path=ANNOUNCE_CALLS`
+- Điện thoại → Báo cáo SMS/cuộc gọi: `prefs:root=Phone&path=CLASSIFICATION_AND_REPORTING`
+- Điện thoại → Phản hồi bằng tin nhắn: `prefs:root=Phone&path=Respond%20with%20Text`
+- Điện thoại → Chuyển cuộc gọi: `prefs:root=Phone&path=Call%20Forwarding`
+- Điện thoại → Chuyển cuộc gọi → Chuyển cuộc gọi: `prefs:root=Phone&path=Call%20Forwarding#idMasterOnOffSwitch`
+- Điện thoại → Chờ cuộc gọi: `prefs:root=Phone&path=Call%20Waiting`
+- Điện thoại → Hiện ID người gọi của tôi: `prefs:root=Phone&path=Show%20My%20Caller%20ID`
+- Điện thoại → Hiện ID người gọi của tôi → Hiện ID người gọi của tôi: `prefs:root=Phone&path=Show%20My%20Caller%20ID/Primary`
+- Điện thoại → Hiện ID người gọi của tôi → Hiện ID người gọi của tôi → Hiện ID người gọi của tôi: `prefs:root=Phone&path=Show%20My%20Caller%20ID/Primary#Show%20My%20Caller%20ID`
+- Điện thoại → Tắt tiếng cuộc gọi lạ: `prefs:root=Phone#SILENCE_CALLS`
+- Điện thoại → Liên hệ bị chặn: `prefs:root=Phone&path=SPECIFIER_IDENTIFIER_BLACKLIST`
+- Điện thoại → Hỗ trợ quay số: `prefs:root=Phone&path=Dial%20Assist`
+- Ghi chú: `prefs:root=NOTES` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes`
+- Ghi chú → Tài khoản mặc định: `prefs:root=NOTES&path=Default%20Account` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes/Default%20Account`
+- Ghi chú → Mật khẩu: `prefs:root=NOTES&path=Password` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes/Password`
+- Ghi chú → Sắp xếp ghi chú theo: `prefs:root=NOTES&path=Sort%20Notes%20By` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes/Sort%20Notes%20By`
+- Ghi chú → Ghi chú mới bắt đầu bằng: `prefs:root=NOTES&path=New%20Notes%20Start%20With` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes/New%20Notes%20Start%20With`
+- Ghi chú → Sắp xếp mục đã chọn: `prefs:root=NOTES&path=Sort%20Checked%20Items` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes/Sort%20Checked%20Items`
+- Ghi chú → Đường kẻ & lưới: `prefs:root=NOTES&path=Lines%20%26%20Grids` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes/Lines%20%26%20Grids`
+- Ghi chú → Lưu vào Ảnh: `prefs:root=NOTES#Save%20to%20Photos` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes#Save%20to%20Photos#Save%20to%20Photos`
+- Ghi chú → Truy cập ghi chú từ Màn hình khóa: `prefs:root=NOTES&path=Access%20Notes%20from%20Lock%20Screen` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes/Access%20Notes%20from%20Lock%20Screen`
+- Sách: `prefs:root=IBOOKS`
+- Sách → Nội dung trực tuyến: `prefs:root=IBOOKS#BKAllowOnlineContent`
+- Sách → ĐỒNG BỘ HÓA: `prefs:root=IBOOKS#SYNCING`
+- Sách → Đang đọc: `prefs:root=IBOOKS#BKLibrary.ReadingNow`
+- Sách → iCloud Drive: `prefs:root=IBOOKS#BCSyncICloudDrive`
+- Sách → ĐỌC: `prefs:root=IBOOKS#READING`
+- Sách → Căn đều hai lề: `prefs:root=IBOOKS#BKFullJustification`
+- Sách → Tự động ngắt từ: `prefs:root=IBOOKS#BKAutoHyphenation`
+- Sách → Sang trang từ cả hai lề: `prefs:root=IBOOKS#BKLeftTapTurnToNext`
+- Sách → Mục tiêu đọc: `prefs:root=IBOOKS#READING_GOALS`
+- Sách → Xóa dữ liệu mục tiêu đọc: `prefs:root=IBOOKS#BKReadingGoalsShouldClearDataKey`
+- Sách → TÌM KIẾM: `prefs:root=IBOOKS#SEARCHING`
+- Sách → Book Store: `prefs:root=IBOOKS#BKIncludeBookStoreResultsInSearch`
+- Sách → SÁCH NÓI: `prefs:root=IBOOKS#AUDIOBOOKS`
+- Sách → Tiến về trước: `prefs:root=IBOOKS&path=BKAudioBookSkipForward`
+- Sách → Lùi về sau: `prefs:root=IBOOKS&path=BKAudioBookSkipBackward`
+- Sách → ĐIỀU KHIỂN BÊN NGOÀI: `prefs:root=IBOOKS#BKRemoteSkipInsteadOfNextTrackDefaultKey`
+- Sách → Tiếp theo/Trước đó: `prefs:root=IBOOKS#Next/Previous`
+- Sách → Tiến về trước/lùi về sau: `prefs:root=IBOOKS#Skip%20Forward/Back`
+- Sách → QUYỀN RIÊNG TƯ: `prefs:root=IBOOKS#PRIVACY`
+- Sách → Đặt lại mã định danh: `prefs:root=IBOOKS#BAResetAnalyticsUserID`
+- Sách → Công nhận: `prefs:root=IBOOKS&path=Acknowledgements`
+- Game Center: `prefs:root=GAMECENTER`
+- SOS khẩn cấp: `prefs:root=EMERGENCY_SOS`
+- SOS khẩn cấp → Gọi bằng nút sườn: `prefs:root=EMERGENCY_SOS#CALL_WITH_SIDE_BUTTON`
+- SOS khẩn cấp → Tự động gọi: `prefs:root=EMERGENCY_SOS#AUTO_CALL`
+- SOS khẩn cấp → Liên hệ khẩn cấp: `prefs:root=EMERGENCY_SOS#EMERGENCY_CONTACTS`
+- SOS khẩn cấp → Âm thanh đếm ngược: `prefs:root=EMERGENCY_SOS#ALARM_SOUND_SWITCH`
+- Lời nhắc: `prefs:root=REMINDERS`
+- Lời nhắc → Danh sách Mặc định: `prefs:root=REMINDERS&path=DEFAULT_LIST`
+- Lời nhắc → Danh sách Mặc định → Lời nhắc: `prefs:root=REMINDERS&path=DEFAULT_LIST#preferredDefaultListID`
+- Lời nhắc → Thông báo hôm nay: `prefs:root=REMINDERS#todayNotificationFireTime`
+- Lời nhắc → Hiển thị là quá hạn: `prefs:root=REMINDERS#showRemindersAsOverdue`
+- Di động: `prefs:root=MOBILE_DATA_SETTINGS_ID`
+- Di động → Tùy chọn dữ liệu di động: `prefs:root=MOBILE_DATA_SETTINGS_ID&path=CELLULAR_DATA_OPTIONS`
+- Di động → Tùy chọn dữ liệu di động → Chế độ dữ liệu thấp: `prefs:root=MOBILE_DATA_SETTINGS_ID&path=CELLULAR_DATA_OPTIONS#Low%20Data%20Mode`
+- Di động → Dữ liệu di động: `prefs:root=MOBILE_DATA_SETTINGS_ID&path=SHOW_ALL`
+- WLAN | Wi-Fi: `prefs:root=WIFI`
+- Danh bạ: `prefs:root=CONTACTS`
+- Danh bạ → Cho phép Danh bạ truy cập: `prefs:root=CONTACTS#Allow%20Contacts%20To%20Access`
+- Danh bạ → Siri: `prefs:root=CONTACTS&path=SIRI_AND_SEARCH`
+- Danh bạ → Thứ tự sắp xếp: `prefs:root=CONTACTS&path=ContactsSortOrder`
+- Danh bạ → Thứ tự hiển thị: `prefs:root=CONTACTS&path=PersonNameOrder`
+- Danh bạ → Tên viết tắt: `prefs:root=CONTACTS&path=PersonShortName`
+- Danh bạ → Tên viết tắt → Tên viết tắt: `prefs:root=CONTACTS&path=PersonShortName#Short%20Name`
+- Danh bạ → Tên viết tắt → Ưu tiên biệt danh: `prefs:root=CONTACTS&path=PersonShortName#Prefer%20Nicknames`
+- Danh bạ → Thông tin của tôi: `prefs:root=CONTACTS&path=MeCard`
+- Danh bạ → Nhập danh bạ trên SIM: `prefs:root=CONTACTS#SIMImport`
+- Phím tắt: `prefs:root=SHORTCUTS`
+- Phím tắt → Đồng bộ hóa iCloud: `prefs:root=SHORTCUTS#WFCloudKitSyncEnabled`
+- Phím tắt → Đồng bộ hóa thứ tự phím tắt: `prefs:root=SHORTCUTS#WFCloudKitSyncOrderEnabled`
+- Phím tắt → Thông báo pháp lý: `prefs:root=SHORTCUTS&path=Legal%20Notices`
+- TV | Video: `prefs:root=TVAPP`
+- TV | Video → Sử dụng dữ liệu di động cho phát lại: `prefs:root=TVAPP#com.apple.videos%3AVideosUseCellularDataEnabledSetting`
+- TV | Video → Chất lượng phát lại: `prefs:root=TVAPP#com.apple.videos%3APlaybackQualityGroup`
+- TV | Video → Mua và Thuê: `prefs:root=TVAPP&path=com.apple.videos%3APreferredPurchaseResolution`
+- TV | Video → Home Sharing: `prefs:root=TVAPP#com.apple.videos%3AHomeSharingFooter`
+- Nhạc: `prefs:root=MUSIC`
+- Nhạc → Hiển thị Apple Music: `prefs:root=MUSIC#com.apple.Music%3AAppleMusicEnabled`
+- Nhạc → Thêm bài hát playlist: `prefs:root=MUSIC#com.apple.Music%3AAddPlaylistSongsToMyMusicSwitch`
+- Nhạc → Hiển thị xếp hạng sao: `prefs:root=MUSIC#com.apple.Music%3AShowStarRatings`
+- Nhạc → Đồng bộ hóa thư viện: `prefs:root=MUSIC#com.apple.Music%3ACloudMusicLibraryEnabled`
+- Nhạc → Dữ liệu di động: `prefs:root=MUSIC&path=com.apple.Music%3ACellularData`
+- Nhạc → Nhạc đã tải về: `prefs:root=MUSIC&path=com.apple.Music%3AMusicUsageLink`
+- Nhạc → Tối ưu hóa dung lượng: `prefs:root=MUSIC&path=com.apple.Music%3AOptimizeStorage`
+- Nhạc → Tải về tự động: `prefs:root=MUSIC#com.apple.Music%3AMusicAutomaticDownload`
+- Nhạc → EQ: `prefs:root=MUSIC&path=com.apple.Music%3AEQ`
+- Nhạc → Kiểm tra âm thanh: `prefs:root=MUSIC#com.apple.Music%3ASoundCheck`
+- Nhạc → Sử dụng lịch sử nghe: `prefs:root=MUSIC#com.apple.Music%3APrivateListening`
+- Camera: `prefs:root=CAMERA`
+- Camera → Định dạng: `prefs:root=CAMERA&path=CameraFormatsSettingsList`
+- Camera → Định dạng → Apple ProRaw: `prefs:root=CAMERA&path=CameraFormatsSettingsList#CAMUserPreferenceEnableLinearDNGControl`
+- Camera → Record Video: `prefs:root=CAMERA&path=Record%20Video`
+- Camera → Record Video → Video HDR: `prefs:root=CAMERA&path=Record%20Video#HDR%20Video`
+- Camera → Bảo lưu cài đặt: `prefs:root=CAMERA&path=CameraPreserveSettingsSwitch`
+- Camera → Bảo lưu cài đặt → Chế độ camera: `prefs:root=CAMERA&path=CameraPreserveSettingsSwitch#CAMUserPreferencePreserveCaptureMode`
+- Camera → Lưới: `prefs:root=CAMERA#CameraGridSwitch`
+- Camera → Quét mã QR: `prefs:root=CAMERA#CameraQRBannerSwitch`
+- La bàn: `prefs:root=COMPASS`
+- La bàn → Sử dụng hướng Bắc thực: `prefs:root=COMPASS#USE_TRUE_NORTH`
+- Thông báo tiếp xúc: `prefs:root=EXPOSURE_NOTIFICATION`
+- Mail: `prefs:root=MAIL`
+- Mail → Tài khoản: `prefs:root=MAIL&path=ACCOUNTS`
+- Mail → Tài khoản → Thêm tài khoản: `prefs:root=MAIL&path=ACCOUNTS#ADD_ACCOUNT`
+- Mail → Tài khoản → Tìm nạp dữ liệu mới: `prefs:root=MAIL&path=ACCOUNTS#FETCH_NEW_DATA`
+- Mail → Xem trước: `prefs:root=MAIL&path=Preview`
+- Mail → Hiển thị nhãn Đến/Cc: `prefs:root=MAIL#Show%20To/Cc%20Labels`
+- Mail → Tùy chọn vuốt: `prefs:root=MAIL&path=Swipe%20Options`
+- Mail → Hỏi trước khi xóa: `prefs:root=MAIL#Ask%20Before%20Deleting`
+- Mail → Tải hình ảnh từ xa: `prefs:root=MAIL#Load%20Remote%20Images`
+- Mail → Sắp xếp theo luồng: `prefs:root=MAIL#Organize%20by%20Thread`
+- Mail → Thu gọn các thư đã đọc: `prefs:root=MAIL#Collapse%20Read%20Messages`
+- Mail → Thư gần đây nhất trên đầu: `prefs:root=MAIL#Most%20Recent%20Message%20on%20Top`
+- Mail → Luồng hoàn chỉnh: `prefs:root=MAIL#Complete%20Threads`
+- Mail → Tác vụ luồng đã tắt thông báo: `prefs:root=MAIL&path=Muted%20Thread%20Action`
+- Mail → Bỏ qua người gửi bị chặn: `prefs:root=MAIL#Ignore%20Blocked%20Senders`
+- Mail → Tùy chọn người gửi bị chặn: `prefs:root=MAIL&path=Blocked%20Sender%20Options`
+- Mail → Bị chặn: `prefs:root=MAIL&path=Blocked`
+- Mail → Luôn Bcc cho tôi: `prefs:root=MAIL#Always%20Bcc%20Myself`
+- Mail → Đánh dấu địa chỉ: `prefs:root=MAIL&path=Mark%20Addresses`
+- Mail → Tăng mức trích dẫn: `prefs:root=MAIL&path=Increase%20Quote%20Level`
+- Mail → Giữ tệp đính kèm trong thư trả lời: `prefs:root=MAIL&path=Include%20Attachments%20with%20Replies`
+- Mail → Chữ ký: `prefs:root=MAIL&path=Signature`
+- Bluetooth: `prefs:root=Bluetooth`
+- News: `prefs:root=NEWS`
+- News → Hiển thị xem trước tin tức: `prefs:root=NEWS#show_excerpt_mode`
+- News → Giới hạn tin tức trong Today: `prefs:root=NEWS#showStoriesFromFavoritesSpecifierID`
+- News → Quyền riêng tư: `prefs:root=NEWS#Privacy`
+- News → Đặt lại mã định danh: `prefs:root=NEWS#reset_identifier`
+- News → Công nhận: `prefs:root=NEWS&path=Acknowledgements`
+- Ảnh: `prefs:root=Photos`
+- Ảnh → Ảnh iCloud: `prefs:root=Photos#iCloudPhotosSwitch`
+- Ảnh → Tối ưu hóa dung lượng: `prefs:root=Photos#iCloudOptimizeStorageOption`
+- Ảnh → Tải về và giữ lại bản gốc: `prefs:root=Photos#iCloudKeepOriginalsOption`
+- Ảnh → Album chung: `prefs:root=Photos#SharedStreamsSwitch`
+- Ảnh → Dữ liệu di động: `prefs:root=Photos&path=CellularDataLinkList`
+- Ảnh → Tự động phát video: `prefs:root=Photos#VideoAutoplaySwitch`
+- Ảnh → Xem HDR đầy đủ: `prefs:root=Photos#ImageModulationSwitch`
+- Ảnh → Hiển thị sự kiện Ngày lễ: `prefs:root=Photos#MEMORIES_HOLIDAY_CALENDAR_EVENTS_SWITCH`
+- Ảnh → Chuyển đến máy Mac hoặc PC: `prefs:root=Photos#TransferGroup`
+- Podcast: `prefs:root=PODCASTS`
+- Quyền riêng tư & Bảo mật: `prefs:root=Privacy` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity`
+- Quyền riêng tư & Bảo mật → Sức khỏe: `prefs:root=Privacy&path=HEALTH` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/HEALTH`
+- Quyền riêng tư & Bảo mật → Dữ liệu sức khỏe: `prefs:root=Privacy&path=HEALTH_DATA` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/HEALTH_DATA`
+- Quyền riêng tư & Bảo mật → Địa điểm: `prefs:root=Privacy&path=LOCATION` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/LOCATION`
+- Quyền riêng tư & Bảo mật → Địa điểm → Chia sẻ vị trí của tôi: `prefs:root=Privacy&path=LOCATION/LOCATION_SHARING` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/LOCATION/LOCATION_SHARING`
+- Quyền riêng tư & Bảo mật → Danh bạ: `prefs:root=Privacy&path=CONTACTS` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/CONTACTS`
+- Quyền riêng tư & Bảo mật → Lịch: `prefs:root=Privacy&path=CALENDARS` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/CALENDARS`
+- Quyền riêng tư & Bảo mật → Lời nhắc: `prefs:root=Privacy&path=REMINDERS` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/REMINDERS`
+- Quyền riêng tư & Bảo mật → Ảnh: `prefs:root=Privacy&path=PHOTOS` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/PHOTOS`
+- Quyền riêng tư & Bảo mật → Chia sẻ qua Bluetooth: `prefs:root=Privacy&path=BT_PERIPHERAL` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/BT_PERIPHERAL`
+- Quyền riêng tư & Bảo mật → Micrô: `prefs:root=Privacy&path=MICROPHONE` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/MICROPHONE`
+- Quyền riêng tư & Bảo mật → Nhận dạng lời nói: `prefs:root=Privacy&path=SPEECH_RECOGNITION` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/SPEECH_RECOGNITION`
+- Quyền riêng tư & Bảo mật → Camera: `prefs:root=Privacy&path=CAMERA` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/CAMERA`
+- Quyền riêng tư & Bảo mật → HomeKit: `prefs:root=Privacy&path=WILLOW` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/WILLOW`
+- Quyền riêng tư & Bảo mật → Phương tiện & Apple Music: `prefs:root=Privacy&path=MEDIALIBRARY` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/MEDIALIBRARY`
+- Quyền riêng tư & Bảo mật → Phân tích: `prefs:root=Privacy&path=PROBLEM_REPORTING` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/PROBLEM_REPORTING`
+- Quyền riêng tư & Bảo mật → Quảng cáo: `prefs:root=Privacy&path=ADVERTISING` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/ADVERTISING`
+- Quyền riêng tư & Bảo mật → Tệp và thư mục: `prefs:root=Privacy&path=FILEACCESS` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/FILEACCESS`
+- Quyền riêng tư & Bảo mật → Theo dõi: `prefs:root=Privacy&path=USER_TRACKING` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/USER_TRACKING`
+- Quyền riêng tư & Bảo mật → Báo cáo bảo mật ứng dụng: `prefs:root=Privacy&path=PRIVACY_REPORT` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/PRIVACY_REPORT`
+- Quyền riêng tư & Bảo mật → Chế độ phong tỏa: `prefs:root=Privacy#LOCKDOWN_MODE` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity#LOCKDOWN_MODE#LOCKDOWN_MODE`
+- Quyền riêng tư & Bảo mật → Nội dung nhạy cảm: `prefs:root=Privacy#NUDITY_DETECTION` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity#NUDITY_DETECTION#NUDITY_DETECTION`
+- FaceTime: `prefs:root=FACETIME`
+- Thời gian sử dụng: `prefs:root=SCREEN_TIME`
+- Âm thanh | Âm thanh & Cảm ứng: `prefs:root=Sounds`
+- Âm thanh | Âm thanh & Cảm ứng → An toàn tai nghe: `prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING`
+- Âm thanh | Âm thanh & Cảm ứng → An toàn tai nghe → Bộ tiếp hợp Lightning: `prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING/HEADPHONE_LIGHTNING_ADAPTERS`
+- Âm thanh | Âm thanh & Cảm ứng → An toàn tai nghe → Thông báo tai nghe: `prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING#SHSHeadphoneWeeklyNotificationsKey`
+- Âm thanh | Âm thanh & Cảm ứng → An toàn tai nghe → Giảm âm thanh lớn: `prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING#SHSHeadphoneLevelLimitSwitchKey`
+- Âm thanh | Âm thanh & Cảm ứng → Hiệu ứng âm thanh: `prefs:root=Sounds&path=SOUND_EFFECTS`
+- Âm thanh | Âm thanh & Cảm ứng → Chuông và âm báo: `prefs:root=Sounds#RINGER_AND_ALERT_GROUP`
+- Âm thanh | Âm thanh & Cảm ứng → Thay đổi bằng nút: `prefs:root=Sounds#CHANGE_WITH_BUTTONS`
+- Âm thanh | Âm thanh & Cảm ứng → Kiểu âm thanh và rung: `prefs:root=Sounds#SOUNDS_ALERT_GROUP`
+- Âm thanh | Âm thanh & Cảm ứng → Nhạc chuông: `prefs:root=Sounds&path=Ringtone`
+- Âm thanh | Âm thanh & Cảm ứng → Âm báo tin nhắn: `prefs:root=Sounds&path=Text_Messages`
+- Âm thanh | Âm thanh & Cảm ứng → Thư thoại mới: `prefs:root=Sounds&path=Voicemail`
+- Âm thanh | Âm thanh & Cảm ứng → Thư mới: `prefs:root=Sounds&path=NEW_MAIL`
+- Âm thanh | Âm thanh & Cảm ứng → Thư đã gửi: `prefs:root=Sounds&path=SENT_MAIL`
+- Âm thanh | Âm thanh & Cảm ứng → Cảnh báo lịch: `prefs:root=Sounds&path=Calendar%20Alarm`
+- Âm thanh | Âm thanh & Cảm ứng → Cảnh báo lời nhắc: `prefs:root=Sounds&path=Reminder%20Alerts`
+- Âm thanh | Âm thanh & Cảm ứng → Bấm bàn phím: `prefs:root=Sounds#KEYBOARD_SOUND_SWITCH`
+- Âm thanh | Âm thanh & Cảm ứng → Âm thanh khóa: `prefs:root=Sounds#LOCK_SOUND_SWITCH`
+- Âm thanh | Âm thanh & Cảm ứng → Âm thanh không gian cá nhân hóa: `prefs:root=Sounds&path=Personalized%20Spatial%20Audio`
+- Apple Pencil: `prefs:root=Pencil`
+- Apple Pencil → Apple Pencil: `prefs:root=Pencil#PrefersPencilDraws`
+- Apple Pencil → Apple Pencil: `prefs:root=Pencil#PencilTextInput`
+- Tin nhắn: `prefs:root=MESSAGES`
+- Chứng khoán: `prefs:root=STOCKS`
+- Chứng khoán → Quyền riêng tư: `prefs:root=STOCKS#Privacy`
+- Chứng khoán → Đặt lại mã định danh: `prefs:root=STOCKS#reset_identifier`
+- Dịch thuật: `prefs:root=TRANSLATE`
+- Dịch thuật → Chế độ trên thiết bị: `prefs:root=TRANSLATE#OnDeviceOnly`
+- Siri: `prefs:root=SIRI`
+- Siri → Cho phép Siri khi bị khóa: `prefs:root=SIRI#ASSISTANT_LOCK_SCREEN_ACCESS`
+- Siri → Ngôn ngữ: `prefs:root=SIRI&path=LANGUAGE_ID`
+- Siri → Giọng nói của Siri: `prefs:root=SIRI&path=VOICE_ID`
+- Siri → Phản hồi bằng giọng nói: `prefs:root=SIRI&path=VOICE_FEEDBACK_ID`
+- Siri → Thông tin của tôi: `prefs:root=SIRI&path=MY_INFO`
+- Dữ liệu sức khỏe | Sức khỏe: `prefs:root=HEALTH`
+- App Store: `prefs:root=STORE`
+- App Store → Tải về tự động: `prefs:root=STORE#Automatic%20Downloads`
+- App Store → Cập nhật ứng dụng: `prefs:root=STORE#App%20Updates`
+- App Store → Tải về ứng dụng: `prefs:root=STORE&path=App%20Downloads`
+- App Store → Tự động phát video: `prefs:root=STORE&path=Video%20Autoplay`
+- App Store → Xếp hạng & nhận xét in-app: `prefs:root=STORE#In-App%20Ratings%20&%20Reviews`
+- Chế độ máy bay: `prefs:root=ROOT#AIRPLANE_MODE`

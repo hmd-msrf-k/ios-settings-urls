@@ -1,0 +1,518 @@
+- Saturace kyslíkem: `bridge:root=com.apple.OxygenSaturationSettings`
+- Mytí rukou: `bridge:root=com.apple.BrookBridgeSettings`
+- Mytí rukou → Povolit oznámení: `bridge:root=com.apple.BrookBridgeSettings#ALLOW_NOTIFICATIONS_ID`
+- Mytí rukou → Poslat do Oznamovacího centra: `bridge:root=com.apple.BrookBridgeSettings#SEND_TO_NOTIFICATION_CENTER_ID`
+- Mytí rukou → Vypnout oznámení: `bridge:root=com.apple.BrookBridgeSettings#NOTIFICATIONS_OFF_ID`
+- Mytí rukou → Seskupení: `bridge:root=com.apple.BrookBridgeSettings&path=NOTIFICATION_COALESCING_ID`
+- Mytí rukou → Odpočet mytí rukou: `bridge:root=com.apple.BrookBridgeSettings#HANDWASHING_TIMER_ID`
+- Zobrazení a jas: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID`
+- Zobrazení a jas → Délka probuzení: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=WAKE_DURATION_SELECTION_KEY`
+- Zobrazení a jas → Délka probuzení → PŘI KLEPNUTÍ: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=WAKE_DURATION_SELECTION_KEY#ON_TAP_GROUP_ID`
+- Zobrazení a jas → Délka probuzení → Probudit na 15 sekund: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=WAKE_DURATION_SELECTION_KEY#SHORT_WAKE_ID`
+- Zobrazení a jas → Délka probuzení → Probudit na 70 sekund: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=WAKE_DURATION_SELECTION_KEY#LONG_WAKE_ID`
+- Zobrazení a jas → Jas: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID#BRIGHTNESS_LABEL`
+- Zobrazení a jas → Vždy zapnuto: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID`
+- Zobrazení a jas → Vždy zapnuto → Vždy zapnuto: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID#TRITIUM_ID`
+- Zobrazení a jas → Vždy zapnuto → PŘI SVĚŠENÍ ZÁPĚSTÍ: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID#TRITIUM_PRIVACY_GROUP_ID`
+- Zobrazení a jas → Vždy zapnuto → Zobrazit živé aktivity: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_LIVE_ACTIVITIES_ID`
+- Zobrazení a jas → Vždy zapnuto → Zobrazit živé aktivity → Zobrazit živé aktivity: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_LIVE_ACTIVITIES_ID#APP_BACKLIGHT_PRIVACY_GLOBAL_APP`
+- Zobrazení a jas → Vždy zapnuto → Zobrazit aplikace: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_APPS_ID`
+- Zobrazení a jas → Vždy zapnuto → Zobrazit aplikace → Zobrazit aplikace: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_APPS_ID#APP_BACKLIGHT_PRIVACY_GLOBAL_APP`
+- Zobrazení a jas → Vždy zapnuto → Zobrazit aplikace → APLIKACE: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_APPS_ID#APP_GROUP_ID`
+- Zobrazení a jas → Vždy zapnuto → Zobrazit aplikace → App Store: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_APPS_ID#com.apple.AppStore`
+- Zobrazení a jas → Vždy zapnuto → Zobrazit aplikace → Nike Run Club: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_APPS_ID#com.nike.nikeplus-gps.watchkitapp`
+- Zobrazení a jas → Vždy zapnuto → Zobrazit aplikace → Telefon: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_APPS_ID#com.apple.NanoPhone`
+- Zobrazení a jas → Vždy zapnuto → Zobrazit aplikace → Fotky: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_APPS_ID#com.apple.NanoPhotos`
+- Zobrazení a jas → Vždy zapnuto → Zobrazit aplikace → Nastavení: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_APPS_ID#com.apple.NanoSettings`
+- Zobrazení a jas → Vždy zapnuto → Zobrazit aplikace → Tap-to-Radar: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_APPS_ID#com.apple.NanoTapToRadar`
+- Zobrazení a jas → Vždy zapnuto → Zobrazit oznámení: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID`
+- Zobrazení a jas → Vždy zapnuto → Zobrazit oznámení → Zobrazit oznámení: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#APP_BACKLIGHT_PRIVACY_GLOBAL_APP`
+- Zobrazení a jas → Vždy zapnuto → Zobrazit oznámení → APLIKACE PRO APPLE WATCH | APLIKACE PRO IPHONE: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#APP_GROUP_ID`
+- Zobrazení a jas → Vždy zapnuto → Zobrazit oznámení → App Store: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.AppStore`
+- Zobrazení a jas → Vždy zapnuto → Zobrazit oznámení → Nike Run Club: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.nike.nikeplus-gps.watchkitapp`
+- Zobrazení a jas → Vždy zapnuto → Zobrazit oznámení → Telefon: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.NanoPhone`
+- Zobrazení a jas → Vždy zapnuto → Zobrazit oznámení → Fotky: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.NanoPhotos`
+- Zobrazení a jas → Vždy zapnuto → Zobrazit oznámení → Nastavení: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.NanoSettings`
+- Zobrazení a jas → Vždy zapnuto → Zobrazit oznámení → Tap-to-Radar: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.NanoTapToRadar`
+- Zobrazení a jas → Vždy zapnuto → Zobrazit oznámení → Nastavení zpřístupnění: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.accessibility.TeachableMomentsNotifications`
+- Zobrazení a jas → Vždy zapnuto → Zobrazit oznámení → Knihy: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.iBooks`
+- Zobrazení a jas → Vždy zapnuto → Zobrazit oznámení → Caffè Macs: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.ist.CaffeMacsApp`
+- Zobrazení a jas → Vždy zapnuto → Zobrazit oznámení → Kalendář: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.mobilecal`
+- Zobrazení a jas → Vždy zapnuto → Zobrazit oznámení → Fotoaparát: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.camera`
+- Zobrazení a jas → Vždy zapnuto → Zobrazit oznámení → Connect: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.ist.AppleConnect`
+- Zobrazení a jas → Vždy zapnuto → Zobrazit oznámení → Hlášení diagnostiky: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.DiagnosticsReporter`
+- Zobrazení a jas → Vždy zapnuto → Zobrazit oznámení → Interní zpětná vazba: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.FeedbackInternal`
+- Zobrazení a jas → Vždy zapnuto → Zobrazit oznámení → Kondice: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.Fitness`
+- Zobrazení a jas → Vždy zapnuto → Zobrazit oznámení → Game Center: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.gamecenter`
+- Zobrazení a jas → Vždy zapnuto → Zobrazit oznámení → Zdraví: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.Health`
+- Zobrazení a jas → Vždy zapnuto → Zobrazit oznámení → Životaschopnost: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.Livability`
+- Zobrazení a jas → Vždy zapnuto → Zobrazit oznámení → Mail: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.mobilemail`
+- Zobrazení a jas → Vždy zapnuto → Zobrazit oznámení → Zprávy: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.MobileSMS`
+- Zobrazení a jas → Vždy zapnuto → Zobrazit oznámení → Samoobsluha: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.jamfsoftware.selfservice`
+- Zobrazení a jas → Vždy zapnuto → Zobrazit oznámení → Oznámení o sledování: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.FindMySafetyAlertsNotifications`
+- Zobrazení a jas → Vždy zapnuto → Zobrazit oznámení → Počasí: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.weather`
+- Zobrazení a jas → Vždy zapnuto → Zobrazovat data komplikací: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_COMPLICATIONS_DATA_ID`
+- Zobrazení a jas → Vždy zapnuto → Zobrazovat data komplikací → Zobrazovat data komplikací: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_COMPLICATIONS_DATA_ID#Show%20Complication%20Data`
+- Zobrazení a jas → Vždy zapnuto → Zobrazovat data komplikací → Aplikace: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_COMPLICATIONS_DATA_ID#Apps`
+- Zobrazení a jas → Vždy zapnuto → Zobrazovat data komplikací → Načítání…: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_COMPLICATIONS_DATA_ID#Loading%E2%80%A6`
+- Zobrazení a jas → Vždy zapnuto → Zobrazovat data komplikací → Siri: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_COMPLICATIONS_DATA_ID#Siri`
+- Zobrazení a jas → Vždy zapnuto → Zobrazovat data komplikací → Karty Siri: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_COMPLICATIONS_DATA_ID#Siri%20Cards`
+- Zobrazení a jas → Velikost textu: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID#TEXT_SIZE`
+- Zobrazení a jas → Tučný text: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID#BOLD_TEXT`
+- Zobrazení a jas → Probouzení: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID#Wake`
+- Zobrazení a jas → Probudit zvednutím zápěstí: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID#WAKE_SCREEN_ON_WRIST_RAISE_SWITCH_ID`
+- Zobrazení a jas → Probudit otočením korunkou: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID#WAKE_SCREEN_ON_CROWN_UP_SWITCH_ID`
+- Fotky: `bridge:root=com.apple.NanoPhotosBridgeSettings`
+- Fotky → Synchronizace fotek: `bridge:root=com.apple.NanoPhotosBridgeSettings#Photo%20Syncing`
+- Fotky → Vzpomínky: `bridge:root=com.apple.NanoPhotosBridgeSettings#Memories`
+- Fotky → Synchronizovat vzpomínky: `bridge:root=com.apple.NanoPhotosBridgeSettings#Sync%20Memories`
+- Fotky → Doporučené fotky: `bridge:root=com.apple.NanoPhotosBridgeSettings#Featured%20Photos`
+- Fotky → Synchronizovat doporučené fotky: `bridge:root=com.apple.NanoPhotosBridgeSettings#Sync%20Featured%20Photos`
+- Fotky → Album: `bridge:root=com.apple.NanoPhotosBridgeSettings#Album`
+- Fotky → Synchronizovat album: `bridge:root=com.apple.NanoPhotosBridgeSettings&path=Sync%20Album`
+- Fotky → Limit fotek: `bridge:root=com.apple.NanoPhotosBridgeSettings&path=Photos%20Limit`
+- Fotky → Nastavení oznámení: `bridge:root=com.apple.NanoPhotosBridgeSettings#MIRROR_RADIO_GROUP_ID`
+- Fotky → Zrcadlit můj iPhone: `bridge:root=com.apple.NanoPhotosBridgeSettings#MIRROR_MY_COMPANION_ID`
+- Fotky → Vlastní: `bridge:root=com.apple.NanoPhotosBridgeSettings#CUSTOM_ID`
+- Komplikace: `bridge:root=COMPLICATIONS`
+- Ovládací centrum: `bridge:root=CONTROL_CENTER_ID`
+- Ovládací centrum → Resetovat uspořádání Ovládacího centra: `bridge:root=CONTROL_CENTER_ID#CONTROL_CENTER_RESET_ID`
+- Zobrazení aplikací: `bridge:root=APP_VIEW_ID`
+- Obecné: `bridge:root=GENERAL_LINK`
+- Obecné → Informace: `bridge:root=GENERAL_LINK&path=ABOUT`
+- Obecné → Informace → Název: `bridge:root=GENERAL_LINK&path=ABOUT/NAME_CELL_ID`
+- Obecné → Informace → Verze watchOS: `bridge:root=GENERAL_LINK&path=ABOUT#OS_VERSION_CELL_ID`
+- Obecné → Informace → Název modelu: `bridge:root=GENERAL_LINK&path=ABOUT#DEVICE_MARKETING_NAME_CELL_ID`
+- Obecné → Informace → Podrobnosti o modelu: `bridge:root=GENERAL_LINK&path=ABOUT#DEVICE_DETAIL_CELL_ID`
+- Obecné → Informace → Číslo modelu: `bridge:root=GENERAL_LINK&path=ABOUT#DEVICE_MODEL_CELL_ID`
+- Obecné → Informace → Sériové číslo: `bridge:root=GENERAL_LINK&path=ABOUT#DEVICE_SERIAL_NUMBER_CELL_ID`
+- Obecné → Informace → Skladby: `bridge:root=GENERAL_LINK&path=ABOUT#SONGS_CELL_ID`
+- Obecné → Informace → Fotky: `bridge:root=GENERAL_LINK&path=ABOUT#PHOTOS_CELL_ID`
+- Obecné → Informace → Aplikace: `bridge:root=GENERAL_LINK&path=ABOUT#APPLICATIONS_CELL_ID`
+- Obecné → Informace → Kapacita: `bridge:root=GENERAL_LINK&path=ABOUT#STORAGE_CAPACITY_CELL_ID`
+- Obecné → Informace → K dispozici: `bridge:root=GENERAL_LINK&path=ABOUT#STORAGE_AVAILABLE_CELL_ID`
+- Obecné → Informace → Operátor: `bridge:root=GENERAL_LINK&path=ABOUT#CARRIER_CELL_ID`
+- Obecné → Informace → Bluetooth: `bridge:root=GENERAL_LINK&path=ABOUT#DEVICE_BLUETOOTH_ADDRESS_CELL_ID`
+- Obecné → Informace → IMEI: `bridge:root=GENERAL_LINK&path=ABOUT#IMEI_CELL_ID`
+- Obecné → Informace → ICCID: `bridge:root=GENERAL_LINK&path=ABOUT#ICCID_CELL_ID`
+- Obecné → Informace → EID: `bridge:root=GENERAL_LINK&path=ABOUT/EID_CELL_ID`
+- Obecné → Informace → SEID: `bridge:root=GENERAL_LINK&path=ABOUT/DEVICE_SEID_CELL_ID`
+- Obecné → Informace → Právní dokumenty: `bridge:root=GENERAL_LINK&path=ABOUT/LEGAL_CELL_ID`
+- Obecné → Informace → Zobrazit příručku pro Apple Watch : `bridge:root=GENERAL_LINK&path=ABOUT#SHOW_MANUAL_CELL_ID`
+- Obecné → Aktualizace softwaru: `bridge:root=GENERAL_LINK&path=SOFTWARE_UPDATE_LINK`
+- Obecné → Automatická instalace aplikací: `bridge:root=GENERAL_LINK#AUTO_APP_INSTALL_SWITCH_ID`
+- Obecné → Letový režim: `bridge:root=GENERAL_LINK&path=AIRPLANE_MODE_ID`
+- Obecné → Soustředění: `bridge:root=GENERAL_LINK&path=FOCUS_ID`
+- Obecné → Soustředění → Zrcadlit můj iPhone: `bridge:root=GENERAL_LINK&path=FOCUS_ID#Mirror%20my%20iPhone`
+- Obecné → Orientace hodinek: `bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION_ID`
+- Obecné → Orientace hodinek → Apple Watch nosím:: `bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION_ID#WRIST_CHOICE_ID`
+- Obecné → Orientace hodinek → Na levém zápěstí: `bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION_ID#LEFT_HAND_ID`
+- Obecné → Orientace hodinek → Na pravém zápěstí: `bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION_ID#RIGHT_HAND_ID`
+- Obecné → Orientace hodinek → Digital Crown vlevo: `bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION_ID#LISA_ON_LEFT_ID`
+- Obecné → Orientace hodinek → Digital Crown vpravo: `bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION_ID#LISA_ON_RIGHT_ID`
+- Obecné → Účet Apple: `bridge:root=GENERAL_LINK&path=LINK_WITH_ICLOUD_LINK`
+- Obecné → Zapnout diktování: `bridge:root=GENERAL_LINK#DICTATION_CELL_ID`
+- Obecné → Automatická interpunkce: `bridge:root=GENERAL_LINK#DICTATION_AUTO_PUNCTUATION_CELL_ID`
+- Obecné → Zapnout Handoff: `bridge:root=GENERAL_LINK#CONTINUITY_ID`
+- Obecné → Režim nočního stolku: `bridge:root=GENERAL_LINK#NIGHTSTAND_CELL_ID`
+- Obecné → Zapnout snímky obrazovky: `bridge:root=GENERAL_LINK#BUTTON_CHORD_CELL_ID`
+- Obecné → Pohotovost | Rezerva | Úložiště | Čas od posledního úplného nabití: `bridge:root=GENERAL_LINK&path=USAGE_LINK`
+- Obecné → Profil: `bridge:root=GENERAL_LINK&path=ManagedConfigurationList`
+- Obecné → Protokoly diagnostiky: `bridge:root=GENERAL_LINK&path=DIAGNOSTIC_LOG_BROWSER`
+- Obecné → Protokoly diagnostiky → Načítání…: `bridge:root=GENERAL_LINK&path=DIAGNOSTIC_LOG_BROWSER#Loading%E2%80%A6`
+- Obecné → Zkopírovat analýzu hodinek: `bridge:root=GENERAL_LINK#LOGS_CELL_ID`
+- Obecné → Resetovat: `bridge:root=GENERAL_LINK&path=RESET_ID`
+- Obecné → NÁVRAT K CIFERNÍKU: `bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK_ID`
+- Obecné → NÁVRAT K CIFERNÍKU → NÁVRAT K CIFERNÍKU: `bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK_ID#CSLPRFReturnToClockGroupID`
+- Obecné → NÁVRAT K CIFERNÍKU → Vždy: `bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK_ID#RETURN_TO_CLOCK_ALWAYS`
+- Obecné → NÁVRAT K CIFERNÍKU → Po 2 minutách: `bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK_ID#RETURN_TO_CLOCK_AFTER_2_MINUTES`
+- Obecné → NÁVRAT K CIFERNÍKU → Po 1 hodině: `bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK_ID#RETURN_TO_CLOCK_AFTER_1_HOUR`
+- Obecné → NÁVRAT K CIFERNÍKU → APLIKACE: `bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK_ID#APP_GROUP_ID`
+- Obecné → Aktualizace aplikací na pozadí: `bridge:root=GENERAL_LINK&path=BAR_ROW_ID`
+- Obecné → Aktualizace aplikací na pozadí → Aktualizace aplikací na pozadí: `bridge:root=GENERAL_LINK&path=BAR_ROW_ID#BACKGROUND_APP_UPDATING_CELL_ID`
+- Obecné → Jazyk a oblast: `bridge:root=GENERAL_LINK&path=LANGUAGE_AND_REGION_ID`
+- Obecné → Jazyk a oblast → Zrcadlit můj iPhone: `bridge:root=GENERAL_LINK&path=LANGUAGE_AND_REGION_ID#MIRROR_MY_COMPANION_ID`
+- Obecné → Jazyk a oblast → Vlastní: `bridge:root=GENERAL_LINK&path=LANGUAGE_AND_REGION_ID#CUSTOM_ID`
+- Obecné → Automatické spouštění při ponoření: `bridge:root=GENERAL_LINK&path=AUTO_LAUNCH`
+- Obecné → Automatické spouštění: `bridge:root=GENERAL_LINK&path=AUTO_LAUNCH_ID`
+- Obecné → Wake Screen: `bridge:root=GENERAL_LINK&path=WAKE_SCREEN`
+- Obecné → Wake Screen → Právě hraje: `bridge:root=GENERAL_LINK&path=WAKE_SCREEN#AUTO_LAUNCH_MEDIA`
+- Zvuky a haptika: `bridge:root=SOUNDS_ID`
+- Zvuky a haptika → Hlasitost upozornění: `bridge:root=SOUNDS_ID#AUDIO_SLIDER`
+- Zvuky a haptika → Vyzvánění a upozornění: `bridge:root=SOUNDS_ID#RINGTONE_AND_ALERTS_SECTION_TITLE`
+- Zvuky a haptika → Tichý režim: `bridge:root=SOUNDS_ID#audio_mute_switch`
+- Zvuky a haptika → Automaticky přizpůsobovat hlasitost: `bridge:root=SOUNDS_ID#contextual_volume_switch`
+- Zvuky a haptika → Úroveň: `bridge:root=SOUNDS_ID&path=contextual_volume_profile`
+- Zvuky a haptika → Úroveň → Hlasitější: `bridge:root=SOUNDS_ID&path=contextual_volume_profile#CONTEXTUAL_VOLUME_PROFILE_LOUDER_ID`
+- Zvuky a haptika → Úroveň → Výchozí: `bridge:root=SOUNDS_ID&path=contextual_volume_profile#CONTEXTUAL_VOLUME_PROFILE_DEFAULT_ID`
+- Zvuky a haptika → Úroveň → Tišší: `bridge:root=SOUNDS_ID&path=contextual_volume_profile#CONTEXTUAL_VOLUME_PROFILE_QUIETER_ID`
+- Zvuky a haptika → Haptika: `bridge:root=SOUNDS_ID&path=HAPTICS_ID`
+- Zvuky a haptika → Haptika → Vypnuto: `bridge:root=SOUNDS_ID&path=HAPTICS_ID#OFF_ITEM_ID`
+- Zvuky a haptika → Haptika → Výchozí: `bridge:root=SOUNDS_ID&path=HAPTICS_ID#DEFAULT_ITEM_ID`
+- Zvuky a haptika → Haptika → Výrazná: `bridge:root=SOUNDS_ID&path=HAPTICS_ID#PROMINENT_ITEM_ID`
+- Zvuky a haptika → Vyzvánění: `bridge:root=SOUNDS_ID&path=SOUND_AND_HAPTIC_PATTERNS_RINGTONE_ID`
+- Zvuky a haptika → Zvuk SMS: `bridge:root=SOUNDS_ID&path=SOUND_AND_HAPTIC_PATTERNS_TEXTTONE_ID`
+- Zvuky a haptika → Nová pošta: `bridge:root=SOUNDS_ID&path=SOUND_AND_HAPTIC_PATTERNS_NEWMAIL_ID`
+- Zvuky a haptika → Zvuk kalendáře: `bridge:root=SOUNDS_ID&path=SOUND_AND_HAPTIC_PATTERNS_CALENDARALERTS_ID`
+- Zvuky a haptika → Zvuk připomínek: `bridge:root=SOUNDS_ID&path=SOUND_AND_HAPTIC_PATTERNS_REMINDERALERTS_ID`
+- Zvuky a haptika → Výchozí upozornění: `bridge:root=SOUNDS_ID&path=SOUND_AND_HAPTIC_PATTERNS_DEFAULTALERTS_ID`
+- Zvuky a haptika → Zvuk ve sluchátkách: `bridge:root=SOUNDS_ID#HEADPHONE_AUDIO_GROUP`
+- Zvuky a haptika → Bezpečnost sluchátek: `bridge:root=SOUNDS_ID&path=HEADPHONE_LEVEL_LIMIT_SETTING`
+- Zvuky a haptika → Bezpečnost sluchátek → Oznámení o sluchátkách: `bridge:root=SOUNDS_ID&path=HEADPHONE_LEVEL_LIMIT_SETTING#COSHeadphoneNotificationsSwitchKey`
+- Zvuky a haptika → Bezpečnost sluchátek → Tlumit hlasité zvuky: `bridge:root=SOUNDS_ID&path=HEADPHONE_LEVEL_LIMIT_SETTING#COSHeadphoneLevelLimitSwitchKey`
+- Zvuky a haptika → Systémové zvuky a haptika: `bridge:root=SOUNDS_ID#JACKRABBIT_GROUP_ID`
+- Zvuky a haptika → Haptika korunky: `bridge:root=SOUNDS_ID#JACKRABBIT_ID`
+- Zvuky a haptika → Systémová haptika: `bridge:root=SOUNDS_ID#SYSTEM_HAPTICS_ID`
+- Tíseň SOS: `bridge:root=SOS_MODE_ID`
+- Soukromí: `bridge:root=PRIVACY_ID`
+- Soukromí → Teplota zápěstí: `bridge:root=PRIVACY_ID#WRIST_TEMPERATURE_SWITCH_ID`
+- Čas u obrazovky: `bridge:root=SCREEN_TIME_ID`
+- Nike Run Club: `bridge:root=VICTORY_ROW_ID`
+- Nike Run Club → Zobrazit aplikaci na Apple Watch: `bridge:root=VICTORY_ROW_ID#SHOWS_ON_GIZMO`
+- Tipy: `bridge:root=com.apple.NanoTipsBridgeSettings`
+- Tipy → Povolit oznámení: `bridge:root=com.apple.NanoTipsBridgeSettings#ALLOW_NOTIFICATIONS_ID`
+- Tipy → Poslat do Oznamovacího centra: `bridge:root=com.apple.NanoTipsBridgeSettings#SEND_TO_NOTIFICATION_CENTER_ID`
+- Tipy → Vypnout oznámení: `bridge:root=com.apple.NanoTipsBridgeSettings#NOTIFICATIONS_OFF_ID`
+- Tipy → Seskupení: `bridge:root=com.apple.NanoTipsBridgeSettings&path=NOTIFICATION_COALESCING_ID`
+- Hodiny: `bridge:root=com.apple.NanoClockBridgeSettings`
+- Hodiny → 24hodinový čas: `bridge:root=com.apple.NanoClockBridgeSettings#24-Hour%20Time`
+- Hodiny → Odbíjení: `bridge:root=com.apple.NanoClockBridgeSettings#Chimes`
+- Hodiny → Zvuky: `bridge:root=com.apple.NanoClockBridgeSettings&path=Sounds`
+- Hodiny → Zvuky → Zvony: `bridge:root=com.apple.NanoClockBridgeSettings&path=Sounds#Bells`
+- Hodiny → Zvuky → Ptáci: `bridge:root=com.apple.NanoClockBridgeSettings&path=Sounds#Birds`
+- Hodiny → Předčítat čas: `bridge:root=com.apple.NanoClockBridgeSettings#Speak%20Time`
+- Hodiny → Podle tichého režimu: `bridge:root=com.apple.NanoClockBridgeSettings#Control%20With%20Silent%20Mode`
+- Hodiny → Vždy: `bridge:root=com.apple.NanoClockBridgeSettings#Always%20Speak`
+- Hodiny → Odklepávání času: `bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time`
+- Hodiny → Odklepávání času → Odklepávání času: `bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time#Taptic%20Time`
+- Hodiny → Odklepávání času → Číslice: `bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time#Digits`
+- Hodiny → Odklepávání času → Zkrácené: `bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time#Terse`
+- Hodiny → Odklepávání času → Morseovka: `bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time#Morse%20Code`
+- Hodiny → Přenášet upozornění z iPhonu: `bridge:root=com.apple.NanoClockBridgeSettings#Push%20Alerts%20from%20iPhone`
+- Hodiny → Indikátor oznámení: `bridge:root=com.apple.NanoClockBridgeSettings#Notifications%20Indicator`
+- Hodiny → Monogram: `bridge:root=com.apple.NanoClockBridgeSettings&path=MONOGRAM_ID`
+- Hodiny → Oznámení o cifernících: `bridge:root=com.apple.NanoClockBridgeSettings#Watch%20Face%20Notifications`
+- Hodiny → Zkratky měst: `bridge:root=com.apple.NanoClockBridgeSettings&path=City%20Abbreviations`
+- Hodiny → Zdroje dat pro ciferník Siri: `bridge:root=com.apple.NanoClockBridgeSettings&path=Siri%20Face%20Data%20Sources`
+- Akční tlačítko: `bridge:root=ACTION_BUTTON_ID`
+- Akční tlačítko → Akce | Gesta: `bridge:root=ACTION_BUTTON_ID#StingSystemSettingsActionTypeGroupID`
+- Akční tlačítko → Cvičení: `bridge:root=ACTION_BUTTON_ID&path=StingSystemSettingsActionTypeItem`
+- Akční tlačítko → Cvičení → Žádná: `bridge:root=ACTION_BUTTON_ID&path=StingSystemSettingsActionTypeItem#StingSystemSettingsSelectedActionTypeItem`
+- Akční tlačítko → První stisknutí: `bridge:root=ACTION_BUTTON_ID#StingSystemSettingsWorkoutGroupID`
+- Akční tlačítko → Rychlý přepínač: `bridge:root=ACTION_BUTTON_ID&path=ShowQuickSwitch`
+- Akční tlačítko → Rychlý přepínač → Rychlý přepínač: `bridge:root=ACTION_BUTTON_ID&path=ShowQuickSwitch#StingQuickSwitchToggleGroup`
+- Akční tlačítko → Rychlý přepínač → Rychlý přepínač: `bridge:root=ACTION_BUTTON_ID&path=ShowQuickSwitch#Quick%20Switch`
+- Akční tlačítko → Rychlý přepínač → Zahrnuté aplikace: `bridge:root=ACTION_BUTTON_ID&path=ShowQuickSwitch#StingQuickSwitchAppGroup`
+- Hluk: `bridge:root=com.apple.Noise.settings`
+- Hluk → Měření zvuku v okolí: `bridge:root=com.apple.Noise.settings#ENABLE_MEASUREMENTS_ID`
+- Hluk → Oznámení hluku: `bridge:root=com.apple.Noise.settings#LOUD_NOTIFICATION_GROUP_ID`
+- Hluk → Práh hlasitosti: `bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID`
+- Hluk → Práh hlasitosti → Vypnuto: `bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#OFF`
+- Hluk → Práh hlasitosti → 80 decibelů: `bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_80`
+- Hluk → Práh hlasitosti → 85 decibelů: `bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_85`
+- Hluk → Práh hlasitosti → 90 decibelů: `bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_90`
+- Hluk → Práh hlasitosti → 95 decibelů: `bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_95`
+- Hluk → Práh hlasitosti → 100 decibelů: `bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_100`
+- Hluk → Seskupení: `bridge:root=com.apple.Noise.settings&path=NOTIFICATION_COALESCING_ID`
+- Kalendář: `bridge:root=com.apple.NanoCalendarBridgeSettings`
+- Kalendář → OZNÁMENÍ: `bridge:root=com.apple.NanoCalendarBridgeSettings#MIRROR_RADIO_GROUP_ID`
+- Kalendář → Zrcadlit můj iPhone: `bridge:root=com.apple.NanoCalendarBridgeSettings#MIRROR_MY_COMPANION_ID`
+- Kalendář → Vlastní…: `bridge:root=com.apple.NanoCalendarBridgeSettings#CUSTOM_ID`
+- Kalendář → KALENDÁŘE: `bridge:root=com.apple.NanoCalendarBridgeSettings#CALENDARS_MIRROR_RADIO_GROUP_ID`
+- Kalendář → Zrcadlit můj iPhone: `bridge:root=com.apple.NanoCalendarBridgeSettings#CALENDARS_MIRROR_MY_COMPANION_ID`
+- Kalendář → Vlastní…: `bridge:root=com.apple.NanoCalendarBridgeSettings&path=CALENDARS_CUSTOM_ID`
+- Kalendář → Nadcházející události: `bridge:root=com.apple.NanoCalendarBridgeSettings&path=Upcoming%20Events`
+- Kalendář → Pozvánky: `bridge:root=com.apple.NanoCalendarBridgeSettings&path=Invitations`
+- Kalendář → Odpovědi pozvaných: `bridge:root=com.apple.NanoCalendarBridgeSettings&path=Invitee%20Responses`
+- Kalendář → Změny sdílených kalendářů: `bridge:root=com.apple.NanoCalendarBridgeSettings&path=Shared%20Calendar%20Alerts`
+- Vysílačka: `bridge:root=com.apple.tincan.settings`
+- Vysílačka → Povolit oznámení: `bridge:root=com.apple.tincan.settings#ALLOW_NOTIFICATIONS_ID`
+- Vysílačka → Poslat do Oznamovacího centra: `bridge:root=com.apple.tincan.settings#SEND_TO_NOTIFICATION_CENTER_ID`
+- Vysílačka → Vypnout oznámení: `bridge:root=com.apple.tincan.settings#NOTIFICATIONS_OFF_ID`
+- Vysílačka → Seskupení: `bridge:root=com.apple.tincan.settings&path=NOTIFICATION_COALESCING_ID`
+- Vysílačka → Přátelé: `bridge:root=com.apple.tincan.settings#Friends`
+- Siri: `bridge:root=SIRI_WATCH_SETTINGS_ID`
+- Siri → Požadavky na Siri: `bridge:root=SIRI_WATCH_SETTINGS_ID#ASK_SIRI_GROUP_ID`
+- Siri → Čekat na vyslovení: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_TRIGGER_ID`
+- Siri → Čekat na vyslovení → „Siri“ nebo „Hey Siri“: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_TRIGGER_ID#HS_JS_ID`
+- Siri → Čekat na vyslovení → „Hey Siri“: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_TRIGGER_ID#HEY_SIRI_ID`
+- Siri → Čekat na vyslovení → Vypnuto: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_TRIGGER_ID#VOICE_TRIGGER_DISABLED_ID`
+- Siri → Zvednutí zápěstí: `bridge:root=SIRI_WATCH_SETTINGS_ID#RAISE_TO_SPEAK_SWITCH_ID`
+- Siri → Stisknutí Digital Crown: `bridge:root=SIRI_WATCH_SETTINGS_ID#DIGITAL_CROWN_SWITCH_ID`
+- Siri → Posílat zprávy automaticky: `bridge:root=SIRI_WATCH_SETTINGS_ID#AUTOMATICALLY_SEND_MESSAGES_SWITCH_ID`
+- Siri → Odpovědi Siri: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=SIRI_RESPONSES_ID`
+- Siri → Odpovědi Siri → Vždy zobrazovat titulky Siri: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=SIRI_RESPONSES_ID#ALWAYS_SHOW_SIRI_CAPTIONS_SWITCH_ID`
+- Siri → Odpovědi Siri → Vždy zobrazovat přepis řeči: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=SIRI_RESPONSES_ID#ALWAYS_SHOW_SPEECH_SWITCH_ID`
+- Siri → Odpovědi Siri → Hlasitost: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=SIRI_RESPONSES_ID#CONSIDERATE_VOLUME_GROUP_ID`
+- Siri → Odpovědi Siri → Automaticky přizpůsobovat hlasitost: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=SIRI_RESPONSES_ID#CONSIDERATE_VOLUME_SWITCH_ID`
+- Siri → Odpovědi Siri → Úroveň: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=SIRI_RESPONSES_ID/CONSIDERATE_VOLUME_PROFILE_ID`
+- Siri → Odpovědi Siri → Úroveň → Hlasitější: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=SIRI_RESPONSES_ID/CONSIDERATE_VOLUME_PROFILE_ID#CONSIDERATE_VOLUME_PROFILE_LOUDER_ID`
+- Siri → Odpovědi Siri → Úroveň → Výchozí: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=SIRI_RESPONSES_ID/CONSIDERATE_VOLUME_PROFILE_ID#CONSIDERATE_VOLUME_PROFILE_DEFAULT_ID`
+- Siri → Odpovědi Siri → Úroveň → Tišší: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=SIRI_RESPONSES_ID/CONSIDERATE_VOLUME_PROFILE_ID#CONSIDERATE_VOLUME_PROFILE_QUIETER_ID`
+- Siri → Hlasová odezva: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_FEEDBACK_ID`
+- Siri → Hlasová odezva → Vždy zapnuto: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_FEEDBACK_ID#VOICE_FEEDBACK_ALWAYS_ON_ID`
+- Siri → Hlasová odezva → Podle tichého režimu: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_FEEDBACK_ID#VOICE_FEEDBACK_CONTROL_WITH_SILENT_MODE_ID`
+- Siri → Hlasová odezva → Jen sluchátka: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_FEEDBACK_ID#VOICE_FEEDBACK_HEADPHONES_ONLY_ID`
+- Siri → Hlasitost: `bridge:root=SIRI_WATCH_SETTINGS_ID#VOICE_VOLUME_GROUP_ID`
+- Siri → Návrhy Siri: `bridge:root=SIRI_WATCH_SETTINGS_ID#ASSISTANT_SUGGESTIONS_GROUP_ID`
+- Cvičení: `bridge:root=com.apple.SessionTrackerAppSettings`
+- Cvičení → Číselné zobrazení cílů: `bridge:root=com.apple.SessionTrackerAppSettings#PRO_SETTING_ENABLED_LABEL`
+- Cvičení → Zobrazení cvičení: `bridge:root=com.apple.SessionTrackerAppSettings&path=METRIC_VIEW_ID`
+- Cvičení → Pozastavení: `bridge:root=com.apple.SessionTrackerAppSettings&path=AUTO_PAUSE_ID`
+- Cvičení → Pozastavení → Pozastavení: `bridge:root=com.apple.SessionTrackerAppSettings&path=AUTO_PAUSE_ID#WorkoutAutoPauseSwitch`
+- Cvičení → Připomínka zahájení cvičení: `bridge:root=com.apple.SessionTrackerAppSettings#AUTO_START_WORKOUT_NOTIFICATIONS_ENABLED_LABEL`
+- Cvičení → Připomínka ukončení cvičení: `bridge:root=com.apple.SessionTrackerAppSettings#END_REMINDERS_ENABLED_LABEL`
+- Cvičení → Stisknutím pozastavíte: `bridge:root=com.apple.SessionTrackerAppSettings#CHORD_PRESS_PAUSE_WORKOUT_ENABLED_LABEL`
+- Cvičení → Detekovat posilovací stroje: `bridge:root=com.apple.SessionTrackerAppSettings#NFC_ENABLED_LABEL_ID`
+- Cvičení → Tempo/rychlost: `bridge:root=com.apple.SessionTrackerAppSettings&path=PACE_VIEW_LABEL`
+- Cvičení → Tempo/rychlost → Aktuální: `bridge:root=com.apple.SessionTrackerAppSettings&path=PACE_VIEW_LABEL#CURRENT_PACE_ID`
+- Cvičení → Tempo/rychlost → Průměr: `bridge:root=com.apple.SessionTrackerAppSettings&path=PACE_VIEW_LABEL#AVERAGE_PACE_ID`
+- Cvičení → Tréninkový playlist: `bridge:root=com.apple.SessionTrackerAppSettings&path=MUSIC_AUTOSTART_TITLE_ID`
+- Cvičení → Tréninkový playlist → Žádné: `bridge:root=com.apple.SessionTrackerAppSettings&path=MUSIC_AUTOSTART_TITLE_ID#NONE_AUTOSTART_ID`
+- Cvičení → Tréninkový playlist → Playlisty: `bridge:root=com.apple.SessionTrackerAppSettings&path=MUSIC_AUTOSTART_TITLE_ID#MUSIC_PLAYLIST_GROUP_ID`
+- Cvičení → Přehrát od začátku: `bridge:root=com.apple.SessionTrackerAppSettings#WORKOUT_MUSIC_PLAY_FROM_BEGINNING_SETTING_ID`
+- Cvičení → Náhodné pořadí: `bridge:root=com.apple.SessionTrackerAppSettings#WORKOUT_MUSIC_SHUFFLE_SETTING_ID`
+- Cvičení → Měrné jednotky: `bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID`
+- Cvičení → Měrné jednotky → Kalorie: `bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#ENERGY_UNITS_CALORIES_ID`
+- Cvičení → Měrné jednotky → Kilokalorie: `bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#ENERGY_UNITS_KILOCALORIES_ID`
+- Cvičení → Měrné jednotky → Kilojouly: `bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#ENERGY_UNITS_KILOJOULES_ID`
+- Cvičení → Měrné jednotky → Yardy: `bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#POOL_LENGTH_YARDS_ID`
+- Cvičení → Měrné jednotky → Metry: `bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#POOL_LENGTH_METERS_ID`
+- Cvičení → Měrné jednotky → Míle: `bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#CYCLING_WORKOUTS_MILES_ID`
+- Cvičení → Měrné jednotky → Kilometry: `bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#CYCLING_WORKOUTS_KILOMETERS_ID`
+- Cvičení → Měrné jednotky → Míle: `bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#WALKING_AND_RUNNING_WORKOUTS_MILES_ID`
+- Cvičení → Měrné jednotky → Kilometry: `bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#WALKING_AND_RUNNING_WORKOUTS_KILOMETERS_ID`
+- Cvičení → Hlasová odezva: `bridge:root=com.apple.SessionTrackerAppSettings#WORKOUT_VOICE_FEEDBACK_LABEL`
+- Cvičení → Čas na procházku: `bridge:root=com.apple.SessionTrackerAppSettings#GUIDED_WORKOUT_PREFETCH_FOOTER_ID`
+- Cvičení → Přidat do hodinek nová cvičení: `bridge:root=com.apple.SessionTrackerAppSettings#GUIDED_WORKOUT_PREFETCH_LABEL_ID`
+- Cvičení → Režim nízké spotřeby: `bridge:root=com.apple.SessionTrackerAppSettings#LOW_POWER_MODE`
+- Zprávy: `bridge:root=com.apple.MessagesBridgeSettings`
+- Zprávy → Zrcadlit můj iPhone: `bridge:root=com.apple.MessagesBridgeSettings#MIRROR_MY_COMPANION_ID`
+- Zprávy → Vlastní: `bridge:root=com.apple.MessagesBridgeSettings#CUSTOM_ID`
+- Zprávy → Výchozí odpovědi: `bridge:root=com.apple.MessagesBridgeSettings&path=DEFAULT_REPLIES`
+- Zprávy → Výchozí odpovědi → Výchozí odpovědi: `bridge:root=com.apple.MessagesBridgeSettings&path=DEFAULT_REPLIES#Default%20Replies`
+- Zprávy → Výchozí odpovědi → Chytré odpovědi: `bridge:root=com.apple.MessagesBridgeSettings&path=DEFAULT_REPLIES#Smart%20Replies`
+- Zprávy → Výchozí odpovědi → Přidat odpověď…: `bridge:root=com.apple.MessagesBridgeSettings&path=DEFAULT_REPLIES#Add%20reply%E2%80%A6`
+- Zprávy → Opakovat upozornění: `bridge:root=com.apple.MessagesBridgeSettings&path=PLAY_ALERT_TONE`
+- Zprávy → Zvukové zprávy: `bridge:root=com.apple.MessagesBridgeSettings&path=AudioMessagesMode`
+- Škola: `bridge:root=SCHOOLTIME`
+- Škola → Škola: `bridge:root=SCHOOLTIME#SCHEDULE_FEATURE_ACTIVE_TITLE`
+- Detekce zápěstí | Jednoduchý kód | Kód | Odemykat z iPhonu | Smazat data | Vypnout kód | Zapnout kód | Změnit kód: `bridge:root=PASSCODE_ID`
+- Detekce zápěstí | Jednoduchý kód | Kód | Odemykat z iPhonu | Smazat data | Vypnout kód | Zapnout kód | Změnit kód → Zapnout kódový zámek: `bridge:root=PASSCODE_ID#TOGGLE_PASSCODE_ID`
+- Detekce zápěstí | Jednoduchý kód | Kód | Odemykat z iPhonu | Smazat data | Vypnout kód | Zapnout kód | Změnit kód → Změnit kód: `bridge:root=PASSCODE_ID#CHANGE_PASSCODE_ID`
+- Detekce zápěstí | Jednoduchý kód | Kód | Odemykat z iPhonu | Smazat data | Vypnout kód | Zapnout kód | Změnit kód → Jednoduchý kód: `bridge:root=PASSCODE_ID#SIMPLE_PASSCODE_SWITCH_ID`
+- Detekce zápěstí | Jednoduchý kód | Kód | Odemykat z iPhonu | Smazat data | Vypnout kód | Zapnout kód | Změnit kód → Odemykat z iPhonu: `bridge:root=PASSCODE_ID#AUTO_UNLOCK_SWITCH_ID`
+- Detekce zápěstí | Jednoduchý kód | Kód | Odemykat z iPhonu | Smazat data | Vypnout kód | Zapnout kód | Změnit kód → Smazat data: `bridge:root=PASSCODE_ID#ERASE_DATA_SWITCH_ID`
+- Detekce zápěstí | Jednoduchý kód | Kód | Odemykat z iPhonu | Smazat data | Vypnout kód | Zapnout kód | Změnit kód → Detekce zápěstí: `bridge:root=PASSCODE_ID#WRIST_DETECTION_CELL_ID`
+- Detekce zápěstí | Jednoduchý kód | Kód | Odemykat z iPhonu | Smazat data | Vypnout kód | Zapnout kód | Změnit kód → Komplikace: `bridge:root=PASSCODE_ID#SHOW_COMPLICATION_DATA_WHEN_LOCKED_GROUP_ID`
+- Detekce zápěstí | Jednoduchý kód | Kód | Odemykat z iPhonu | Smazat data | Vypnout kód | Zapnout kód | Změnit kód → Zobrazovat data při uzamčení: `bridge:root=PASSCODE_ID#SHOW_COMPLICATION_DATA_WHEN_LOCKED_SWITCH_ID`
+- Mail: `bridge:root=com.apple.NanoMailBridgeSettings`
+- Mail → Zrcadlit můj iPhone: `bridge:root=com.apple.NanoMailBridgeSettings#MIRROR_MY_COMPANION_ID`
+- Mail → Vlastní: `bridge:root=com.apple.NanoMailBridgeSettings#CUSTOM_ID`
+- Mail → Nastavení Mailu: `bridge:root=com.apple.NanoMailBridgeSettings#Mail%20Settings`
+- Mail → Účty: `bridge:root=com.apple.NanoMailBridgeSettings&path=Accounts`
+- Mail → Zahrnout: `bridge:root=com.apple.NanoMailBridgeSettings&path=Include%20Mail`
+- Mail → Náhled zprávy: `bridge:root=com.apple.NanoMailBridgeSettings&path=Message%20Preview`
+- Mail → Náhled zprávy → Žádné: `bridge:root=com.apple.NanoMailBridgeSettings&path=Message%20Preview#0`
+- Mail → Náhled zprávy → 1 řádek: `bridge:root=com.apple.NanoMailBridgeSettings&path=Message%20Preview#1`
+- Mail → Náhled zprávy → 2 řádky: `bridge:root=com.apple.NanoMailBridgeSettings&path=Message%20Preview#2`
+- Mail → Výchozí odpovědi: `bridge:root=com.apple.NanoMailBridgeSettings&path=Default%20Replies`
+- Mail → Výchozí odpovědi → Výchozí odpovědi: `bridge:root=com.apple.NanoMailBridgeSettings&path=Default%20Replies#Default%20Replies`
+- Mail → Výchozí odpovědi → Přidat odpověď…: `bridge:root=com.apple.NanoMailBridgeSettings&path=Default%20Replies#Add%20reply%E2%80%A6`
+- Mail → Podpis: `bridge:root=com.apple.NanoMailBridgeSettings&path=Signature`
+- Akcie | Akciový titul vybraný na kartě Siri | Aktuální cena | Tržní kapitalizace | Změna v bodech | Změna v procentech: `bridge:root=com.apple.StocksBridgeSettings`
+- Akcie | Akciový titul vybraný na kartě Siri | Aktuální cena | Tržní kapitalizace | Změna v bodech | Změna v procentech → Na ciferníku hodinek se zobrazí: `bridge:root=com.apple.StocksBridgeSettings#Clock%20Face%20Complication%20Shows`
+- Akcie | Akciový titul vybraný na kartě Siri | Aktuální cena | Tržní kapitalizace | Změna v bodech | Změna v procentech → Aktuální cena: `bridge:root=com.apple.StocksBridgeSettings#Current%20Price`
+- Akcie | Akciový titul vybraný na kartě Siri | Aktuální cena | Tržní kapitalizace | Změna v bodech | Změna v procentech → Změna v bodech: `bridge:root=com.apple.StocksBridgeSettings#Points%20Change`
+- Akcie | Akciový titul vybraný na kartě Siri | Aktuální cena | Tržní kapitalizace | Změna v bodech | Změna v procentech → Změna v procentech: `bridge:root=com.apple.StocksBridgeSettings#Percentage%20Change`
+- Akcie | Akciový titul vybraný na kartě Siri | Aktuální cena | Tržní kapitalizace | Změna v bodech | Změna v procentech → Tržní kapitalizace: `bridge:root=com.apple.StocksBridgeSettings#Market%20Cap`
+- Akcie | Akciový titul vybraný na kartě Siri | Aktuální cena | Tržní kapitalizace | Změna v bodech | Změna v procentech → Na ciferníku Siri se zobrazuje kurz: `bridge:root=com.apple.StocksBridgeSettings#Siri%20Face%20Shows%20Quote%20For`
+- Akcie | Akciový titul vybraný na kartě Siri | Aktuální cena | Tržní kapitalizace | Změna v bodech | Změna v procentech → Vybrané akcie: `bridge:root=com.apple.StocksBridgeSettings&path=Selected%20Stock`
+- Akcie | Akciový titul vybraný na kartě Siri | Aktuální cena | Tržní kapitalizace | Změna v bodech | Změna v procentech → Vybrané akcie → Vybrané akcie: `bridge:root=com.apple.StocksBridgeSettings&path=Selected%20Stock#Selected%20Stock`
+- Aktivita: `bridge:root=com.apple.HealthAppsSettings`
+- Aktivita → Aktualizace pokroků: `bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL`
+- Aktivita → Aktualizace pokroků → Žádné: `bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#ZERO_HOURS_ID`
+- Aktivita → Aktualizace pokroků → Každé 2 hodiny: `bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#TWO_HOURS_ID`
+- Aktivita → Aktualizace pokroků → Každé 4 hodiny: `bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#FOUR_HOURS_ID`
+- Aktivita → Aktualizace pokroků → Každých 6 hodin: `bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#SIX_HOURS_ID`
+- Aktivita → Aktualizace pokroků → Každých 8 hodin: `bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#EIGHT_HOURS_ID`
+- Aktivita → Úspěchy: `bridge:root=com.apple.HealthAppsSettings#ACHIEVEMENTS_ENABLED_LABEL`
+- Aktivita → Týdenní přehled: `bridge:root=com.apple.HealthAppsSettings#WEEKLY_SUMMARY_ENABLED_LABEL`
+- Aktivita → Denní koučink: `bridge:root=com.apple.HealthAppsSettings#DAILY_PROGRESS_ENABLED_LABEL`
+- Aktivita → Dosažené cíle: `bridge:root=com.apple.HealthAppsSettings#GOAL_COMPLETIONS_ENABLED_LABEL`
+- Aktivita → Speciální výzvy: `bridge:root=com.apple.HealthAppsSettings#REMOTE_ACHIEVEMENTS_ENABLED_LABEL`
+- Aktivita → Oznámení o sdílení aktivity: `bridge:root=com.apple.HealthAppsSettings#ACTIVITY_SHARING_NOTIFICATIONS_ENABLED`
+- Chytrá sada: `bridge:root=SMARTSTACK_LINK`
+- Počasí: `bridge:root=com.apple.weatherbridgesettings`
+- Počasí → Výchozí město: `bridge:root=com.apple.weatherbridgesettings&path=Default%20City`
+- Počasí → Výchozí město → Výchozí město: `bridge:root=com.apple.weatherbridgesettings&path=Default%20City#Default%20City`
+- Počasí → Výchozí město → Toto místo: `bridge:root=com.apple.weatherbridgesettings&path=Default%20City#Current%20Location`
+- Kontakty: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired`
+- Kontakty → Řazení: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=contactsSortOrder`
+- Kontakty → Řazení → Jméno, Příjmení: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=contactsSortOrder#0`
+- Kontakty → Řazení → Příjmení, Jméno: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=contactsSortOrder#1`
+- Kontakty → Zobrazení: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=NSPersonNameDefaultDisplayNameOrder`
+- Kontakty → Zobrazení → Jméno, Příjmení: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=NSPersonNameDefaultDisplayNameOrder#1`
+- Kontakty → Zobrazení → Příjmení, Jméno: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=NSPersonNameDefaultDisplayNameOrder#2`
+- Kontakty → Krátké jméno: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName`
+- Kontakty → Krátké jméno → Krátké jméno: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#Short%20Name`
+- Kontakty → Krátké jméno → Celé jméno a iniciálka příjmení: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#First%20Name%20&%20Last%20Initial`
+- Kontakty → Krátké jméno → Iniciálka jména a celé příjmení: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#First%20Initial%20&%20Last%20Name`
+- Kontakty → Krátké jméno → Jen jméno: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#First%20Name%20Only`
+- Kontakty → Krátké jméno → Pouze příjmení: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#Last%20Name%20Only`
+- Kontakty → Krátké jméno → Preferovat přezdívky: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#Prefer%20Nicknames`
+- Zpřístupnění: `bridge:root=ACCESSIBILITY_ID`
+- Zpřístupnění → Zrak: `bridge:root=ACCESSIBILITY_ID#VISION_GROUP`
+- Zpřístupnění → VoiceOver: `bridge:root=ACCESSIBILITY_ID&path=VOICEOVER_ID`
+- Zpřístupnění → Přepnout velikost: `bridge:root=ACCESSIBILITY_ID&path=ZOOM_ID`
+- Zpřístupnění → Štítky Zapnuto/Vypnuto: `bridge:root=ACCESSIBILITY_ID#OnOffLabelsEnabled`
+- Zpřístupnění → Stupně šedi: `bridge:root=ACCESSIBILITY_ID#GrayscaleDisplay`
+- Zpřístupnění → Snížit průhlednost: `bridge:root=ACCESSIBILITY_ID#REDUCE_TRANSPARENCY`
+- Zpřístupnění → Zvýšit kontrast: `bridge:root=ACCESSIBILITY_ID#INCREASE_CONTRAST`
+- Zpřístupnění → Velikost textu: `bridge:root=ACCESSIBILITY_ID#TEXT_SIZE`
+- Zpřístupnění → Tučný text: `bridge:root=ACCESSIBILITY_ID#BoldTextEnabled`
+- Zpřístupnění → Omezit pohyb: `bridge:root=ACCESSIBILITY_ID&path=ReduceMotion`
+- Zpřístupnění → Odbíjení: `bridge:root=ACCESSIBILITY_ID&path=TapticChimesCell`
+- Zpřístupnění → Odbíjení → Odbíjení: `bridge:root=ACCESSIBILITY_ID&path=TapticChimesCell#Chimes`
+- Zpřístupnění → Odbíjení → Rozvrh: `bridge:root=ACCESSIBILITY_ID&path=TapticChimesCell/CHIMES_SCHEDULE_ID`
+- Zpřístupnění → Odbíjení → Rozvrh → Po hodinách: `bridge:root=ACCESSIBILITY_ID&path=TapticChimesCell/CHIMES_SCHEDULE_ID#Hourly`
+- Zpřístupnění → Odbíjení → Rozvrh → Po 30 minutách: `bridge:root=ACCESSIBILITY_ID&path=TapticChimesCell/CHIMES_SCHEDULE_ID#30%20minutes`
+- Zpřístupnění → Odbíjení → Rozvrh → Po 15 minutách: `bridge:root=ACCESSIBILITY_ID&path=TapticChimesCell/CHIMES_SCHEDULE_ID#15%20minutes`
+- Zpřístupnění → Odbíjení → Zvuky: `bridge:root=ACCESSIBILITY_ID&path=TapticChimesCell/CHIMES_SOUNDS_ID`
+- Zpřístupnění → Odbíjení → Zvuky → Zvony: `bridge:root=ACCESSIBILITY_ID&path=TapticChimesCell/CHIMES_SOUNDS_ID#Bells`
+- Zpřístupnění → Odbíjení → Zvuky → Ptáci: `bridge:root=ACCESSIBILITY_ID&path=TapticChimesCell/CHIMES_SOUNDS_ID#Birds`
+- Zpřístupnění → Motorické funkce: `bridge:root=ACCESSIBILITY_ID#MotorGroupCell`
+- Zpřístupnění → Stisknutí postranního tlačítka: `bridge:root=ACCESSIBILITY_ID&path=SideButton`
+- Zpřístupnění → Stisknutí postranního tlačítka → Rychlost stisknutí: `bridge:root=ACCESSIBILITY_ID&path=SideButton#CLICK_SPEED_GROUP_CELL`
+- Zpřístupnění → Stisknutí postranního tlačítka → Výchozí: `bridge:root=ACCESSIBILITY_ID&path=SideButton#SIDE_CLICK_SPEED_DEFAULT`
+- Zpřístupnění → Stisknutí postranního tlačítka → Pomalé: `bridge:root=ACCESSIBILITY_ID&path=SideButton#SIDE_CLICK_SPEED_SLOW`
+- Zpřístupnění → Stisknutí postranního tlačítka → Nejpomalejší: `bridge:root=ACCESSIBILITY_ID&path=SideButton#SIDE_CLICK_SPEED_SLOWEST`
+- Zpřístupnění → Přizpůsobení dotyků: `bridge:root=ACCESSIBILITY_ID&path=TouchAccommodationsCell`
+- Zpřístupnění → Přizpůsobení dotyků → Přizpůsobení dotyků: `bridge:root=ACCESSIBILITY_ID&path=TouchAccommodationsCell#TOUCH_ACCOMMODATIONS_SWITCHER`
+- Zpřístupnění → Přizpůsobení dotyků → Délka podržení: `bridge:root=ACCESSIBILITY_ID&path=TouchAccommodationsCell#HoldDurationGroup`
+- Zpřístupnění → Přizpůsobení dotyků → Délka podržení: `bridge:root=ACCESSIBILITY_ID&path=TouchAccommodationsCell#HoldDuration`
+- Zpřístupnění → Přizpůsobení dotyků → Ignorovat opakování: `bridge:root=ACCESSIBILITY_ID&path=TouchAccommodationsCell#IgnoreRepeatGroup`
+- Zpřístupnění → Přizpůsobení dotyků → Ignorovat opakování: `bridge:root=ACCESSIBILITY_ID&path=TouchAccommodationsCell#IgnoreRepeat`
+- Zpřístupnění → Přizpůsobení dotyků → Asistence při klepnutí: `bridge:root=ACCESSIBILITY_ID&path=TouchAccommodationsCell#Tap%20Assistance`
+- Zpřístupnění → Přizpůsobení dotyků → Vypnuto: `bridge:root=ACCESSIBILITY_ID&path=TouchAccommodationsCell#OFF`
+- Zpřístupnění → Přizpůsobení dotyků → Použít místo prvního dotyku: `bridge:root=ACCESSIBILITY_ID&path=TouchAccommodationsCell#ACTIVATE_ON_TOUCH`
+- Zpřístupnění → Přizpůsobení dotyků → Použít místo posledního dotyku: `bridge:root=ACCESSIBILITY_ID&path=TouchAccommodationsCell#ACTIVATE_ON_RELEASE`
+- Zpřístupnění → Vozíčkářská aktivita: `bridge:root=ACCESSIBILITY_ID#MOBILITY`
+- Zpřístupnění → Vysílačka: `bridge:root=ACCESSIBILITY_ID#WalkieTalkieTapToTalkGroup`
+- Zpřístupnění → Režim mluvení klepnutím: `bridge:root=ACCESSIBILITY_ID#WalkieTalkieTapToTalk`
+- Zpřístupnění → Přepínač aplikací: `bridge:root=ACCESSIBILITY_ID#AppSwitcherAutoSelectGroup`
+- Zpřístupnění → Automaticky vybírat zaměřenou aplikaci: `bridge:root=ACCESSIBILITY_ID#AppSwitcherAutoSelect`
+- Zpřístupnění → Siri: `bridge:root=ACCESSIBILITY_ID&path=SIRI_CELL_ID`
+- Zpřístupnění → Siri → Zadávání textu pro Siri: `bridge:root=ACCESSIBILITY_ID&path=SIRI_CELL_ID#Type%20to%20Siri`
+- Zpřístupnění → Sluch: `bridge:root=ACCESSIBILITY_ID#HEARING`
+- Zpřístupnění → RTT: `bridge:root=ACCESSIBILITY_ID&path=RTT_ID`
+- Zpřístupnění → RTT → RTT: `bridge:root=ACCESSIBILITY_ID&path=RTT_ID#RTT_ROW_ID`
+- Zpřístupnění → Monofonní zvuk: `bridge:root=ACCESSIBILITY_ID#MonoAudioEnabled`
+- Zpřístupnění → Stereováha levá-pravá: `bridge:root=ACCESSIBILITY_ID#LEFT_RIGHT_BALANCE_SPOKEN`
+- Zpřístupnění → Oznámení o sluchátkách: `bridge:root=ACCESSIBILITY_ID#HeadphoneNotificationsID`
+- Zpřístupnění → Sluchadla: `bridge:root=ACCESSIBILITY_ID#HearingDevicesComplicationGroupID`
+- Zpřístupnění → Komplikace: `bridge:root=ACCESSIBILITY_ID&path=HearingDevicesComplicationRowID`
+- Zpřístupnění → Komplikace → Hlasitost mikrofonu: `bridge:root=ACCESSIBILITY_ID&path=HearingDevicesComplicationRowID#Mic%20Volume`
+- Zpřístupnění → Komplikace → Program: `bridge:root=ACCESSIBILITY_ID&path=HearingDevicesComplicationRowID#Program`
+- Zpřístupnění → Rychlost odklepávání času: `bridge:root=ACCESSIBILITY_ID#TapticTimeSpeedAdjustmentGroup`
+- Zpřístupnění → Zkratka zpřístupnění: `bridge:root=ACCESSIBILITY_ID&path=AX_SHORTCUT_ID`
+- Mapy | Upozornění na odbočení: `bridge:root=com.apple.NanoMapsBridgeSettings`
+- Mapy | Upozornění na odbočení → Upozornění na odbočky: `bridge:root=com.apple.NanoMapsBridgeSettings#Turn%20Alerts`
+- Mapy | Upozornění na odbočení → Autem: `bridge:root=com.apple.NanoMapsBridgeSettings#Driving`
+- Mapy | Upozornění na odbočení → Řízení s CarPlay: `bridge:root=com.apple.NanoMapsBridgeSettings#Driving%20with%20CarPlay`
+- Mapy | Upozornění na odbočení → Pěšky: `bridge:root=com.apple.NanoMapsBridgeSettings#Walking`
+- Mapy | Upozornění na odbočení → Kolo: `bridge:root=com.apple.NanoMapsBridgeSettings#Cycling`
+- Mapy | Upozornění na odbočení → Zobrazit navigaci: `bridge:root=com.apple.NanoMapsBridgeSettings#Show%20Navigation`
+- Mapy | Upozornění na odbočení → Veřejnou dopravou: `bridge:root=com.apple.NanoMapsBridgeSettings#Transit`
+- Mapy | Upozornění na odbočení → Informace o sestavě: `bridge:root=com.apple.NanoMapsBridgeSettings#Build%20Info%3A`
+- Pošta a kalendář: `bridge:root=com.apple.BridgeRemoteAccounts`
+- Pošta a kalendář → Účty: `bridge:root=com.apple.BridgeRemoteAccounts#Accounts`
+- Pošta a kalendář → Přidat účet Google…: `bridge:root=com.apple.BridgeRemoteAccounts#ADD_GOOGLE_ACCOUNT`
+- Pošta a kalendář → Vyzvedávání: `bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch`
+- Pošta a kalendář → Vyzvedávání → Vypnuto: `bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch#Off`
+- Pošta a kalendář → Vyzvedávání → Každou hodinu: `bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch#Hourly`
+- Pošta a kalendář → Vyzvedávání → 30 min: `bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch#30%20min`
+- Pošta a kalendář → Vyzvedávání → 15 min: `bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch#15%20min`
+- Srdce: `bridge:root=com.apple.HeartRateSettings`
+- Srdce → Srdce: `bridge:root=com.apple.HeartRateSettings#1`
+- Srdce → Oznámení o tepu: `bridge:root=com.apple.HeartRateSettings#2`
+- Srdce → Rychlá tepová frekvence: `bridge:root=com.apple.HeartRateSettings#3`
+- Srdce → Pomalá tepová frekvence: `bridge:root=com.apple.HeartRateSettings#4`
+- Srdce → Nepravidelný rytmus: `bridge:root=com.apple.HeartRateSettings#5`
+- Srdce → Zobrazit změřené EKG ve Zdraví: `bridge:root=com.apple.HeartRateSettings#6`
+- Srdce → EKG: `bridge:root=com.apple.HeartRateSettings#7`
+- App Store: `bridge:root=com.apple.BridgeAppStoreDaemonSettings`
+- App Store → Automatická stahování: `bridge:root=com.apple.BridgeAppStoreDaemonSettings#automaticDownloadSpecifier`
+- App Store → Automatická aktualizace: `bridge:root=com.apple.BridgeAppStoreDaemonSettings#Automatic%20Updates`
+- Gesta: `bridge:root=ELTON_SETTINGS_ID`
+- Gesta → Gesta: `bridge:root=ELTON_SETTINGS_ID#Gestures`
+- Gesta → Poklepání: `bridge:root=ELTON_SETTINGS_ID&path=ELTON_DOUBLE_TAP_ID`
+- Gesta → Poklepání → Poklepání: `bridge:root=ELTON_SETTINGS_ID&path=ELTON_DOUBLE_TAP_ID#Double%20Tap`
+- Gesta → Poklepání → Přehrávání: `bridge:root=ELTON_SETTINGS_ID&path=ELTON_DOUBLE_TAP_ID#playbackSettingsGroup`
+- Gesta → Poklepání → Přehrát/pozastavit: `bridge:root=ELTON_SETTINGS_ID&path=ELTON_DOUBLE_TAP_ID#playbackSettingsPlayPause`
+- Gesta → Poklepání → Přeskočit: `bridge:root=ELTON_SETTINGS_ID&path=ELTON_DOUBLE_TAP_ID#playbackSettingsSkip`
+- Gesta → Poklepání → Chytrá sada: `bridge:root=ELTON_SETTINGS_ID&path=ELTON_DOUBLE_TAP_ID#smartStackGroup`
+- Gesta → Poklepání → Posunout: `bridge:root=ELTON_SETTINGS_ID&path=ELTON_DOUBLE_TAP_ID#smartStackSettingsAdvance`
+- Gesta → Poklepání → Vybrat: `bridge:root=ELTON_SETTINGS_ID&path=ELTON_DOUBLE_TAP_ID#smartStackSettingsSelect`
+- Gesta → Poklepání → Při používání Apple Vision Pro: `bridge:root=ELTON_SETTINGS_ID&path=ELTON_DOUBLE_TAP_ID#ignoreWhileVisionProDonned`
+- Gesta → Poklepání → Ignorovat poklepání: `bridge:root=ELTON_SETTINGS_ID&path=ELTON_DOUBLE_TAP_ID#ignoreDoubleTap`
+- Gesta → Otočení zápěstí: `bridge:root=ELTON_SETTINGS_ID#Wrist%20Flick`
+- Gesta → Ztišit přikrytím: `bridge:root=ELTON_SETTINGS_ID#Cover%20to%20Mute`
+- Spánek: `bridge:root=com.apple.NanoBedtimeBridgeSettings`
+- Spánek → Nastavit spánek v aplikaci Zdraví: `bridge:root=com.apple.NanoBedtimeBridgeSettings#SET_UP_SLEEP_CELL_ID`
+- Hudba | Limit úložiště | Synchronizovaná hudba: `bridge:root=com.apple.NanoMusicBridgeSettings`
+- Hudba | Limit úložiště | Synchronizovaná hudba → PLAYLISTY A ALBA: `bridge:root=com.apple.NanoMusicBridgeSettings#PLAYLISTS%20&%20ALBUMS`
+- Hudba | Limit úložiště | Synchronizovaná hudba → Přidat hudbu…: `bridge:root=com.apple.NanoMusicBridgeSettings#Add%20Music%E2%80%A6`
+- Peněženka a Apple Pay: `bridge:root=com.apple.NanoPassbookBridgeSettings`
+- Peněženka a Apple Pay → Apple Cash: `bridge:root=com.apple.NanoPassbookBridgeSettings#Apple%C2%A0Cash`
+- Peněženka a Apple Pay → Přidat kartu: `bridge:root=com.apple.NanoPassbookBridgeSettings#Add%20Card`
+- Peněženka a Apple Pay → Oznámení: `bridge:root=com.apple.NanoPassbookBridgeSettings#MIRROR_RADIO_GROUP_ID`
+- Peněženka a Apple Pay → Zrcadlit můj iPhone: `bridge:root=com.apple.NanoPassbookBridgeSettings#MIRROR_MY_COMPANION_ID`
+- Peněženka a Apple Pay → Vlastní: `bridge:root=com.apple.NanoPassbookBridgeSettings#CUSTOM_ID`
+- Zdraví: `bridge:root=com.apple.BridgeHealthSettings`
+- Najít Apple Watch: `bridge:root=ActiveWatch`
+- Najít Apple Watch → Spárovat další Apple Watch: `bridge:root=ActiveWatch&path=Pair%20New%20Watch`
+- Všímavost: `bridge:root=com.apple.MindSettings`
+- Všímavost → Povolit oznámení: `bridge:root=com.apple.MindSettings#ALLOW_NOTIFICATIONS_ID`
+- Všímavost → Poslat do Oznamovacího centra: `bridge:root=com.apple.MindSettings#SEND_TO_NOTIFICATION_CENTER_ID`
+- Všímavost → Vypnout oznámení: `bridge:root=com.apple.MindSettings#NOTIFICATIONS_OFF_ID`
+- Všímavost → Připomínky všímavosti: `bridge:root=com.apple.MindSettings#MIND_GROUP_ID`
+- Všímavost → Začátek dne: `bridge:root=com.apple.MindSettings#MIND_START_OF_DAY_REMINDER`
+- Všímavost → Konec dne: `bridge:root=com.apple.MindSettings#MIND_END_OF_DAY_REMINDER`
+- Všímavost → Přidat připomínku…: `bridge:root=com.apple.MindSettings#Add%20Reminder%E2%80%A6`
+- Všímavost → Týdenní přehled: `bridge:root=com.apple.MindSettings#MIND_WEEKLY_SUMMARY_ID`
+- Všímavost → Pro dnešek vypnout: `bridge:root=com.apple.MindSettings#MIND_MUTE_FOR_TODAY_ID`
+- Všímavost → Frekvence: `bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID`
+- Všímavost → Frekvence → 4 dechy za minutu: `bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_4`
+- Všímavost → Frekvence → 5 dechů za minutu: `bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_5`
+- Všímavost → Frekvence → 6 dechů za minutu: `bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_6`
+- Všímavost → Frekvence → 7 dechů za minutu: `bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_7`
+- Všímavost → Frekvence → 8 dechů za minutu: `bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_8`
+- Všímavost → Frekvence → 9 dechů za minutu: `bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_9`
+- Všímavost → Frekvence → 10 dechů za minutu: `bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_10`
+- Všímavost → Haptika: `bridge:root=com.apple.MindSettings&path=MIND_HAPTICS_ID`
+- Všímavost → Haptika → Žádná: `bridge:root=com.apple.MindSettings&path=MIND_HAPTICS_ID#NONE_ID`
+- Všímavost → Haptika → Minimální: `bridge:root=com.apple.MindSettings&path=MIND_HAPTICS_ID#MINIMAL_ID`
+- Všímavost → Haptika → Výrazná: `bridge:root=com.apple.MindSettings&path=MIND_HAPTICS_ID#PROMINENT_ID`
+- Podcasty: `bridge:root=com.apple.private.PodcastsBridgeSettings`
+- Telefon: `bridge:root=com.apple.PhoneBridgeSettings`
+- Telefon → Hovory: `bridge:root=com.apple.PhoneBridgeSettings#carrier_direct_calling_group_id`
+- Telefon → Vyzvánění: `bridge:root=com.apple.PhoneBridgeSettings#RINGTONE`
+- Telefon → Zvuk: `bridge:root=com.apple.PhoneBridgeSettings#INCOMING_CALL_SOUND`
+- Telefon → Haptika: `bridge:root=com.apple.PhoneBridgeSettings#INCOMING_CALL_HAPTIC`
+- Hloubka: `bridge:root=com.apple.DepthCompanionSettings`
+- Akční tlačítko: `bridge:root=STING_TITLE`
+- Nastavení operátora: `bridge:root=CARRIER_SETTINGS`
+- Mobilní data: `bridge:root=CELLULAR_ID`
+- Dock: `bridge:root=DOCK`
+- Dock → Uspořádání Docku: `bridge:root=DOCK#OrderingOptionGroup`
+- Dock → Historie: `bridge:root=DOCK#Recents`
+- Dock → Oblíbené: `bridge:root=DOCK#Favorites`
+- Dock: `bridge:root=DOCK.0`
+- Dock → Uspořádání Docku: `bridge:root=DOCK.0#OrderingOptionGroup`
+- Dock → Historie: `bridge:root=DOCK.0#Recents`
+- Dock → Oblíbené: `bridge:root=DOCK.0#Favorites`
+- Audioknihy: `bridge:root=com.apple.NanoBooks.BridgeSettings`
+- Audioknihy → Přihlásit se: `bridge:root=com.apple.NanoBooks.BridgeSettings#Sign%20In`
+- Limit fotek | Vybrané fotoalbum: `bridge:root=com.apple.mobileslideshow`
+- Potvrzení o přečtení: `bridge:root=com.apple.MessagesBridgeSettings%23READ_RECEIPTS`

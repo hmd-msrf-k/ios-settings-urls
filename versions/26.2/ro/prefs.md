@@ -1,0 +1,414 @@
+- Baterie: `prefs:root=BATTERY_USAGE`
+- Baterie → Mod Consum redus: `prefs:root=BATTERY_USAGE#BATTERY_SAVER_MODE`
+- Baterie → Stare sănătate baterie: `prefs:root=BATTERY_USAGE#BATTERY_HEALTH_ID`
+- General: `prefs:root=General`
+- General → VPN și gestionare dispozitive: `prefs:root=General&path=ManagedConfigurationList`
+- General → Auto‑completare și parole: `prefs:root=General&path=AUTOFILL`
+- General → Auto‑completare și parole → Auto‑completare parole: `prefs:root=General&path=AUTOFILL#AUTOFILL`
+- General → Auto‑completare și parole → Organizați codurile de verificare: `prefs:root=General&path=AUTOFILL#CLEAN_UP_VERIFICATION_CODES`
+- General → Auto‑completare și parole → Configurați codurile de verificare: `prefs:root=General&path=AUTOFILL#SET_UP_VERIFICATION_CODES`
+- General → AppleCare și garanție: `prefs:root=General&path=COVERAGE/`
+- General → Dicționar: `prefs:root=General&path=DICTIONARY`
+- General → Tastatură: `prefs:root=General&path=Keyboard`
+- General → Tastatură → Tastaturi: `prefs:root=General&path=Keyboard/KEYBOARDS`
+- General → Tastatură → Înlocuire text: `prefs:root=General&path=Keyboard/USER_DICTIONARY`
+- General → Tastatură → Auto-majuscule: `prefs:root=General&path=Keyboard#KeyboardAutocapitalization`
+- General → Tastatură → Auto-corectare: `prefs:root=General&path=Keyboard#KeyboardAutocorrection`
+- General → Tastatură → Verificare ortografie: `prefs:root=General&path=Keyboard#KeyboardCheckSpelling`
+- General → Tastatură → Blocare majuscule: `prefs:root=General&path=Keyboard#KeyboardCapsLock`
+- General → Tastatură → Scurtături: `prefs:root=General&path=Keyboard#KeyboardAssistant`
+- General → Tastatură → Predictivă: `prefs:root=General&path=Keyboard#KeyboardPrediction`
+- General → Tastatură → Punctuație inteligentă: `prefs:root=General&path=Keyboard#SmartTyping`
+- General → Tastatură → Divizare tastatură: `prefs:root=General&path=Keyboard#RivenKeyboard`
+- General → Tastatură → Glisare în jos peste taste: `prefs:root=General&path=Keyboard#GesturesEnabled`
+- General → Tastatură → Previzualizare caracter: `prefs:root=General&path=Keyboard#KeyboardAllowPaddle`
+- General → Tastatură → Scurtătură „.”: `prefs:root=General&path=Keyboard#KeyboardPeriodShortcut`
+- General → Tastatură → Glisare pentru tastare: `prefs:root=General&path=Keyboard#KeyboardContinuousPathEnabled`
+- General → Tastatură → Activare dictare: `prefs:root=General&path=Keyboard#Dictation`
+- General → Tastatură → Punctuație automată: `prefs:root=General&path=Keyboard#AutoPunctuationSetting`
+- General → Actualizare software: `prefs:root=General&path=SOFTWARE_UPDATE_LINK`
+- General → Actualizare software → Actualizări automate: `prefs:root=General&path=SOFTWARE_UPDATE_LINK/SUAutomaticUpdateButton`
+- General → Stocare: `prefs:root=General&path=STORAGE_MGMT`
+- General → Stocare → Stocare: `prefs:root=General&path=STORAGE_MGMT#MANAGE`
+- General → Stocare → Dezinstalare aplicații: `prefs:root=General&path=STORAGE_MGMT#OFFLOAD`
+- General → Imagine în imagine: `prefs:root=General&path=PiP_SPEC`
+- General → Trackpad | Trackpad și maus: `prefs:root=General&path=POINTERS`
+- General → NFC: `prefs:root=General&path=NFC_LINK`
+- General → VPN: `prefs:root=General&path=VPN`
+- General → CarPlay: `prefs:root=General&path=CARPLAY`
+- General → Informații: `prefs:root=General&path=About`
+- General → Informații → Certificate de încredere: `prefs:root=General&path=About/CERT_TRUST_SETTINGS`
+- General → Informații → Număr serial: `prefs:root=General&path=About#SerialNumber`
+- General → Informații → Număr model: `prefs:root=General&path=About#ProductModel`
+- General → Informații → Nume model: `prefs:root=General&path=About#ProductModelName`
+- General → Informații → Versiune iOS: `prefs:root=General&path=About/SW_VERSION_SPECIFIER`
+- General → Mențiuni legale și reglementări: `prefs:root=General&path=LEGAL_AND_REGULATORY`
+- General → Mențiuni legale și reglementări → Garanție: `prefs:root=General&path=LEGAL_AND_REGULATORY#Warranty`
+- General → AirDrop: `prefs:root=General&path=AIRDROP_LINK`
+- General → AirDrop → Apropiind dispozitivele: `prefs:root=General&path=AIRDROP_LINK#AIRDROP_NFC_ID`
+- General → Buton principal: `prefs:root=General&path=HOME_BUTTON`
+- General → Comutator lateral: `prefs:root=General#Rotation_Switch_Action_Group`
+- General → Reîmprospătare în fundal: `prefs:root=General&path=AUTO_CONTENT_DOWNLOAD`
+- General → Data și ora: `prefs:root=General&path=DATE_AND_TIME`
+- General → Ieșire TV: `prefs:root=General&path=TV_OUT`
+- General → Resetare: `prefs:root=General&path=Reset`
+- General → Resetare → Resetați toate configurările: `prefs:root=General&path=Reset#settingsErase`
+- General → Resetare → Ștergeți conținutul și configurările: `prefs:root=General&path=Reset#fullErase`
+- General → Resetare → Resetați configurări rețea: `prefs:root=General&path=Reset#RESET_NETWORK_LABEL`
+- General → Resetare → Eliminați toate planurile de date celulare: `prefs:root=General&path=Reset#cellularErase`
+- General → Resetare → Servicii abonați: `prefs:root=General&path=Reset#SUBSCRIBER_SERVICES_ID`
+- General → Resetare → Resetați dicționar tastatură: `prefs:root=General&path=Reset#RESET_KEYBOARD_DICTIONARY_LABEL`
+- General → Resetare → Resetați ecranul principal: `prefs:root=General&path=Reset#RESET_ICONS_LABEL`
+- General → Resetare → Resetați localizare și intimitate: `prefs:root=General&path=Reset#RESET_PRIVACY_LABEL`
+- General → Opriți: `prefs:root=General#SHUTDOWN_LABEL`
+- General → AirPlay și Continuitate: `prefs:root=General&path=CONTINUITY_SPEC`
+- General → AirPlay și Continuitate → Handoff: `prefs:root=General&path=CONTINUITY_SPEC#CONTINUITY`
+- General → AirPlay și Continuitate → Transferați pe HomePod: `prefs:root=General&path=CONTINUITY_SPEC#TRANSFER_TO_HOMEPOD`
+- General → AirPlay și Continuitate → AirPlay automat: `prefs:root=General&path=CONTINUITY_SPEC#AUTOMATICALLY_AIRPLAY`
+- General → AirPlay și Continuitate → Cameră Continuitate: `prefs:root=General&path=CONTINUITY_SPEC#WOMBAT_CAMERA`
+- General → Limbă și regiune: `prefs:root=General&path=INTERNATIONAL`
+- General → Limbă și regiune → Alte limbi…: `prefs:root=General&path=INTERNATIONAL#NEW_PREFERRED_LANGUAGE`
+- General → Limbă și regiune → Ordinea preferată a limbilor: `prefs:root=General&path=INTERNATIONAL#PREFERRED_LANGUAGE_GROUP`
+- General → Limbă și regiune → Adăugați o limbă…: `prefs:root=General&path=INTERNATIONAL#ADD_PREFERRED_LANGUAGE`
+- General → Limbă și regiune → Regiune: `prefs:root=General&path=INTERNATIONAL/LOCALE`
+- General → Limbă și regiune → Numere: `prefs:root=General&path=INTERNATIONAL/NUMBERING_SYSTEM`
+- General → Limbă și regiune → Calendar: `prefs:root=General&path=INTERNATIONAL/CALENDAR`
+- General → Limbă și regiune → Unitate de temperatură: `prefs:root=General&path=INTERNATIONAL/TEMPERATURE_UNIT`
+- Cont Apple: `prefs:root=APPLE_ACCOUNT` or `settings-navigation://com.apple.Settings.AppleAccount`
+- Cont Apple → Verificarea cheilor contactelor: `prefs:root=APPLE_ACCOUNT&path=TRANSPARENCY` or `settings-navigation://com.apple.Settings.AppleAccount/TRANSPARENCY`
+- Cont Apple → iCloud: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE` or `prefs:root=CASTLE`
+- Cont Apple → iCloud → Stocare iCloud: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/STORAGE_AND_BACKUP` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/STORAGE_AND_BACKUP` or `prefs:root=CASTLE&path=STORAGE_AND_BACKUP`
+- Cont Apple → iCloud → iCloud Drive: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Ubiquity` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Ubiquity` or `prefs:root=CASTLE&path=com.apple.Dataclass.Ubiquity`
+- Cont Apple → iCloud → Poze: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.MediaStream` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.MediaStream` or `prefs:root=CASTLE&path=com.apple.Dataclass.MediaStream`
+- Cont Apple → iCloud → Mail: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Mail` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail` or `prefs:root=CASTLE&path=com.apple.Dataclass.Mail`
+- Cont Apple → iCloud → Contacte: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Contacts` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Contacts` or `prefs:root=CASTLE&path=com.apple.Dataclass.Contacts`
+- Cont Apple → iCloud → Calendar: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Calendars` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Calendars` or `prefs:root=CASTLE&path=com.apple.Dataclass.Calendars`
+- Cont Apple → iCloud → Mementouri: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Reminders` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Reminders` or `prefs:root=CASTLE&path=com.apple.Dataclass.Reminders`
+- Cont Apple → iCloud → Safari: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Bookmarks` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Bookmarks` or `prefs:root=CASTLE&path=com.apple.Dataclass.Bookmarks`
+- Cont Apple → iCloud → Notițe: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Notes` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Notes` or `prefs:root=CASTLE&path=com.apple.Dataclass.Notes`
+- Cont Apple → iCloud → News: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.News` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.News` or `prefs:root=CASTLE&path=com.apple.Dataclass.News`
+- Cont Apple → iCloud → Backup: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/BACKUP` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/BACKUP` or `prefs:root=CASTLE&path=BACKUP`
+- Cont Apple → iCloud → Sănătate: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Health` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Health` or `prefs:root=CASTLE&path=com.apple.Dataclass.Health`
+- Cont Apple → iCloud → Parole și portchei: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.KeychainSync` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.KeychainSync` or `prefs:root=CASTLE&path=com.apple.Dataclass.KeychainSync`
+- Cont Apple → iCloud → Mascare e-mail: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/PRIVATE_EMAIL_MANAGE` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/PRIVATE_EMAIL_MANAGE` or `prefs:root=CASTLE&path=PRIVATE_EMAIL_MANAGE`
+- Cont Apple → Partajare localizare: `prefs:root=APPLE_ACCOUNT&path=LOCATION_SHARING` or `settings-navigation://com.apple.Settings.AppleAccount/LOCATION_SHARING`
+- Cont Apple → Partajare localizare → Găsire: `prefs:root=APPLE_ACCOUNT&path=LOCATION_SHARING/FindMyDevice-Settings` or `settings-navigation://com.apple.Settings.AppleAccount/LOCATION_SHARING/FindMyDevice-Settings`
+- Cont Apple → Nume, numere de telefon, e‑mail: `prefs:root=APPLE_ACCOUNT&path=APPLE_ACCOUNT_CONTACT` or `settings-navigation://com.apple.Settings.AppleAccount/APPLE_ACCOUNT_CONTACT`
+- Cont Apple → Parolă și securitate: `prefs:root=APPLE_ACCOUNT&path=PASSWORD_AND_SECURITY` or `settings-navigation://com.apple.Settings.AppleAccount/PASSWORD_AND_SECURITY`
+- Cont Apple → Plată și expediere: `prefs:root=APPLE_ACCOUNT&path=PAYMENT_AND_SHIPPING` or `settings-navigation://com.apple.Settings.AppleAccount/PAYMENT_AND_SHIPPING`
+- Cont Apple → Abonamente: `prefs:root=APPLE_ACCOUNT&path=SUBSCRIPTIONS` or `settings-navigation://com.apple.Settings.AppleAccount/SUBSCRIPTIONS`
+- Cont Apple → Familie: `prefs:root=APPLE_ACCOUNT&path=Family` or `settings-navigation://com.apple.Settings.AppleAccount/Family`
+- Notificări: `prefs:root=NOTIFICATIONS_ID`
+- Notificări → Rezumat programat: `prefs:root=NOTIFICATIONS_ID&path=SCHEDULED_DELIVERY_ID`
+- Vremea: `prefs:root=WEATHER`
+- Freeform: `prefs:root=FREEFORM`
+- Concentrare: `prefs:root=DO_NOT_DISTURB`
+- Concentrare → Status concentrare: `prefs:root=DO_NOT_DISTURB&path=status`
+- Jurnal: `prefs:root=JOURNAL`
+- Portofel și Apple Pay: `prefs:root=PASSBOOK`
+- Portofel și Apple Pay → Apple Cash: `prefs:root=PASSBOOK#Apple%C2%A0Cash`
+- Portofel și Apple Pay → Carduri de plată: `prefs:root=PASSBOOK#SETTINGS_PAYMENT_CARDS_GROUP`
+- Portofel și Apple Pay → Adăugați un card: `prefs:root=PASSBOOK#Add%20Card`
+- Portofel și Apple Pay → Dublu clic buton lateral: `prefs:root=PASSBOOK#Double-Click%20Side%20Button`
+- Portofel și Apple Pay → Urmărire comandă: `prefs:root=PASSBOOK#ORDER_TRACKING`
+- Afișaj și luminozitate | Aspect: `prefs:root=DISPLAY`
+- Afișaj și luminozitate | Aspect → Aspect: `prefs:root=DISPLAY#DEVICE_APPEARANCE`
+- Afișaj și luminozitate | Aspect → True Tone: `prefs:root=DISPLAY#WHITE_BALANCE`
+- Afișaj și luminozitate | Aspect → Night Shift: `prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION`
+- Afișaj și luminozitate | Aspect → Night Shift → Programat: `prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION#SCHEDULED`
+- Afișaj și luminozitate | Aspect → Night Shift → Activați manual până mâine: `prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION#MANUAL`
+- Afișaj și luminozitate | Aspect → Night Shift → Temperatura de culoare: `prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION#COLOR_TEMPERATURE`
+- Afișaj și luminozitate | Aspect → Auto‑blocare: `prefs:root=DISPLAY&path=AUTOLOCK`
+- Afișaj și luminozitate | Aspect → Trezire afișaj la ridicare: `prefs:root=DISPLAY#RAISE_TO_WAKE`
+- Afișaj și luminozitate | Aspect → Blocare / Deblocare: `prefs:root=DISPLAY#SMART_CASE_LOCK_SPEC`
+- Afișaj și luminozitate | Aspect → Dimensiune text: `prefs:root=DISPLAY&path=TEXT_SIZE`
+- Afișaj și luminozitate | Aspect → Text aldin: `prefs:root=DISPLAY#BOLD_TEXT`
+- Afișaj și luminozitate | Aspect → Luminozitate: `prefs:root=DISPLAY#BRIGHTNESS`
+- Afișaj și luminozitate | Aspect → Zoom afișaj: `prefs:root=DISPLAY#DISPLAY_ZOOM_GROUP`
+- Afișaj și luminozitate | Aspect → Aspect: `prefs:root=DISPLAY&path=APPEARANCE`
+- Afișaj și luminozitate | Aspect → Aspect → Zoom în fereastră: `prefs:root=DISPLAY&path=APPEARANCE#WINDOW_ZOOM`
+- Afișaj și luminozitate | Aspect → Aspect → Zoom în fereastră cu două mâini: `prefs:root=DISPLAY&path=APPEARANCE#TWO_HANDED_WINDOW_ZOOM`
+- Afișaj și luminozitate | Aspect → Vizualizare: `prefs:root=DISPLAY&path=MAGNIFY`
+- Afișaj și luminozitate | Aspect → Ecran mereu activat: `prefs:root=DISPLAY&path=ALWAYS_ON`
+- Afișaj și luminozitate | Aspect → Ecran mereu activat → Ecran mereu activat: `prefs:root=DISPLAY&path=ALWAYS_ON#ALWAYS_ON`
+- Afișaj și luminozitate | Aspect → Aplicații compatibile: `prefs:root=DISPLAY&path=COMPATIBLE_APPEARANCE`
+- Afișaj și luminozitate | Aspect → Aplicații compatibile → Întunecat, Luminos: `prefs:root=DISPLAY&path=COMPATIBLE_APPEARANCE#COMPATIBLE_APPEARANCE_CHOICES`
+- Măsurare: `prefs:root=MEASURE` or `settings-navigation://com.apple.Settings.Apps/com.apple.measure`
+- Măsurare → Unități de măsură: `prefs:root=MEASURE#MEASURE_UNITS` or `settings-navigation://com.apple.Settings.Apps/com.apple.measure#MEASURE_UNITS#MEASURE_UNITS`
+- Măsurare → Sistem imperial: `prefs:root=MEASURE#Imperial` or `settings-navigation://com.apple.Settings.Apps/com.apple.measure#Imperial#Imperial`
+- Măsurare → Sistem metric: `prefs:root=MEASURE#Metric` or `settings-navigation://com.apple.Settings.Apps/com.apple.measure#Metric#Metric`
+- Fundal: `prefs:root=Wallpaper`
+- Centru de control: `prefs:root=ControlCenter`
+- Centru de control → Acces din aplicații: `prefs:root=ControlCenter#ALLOWED_WITHIN_APPS`
+- Centru de control → Personalizare comenzi: `prefs:root=ControlCenter&path=CUSTOMIZE_CONTROLS`
+- Reportofon: `prefs:root=VOICE_MEMOS`
+- Reportofon → Degajare articole șterse: `prefs:root=VOICE_MEMOS&path=RCVoiceMemosRecentlyDeletedWindowKey`
+- Reportofon → Calitate audio: `prefs:root=VOICE_MEMOS&path=RCVoiceMemosAudioQualityKey`
+- Reportofon → Denumire bazată pe localizare: `prefs:root=VOICE_MEMOS#RCVoiceMemosUseLocationBasedNaming`
+- Calendar: `prefs:root=CALENDAR`
+- Calendar → Suprareglaj fus orar: `prefs:root=CALENDAR&path=TimeZoneCityArray`
+- Calendar → Calendare alternative: `prefs:root=CALENDAR&path=Alternate%20Calendars`
+- Calendar → Numerotare săptămâni: `prefs:root=CALENDAR#Week%20Numbers`
+- Calendar → Afișare refuzuri invitați: `prefs:root=CALENDAR#Show%20Invitee%20Declines`
+- Calendar → Sincronizare: `prefs:root=CALENDAR&path=Sync`
+- Calendar → Plan implicit alertare: `prefs:root=CALENDAR&path=Default%20Alert%20Times`
+- Calendar → Săptămâna începe: `prefs:root=CALENDAR&path=Start%20Week%20On`
+- Calendar → Sugestii pentru locuri: `prefs:root=CALENDAR#Location%20Suggestions`
+- Dezvoltator: `prefs:root=DEVELOPER_SETTINGS`
+- Dezvoltator → Rețea multicale: `prefs:root=DEVELOPER_SETTINGS&path=MULTI_PATH_AGG`
+- Dezvoltator → Rețea multicale → Rețea multicale: `prefs:root=DEVELOPER_SETTINGS&path=MULTI_PATH_AGG#Multipath%20Networking`
+- Dezvoltator → Aspect: `prefs:root=DEVELOPER_SETTINGS#UIAppearanceGroup`
+- Dezvoltator → Aspect întunecat: `prefs:root=DEVELOPER_SETTINGS#UIAppearanceSettings`
+- Dezvoltator → Dispozitive asociate: `prefs:root=DEVELOPER_SETTINGS#DTPairedDevicesGroup`
+- Dezvoltator → Degajați computerele autorizate: `prefs:root=DEVELOPER_SETTINGS#CLEAR_TRUSTED_COMPUTERS`
+- Dezvoltator → Jurnale: `prefs:root=DEVELOPER_SETTINGS&path=DTInstrumentsSettings`
+- Dezvoltator → Activare automatizare IU | Automatizare IU: `prefs:root=DEVELOPER_SETTINGS#UIAGroup`
+- Dezvoltator → Rețea: `prefs:root=DEVELOPER_SETTINGS#NLCGroup`
+- Dezvoltator → Network Link Conditioner: `prefs:root=DEVELOPER_SETTINGS&path=NLC`
+- Dezvoltator → Înregistrări suplimentare în jurnal: `prefs:root=DEVELOPER_SETTINGS#ADDITIONAL_LOGGING`
+- Dezvoltator → Servicii HTTP permise: `prefs:root=DEVELOPER_SETTINGS#ALLOW_HTTP_SERVICES`
+- Dezvoltator → Dezactivare limitare rată: `prefs:root=DEVELOPER_SETTINGS#DISABLE_RATE_LIMITING`
+- Dezvoltator → Cheie acces NFC opțională: `prefs:root=DEVELOPER_SETTINGS#NFC_PASS_KEY_OPTIONAL`
+- Dezvoltator → Testare servicii multimedia: `prefs:root=DEVELOPER_SETTINGS#MEDIA_SERVICES_TESTING`
+- Dezvoltator → Resetați serviciile multimedia: `prefs:root=DEVELOPER_SETTINGS#RESET_MEDIA_SERVICES`
+- Dezvoltator → Testare News: `prefs:root=DEVELOPER_SETTINGS#NEWS_TESTING`
+- Dezvoltator → Resetare date locale la lansare: `prefs:root=DEVELOPER_SETTINGS#RESET_LOCAL_DATA_ON_NEXT_LAUNCH`
+- Dezvoltator → Testare cadru de lucru player multimedia: `prefs:root=DEVELOPER_SETTINGS#RoutineSettingsGroup`
+- Dezvoltator → API conținut redabil: `prefs:root=DEVELOPER_SETTINGS&path=RoutineSettings`
+- Dezvoltator → Furnizor TV: `prefs:root=DEVELOPER_SETTINGS&path=VideoSubscriberAccountSettings`
+- Dezvoltator → API ClassKit: `prefs:root=DEVELOPER_SETTINGS&path=ClassKitSettings`
+- Dezvoltator → Testare CoreSpotlight: `prefs:root=DEVELOPER_SETTINGS#CORESPOTLIGHT_TESTING`
+- Dezvoltator → Reindexați toate articolele: `prefs:root=DEVELOPER_SETTINGS#REINDEX_ALL_ITEMS`
+- Dezvoltator → Reindexați toate articolele cu identificatori: `prefs:root=DEVELOPER_SETTINGS#REINDEX_ALL_ITEMS_WITH_IDENTIFIERS`
+- Dezvoltator → Testare Scurtături: `prefs:root=DEVELOPER_SETTINGS#SIRI_ACTIONS_TESTING`
+- Dezvoltator → Afișare scurtături recente: `prefs:root=DEVELOPER_SETTINGS#DISPLAY_DONATIONS_SPOTLIGHT`
+- Dezvoltator → Afișare conținut următor: `prefs:root=DEVELOPER_SETTINGS#DISPLAY_UPCOMING_MEDIA`
+- Dezvoltator → Afișare donații pe ecranul de blocare: `prefs:root=DEVELOPER_SETTINGS#DISPLAY_DONATIONS_LOCKSCREEN`
+- Dezvoltator → Forțare sincronizare scurtături pe Watch: `prefs:root=DEVELOPER_SETTINGS#SIRI_ACTIONS_SYNC_WATCHOS`
+- Dezvoltator → Testare MIDI-CI: `prefs:root=DEVELOPER_SETTINGS#MIDI_CI_API_BETA`
+- Dezvoltator → Activare MIDI-CI: `prefs:root=DEVELOPER_SETTINGS#MIDI_CI_API_BETA_ENABLE`
+- Dezvoltator → Detectare blocaje: `prefs:root=DEVELOPER_SETTINGS#HANGTRACER_EXTERNAL_CONFIGURE`
+- Cod de acces | Face ID și cod de acces | Touch ID și cod de acces: `prefs:root=PASSCODE`
+- Cod de acces | Face ID și cod de acces | Touch ID și cod de acces → Dezactivați codul de acces: `prefs:root=PASSCODE#PASSCODE_OFF`
+- Cod de acces | Face ID și cod de acces | Touch ID și cod de acces → Schimbați codul: `prefs:root=PASSCODE#CHANGE_PASSCODE`
+- Cod de acces | Face ID și cod de acces | Touch ID și cod de acces → Solicitare cod acces: `prefs:root=PASSCODE&path=PASSCODE_REQ`
+- Cod de acces | Face ID și cod de acces | Touch ID și cod de acces → Apelare vocală: `prefs:root=PASSCODE#VOICE_DIAL`
+- Cod de acces | Face ID și cod de acces | Touch ID și cod de acces → Acces în ecranul de blocare: `prefs:root=PASSCODE#ALLOW_ACCESS_WHEN_LOCKED`
+- Cod de acces | Face ID și cod de acces | Touch ID și cod de acces → Răspuns cu mesaj: `prefs:root=PASSCODE#REPLY_WITH_MESSAGE_SWITCH`
+- Cod de acces | Face ID și cod de acces | Touch ID și cod de acces → Control Locuință: `prefs:root=PASSCODE#HOME_CONTROL_SWITCH`
+- Cod de acces | Face ID și cod de acces | Touch ID și cod de acces → Portofel: `prefs:root=PASSCODE#WALLET_SWITCH`
+- Cod de acces | Face ID și cod de acces | Touch ID și cod de acces → Returnare apeluri ratate: `prefs:root=PASSCODE#RETURN_MISSED_CALLS_SWITCH`
+- Cod de acces | Face ID și cod de acces | Touch ID și cod de acces → Ștergere date: `prefs:root=PASSCODE#WIPE_DEVICE`
+- Cod de acces | Face ID și cod de acces | Touch ID și cod de acces → Deblocare cu Apple Watch‑ul: `prefs:root=PASSCODE#AUTO_UNLOCK_DEVICES_GROUP`
+- Cod de acces | Face ID și cod de acces | Touch ID și cod de acces → Protecție dispozitiv furat: `prefs:root=PASSCODE#DTO_GROUP_ID`
+- Telefon: `prefs:root=Phone`
+- Telefon → Numărul dvs.: `prefs:root=Phone&path=My%20Number`
+- Telefon → Apeluri recepționate: `prefs:root=Phone&path=INCOMING_CALL_STYLE`
+- Telefon → Anunțare apeluri: `prefs:root=Phone&path=ANNOUNCE_CALLS`
+- Telefon → Raportare SMS/Apel: `prefs:root=Phone&path=CLASSIFICATION_AND_REPORTING`
+- Telefon → Răspuns prin mesaj: `prefs:root=Phone&path=Respond%20with%20Text`
+- Telefon → Redirecționare apel: `prefs:root=Phone&path=Call%20Forwarding`
+- Telefon → Redirecționare apel → Redirecționare apel: `prefs:root=Phone&path=Call%20Forwarding#idMasterOnOffSwitch`
+- Telefon → Apel în așteptare: `prefs:root=Phone&path=Call%20Waiting`
+- Telefon → Afișare nr. propriu: `prefs:root=Phone&path=Show%20My%20Caller%20ID`
+- Telefon → Afișare nr. propriu → Afișare nr. propriu: `prefs:root=Phone&path=Show%20My%20Caller%20ID/Primary`
+- Telefon → Afișare nr. propriu → Afișare nr. propriu → Afișare nr. propriu: `prefs:root=Phone&path=Show%20My%20Caller%20ID/Primary#Show%20My%20Caller%20ID`
+- Telefon → Ignorare apeluri necunoscuți: `prefs:root=Phone#SILENCE_CALLS`
+- Telefon → Contacte blocate: `prefs:root=Phone&path=SPECIFIER_IDENTIFIER_BLACKLIST`
+- Telefon → Asistență apelare: `prefs:root=Phone&path=Dial%20Assist`
+- Notițe: `prefs:root=NOTES` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes`
+- Notițe → Cont implicit: `prefs:root=NOTES&path=Default%20Account` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes/Default%20Account`
+- Notițe → Parolă: `prefs:root=NOTES&path=Password` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes/Password`
+- Notițe → Sortare notițe după: `prefs:root=NOTES&path=Sort%20Notes%20By` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes/Sort%20Notes%20By`
+- Notițe → Notițele noi încep cu: `prefs:root=NOTES&path=New%20Notes%20Start%20With` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes/New%20Notes%20Start%20With`
+- Notițe → Sortare articole bifate: `prefs:root=NOTES&path=Sort%20Checked%20Items` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes/Sort%20Checked%20Items`
+- Notițe → Linii și caroiaje: `prefs:root=NOTES&path=Lines%20%26%20Grids` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes/Lines%20%26%20Grids`
+- Notițe → Salvați în Poze: `prefs:root=NOTES#Save%20to%20Photos` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes#Save%20to%20Photos#Save%20to%20Photos`
+- Notițe → Acces notițe din ecranul de blocare: `prefs:root=NOTES&path=Access%20Notes%20from%20Lock%20Screen` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes/Access%20Notes%20from%20Lock%20Screen`
+- Cărți: `prefs:root=IBOOKS`
+- Cărți → Conținut online: `prefs:root=IBOOKS#BKAllowOnlineContent`
+- Cărți → SINCRONIZARE: `prefs:root=IBOOKS#SYNCING`
+- Cărți → Citite acum: `prefs:root=IBOOKS#BKLibrary.ReadingNow`
+- Cărți → iCloud Drive: `prefs:root=IBOOKS#BCSyncICloudDrive`
+- Cărți → CITIRE: `prefs:root=IBOOKS#READING`
+- Cărți → Aliniere stânga-dreapta: `prefs:root=IBOOKS#BKFullJustification`
+- Cărți → Auto-silabisire: `prefs:root=IBOOKS#BKAutoHyphenation`
+- Cărți → Avansare cu ambele margini: `prefs:root=IBOOKS#BKLeftTapTurnToNext`
+- Cărți → Obiective de lectură: `prefs:root=IBOOKS#READING_GOALS`
+- Cărți → Degajați datele obiectivelor de lectură: `prefs:root=IBOOKS#BKReadingGoalsShouldClearDataKey`
+- Cărți → CĂUTARE: `prefs:root=IBOOKS#SEARCHING`
+- Cărți → Book Store: `prefs:root=IBOOKS#BKIncludeBookStoreResultsInSearch`
+- Cărți → CĂRȚI AUDIO: `prefs:root=IBOOKS#AUDIOBOOKS`
+- Cărți → Salt înainte: `prefs:root=IBOOKS&path=BKAudioBookSkipForward`
+- Cărți → Salt înapoi: `prefs:root=IBOOKS&path=BKAudioBookSkipBackward`
+- Cărți → COMENZI EXTERNE: `prefs:root=IBOOKS#BKRemoteSkipInsteadOfNextTrackDefaultKey`
+- Cărți → Următor/anterior: `prefs:root=IBOOKS#Next/Previous`
+- Cărți → Salt înainte/înapoi: `prefs:root=IBOOKS#Skip%20Forward/Back`
+- Cărți → INTIMITATE: `prefs:root=IBOOKS#PRIVACY`
+- Cărți → Resetați identificatorul: `prefs:root=IBOOKS#BAResetAnalyticsUserID`
+- Cărți → Recunoașteri: `prefs:root=IBOOKS&path=Acknowledgements`
+- Game Center: `prefs:root=GAMECENTER`
+- S.O.S. urgențe: `prefs:root=EMERGENCY_SOS`
+- S.O.S. urgențe → Apelare cu butonul lateral: `prefs:root=EMERGENCY_SOS#CALL_WITH_SIDE_BUTTON`
+- S.O.S. urgențe → Apelare automată: `prefs:root=EMERGENCY_SOS#AUTO_CALL`
+- S.O.S. urgențe → Contacte pentru urgențe: `prefs:root=EMERGENCY_SOS#EMERGENCY_CONTACTS`
+- S.O.S. urgențe → Sunet numărătoare inversă: `prefs:root=EMERGENCY_SOS#ALARM_SOUND_SWITCH`
+- Mementouri: `prefs:root=REMINDERS`
+- Mementouri → Listă implicită: `prefs:root=REMINDERS&path=DEFAULT_LIST`
+- Mementouri → Listă implicită → Mementouri: `prefs:root=REMINDERS&path=DEFAULT_LIST#preferredDefaultListID`
+- Mementouri → Notificarea zilei: `prefs:root=REMINDERS#todayNotificationFireTime`
+- Mementouri → Afișare drept depășiri: `prefs:root=REMINDERS#showRemindersAsOverdue`
+- Conexiune celulară: `prefs:root=MOBILE_DATA_SETTINGS_ID`
+- Conexiune celulară → Opțiuni date: `prefs:root=MOBILE_DATA_SETTINGS_ID&path=CELLULAR_DATA_OPTIONS`
+- Conexiune celulară → Opțiuni date → Mod Trafic date redus: `prefs:root=MOBILE_DATA_SETTINGS_ID&path=CELLULAR_DATA_OPTIONS#Low%20Data%20Mode`
+- Conexiune celulară → Date celulare: `prefs:root=MOBILE_DATA_SETTINGS_ID&path=SHOW_ALL`
+- WLAN | Wi‑Fi: `prefs:root=WIFI`
+- Contacte: `prefs:root=CONTACTS`
+- Contacte → Permiteți accesul aplicației Contacte: `prefs:root=CONTACTS#Allow%20Contacts%20To%20Access`
+- Contacte → Siri: `prefs:root=CONTACTS&path=SIRI_AND_SEARCH`
+- Contacte → Ordine sortare: `prefs:root=CONTACTS&path=ContactsSortOrder`
+- Contacte → Ordine afișare: `prefs:root=CONTACTS&path=PersonNameOrder`
+- Contacte → Nume scurt: `prefs:root=CONTACTS&path=PersonShortName`
+- Contacte → Nume scurt → Nume scurt: `prefs:root=CONTACTS&path=PersonShortName#Short%20Name`
+- Contacte → Nume scurt → Preferați pseudonimele: `prefs:root=CONTACTS&path=PersonShortName#Prefer%20Nicknames`
+- Contacte → Informațiile dvs.: `prefs:root=CONTACTS&path=MeCard`
+- Contacte → Importați contacte SIM: `prefs:root=CONTACTS#SIMImport`
+- Scurtături: `prefs:root=SHORTCUTS`
+- Scurtături → Sincronizare iCloud: `prefs:root=SHORTCUTS#WFCloudKitSyncEnabled`
+- Scurtături → Sincronizare ordine scurtături: `prefs:root=SHORTCUTS#WFCloudKitSyncOrderEnabled`
+- Scurtături → Mențiuni legale: `prefs:root=SHORTCUTS&path=Legal%20Notices`
+- TV | Videoclipuri: `prefs:root=TVAPP`
+- TV | Videoclipuri → Utilizare date celulare pentru redare: `prefs:root=TVAPP#com.apple.videos%3AVideosUseCellularDataEnabledSetting`
+- TV | Videoclipuri → Calitate redare: `prefs:root=TVAPP#com.apple.videos%3APlaybackQualityGroup`
+- TV | Videoclipuri → Achiziții și închirieri: `prefs:root=TVAPP&path=com.apple.videos%3APreferredPurchaseResolution`
+- TV | Videoclipuri → Partajare casnică: `prefs:root=TVAPP#com.apple.videos%3AHomeSharingFooter`
+- Muzică: `prefs:root=MUSIC`
+- Muzică → Afișare Apple Music: `prefs:root=MUSIC#com.apple.Music%3AAppleMusicEnabled`
+- Muzică → Adăugare melodii din liste de redare: `prefs:root=MUSIC#com.apple.Music%3AAddPlaylistSongsToMyMusicSwitch`
+- Muzică → Afișare evaluări cu stele: `prefs:root=MUSIC#com.apple.Music%3AShowStarRatings`
+- Muzică → Sincronizare bibliotecă: `prefs:root=MUSIC#com.apple.Music%3ACloudMusicLibraryEnabled`
+- Muzică → Date celulare: `prefs:root=MUSIC&path=com.apple.Music%3ACellularData`
+- Muzică → Muzică descărcată: `prefs:root=MUSIC&path=com.apple.Music%3AMusicUsageLink`
+- Muzică → Optimizare stocare: `prefs:root=MUSIC&path=com.apple.Music%3AOptimizeStorage`
+- Muzică → Descărcări automate: `prefs:root=MUSIC#com.apple.Music%3AMusicAutomaticDownload`
+- Muzică → Egalizor: `prefs:root=MUSIC&path=com.apple.Music%3AEQ`
+- Muzică → Ajustare volum: `prefs:root=MUSIC#com.apple.Music%3ASoundCheck`
+- Muzică → Utilizare istoric de ascultare: `prefs:root=MUSIC#com.apple.Music%3APrivateListening`
+- Cameră: `prefs:root=CAMERA`
+- Cameră → Formate: `prefs:root=CAMERA&path=CameraFormatsSettingsList`
+- Cameră → Formate → Apple ProRaw: `prefs:root=CAMERA&path=CameraFormatsSettingsList#CAMUserPreferenceEnableLinearDNGControl`
+- Cameră → Record Video: `prefs:root=CAMERA&path=Record%20Video`
+- Cameră → Record Video → Video HDR: `prefs:root=CAMERA&path=Record%20Video#HDR%20Video`
+- Cameră → Menținere configurări: `prefs:root=CAMERA&path=CameraPreserveSettingsSwitch`
+- Cameră → Menținere configurări → Mod cameră: `prefs:root=CAMERA&path=CameraPreserveSettingsSwitch#CAMUserPreferencePreserveCaptureMode`
+- Cameră → Grilă: `prefs:root=CAMERA#CameraGridSwitch`
+- Cameră → Scanați coduri QR: `prefs:root=CAMERA#CameraQRBannerSwitch`
+- Busolă: `prefs:root=COMPASS`
+- Busolă → Utilizare nord geografic: `prefs:root=COMPASS#USE_TRUE_NORTH`
+- Notificări de expunere: `prefs:root=EXPOSURE_NOTIFICATION`
+- Mail: `prefs:root=MAIL`
+- Mail → Conturi: `prefs:root=MAIL&path=ACCOUNTS`
+- Mail → Conturi → Adăugați un cont: `prefs:root=MAIL&path=ACCOUNTS#ADD_ACCOUNT`
+- Mail → Conturi → Preluare date noi: `prefs:root=MAIL&path=ACCOUNTS#FETCH_NEW_DATA`
+- Mail → Previzualizare: `prefs:root=MAIL&path=Preview`
+- Mail → Etichetă Către/Cc: `prefs:root=MAIL#Show%20To/Cc%20Labels`
+- Mail → Opțiuni glisare: `prefs:root=MAIL&path=Swipe%20Options`
+- Mail → Confirmare ștergere: `prefs:root=MAIL#Ask%20Before%20Deleting`
+- Mail → Încărcare imagini externe: `prefs:root=MAIL#Load%20Remote%20Images`
+- Mail → Organizare în conversații: `prefs:root=MAIL#Organize%20by%20Thread`
+- Mail → Restrângere mesaje citite: `prefs:root=MAIL#Collapse%20Read%20Messages`
+- Mail → Mesajul mai recent deasupra: `prefs:root=MAIL#Most%20Recent%20Message%20on%20Top`
+- Mail → Completare conversații: `prefs:root=MAIL#Complete%20Threads`
+- Mail → Acțiune conversație ignorată: `prefs:root=MAIL&path=Muted%20Thread%20Action`
+- Mail → Ignorare expeditori blocați: `prefs:root=MAIL#Ignore%20Blocked%20Senders`
+- Mail → Opțiuni expeditori blocați: `prefs:root=MAIL&path=Blocked%20Sender%20Options`
+- Mail → Blocate: `prefs:root=MAIL&path=Blocked`
+- Mail → Fiți mereu în Bcc: `prefs:root=MAIL#Always%20Bcc%20Myself`
+- Mail → Marcare adrese: `prefs:root=MAIL&path=Mark%20Addresses`
+- Mail → Mărire nivel citare: `prefs:root=MAIL&path=Increase%20Quote%20Level`
+- Mail → Fișiere atașate în răspunsuri: `prefs:root=MAIL&path=Include%20Attachments%20with%20Replies`
+- Mail → Semnătură: `prefs:root=MAIL&path=Signature`
+- Bluetooth: `prefs:root=Bluetooth`
+- News: `prefs:root=NEWS`
+- News → Afișare previzualizări articole: `prefs:root=NEWS#show_excerpt_mode`
+- News → Restricționare articole în Informațiile zilei: `prefs:root=NEWS#showStoriesFromFavoritesSpecifierID`
+- News → Intimitate: `prefs:root=NEWS#Privacy`
+- News → Resetați identificatorul: `prefs:root=NEWS#reset_identifier`
+- News → Recunoașteri: `prefs:root=NEWS&path=Acknowledgements`
+- Poze: `prefs:root=Photos`
+- Poze → Poze iCloud: `prefs:root=Photos#iCloudPhotosSwitch`
+- Poze → Optimizare stocare: `prefs:root=Photos#iCloudOptimizeStorageOption`
+- Poze → Descărcare și păstrare originale: `prefs:root=Photos#iCloudKeepOriginalsOption`
+- Poze → Albume partajate: `prefs:root=Photos#SharedStreamsSwitch`
+- Poze → Date celulare: `prefs:root=Photos&path=CellularDataLinkList`
+- Poze → Redare automată clipuri video: `prefs:root=Photos#VideoAutoplaySwitch`
+- Poze → Afișare HDR completă: `prefs:root=Photos#ImageModulationSwitch`
+- Poze → Afișare sărbători: `prefs:root=Photos#MEMORIES_HOLIDAY_CALENDAR_EVENTS_SWITCH`
+- Poze → Transfer pe Mac sau PC: `prefs:root=Photos#TransferGroup`
+- Podcasturi: `prefs:root=PODCASTS`
+- Intimitate și securitate: `prefs:root=Privacy` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity`
+- Intimitate și securitate → Sănătate: `prefs:root=Privacy&path=HEALTH` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/HEALTH`
+- Intimitate și securitate → Date Sănătate: `prefs:root=Privacy&path=HEALTH_DATA` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/HEALTH_DATA`
+- Intimitate și securitate → Localizare: `prefs:root=Privacy&path=LOCATION` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/LOCATION`
+- Intimitate și securitate → Localizare → Partajați localizarea: `prefs:root=Privacy&path=LOCATION/LOCATION_SHARING` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/LOCATION/LOCATION_SHARING`
+- Intimitate și securitate → Contacte: `prefs:root=Privacy&path=CONTACTS` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/CONTACTS`
+- Intimitate și securitate → Calendare: `prefs:root=Privacy&path=CALENDARS` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/CALENDARS`
+- Intimitate și securitate → Mementouri: `prefs:root=Privacy&path=REMINDERS` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/REMINDERS`
+- Intimitate și securitate → Poze: `prefs:root=Privacy&path=PHOTOS` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/PHOTOS`
+- Intimitate și securitate → Partajare Bluetooth: `prefs:root=Privacy&path=BT_PERIPHERAL` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/BT_PERIPHERAL`
+- Intimitate și securitate → Microfon: `prefs:root=Privacy&path=MICROPHONE` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/MICROPHONE`
+- Intimitate și securitate → Recunoaștere vocală: `prefs:root=Privacy&path=SPEECH_RECOGNITION` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/SPEECH_RECOGNITION`
+- Intimitate și securitate → Cameră: `prefs:root=Privacy&path=CAMERA` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/CAMERA`
+- Intimitate și securitate → HomeKit: `prefs:root=Privacy&path=WILLOW` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/WILLOW`
+- Intimitate și securitate → Multimedia și Apple Music: `prefs:root=Privacy&path=MEDIALIBRARY` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/MEDIALIBRARY`
+- Intimitate și securitate → Analiză: `prefs:root=Privacy&path=PROBLEM_REPORTING` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/PROBLEM_REPORTING`
+- Intimitate și securitate → Publicitate: `prefs:root=Privacy&path=ADVERTISING` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/ADVERTISING`
+- Intimitate și securitate → Fișiere și dosare: `prefs:root=Privacy&path=FILEACCESS` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/FILEACCESS`
+- Intimitate și securitate → Urmărire: `prefs:root=Privacy&path=USER_TRACKING` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/USER_TRACKING`
+- Intimitate și securitate → Raport de confidențialitate a aplicațiilor: `prefs:root=Privacy&path=PRIVACY_REPORT` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/PRIVACY_REPORT`
+- Intimitate și securitate → Mod Izolare: `prefs:root=Privacy#LOCKDOWN_MODE` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity#LOCKDOWN_MODE#LOCKDOWN_MODE`
+- Intimitate și securitate → Conținut sensibil: `prefs:root=Privacy#NUDITY_DETECTION` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity#NUDITY_DETECTION#NUDITY_DETECTION`
+- FaceTime: `prefs:root=FACETIME`
+- Timp de utilizare: `prefs:root=SCREEN_TIME`
+- Sunete | Sunete și răspuns haptic: `prefs:root=Sounds`
+- Sunete | Sunete și răspuns haptic → Siguranța căștilor audio: `prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING`
+- Sunete | Sunete și răspuns haptic → Siguranța căștilor audio → Adaptoare Lightning: `prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING/HEADPHONE_LIGHTNING_ADAPTERS`
+- Sunete | Sunete și răspuns haptic → Siguranța căștilor audio → Notificări căști audio: `prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING#SHSHeadphoneWeeklyNotificationsKey`
+- Sunete | Sunete și răspuns haptic → Siguranța căștilor audio → Reducere sunet puternic: `prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING#SHSHeadphoneLevelLimitSwitchKey`
+- Sunete | Sunete și răspuns haptic → Efecte sonore: `prefs:root=Sounds&path=SOUND_EFFECTS`
+- Sunete | Sunete și răspuns haptic → Sonerie și alerte: `prefs:root=Sounds#RINGER_AND_ALERT_GROUP`
+- Sunete | Sunete și răspuns haptic → Ajustare din butoane: `prefs:root=Sounds#CHANGE_WITH_BUTTONS`
+- Sunete | Sunete și răspuns haptic → Sunete și modele de vibrație: `prefs:root=Sounds#SOUNDS_ALERT_GROUP`
+- Sunete | Sunete și răspuns haptic → Sonerie: `prefs:root=Sounds&path=Ringtone`
+- Sunete | Sunete și răspuns haptic → Ton mesaj: `prefs:root=Sounds&path=Text_Messages`
+- Sunete | Sunete și răspuns haptic → Mesaj vocal nou: `prefs:root=Sounds&path=Voicemail`
+- Sunete | Sunete și răspuns haptic → E‑mail primit: `prefs:root=Sounds&path=NEW_MAIL`
+- Sunete | Sunete și răspuns haptic → E‑mail trimis: `prefs:root=Sounds&path=SENT_MAIL`
+- Sunete | Sunete și răspuns haptic → Alarme calendar: `prefs:root=Sounds&path=Calendar%20Alarm`
+- Sunete | Sunete și răspuns haptic → Alerte mementouri: `prefs:root=Sounds&path=Reminder%20Alerts`
+- Sunete | Sunete și răspuns haptic → Clicuri taste: `prefs:root=Sounds#KEYBOARD_SOUND_SWITCH`
+- Sunete | Sunete și răspuns haptic → Sunet blocare: `prefs:root=Sounds#LOCK_SOUND_SWITCH`
+- Sunete | Sunete și răspuns haptic → Audio spațial personalizat: `prefs:root=Sounds&path=Personalized%20Spatial%20Audio`
+- Apple Pencil: `prefs:root=Pencil`
+- Apple Pencil → Apple Pencil: `prefs:root=Pencil#PrefersPencilDraws`
+- Apple Pencil → Apple Pencil: `prefs:root=Pencil#PencilTextInput`
+- Mesaje: `prefs:root=MESSAGES`
+- Bursa: `prefs:root=STOCKS`
+- Bursa → Intimitate: `prefs:root=STOCKS#Privacy`
+- Bursa → Resetați identificatorul: `prefs:root=STOCKS#reset_identifier`
+- Traducere: `prefs:root=TRANSLATE`
+- Traducere → Mod Pe dispozitiv: `prefs:root=TRANSLATE#OnDeviceOnly`
+- Siri: `prefs:root=SIRI`
+- Siri → Acces Siri în timpul blocării: `prefs:root=SIRI#ASSISTANT_LOCK_SCREEN_ACCESS`
+- Siri → Limbă: `prefs:root=SIRI&path=LANGUAGE_ID`
+- Siri → Voce Siri: `prefs:root=SIRI&path=VOICE_ID`
+- Siri → Feedback vocal: `prefs:root=SIRI&path=VOICE_FEEDBACK_ID`
+- Siri → Informațiile dvs.: `prefs:root=SIRI&path=MY_INFO`
+- Date Sănătate | Sănătate: `prefs:root=HEALTH`
+- App Store: `prefs:root=STORE`
+- App Store → Descărcări automate: `prefs:root=STORE#Automatic%20Downloads`
+- App Store → Actualizări aplicații: `prefs:root=STORE#App%20Updates`
+- App Store → Descărcări aplicații: `prefs:root=STORE&path=App%20Downloads`
+- App Store → Redare video automată: `prefs:root=STORE&path=Video%20Autoplay`
+- App Store → Evaluări și recenzii în aplicație: `prefs:root=STORE#In-App%20Ratings%20&%20Reviews`
+- Mod Avion: `prefs:root=ROOT#AIRPLANE_MODE`

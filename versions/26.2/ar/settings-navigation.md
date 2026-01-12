@@ -1,0 +1,14 @@
+- الخصوصية والأمن: `settings-navigation://com.apple.Settings.PrivacyAndSecurity`
+- الخصوصية والأمن → التحقق من الأمان: `settings-navigation://com.apple.Settings.PrivacyAndSecurity/SAFETY_CHECK`
+- Apps: `settings-navigation://com.apple.Settings.Apps`
+- Apps → سفاري: `settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari/` or `prefs:root=SAFARI`
+- Apps → سفاري → الملحقات: `settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari/WEB_EXTENSIONS` or `prefs:root=SAFARI&path=WEB_EXTENSIONS`
+- Apps → سفاري → منع الإطارات المُنبثقة: `settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari#BLOCK_POPUPS`
+- Apps → سفاري → منع التتبع أثناء تصفح المواقع: `settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari#TRACKER_PROTECTION`
+- Apps → سفاري → التعبئة التلقائية: `settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari/AUTO_FILL` or `prefs:root=SAFARI&path=AUTO_FILL`
+- Apps → سفاري → التنزيلات: `settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari/DOWNLOADS` or `prefs:root=SAFARI&path=DOWNLOADS`
+- Apps → كلمات السر: `settings-navigation://com.apple.Settings.Apps/com.apple.Passwords`
+- Apps → كلمات السر → توصيات الأمن: `settings-navigation://com.apple.Settings.Apps/com.apple.Passwords#SECURITY_RECOMMENDATIONS`
+- المنزل: `settings-navigation://com.apple.Settings.HomeKit`
+- Search: `settings-navigation://com.apple.Settings.Search`
+- مزود خدمة التلفزيون: `settings-navigation://com.apple.Settings.TVProvider`

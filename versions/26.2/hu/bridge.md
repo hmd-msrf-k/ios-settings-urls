@@ -1,0 +1,518 @@
+- Véroxigén: `bridge:root=com.apple.OxygenSaturationSettings`
+- Kézmosás: `bridge:root=com.apple.BrookBridgeSettings`
+- Kézmosás → Értesítések engedélyezése: `bridge:root=com.apple.BrookBridgeSettings#ALLOW_NOTIFICATIONS_ID`
+- Kézmosás → Küldés az Értesítési központba: `bridge:root=com.apple.BrookBridgeSettings#SEND_TO_NOTIFICATION_CENTER_ID`
+- Kézmosás → Értesítések kikapcsolva: `bridge:root=com.apple.BrookBridgeSettings#NOTIFICATIONS_OFF_ID`
+- Kézmosás → Értesítések csoportosítása: `bridge:root=com.apple.BrookBridgeSettings&path=NOTIFICATION_COALESCING_ID`
+- Kézmosás → Kézmosási időzítő: `bridge:root=com.apple.BrookBridgeSettings#HANDWASHING_TIMER_ID`
+- Kijelző és fényerő: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID`
+- Kijelző és fényerő → Ébrenlét időtartama: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=WAKE_DURATION_SELECTION_KEY`
+- Kijelző és fényerő → Ébrenlét időtartama → KOPPINTÁSRA: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=WAKE_DURATION_SELECTION_KEY#ON_TAP_GROUP_ID`
+- Kijelző és fényerő → Ébrenlét időtartama → Felébresztés 15 másodpercre: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=WAKE_DURATION_SELECTION_KEY#SHORT_WAKE_ID`
+- Kijelző és fényerő → Ébrenlét időtartama → Felébresztés 70 másodpercre: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=WAKE_DURATION_SELECTION_KEY#LONG_WAKE_ID`
+- Kijelző és fényerő → Fényerő: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID#BRIGHTNESS_LABEL`
+- Kijelző és fényerő → Állandó megjelenítés: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID`
+- Kijelző és fényerő → Állandó megjelenítés → Állandó megjelenítés: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID#TRITIUM_ID`
+- Kijelző és fényerő → Állandó megjelenítés → LEENGEDETT CSUKLÓ: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID#TRITIUM_PRIVACY_GROUP_ID`
+- Kijelző és fényerő → Állandó megjelenítés → Élő tevékenységek megjelenítése: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_LIVE_ACTIVITIES_ID`
+- Kijelző és fényerő → Állandó megjelenítés → Élő tevékenységek megjelenítése → Élő tevékenységek megjelenítése: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_LIVE_ACTIVITIES_ID#APP_BACKLIGHT_PRIVACY_GLOBAL_APP`
+- Kijelző és fényerő → Állandó megjelenítés → Appok megjelenítése: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_APPS_ID`
+- Kijelző és fényerő → Állandó megjelenítés → Appok megjelenítése → Appok megjelenítése: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_APPS_ID#APP_BACKLIGHT_PRIVACY_GLOBAL_APP`
+- Kijelző és fényerő → Állandó megjelenítés → Appok megjelenítése → APPOK: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_APPS_ID#APP_GROUP_ID`
+- Kijelző és fényerő → Állandó megjelenítés → Appok megjelenítése → App Store: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_APPS_ID#com.apple.AppStore`
+- Kijelző és fényerő → Állandó megjelenítés → Appok megjelenítése → Nike Run Club: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_APPS_ID#com.nike.nikeplus-gps.watchkitapp`
+- Kijelző és fényerő → Állandó megjelenítés → Appok megjelenítése → Telefon: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_APPS_ID#com.apple.NanoPhone`
+- Kijelző és fényerő → Állandó megjelenítés → Appok megjelenítése → Fotók: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_APPS_ID#com.apple.NanoPhotos`
+- Kijelző és fényerő → Állandó megjelenítés → Appok megjelenítése → Beállítások: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_APPS_ID#com.apple.NanoSettings`
+- Kijelző és fényerő → Állandó megjelenítés → Appok megjelenítése → Tap-to-Radar: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_APPS_ID#com.apple.NanoTapToRadar`
+- Kijelző és fényerő → Állandó megjelenítés → Értesítések megjelenítése: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID`
+- Kijelző és fényerő → Állandó megjelenítés → Értesítések megjelenítése → Értesítések megjelenítése: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#APP_BACKLIGHT_PRIVACY_GLOBAL_APP`
+- Kijelző és fényerő → Állandó megjelenítés → Értesítések megjelenítése → APPLE WATCH-APPOK | IPHONE-APPOK: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#APP_GROUP_ID`
+- Kijelző és fényerő → Állandó megjelenítés → Értesítések megjelenítése → App Store: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.AppStore`
+- Kijelző és fényerő → Állandó megjelenítés → Értesítések megjelenítése → Nike Run Club: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.nike.nikeplus-gps.watchkitapp`
+- Kijelző és fényerő → Állandó megjelenítés → Értesítések megjelenítése → Telefon: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.NanoPhone`
+- Kijelző és fényerő → Állandó megjelenítés → Értesítések megjelenítése → Fotók: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.NanoPhotos`
+- Kijelző és fényerő → Állandó megjelenítés → Értesítések megjelenítése → Beállítások: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.NanoSettings`
+- Kijelző és fényerő → Állandó megjelenítés → Értesítések megjelenítése → Tap-to-Radar: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.NanoTapToRadar`
+- Kijelző és fényerő → Állandó megjelenítés → Értesítések megjelenítése → Kisegítő lehetőségek beállításai: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.accessibility.TeachableMomentsNotifications`
+- Kijelző és fényerő → Állandó megjelenítés → Értesítések megjelenítése → Könyvek: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.iBooks`
+- Kijelző és fényerő → Állandó megjelenítés → Értesítések megjelenítése → Caffè Macs: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.ist.CaffeMacsApp`
+- Kijelző és fényerő → Állandó megjelenítés → Értesítések megjelenítése → Naptár: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.mobilecal`
+- Kijelző és fényerő → Állandó megjelenítés → Értesítések megjelenítése → Kamera: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.camera`
+- Kijelző és fényerő → Állandó megjelenítés → Értesítések megjelenítése → Kapcsolódás: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.ist.AppleConnect`
+- Kijelző és fényerő → Állandó megjelenítés → Értesítések megjelenítése → Diagnosztikajelentő: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.DiagnosticsReporter`
+- Kijelző és fényerő → Állandó megjelenítés → Értesítések megjelenítése → Belső visszajelzés: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.FeedbackInternal`
+- Kijelző és fényerő → Állandó megjelenítés → Értesítések megjelenítése → Fitnesz: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.Fitness`
+- Kijelző és fényerő → Állandó megjelenítés → Értesítések megjelenítése → Game Center: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.gamecenter`
+- Kijelző és fényerő → Állandó megjelenítés → Értesítések megjelenítése → Egészség: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.Health`
+- Kijelző és fényerő → Állandó megjelenítés → Értesítések megjelenítése → Livability: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.Livability`
+- Kijelző és fényerő → Állandó megjelenítés → Értesítések megjelenítése → Mail: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.mobilemail`
+- Kijelző és fényerő → Állandó megjelenítés → Értesítések megjelenítése → Üzenetek: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.MobileSMS`
+- Kijelző és fényerő → Állandó megjelenítés → Értesítések megjelenítése → Önkiszolgáló: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.jamfsoftware.selfservice`
+- Kijelző és fényerő → Állandó megjelenítés → Értesítések megjelenítése → Követési értesítések: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.FindMySafetyAlertsNotifications`
+- Kijelző és fényerő → Állandó megjelenítés → Értesítések megjelenítése → Időjárás: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.weather`
+- Kijelző és fényerő → Állandó megjelenítés → Komp­li­ká­ci­ó­a­da­tok meg­je­le­ní­té­se: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_COMPLICATIONS_DATA_ID`
+- Kijelző és fényerő → Állandó megjelenítés → Komp­li­ká­ci­ó­a­da­tok meg­je­le­ní­té­se → Komplikáció adatainak megjelenítése: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_COMPLICATIONS_DATA_ID#Show%20Complication%20Data`
+- Kijelző és fényerő → Állandó megjelenítés → Komp­li­ká­ci­ó­a­da­tok meg­je­le­ní­té­se → Appok: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_COMPLICATIONS_DATA_ID#Apps`
+- Kijelző és fényerő → Állandó megjelenítés → Komp­li­ká­ci­ó­a­da­tok meg­je­le­ní­té­se → Betöltés…: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_COMPLICATIONS_DATA_ID#Loading%E2%80%A6`
+- Kijelző és fényerő → Állandó megjelenítés → Komp­li­ká­ci­ó­a­da­tok meg­je­le­ní­té­se → Siri: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_COMPLICATIONS_DATA_ID#Siri`
+- Kijelző és fényerő → Állandó megjelenítés → Komp­li­ká­ci­ó­a­da­tok meg­je­le­ní­té­se → Siri-kártyák: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_COMPLICATIONS_DATA_ID#Siri%20Cards`
+- Kijelző és fényerő → Szövegméret: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID#TEXT_SIZE`
+- Kijelző és fényerő → Félkövér szöveg: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID#BOLD_TEXT`
+- Kijelző és fényerő → Felébresztés: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID#Wake`
+- Kijelző és fényerő → Felébresztés a csukló emelésekor: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID#WAKE_SCREEN_ON_WRIST_RAISE_SWITCH_ID`
+- Kijelző és fényerő → Felébresztés a Crown elforgatásakor: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID#WAKE_SCREEN_ON_CROWN_UP_SWITCH_ID`
+- Fotók: `bridge:root=com.apple.NanoPhotosBridgeSettings`
+- Fotók → Fotók szinkronizálása: `bridge:root=com.apple.NanoPhotosBridgeSettings#Photo%20Syncing`
+- Fotók → Emlékek: `bridge:root=com.apple.NanoPhotosBridgeSettings#Memories`
+- Fotók → Emlékek szinkronizálása: `bridge:root=com.apple.NanoPhotosBridgeSettings#Sync%20Memories`
+- Fotók → Kiemelt fotók: `bridge:root=com.apple.NanoPhotosBridgeSettings#Featured%20Photos`
+- Fotók → Kiemelt fotók szinkronizálása: `bridge:root=com.apple.NanoPhotosBridgeSettings#Sync%20Featured%20Photos`
+- Fotók → Album: `bridge:root=com.apple.NanoPhotosBridgeSettings#Album`
+- Fotók → Album szinkronizálása: `bridge:root=com.apple.NanoPhotosBridgeSettings&path=Sync%20Album`
+- Fotók → Fotók korlátja: `bridge:root=com.apple.NanoPhotosBridgeSettings&path=Photos%20Limit`
+- Fotók → Értesítésbeállítások: `bridge:root=com.apple.NanoPhotosBridgeSettings#MIRROR_RADIO_GROUP_ID`
+- Fotók → iPhone tükrözése: `bridge:root=com.apple.NanoPhotosBridgeSettings#MIRROR_MY_COMPANION_ID`
+- Fotók → Egyéni: `bridge:root=com.apple.NanoPhotosBridgeSettings#CUSTOM_ID`
+- Komplikációk: `bridge:root=COMPLICATIONS`
+- Vezérlőközpont: `bridge:root=CONTROL_CENTER_ID`
+- Vezérlőközpont → A Vezérlőközpont elrendezésének alaphelyzetbe állítása: `bridge:root=CONTROL_CENTER_ID#CONTROL_CENTER_RESET_ID`
+- Appnézet: `bridge:root=APP_VIEW_ID`
+- Általános: `bridge:root=GENERAL_LINK`
+- Általános → Névjegy: `bridge:root=GENERAL_LINK&path=ABOUT`
+- Általános → Névjegy → Név: `bridge:root=GENERAL_LINK&path=ABOUT/NAME_CELL_ID`
+- Általános → Névjegy → watchOS-verzió: `bridge:root=GENERAL_LINK&path=ABOUT#OS_VERSION_CELL_ID`
+- Általános → Névjegy → Modellnév: `bridge:root=GENERAL_LINK&path=ABOUT#DEVICE_MARKETING_NAME_CELL_ID`
+- Általános → Névjegy → Modell adatai: `bridge:root=GENERAL_LINK&path=ABOUT#DEVICE_DETAIL_CELL_ID`
+- Általános → Névjegy → Modellszám: `bridge:root=GENERAL_LINK&path=ABOUT#DEVICE_MODEL_CELL_ID`
+- Általános → Névjegy → Sorozatszám: `bridge:root=GENERAL_LINK&path=ABOUT#DEVICE_SERIAL_NUMBER_CELL_ID`
+- Általános → Névjegy → Dalok: `bridge:root=GENERAL_LINK&path=ABOUT#SONGS_CELL_ID`
+- Általános → Névjegy → Fotók: `bridge:root=GENERAL_LINK&path=ABOUT#PHOTOS_CELL_ID`
+- Általános → Névjegy → Alkalmazások: `bridge:root=GENERAL_LINK&path=ABOUT#APPLICATIONS_CELL_ID`
+- Általános → Névjegy → Kapacitás: `bridge:root=GENERAL_LINK&path=ABOUT#STORAGE_CAPACITY_CELL_ID`
+- Általános → Névjegy → Elérhető: `bridge:root=GENERAL_LINK&path=ABOUT#STORAGE_AVAILABLE_CELL_ID`
+- Általános → Névjegy → Szolgáltató: `bridge:root=GENERAL_LINK&path=ABOUT#CARRIER_CELL_ID`
+- Általános → Névjegy → Bluetooth: `bridge:root=GENERAL_LINK&path=ABOUT#DEVICE_BLUETOOTH_ADDRESS_CELL_ID`
+- Általános → Névjegy → IMEI: `bridge:root=GENERAL_LINK&path=ABOUT#IMEI_CELL_ID`
+- Általános → Névjegy → ICCID: `bridge:root=GENERAL_LINK&path=ABOUT#ICCID_CELL_ID`
+- Általános → Névjegy → EID: `bridge:root=GENERAL_LINK&path=ABOUT/EID_CELL_ID`
+- Általános → Névjegy → SEID: `bridge:root=GENERAL_LINK&path=ABOUT/DEVICE_SEID_CELL_ID`
+- Általános → Névjegy → Jogi információk: `bridge:root=GENERAL_LINK&path=ABOUT/LEGAL_CELL_ID`
+- Általános → Névjegy → Az Apple Watch használati útmutatója: `bridge:root=GENERAL_LINK&path=ABOUT#SHOW_MANUAL_CELL_ID`
+- Általános → Szoftverfrissítés: `bridge:root=GENERAL_LINK&path=SOFTWARE_UPDATE_LINK`
+- Általános → Automatikus apptelepítés: `bridge:root=GENERAL_LINK#AUTO_APP_INSTALL_SWITCH_ID`
+- Általános → Repülőgép mód: `bridge:root=GENERAL_LINK&path=AIRPLANE_MODE_ID`
+- Általános → Fókusz: `bridge:root=GENERAL_LINK&path=FOCUS_ID`
+- Általános → Fókusz → iPhone tükrözése: `bridge:root=GENERAL_LINK&path=FOCUS_ID#Mirror%20my%20iPhone`
+- Általános → Az Apple Watch helyzete: `bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION_ID`
+- Általános → Az Apple Watch helyzete → Az Apple Watch viselése: `bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION_ID#WRIST_CHOICE_ID`
+- Általános → Az Apple Watch helyzete → Bal csukló: `bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION_ID#LEFT_HAND_ID`
+- Általános → Az Apple Watch helyzete → Jobb csukló: `bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION_ID#RIGHT_HAND_ID`
+- Általános → Az Apple Watch helyzete → Digital Crown bal oldalon: `bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION_ID#LISA_ON_LEFT_ID`
+- Általános → Az Apple Watch helyzete → Digital Crown jobb oldalon: `bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION_ID#LISA_ON_RIGHT_ID`
+- Általános → Apple-fiók: `bridge:root=GENERAL_LINK&path=LINK_WITH_ICLOUD_LINK`
+- Általános → Diktálás engedélyezése: `bridge:root=GENERAL_LINK#DICTATION_CELL_ID`
+- Általános → Automatikus írásjelek: `bridge:root=GENERAL_LINK#DICTATION_AUTO_PUNCTUATION_CELL_ID`
+- Általános → Handoff engedélyezése: `bridge:root=GENERAL_LINK#CONTINUITY_ID`
+- Általános → Ébresztőóra mód: `bridge:root=GENERAL_LINK#NIGHTSTAND_CELL_ID`
+- Általános → Képernyőfotók engedélyezése: `bridge:root=GENERAL_LINK#BUTTON_CHORD_CELL_ID`
+- Általános → Energiatakarékos mód | Készenlét | Tárhely | Utolsó feltöltés óta eltelt idő: `bridge:root=GENERAL_LINK&path=USAGE_LINK`
+- Általános → Profil: `bridge:root=GENERAL_LINK&path=ManagedConfigurationList`
+- Általános → Diagnosztikai naplók: `bridge:root=GENERAL_LINK&path=DIAGNOSTIC_LOG_BROWSER`
+- Általános → Diagnosztikai naplók → Betöltés…: `bridge:root=GENERAL_LINK&path=DIAGNOSTIC_LOG_BROWSER#Loading%E2%80%A6`
+- Általános → A Watch elemzésének másolása: `bridge:root=GENERAL_LINK#LOGS_CELL_ID`
+- Általános → Alaphelyzetbe állítás: `bridge:root=GENERAL_LINK&path=RESET_ID`
+- Általános → VISSZATÉRÉS AZ ÓRÁHOZ: `bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK_ID`
+- Általános → VISSZATÉRÉS AZ ÓRÁHOZ → VISSZATÉRÉS AZ ÓRÁHOZ: `bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK_ID#CSLPRFReturnToClockGroupID`
+- Általános → VISSZATÉRÉS AZ ÓRÁHOZ → Mindig: `bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK_ID#RETURN_TO_CLOCK_ALWAYS`
+- Általános → VISSZATÉRÉS AZ ÓRÁHOZ → 2 perc után: `bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK_ID#RETURN_TO_CLOCK_AFTER_2_MINUTES`
+- Általános → VISSZATÉRÉS AZ ÓRÁHOZ → 1 óra után: `bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK_ID#RETURN_TO_CLOCK_AFTER_1_HOUR`
+- Általános → VISSZATÉRÉS AZ ÓRÁHOZ → APPOK: `bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK_ID#APP_GROUP_ID`
+- Általános → Appfrissítés a háttérben: `bridge:root=GENERAL_LINK&path=BAR_ROW_ID`
+- Általános → Appfrissítés a háttérben → Appfrissítés a háttérben: `bridge:root=GENERAL_LINK&path=BAR_ROW_ID#BACKGROUND_APP_UPDATING_CELL_ID`
+- Általános → Nyelv és régió: `bridge:root=GENERAL_LINK&path=LANGUAGE_AND_REGION_ID`
+- Általános → Nyelv és régió → iPhone tükrözése: `bridge:root=GENERAL_LINK&path=LANGUAGE_AND_REGION_ID#MIRROR_MY_COMPANION_ID`
+- Általános → Nyelv és régió → Egyéni: `bridge:root=GENERAL_LINK&path=LANGUAGE_AND_REGION_ID#CUSTOM_ID`
+- Általános → Automatikus indítás vízbe merítéskor: `bridge:root=GENERAL_LINK&path=AUTO_LAUNCH`
+- Általános → Automatikus indítás: `bridge:root=GENERAL_LINK&path=AUTO_LAUNCH_ID`
+- Általános → Wake Screen: `bridge:root=GENERAL_LINK&path=WAKE_SCREEN`
+- Általános → Wake Screen → Lejátszás alatt: `bridge:root=GENERAL_LINK&path=WAKE_SCREEN#AUTO_LAUNCH_MEDIA`
+- Hangok és haptikus jelzések: `bridge:root=SOUNDS_ID`
+- Hangok és haptikus jelzések → Jelzés hangereje: `bridge:root=SOUNDS_ID#AUDIO_SLIDER`
+- Hangok és haptikus jelzések → Csengőhang és jelzések: `bridge:root=SOUNDS_ID#RINGTONE_AND_ALERTS_SECTION_TITLE`
+- Hangok és haptikus jelzések → Néma mód: `bridge:root=SOUNDS_ID#audio_mute_switch`
+- Hangok és haptikus jelzések → Hangerő automatikus beállítása: `bridge:root=SOUNDS_ID#contextual_volume_switch`
+- Hangok és haptikus jelzések → Szint: `bridge:root=SOUNDS_ID&path=contextual_volume_profile`
+- Hangok és haptikus jelzések → Szint → Hangosabb: `bridge:root=SOUNDS_ID&path=contextual_volume_profile#CONTEXTUAL_VOLUME_PROFILE_LOUDER_ID`
+- Hangok és haptikus jelzések → Szint → Alapértelmezett: `bridge:root=SOUNDS_ID&path=contextual_volume_profile#CONTEXTUAL_VOLUME_PROFILE_DEFAULT_ID`
+- Hangok és haptikus jelzések → Szint → Halkabb: `bridge:root=SOUNDS_ID&path=contextual_volume_profile#CONTEXTUAL_VOLUME_PROFILE_QUIETER_ID`
+- Hangok és haptikus jelzések → Haptikus jelzések: `bridge:root=SOUNDS_ID&path=HAPTICS_ID`
+- Hangok és haptikus jelzések → Haptikus jelzések → Ki: `bridge:root=SOUNDS_ID&path=HAPTICS_ID#OFF_ITEM_ID`
+- Hangok és haptikus jelzések → Haptikus jelzések → Alapértelmezett: `bridge:root=SOUNDS_ID&path=HAPTICS_ID#DEFAULT_ITEM_ID`
+- Hangok és haptikus jelzések → Haptikus jelzések → Figyelemfelkeltő: `bridge:root=SOUNDS_ID&path=HAPTICS_ID#PROMINENT_ITEM_ID`
+- Hangok és haptikus jelzések → Csengőhang: `bridge:root=SOUNDS_ID&path=SOUND_AND_HAPTIC_PATTERNS_RINGTONE_ID`
+- Hangok és haptikus jelzések → Szövegesüzenet-hang: `bridge:root=SOUNDS_ID&path=SOUND_AND_HAPTIC_PATTERNS_TEXTTONE_ID`
+- Hangok és haptikus jelzések → Új levél: `bridge:root=SOUNDS_ID&path=SOUND_AND_HAPTIC_PATTERNS_NEWMAIL_ID`
+- Hangok és haptikus jelzések → Naptárjelzések: `bridge:root=SOUNDS_ID&path=SOUND_AND_HAPTIC_PATTERNS_CALENDARALERTS_ID`
+- Hangok és haptikus jelzések → Emlékeztetőjelzések: `bridge:root=SOUNDS_ID&path=SOUND_AND_HAPTIC_PATTERNS_REMINDERALERTS_ID`
+- Hangok és haptikus jelzések → Alapértelmezett jelzések: `bridge:root=SOUNDS_ID&path=SOUND_AND_HAPTIC_PATTERNS_DEFAULTALERTS_ID`
+- Hangok és haptikus jelzések → Fejhallgató hangja: `bridge:root=SOUNDS_ID#HEADPHONE_AUDIO_GROUP`
+- Hangok és haptikus jelzések → Fejhallgató-biztonság: `bridge:root=SOUNDS_ID&path=HEADPHONE_LEVEL_LIMIT_SETTING`
+- Hangok és haptikus jelzések → Fejhallgató-biztonság → Fejhallgató-értesítések: `bridge:root=SOUNDS_ID&path=HEADPHONE_LEVEL_LIMIT_SETTING#COSHeadphoneNotificationsSwitchKey`
+- Hangok és haptikus jelzések → Fejhallgató-biztonság → Hangerő-korlátozás: `bridge:root=SOUNDS_ID&path=HEADPHONE_LEVEL_LIMIT_SETTING#COSHeadphoneLevelLimitSwitchKey`
+- Hangok és haptikus jelzések → Rendszerhangok és haptikus jelzések: `bridge:root=SOUNDS_ID#JACKRABBIT_GROUP_ID`
+- Hangok és haptikus jelzések → Crown rezgései: `bridge:root=SOUNDS_ID#JACKRABBIT_ID`
+- Hangok és haptikus jelzések → Haptikus rendszervisszajelzés: `bridge:root=SOUNDS_ID#SYSTEM_HAPTICS_ID`
+- Vészhelyzet – SOS: `bridge:root=SOS_MODE_ID`
+- Adatvédelem: `bridge:root=PRIVACY_ID`
+- Adatvédelem → Csuklóhőmérséklet: `bridge:root=PRIVACY_ID#WRIST_TEMPERATURE_SWITCH_ID`
+- Képernyőidő: `bridge:root=SCREEN_TIME_ID`
+- Nike Run Club: `bridge:root=VICTORY_ROW_ID`
+- Nike Run Club → Az app megjelenítése az Apple Watchon: `bridge:root=VICTORY_ROW_ID#SHOWS_ON_GIZMO`
+- Tippek: `bridge:root=com.apple.NanoTipsBridgeSettings`
+- Tippek → Értesítések engedélyezése: `bridge:root=com.apple.NanoTipsBridgeSettings#ALLOW_NOTIFICATIONS_ID`
+- Tippek → Küldés az Értesítési központba: `bridge:root=com.apple.NanoTipsBridgeSettings#SEND_TO_NOTIFICATION_CENTER_ID`
+- Tippek → Értesítések kikapcsolva: `bridge:root=com.apple.NanoTipsBridgeSettings#NOTIFICATIONS_OFF_ID`
+- Tippek → Értesítések csoportosítása: `bridge:root=com.apple.NanoTipsBridgeSettings&path=NOTIFICATION_COALESCING_ID`
+- Óra: `bridge:root=com.apple.NanoClockBridgeSettings`
+- Óra → 24 órás idő: `bridge:root=com.apple.NanoClockBridgeSettings#24-Hour%20Time`
+- Óra → Csengők: `bridge:root=com.apple.NanoClockBridgeSettings#Chimes`
+- Óra → Hangok: `bridge:root=com.apple.NanoClockBridgeSettings&path=Sounds`
+- Óra → Hangok → Csengők: `bridge:root=com.apple.NanoClockBridgeSettings&path=Sounds#Bells`
+- Óra → Hangok → Madarak: `bridge:root=com.apple.NanoClockBridgeSettings&path=Sounds#Birds`
+- Óra → Idő felolvasása: `bridge:root=com.apple.NanoClockBridgeSettings#Speak%20Time`
+- Óra → Vezérlés néma móddal: `bridge:root=com.apple.NanoClockBridgeSettings#Control%20With%20Silent%20Mode`
+- Óra → Mindig felolvas: `bridge:root=com.apple.NanoClockBridgeSettings#Always%20Speak`
+- Óra → Taptikus időjelzés: `bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time`
+- Óra → Taptikus időjelzés → Taptikus időjelzés: `bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time#Taptic%20Time`
+- Óra → Taptikus időjelzés → Számjegyek: `bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time#Digits`
+- Óra → Taptikus időjelzés → Tömör: `bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time#Terse`
+- Óra → Taptikus időjelzés → Morzekód: `bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time#Morse%20Code`
+- Óra → Jelzések átküldése az iPhone-ról: `bridge:root=com.apple.NanoClockBridgeSettings#Push%20Alerts%20from%20iPhone`
+- Óra → Értesítésjelző: `bridge:root=com.apple.NanoClockBridgeSettings#Notifications%20Indicator`
+- Óra → Monogram: `bridge:root=com.apple.NanoClockBridgeSettings&path=MONOGRAM_ID`
+- Óra → Óraszámlapokról szóló értesítések: `bridge:root=com.apple.NanoClockBridgeSettings#Watch%20Face%20Notifications`
+- Óra → Városok rövidítései: `bridge:root=com.apple.NanoClockBridgeSettings&path=City%20Abbreviations`
+- Óra → Siri-számlap adatforrásai: `bridge:root=com.apple.NanoClockBridgeSettings&path=Siri%20Face%20Data%20Sources`
+- Művelet gomb: `bridge:root=ACTION_BUTTON_ID`
+- Művelet gomb → Kézmozdulatok | Művelet: `bridge:root=ACTION_BUTTON_ID#StingSystemSettingsActionTypeGroupID`
+- Művelet gomb → Edzés: `bridge:root=ACTION_BUTTON_ID&path=StingSystemSettingsActionTypeItem`
+- Művelet gomb → Edzés → Nincs: `bridge:root=ACTION_BUTTON_ID&path=StingSystemSettingsActionTypeItem#StingSystemSettingsSelectedActionTypeItem`
+- Művelet gomb → Első lenyomás: `bridge:root=ACTION_BUTTON_ID#StingSystemSettingsWorkoutGroupID`
+- Művelet gomb → Gyors váltás: `bridge:root=ACTION_BUTTON_ID&path=ShowQuickSwitch`
+- Művelet gomb → Gyors váltás → Gyors váltás: `bridge:root=ACTION_BUTTON_ID&path=ShowQuickSwitch#StingQuickSwitchToggleGroup`
+- Művelet gomb → Gyors váltás → Gyors váltás: `bridge:root=ACTION_BUTTON_ID&path=ShowQuickSwitch#Quick%20Switch`
+- Művelet gomb → Gyors váltás → Hozzáadott appok: `bridge:root=ACTION_BUTTON_ID&path=ShowQuickSwitch#StingQuickSwitchAppGroup`
+- Zaj: `bridge:root=com.apple.Noise.settings`
+- Zaj → Környezeti hangok mérései: `bridge:root=com.apple.Noise.settings#ENABLE_MEASUREMENTS_ID`
+- Zaj → Zajjal kapcsolatos értesítések: `bridge:root=com.apple.Noise.settings#LOUD_NOTIFICATION_GROUP_ID`
+- Zaj → Zaj küszöbértéke: `bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID`
+- Zaj → Zaj küszöbértéke → Ki: `bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#OFF`
+- Zaj → Zaj küszöbértéke → 80 decibel: `bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_80`
+- Zaj → Zaj küszöbértéke → 85 decibel: `bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_85`
+- Zaj → Zaj küszöbértéke → 90 decibel: `bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_90`
+- Zaj → Zaj küszöbértéke → 95 decibel: `bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_95`
+- Zaj → Zaj küszöbértéke → 100 decibel: `bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_100`
+- Zaj → Értesítések csoportosítása: `bridge:root=com.apple.Noise.settings&path=NOTIFICATION_COALESCING_ID`
+- Naptár: `bridge:root=com.apple.NanoCalendarBridgeSettings`
+- Naptár → ÉRTESÍTÉSEK: `bridge:root=com.apple.NanoCalendarBridgeSettings#MIRROR_RADIO_GROUP_ID`
+- Naptár → iPhone tükrözése: `bridge:root=com.apple.NanoCalendarBridgeSettings#MIRROR_MY_COMPANION_ID`
+- Naptár → Egyéni…: `bridge:root=com.apple.NanoCalendarBridgeSettings#CUSTOM_ID`
+- Naptár → NAPTÁRAK: `bridge:root=com.apple.NanoCalendarBridgeSettings#CALENDARS_MIRROR_RADIO_GROUP_ID`
+- Naptár → iPhone tükrözése: `bridge:root=com.apple.NanoCalendarBridgeSettings#CALENDARS_MIRROR_MY_COMPANION_ID`
+- Naptár → Egyéni…: `bridge:root=com.apple.NanoCalendarBridgeSettings&path=CALENDARS_CUSTOM_ID`
+- Naptár → Soron következő események: `bridge:root=com.apple.NanoCalendarBridgeSettings&path=Upcoming%20Events`
+- Naptár → Meghívók: `bridge:root=com.apple.NanoCalendarBridgeSettings&path=Invitations`
+- Naptár → Meghívottak válaszai: `bridge:root=com.apple.NanoCalendarBridgeSettings&path=Invitee%20Responses`
+- Naptár → Megosztott naptárak módosításai: `bridge:root=com.apple.NanoCalendarBridgeSettings&path=Shared%20Calendar%20Alerts`
+- Adóvevő: `bridge:root=com.apple.tincan.settings`
+- Adóvevő → Értesítések engedélyezése: `bridge:root=com.apple.tincan.settings#ALLOW_NOTIFICATIONS_ID`
+- Adóvevő → Küldés az Értesítési központba: `bridge:root=com.apple.tincan.settings#SEND_TO_NOTIFICATION_CENTER_ID`
+- Adóvevő → Értesítések kikapcsolva: `bridge:root=com.apple.tincan.settings#NOTIFICATIONS_OFF_ID`
+- Adóvevő → Értesítések csoportosítása: `bridge:root=com.apple.tincan.settings&path=NOTIFICATION_COALESCING_ID`
+- Adóvevő → Barátok: `bridge:root=com.apple.tincan.settings#Friends`
+- Siri: `bridge:root=SIRI_WATCH_SETTINGS_ID`
+- Siri → Kérje meg Sirit: `bridge:root=SIRI_WATCH_SETTINGS_ID#ASK_SIRI_GROUP_ID`
+- Siri → Felismerés:: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_TRIGGER_ID`
+- Siri → Felismerés: → „Siri” vagy „Hey Siri”: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_TRIGGER_ID#HS_JS_ID`
+- Siri → Felismerés: → „Hey Siri”: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_TRIGGER_ID#HEY_SIRI_ID`
+- Siri → Felismerés: → Ki: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_TRIGGER_ID#VOICE_TRIGGER_DISABLED_ID`
+- Siri → Emelés a beszédhez: `bridge:root=SIRI_WATCH_SETTINGS_ID#RAISE_TO_SPEAK_SWITCH_ID`
+- Siri → A Digital Crown megnyomása: `bridge:root=SIRI_WATCH_SETTINGS_ID#DIGITAL_CROWN_SWITCH_ID`
+- Siri → Üzenetek automatikus küldése: `bridge:root=SIRI_WATCH_SETTINGS_ID#AUTOMATICALLY_SEND_MESSAGES_SWITCH_ID`
+- Siri → Siri-válaszok: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=SIRI_RESPONSES_ID`
+- Siri → Siri-válaszok → A Siri-feliratok mindig jelenjenek meg: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=SIRI_RESPONSES_ID#ALWAYS_SHOW_SIRI_CAPTIONS_SWITCH_ID`
+- Siri → Siri-válaszok → A beszéd mindig jelenjen meg: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=SIRI_RESPONSES_ID#ALWAYS_SHOW_SPEECH_SWITCH_ID`
+- Siri → Siri-válaszok → Beszédhang hangereje: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=SIRI_RESPONSES_ID#CONSIDERATE_VOLUME_GROUP_ID`
+- Siri → Siri-válaszok → Hangerő automatikus beállítása: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=SIRI_RESPONSES_ID#CONSIDERATE_VOLUME_SWITCH_ID`
+- Siri → Siri-válaszok → Szint: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=SIRI_RESPONSES_ID/CONSIDERATE_VOLUME_PROFILE_ID`
+- Siri → Siri-válaszok → Szint → Hangosabb: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=SIRI_RESPONSES_ID/CONSIDERATE_VOLUME_PROFILE_ID#CONSIDERATE_VOLUME_PROFILE_LOUDER_ID`
+- Siri → Siri-válaszok → Szint → Alapértelmezett: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=SIRI_RESPONSES_ID/CONSIDERATE_VOLUME_PROFILE_ID#CONSIDERATE_VOLUME_PROFILE_DEFAULT_ID`
+- Siri → Siri-válaszok → Szint → Halkabb: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=SIRI_RESPONSES_ID/CONSIDERATE_VOLUME_PROFILE_ID#CONSIDERATE_VOLUME_PROFILE_QUIETER_ID`
+- Siri → Beszédhangos visszajelzés: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_FEEDBACK_ID`
+- Siri → Beszédhangos visszajelzés → Mindig bekapcsolva: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_FEEDBACK_ID#VOICE_FEEDBACK_ALWAYS_ON_ID`
+- Siri → Beszédhangos visszajelzés → Vezérlés néma móddal: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_FEEDBACK_ID#VOICE_FEEDBACK_CONTROL_WITH_SILENT_MODE_ID`
+- Siri → Beszédhangos visszajelzés → Csak fejhallgató: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_FEEDBACK_ID#VOICE_FEEDBACK_HEADPHONES_ONLY_ID`
+- Siri → Beszédhang hangereje: `bridge:root=SIRI_WATCH_SETTINGS_ID#VOICE_VOLUME_GROUP_ID`
+- Siri → Siri-javaslatok: `bridge:root=SIRI_WATCH_SETTINGS_ID#ASSISTANT_SUGGESTIONS_GROUP_ID`
+- Edzés: `bridge:root=com.apple.SessionTrackerAppSettings`
+- Edzés → Céladatok megjelenítése: `bridge:root=com.apple.SessionTrackerAppSettings#PRO_SETTING_ENABLED_LABEL`
+- Edzés → Edzési nézet: `bridge:root=com.apple.SessionTrackerAppSettings&path=METRIC_VIEW_ID`
+- Edzés → Automatikus szünet: `bridge:root=com.apple.SessionTrackerAppSettings&path=AUTO_PAUSE_ID`
+- Edzés → Automatikus szünet → Automatikus szünet: `bridge:root=com.apple.SessionTrackerAppSettings&path=AUTO_PAUSE_ID#WorkoutAutoPauseSwitch`
+- Edzés → „Edzés kezdete” jelzés: `bridge:root=com.apple.SessionTrackerAppSettings#AUTO_START_WORKOUT_NOTIFICATIONS_ENABLED_LABEL`
+- Edzés → „Edzés vége” jelzés: `bridge:root=com.apple.SessionTrackerAppSettings#END_REMINDERS_ENABLED_LABEL`
+- Edzés → Szüneteltetés megnyomással: `bridge:root=com.apple.SessionTrackerAppSettings#CHORD_PRESS_PAUSE_WORKOUT_ENABLED_LABEL`
+- Edzés → Edzőtermi eszköz észlelése: `bridge:root=com.apple.SessionTrackerAppSettings#NFC_ENABLED_LABEL_ID`
+- Edzés → Tempó/sebesség nézet: `bridge:root=com.apple.SessionTrackerAppSettings&path=PACE_VIEW_LABEL`
+- Edzés → Tempó/sebesség nézet → Jelenlegi: `bridge:root=com.apple.SessionTrackerAppSettings&path=PACE_VIEW_LABEL#CURRENT_PACE_ID`
+- Edzés → Tempó/sebesség nézet → Átlag: `bridge:root=com.apple.SessionTrackerAppSettings&path=PACE_VIEW_LABEL#AVERAGE_PACE_ID`
+- Edzés → Edzés lejátszási listája: `bridge:root=com.apple.SessionTrackerAppSettings&path=MUSIC_AUTOSTART_TITLE_ID`
+- Edzés → Edzés lejátszási listája → Nincs: `bridge:root=com.apple.SessionTrackerAppSettings&path=MUSIC_AUTOSTART_TITLE_ID#NONE_AUTOSTART_ID`
+- Edzés → Edzés lejátszási listája → Lejátszási listák: `bridge:root=com.apple.SessionTrackerAppSettings&path=MUSIC_AUTOSTART_TITLE_ID#MUSIC_PLAYLIST_GROUP_ID`
+- Edzés → Lejátszás az elejétől: `bridge:root=com.apple.SessionTrackerAppSettings#WORKOUT_MUSIC_PLAY_FROM_BEGINNING_SETTING_ID`
+- Edzés → Keverés: `bridge:root=com.apple.SessionTrackerAppSettings#WORKOUT_MUSIC_SHUFFLE_SETTING_ID`
+- Edzés → Mértékegységek: `bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID`
+- Edzés → Mértékegységek → Kalória: `bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#ENERGY_UNITS_CALORIES_ID`
+- Edzés → Mértékegységek → Kilokalória: `bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#ENERGY_UNITS_KILOCALORIES_ID`
+- Edzés → Mértékegységek → Kilojoule: `bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#ENERGY_UNITS_KILOJOULES_ID`
+- Edzés → Mértékegységek → Yard: `bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#POOL_LENGTH_YARDS_ID`
+- Edzés → Mértékegységek → Méter: `bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#POOL_LENGTH_METERS_ID`
+- Edzés → Mértékegységek → Mérföld: `bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#CYCLING_WORKOUTS_MILES_ID`
+- Edzés → Mértékegységek → Kilométer: `bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#CYCLING_WORKOUTS_KILOMETERS_ID`
+- Edzés → Mértékegységek → Mérföld: `bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#WALKING_AND_RUNNING_WORKOUTS_MILES_ID`
+- Edzés → Mértékegységek → Kilométer: `bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#WALKING_AND_RUNNING_WORKOUTS_KILOMETERS_ID`
+- Edzés → Beszédhangos visszajelzés: `bridge:root=com.apple.SessionTrackerAppSettings#WORKOUT_VOICE_FEEDBACK_LABEL`
+- Edzés → Ideje gyalogolni: `bridge:root=com.apple.SessionTrackerAppSettings#GUIDED_WORKOUT_PREFETCH_FOOTER_ID`
+- Edzés → Új edzések hozzáadása a Watchhoz: `bridge:root=com.apple.SessionTrackerAppSettings#GUIDED_WORKOUT_PREFETCH_LABEL_ID`
+- Edzés → Alacsony töltöttségű mód: `bridge:root=com.apple.SessionTrackerAppSettings#LOW_POWER_MODE`
+- Üzenetek: `bridge:root=com.apple.MessagesBridgeSettings`
+- Üzenetek → iPhone tükrözése: `bridge:root=com.apple.MessagesBridgeSettings#MIRROR_MY_COMPANION_ID`
+- Üzenetek → Egyéni: `bridge:root=com.apple.MessagesBridgeSettings#CUSTOM_ID`
+- Üzenetek → Alapértelmezett válaszok: `bridge:root=com.apple.MessagesBridgeSettings&path=DEFAULT_REPLIES`
+- Üzenetek → Alapértelmezett válaszok → Alapértelmezett válaszok: `bridge:root=com.apple.MessagesBridgeSettings&path=DEFAULT_REPLIES#Default%20Replies`
+- Üzenetek → Alapértelmezett válaszok → Intelligens válaszok: `bridge:root=com.apple.MessagesBridgeSettings&path=DEFAULT_REPLIES#Smart%20Replies`
+- Üzenetek → Alapértelmezett válaszok → Válasz hozzáadása…: `bridge:root=com.apple.MessagesBridgeSettings&path=DEFAULT_REPLIES#Add%20reply%E2%80%A6`
+- Üzenetek → Jelzések ismétlése: `bridge:root=com.apple.MessagesBridgeSettings&path=PLAY_ALERT_TONE`
+- Üzenetek → Hangüzenetek: `bridge:root=com.apple.MessagesBridgeSettings&path=AudioMessagesMode`
+- Iskolaidő: `bridge:root=SCHOOLTIME`
+- Iskolaidő → Iskolaidő: `bridge:root=SCHOOLTIME#SCHEDULE_FEATURE_ACTIVE_TITLE`
+- Adatok törlése | Csuklóészlelés | Egyszerű jelkód | Feloldás iPhone-nal | Jelkód | Jelkód bekapcsolása | Jelkód kikapcsolása | Jelkód módosítása: `bridge:root=PASSCODE_ID`
+- Adatok törlése | Csuklóészlelés | Egyszerű jelkód | Feloldás iPhone-nal | Jelkód | Jelkód bekapcsolása | Jelkód kikapcsolása | Jelkód módosítása → Jelkód bekapcsolása: `bridge:root=PASSCODE_ID#TOGGLE_PASSCODE_ID`
+- Adatok törlése | Csuklóészlelés | Egyszerű jelkód | Feloldás iPhone-nal | Jelkód | Jelkód bekapcsolása | Jelkód kikapcsolása | Jelkód módosítása → Jelkód módosítása: `bridge:root=PASSCODE_ID#CHANGE_PASSCODE_ID`
+- Adatok törlése | Csuklóészlelés | Egyszerű jelkód | Feloldás iPhone-nal | Jelkód | Jelkód bekapcsolása | Jelkód kikapcsolása | Jelkód módosítása → Egyszerű jelkód: `bridge:root=PASSCODE_ID#SIMPLE_PASSCODE_SWITCH_ID`
+- Adatok törlése | Csuklóészlelés | Egyszerű jelkód | Feloldás iPhone-nal | Jelkód | Jelkód bekapcsolása | Jelkód kikapcsolása | Jelkód módosítása → Feloldás iPhone-nal: `bridge:root=PASSCODE_ID#AUTO_UNLOCK_SWITCH_ID`
+- Adatok törlése | Csuklóészlelés | Egyszerű jelkód | Feloldás iPhone-nal | Jelkód | Jelkód bekapcsolása | Jelkód kikapcsolása | Jelkód módosítása → Adatok törlése: `bridge:root=PASSCODE_ID#ERASE_DATA_SWITCH_ID`
+- Adatok törlése | Csuklóészlelés | Egyszerű jelkód | Feloldás iPhone-nal | Jelkód | Jelkód bekapcsolása | Jelkód kikapcsolása | Jelkód módosítása → Csuklóészlelés: `bridge:root=PASSCODE_ID#WRIST_DETECTION_CELL_ID`
+- Adatok törlése | Csuklóészlelés | Egyszerű jelkód | Feloldás iPhone-nal | Jelkód | Jelkód bekapcsolása | Jelkód kikapcsolása | Jelkód módosítása → Komplikációk: `bridge:root=PASSCODE_ID#SHOW_COMPLICATION_DATA_WHEN_LOCKED_GROUP_ID`
+- Adatok törlése | Csuklóészlelés | Egyszerű jelkód | Feloldás iPhone-nal | Jelkód | Jelkód bekapcsolása | Jelkód kikapcsolása | Jelkód módosítása → Adatok megjelenítése zárolásnál: `bridge:root=PASSCODE_ID#SHOW_COMPLICATION_DATA_WHEN_LOCKED_SWITCH_ID`
+- Mail: `bridge:root=com.apple.NanoMailBridgeSettings`
+- Mail → iPhone tükrözése: `bridge:root=com.apple.NanoMailBridgeSettings#MIRROR_MY_COMPANION_ID`
+- Mail → Egyéni: `bridge:root=com.apple.NanoMailBridgeSettings#CUSTOM_ID`
+- Mail → Levélbeállítások: `bridge:root=com.apple.NanoMailBridgeSettings#Mail%20Settings`
+- Mail → Fiókok: `bridge:root=com.apple.NanoMailBridgeSettings&path=Accounts`
+- Mail → Levelek hozzáadása: `bridge:root=com.apple.NanoMailBridgeSettings&path=Include%20Mail`
+- Mail → Üzenet előnézete: `bridge:root=com.apple.NanoMailBridgeSettings&path=Message%20Preview`
+- Mail → Üzenet előnézete → Nincs: `bridge:root=com.apple.NanoMailBridgeSettings&path=Message%20Preview#0`
+- Mail → Üzenet előnézete → 1 sor: `bridge:root=com.apple.NanoMailBridgeSettings&path=Message%20Preview#1`
+- Mail → Üzenet előnézete → 2 sor: `bridge:root=com.apple.NanoMailBridgeSettings&path=Message%20Preview#2`
+- Mail → Alapértelmezett válaszok: `bridge:root=com.apple.NanoMailBridgeSettings&path=Default%20Replies`
+- Mail → Alapértelmezett válaszok → Alapértelmezett válaszok: `bridge:root=com.apple.NanoMailBridgeSettings&path=Default%20Replies#Default%20Replies`
+- Mail → Alapértelmezett válaszok → Válasz hozzáadása…: `bridge:root=com.apple.NanoMailBridgeSettings&path=Default%20Replies#Add%20reply%E2%80%A6`
+- Mail → Aláírás: `bridge:root=com.apple.NanoMailBridgeSettings&path=Signature`
+- Jelenlegi ár | Piaci tőke | Részvények | Siri-kártyán kijelölt részvény | Százalékos változás | Változás pontokban: `bridge:root=com.apple.StocksBridgeSettings`
+- Jelenlegi ár | Piaci tőke | Részvények | Siri-kártyán kijelölt részvény | Százalékos változás | Változás pontokban → Az óraszámlap-komplikáció a következőt jeleníti meg: `bridge:root=com.apple.StocksBridgeSettings#Clock%20Face%20Complication%20Shows`
+- Jelenlegi ár | Piaci tőke | Részvények | Siri-kártyán kijelölt részvény | Százalékos változás | Változás pontokban → Jelenlegi ár: `bridge:root=com.apple.StocksBridgeSettings#Current%20Price`
+- Jelenlegi ár | Piaci tőke | Részvények | Siri-kártyán kijelölt részvény | Százalékos változás | Változás pontokban → Változás pontokban: `bridge:root=com.apple.StocksBridgeSettings#Points%20Change`
+- Jelenlegi ár | Piaci tőke | Részvények | Siri-kártyán kijelölt részvény | Százalékos változás | Változás pontokban → Százalékos változás: `bridge:root=com.apple.StocksBridgeSettings#Percentage%20Change`
+- Jelenlegi ár | Piaci tőke | Részvények | Siri-kártyán kijelölt részvény | Százalékos változás | Változás pontokban → Piaci tőke: `bridge:root=com.apple.StocksBridgeSettings#Market%20Cap`
+- Jelenlegi ár | Piaci tőke | Részvények | Siri-kártyán kijelölt részvény | Százalékos változás | Változás pontokban → A Siri-számlapon megjelenő árfolyam: `bridge:root=com.apple.StocksBridgeSettings#Siri%20Face%20Shows%20Quote%20For`
+- Jelenlegi ár | Piaci tőke | Részvények | Siri-kártyán kijelölt részvény | Százalékos változás | Változás pontokban → Kijelölt részvény: `bridge:root=com.apple.StocksBridgeSettings&path=Selected%20Stock`
+- Jelenlegi ár | Piaci tőke | Részvények | Siri-kártyán kijelölt részvény | Százalékos változás | Változás pontokban → Kijelölt részvény → Kijelölt részvény: `bridge:root=com.apple.StocksBridgeSettings&path=Selected%20Stock#Selected%20Stock`
+- Tevékenység: `bridge:root=com.apple.HealthAppsSettings`
+- Tevékenység → Fejlődési információk: `bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL`
+- Tevékenység → Fejlődési információk → Nincs: `bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#ZERO_HOURS_ID`
+- Tevékenység → Fejlődési információk → 2 óránként: `bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#TWO_HOURS_ID`
+- Tevékenység → Fejlődési információk → 4 óránként: `bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#FOUR_HOURS_ID`
+- Tevékenység → Fejlődési információk → 6 óránként: `bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#SIX_HOURS_ID`
+- Tevékenység → Fejlődési információk → 8 óránként: `bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#EIGHT_HOURS_ID`
+- Tevékenység → Eredmények: `bridge:root=com.apple.HealthAppsSettings#ACHIEVEMENTS_ENABLED_LABEL`
+- Tevékenység → Heti összesítés: `bridge:root=com.apple.HealthAppsSettings#WEEKLY_SUMMARY_ENABLED_LABEL`
+- Tevékenység → Napi mentorálás: `bridge:root=com.apple.HealthAppsSettings#DAILY_PROGRESS_ENABLED_LABEL`
+- Tevékenység → Elért célok: `bridge:root=com.apple.HealthAppsSettings#GOAL_COMPLETIONS_ENABLED_LABEL`
+- Tevékenység → Különleges kihívások: `bridge:root=com.apple.HealthAppsSettings#REMOTE_ACHIEVEMENTS_ENABLED_LABEL`
+- Tevékenység → Tevékenységértesítések: `bridge:root=com.apple.HealthAppsSettings#ACTIVITY_SHARING_NOTIFICATIONS_ENABLED`
+- Intelligens pakli: `bridge:root=SMARTSTACK_LINK`
+- Időjárás: `bridge:root=com.apple.weatherbridgesettings`
+- Időjárás → Alapértelmezett város: `bridge:root=com.apple.weatherbridgesettings&path=Default%20City`
+- Időjárás → Alapértelmezett város → Alapértelmezett város: `bridge:root=com.apple.weatherbridgesettings&path=Default%20City#Default%20City`
+- Időjárás → Alapértelmezett város → Jelenlegi helyzet: `bridge:root=com.apple.weatherbridgesettings&path=Default%20City#Current%20Location`
+- Kontaktok: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired`
+- Kontaktok → Rendezési sorrend: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=contactsSortOrder`
+- Kontaktok → Rendezési sorrend → Utó, Családi: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=contactsSortOrder#0`
+- Kontaktok → Rendezési sorrend → Családi, Utó: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=contactsSortOrder#1`
+- Kontaktok → Kijelzési sorrend: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=NSPersonNameDefaultDisplayNameOrder`
+- Kontaktok → Kijelzési sorrend → Utó, Családi: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=NSPersonNameDefaultDisplayNameOrder#1`
+- Kontaktok → Kijelzési sorrend → Családi, Utó: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=NSPersonNameDefaultDisplayNameOrder#2`
+- Kontaktok → Rövid név: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName`
+- Kontaktok → Rövid név → Rövid név: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#Short%20Name`
+- Kontaktok → Rövid név → Utónév és családi név kezdőbetűje: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#First%20Name%20&%20Last%20Initial`
+- Kontaktok → Rövid név → Utónév kezdőbetűje és családi név: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#First%20Initial%20&%20Last%20Name`
+- Kontaktok → Rövid név → Csak utónév: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#First%20Name%20Only`
+- Kontaktok → Rövid név → Csak családi név: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#Last%20Name%20Only`
+- Kontaktok → Rövid név → Becenevek előnyben részesítése: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#Prefer%20Nicknames`
+- Kisegítő lehetőségek: `bridge:root=ACCESSIBILITY_ID`
+- Kisegítő lehetőségek → Látás: `bridge:root=ACCESSIBILITY_ID#VISION_GROUP`
+- Kisegítő lehetőségek → VoiceOver: `bridge:root=ACCESSIBILITY_ID&path=VOICEOVER_ID`
+- Kisegítő lehetőségek → Nagyítás: `bridge:root=ACCESSIBILITY_ID&path=ZOOM_ID`
+- Kisegítő lehetőségek → Be/ki címkék: `bridge:root=ACCESSIBILITY_ID#OnOffLabelsEnabled`
+- Kisegítő lehetőségek → Szürkeárnyalatok: `bridge:root=ACCESSIBILITY_ID#GrayscaleDisplay`
+- Kisegítő lehetőségek → Átlátszóság csökkentése: `bridge:root=ACCESSIBILITY_ID#REDUCE_TRANSPARENCY`
+- Kisegítő lehetőségek → Kontraszt növelése: `bridge:root=ACCESSIBILITY_ID#INCREASE_CONTRAST`
+- Kisegítő lehetőségek → Szövegméret: `bridge:root=ACCESSIBILITY_ID#TEXT_SIZE`
+- Kisegítő lehetőségek → Félkövér szöveg: `bridge:root=ACCESSIBILITY_ID#BoldTextEnabled`
+- Kisegítő lehetőségek → Mozgás csökkentése: `bridge:root=ACCESSIBILITY_ID&path=ReduceMotion`
+- Kisegítő lehetőségek → Csengők: `bridge:root=ACCESSIBILITY_ID&path=TapticChimesCell`
+- Kisegítő lehetőségek → Csengők → Csengők: `bridge:root=ACCESSIBILITY_ID&path=TapticChimesCell#Chimes`
+- Kisegítő lehetőségek → Csengők → Ütemezés: `bridge:root=ACCESSIBILITY_ID&path=TapticChimesCell/CHIMES_SCHEDULE_ID`
+- Kisegítő lehetőségek → Csengők → Ütemezés → Óránként: `bridge:root=ACCESSIBILITY_ID&path=TapticChimesCell/CHIMES_SCHEDULE_ID#Hourly`
+- Kisegítő lehetőségek → Csengők → Ütemezés → 30 perc: `bridge:root=ACCESSIBILITY_ID&path=TapticChimesCell/CHIMES_SCHEDULE_ID#30%20minutes`
+- Kisegítő lehetőségek → Csengők → Ütemezés → 15 perc: `bridge:root=ACCESSIBILITY_ID&path=TapticChimesCell/CHIMES_SCHEDULE_ID#15%20minutes`
+- Kisegítő lehetőségek → Csengők → Hangok: `bridge:root=ACCESSIBILITY_ID&path=TapticChimesCell/CHIMES_SOUNDS_ID`
+- Kisegítő lehetőségek → Csengők → Hangok → Csengők: `bridge:root=ACCESSIBILITY_ID&path=TapticChimesCell/CHIMES_SOUNDS_ID#Bells`
+- Kisegítő lehetőségek → Csengők → Hangok → Madarak: `bridge:root=ACCESSIBILITY_ID&path=TapticChimesCell/CHIMES_SOUNDS_ID#Birds`
+- Kisegítő lehetőségek → Motorikus: `bridge:root=ACCESSIBILITY_ID#MotorGroupCell`
+- Kisegítő lehetőségek → Oldalsó gomb kattintási sebessége: `bridge:root=ACCESSIBILITY_ID&path=SideButton`
+- Kisegítő lehetőségek → Oldalsó gomb kattintási sebessége → Kattintási sebesség: `bridge:root=ACCESSIBILITY_ID&path=SideButton#CLICK_SPEED_GROUP_CELL`
+- Kisegítő lehetőségek → Oldalsó gomb kattintási sebessége → Alapértelmezett: `bridge:root=ACCESSIBILITY_ID&path=SideButton#SIDE_CLICK_SPEED_DEFAULT`
+- Kisegítő lehetőségek → Oldalsó gomb kattintási sebessége → Lassú: `bridge:root=ACCESSIBILITY_ID&path=SideButton#SIDE_CLICK_SPEED_SLOW`
+- Kisegítő lehetőségek → Oldalsó gomb kattintási sebessége → Leglassabb: `bridge:root=ACCESSIBILITY_ID&path=SideButton#SIDE_CLICK_SPEED_SLOWEST`
+- Kisegítő lehetőségek → Érintési beállítások: `bridge:root=ACCESSIBILITY_ID&path=TouchAccommodationsCell`
+- Kisegítő lehetőségek → Érintési beállítások → Érintési beállítások: `bridge:root=ACCESSIBILITY_ID&path=TouchAccommodationsCell#TOUCH_ACCOMMODATIONS_SWITCHER`
+- Kisegítő lehetőségek → Érintési beállítások → Nyomva tartás időtartama: `bridge:root=ACCESSIBILITY_ID&path=TouchAccommodationsCell#HoldDurationGroup`
+- Kisegítő lehetőségek → Érintési beállítások → Nyomva tartás időtartama: `bridge:root=ACCESSIBILITY_ID&path=TouchAccommodationsCell#HoldDuration`
+- Kisegítő lehetőségek → Érintési beállítások → Ismétlés figyelmen kívül hagyása: `bridge:root=ACCESSIBILITY_ID&path=TouchAccommodationsCell#IgnoreRepeatGroup`
+- Kisegítő lehetőségek → Érintési beállítások → Ismétlés figyelmen kívül hagyása: `bridge:root=ACCESSIBILITY_ID&path=TouchAccommodationsCell#IgnoreRepeat`
+- Kisegítő lehetőségek → Érintési beállítások → Érintésasszisztencia: `bridge:root=ACCESSIBILITY_ID&path=TouchAccommodationsCell#Tap%20Assistance`
+- Kisegítő lehetőségek → Érintési beállítások → Ki: `bridge:root=ACCESSIBILITY_ID&path=TouchAccommodationsCell#OFF`
+- Kisegítő lehetőségek → Érintési beállítások → Az első érintés helyének használata: `bridge:root=ACCESSIBILITY_ID&path=TouchAccommodationsCell#ACTIVATE_ON_TOUCH`
+- Kisegítő lehetőségek → Érintési beállítások → Az utolsó érintés helyének használata: `bridge:root=ACCESSIBILITY_ID&path=TouchAccommodationsCell#ACTIVATE_ON_RELEASE`
+- Kisegítő lehetőségek → Kerekesszékes tevékenység: `bridge:root=ACCESSIBILITY_ID#MOBILITY`
+- Kisegítő lehetőségek → Adóvevő: `bridge:root=ACCESSIBILITY_ID#WalkieTalkieTapToTalkGroup`
+- Kisegítő lehetőségek → Beszélgetés koppintással: `bridge:root=ACCESSIBILITY_ID#WalkieTalkieTapToTalk`
+- Kisegítő lehetőségek → App­váltó: `bridge:root=ACCESSIBILITY_ID#AppSwitcherAutoSelectGroup`
+- Kisegítő lehetőségek → Fókuszban lévő app automatikus kiválasztása: `bridge:root=ACCESSIBILITY_ID#AppSwitcherAutoSelect`
+- Kisegítő lehetőségek → Siri: `bridge:root=ACCESSIBILITY_ID&path=SIRI_CELL_ID`
+- Kisegítő lehetőségek → Siri → Gépelés Sirihez: `bridge:root=ACCESSIBILITY_ID&path=SIRI_CELL_ID#Type%20to%20Siri`
+- Kisegítő lehetőségek → Hallás: `bridge:root=ACCESSIBILITY_ID#HEARING`
+- Kisegítő lehetőségek → RTT: `bridge:root=ACCESSIBILITY_ID&path=RTT_ID`
+- Kisegítő lehetőségek → RTT → RTT: `bridge:root=ACCESSIBILITY_ID&path=RTT_ID#RTT_ROW_ID`
+- Kisegítő lehetőségek → Monó hang: `bridge:root=ACCESSIBILITY_ID#MonoAudioEnabled`
+- Kisegítő lehetőségek → Bal-jobb sztereó balansz: `bridge:root=ACCESSIBILITY_ID#LEFT_RIGHT_BALANCE_SPOKEN`
+- Kisegítő lehetőségek → Fejhallgató-értesítések: `bridge:root=ACCESSIBILITY_ID#HeadphoneNotificationsID`
+- Kisegítő lehetőségek → Hallókészülékek: `bridge:root=ACCESSIBILITY_ID#HearingDevicesComplicationGroupID`
+- Kisegítő lehetőségek → Komplikáció: `bridge:root=ACCESSIBILITY_ID&path=HearingDevicesComplicationRowID`
+- Kisegítő lehetőségek → Komplikáció → Mikrofon hangereje: `bridge:root=ACCESSIBILITY_ID&path=HearingDevicesComplicationRowID#Mic%20Volume`
+- Kisegítő lehetőségek → Komplikáció → Program: `bridge:root=ACCESSIBILITY_ID&path=HearingDevicesComplicationRowID#Program`
+- Kisegítő lehetőségek → Taptikus időjelzés sebessége: `bridge:root=ACCESSIBILITY_ID#TapticTimeSpeedAdjustmentGroup`
+- Kisegítő lehetőségek → Kisegítő lehetőségek billentyűparancsa: `bridge:root=ACCESSIBILITY_ID&path=AX_SHORTCUT_ID`
+- Irányváltoztatási jelzések | Térképek: `bridge:root=com.apple.NanoMapsBridgeSettings`
+- Irányváltoztatási jelzések | Térképek → Irányváltoztatási jelzések: `bridge:root=com.apple.NanoMapsBridgeSettings#Turn%20Alerts`
+- Irányváltoztatási jelzések | Térképek → Vezetés: `bridge:root=com.apple.NanoMapsBridgeSettings#Driving`
+- Irányváltoztatási jelzések | Térképek → Vezetés a CarPlayjel: `bridge:root=com.apple.NanoMapsBridgeSettings#Driving%20with%20CarPlay`
+- Irányváltoztatási jelzések | Térképek → Gyaloglás: `bridge:root=com.apple.NanoMapsBridgeSettings#Walking`
+- Irányváltoztatási jelzések | Térképek → Biciklizés: `bridge:root=com.apple.NanoMapsBridgeSettings#Cycling`
+- Irányváltoztatási jelzések | Térképek → Navigáció megjelenítése: `bridge:root=com.apple.NanoMapsBridgeSettings#Show%20Navigation`
+- Irányváltoztatási jelzések | Térképek → Tömegközlekedés: `bridge:root=com.apple.NanoMapsBridgeSettings#Transit`
+- Irányváltoztatási jelzések | Térképek → Buildinfó: `bridge:root=com.apple.NanoMapsBridgeSettings#Build%20Info%3A`
+- Mail és Naptár: `bridge:root=com.apple.BridgeRemoteAccounts`
+- Mail és Naptár → Fiókok: `bridge:root=com.apple.BridgeRemoteAccounts#Accounts`
+- Mail és Naptár → Google-fiók hozzáadása…: `bridge:root=com.apple.BridgeRemoteAccounts#ADD_GOOGLE_ACCOUNT`
+- Mail és Naptár → Lekérés: `bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch`
+- Mail és Naptár → Lekérés → Ki: `bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch#Off`
+- Mail és Naptár → Lekérés → Óránként: `bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch#Hourly`
+- Mail és Naptár → Lekérés → 30 perc: `bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch#30%20min`
+- Mail és Naptár → Lekérés → 15 perc: `bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch#15%20min`
+- Szív: `bridge:root=com.apple.HeartRateSettings`
+- Szív → Szív: `bridge:root=com.apple.HeartRateSettings#1`
+- Szív → Pulzusszám-értesítések: `bridge:root=com.apple.HeartRateSettings#2`
+- Szív → Magas pulzusszám: `bridge:root=com.apple.HeartRateSettings#3`
+- Szív → Alacsony pulzusszám: `bridge:root=com.apple.HeartRateSettings#4`
+- Szív → Szabálytalan ritmus: `bridge:root=com.apple.HeartRateSettings#5`
+- Szív → Rögzített EKG-k megtekintése az Egészségben: `bridge:root=com.apple.HeartRateSettings#6`
+- Szív → EKG: `bridge:root=com.apple.HeartRateSettings#7`
+- App Store: `bridge:root=com.apple.BridgeAppStoreDaemonSettings`
+- App Store → Automatikus letöltések: `bridge:root=com.apple.BridgeAppStoreDaemonSettings#automaticDownloadSpecifier`
+- App Store → Automatikus frissítések: `bridge:root=com.apple.BridgeAppStoreDaemonSettings#Automatic%20Updates`
+- Kézmozdulatok: `bridge:root=ELTON_SETTINGS_ID`
+- Kézmozdulatok → Kézmozdulatok: `bridge:root=ELTON_SETTINGS_ID#Gestures`
+- Kézmozdulatok → Dupla koppintás: `bridge:root=ELTON_SETTINGS_ID&path=ELTON_DOUBLE_TAP_ID`
+- Kézmozdulatok → Dupla koppintás → Dupla koppintás: `bridge:root=ELTON_SETTINGS_ID&path=ELTON_DOUBLE_TAP_ID#Double%20Tap`
+- Kézmozdulatok → Dupla koppintás → Lejátszás: `bridge:root=ELTON_SETTINGS_ID&path=ELTON_DOUBLE_TAP_ID#playbackSettingsGroup`
+- Kézmozdulatok → Dupla koppintás → Lejátszás/szünet: `bridge:root=ELTON_SETTINGS_ID&path=ELTON_DOUBLE_TAP_ID#playbackSettingsPlayPause`
+- Kézmozdulatok → Dupla koppintás → Kihagyás: `bridge:root=ELTON_SETTINGS_ID&path=ELTON_DOUBLE_TAP_ID#playbackSettingsSkip`
+- Kézmozdulatok → Dupla koppintás → Intelligens pakli: `bridge:root=ELTON_SETTINGS_ID&path=ELTON_DOUBLE_TAP_ID#smartStackGroup`
+- Kézmozdulatok → Dupla koppintás → Léptetés: `bridge:root=ELTON_SETTINGS_ID&path=ELTON_DOUBLE_TAP_ID#smartStackSettingsAdvance`
+- Kézmozdulatok → Dupla koppintás → Kiválasztás: `bridge:root=ELTON_SETTINGS_ID&path=ELTON_DOUBLE_TAP_ID#smartStackSettingsSelect`
+- Kézmozdulatok → Dupla koppintás → Apple Vision Pro használatakor: `bridge:root=ELTON_SETTINGS_ID&path=ELTON_DOUBLE_TAP_ID#ignoreWhileVisionProDonned`
+- Kézmozdulatok → Dupla koppintás → Dupla koppintás figyelmen kívül hagyása: `bridge:root=ELTON_SETTINGS_ID&path=ELTON_DOUBLE_TAP_ID#ignoreDoubleTap`
+- Kézmozdulatok → Csukló elfordítása: `bridge:root=ELTON_SETTINGS_ID#Wrist%20Flick`
+- Kézmozdulatok → Némítás lefedéssel: `bridge:root=ELTON_SETTINGS_ID#Cover%20to%20Mute`
+- Alvás: `bridge:root=com.apple.NanoBedtimeBridgeSettings`
+- Alvás → Az alvás beállítása az Egészség appban: `bridge:root=com.apple.NanoBedtimeBridgeSettings#SET_UP_SLEEP_CELL_ID`
+- Szinkronizált zene | Tárhelykorlát | Zene: `bridge:root=com.apple.NanoMusicBridgeSettings`
+- Szinkronizált zene | Tárhelykorlát | Zene → LEJÁTSZÁSI LISTÁK ÉS ALBUMOK: `bridge:root=com.apple.NanoMusicBridgeSettings#PLAYLISTS%20&%20ALBUMS`
+- Szinkronizált zene | Tárhelykorlát | Zene → Zene hozzáadása…: `bridge:root=com.apple.NanoMusicBridgeSettings#Add%20Music%E2%80%A6`
+- Tárca és Apple Pay: `bridge:root=com.apple.NanoPassbookBridgeSettings`
+- Tárca és Apple Pay → Apple Cash: `bridge:root=com.apple.NanoPassbookBridgeSettings#Apple%C2%A0Cash`
+- Tárca és Apple Pay → Kártya hozzáadása: `bridge:root=com.apple.NanoPassbookBridgeSettings#Add%20Card`
+- Tárca és Apple Pay → Értesítések: `bridge:root=com.apple.NanoPassbookBridgeSettings#MIRROR_RADIO_GROUP_ID`
+- Tárca és Apple Pay → iPhone tükrözése: `bridge:root=com.apple.NanoPassbookBridgeSettings#MIRROR_MY_COMPANION_ID`
+- Tárca és Apple Pay → Egyéni: `bridge:root=com.apple.NanoPassbookBridgeSettings#CUSTOM_ID`
+- Egészség: `bridge:root=com.apple.BridgeHealthSettings`
+- Apple Watch keresése: `bridge:root=ActiveWatch`
+- Apple Watch keresése → Új Watch párosítása: `bridge:root=ActiveWatch&path=Pair%20New%20Watch`
+- Tudatosság: `bridge:root=com.apple.MindSettings`
+- Tudatosság → Értesítések engedélyezése: `bridge:root=com.apple.MindSettings#ALLOW_NOTIFICATIONS_ID`
+- Tudatosság → Küldés az Értesítési központba: `bridge:root=com.apple.MindSettings#SEND_TO_NOTIFICATION_CENTER_ID`
+- Tudatosság → Értesítések kikapcsolva: `bridge:root=com.apple.MindSettings#NOTIFICATIONS_OFF_ID`
+- Tudatosság → Tudatossággal kapcsolatos emlékeztetők: `bridge:root=com.apple.MindSettings#MIND_GROUP_ID`
+- Tudatosság → A nap kezdetén: `bridge:root=com.apple.MindSettings#MIND_START_OF_DAY_REMINDER`
+- Tudatosság → A nap végén: `bridge:root=com.apple.MindSettings#MIND_END_OF_DAY_REMINDER`
+- Tudatosság → Emlékeztető hozzáadása…: `bridge:root=com.apple.MindSettings#Add%20Reminder%E2%80%A6`
+- Tudatosság → Heti összesítés: `bridge:root=com.apple.MindSettings#MIND_WEEKLY_SUMMARY_ID`
+- Tudatosság → Némítás a mai napra: `bridge:root=com.apple.MindSettings#MIND_MUTE_FOR_TODAY_ID`
+- Tudatosság → Légzés gyakorisága: `bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID`
+- Tudatosság → Légzés gyakorisága → 4 légzés/perc: `bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_4`
+- Tudatosság → Légzés gyakorisága → 5 légzés/perc: `bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_5`
+- Tudatosság → Légzés gyakorisága → 6 légzés/perc: `bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_6`
+- Tudatosság → Légzés gyakorisága → 7 légzés/perc: `bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_7`
+- Tudatosság → Légzés gyakorisága → 8 légzés/perc: `bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_8`
+- Tudatosság → Légzés gyakorisága → 9 légzés/perc: `bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_9`
+- Tudatosság → Légzés gyakorisága → 10 légzés/perc: `bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_10`
+- Tudatosság → Haptikus jelzések: `bridge:root=com.apple.MindSettings&path=MIND_HAPTICS_ID`
+- Tudatosság → Haptikus jelzések → Nincs: `bridge:root=com.apple.MindSettings&path=MIND_HAPTICS_ID#NONE_ID`
+- Tudatosság → Haptikus jelzések → Minimális: `bridge:root=com.apple.MindSettings&path=MIND_HAPTICS_ID#MINIMAL_ID`
+- Tudatosság → Haptikus jelzések → Figyelemfelkeltő: `bridge:root=com.apple.MindSettings&path=MIND_HAPTICS_ID#PROMINENT_ID`
+- Podcastok: `bridge:root=com.apple.private.PodcastsBridgeSettings`
+- Telefon: `bridge:root=com.apple.PhoneBridgeSettings`
+- Telefon → Hívások: `bridge:root=com.apple.PhoneBridgeSettings#carrier_direct_calling_group_id`
+- Telefon → Csengőhang: `bridge:root=com.apple.PhoneBridgeSettings#RINGTONE`
+- Telefon → Hang: `bridge:root=com.apple.PhoneBridgeSettings#INCOMING_CALL_SOUND`
+- Telefon → Haptikus: `bridge:root=com.apple.PhoneBridgeSettings#INCOMING_CALL_HAPTIC`
+- Mélység: `bridge:root=com.apple.DepthCompanionSettings`
+- Művelet gomb: `bridge:root=STING_TITLE`
+- Szolgáltatóbeállítások: `bridge:root=CARRIER_SETTINGS`
+- Mobilhálózat: `bridge:root=CELLULAR_ID`
+- Dock: `bridge:root=DOCK`
+- Dock → Dock rendezése: `bridge:root=DOCK#OrderingOptionGroup`
+- Dock → Előzmény: `bridge:root=DOCK#Recents`
+- Dock → Kedvencek: `bridge:root=DOCK#Favorites`
+- Dock: `bridge:root=DOCK.0`
+- Dock → Dock rendezése: `bridge:root=DOCK.0#OrderingOptionGroup`
+- Dock → Előzmény: `bridge:root=DOCK.0#Recents`
+- Dock → Kedvencek: `bridge:root=DOCK.0#Favorites`
+- Hangoskönyvek: `bridge:root=com.apple.NanoBooks.BridgeSettings`
+- Hangoskönyvek → Bejelentkezés: `bridge:root=com.apple.NanoBooks.BridgeSettings#Sign%20In`
+- Fotók korlátja | Kijelölt fotóalbum: `bridge:root=com.apple.mobileslideshow`
+- Olvasási értesítés küldése: `bridge:root=com.apple.MessagesBridgeSettings%23READ_RECEIPTS`

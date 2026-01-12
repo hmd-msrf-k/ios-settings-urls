@@ -1,0 +1,14 @@
+- פרטיות ואבטחה: `settings-navigation://com.apple.Settings.PrivacyAndSecurity`
+- פרטיות ואבטחה → בדיקת בטיחות: `settings-navigation://com.apple.Settings.PrivacyAndSecurity/SAFETY_CHECK`
+- Apps: `settings-navigation://com.apple.Settings.Apps`
+- Apps → ‏Safari: `settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari/` or `prefs:root=SAFARI`
+- Apps → ‏Safari → הרחבות: `settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari/WEB_EXTENSIONS` or `prefs:root=SAFARI&path=WEB_EXTENSIONS`
+- Apps → ‏Safari → חסימת חלונות קופצניים: `settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari#BLOCK_POPUPS`
+- Apps → ‏Safari → מניעת מעקב חוצה-אתרים: `settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari#TRACKER_PROTECTION`
+- Apps → ‏Safari → מילוי אוטומטי: `settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari/AUTO_FILL` or `prefs:root=SAFARI&path=AUTO_FILL`
+- Apps → ‏Safari → הורדות: `settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari/DOWNLOADS` or `prefs:root=SAFARI&path=DOWNLOADS`
+- Apps → סיסמאות: `settings-navigation://com.apple.Settings.Apps/com.apple.Passwords`
+- Apps → סיסמאות → המלצות אבטחה: `settings-navigation://com.apple.Settings.Apps/com.apple.Passwords#SECURITY_RECOMMENDATIONS`
+- הבית שלי: `settings-navigation://com.apple.Settings.HomeKit`
+- Search: `settings-navigation://com.apple.Settings.Search`
+- ספק שירותי טלוויזיה: `settings-navigation://com.apple.Settings.TVProvider`

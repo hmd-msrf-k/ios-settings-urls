@@ -1,0 +1,14 @@
+- પ્રાઇવસિ અને સુરક્ષા: `settings-navigation://com.apple.Settings.PrivacyAndSecurity`
+- પ્રાઇવસિ અને સુરક્ષા → સુરક્ષા તપાસ: `settings-navigation://com.apple.Settings.PrivacyAndSecurity/SAFETY_CHECK`
+- Apps: `settings-navigation://com.apple.Settings.Apps`
+- Apps → Safari: `settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari/` or `prefs:root=SAFARI`
+- Apps → Safari → એક્સ્ટેંશન: `settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari/WEB_EXTENSIONS` or `prefs:root=SAFARI&path=WEB_EXTENSIONS`
+- Apps → Safari → પૉપ-અપ બ્લૉક કરો: `settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari#BLOCK_POPUPS`
+- Apps → Safari → ક્રૉસ-સાઇટ ટ્રૅકિંગ રોકો: `settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari#TRACKER_PROTECTION`
+- Apps → Safari → ઑટોફિલ: `settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari/AUTO_FILL` or `prefs:root=SAFARI&path=AUTO_FILL`
+- Apps → Safari → ડાઉનલોડ: `settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari/DOWNLOADS` or `prefs:root=SAFARI&path=DOWNLOADS`
+- Apps → પાસવર્ડ ઍપ: `settings-navigation://com.apple.Settings.Apps/com.apple.Passwords`
+- Apps → પાસવર્ડ ઍપ → સિક્યુરિટી માટે ભલામણો: `settings-navigation://com.apple.Settings.Apps/com.apple.Passwords#SECURITY_RECOMMENDATIONS`
+- હોમ ઍપ: `settings-navigation://com.apple.Settings.HomeKit`
+- Search: `settings-navigation://com.apple.Settings.Search`
+- TV પ્રોવાઇડર: `settings-navigation://com.apple.Settings.TVProvider`

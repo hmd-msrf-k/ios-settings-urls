@@ -1,0 +1,14 @@
+- ଗୋପନୀୟତା ଓ ସୁରକ୍ଷା: `settings-navigation://com.apple.Settings.PrivacyAndSecurity`
+- ଗୋପନୀୟତା ଓ ସୁରକ୍ଷା → ନିରାପତ୍ତା ଯାଞ୍ଚ: `settings-navigation://com.apple.Settings.PrivacyAndSecurity/SAFETY_CHECK`
+- Apps: `settings-navigation://com.apple.Settings.Apps`
+- Apps → Safari: `settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari/` or `prefs:root=SAFARI`
+- Apps → Safari → ଏକ୍ସ୍‌ଟେନ୍‌ଶନ୍: `settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari/WEB_EXTENSIONS` or `prefs:root=SAFARI&path=WEB_EXTENSIONS`
+- Apps → Safari → ପପ୍-ଅପ୍‌ ବ୍ଲକ୍ କରନ୍ତୁ: `settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari#BLOCK_POPUPS`
+- Apps → Safari → କ୍ରସ୍-ସାଇଟ୍ ଟ୍ରାକିଂ ପ୍ରତିରୋଧ କରନ୍ତୁ: `settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari#TRACKER_PROTECTION`
+- Apps → Safari → ଅଟୋଫିଲ୍: `settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari/AUTO_FILL` or `prefs:root=SAFARI&path=AUTO_FILL`
+- Apps → Safari → ଡାଉନ୍‌ଲୋଡ୍‌ଗୁଡ଼ିକ: `settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari/DOWNLOADS` or `prefs:root=SAFARI&path=DOWNLOADS`
+- Apps → ପାସ୍‌ୱର୍ଡ୍‌: `settings-navigation://com.apple.Settings.Apps/com.apple.Passwords`
+- Apps → ପାସ୍‌ୱର୍ଡ୍‌ → ସୁରକ୍ଷା ସୁପାରିଶଗୁଡ଼ିକ: `settings-navigation://com.apple.Settings.Apps/com.apple.Passwords#SECURITY_RECOMMENDATIONS`
+- ଘର: `settings-navigation://com.apple.Settings.HomeKit`
+- Search: `settings-navigation://com.apple.Settings.Search`
+- TV ପ୍ରୋଭାଇଡର୍‌: `settings-navigation://com.apple.Settings.TVProvider`

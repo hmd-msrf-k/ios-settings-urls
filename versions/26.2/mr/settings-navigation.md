@@ -1,0 +1,14 @@
+- गोपनीयता व सुरक्षा: `settings-navigation://com.apple.Settings.PrivacyAndSecurity`
+- गोपनीयता व सुरक्षा → सुरक्षा तपासणी: `settings-navigation://com.apple.Settings.PrivacyAndSecurity/SAFETY_CHECK`
+- Apps: `settings-navigation://com.apple.Settings.Apps`
+- Apps → Safari: `settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari/` or `prefs:root=SAFARI`
+- Apps → Safari → एक्सटेंशन: `settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari/WEB_EXTENSIONS` or `prefs:root=SAFARI&path=WEB_EXTENSIONS`
+- Apps → Safari → पॉप अप ब्लॉक करा: `settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari#BLOCK_POPUPS`
+- Apps → Safari → क्रॉस साइट ट्रॅकिंगला प्रतिबंध करा: `settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari#TRACKER_PROTECTION`
+- Apps → Safari → ऑटोफिल करा: `settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari/AUTO_FILL` or `prefs:root=SAFARI&path=AUTO_FILL`
+- Apps → Safari → डाउनलोड: `settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari/DOWNLOADS` or `prefs:root=SAFARI&path=DOWNLOADS`
+- Apps → पासवर्ड: `settings-navigation://com.apple.Settings.Apps/com.apple.Passwords`
+- Apps → पासवर्ड → सुरक्षा शिफारशी: `settings-navigation://com.apple.Settings.Apps/com.apple.Passwords#SECURITY_RECOMMENDATIONS`
+- होम: `settings-navigation://com.apple.Settings.HomeKit`
+- Search: `settings-navigation://com.apple.Settings.Search`
+- टिव्ही सर्व्हिस प्रोव्हायडर: `settings-navigation://com.apple.Settings.TVProvider`

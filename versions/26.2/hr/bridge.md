@@ -1,0 +1,519 @@
+- Zasićenost kisikom: `bridge:root=com.apple.OxygenSaturationSettings`
+- Pranje ruku: `bridge:root=com.apple.BrookBridgeSettings`
+- Pranje ruku → Dozvoli obavijesti: `bridge:root=com.apple.BrookBridgeSettings#ALLOW_NOTIFICATIONS_ID`
+- Pranje ruku → Šalji u Centar za obavijesti: `bridge:root=com.apple.BrookBridgeSettings#SEND_TO_NOTIFICATION_CENTER_ID`
+- Pranje ruku → Isključi obavijesti: `bridge:root=com.apple.BrookBridgeSettings#NOTIFICATIONS_OFF_ID`
+- Pranje ruku → Grupiranje obavijesti: `bridge:root=com.apple.BrookBridgeSettings&path=NOTIFICATION_COALESCING_ID`
+- Pranje ruku → Brojač za pranje ruku: `bridge:root=com.apple.BrookBridgeSettings#HANDWASHING_TIMER_ID`
+- Zaslon i svjetlina: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID`
+- Zaslon i svjetlina → Trajanje uključenosti: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=WAKE_DURATION_SELECTION_KEY`
+- Zaslon i svjetlina → Trajanje uključenosti → NAKON DODIRA: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=WAKE_DURATION_SELECTION_KEY#ON_TAP_GROUP_ID`
+- Zaslon i svjetlina → Trajanje uključenosti → Uključi na 15 sekundi: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=WAKE_DURATION_SELECTION_KEY#SHORT_WAKE_ID`
+- Zaslon i svjetlina → Trajanje uključenosti → Uključi na 70 sekundi: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=WAKE_DURATION_SELECTION_KEY#LONG_WAKE_ID`
+- Zaslon i svjetlina → Svjetlina: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID#BRIGHTNESS_LABEL`
+- Zaslon i svjetlina → Uvijek uključeno: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID`
+- Zaslon i svjetlina → Uvijek uključeno → Uvijek uključeno: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID#TRITIUM_ID`
+- Zaslon i svjetlina → Uvijek uključeno → ZAPEŠĆE SPUŠTENO: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID#TRITIUM_PRIVACY_GROUP_ID`
+- Zaslon i svjetlina → Uvijek uključeno → Prikaži Aktivnosti uživo: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_LIVE_ACTIVITIES_ID`
+- Zaslon i svjetlina → Uvijek uključeno → Prikaži Aktivnosti uživo → Prikaži Aktivnosti uživo: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_LIVE_ACTIVITIES_ID#APP_BACKLIGHT_PRIVACY_GLOBAL_APP`
+- Zaslon i svjetlina → Uvijek uključeno → Prikaz aplikacija: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_APPS_ID`
+- Zaslon i svjetlina → Uvijek uključeno → Prikaz aplikacija → Prikaz aplikacija: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_APPS_ID#APP_BACKLIGHT_PRIVACY_GLOBAL_APP`
+- Zaslon i svjetlina → Uvijek uključeno → Prikaz aplikacija → APLIKACIJE: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_APPS_ID#APP_GROUP_ID`
+- Zaslon i svjetlina → Uvijek uključeno → Prikaz aplikacija → App Store: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_APPS_ID#com.apple.AppStore`
+- Zaslon i svjetlina → Uvijek uključeno → Prikaz aplikacija → Nike Run Club: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_APPS_ID#com.nike.nikeplus-gps.watchkitapp`
+- Zaslon i svjetlina → Uvijek uključeno → Prikaz aplikacija → Telefon: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_APPS_ID#com.apple.NanoPhone`
+- Zaslon i svjetlina → Uvijek uključeno → Prikaz aplikacija → Fotografije: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_APPS_ID#com.apple.NanoPhotos`
+- Zaslon i svjetlina → Uvijek uključeno → Prikaz aplikacija → Postavke: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_APPS_ID#com.apple.NanoSettings`
+- Zaslon i svjetlina → Uvijek uključeno → Prikaz aplikacija → Dodirnite-za-Radar: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_APPS_ID#com.apple.NanoTapToRadar`
+- Zaslon i svjetlina → Uvijek uključeno → Prikaži obavijesti: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID`
+- Zaslon i svjetlina → Uvijek uključeno → Prikaži obavijesti → Prikaži obavijesti: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#APP_BACKLIGHT_PRIVACY_GLOBAL_APP`
+- Zaslon i svjetlina → Uvijek uključeno → Prikaži obavijesti → APLIKACIJE ZA APPLE WATCH | APLIKACIJE ZA IPHONE: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#APP_GROUP_ID`
+- Zaslon i svjetlina → Uvijek uključeno → Prikaži obavijesti → App Store: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.AppStore`
+- Zaslon i svjetlina → Uvijek uključeno → Prikaži obavijesti → Nike Run Club: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.nike.nikeplus-gps.watchkitapp`
+- Zaslon i svjetlina → Uvijek uključeno → Prikaži obavijesti → Telefon: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.NanoPhone`
+- Zaslon i svjetlina → Uvijek uključeno → Prikaži obavijesti → Fotografije: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.NanoPhotos`
+- Zaslon i svjetlina → Uvijek uključeno → Prikaži obavijesti → Postavke: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.NanoSettings`
+- Zaslon i svjetlina → Uvijek uključeno → Prikaži obavijesti → Dodirnite-za-Radar: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.NanoTapToRadar`
+- Zaslon i svjetlina → Uvijek uključeno → Prikaži obavijesti → Postavke pristupačnosti: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.accessibility.TeachableMomentsNotifications`
+- Zaslon i svjetlina → Uvijek uključeno → Prikaži obavijesti → Knjige: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.iBooks`
+- Zaslon i svjetlina → Uvijek uključeno → Prikaži obavijesti → Caffè Macs: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.ist.CaffeMacsApp`
+- Zaslon i svjetlina → Uvijek uključeno → Prikaži obavijesti → Kalendar: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.mobilecal`
+- Zaslon i svjetlina → Uvijek uključeno → Prikaži obavijesti → Kamera: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.camera`
+- Zaslon i svjetlina → Uvijek uključeno → Prikaži obavijesti → Spoji: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.ist.AppleConnect`
+- Zaslon i svjetlina → Uvijek uključeno → Prikaži obavijesti → Dijagnostički izvjestitelj: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.DiagnosticsReporter`
+- Zaslon i svjetlina → Uvijek uključeno → Prikaži obavijesti → Interna povratna informacija: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.FeedbackInternal`
+- Zaslon i svjetlina → Uvijek uključeno → Prikaži obavijesti → Fitness: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.Fitness`
+- Zaslon i svjetlina → Uvijek uključeno → Prikaži obavijesti → Game Center: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.gamecenter`
+- Zaslon i svjetlina → Uvijek uključeno → Prikaži obavijesti → Zdravlje: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.Health`
+- Zaslon i svjetlina → Uvijek uključeno → Prikaži obavijesti → Odobreno: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.Livability`
+- Zaslon i svjetlina → Uvijek uključeno → Prikaži obavijesti → Mail: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.mobilemail`
+- Zaslon i svjetlina → Uvijek uključeno → Prikaži obavijesti → Poruke: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.MobileSMS`
+- Zaslon i svjetlina → Uvijek uključeno → Prikaži obavijesti → Samostalno servisiranje: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.jamfsoftware.selfservice`
+- Zaslon i svjetlina → Uvijek uključeno → Prikaži obavijesti → Obavijesti o praćenju: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.FindMySafetyAlertsNotifications`
+- Zaslon i svjetlina → Uvijek uključeno → Prikaži obavijesti → Vrijeme: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.weather`
+- Zaslon i svjetlina → Uvijek uključeno → Prikaži podatke dodataka: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_COMPLICATIONS_DATA_ID`
+- Zaslon i svjetlina → Uvijek uključeno → Prikaži podatke dodataka → Prikazivanje podataka dodataka: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_COMPLICATIONS_DATA_ID#Show%20Complication%20Data`
+- Zaslon i svjetlina → Uvijek uključeno → Prikaži podatke dodataka → Aplikacije: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_COMPLICATIONS_DATA_ID#Apps`
+- Zaslon i svjetlina → Uvijek uključeno → Prikaži podatke dodataka → Učitavanje…: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_COMPLICATIONS_DATA_ID#Loading%E2%80%A6`
+- Zaslon i svjetlina → Uvijek uključeno → Prikaži podatke dodataka → Siri: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_COMPLICATIONS_DATA_ID#Siri`
+- Zaslon i svjetlina → Uvijek uključeno → Prikaži podatke dodataka → Kartice Siri: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_COMPLICATIONS_DATA_ID#Siri%20Cards`
+- Zaslon i svjetlina → Veličina teksta: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID#TEXT_SIZE`
+- Zaslon i svjetlina → Podebljani tekst: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID#BOLD_TEXT`
+- Zaslon i svjetlina → Uključen: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID#Wake`
+- Zaslon i svjetlina → Uključi po podizanju zapešća: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID#WAKE_SCREEN_ON_WRIST_RAISE_SWITCH_ID`
+- Zaslon i svjetlina → Uključi po okretanju krune: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID#WAKE_SCREEN_ON_CROWN_UP_SWITCH_ID`
+- Fotografije: `bridge:root=com.apple.NanoPhotosBridgeSettings`
+- Fotografije → Sinkroniziranje fotografija: `bridge:root=com.apple.NanoPhotosBridgeSettings#Photo%20Syncing`
+- Fotografije → Uspomene: `bridge:root=com.apple.NanoPhotosBridgeSettings#Memories`
+- Fotografije → Sinkroniziraj uspomene: `bridge:root=com.apple.NanoPhotosBridgeSettings#Sync%20Memories`
+- Fotografije → Izdvojene fotografije: `bridge:root=com.apple.NanoPhotosBridgeSettings#Featured%20Photos`
+- Fotografije → Sinkroniziraj izdvojene fotografije: `bridge:root=com.apple.NanoPhotosBridgeSettings#Sync%20Featured%20Photos`
+- Fotografije → Album: `bridge:root=com.apple.NanoPhotosBridgeSettings#Album`
+- Fotografije → Sinkroniziraj album: `bridge:root=com.apple.NanoPhotosBridgeSettings&path=Sync%20Album`
+- Fotografije → Ograničenje: `bridge:root=com.apple.NanoPhotosBridgeSettings&path=Photos%20Limit`
+- Fotografije → Postavke za obavijesti: `bridge:root=com.apple.NanoPhotosBridgeSettings#MIRROR_RADIO_GROUP_ID`
+- Fotografije → Zrcali moj iPhone: `bridge:root=com.apple.NanoPhotosBridgeSettings#MIRROR_MY_COMPANION_ID`
+- Fotografije → Prilagodi: `bridge:root=com.apple.NanoPhotosBridgeSettings#CUSTOM_ID`
+- Dodaci: `bridge:root=COMPLICATIONS`
+- Kontrolni centar: `bridge:root=CONTROL_CENTER_ID`
+- Kontrolni centar → Resetirajte raspored Kontrolnog centra: `bridge:root=CONTROL_CENTER_ID#CONTROL_CENTER_RESET_ID`
+- Prikaz aplikacije: `bridge:root=APP_VIEW_ID`
+- Općenito: `bridge:root=GENERAL_LINK`
+- Općenito → Opis: `bridge:root=GENERAL_LINK&path=ABOUT`
+- Općenito → Opis → Ime: `bridge:root=GENERAL_LINK&path=ABOUT/NAME_CELL_ID`
+- Općenito → Opis → Verzija watchOS-a: `bridge:root=GENERAL_LINK&path=ABOUT#OS_VERSION_CELL_ID`
+- Općenito → Opis → Naziv modela: `bridge:root=GENERAL_LINK&path=ABOUT#DEVICE_MARKETING_NAME_CELL_ID`
+- Općenito → Opis → Detalji modela: `bridge:root=GENERAL_LINK&path=ABOUT#DEVICE_DETAIL_CELL_ID`
+- Općenito → Opis → Broj modela: `bridge:root=GENERAL_LINK&path=ABOUT#DEVICE_MODEL_CELL_ID`
+- Općenito → Opis → Serijski broj: `bridge:root=GENERAL_LINK&path=ABOUT#DEVICE_SERIAL_NUMBER_CELL_ID`
+- Općenito → Opis → Pjesme: `bridge:root=GENERAL_LINK&path=ABOUT#SONGS_CELL_ID`
+- Općenito → Opis → Fotografije: `bridge:root=GENERAL_LINK&path=ABOUT#PHOTOS_CELL_ID`
+- Općenito → Opis → Aplikacije: `bridge:root=GENERAL_LINK&path=ABOUT#APPLICATIONS_CELL_ID`
+- Općenito → Opis → Kapacitet: `bridge:root=GENERAL_LINK&path=ABOUT#STORAGE_CAPACITY_CELL_ID`
+- Općenito → Opis → Dostupno: `bridge:root=GENERAL_LINK&path=ABOUT#STORAGE_AVAILABLE_CELL_ID`
+- Općenito → Opis → Operater: `bridge:root=GENERAL_LINK&path=ABOUT#CARRIER_CELL_ID`
+- Općenito → Opis → Bluetooth: `bridge:root=GENERAL_LINK&path=ABOUT#DEVICE_BLUETOOTH_ADDRESS_CELL_ID`
+- Općenito → Opis → IMEI: `bridge:root=GENERAL_LINK&path=ABOUT#IMEI_CELL_ID`
+- Općenito → Opis → ICCID: `bridge:root=GENERAL_LINK&path=ABOUT#ICCID_CELL_ID`
+- Općenito → Opis → EID: `bridge:root=GENERAL_LINK&path=ABOUT/EID_CELL_ID`
+- Općenito → Opis → SEID: `bridge:root=GENERAL_LINK&path=ABOUT/DEVICE_SEID_CELL_ID`
+- Općenito → Opis → Pravne informacije: `bridge:root=GENERAL_LINK&path=ABOUT/LEGAL_CELL_ID`
+- Općenito → Opis → Upute za uporabu Apple Watcha : `bridge:root=GENERAL_LINK&path=ABOUT#SHOW_MANUAL_CELL_ID`
+- Općenito → Ažuriranje softvera: `bridge:root=GENERAL_LINK&path=SOFTWARE_UPDATE_LINK`
+- Općenito → Auto instaliranje aplikacija: `bridge:root=GENERAL_LINK#AUTO_APP_INSTALL_SWITCH_ID`
+- Općenito → Zrakoplovni mod: `bridge:root=GENERAL_LINK&path=AIRPLANE_MODE_ID`
+- Općenito → Fokus: `bridge:root=GENERAL_LINK&path=FOCUS_ID`
+- Općenito → Fokus → Zrcali moj iPhone: `bridge:root=GENERAL_LINK&path=FOCUS_ID#Mirror%20my%20iPhone`
+- Općenito → Orijentacija sata: `bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION_ID`
+- Općenito → Orijentacija sata → Apple Watch nosite: `bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION_ID#WRIST_CHOICE_ID`
+- Općenito → Orijentacija sata → Na lijevom zapešću: `bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION_ID#LEFT_HAND_ID`
+- Općenito → Orijentacija sata → Na desnom zapešću: `bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION_ID#RIGHT_HAND_ID`
+- Općenito → Orijentacija sata → Digital Crown na lijevoj strani: `bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION_ID#LISA_ON_LEFT_ID`
+- Općenito → Orijentacija sata → Digital Crown na desnoj strani: `bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION_ID#LISA_ON_RIGHT_ID`
+- Općenito → Apple račun: `bridge:root=GENERAL_LINK&path=LINK_WITH_ICLOUD_LINK`
+- Općenito → Omogući Diktat: `bridge:root=GENERAL_LINK#DICTATION_CELL_ID`
+- Općenito → Automatska interpunkcija: `bridge:root=GENERAL_LINK#DICTATION_AUTO_PUNCTUATION_CELL_ID`
+- Općenito → Omogući Handoff: `bridge:root=GENERAL_LINK#CONTINUITY_ID`
+- Općenito → Mod za noćni ormarić: `bridge:root=GENERAL_LINK#NIGHTSTAND_CELL_ID`
+- Općenito → Omogući slike zaslona: `bridge:root=GENERAL_LINK#BUTTON_CHORD_CELL_ID`
+- Općenito → Memorija | Pripravno stanje | Vrijeme od zadnjeg potpunog punjenja | Štednja energije: `bridge:root=GENERAL_LINK&path=USAGE_LINK`
+- Općenito → Profil: `bridge:root=GENERAL_LINK&path=ManagedConfigurationList`
+- Općenito → Dijagnostički log zapisi: `bridge:root=GENERAL_LINK&path=DIAGNOSTIC_LOG_BROWSER`
+- Općenito → Dijagnostički log zapisi → Učitavanje…: `bridge:root=GENERAL_LINK&path=DIAGNOSTIC_LOG_BROWSER#Loading%E2%80%A6`
+- Općenito → Kopiraj analizu sata: `bridge:root=GENERAL_LINK#LOGS_CELL_ID`
+- Općenito → Resetiraj: `bridge:root=GENERAL_LINK&path=RESET_ID`
+- Općenito → POVRATAK NA SAT: `bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK_ID`
+- Općenito → POVRATAK NA SAT → POVRATAK NA SAT: `bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK_ID#CSLPRFReturnToClockGroupID`
+- Općenito → POVRATAK NA SAT → Uvijek: `bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK_ID#RETURN_TO_CLOCK_ALWAYS`
+- Općenito → POVRATAK NA SAT → Nakon 2 minute: `bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK_ID#RETURN_TO_CLOCK_AFTER_2_MINUTES`
+- Općenito → POVRATAK NA SAT → Nakon sat vremena: `bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK_ID#RETURN_TO_CLOCK_AFTER_1_HOUR`
+- Općenito → POVRATAK NA SAT → APLIKACIJE: `bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK_ID#APP_GROUP_ID`
+- Općenito → Osvježavanje u pozadini: `bridge:root=GENERAL_LINK&path=BAR_ROW_ID`
+- Općenito → Osvježavanje u pozadini → Osvježavanje u pozadini: `bridge:root=GENERAL_LINK&path=BAR_ROW_ID#BACKGROUND_APP_UPDATING_CELL_ID`
+- Općenito → Jezik i regija: `bridge:root=GENERAL_LINK&path=LANGUAGE_AND_REGION_ID`
+- Općenito → Jezik i regija → Zrcali moj iPhone: `bridge:root=GENERAL_LINK&path=LANGUAGE_AND_REGION_ID#MIRROR_MY_COMPANION_ID`
+- Općenito → Jezik i regija → Prilagodi: `bridge:root=GENERAL_LINK&path=LANGUAGE_AND_REGION_ID#CUSTOM_ID`
+- Općenito → Automatski pokreni ispod površine vode: `bridge:root=GENERAL_LINK&path=AUTO_LAUNCH`
+- Općenito → Automatsko pokretanje: `bridge:root=GENERAL_LINK&path=AUTO_LAUNCH_ID`
+- Općenito → Wake Screen: `bridge:root=GENERAL_LINK&path=WAKE_SCREEN`
+- Općenito → Wake Screen → Izvodi se: `bridge:root=GENERAL_LINK&path=WAKE_SCREEN#AUTO_LAUNCH_MEDIA`
+- Zvukovi i vibracije: `bridge:root=SOUNDS_ID`
+- Zvukovi i vibracije → Glasnoća alarma: `bridge:root=SOUNDS_ID#AUDIO_SLIDER`
+- Zvukovi i vibracije → Melodija zvona i alarmi: `bridge:root=SOUNDS_ID#RINGTONE_AND_ALERTS_SECTION_TITLE`
+- Zvukovi i vibracije → Tihi način rada: `bridge:root=SOUNDS_ID#audio_mute_switch`
+- Zvukovi i vibracije → Automatski podesi glasnoću: `bridge:root=SOUNDS_ID#contextual_volume_switch`
+- Zvukovi i vibracije → Razina: `bridge:root=SOUNDS_ID&path=contextual_volume_profile`
+- Zvukovi i vibracije → Razina → Glasnije: `bridge:root=SOUNDS_ID&path=contextual_volume_profile#CONTEXTUAL_VOLUME_PROFILE_LOUDER_ID`
+- Zvukovi i vibracije → Razina → Standardno: `bridge:root=SOUNDS_ID&path=contextual_volume_profile#CONTEXTUAL_VOLUME_PROFILE_DEFAULT_ID`
+- Zvukovi i vibracije → Razina → Tiše: `bridge:root=SOUNDS_ID&path=contextual_volume_profile#CONTEXTUAL_VOLUME_PROFILE_QUIETER_ID`
+- Zvukovi i vibracije → Vibracija: `bridge:root=SOUNDS_ID&path=HAPTICS_ID`
+- Zvukovi i vibracije → Vibracija → Isključeno: `bridge:root=SOUNDS_ID&path=HAPTICS_ID#OFF_ITEM_ID`
+- Zvukovi i vibracije → Vibracija → Standardno: `bridge:root=SOUNDS_ID&path=HAPTICS_ID#DEFAULT_ITEM_ID`
+- Zvukovi i vibracije → Vibracija → Upadljivo: `bridge:root=SOUNDS_ID&path=HAPTICS_ID#PROMINENT_ITEM_ID`
+- Zvukovi i vibracije → Melodija zvona: `bridge:root=SOUNDS_ID&path=SOUND_AND_HAPTIC_PATTERNS_RINGTONE_ID`
+- Zvukovi i vibracije → Zvuk poruke: `bridge:root=SOUNDS_ID&path=SOUND_AND_HAPTIC_PATTERNS_TEXTTONE_ID`
+- Zvukovi i vibracije → Novi e-mail: `bridge:root=SOUNDS_ID&path=SOUND_AND_HAPTIC_PATTERNS_NEWMAIL_ID`
+- Zvukovi i vibracije → Alarmi kalendara: `bridge:root=SOUNDS_ID&path=SOUND_AND_HAPTIC_PATTERNS_CALENDARALERTS_ID`
+- Zvukovi i vibracije → Alarmi podsjetnika: `bridge:root=SOUNDS_ID&path=SOUND_AND_HAPTIC_PATTERNS_REMINDERALERTS_ID`
+- Zvukovi i vibracije → Standardna upozorenja: `bridge:root=SOUNDS_ID&path=SOUND_AND_HAPTIC_PATTERNS_DEFAULTALERTS_ID`
+- Zvukovi i vibracije → Zvuk slušalica: `bridge:root=SOUNDS_ID#HEADPHONE_AUDIO_GROUP`
+- Zvukovi i vibracije → Sigurna uporaba slušalica: `bridge:root=SOUNDS_ID&path=HEADPHONE_LEVEL_LIMIT_SETTING`
+- Zvukovi i vibracije → Sigurna uporaba slušalica → Obavijesti o slušalicama: `bridge:root=SOUNDS_ID&path=HEADPHONE_LEVEL_LIMIT_SETTING#COSHeadphoneNotificationsSwitchKey`
+- Zvukovi i vibracije → Sigurna uporaba slušalica → Stišaj glasne zvukove: `bridge:root=SOUNDS_ID&path=HEADPHONE_LEVEL_LIMIT_SETTING#COSHeadphoneLevelLimitSwitchKey`
+- Zvukovi i vibracije → Zvukovi sustava i vibracija: `bridge:root=SOUNDS_ID#JACKRABBIT_GROUP_ID`
+- Zvukovi i vibracije → Vibracija krune: `bridge:root=SOUNDS_ID#JACKRABBIT_ID`
+- Zvukovi i vibracije → Vibracije sustava: `bridge:root=SOUNDS_ID#SYSTEM_HAPTICS_ID`
+- Hitan poziv: `bridge:root=SOS_MODE_ID`
+- Privatnost: `bridge:root=PRIVACY_ID`
+- Privatnost → Temperatura zapešća: `bridge:root=PRIVACY_ID#WRIST_TEMPERATURE_SWITCH_ID`
+- Vrijeme uporabe zaslona: `bridge:root=SCREEN_TIME_ID`
+- Nike Run Club: `bridge:root=VICTORY_ROW_ID`
+- Nike Run Club → Prikaži aplikaciju na Apple Watchu: `bridge:root=VICTORY_ROW_ID#SHOWS_ON_GIZMO`
+- Savjeti: `bridge:root=com.apple.NanoTipsBridgeSettings`
+- Savjeti → Dozvolite obavijesti: `bridge:root=com.apple.NanoTipsBridgeSettings#ALLOW_NOTIFICATIONS_ID`
+- Savjeti → Šalji u Centar za obavijesti: `bridge:root=com.apple.NanoTipsBridgeSettings#SEND_TO_NOTIFICATION_CENTER_ID`
+- Savjeti → Isključi obavijesti: `bridge:root=com.apple.NanoTipsBridgeSettings#NOTIFICATIONS_OFF_ID`
+- Savjeti → Grupiranje obavijesti: `bridge:root=com.apple.NanoTipsBridgeSettings&path=NOTIFICATION_COALESCING_ID`
+- Sat: `bridge:root=com.apple.NanoClockBridgeSettings`
+- Sat → 24-satno vrijeme: `bridge:root=com.apple.NanoClockBridgeSettings#24-Hour%20Time`
+- Sat → Zvono: `bridge:root=com.apple.NanoClockBridgeSettings#Chimes`
+- Sat → Zvukovi: `bridge:root=com.apple.NanoClockBridgeSettings&path=Sounds`
+- Sat → Zvukovi → Zvona: `bridge:root=com.apple.NanoClockBridgeSettings&path=Sounds#Bells`
+- Sat → Zvukovi → Ptice: `bridge:root=com.apple.NanoClockBridgeSettings&path=Sounds#Birds`
+- Sat → Pročitaj vrijeme: `bridge:root=com.apple.NanoClockBridgeSettings#Speak%20Time`
+- Sat → Upravljaj tihim načinom rada: `bridge:root=com.apple.NanoClockBridgeSettings#Control%20With%20Silent%20Mode`
+- Sat → Uvijek pročitaj: `bridge:root=com.apple.NanoClockBridgeSettings#Always%20Speak`
+- Sat → Vrijeme dodira: `bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time`
+- Sat → Vrijeme dodira → Vrijeme dodira: `bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time#Taptic%20Time`
+- Sat → Vrijeme dodira → Znamenke: `bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time#Digits`
+- Sat → Vrijeme dodira → Kratko: `bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time#Terse`
+- Sat → Vrijeme dodira → Morseov kôd: `bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time#Morse%20Code`
+- Sat → Proslijedi alarme s iPhonea: `bridge:root=com.apple.NanoClockBridgeSettings#Push%20Alerts%20from%20iPhone`
+- Sat → Indikator obavijesti: `bridge:root=com.apple.NanoClockBridgeSettings#Notifications%20Indicator`
+- Sat → Monogram: `bridge:root=com.apple.NanoClockBridgeSettings&path=MONOGRAM_ID`
+- Sat → Obavijesti o brojčaniku sata: `bridge:root=com.apple.NanoClockBridgeSettings#Watch%20Face%20Notifications`
+- Sat → Kratice gradova: `bridge:root=com.apple.NanoClockBridgeSettings&path=City%20Abbreviations`
+- Sat → Izvori podataka brojčanika Siri: `bridge:root=com.apple.NanoClockBridgeSettings&path=Siri%20Face%20Data%20Sources`
+- Tipka postupka: `bridge:root=ACTION_BUTTON_ID`
+- Tipka postupka → Geste | Postupak: `bridge:root=ACTION_BUTTON_ID#StingSystemSettingsActionTypeGroupID`
+- Tipka postupka → Trening: `bridge:root=ACTION_BUTTON_ID&path=StingSystemSettingsActionTypeItem`
+- Tipka postupka → Trening → Bez: `bridge:root=ACTION_BUTTON_ID&path=StingSystemSettingsActionTypeItem#StingSystemSettingsSelectedActionTypeItem`
+- Tipka postupka → Prvi pritisak: `bridge:root=ACTION_BUTTON_ID#StingSystemSettingsWorkoutGroupID`
+- Tipka postupka → Brzi prekidač: `bridge:root=ACTION_BUTTON_ID&path=ShowQuickSwitch`
+- Tipka postupka → Brzi prekidač → Brzi prekidač: `bridge:root=ACTION_BUTTON_ID&path=ShowQuickSwitch#StingQuickSwitchToggleGroup`
+- Tipka postupka → Brzi prekidač → Brzi prekidač: `bridge:root=ACTION_BUTTON_ID&path=ShowQuickSwitch#Quick%20Switch`
+- Tipka postupka → Brzi prekidač → Uključene aplikacije: `bridge:root=ACTION_BUTTON_ID&path=ShowQuickSwitch#StingQuickSwitchAppGroup`
+- Buka: `bridge:root=com.apple.Noise.settings`
+- Buka → Mjerenja zvukova iz okruženja: `bridge:root=com.apple.Noise.settings#ENABLE_MEASUREMENTS_ID`
+- Buka → Obavijesti o buci: `bridge:root=com.apple.Noise.settings#LOUD_NOTIFICATION_GROUP_ID`
+- Buka → Prag buke: `bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID`
+- Buka → Prag buke → Isključeno: `bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#OFF`
+- Buka → Prag buke → 80 decibela: `bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_80`
+- Buka → Prag buke → 85 decibela: `bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_85`
+- Buka → Prag buke → 90 decibela: `bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_90`
+- Buka → Prag buke → 95 decibela: `bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_95`
+- Buka → Prag buke → 100 decibela: `bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_100`
+- Buka → Grupiranje obavijesti: `bridge:root=com.apple.Noise.settings&path=NOTIFICATION_COALESCING_ID`
+- Kalendar: `bridge:root=com.apple.NanoCalendarBridgeSettings`
+- Kalendar → OBAVIJESTI: `bridge:root=com.apple.NanoCalendarBridgeSettings#MIRROR_RADIO_GROUP_ID`
+- Kalendar → Zrcali moj iPhone: `bridge:root=com.apple.NanoCalendarBridgeSettings#MIRROR_MY_COMPANION_ID`
+- Kalendar → Prilagodi…: `bridge:root=com.apple.NanoCalendarBridgeSettings#CUSTOM_ID`
+- Kalendar → KALENDARI: `bridge:root=com.apple.NanoCalendarBridgeSettings#CALENDARS_MIRROR_RADIO_GROUP_ID`
+- Kalendar → Zrcali moj iPhone: `bridge:root=com.apple.NanoCalendarBridgeSettings#CALENDARS_MIRROR_MY_COMPANION_ID`
+- Kalendar → Prilagodi…: `bridge:root=com.apple.NanoCalendarBridgeSettings&path=CALENDARS_CUSTOM_ID`
+- Kalendar → Nadolazeći događaji: `bridge:root=com.apple.NanoCalendarBridgeSettings&path=Upcoming%20Events`
+- Kalendar → Pozivnice: `bridge:root=com.apple.NanoCalendarBridgeSettings&path=Invitations`
+- Kalendar → Odgovori pozvanih: `bridge:root=com.apple.NanoCalendarBridgeSettings&path=Invitee%20Responses`
+- Kalendar → Promjene dijeljenog kalendara: `bridge:root=com.apple.NanoCalendarBridgeSettings&path=Shared%20Calendar%20Alerts`
+- Walkie-Talkie: `bridge:root=com.apple.tincan.settings`
+- Walkie-Talkie → Dozvoli obavijesti: `bridge:root=com.apple.tincan.settings#ALLOW_NOTIFICATIONS_ID`
+- Walkie-Talkie → Šalji u Centar za obavijesti: `bridge:root=com.apple.tincan.settings#SEND_TO_NOTIFICATION_CENTER_ID`
+- Walkie-Talkie → Isključi obavijesti: `bridge:root=com.apple.tincan.settings#NOTIFICATIONS_OFF_ID`
+- Walkie-Talkie → Grupiranje obavijesti: `bridge:root=com.apple.tincan.settings&path=NOTIFICATION_COALESCING_ID`
+- Walkie-Talkie → Prijatelji: `bridge:root=com.apple.tincan.settings#Friends`
+- Siri: `bridge:root=SIRI_WATCH_SETTINGS_ID`
+- Siri → Pitajte Siri: `bridge:root=SIRI_WATCH_SETTINGS_ID#ASK_SIRI_GROUP_ID`
+- Siri → Reagiraj na: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_TRIGGER_ID`
+- Siri → Reagiraj na → “Siri” ili “Hey Siri“: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_TRIGGER_ID#HS_JS_ID`
+- Siri → Reagiraj na → “Hey Siri”: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_TRIGGER_ID#HEY_SIRI_ID`
+- Siri → Reagiraj na → Isključeno: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_TRIGGER_ID#VOICE_TRIGGER_DISABLED_ID`
+- Siri → Podignite za razgovor: `bridge:root=SIRI_WATCH_SETTINGS_ID#RAISE_TO_SPEAK_SWITCH_ID`
+- Siri → Pritisnite Digital Crown: `bridge:root=SIRI_WATCH_SETTINGS_ID#DIGITAL_CROWN_SWITCH_ID`
+- Siri → Automatski pošalji poruke: `bridge:root=SIRI_WATCH_SETTINGS_ID#AUTOMATICALLY_SEND_MESSAGES_SWITCH_ID`
+- Siri → Odgovori od Siri: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=SIRI_RESPONSES_ID`
+- Siri → Odgovori od Siri → Uvijek prikaži opise za Siri: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=SIRI_RESPONSES_ID#ALWAYS_SHOW_SIRI_CAPTIONS_SWITCH_ID`
+- Siri → Odgovori od Siri → Uvijek prikaži govor: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=SIRI_RESPONSES_ID#ALWAYS_SHOW_SPEECH_SWITCH_ID`
+- Siri → Odgovori od Siri → Glasnoća glasa: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=SIRI_RESPONSES_ID#CONSIDERATE_VOLUME_GROUP_ID`
+- Siri → Odgovori od Siri → Automatski podesi glasnoću: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=SIRI_RESPONSES_ID#CONSIDERATE_VOLUME_SWITCH_ID`
+- Siri → Odgovori od Siri → Razina: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=SIRI_RESPONSES_ID/CONSIDERATE_VOLUME_PROFILE_ID`
+- Siri → Odgovori od Siri → Razina → Glasnije: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=SIRI_RESPONSES_ID/CONSIDERATE_VOLUME_PROFILE_ID#CONSIDERATE_VOLUME_PROFILE_LOUDER_ID`
+- Siri → Odgovori od Siri → Razina → Standardno: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=SIRI_RESPONSES_ID/CONSIDERATE_VOLUME_PROFILE_ID#CONSIDERATE_VOLUME_PROFILE_DEFAULT_ID`
+- Siri → Odgovori od Siri → Razina → Tiše: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=SIRI_RESPONSES_ID/CONSIDERATE_VOLUME_PROFILE_ID#CONSIDERATE_VOLUME_PROFILE_QUIETER_ID`
+- Siri → Glasovni odgovori: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_FEEDBACK_ID`
+- Siri → Glasovni odgovori → Uvijek uključeno: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_FEEDBACK_ID#VOICE_FEEDBACK_ALWAYS_ON_ID`
+- Siri → Glasovni odgovori → Upravljaj tihim načinom rada: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_FEEDBACK_ID#VOICE_FEEDBACK_CONTROL_WITH_SILENT_MODE_ID`
+- Siri → Glasovni odgovori → Samo slušalice: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_FEEDBACK_ID#VOICE_FEEDBACK_HEADPHONES_ONLY_ID`
+- Siri → Glasnoća glasa: `bridge:root=SIRI_WATCH_SETTINGS_ID#VOICE_VOLUME_GROUP_ID`
+- Siri → Siri prijedlozi: `bridge:root=SIRI_WATCH_SETTINGS_ID#ASSISTANT_SUGGESTIONS_GROUP_ID`
+- Trening: `bridge:root=com.apple.SessionTrackerAppSettings`
+- Trening → Brojčani prikaz ciljeva: `bridge:root=com.apple.SessionTrackerAppSettings#PRO_SETTING_ENABLED_LABEL`
+- Trening → Prikaz treninga: `bridge:root=com.apple.SessionTrackerAppSettings&path=METRIC_VIEW_ID`
+- Trening → Auto pauza: `bridge:root=com.apple.SessionTrackerAppSettings&path=AUTO_PAUSE_ID`
+- Trening → Auto pauza → Auto pauza: `bridge:root=com.apple.SessionTrackerAppSettings&path=AUTO_PAUSE_ID#WorkoutAutoPauseSwitch`
+- Trening → Podsjetnik za početak: `bridge:root=com.apple.SessionTrackerAppSettings#AUTO_START_WORKOUT_NOTIFICATIONS_ENABLED_LABEL`
+- Trening → Podsjetnik za završetak: `bridge:root=com.apple.SessionTrackerAppSettings#END_REMINDERS_ENABLED_LABEL`
+- Trening → Pritisnite za pauzu: `bridge:root=com.apple.SessionTrackerAppSettings#CHORD_PRESS_PAUSE_WORKOUT_ENABLED_LABEL`
+- Trening → Detektiraj spravu za vježbanje: `bridge:root=com.apple.SessionTrackerAppSettings#NFC_ENABLED_LABEL_ID`
+- Trening → Prikaz tempa/brzine: `bridge:root=com.apple.SessionTrackerAppSettings&path=PACE_VIEW_LABEL`
+- Trening → Prikaz tempa/brzine → Trenutačno: `bridge:root=com.apple.SessionTrackerAppSettings&path=PACE_VIEW_LABEL#CURRENT_PACE_ID`
+- Trening → Prikaz tempa/brzine → Prosjek: `bridge:root=com.apple.SessionTrackerAppSettings&path=PACE_VIEW_LABEL#AVERAGE_PACE_ID`
+- Trening → Lista za trening: `bridge:root=com.apple.SessionTrackerAppSettings&path=MUSIC_AUTOSTART_TITLE_ID`
+- Trening → Lista za trening → Bez: `bridge:root=com.apple.SessionTrackerAppSettings&path=MUSIC_AUTOSTART_TITLE_ID#NONE_AUTOSTART_ID`
+- Trening → Lista za trening → Liste: `bridge:root=com.apple.SessionTrackerAppSettings&path=MUSIC_AUTOSTART_TITLE_ID#MUSIC_PLAYLIST_GROUP_ID`
+- Trening → Reproduciraj od početka: `bridge:root=com.apple.SessionTrackerAppSettings#WORKOUT_MUSIC_PLAY_FROM_BEGINNING_SETTING_ID`
+- Trening → Slučajni slijed: `bridge:root=com.apple.SessionTrackerAppSettings#WORKOUT_MUSIC_SHUFFLE_SETTING_ID`
+- Trening → Mjerne jedinice: `bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID`
+- Trening → Mjerne jedinice → Kalorije: `bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#ENERGY_UNITS_CALORIES_ID`
+- Trening → Mjerne jedinice → Kilokalorije: `bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#ENERGY_UNITS_KILOCALORIES_ID`
+- Trening → Mjerne jedinice → Kilodžuli: `bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#ENERGY_UNITS_KILOJOULES_ID`
+- Trening → Mjerne jedinice → Jardi: `bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#POOL_LENGTH_YARDS_ID`
+- Trening → Mjerne jedinice → Metri: `bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#POOL_LENGTH_METERS_ID`
+- Trening → Mjerne jedinice → Milje: `bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#CYCLING_WORKOUTS_MILES_ID`
+- Trening → Mjerne jedinice → Kilometri: `bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#CYCLING_WORKOUTS_KILOMETERS_ID`
+- Trening → Mjerne jedinice → Milje: `bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#WALKING_AND_RUNNING_WORKOUTS_MILES_ID`
+- Trening → Mjerne jedinice → Kilometri: `bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#WALKING_AND_RUNNING_WORKOUTS_KILOMETERS_ID`
+- Trening → Glasovni odgovori: `bridge:root=com.apple.SessionTrackerAppSettings#WORKOUT_VOICE_FEEDBACK_LABEL`
+- Trening → Vrijeme za šetnju: `bridge:root=com.apple.SessionTrackerAppSettings#GUIDED_WORKOUT_PREFETCH_FOOTER_ID`
+- Trening → Dodajte nove treninge na sat: `bridge:root=com.apple.SessionTrackerAppSettings#GUIDED_WORKOUT_PREFETCH_LABEL_ID`
+- Trening → Mod slabog napajanja: `bridge:root=com.apple.SessionTrackerAppSettings#LOW_POWER_MODE`
+- Poruke: `bridge:root=com.apple.MessagesBridgeSettings`
+- Poruke → Zrcali moj iPhone: `bridge:root=com.apple.MessagesBridgeSettings#MIRROR_MY_COMPANION_ID`
+- Poruke → Prilagodi: `bridge:root=com.apple.MessagesBridgeSettings#CUSTOM_ID`
+- Poruke → Standardni odgovori: `bridge:root=com.apple.MessagesBridgeSettings&path=DEFAULT_REPLIES`
+- Poruke → Standardni odgovori → Standardni odgovori: `bridge:root=com.apple.MessagesBridgeSettings&path=DEFAULT_REPLIES#Default%20Replies`
+- Poruke → Standardni odgovori → Pametni odgovori: `bridge:root=com.apple.MessagesBridgeSettings&path=DEFAULT_REPLIES#Smart%20Replies`
+- Poruke → Standardni odgovori → Dodaj odgovor…: `bridge:root=com.apple.MessagesBridgeSettings&path=DEFAULT_REPLIES#Add%20reply%E2%80%A6`
+- Poruke → Ponovi alarme: `bridge:root=com.apple.MessagesBridgeSettings&path=PLAY_ALERT_TONE`
+- Poruke → Audio poruke: `bridge:root=com.apple.MessagesBridgeSettings&path=AudioMessagesMode`
+- Vrijeme za školu: `bridge:root=SCHOOLTIME`
+- Vrijeme za školu → Vrijeme za školu: `bridge:root=SCHOOLTIME#SCHEDULE_FEATURE_ACTIVE_TITLE`
+- Detekcija zapešća | Isključi šifru | Jednostavna šifra | Obriši podatke | Otključaj pomoću iPhonea | Promijeni šifru | Uključi šifru | Šifra: `bridge:root=PASSCODE_ID`
+- Detekcija zapešća | Isključi šifru | Jednostavna šifra | Obriši podatke | Otključaj pomoću iPhonea | Promijeni šifru | Uključi šifru | Šifra → Uključi šifru: `bridge:root=PASSCODE_ID#TOGGLE_PASSCODE_ID`
+- Detekcija zapešća | Isključi šifru | Jednostavna šifra | Obriši podatke | Otključaj pomoću iPhonea | Promijeni šifru | Uključi šifru | Šifra → Promijeni šifru: `bridge:root=PASSCODE_ID#CHANGE_PASSCODE_ID`
+- Detekcija zapešća | Isključi šifru | Jednostavna šifra | Obriši podatke | Otključaj pomoću iPhonea | Promijeni šifru | Uključi šifru | Šifra → Jednostavna lozinka: `bridge:root=PASSCODE_ID#SIMPLE_PASSCODE_SWITCH_ID`
+- Detekcija zapešća | Isključi šifru | Jednostavna šifra | Obriši podatke | Otključaj pomoću iPhonea | Promijeni šifru | Uključi šifru | Šifra → Otključajte pomoću iPhonea: `bridge:root=PASSCODE_ID#AUTO_UNLOCK_SWITCH_ID`
+- Detekcija zapešća | Isključi šifru | Jednostavna šifra | Obriši podatke | Otključaj pomoću iPhonea | Promijeni šifru | Uključi šifru | Šifra → Obriši podatke: `bridge:root=PASSCODE_ID#ERASE_DATA_SWITCH_ID`
+- Detekcija zapešća | Isključi šifru | Jednostavna šifra | Obriši podatke | Otključaj pomoću iPhonea | Promijeni šifru | Uključi šifru | Šifra → Detekcija zapešća: `bridge:root=PASSCODE_ID#WRIST_DETECTION_CELL_ID`
+- Detekcija zapešća | Isključi šifru | Jednostavna šifra | Obriši podatke | Otključaj pomoću iPhonea | Promijeni šifru | Uključi šifru | Šifra → Dodaci: `bridge:root=PASSCODE_ID#SHOW_COMPLICATION_DATA_WHEN_LOCKED_GROUP_ID`
+- Detekcija zapešća | Isključi šifru | Jednostavna šifra | Obriši podatke | Otključaj pomoću iPhonea | Promijeni šifru | Uključi šifru | Šifra → Prikaži podatke na zaključanom zaslonu: `bridge:root=PASSCODE_ID#SHOW_COMPLICATION_DATA_WHEN_LOCKED_SWITCH_ID`
+- Mail: `bridge:root=com.apple.NanoMailBridgeSettings`
+- Mail → Zrcali moj iPhone: `bridge:root=com.apple.NanoMailBridgeSettings#MIRROR_MY_COMPANION_ID`
+- Mail → Prilagodi: `bridge:root=com.apple.NanoMailBridgeSettings#CUSTOM_ID`
+- Mail → Postavke aplikacije Mail: `bridge:root=com.apple.NanoMailBridgeSettings#Mail%20Settings`
+- Mail → Računi: `bridge:root=com.apple.NanoMailBridgeSettings&path=Accounts`
+- Mail → Dodajte Mail: `bridge:root=com.apple.NanoMailBridgeSettings&path=Include%20Mail`
+- Mail → Isječak poruke: `bridge:root=com.apple.NanoMailBridgeSettings&path=Message%20Preview`
+- Mail → Isječak poruke → Bez: `bridge:root=com.apple.NanoMailBridgeSettings&path=Message%20Preview#0`
+- Mail → Isječak poruke → 1 redak: `bridge:root=com.apple.NanoMailBridgeSettings&path=Message%20Preview#1`
+- Mail → Isječak poruke → 2 retka: `bridge:root=com.apple.NanoMailBridgeSettings&path=Message%20Preview#2`
+- Mail → Standardni odgovori: `bridge:root=com.apple.NanoMailBridgeSettings&path=Default%20Replies`
+- Mail → Standardni odgovori → Standardni odgovori: `bridge:root=com.apple.NanoMailBridgeSettings&path=Default%20Replies#Default%20Replies`
+- Mail → Standardni odgovori → Dodaj odgovor…: `bridge:root=com.apple.NanoMailBridgeSettings&path=Default%20Replies#Add%20reply%E2%80%A6`
+- Mail → Potpis: `bridge:root=com.apple.NanoMailBridgeSettings&path=Signature`
+- Dionica koju je odabrala kartica Siri | Dionice | Promjena bodova | Promjena postotka | Trenutačna cijena | Tržišna kapitalizacija: `bridge:root=com.apple.StocksBridgeSettings`
+- Dionica koju je odabrala kartica Siri | Dionice | Promjena bodova | Promjena postotka | Trenutačna cijena | Tržišna kapitalizacija → Na brojčaniku sata prikazuje se: `bridge:root=com.apple.StocksBridgeSettings#Clock%20Face%20Complication%20Shows`
+- Dionica koju je odabrala kartica Siri | Dionice | Promjena bodova | Promjena postotka | Trenutačna cijena | Tržišna kapitalizacija → Trenutačna cijena: `bridge:root=com.apple.StocksBridgeSettings#Current%20Price`
+- Dionica koju je odabrala kartica Siri | Dionice | Promjena bodova | Promjena postotka | Trenutačna cijena | Tržišna kapitalizacija → Promjena bodova: `bridge:root=com.apple.StocksBridgeSettings#Points%20Change`
+- Dionica koju je odabrala kartica Siri | Dionice | Promjena bodova | Promjena postotka | Trenutačna cijena | Tržišna kapitalizacija → Promjena postotka: `bridge:root=com.apple.StocksBridgeSettings#Percentage%20Change`
+- Dionica koju je odabrala kartica Siri | Dionice | Promjena bodova | Promjena postotka | Trenutačna cijena | Tržišna kapitalizacija → Tržišna kapitalizacija: `bridge:root=com.apple.StocksBridgeSettings#Market%20Cap`
+- Dionica koju je odabrala kartica Siri | Dionice | Promjena bodova | Promjena postotka | Trenutačna cijena | Tržišna kapitalizacija → Brojčanik Siri prikazuje kotaciju za: `bridge:root=com.apple.StocksBridgeSettings#Siri%20Face%20Shows%20Quote%20For`
+- Dionica koju je odabrala kartica Siri | Dionice | Promjena bodova | Promjena postotka | Trenutačna cijena | Tržišna kapitalizacija → Odabrana dionica: `bridge:root=com.apple.StocksBridgeSettings&path=Selected%20Stock`
+- Dionica koju je odabrala kartica Siri | Dionice | Promjena bodova | Promjena postotka | Trenutačna cijena | Tržišna kapitalizacija → Odabrana dionica → Odabrana dionica: `bridge:root=com.apple.StocksBridgeSettings&path=Selected%20Stock#Selected%20Stock`
+- Aktivnost: `bridge:root=com.apple.HealthAppsSettings`
+- Aktivnost → Informacije o napretku: `bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL`
+- Aktivnost → Informacije o napretku → Bez: `bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#ZERO_HOURS_ID`
+- Aktivnost → Informacije o napretku → Svaka 2 sata: `bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#TWO_HOURS_ID`
+- Aktivnost → Informacije o napretku → Svaka 4 sata: `bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#FOUR_HOURS_ID`
+- Aktivnost → Informacije o napretku → Svakih 6 sati: `bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#SIX_HOURS_ID`
+- Aktivnost → Informacije o napretku → Svakih 8 sati: `bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#EIGHT_HOURS_ID`
+- Aktivnost → Dostignuća: `bridge:root=com.apple.HealthAppsSettings#ACHIEVEMENTS_ENABLED_LABEL`
+- Aktivnost → Tjedni sažetak: `bridge:root=com.apple.HealthAppsSettings#WEEKLY_SUMMARY_ENABLED_LABEL`
+- Aktivnost → Dnevni savjeti: `bridge:root=com.apple.HealthAppsSettings#DAILY_PROGRESS_ENABLED_LABEL`
+- Aktivnost → Dovršeni ciljevi: `bridge:root=com.apple.HealthAppsSettings#GOAL_COMPLETIONS_ENABLED_LABEL`
+- Aktivnost → Posebni izazovi: `bridge:root=com.apple.HealthAppsSettings#REMOTE_ACHIEVEMENTS_ENABLED_LABEL`
+- Aktivnost → Obavijesti o aktivnosti: `bridge:root=com.apple.HealthAppsSettings#ACTIVITY_SHARING_NOTIFICATIONS_ENABLED`
+- Pametni stog: `bridge:root=SMARTSTACK_LINK`
+- Vrijeme: `bridge:root=com.apple.weatherbridgesettings`
+- Vrijeme → Standardni grad: `bridge:root=com.apple.weatherbridgesettings&path=Default%20City`
+- Vrijeme → Standardni grad → Standardni grad: `bridge:root=com.apple.weatherbridgesettings&path=Default%20City#Default%20City`
+- Vrijeme → Standardni grad → Trenutačna lokacija: `bridge:root=com.apple.weatherbridgesettings&path=Default%20City#Current%20Location`
+- Kontakti: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired`
+- Kontakti → Razvrstavanje: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=contactsSortOrder`
+- Kontakti → Razvrstavanje → Ime, prezime: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=contactsSortOrder#0`
+- Kontakti → Razvrstavanje → Prezime, ime: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=contactsSortOrder#1`
+- Kontakti → Redoslijed prikaza: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=NSPersonNameDefaultDisplayNameOrder`
+- Kontakti → Redoslijed prikaza → Ime, prezime: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=NSPersonNameDefaultDisplayNameOrder#1`
+- Kontakti → Redoslijed prikaza → Prezime, ime: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=NSPersonNameDefaultDisplayNameOrder#2`
+- Kontakti → Kratko ime: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName`
+- Kontakti → Kratko ime → Kratko ime: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#Short%20Name`
+- Kontakti → Kratko ime → Ime i inicijal prezimena: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#First%20Name%20&%20Last%20Initial`
+- Kontakti → Kratko ime → Inicijal imena i prezime: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#First%20Initial%20&%20Last%20Name`
+- Kontakti → Kratko ime → Samo ime: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#First%20Name%20Only`
+- Kontakti → Kratko ime → Samo prezime: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#Last%20Name%20Only`
+- Kontakti → Kratko ime → Preferiraj nadimke: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#Prefer%20Nicknames`
+- Pristupačnost: `bridge:root=ACCESSIBILITY_ID`
+- Pristupačnost → Vid: `bridge:root=ACCESSIBILITY_ID#VISION_GROUP`
+- Pristupačnost → VoiceOver: `bridge:root=ACCESSIBILITY_ID&path=VOICEOVER_ID`
+- Pristupačnost → Zumiraj: `bridge:root=ACCESSIBILITY_ID&path=ZOOM_ID`
+- Pristupačnost → Oznake za uklj./isklj.: `bridge:root=ACCESSIBILITY_ID#OnOffLabelsEnabled`
+- Pristupačnost → Sivi tonovi: `bridge:root=ACCESSIBILITY_ID#GrayscaleDisplay`
+- Pristupačnost → Smanjenje prozirnosti: `bridge:root=ACCESSIBILITY_ID#REDUCE_TRANSPARENCY`
+- Pristupačnost → Povećaj kontrast: `bridge:root=ACCESSIBILITY_ID#INCREASE_CONTRAST`
+- Pristupačnost → Veličina teksta: `bridge:root=ACCESSIBILITY_ID#TEXT_SIZE`
+- Pristupačnost → Podebljani tekst: `bridge:root=ACCESSIBILITY_ID#BoldTextEnabled`
+- Pristupačnost → Smanji pomicanje: `bridge:root=ACCESSIBILITY_ID&path=ReduceMotion`
+- Pristupačnost → Zvono: `bridge:root=ACCESSIBILITY_ID&path=TapticChimesCell`
+- Pristupačnost → Zvono → Zvono: `bridge:root=ACCESSIBILITY_ID&path=TapticChimesCell#Chimes`
+- Pristupačnost → Zvono → Raspored: `bridge:root=ACCESSIBILITY_ID&path=TapticChimesCell/CHIMES_SCHEDULE_ID`
+- Pristupačnost → Zvono → Raspored → Svaki sat: `bridge:root=ACCESSIBILITY_ID&path=TapticChimesCell/CHIMES_SCHEDULE_ID#Hourly`
+- Pristupačnost → Zvono → Raspored → Svakih 30 minuta: `bridge:root=ACCESSIBILITY_ID&path=TapticChimesCell/CHIMES_SCHEDULE_ID#30%20minutes`
+- Pristupačnost → Zvono → Raspored → Svakih 15 minuta: `bridge:root=ACCESSIBILITY_ID&path=TapticChimesCell/CHIMES_SCHEDULE_ID#15%20minutes`
+- Pristupačnost → Zvono → Zvukovi: `bridge:root=ACCESSIBILITY_ID&path=TapticChimesCell/CHIMES_SOUNDS_ID`
+- Pristupačnost → Zvono → Zvukovi → Zvona: `bridge:root=ACCESSIBILITY_ID&path=TapticChimesCell/CHIMES_SOUNDS_ID#Bells`
+- Pristupačnost → Zvono → Zvukovi → Ptice: `bridge:root=ACCESSIBILITY_ID&path=TapticChimesCell/CHIMES_SOUNDS_ID#Birds`
+- Pristupačnost → Motorika: `bridge:root=ACCESSIBILITY_ID#MotorGroupCell`
+- Pristupačnost → Brzina pritiskanja bočne tipke: `bridge:root=ACCESSIBILITY_ID&path=SideButton`
+- Pristupačnost → Brzina pritiskanja bočne tipke → Brzina pritiskanja: `bridge:root=ACCESSIBILITY_ID&path=SideButton#CLICK_SPEED_GROUP_CELL`
+- Pristupačnost → Brzina pritiskanja bočne tipke → Standardno: `bridge:root=ACCESSIBILITY_ID&path=SideButton#SIDE_CLICK_SPEED_DEFAULT`
+- Pristupačnost → Brzina pritiskanja bočne tipke → Sporo: `bridge:root=ACCESSIBILITY_ID&path=SideButton#SIDE_CLICK_SPEED_SLOW`
+- Pristupačnost → Brzina pritiskanja bočne tipke → Najsporije: `bridge:root=ACCESSIBILITY_ID&path=SideButton#SIDE_CLICK_SPEED_SLOWEST`
+- Pristupačnost → Prilagodbe dodira: `bridge:root=ACCESSIBILITY_ID&path=TouchAccommodationsCell`
+- Pristupačnost → Prilagodbe dodira → Prilagodbe dodira: `bridge:root=ACCESSIBILITY_ID&path=TouchAccommodationsCell#TOUCH_ACCOMMODATIONS_SWITCHER`
+- Pristupačnost → Prilagodbe dodira → Trajanje zadržavanja: `bridge:root=ACCESSIBILITY_ID&path=TouchAccommodationsCell#HoldDurationGroup`
+- Pristupačnost → Prilagodbe dodira → Trajanje zadržavanja: `bridge:root=ACCESSIBILITY_ID&path=TouchAccommodationsCell#HoldDuration`
+- Pristupačnost → Prilagodbe dodira → Ignoriraj ponavljanje: `bridge:root=ACCESSIBILITY_ID&path=TouchAccommodationsCell#IgnoreRepeatGroup`
+- Pristupačnost → Prilagodbe dodira → Ignoriraj ponavljanje: `bridge:root=ACCESSIBILITY_ID&path=TouchAccommodationsCell#IgnoreRepeat`
+- Pristupačnost → Prilagodbe dodira → Asistirani dodir: `bridge:root=ACCESSIBILITY_ID&path=TouchAccommodationsCell#Tap%20Assistance`
+- Pristupačnost → Prilagodbe dodira → Isključeno: `bridge:root=ACCESSIBILITY_ID&path=TouchAccommodationsCell#OFF`
+- Pristupačnost → Prilagodbe dodira → Koristi lokaciju početnog dodira: `bridge:root=ACCESSIBILITY_ID&path=TouchAccommodationsCell#ACTIVATE_ON_TOUCH`
+- Pristupačnost → Prilagodbe dodira → Koristi lokaciju završnog dodira: `bridge:root=ACCESSIBILITY_ID&path=TouchAccommodationsCell#ACTIVATE_ON_RELEASE`
+- Pristupačnost → Aktivnost u invalidskim kolicima: `bridge:root=ACCESSIBILITY_ID#MOBILITY`
+- Pristupačnost → Walkie-Talkie: `bridge:root=ACCESSIBILITY_ID#WalkieTalkieTapToTalkGroup`
+- Pristupačnost → Dodirnite za razgovor: `bridge:root=ACCESSIBILITY_ID#WalkieTalkieTapToTalk`
+- Pristupačnost → Izmjenjivač
+aplikacija: `bridge:root=ACCESSIBILITY_ID#AppSwitcherAutoSelectGroup`
+- Pristupačnost → Automatski odaberi fokusiranu aplikaciju: `bridge:root=ACCESSIBILITY_ID#AppSwitcherAutoSelect`
+- Pristupačnost → Siri: `bridge:root=ACCESSIBILITY_ID&path=SIRI_CELL_ID`
+- Pristupačnost → Siri → Koristite Siri tipkanjem: `bridge:root=ACCESSIBILITY_ID&path=SIRI_CELL_ID#Type%20to%20Siri`
+- Pristupačnost → Sluh: `bridge:root=ACCESSIBILITY_ID#HEARING`
+- Pristupačnost → RTT: `bridge:root=ACCESSIBILITY_ID&path=RTT_ID`
+- Pristupačnost → RTT → RTT: `bridge:root=ACCESSIBILITY_ID&path=RTT_ID#RTT_ROW_ID`
+- Pristupačnost → Mono zvuk: `bridge:root=ACCESSIBILITY_ID#MonoAudioEnabled`
+- Pristupačnost → Stereo ravnoteža lijevo-desno: `bridge:root=ACCESSIBILITY_ID#LEFT_RIGHT_BALANCE_SPOKEN`
+- Pristupačnost → Obavijesti o slušalicama: `bridge:root=ACCESSIBILITY_ID#HeadphoneNotificationsID`
+- Pristupačnost → Slušni aparati: `bridge:root=ACCESSIBILITY_ID#HearingDevicesComplicationGroupID`
+- Pristupačnost → Dodatak: `bridge:root=ACCESSIBILITY_ID&path=HearingDevicesComplicationRowID`
+- Pristupačnost → Dodatak → Glasnoća mikrofona: `bridge:root=ACCESSIBILITY_ID&path=HearingDevicesComplicationRowID#Mic%20Volume`
+- Pristupačnost → Dodatak → Program: `bridge:root=ACCESSIBILITY_ID&path=HearingDevicesComplicationRowID#Program`
+- Pristupačnost → Brzina dodira: `bridge:root=ACCESSIBILITY_ID#TapticTimeSpeedAdjustmentGroup`
+- Pristupačnost → Prečac pristupačnosti: `bridge:root=ACCESSIBILITY_ID&path=AX_SHORTCUT_ID`
+- Karte | Obavijesti za skretanje: `bridge:root=com.apple.NanoMapsBridgeSettings`
+- Karte | Obavijesti za skretanje → Obavijesti za skretanje: `bridge:root=com.apple.NanoMapsBridgeSettings#Turn%20Alerts`
+- Karte | Obavijesti za skretanje → Vožnja: `bridge:root=com.apple.NanoMapsBridgeSettings#Driving`
+- Karte | Obavijesti za skretanje → Vožnja uz CarPlay: `bridge:root=com.apple.NanoMapsBridgeSettings#Driving%20with%20CarPlay`
+- Karte | Obavijesti za skretanje → Hodanje: `bridge:root=com.apple.NanoMapsBridgeSettings#Walking`
+- Karte | Obavijesti za skretanje → Bicikliranje: `bridge:root=com.apple.NanoMapsBridgeSettings#Cycling`
+- Karte | Obavijesti za skretanje → Prikaži navigaciju: `bridge:root=com.apple.NanoMapsBridgeSettings#Show%20Navigation`
+- Karte | Obavijesti za skretanje → Javni prijevoz: `bridge:root=com.apple.NanoMapsBridgeSettings#Transit`
+- Karte | Obavijesti za skretanje → Informacije o međuverziji: `bridge:root=com.apple.NanoMapsBridgeSettings#Build%20Info%3A`
+- Mail i Kalendar: `bridge:root=com.apple.BridgeRemoteAccounts`
+- Mail i Kalendar → Računi: `bridge:root=com.apple.BridgeRemoteAccounts#Accounts`
+- Mail i Kalendar → Dodaj Google račun…: `bridge:root=com.apple.BridgeRemoteAccounts#ADD_GOOGLE_ACCOUNT`
+- Mail i Kalendar → Dohvati: `bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch`
+- Mail i Kalendar → Dohvati → Isključeno: `bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch#Off`
+- Mail i Kalendar → Dohvati → Svaki sat: `bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch#Hourly`
+- Mail i Kalendar → Dohvati → 30 min: `bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch#30%20min`
+- Mail i Kalendar → Dohvati → 15 min: `bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch#15%20min`
+- Srce: `bridge:root=com.apple.HeartRateSettings`
+- Srce → Srce: `bridge:root=com.apple.HeartRateSettings#1`
+- Srce → Obavijesti o pulsu: `bridge:root=com.apple.HeartRateSettings#2`
+- Srce → Visok puls: `bridge:root=com.apple.HeartRateSettings#3`
+- Srce → Nizak puls: `bridge:root=com.apple.HeartRateSettings#4`
+- Srce → Nepravilan ritam: `bridge:root=com.apple.HeartRateSettings#5`
+- Srce → Prikaži EKG snimke u Zdravlju: `bridge:root=com.apple.HeartRateSettings#6`
+- Srce → EKG: `bridge:root=com.apple.HeartRateSettings#7`
+- App Store: `bridge:root=com.apple.BridgeAppStoreDaemonSettings`
+- App Store → Automatska preuzimanja: `bridge:root=com.apple.BridgeAppStoreDaemonSettings#automaticDownloadSpecifier`
+- App Store → Automatska ažuriranja: `bridge:root=com.apple.BridgeAppStoreDaemonSettings#Automatic%20Updates`
+- Geste: `bridge:root=ELTON_SETTINGS_ID`
+- Geste → Geste: `bridge:root=ELTON_SETTINGS_ID#Gestures`
+- Geste → Dvostruki dodir: `bridge:root=ELTON_SETTINGS_ID&path=ELTON_DOUBLE_TAP_ID`
+- Geste → Dvostruki dodir → Dvostruki dodir: `bridge:root=ELTON_SETTINGS_ID&path=ELTON_DOUBLE_TAP_ID#Double%20Tap`
+- Geste → Dvostruki dodir → Reprodukcija: `bridge:root=ELTON_SETTINGS_ID&path=ELTON_DOUBLE_TAP_ID#playbackSettingsGroup`
+- Geste → Dvostruki dodir → Reprodukcija / Pauza: `bridge:root=ELTON_SETTINGS_ID&path=ELTON_DOUBLE_TAP_ID#playbackSettingsPlayPause`
+- Geste → Dvostruki dodir → Preskoči: `bridge:root=ELTON_SETTINGS_ID&path=ELTON_DOUBLE_TAP_ID#playbackSettingsSkip`
+- Geste → Dvostruki dodir → Pametni stog: `bridge:root=ELTON_SETTINGS_ID&path=ELTON_DOUBLE_TAP_ID#smartStackGroup`
+- Geste → Dvostruki dodir → Pomakni: `bridge:root=ELTON_SETTINGS_ID&path=ELTON_DOUBLE_TAP_ID#smartStackSettingsAdvance`
+- Geste → Dvostruki dodir → Odaberi: `bridge:root=ELTON_SETTINGS_ID&path=ELTON_DOUBLE_TAP_ID#smartStackSettingsSelect`
+- Geste → Dvostruki dodir → Tijekom uporabe uređaja Apple Vision Pro: `bridge:root=ELTON_SETTINGS_ID&path=ELTON_DOUBLE_TAP_ID#ignoreWhileVisionProDonned`
+- Geste → Dvostruki dodir → Ignoriraj dvostruki dodir: `bridge:root=ELTON_SETTINGS_ID&path=ELTON_DOUBLE_TAP_ID#ignoreDoubleTap`
+- Geste → Okretanje zapešća: `bridge:root=ELTON_SETTINGS_ID#Wrist%20Flick`
+- Geste → Prekrijte za isključenje zvuka: `bridge:root=ELTON_SETTINGS_ID#Cover%20to%20Mute`
+- Spavanje: `bridge:root=com.apple.NanoBedtimeBridgeSettings`
+- Spavanje → Podesite Spavanje u aplikaciji Zdravlje: `bridge:root=com.apple.NanoBedtimeBridgeSettings#SET_UP_SLEEP_CELL_ID`
+- Glazba | Ograničenje memorije | Sinkronizirana glazba: `bridge:root=com.apple.NanoMusicBridgeSettings`
+- Glazba | Ograničenje memorije | Sinkronizirana glazba → LISTE I ALBUMI: `bridge:root=com.apple.NanoMusicBridgeSettings#PLAYLISTS%20&%20ALBUMS`
+- Glazba | Ograničenje memorije | Sinkronizirana glazba → Dodaj glazbu…: `bridge:root=com.apple.NanoMusicBridgeSettings#Add%20Music%E2%80%A6`
+- Novčanik i Apple Pay: `bridge:root=com.apple.NanoPassbookBridgeSettings`
+- Novčanik i Apple Pay → Apple Cash: `bridge:root=com.apple.NanoPassbookBridgeSettings#Apple%C2%A0Cash`
+- Novčanik i Apple Pay → Dodaj karticu: `bridge:root=com.apple.NanoPassbookBridgeSettings#Add%20Card`
+- Novčanik i Apple Pay → Obavijesti: `bridge:root=com.apple.NanoPassbookBridgeSettings#MIRROR_RADIO_GROUP_ID`
+- Novčanik i Apple Pay → Zrcali moj iPhone: `bridge:root=com.apple.NanoPassbookBridgeSettings#MIRROR_MY_COMPANION_ID`
+- Novčanik i Apple Pay → Prilagodi: `bridge:root=com.apple.NanoPassbookBridgeSettings#CUSTOM_ID`
+- Zdravlje: `bridge:root=com.apple.BridgeHealthSettings`
+- Nađi moj Apple Watch: `bridge:root=ActiveWatch`
+- Nađi moj Apple Watch → Upari novi sat: `bridge:root=ActiveWatch&path=Pair%20New%20Watch`
+- Svjesnost: `bridge:root=com.apple.MindSettings`
+- Svjesnost → Dozvoli obavijesti: `bridge:root=com.apple.MindSettings#ALLOW_NOTIFICATIONS_ID`
+- Svjesnost → Šalji u Centar za obavijesti: `bridge:root=com.apple.MindSettings#SEND_TO_NOTIFICATION_CENTER_ID`
+- Svjesnost → Isključi obavijesti: `bridge:root=com.apple.MindSettings#NOTIFICATIONS_OFF_ID`
+- Svjesnost → Podsjetnici za svjesnost: `bridge:root=com.apple.MindSettings#MIND_GROUP_ID`
+- Svjesnost → Početak dana: `bridge:root=com.apple.MindSettings#MIND_START_OF_DAY_REMINDER`
+- Svjesnost → Kraj dana: `bridge:root=com.apple.MindSettings#MIND_END_OF_DAY_REMINDER`
+- Svjesnost → Dodaj podsjetnik…: `bridge:root=com.apple.MindSettings#Add%20Reminder%E2%80%A6`
+- Svjesnost → Tjedni sažetak: `bridge:root=com.apple.MindSettings#MIND_WEEKLY_SUMMARY_ID`
+- Svjesnost → Isključi zvuk za danas: `bridge:root=com.apple.MindSettings#MIND_MUTE_FOR_TODAY_ID`
+- Svjesnost → Brzina disanja: `bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID`
+- Svjesnost → Brzina disanja → 4 udisaja u minuti: `bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_4`
+- Svjesnost → Brzina disanja → 5 udisaja u minuti: `bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_5`
+- Svjesnost → Brzina disanja → 6 udisaja u minuti: `bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_6`
+- Svjesnost → Brzina disanja → 7 udisaja u minuti: `bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_7`
+- Svjesnost → Brzina disanja → 8 udisaja u minuti: `bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_8`
+- Svjesnost → Brzina disanja → 9 udisaja u minuti: `bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_9`
+- Svjesnost → Brzina disanja → 10 udisaja u minuti: `bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_10`
+- Svjesnost → Vibracija: `bridge:root=com.apple.MindSettings&path=MIND_HAPTICS_ID`
+- Svjesnost → Vibracija → Bez: `bridge:root=com.apple.MindSettings&path=MIND_HAPTICS_ID#NONE_ID`
+- Svjesnost → Vibracija → Minimalno: `bridge:root=com.apple.MindSettings&path=MIND_HAPTICS_ID#MINIMAL_ID`
+- Svjesnost → Vibracija → Upadljivo: `bridge:root=com.apple.MindSettings&path=MIND_HAPTICS_ID#PROMINENT_ID`
+- Podcasti: `bridge:root=com.apple.private.PodcastsBridgeSettings`
+- Telefon: `bridge:root=com.apple.PhoneBridgeSettings`
+- Telefon → Pozivi: `bridge:root=com.apple.PhoneBridgeSettings#carrier_direct_calling_group_id`
+- Telefon → Melodija zvona: `bridge:root=com.apple.PhoneBridgeSettings#RINGTONE`
+- Telefon → Zvuk: `bridge:root=com.apple.PhoneBridgeSettings#INCOMING_CALL_SOUND`
+- Telefon → Vibracija: `bridge:root=com.apple.PhoneBridgeSettings#INCOMING_CALL_HAPTIC`
+- Dubina: `bridge:root=com.apple.DepthCompanionSettings`
+- Tipka postupka: `bridge:root=STING_TITLE`
+- Postavke operatera: `bridge:root=CARRIER_SETTINGS`
+- Mobilna mreža: `bridge:root=CELLULAR_ID`
+- Dock: `bridge:root=DOCK`
+- Dock → Redoslijed u Docku: `bridge:root=DOCK#OrderingOptionGroup`
+- Dock → Nedavno: `bridge:root=DOCK#Recents`
+- Dock → Omiljeno: `bridge:root=DOCK#Favorites`
+- Dock: `bridge:root=DOCK.0`
+- Dock → Redoslijed u Docku: `bridge:root=DOCK.0#OrderingOptionGroup`
+- Dock → Nedavno: `bridge:root=DOCK.0#Recents`
+- Dock → Omiljeno: `bridge:root=DOCK.0#Favorites`
+- Audio knjige: `bridge:root=com.apple.NanoBooks.BridgeSettings`
+- Audio knjige → Prijava: `bridge:root=com.apple.NanoBooks.BridgeSettings#Sign%20In`
+- Odabrani fotoalbum | Ograničenje: `bridge:root=com.apple.mobileslideshow`
+- Šalji potvrde o čitanju: `bridge:root=com.apple.MessagesBridgeSettings%23READ_RECEIPTS`

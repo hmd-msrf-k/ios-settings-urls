@@ -1,0 +1,14 @@
+- Απόρρητο και ασφάλεια: `settings-navigation://com.apple.Settings.PrivacyAndSecurity`
+- Απόρρητο και ασφάλεια → Έλεγχος ασφάλειας: `settings-navigation://com.apple.Settings.PrivacyAndSecurity/SAFETY_CHECK`
+- Apps: `settings-navigation://com.apple.Settings.Apps`
+- Apps → Safari: `settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari/` or `prefs:root=SAFARI`
+- Apps → Safari → Επεκτάσεις: `settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari/WEB_EXTENSIONS` or `prefs:root=SAFARI&path=WEB_EXTENSIONS`
+- Apps → Safari → Φραγή αναδυόμενων: `settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari#BLOCK_POPUPS`
+- Apps → Safari → Αποτροπή ανίχνευσης από ιστότοπους: `settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari#TRACKER_PROTECTION`
+- Apps → Safari → Αυτοσυμπλήρωση: `settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari/AUTO_FILL` or `prefs:root=SAFARI&path=AUTO_FILL`
+- Apps → Safari → Λήψεις: `settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari/DOWNLOADS` or `prefs:root=SAFARI&path=DOWNLOADS`
+- Apps → Συνθηματικά: `settings-navigation://com.apple.Settings.Apps/com.apple.Passwords`
+- Apps → Συνθηματικά → Συστάσεις ασφάλειας: `settings-navigation://com.apple.Settings.Apps/com.apple.Passwords#SECURITY_RECOMMENDATIONS`
+- Οικία: `settings-navigation://com.apple.Settings.HomeKit`
+- Search: `settings-navigation://com.apple.Settings.Search`
+- Πάροχος τηλ. υπηρεσιών: `settings-navigation://com.apple.Settings.TVProvider`

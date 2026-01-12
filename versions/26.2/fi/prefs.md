@@ -1,0 +1,414 @@
+- Akku: `prefs:root=BATTERY_USAGE`
+- Akku → Alhaisen virran tila: `prefs:root=BATTERY_USAGE#BATTERY_SAVER_MODE`
+- Akku → Akun kunto: `prefs:root=BATTERY_USAGE#BATTERY_HEALTH_ID`
+- Yleiset: `prefs:root=General`
+- Yleiset → VPN ja laitehallinta: `prefs:root=General&path=ManagedConfigurationList`
+- Yleiset → Automaattinen täyttö ja salasanat: `prefs:root=General&path=AUTOFILL`
+- Yleiset → Automaattinen täyttö ja salasanat → Salasanojen autom. täyttö: `prefs:root=General&path=AUTOFILL#AUTOFILL`
+- Yleiset → Automaattinen täyttö ja salasanat → Poista vahvistuskoodit: `prefs:root=General&path=AUTOFILL#CLEAN_UP_VERIFICATION_CODES`
+- Yleiset → Automaattinen täyttö ja salasanat → Ota vahvistuskoodit käyttöön: `prefs:root=General&path=AUTOFILL#SET_UP_VERIFICATION_CODES`
+- Yleiset → AppleCare ja takuu: `prefs:root=General&path=COVERAGE/`
+- Yleiset → Sanakirja: `prefs:root=General&path=DICTIONARY`
+- Yleiset → Näppäimistö: `prefs:root=General&path=Keyboard`
+- Yleiset → Näppäimistö → Näppäimistöt: `prefs:root=General&path=Keyboard/KEYBOARDS`
+- Yleiset → Näppäimistö → Tekstin korvaus: `prefs:root=General&path=Keyboard/USER_DICTIONARY`
+- Yleiset → Näppäimistö → Autom. isot alkukirjaimet: `prefs:root=General&path=Keyboard#KeyboardAutocapitalization`
+- Yleiset → Näppäimistö → Automaattinen korjaus: `prefs:root=General&path=Keyboard#KeyboardAutocorrection`
+- Yleiset → Näppäimistö → Oikeinkirjoituksen tarkistus: `prefs:root=General&path=Keyboard#KeyboardCheckSpelling`
+- Yleiset → Näppäimistö → Salli caps lock: `prefs:root=General&path=Keyboard#KeyboardCapsLock`
+- Yleiset → Näppäimistö → Pikakomennot: `prefs:root=General&path=Keyboard#KeyboardAssistant`
+- Yleiset → Näppäimistö → Ennakoiva: `prefs:root=General&path=Keyboard#KeyboardPrediction`
+- Yleiset → Näppäimistö → Älykkäät välimerkit: `prefs:root=General&path=Keyboard#SmartTyping`
+- Yleiset → Näppäimistö → Jaettu näppäimistö: `prefs:root=General&path=Keyboard#RivenKeyboard`
+- Yleiset → Näppäimistö → Salli pyyhkäisynäppäimet: `prefs:root=General&path=Keyboard#GesturesEnabled`
+- Yleiset → Näppäimistö → Merkin esikatselu: `prefs:root=General&path=Keyboard#KeyboardAllowPaddle`
+- Yleiset → Näppäimistö → ”.”-oikotie: `prefs:root=General&path=Keyboard#KeyboardPeriodShortcut`
+- Yleiset → Näppäimistö → Liukukirjoitus: `prefs:root=General&path=Keyboard#KeyboardContinuousPathEnabled`
+- Yleiset → Näppäimistö → Ota sanelu käyttöön: `prefs:root=General&path=Keyboard#Dictation`
+- Yleiset → Näppäimistö → Automaattiset välimerkit: `prefs:root=General&path=Keyboard#AutoPunctuationSetting`
+- Yleiset → Ohjelmistopäivitys: `prefs:root=General&path=SOFTWARE_UPDATE_LINK`
+- Yleiset → Ohjelmistopäivitys → Päivitä automaattisesti: `prefs:root=General&path=SOFTWARE_UPDATE_LINK/SUAutomaticUpdateButton`
+- Yleiset → Tallennustila: `prefs:root=General&path=STORAGE_MGMT`
+- Yleiset → Tallennustila → Tallennustila: `prefs:root=General&path=STORAGE_MGMT#MANAGE`
+- Yleiset → Tallennustila → Poista käyttämättömät apit: `prefs:root=General&path=STORAGE_MGMT#OFFLOAD`
+- Yleiset → Kuva kuvassa: `prefs:root=General&path=PiP_SPEC`
+- Yleiset → Ohjauslevy | Ohjauslevy ja hiiri: `prefs:root=General&path=POINTERS`
+- Yleiset → NFC: `prefs:root=General&path=NFC_LINK`
+- Yleiset → VPN: `prefs:root=General&path=VPN`
+- Yleiset → CarPlay: `prefs:root=General&path=CARPLAY`
+- Yleiset → Tietoja: `prefs:root=General&path=About`
+- Yleiset → Tietoja → Luotetut varmenteet: `prefs:root=General&path=About/CERT_TRUST_SETTINGS`
+- Yleiset → Tietoja → Sarjanumero: `prefs:root=General&path=About#SerialNumber`
+- Yleiset → Tietoja → Mallinumero: `prefs:root=General&path=About#ProductModel`
+- Yleiset → Tietoja → Mallin nimi: `prefs:root=General&path=About#ProductModelName`
+- Yleiset → Tietoja → iOS-versio: `prefs:root=General&path=About/SW_VERSION_SPECIFIER`
+- Yleiset → Oikeudet ja merkinnät: `prefs:root=General&path=LEGAL_AND_REGULATORY`
+- Yleiset → Oikeudet ja merkinnät → Takuu: `prefs:root=General&path=LEGAL_AND_REGULATORY#Warranty`
+- Yleiset → AirDrop: `prefs:root=General&path=AIRDROP_LINK`
+- Yleiset → AirDrop → tuomalla laitteet yhteen: `prefs:root=General&path=AIRDROP_LINK#AIRDROP_NFC_ID`
+- Yleiset → Koti-painike: `prefs:root=General&path=HOME_BUTTON`
+- Yleiset → Sivukytkin: `prefs:root=General#Rotation_Switch_Action_Group`
+- Yleiset → Appien päivitys taustalla: `prefs:root=General&path=AUTO_CONTENT_DOWNLOAD`
+- Yleiset → Päivä ja aika: `prefs:root=General&path=DATE_AND_TIME`
+- Yleiset → TV-lähtö: `prefs:root=General&path=TV_OUT`
+- Yleiset → Nollaa: `prefs:root=General&path=Reset`
+- Yleiset → Nollaa → Nollaa kaikki asetukset: `prefs:root=General&path=Reset#settingsErase`
+- Yleiset → Nollaa → Poista kaikki sisältö ja asetukset: `prefs:root=General&path=Reset#fullErase`
+- Yleiset → Nollaa → Nollaa verkkoasetukset: `prefs:root=General&path=Reset#RESET_NETWORK_LABEL`
+- Yleiset → Nollaa → Poista kaikki mobiilidataliittymät: `prefs:root=General&path=Reset#cellularErase`
+- Yleiset → Nollaa → Tilaajapalvelut: `prefs:root=General&path=Reset#SUBSCRIBER_SERVICES_ID`
+- Yleiset → Nollaa → Nollaa näppäimistön sanakirja: `prefs:root=General&path=Reset#RESET_KEYBOARD_DICTIONARY_LABEL`
+- Yleiset → Nollaa → Nollaa Koti-valikon asettelu: `prefs:root=General&path=Reset#RESET_ICONS_LABEL`
+- Yleiset → Nollaa → Nollaa sijainti ja tietosuoja: `prefs:root=General&path=Reset#RESET_PRIVACY_LABEL`
+- Yleiset → Sammuta: `prefs:root=General#SHUTDOWN_LABEL`
+- Yleiset → AirPlay ja jatkuvuus: `prefs:root=General&path=CONTINUITY_SPEC`
+- Yleiset → AirPlay ja jatkuvuus → Handoff: `prefs:root=General&path=CONTINUITY_SPEC#CONTINUITY`
+- Yleiset → AirPlay ja jatkuvuus → Siirrä HomePodiin: `prefs:root=General&path=CONTINUITY_SPEC#TRANSFER_TO_HOMEPOD`
+- Yleiset → AirPlay ja jatkuvuus → Automaattinen AirPlay: `prefs:root=General&path=CONTINUITY_SPEC#AUTOMATICALLY_AIRPLAY`
+- Yleiset → AirPlay ja jatkuvuus → Jatkuvuuskamera: `prefs:root=General&path=CONTINUITY_SPEC#WOMBAT_CAMERA`
+- Yleiset → Kieli ja alue: `prefs:root=General&path=INTERNATIONAL`
+- Yleiset → Kieli ja alue → Muut kielet…: `prefs:root=General&path=INTERNATIONAL#NEW_PREFERRED_LANGUAGE`
+- Yleiset → Kieli ja alue → Ensisijainen kielijärjestys: `prefs:root=General&path=INTERNATIONAL#PREFERRED_LANGUAGE_GROUP`
+- Yleiset → Kieli ja alue → Lisää kieli…: `prefs:root=General&path=INTERNATIONAL#ADD_PREFERRED_LANGUAGE`
+- Yleiset → Kieli ja alue → Alue: `prefs:root=General&path=INTERNATIONAL/LOCALE`
+- Yleiset → Kieli ja alue → Numerot: `prefs:root=General&path=INTERNATIONAL/NUMBERING_SYSTEM`
+- Yleiset → Kieli ja alue → Kalenteri: `prefs:root=General&path=INTERNATIONAL/CALENDAR`
+- Yleiset → Kieli ja alue → Lämpötilayksikkö: `prefs:root=General&path=INTERNATIONAL/TEMPERATURE_UNIT`
+- Apple-tili: `prefs:root=APPLE_ACCOUNT` or `settings-navigation://com.apple.Settings.AppleAccount`
+- Apple-tili → Yhteystiedon avaimen vahvistus: `prefs:root=APPLE_ACCOUNT&path=TRANSPARENCY` or `settings-navigation://com.apple.Settings.AppleAccount/TRANSPARENCY`
+- Apple-tili → iCloud: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE` or `prefs:root=CASTLE`
+- Apple-tili → iCloud → iCloud-tallennustila: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/STORAGE_AND_BACKUP` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/STORAGE_AND_BACKUP` or `prefs:root=CASTLE&path=STORAGE_AND_BACKUP`
+- Apple-tili → iCloud → iCloud Drive: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Ubiquity` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Ubiquity` or `prefs:root=CASTLE&path=com.apple.Dataclass.Ubiquity`
+- Apple-tili → iCloud → Kuvat: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.MediaStream` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.MediaStream` or `prefs:root=CASTLE&path=com.apple.Dataclass.MediaStream`
+- Apple-tili → iCloud → Mail: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Mail` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail` or `prefs:root=CASTLE&path=com.apple.Dataclass.Mail`
+- Apple-tili → iCloud → Yhteystiedot: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Contacts` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Contacts` or `prefs:root=CASTLE&path=com.apple.Dataclass.Contacts`
+- Apple-tili → iCloud → Kalenteri: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Calendars` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Calendars` or `prefs:root=CASTLE&path=com.apple.Dataclass.Calendars`
+- Apple-tili → iCloud → Muistutukset: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Reminders` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Reminders` or `prefs:root=CASTLE&path=com.apple.Dataclass.Reminders`
+- Apple-tili → iCloud → Safari: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Bookmarks` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Bookmarks` or `prefs:root=CASTLE&path=com.apple.Dataclass.Bookmarks`
+- Apple-tili → iCloud → Muistiinpanot: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Notes` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Notes` or `prefs:root=CASTLE&path=com.apple.Dataclass.Notes`
+- Apple-tili → iCloud → News: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.News` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.News` or `prefs:root=CASTLE&path=com.apple.Dataclass.News`
+- Apple-tili → iCloud → Varmuuskopio: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/BACKUP` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/BACKUP` or `prefs:root=CASTLE&path=BACKUP`
+- Apple-tili → iCloud → Terveys: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Health` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Health` or `prefs:root=CASTLE&path=com.apple.Dataclass.Health`
+- Apple-tili → iCloud → Salasanat ja avainnippu: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.KeychainSync` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.KeychainSync` or `prefs:root=CASTLE&path=com.apple.Dataclass.KeychainSync`
+- Apple-tili → iCloud → Kätke osoitteeni: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/PRIVATE_EMAIL_MANAGE` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/PRIVATE_EMAIL_MANAGE` or `prefs:root=CASTLE&path=PRIVATE_EMAIL_MANAGE`
+- Apple-tili → Jaa oma sijainti: `prefs:root=APPLE_ACCOUNT&path=LOCATION_SHARING` or `settings-navigation://com.apple.Settings.AppleAccount/LOCATION_SHARING`
+- Apple-tili → Jaa oma sijainti → Etsi: `prefs:root=APPLE_ACCOUNT&path=LOCATION_SHARING/FindMyDevice-Settings` or `settings-navigation://com.apple.Settings.AppleAccount/LOCATION_SHARING/FindMyDevice-Settings`
+- Apple-tili → Nimi, puhelin, sähköposti: `prefs:root=APPLE_ACCOUNT&path=APPLE_ACCOUNT_CONTACT` or `settings-navigation://com.apple.Settings.AppleAccount/APPLE_ACCOUNT_CONTACT`
+- Apple-tili → Salasana ja suojaus: `prefs:root=APPLE_ACCOUNT&path=PASSWORD_AND_SECURITY` or `settings-navigation://com.apple.Settings.AppleAccount/PASSWORD_AND_SECURITY`
+- Apple-tili → Maksu ja toimitus: `prefs:root=APPLE_ACCOUNT&path=PAYMENT_AND_SHIPPING` or `settings-navigation://com.apple.Settings.AppleAccount/PAYMENT_AND_SHIPPING`
+- Apple-tili → Tilaukset: `prefs:root=APPLE_ACCOUNT&path=SUBSCRIPTIONS` or `settings-navigation://com.apple.Settings.AppleAccount/SUBSCRIPTIONS`
+- Apple-tili → Perhe: `prefs:root=APPLE_ACCOUNT&path=Family` or `settings-navigation://com.apple.Settings.AppleAccount/Family`
+- Ilmoitukset: `prefs:root=NOTIFICATIONS_ID`
+- Ilmoitukset → Ajastettu yhteenveto: `prefs:root=NOTIFICATIONS_ID&path=SCHEDULED_DELIVERY_ID`
+- Sää: `prefs:root=WEATHER`
+- Freeform: `prefs:root=FREEFORM`
+- Keskity-tila: `prefs:root=DO_NOT_DISTURB`
+- Keskity-tila → Keskity-tilan jakaminen: `prefs:root=DO_NOT_DISTURB&path=status`
+- Päiväkirja: `prefs:root=JOURNAL`
+- Lompakko ja Apple Pay: `prefs:root=PASSBOOK`
+- Lompakko ja Apple Pay → Apple Cash: `prefs:root=PASSBOOK#Apple%C2%A0Cash`
+- Lompakko ja Apple Pay → Maksukortit: `prefs:root=PASSBOOK#SETTINGS_PAYMENT_CARDS_GROUP`
+- Lompakko ja Apple Pay → Lisää kortti: `prefs:root=PASSBOOK#Add%20Card`
+- Lompakko ja Apple Pay → Kaksoispaina sivupainiketta: `prefs:root=PASSBOOK#Double-Click%20Side%20Button`
+- Lompakko ja Apple Pay → Tilauksen seuranta: `prefs:root=PASSBOOK#ORDER_TRACKING`
+- Näyttö ja kirkkaus | Ulkoasu: `prefs:root=DISPLAY`
+- Näyttö ja kirkkaus | Ulkoasu → Ulkoasu: `prefs:root=DISPLAY#DEVICE_APPEARANCE`
+- Näyttö ja kirkkaus | Ulkoasu → True Tone: `prefs:root=DISPLAY#WHITE_BALANCE`
+- Näyttö ja kirkkaus | Ulkoasu → Night Shift: `prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION`
+- Näyttö ja kirkkaus | Ulkoasu → Night Shift → Ajastettu: `prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION#SCHEDULED`
+- Näyttö ja kirkkaus | Ulkoasu → Night Shift → Aseta käsin huomiseen asti: `prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION#MANUAL`
+- Näyttö ja kirkkaus | Ulkoasu → Night Shift → Värilämpötila: `prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION#COLOR_TEMPERATURE`
+- Näyttö ja kirkkaus | Ulkoasu → Automaattilukitus: `prefs:root=DISPLAY&path=AUTOLOCK`
+- Näyttö ja kirkkaus | Ulkoasu → Herätä nostamalla: `prefs:root=DISPLAY#RAISE_TO_WAKE`
+- Näyttö ja kirkkaus | Ulkoasu → Lukitse/avaa: `prefs:root=DISPLAY#SMART_CASE_LOCK_SPEC`
+- Näyttö ja kirkkaus | Ulkoasu → Tekstin koko: `prefs:root=DISPLAY&path=TEXT_SIZE`
+- Näyttö ja kirkkaus | Ulkoasu → Lihavoitu teksti: `prefs:root=DISPLAY#BOLD_TEXT`
+- Näyttö ja kirkkaus | Ulkoasu → Kirkkaus: `prefs:root=DISPLAY#BRIGHTNESS`
+- Näyttö ja kirkkaus | Ulkoasu → Näytön zoomaus: `prefs:root=DISPLAY#DISPLAY_ZOOM_GROUP`
+- Näyttö ja kirkkaus | Ulkoasu → Ulkoasu: `prefs:root=DISPLAY&path=APPEARANCE`
+- Näyttö ja kirkkaus | Ulkoasu → Ulkoasu → Zoomausikkuna: `prefs:root=DISPLAY&path=APPEARANCE#WINDOW_ZOOM`
+- Näyttö ja kirkkaus | Ulkoasu → Ulkoasu → Zoomaa ikkunaa kahdella kädellä: `prefs:root=DISPLAY&path=APPEARANCE#TWO_HANDED_WINDOW_ZOOM`
+- Näyttö ja kirkkaus | Ulkoasu → Näkymä: `prefs:root=DISPLAY&path=MAGNIFY`
+- Näyttö ja kirkkaus | Ulkoasu → Aina päällä: `prefs:root=DISPLAY&path=ALWAYS_ON`
+- Näyttö ja kirkkaus | Ulkoasu → Aina päällä → Aina päällä: `prefs:root=DISPLAY&path=ALWAYS_ON#ALWAYS_ON`
+- Näyttö ja kirkkaus | Ulkoasu → Yhteensopivat apit: `prefs:root=DISPLAY&path=COMPATIBLE_APPEARANCE`
+- Näyttö ja kirkkaus | Ulkoasu → Yhteensopivat apit → Tumma, Vaalea: `prefs:root=DISPLAY&path=COMPATIBLE_APPEARANCE#COMPATIBLE_APPEARANCE_CHOICES`
+- Mittanauha: `prefs:root=MEASURE` or `settings-navigation://com.apple.Settings.Apps/com.apple.measure`
+- Mittanauha → Mittayksiköt: `prefs:root=MEASURE#MEASURE_UNITS` or `settings-navigation://com.apple.Settings.Apps/com.apple.measure#MEASURE_UNITS#MEASURE_UNITS`
+- Mittanauha → Imperiaalinen: `prefs:root=MEASURE#Imperial` or `settings-navigation://com.apple.Settings.Apps/com.apple.measure#Imperial#Imperial`
+- Mittanauha → Metrinen: `prefs:root=MEASURE#Metric` or `settings-navigation://com.apple.Settings.Apps/com.apple.measure#Metric#Metric`
+- Taustakuva: `prefs:root=Wallpaper`
+- Ohjauskeskus: `prefs:root=ControlCenter`
+- Ohjauskeskus → Salli pääsy apeista: `prefs:root=ControlCenter#ALLOWED_WITHIN_APPS`
+- Ohjauskeskus → Muokkaa säätimiä: `prefs:root=ControlCenter&path=CUSTOMIZE_CONTROLS`
+- Sanelin: `prefs:root=VOICE_MEMOS`
+- Sanelin → Tyhjennä poistetut: `prefs:root=VOICE_MEMOS&path=RCVoiceMemosRecentlyDeletedWindowKey`
+- Sanelin → Äänenlaatu: `prefs:root=VOICE_MEMOS&path=RCVoiceMemosAudioQualityKey`
+- Sanelin → Sijaintipohjaiset nimet: `prefs:root=VOICE_MEMOS#RCVoiceMemosUseLocationBasedNaming`
+- Kalenteri: `prefs:root=CALENDAR`
+- Kalenteri → Kiinteä aikavyöhyke: `prefs:root=CALENDAR&path=TimeZoneCityArray`
+- Kalenteri → Muut kalenterit: `prefs:root=CALENDAR&path=Alternate%20Calendars`
+- Kalenteri → Viikkonumerot: `prefs:root=CALENDAR#Week%20Numbers`
+- Kalenteri → Näytä kutsun hylänneet: `prefs:root=CALENDAR#Show%20Invitee%20Declines`
+- Kalenteri → Synkronointi: `prefs:root=CALENDAR&path=Sync`
+- Kalenteri → Oletushälytysajat: `prefs:root=CALENDAR&path=Default%20Alert%20Times`
+- Kalenteri → Viikon aloituspäivä: `prefs:root=CALENDAR&path=Start%20Week%20On`
+- Kalenteri → Paikkaehdotukset: `prefs:root=CALENDAR#Location%20Suggestions`
+- Kehittäjä: `prefs:root=DEVELOPER_SETTINGS`
+- Kehittäjä → Multipath-verkko: `prefs:root=DEVELOPER_SETTINGS&path=MULTI_PATH_AGG`
+- Kehittäjä → Multipath-verkko → Multipath-verkko: `prefs:root=DEVELOPER_SETTINGS&path=MULTI_PATH_AGG#Multipath%20Networking`
+- Kehittäjä → Ulkoasu: `prefs:root=DEVELOPER_SETTINGS#UIAppearanceGroup`
+- Kehittäjä → Tumma ulkoasu: `prefs:root=DEVELOPER_SETTINGS#UIAppearanceSettings`
+- Kehittäjä → Laiteparit: `prefs:root=DEVELOPER_SETTINGS#DTPairedDevicesGroup`
+- Kehittäjä → Poista luotetut tietokoneet: `prefs:root=DEVELOPER_SETTINGS#CLEAR_TRUSTED_COMPUTERS`
+- Kehittäjä → Kirjaaminen: `prefs:root=DEVELOPER_SETTINGS&path=DTInstrumentsSettings`
+- Kehittäjä → Ota UI-automaatio käyttöön | UI-automaatio: `prefs:root=DEVELOPER_SETTINGS#UIAGroup`
+- Kehittäjä → Verkot: `prefs:root=DEVELOPER_SETTINGS#NLCGroup`
+- Kehittäjä → Network Link Conditioner: `prefs:root=DEVELOPER_SETTINGS&path=NLC`
+- Kehittäjä → Lisäkirjaaminen: `prefs:root=DEVELOPER_SETTINGS#ADDITIONAL_LOGGING`
+- Kehittäjä → Salli HTTP-palvelut: `prefs:root=DEVELOPER_SETTINGS#ALLOW_HTTP_SERVICES`
+- Kehittäjä → Poista taajuusrajoitus käytöstä: `prefs:root=DEVELOPER_SETTINGS#DISABLE_RATE_LIMITING`
+- Kehittäjä → NFC Pass Key valinnainen: `prefs:root=DEVELOPER_SETTINGS#NFC_PASS_KEY_OPTIONAL`
+- Kehittäjä → Mediapalvelujen testaus: `prefs:root=DEVELOPER_SETTINGS#MEDIA_SERVICES_TESTING`
+- Kehittäjä → Nollaa mediapalvelut: `prefs:root=DEVELOPER_SETTINGS#RESET_MEDIA_SERVICES`
+- Kehittäjä → News-testaus: `prefs:root=DEVELOPER_SETTINGS#NEWS_TESTING`
+- Kehittäjä → Nollaa paikallinen data seur. käynnistyksessä: `prefs:root=DEVELOPER_SETTINGS#RESET_LOCAL_DATA_ON_NEXT_LAUNCH`
+- Kehittäjä → Mediasoittimen framework-testaus: `prefs:root=DEVELOPER_SETTINGS#RoutineSettingsGroup`
+- Kehittäjä → Toistettavan sisällön API: `prefs:root=DEVELOPER_SETTINGS&path=RoutineSettings`
+- Kehittäjä → TV-palveluntarjoaja: `prefs:root=DEVELOPER_SETTINGS&path=VideoSubscriberAccountSettings`
+- Kehittäjä → ClassKit API: `prefs:root=DEVELOPER_SETTINGS&path=ClassKitSettings`
+- Kehittäjä → CoreSpotlight-testaus: `prefs:root=DEVELOPER_SETTINGS#CORESPOTLIGHT_TESTING`
+- Kehittäjä → Uudelleenindeksoi kaikki kohteet: `prefs:root=DEVELOPER_SETTINGS#REINDEX_ALL_ITEMS`
+- Kehittäjä → Uudelleenindeksoi kohteet, joissa tunniste: `prefs:root=DEVELOPER_SETTINGS#REINDEX_ALL_ITEMS_WITH_IDENTIFIERS`
+- Kehittäjä → Oikotiet-testaus: `prefs:root=DEVELOPER_SETTINGS#SIRI_ACTIONS_TESTING`
+- Kehittäjä → Näytä äskeiset oikotiet: `prefs:root=DEVELOPER_SETTINGS#DISPLAY_DONATIONS_SPOTLIGHT`
+- Kehittäjä → Näytä tuleva media: `prefs:root=DEVELOPER_SETTINGS#DISPLAY_UPCOMING_MEDIA`
+- Kehittäjä → Näytä lahjoitukset lukitulla näytöllä: `prefs:root=DEVELOPER_SETTINGS#DISPLAY_DONATIONS_LOCKSCREEN`
+- Kehittäjä → Pakota Watchin Pikakomennot-synkronointi: `prefs:root=DEVELOPER_SETTINGS#SIRI_ACTIONS_SYNC_WATCHOS`
+- Kehittäjä → MIDI-CI-testaus: `prefs:root=DEVELOPER_SETTINGS#MIDI_CI_API_BETA`
+- Kehittäjä → Ota MIDI-CI käyttöön: `prefs:root=DEVELOPER_SETTINGS#MIDI_CI_API_BETA_ENABLE`
+- Kehittäjä → Jumiutumisen­tunnistus: `prefs:root=DEVELOPER_SETTINGS#HANGTRACER_EXTERNAL_CONFIGURE`
+- Face ID ja pääsykoodi | Pääsykoodi | Touch ID ja pääsykoodi: `prefs:root=PASSCODE`
+- Face ID ja pääsykoodi | Pääsykoodi | Touch ID ja pääsykoodi → Poista pääsykoodi käytöstä: `prefs:root=PASSCODE#PASSCODE_OFF`
+- Face ID ja pääsykoodi | Pääsykoodi | Touch ID ja pääsykoodi → Vaihda pääsykoodi: `prefs:root=PASSCODE#CHANGE_PASSCODE`
+- Face ID ja pääsykoodi | Pääsykoodi | Touch ID ja pääsykoodi → Vaadi pääsykoodia: `prefs:root=PASSCODE&path=PASSCODE_REQ`
+- Face ID ja pääsykoodi | Pääsykoodi | Touch ID ja pääsykoodi → Äänivalinta: `prefs:root=PASSCODE#VOICE_DIAL`
+- Face ID ja pääsykoodi | Pääsykoodi | Touch ID ja pääsykoodi → Salli käyttö, kun lukittuna: `prefs:root=PASSCODE#ALLOW_ACCESS_WHEN_LOCKED`
+- Face ID ja pääsykoodi | Pääsykoodi | Touch ID ja pääsykoodi → Vastaa viestillä: `prefs:root=PASSCODE#REPLY_WITH_MESSAGE_SWITCH`
+- Face ID ja pääsykoodi | Pääsykoodi | Touch ID ja pääsykoodi → Kodin ohjaus: `prefs:root=PASSCODE#HOME_CONTROL_SWITCH`
+- Face ID ja pääsykoodi | Pääsykoodi | Touch ID ja pääsykoodi → Lompakko: `prefs:root=PASSCODE#WALLET_SWITCH`
+- Face ID ja pääsykoodi | Pääsykoodi | Touch ID ja pääsykoodi → Soita vastaamattomiin puheluihin: `prefs:root=PASSCODE#RETURN_MISSED_CALLS_SWITCH`
+- Face ID ja pääsykoodi | Pääsykoodi | Touch ID ja pääsykoodi → Poista data: `prefs:root=PASSCODE#WIPE_DEVICE`
+- Face ID ja pääsykoodi | Pääsykoodi | Touch ID ja pääsykoodi → Avaa lukitus Apple Watchilla: `prefs:root=PASSCODE#AUTO_UNLOCK_DEVICES_GROUP`
+- Face ID ja pääsykoodi | Pääsykoodi | Touch ID ja pääsykoodi → Varastetun laitteen suojaus: `prefs:root=PASSCODE#DTO_GROUP_ID`
+- Puhelin: `prefs:root=Phone`
+- Puhelin → Oma numero: `prefs:root=Phone&path=My%20Number`
+- Puhelin → Tulevat puhelut: `prefs:root=Phone&path=INCOMING_CALL_STYLE`
+- Puhelin → Ilmoita puhelut: `prefs:root=Phone&path=ANNOUNCE_CALLS`
+- Puhelin → Tekstiviesti-/puheluraportointi: `prefs:root=Phone&path=CLASSIFICATION_AND_REPORTING`
+- Puhelin → Vastaa viestillä: `prefs:root=Phone&path=Respond%20with%20Text`
+- Puhelin → Soitonsiirto: `prefs:root=Phone&path=Call%20Forwarding`
+- Puhelin → Soitonsiirto → Soitonsiirto: `prefs:root=Phone&path=Call%20Forwarding#idMasterOnOffSwitch`
+- Puhelin → Koputuspalvelu: `prefs:root=Phone&path=Call%20Waiting`
+- Puhelin → Näytä oma tunniste: `prefs:root=Phone&path=Show%20My%20Caller%20ID`
+- Puhelin → Näytä oma tunniste → Näytä oma tunniste: `prefs:root=Phone&path=Show%20My%20Caller%20ID/Primary`
+- Puhelin → Näytä oma tunniste → Näytä oma tunniste → Näytä oma tunniste: `prefs:root=Phone&path=Show%20My%20Caller%20ID/Primary#Show%20My%20Caller%20ID`
+- Puhelin → Hiljennä tuntemattomat soittajat: `prefs:root=Phone#SILENCE_CALLS`
+- Puhelin → Estetyt yhteystiedot: `prefs:root=Phone&path=SPECIFIER_IDENTIFIER_BLACKLIST`
+- Puhelin → Soittoapu: `prefs:root=Phone&path=Dial%20Assist`
+- Muistiinpanot: `prefs:root=NOTES` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes`
+- Muistiinpanot → Oletustili: `prefs:root=NOTES&path=Default%20Account` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes/Default%20Account`
+- Muistiinpanot → Salasana: `prefs:root=NOTES&path=Password` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes/Password`
+- Muistiinpanot → Järjestys: `prefs:root=NOTES&path=Sort%20Notes%20By` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes/Sort%20Notes%20By`
+- Muistiinpanot → Uuden aloitustyyli: `prefs:root=NOTES&path=New%20Notes%20Start%20With` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes/New%20Notes%20Start%20With`
+- Muistiinpanot → Järjestä tehdyt kohteet: `prefs:root=NOTES&path=Sort%20Checked%20Items` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes/Sort%20Checked%20Items`
+- Muistiinpanot → Viivasto/ruudukko: `prefs:root=NOTES&path=Lines%20%26%20Grids` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes/Lines%20%26%20Grids`
+- Muistiinpanot → Tallenna Kuviin: `prefs:root=NOTES#Save%20to%20Photos` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes#Save%20to%20Photos#Save%20to%20Photos`
+- Muistiinpanot → Muistiinpanot lukitulta näytöltä: `prefs:root=NOTES&path=Access%20Notes%20from%20Lock%20Screen` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes/Access%20Notes%20from%20Lock%20Screen`
+- Kirjat: `prefs:root=IBOOKS`
+- Kirjat → Online-sisältö: `prefs:root=IBOOKS#BKAllowOnlineContent`
+- Kirjat → SYNKRONOINTI: `prefs:root=IBOOKS#SYNCING`
+- Kirjat → Luettavana: `prefs:root=IBOOKS#BKLibrary.ReadingNow`
+- Kirjat → iCloud Drive: `prefs:root=IBOOKS#BCSyncICloudDrive`
+- Kirjat → LUKEMINEN: `prefs:root=IBOOKS#READING`
+- Kirjat → Tasaa reunoihin: `prefs:root=IBOOKS#BKFullJustification`
+- Kirjat → Automaattinen tavutus: `prefs:root=IBOOKS#BKAutoHyphenation`
+- Kirjat → Etene marginaaleista: `prefs:root=IBOOKS#BKLeftTapTurnToNext`
+- Kirjat → Lukutavoitteet: `prefs:root=IBOOKS#READING_GOALS`
+- Kirjat → Tyhjennä lukutavoitetiedot: `prefs:root=IBOOKS#BKReadingGoalsShouldClearDataKey`
+- Kirjat → HAKU: `prefs:root=IBOOKS#SEARCHING`
+- Kirjat → Book Store: `prefs:root=IBOOKS#BKIncludeBookStoreResultsInSearch`
+- Kirjat → ÄÄNIKIRJAT: `prefs:root=IBOOKS#AUDIOBOOKS`
+- Kirjat → Siirry eteenpäin: `prefs:root=IBOOKS&path=BKAudioBookSkipForward`
+- Kirjat → Siirry taaksepäin: `prefs:root=IBOOKS&path=BKAudioBookSkipBackward`
+- Kirjat → ULKOISET SÄÄTIMET: `prefs:root=IBOOKS#BKRemoteSkipInsteadOfNextTrackDefaultKey`
+- Kirjat → Seuraava/edellinen: `prefs:root=IBOOKS#Next/Previous`
+- Kirjat → Hyppää eteen-/taaksepäin: `prefs:root=IBOOKS#Skip%20Forward/Back`
+- Kirjat → TIETOSUOJA: `prefs:root=IBOOKS#PRIVACY`
+- Kirjat → Nollaa tunniste: `prefs:root=IBOOKS#BAResetAnalyticsUserID`
+- Kirjat → Tekijänoikeustiedot: `prefs:root=IBOOKS&path=Acknowledgements`
+- Game Center: `prefs:root=GAMECENTER`
+- Hätätila SOS: `prefs:root=EMERGENCY_SOS`
+- Hätätila SOS → Soita sivupainikkeella: `prefs:root=EMERGENCY_SOS#CALL_WITH_SIDE_BUTTON`
+- Hätätila SOS → Automaattinen puhelu: `prefs:root=EMERGENCY_SOS#AUTO_CALL`
+- Hätätila SOS → ICE-yhteyshenkilöt: `prefs:root=EMERGENCY_SOS#EMERGENCY_CONTACTS`
+- Hätätila SOS → Käynnistyslaskennan ääni: `prefs:root=EMERGENCY_SOS#ALARM_SOUND_SWITCH`
+- Muistutukset: `prefs:root=REMINDERS`
+- Muistutukset → Oletuslista: `prefs:root=REMINDERS&path=DEFAULT_LIST`
+- Muistutukset → Oletuslista → Muistutukset: `prefs:root=REMINDERS&path=DEFAULT_LIST#preferredDefaultListID`
+- Muistutukset → Tänään-ilmoitus: `prefs:root=REMINDERS#todayNotificationFireTime`
+- Muistutukset → Näytä vanhentuneena: `prefs:root=REMINDERS#showRemindersAsOverdue`
+- Mobiilidata: `prefs:root=MOBILE_DATA_SETTINGS_ID`
+- Mobiilidata → Mobiilidatavalinnat: `prefs:root=MOBILE_DATA_SETTINGS_ID&path=CELLULAR_DATA_OPTIONS`
+- Mobiilidata → Mobiilidatavalinnat → Datansäästö: `prefs:root=MOBILE_DATA_SETTINGS_ID&path=CELLULAR_DATA_OPTIONS#Low%20Data%20Mode`
+- Mobiilidata → Mobiilidata: `prefs:root=MOBILE_DATA_SETTINGS_ID&path=SHOW_ALL`
+- WLAN | Wi-Fi: `prefs:root=WIFI`
+- Yhteystiedot: `prefs:root=CONTACTS`
+- Yhteystiedot → Salli Yhteystietojen käyttää: `prefs:root=CONTACTS#Allow%20Contacts%20To%20Access`
+- Yhteystiedot → Siri: `prefs:root=CONTACTS&path=SIRI_AND_SEARCH`
+- Yhteystiedot → Järjestys: `prefs:root=CONTACTS&path=ContactsSortOrder`
+- Yhteystiedot → Näyttöjärjestys: `prefs:root=CONTACTS&path=PersonNameOrder`
+- Yhteystiedot → Lyhyt nimi: `prefs:root=CONTACTS&path=PersonShortName`
+- Yhteystiedot → Lyhyt nimi → Lyhyt nimi: `prefs:root=CONTACTS&path=PersonShortName#Short%20Name`
+- Yhteystiedot → Lyhyt nimi → Suosi lempinimiä: `prefs:root=CONTACTS&path=PersonShortName#Prefer%20Nicknames`
+- Yhteystiedot → Omat tiedot: `prefs:root=CONTACTS&path=MeCard`
+- Yhteystiedot → Tuo SIM-yhteystiedot: `prefs:root=CONTACTS#SIMImport`
+- Pikakomennot: `prefs:root=SHORTCUTS`
+- Pikakomennot → iCloud-synkronointi: `prefs:root=SHORTCUTS#WFCloudKitSyncEnabled`
+- Pikakomennot → Synkronoi oikoteiden järjestys: `prefs:root=SHORTCUTS#WFCloudKitSyncOrderEnabled`
+- Pikakomennot → Lakitiedot: `prefs:root=SHORTCUTS&path=Legal%20Notices`
+- TV | Videoita: `prefs:root=TVAPP`
+- TV | Videoita → Toista käyttämällä mobiilidataa: `prefs:root=TVAPP#com.apple.videos%3AVideosUseCellularDataEnabledSetting`
+- TV | Videoita → Toistolaatu: `prefs:root=TVAPP#com.apple.videos%3APlaybackQualityGroup`
+- TV | Videoita → Ostot ja vuokraukset: `prefs:root=TVAPP&path=com.apple.videos%3APreferredPurchaseResolution`
+- TV | Videoita → Kotijako: `prefs:root=TVAPP#com.apple.videos%3AHomeSharingFooter`
+- Musiikki: `prefs:root=MUSIC`
+- Musiikki → Näytä Apple Music: `prefs:root=MUSIC#com.apple.Music%3AAppleMusicEnabled`
+- Musiikki → Lisää soittolistakappaleet: `prefs:root=MUSIC#com.apple.Music%3AAddPlaylistSongsToMyMusicSwitch`
+- Musiikki → Näytä tähtiarvioinnit: `prefs:root=MUSIC#com.apple.Music%3AShowStarRatings`
+- Musiikki → Synkronoi kirjasto: `prefs:root=MUSIC#com.apple.Music%3ACloudMusicLibraryEnabled`
+- Musiikki → Mobiilidata: `prefs:root=MUSIC&path=com.apple.Music%3ACellularData`
+- Musiikki → Ladattu musiikki: `prefs:root=MUSIC&path=com.apple.Music%3AMusicUsageLink`
+- Musiikki → Optimoi tallennustila: `prefs:root=MUSIC&path=com.apple.Music%3AOptimizeStorage`
+- Musiikki → Automaattiset lataukset: `prefs:root=MUSIC#com.apple.Music%3AMusicAutomaticDownload`
+- Musiikki → EQ: `prefs:root=MUSIC&path=com.apple.Music%3AEQ`
+- Musiikki → Voimakkuuden tasaus: `prefs:root=MUSIC#com.apple.Music%3ASoundCheck`
+- Musiikki → Käytä kuunteluhistoriaa: `prefs:root=MUSIC#com.apple.Music%3APrivateListening`
+- Kamera: `prefs:root=CAMERA`
+- Kamera → Tallennusmuodot: `prefs:root=CAMERA&path=CameraFormatsSettingsList`
+- Kamera → Tallennusmuodot → Apple ProRaw: `prefs:root=CAMERA&path=CameraFormatsSettingsList#CAMUserPreferenceEnableLinearDNGControl`
+- Kamera → Record Video: `prefs:root=CAMERA&path=Record%20Video`
+- Kamera → Record Video → HDR-video: `prefs:root=CAMERA&path=Record%20Video#HDR%20Video`
+- Kamera → Säilytä asetukset: `prefs:root=CAMERA&path=CameraPreserveSettingsSwitch`
+- Kamera → Säilytä asetukset → Kameratila: `prefs:root=CAMERA&path=CameraPreserveSettingsSwitch#CAMUserPreferencePreserveCaptureMode`
+- Kamera → Ruudukko: `prefs:root=CAMERA#CameraGridSwitch`
+- Kamera → Skannaa QR-koodit: `prefs:root=CAMERA#CameraQRBannerSwitch`
+- Kompassi: `prefs:root=COMPASS`
+- Kompassi → Käytä todellista pohjoista: `prefs:root=COMPASS#USE_TRUE_NORTH`
+- Altistusilmoitukset: `prefs:root=EXPOSURE_NOTIFICATION`
+- Mail: `prefs:root=MAIL`
+- Mail → Tilit: `prefs:root=MAIL&path=ACCOUNTS`
+- Mail → Tilit → Lisää tili: `prefs:root=MAIL&path=ACCOUNTS#ADD_ACCOUNT`
+- Mail → Tilit → Hae uudet tiedot: `prefs:root=MAIL&path=ACCOUNTS#FETCH_NEW_DATA`
+- Mail → Esikatselu: `prefs:root=MAIL&path=Preview`
+- Mail → Näytä To/Cc-merkit: `prefs:root=MAIL#Show%20To/Cc%20Labels`
+- Mail → Pyyhkäisyvalinnat: `prefs:root=MAIL&path=Swipe%20Options`
+- Mail → Kysy ennen poistoa: `prefs:root=MAIL#Ask%20Before%20Deleting`
+- Mail → Lataa etäkuvat: `prefs:root=MAIL#Load%20Remote%20Images`
+- Mail → Ketjuta viestit: `prefs:root=MAIL#Organize%20by%20Thread`
+- Mail → Pienennä luetut viestit: `prefs:root=MAIL#Collapse%20Read%20Messages`
+- Mail → Uusin viesti ylimpänä: `prefs:root=MAIL#Most%20Recent%20Message%20on%20Top`
+- Mail → Kokoa ketjut: `prefs:root=MAIL#Complete%20Threads`
+- Mail → Mykistetty ketju: `prefs:root=MAIL&path=Muted%20Thread%20Action`
+- Mail → Ohita estetyt lähettäjät: `prefs:root=MAIL#Ignore%20Blocked%20Senders`
+- Mail → Estetyt lähettäjät: `prefs:root=MAIL&path=Blocked%20Sender%20Options`
+- Mail → Estetyt: `prefs:root=MAIL&path=Blocked`
+- Mail → Piilokopio itselle: `prefs:root=MAIL#Always%20Bcc%20Myself`
+- Mail → Merkitse osoitteet: `prefs:root=MAIL&path=Mark%20Addresses`
+- Mail → Lisää lainaussyvyyttä: `prefs:root=MAIL&path=Increase%20Quote%20Level`
+- Mail → Sisällytä liitteet vastauksiin: `prefs:root=MAIL&path=Include%20Attachments%20with%20Replies`
+- Mail → Allekirjoitus: `prefs:root=MAIL&path=Signature`
+- Bluetooth: `prefs:root=Bluetooth`
+- News: `prefs:root=NEWS`
+- News → Näytä juttujen esikatselut: `prefs:root=NEWS#show_excerpt_mode`
+- News → Rajoita juttuja Tänään-näkymässä: `prefs:root=NEWS#showStoriesFromFavoritesSpecifierID`
+- News → Tietosuoja: `prefs:root=NEWS#Privacy`
+- News → Nollaa tunniste: `prefs:root=NEWS#reset_identifier`
+- News → Tekijänoikeustiedot: `prefs:root=NEWS&path=Acknowledgements`
+- Kuvat: `prefs:root=Photos`
+- Kuvat → iCloud-kuvat: `prefs:root=Photos#iCloudPhotosSwitch`
+- Kuvat → Optimoi tallennustila: `prefs:root=Photos#iCloudOptimizeStorageOption`
+- Kuvat → Lataa ja pidä alkuperäiset: `prefs:root=Photos#iCloudKeepOriginalsOption`
+- Kuvat → Jaetut albumit: `prefs:root=Photos#SharedStreamsSwitch`
+- Kuvat → Mobiilidata: `prefs:root=Photos&path=CellularDataLinkList`
+- Kuvat → Toista videot automaattisesti: `prefs:root=Photos#VideoAutoplaySwitch`
+- Kuvat → Näytä koko HDR: `prefs:root=Photos#ImageModulationSwitch`
+- Kuvat → Näytä juhlapäivätapahtumat: `prefs:root=Photos#MEMORIES_HOLIDAY_CALENDAR_EVENTS_SWITCH`
+- Kuvat → Siirto Maciin tai PC:hen: `prefs:root=Photos#TransferGroup`
+- Podcastit: `prefs:root=PODCASTS`
+- Tietosuoja ja suojaus: `prefs:root=Privacy` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity`
+- Tietosuoja ja suojaus → Terveys: `prefs:root=Privacy&path=HEALTH` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/HEALTH`
+- Tietosuoja ja suojaus → Terveysdata: `prefs:root=Privacy&path=HEALTH_DATA` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/HEALTH_DATA`
+- Tietosuoja ja suojaus → Sijainti: `prefs:root=Privacy&path=LOCATION` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/LOCATION`
+- Tietosuoja ja suojaus → Sijainti → Jaa oma sijainti: `prefs:root=Privacy&path=LOCATION/LOCATION_SHARING` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/LOCATION/LOCATION_SHARING`
+- Tietosuoja ja suojaus → Yhteystiedot: `prefs:root=Privacy&path=CONTACTS` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/CONTACTS`
+- Tietosuoja ja suojaus → Kalenterit: `prefs:root=Privacy&path=CALENDARS` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/CALENDARS`
+- Tietosuoja ja suojaus → Muistutukset: `prefs:root=Privacy&path=REMINDERS` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/REMINDERS`
+- Tietosuoja ja suojaus → Kuvat: `prefs:root=Privacy&path=PHOTOS` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/PHOTOS`
+- Tietosuoja ja suojaus → Bluetooth-jako: `prefs:root=Privacy&path=BT_PERIPHERAL` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/BT_PERIPHERAL`
+- Tietosuoja ja suojaus → Mikrofoni: `prefs:root=Privacy&path=MICROPHONE` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/MICROPHONE`
+- Tietosuoja ja suojaus → Puheentunnistus: `prefs:root=Privacy&path=SPEECH_RECOGNITION` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/SPEECH_RECOGNITION`
+- Tietosuoja ja suojaus → Kamera: `prefs:root=Privacy&path=CAMERA` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/CAMERA`
+- Tietosuoja ja suojaus → HomeKit: `prefs:root=Privacy&path=WILLOW` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/WILLOW`
+- Tietosuoja ja suojaus → Media ja Apple Music: `prefs:root=Privacy&path=MEDIALIBRARY` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/MEDIALIBRARY`
+- Tietosuoja ja suojaus → Analyysi: `prefs:root=Privacy&path=PROBLEM_REPORTING` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/PROBLEM_REPORTING`
+- Tietosuoja ja suojaus → Mainonta: `prefs:root=Privacy&path=ADVERTISING` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/ADVERTISING`
+- Tietosuoja ja suojaus → Tiedostot ja kansiot: `prefs:root=Privacy&path=FILEACCESS` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/FILEACCESS`
+- Tietosuoja ja suojaus → Seuranta: `prefs:root=Privacy&path=USER_TRACKING` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/USER_TRACKING`
+- Tietosuoja ja suojaus → Appien tietosuoja­raportti: `prefs:root=Privacy&path=PRIVACY_REPORT` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/PRIVACY_REPORT`
+- Tietosuoja ja suojaus → Sulkutila: `prefs:root=Privacy#LOCKDOWN_MODE` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity#LOCKDOWN_MODE#LOCKDOWN_MODE`
+- Tietosuoja ja suojaus → Arkaluontoista sisältöä: `prefs:root=Privacy#NUDITY_DETECTION` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity#NUDITY_DETECTION#NUDITY_DETECTION`
+- FaceTime: `prefs:root=FACETIME`
+- Ruutuaika: `prefs:root=SCREEN_TIME`
+- Äänet | Äänet ja tuntopalaute: `prefs:root=Sounds`
+- Äänet | Äänet ja tuntopalaute → Kuulokkeiden turvallisuus: `prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING`
+- Äänet | Äänet ja tuntopalaute → Kuulokkeiden turvallisuus → Lightning-sovittimet: `prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING/HEADPHONE_LIGHTNING_ADAPTERS`
+- Äänet | Äänet ja tuntopalaute → Kuulokkeiden turvallisuus → Kuulokeilmoitukset: `prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING#SHSHeadphoneWeeklyNotificationsKey`
+- Äänet | Äänet ja tuntopalaute → Kuulokkeiden turvallisuus → Kovan äänen hiljennys: `prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING#SHSHeadphoneLevelLimitSwitchKey`
+- Äänet | Äänet ja tuntopalaute → Äänitehosteet: `prefs:root=Sounds&path=SOUND_EFFECTS`
+- Äänet | Äänet ja tuntopalaute → Soitto- ja ilmoitusäänet: `prefs:root=Sounds#RINGER_AND_ALERT_GROUP`
+- Äänet | Äänet ja tuntopalaute → Muuta painikkeilla: `prefs:root=Sounds#CHANGE_WITH_BUTTONS`
+- Äänet | Äänet ja tuntopalaute → Äänet ja värinäkuviot: `prefs:root=Sounds#SOUNDS_ALERT_GROUP`
+- Äänet | Äänet ja tuntopalaute → Soittoääni: `prefs:root=Sounds&path=Ringtone`
+- Äänet | Äänet ja tuntopalaute → Viestiääni: `prefs:root=Sounds&path=Text_Messages`
+- Äänet | Äänet ja tuntopalaute → Uusi puheposti: `prefs:root=Sounds&path=Voicemail`
+- Äänet | Äänet ja tuntopalaute → Uusi sähköposti: `prefs:root=Sounds&path=NEW_MAIL`
+- Äänet | Äänet ja tuntopalaute → Lähetetty sähköposti: `prefs:root=Sounds&path=SENT_MAIL`
+- Äänet | Äänet ja tuntopalaute → Kalenteriäänet: `prefs:root=Sounds&path=Calendar%20Alarm`
+- Äänet | Äänet ja tuntopalaute → Muistutusäänet: `prefs:root=Sounds&path=Reminder%20Alerts`
+- Äänet | Äänet ja tuntopalaute → Näppäimistöäänet: `prefs:root=Sounds#KEYBOARD_SOUND_SWITCH`
+- Äänet | Äänet ja tuntopalaute → Lukitusääni: `prefs:root=Sounds#LOCK_SOUND_SWITCH`
+- Äänet | Äänet ja tuntopalaute → Personoitu tilaääni: `prefs:root=Sounds&path=Personalized%20Spatial%20Audio`
+- Apple Pencil: `prefs:root=Pencil`
+- Apple Pencil → Apple Pencil: `prefs:root=Pencil#PrefersPencilDraws`
+- Apple Pencil → Apple Pencil: `prefs:root=Pencil#PencilTextInput`
+- Viestit: `prefs:root=MESSAGES`
+- Pörssi: `prefs:root=STOCKS`
+- Pörssi → Tietosuoja: `prefs:root=STOCKS#Privacy`
+- Pörssi → Nollaa tunniste: `prefs:root=STOCKS#reset_identifier`
+- Käännä: `prefs:root=TRANSLATE`
+- Käännä → Offline-käännös: `prefs:root=TRANSLATE#OnDeviceOnly`
+- Siri: `prefs:root=SIRI`
+- Siri → Salli Siri, kun lukittuna: `prefs:root=SIRI#ASSISTANT_LOCK_SCREEN_ACCESS`
+- Siri → Kieli: `prefs:root=SIRI&path=LANGUAGE_ID`
+- Siri → Siri-ääni: `prefs:root=SIRI&path=VOICE_ID`
+- Siri → Puhepalaute: `prefs:root=SIRI&path=VOICE_FEEDBACK_ID`
+- Siri → Omat tiedot: `prefs:root=SIRI&path=MY_INFO`
+- Terveys | Terveysdata: `prefs:root=HEALTH`
+- App Store: `prefs:root=STORE`
+- App Store → Automaattiset lataukset: `prefs:root=STORE#Automatic%20Downloads`
+- App Store → Appipäivitykset: `prefs:root=STORE#App%20Updates`
+- App Store → Appien lataukset: `prefs:root=STORE&path=App%20Downloads`
+- App Store → Automaattinen videotoisto: `prefs:root=STORE&path=Video%20Autoplay`
+- App Store → Arviot ja arvostelut apeissa: `prefs:root=STORE#In-App%20Ratings%20&%20Reviews`
+- Lentotila: `prefs:root=ROOT#AIRPLANE_MODE`

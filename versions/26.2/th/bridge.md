@@ -1,0 +1,519 @@
+- ออกซิเจนในเลือด: `bridge:root=com.apple.OxygenSaturationSettings`
+- การล้างมือ: `bridge:root=com.apple.BrookBridgeSettings`
+- การล้างมือ → อนุญาตการแจ้งเตือน: `bridge:root=com.apple.BrookBridgeSettings#ALLOW_NOTIFICATIONS_ID`
+- การล้างมือ → ส่งไปที่ศูนย์การแจ้งเตือน: `bridge:root=com.apple.BrookBridgeSettings#SEND_TO_NOTIFICATION_CENTER_ID`
+- การล้างมือ → ปิดการแจ้งเตือน: `bridge:root=com.apple.BrookBridgeSettings#NOTIFICATIONS_OFF_ID`
+- การล้างมือ → การจัดกลุ่มการแจ้งเตือน: `bridge:root=com.apple.BrookBridgeSettings&path=NOTIFICATION_COALESCING_ID`
+- การล้างมือ → นับเวลาถอยหลังขณะล้างมือ: `bridge:root=com.apple.BrookBridgeSettings#HANDWASHING_TIMER_ID`
+- จอภาพและความสว่าง: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID`
+- จอภาพและความสว่าง → ระยะเวลาแสดงหน้าจอ: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=WAKE_DURATION_SELECTION_KEY`
+- จอภาพและความสว่าง → ระยะเวลาแสดงหน้าจอ → เมื่อแตะ: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=WAKE_DURATION_SELECTION_KEY#ON_TAP_GROUP_ID`
+- จอภาพและความสว่าง → ระยะเวลาแสดงหน้าจอ → แสดงหน้าจอ 15 วินาที: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=WAKE_DURATION_SELECTION_KEY#SHORT_WAKE_ID`
+- จอภาพและความสว่าง → ระยะเวลาแสดงหน้าจอ → แสดงหน้าจอ 70 วินาที: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=WAKE_DURATION_SELECTION_KEY#LONG_WAKE_ID`
+- จอภาพและความสว่าง → ความสว่าง: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID#BRIGHTNESS_LABEL`
+- จอภาพและความสว่าง → เปิดตลอด: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID`
+- จอภาพและความสว่าง → เปิดตลอด → เปิดตลอด: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID#TRITIUM_ID`
+- จอภาพและความสว่าง → เปิดตลอด → วางข้อมือลง: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID#TRITIUM_PRIVACY_GROUP_ID`
+- จอภาพและความสว่าง → เปิดตลอด → แสดงกิจกรรมสด: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_LIVE_ACTIVITIES_ID`
+- จอภาพและความสว่าง → เปิดตลอด → แสดงกิจกรรมสด → แสดงกิจกรรมสด: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_LIVE_ACTIVITIES_ID#APP_BACKLIGHT_PRIVACY_GLOBAL_APP`
+- จอภาพและความสว่าง → เปิดตลอด → แสดงแอป: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_APPS_ID`
+- จอภาพและความสว่าง → เปิดตลอด → แสดงแอป → แสดงแอป: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_APPS_ID#APP_BACKLIGHT_PRIVACY_GLOBAL_APP`
+- จอภาพและความสว่าง → เปิดตลอด → แสดงแอป → แอป: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_APPS_ID#APP_GROUP_ID`
+- จอภาพและความสว่าง → เปิดตลอด → แสดงแอป → App Store: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_APPS_ID#com.apple.AppStore`
+- จอภาพและความสว่าง → เปิดตลอด → แสดงแอป → Nike Run Club: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_APPS_ID#com.nike.nikeplus-gps.watchkitapp`
+- จอภาพและความสว่าง → เปิดตลอด → แสดงแอป → โทรศัพท์: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_APPS_ID#com.apple.NanoPhone`
+- จอภาพและความสว่าง → เปิดตลอด → แสดงแอป → รูปภาพ: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_APPS_ID#com.apple.NanoPhotos`
+- จอภาพและความสว่าง → เปิดตลอด → แสดงแอป → การตั้งค่า: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_APPS_ID#com.apple.NanoSettings`
+- จอภาพและความสว่าง → เปิดตลอด → แสดงแอป → Tap-to-Radar: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_APPS_ID#com.apple.NanoTapToRadar`
+- จอภาพและความสว่าง → เปิดตลอด → แสดงการแจ้งเตือน: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID`
+- จอภาพและความสว่าง → เปิดตลอด → แสดงการแจ้งเตือน → แสดงการแจ้งเตือน: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#APP_BACKLIGHT_PRIVACY_GLOBAL_APP`
+- จอภาพและความสว่าง → เปิดตลอด → แสดงการแจ้งเตือน → แอปสำหรับ APPLE WATCH | แอปสำหรับ IPHONE: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#APP_GROUP_ID`
+- จอภาพและความสว่าง → เปิดตลอด → แสดงการแจ้งเตือน → App Store: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.AppStore`
+- จอภาพและความสว่าง → เปิดตลอด → แสดงการแจ้งเตือน → Nike Run Club: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.nike.nikeplus-gps.watchkitapp`
+- จอภาพและความสว่าง → เปิดตลอด → แสดงการแจ้งเตือน → โทรศัพท์: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.NanoPhone`
+- จอภาพและความสว่าง → เปิดตลอด → แสดงการแจ้งเตือน → รูปภาพ: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.NanoPhotos`
+- จอภาพและความสว่าง → เปิดตลอด → แสดงการแจ้งเตือน → การตั้งค่า: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.NanoSettings`
+- จอภาพและความสว่าง → เปิดตลอด → แสดงการแจ้งเตือน → Tap-to-Radar: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.NanoTapToRadar`
+- จอภาพและความสว่าง → เปิดตลอด → แสดงการแจ้งเตือน → การตั้งค่าการช่วยการเข้าถึง: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.accessibility.TeachableMomentsNotifications`
+- จอภาพและความสว่าง → เปิดตลอด → แสดงการแจ้งเตือน → หนังสือ: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.iBooks`
+- จอภาพและความสว่าง → เปิดตลอด → แสดงการแจ้งเตือน → Caffè Macs: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.ist.CaffeMacsApp`
+- จอภาพและความสว่าง → เปิดตลอด → แสดงการแจ้งเตือน → ปฏิทิน: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.mobilecal`
+- จอภาพและความสว่าง → เปิดตลอด → แสดงการแจ้งเตือน → กล้อง: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.camera`
+- จอภาพและความสว่าง → เปิดตลอด → แสดงการแจ้งเตือน → Connect: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.ist.AppleConnect`
+- จอภาพและความสว่าง → เปิดตลอด → แสดงการแจ้งเตือน → รายงานการวินิจฉัย: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.DiagnosticsReporter`
+- จอภาพและความสว่าง → เปิดตลอด → แสดงการแจ้งเตือน → Feedback Internal: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.FeedbackInternal`
+- จอภาพและความสว่าง → เปิดตลอด → แสดงการแจ้งเตือน → ฟิตเนส: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.Fitness`
+- จอภาพและความสว่าง → เปิดตลอด → แสดงการแจ้งเตือน → Game Center: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.gamecenter`
+- จอภาพและความสว่าง → เปิดตลอด → แสดงการแจ้งเตือน → สุขภาพ: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.Health`
+- จอภาพและความสว่าง → เปิดตลอด → แสดงการแจ้งเตือน → Livability: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.Livability`
+- จอภาพและความสว่าง → เปิดตลอด → แสดงการแจ้งเตือน → เมล: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.mobilemail`
+- จอภาพและความสว่าง → เปิดตลอด → แสดงการแจ้งเตือน → ข้อความ: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.MobileSMS`
+- จอภาพและความสว่าง → เปิดตลอด → แสดงการแจ้งเตือน → Self Service: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.jamfsoftware.selfservice`
+- จอภาพและความสว่าง → เปิดตลอด → แสดงการแจ้งเตือน → การแจ้งเตือนการติดตาม: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.FindMySafetyAlertsNotifications`
+- จอภาพและความสว่าง → เปิดตลอด → แสดงการแจ้งเตือน → สภาพอากาศ: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.weather`
+- จอภาพและความสว่าง → เปิดตลอด → แสดงข้อมูลกลไกหน้าปัด: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_COMPLICATIONS_DATA_ID`
+- จอภาพและความสว่าง → เปิดตลอด → แสดงข้อมูลกลไกหน้าปัด → แสดงข้อมูลกลไกหน้าปัด: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_COMPLICATIONS_DATA_ID#Show%20Complication%20Data`
+- จอภาพและความสว่าง → เปิดตลอด → แสดงข้อมูลกลไกหน้าปัด → แอป: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_COMPLICATIONS_DATA_ID#Apps`
+- จอภาพและความสว่าง → เปิดตลอด → แสดงข้อมูลกลไกหน้าปัด → กำลังโหลด…: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_COMPLICATIONS_DATA_ID#Loading%E2%80%A6`
+- จอภาพและความสว่าง → เปิดตลอด → แสดงข้อมูลกลไกหน้าปัด → Siri: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_COMPLICATIONS_DATA_ID#Siri`
+- จอภาพและความสว่าง → เปิดตลอด → แสดงข้อมูลกลไกหน้าปัด → บัตร Siri: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_COMPLICATIONS_DATA_ID#Siri%20Cards`
+- จอภาพและความสว่าง → ขนาดข้อความ: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID#TEXT_SIZE`
+- จอภาพและความสว่าง → ข้อความตัวหนา: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID#BOLD_TEXT`
+- จอภาพและความสว่าง → แสดงหน้าจอ: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID#Wake`
+- จอภาพและความสว่าง → แสดงหน้าจอเมื่อยกข้อมือขึ้น: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID#WAKE_SCREEN_ON_WRIST_RAISE_SWITCH_ID`
+- จอภาพและความสว่าง → แสดงหน้าจอเมื่อหมุน Digital Crown: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID#WAKE_SCREEN_ON_CROWN_UP_SWITCH_ID`
+- รูปภาพ: `bridge:root=com.apple.NanoPhotosBridgeSettings`
+- รูปภาพ → การเชื่อมข้อมูลรูปภาพ: `bridge:root=com.apple.NanoPhotosBridgeSettings#Photo%20Syncing`
+- รูปภาพ → ความทรงจำ: `bridge:root=com.apple.NanoPhotosBridgeSettings#Memories`
+- รูปภาพ → เชื่อมข้อมูลความทรงจำ: `bridge:root=com.apple.NanoPhotosBridgeSettings#Sync%20Memories`
+- รูปภาพ → รูปภาพแนะนำ: `bridge:root=com.apple.NanoPhotosBridgeSettings#Featured%20Photos`
+- รูปภาพ → เชื่อมข้อมูลรูปภาพแนะนำ: `bridge:root=com.apple.NanoPhotosBridgeSettings#Sync%20Featured%20Photos`
+- รูปภาพ → อัลบั้ม: `bridge:root=com.apple.NanoPhotosBridgeSettings#Album`
+- รูปภาพ → เชื่อมข้อมูลอัลบั้ม: `bridge:root=com.apple.NanoPhotosBridgeSettings&path=Sync%20Album`
+- รูปภาพ → จำนวนรูปภาพสูงสุด: `bridge:root=com.apple.NanoPhotosBridgeSettings&path=Photos%20Limit`
+- รูปภาพ → การตั้งค่าการแจ้งเตือน: `bridge:root=com.apple.NanoPhotosBridgeSettings#MIRROR_RADIO_GROUP_ID`
+- รูปภาพ → เหมือนกับ iPhone ของฉัน: `bridge:root=com.apple.NanoPhotosBridgeSettings#MIRROR_MY_COMPANION_ID`
+- รูปภาพ → กำหนดเอง: `bridge:root=com.apple.NanoPhotosBridgeSettings#CUSTOM_ID`
+- กลไกหน้าปัด: `bridge:root=COMPLICATIONS`
+- ศูนย์ควบคุม: `bridge:root=CONTROL_CENTER_ID`
+- ศูนย์ควบคุม → รีเซ็ตการจัดเรียงในศูนย์ควบคุม: `bridge:root=CONTROL_CENTER_ID#CONTROL_CENTER_RESET_ID`
+- มุมมองแอป: `bridge:root=APP_VIEW_ID`
+- ทั่วไป: `bridge:root=GENERAL_LINK`
+- ทั่วไป → เกี่ยวกับ: `bridge:root=GENERAL_LINK&path=ABOUT`
+- ทั่วไป → เกี่ยวกับ → ชื่อ: `bridge:root=GENERAL_LINK&path=ABOUT/NAME_CELL_ID`
+- ทั่วไป → เกี่ยวกับ → เวอร์ชั่น watchOS: `bridge:root=GENERAL_LINK&path=ABOUT#OS_VERSION_CELL_ID`
+- ทั่วไป → เกี่ยวกับ → ชื่อรุ่น: `bridge:root=GENERAL_LINK&path=ABOUT#DEVICE_MARKETING_NAME_CELL_ID`
+- ทั่วไป → เกี่ยวกับ → รายละเอียดรุ่น: `bridge:root=GENERAL_LINK&path=ABOUT#DEVICE_DETAIL_CELL_ID`
+- ทั่วไป → เกี่ยวกับ → หมายเลขรุ่น: `bridge:root=GENERAL_LINK&path=ABOUT#DEVICE_MODEL_CELL_ID`
+- ทั่วไป → เกี่ยวกับ → เลขประจำเครื่อง: `bridge:root=GENERAL_LINK&path=ABOUT#DEVICE_SERIAL_NUMBER_CELL_ID`
+- ทั่วไป → เกี่ยวกับ → เพลง: `bridge:root=GENERAL_LINK&path=ABOUT#SONGS_CELL_ID`
+- ทั่วไป → เกี่ยวกับ → รูปภาพ: `bridge:root=GENERAL_LINK&path=ABOUT#PHOTOS_CELL_ID`
+- ทั่วไป → เกี่ยวกับ → แอปพลิเคชัน: `bridge:root=GENERAL_LINK&path=ABOUT#APPLICATIONS_CELL_ID`
+- ทั่วไป → เกี่ยวกับ → ความจุ: `bridge:root=GENERAL_LINK&path=ABOUT#STORAGE_CAPACITY_CELL_ID`
+- ทั่วไป → เกี่ยวกับ → เหลือให้ใช้: `bridge:root=GENERAL_LINK&path=ABOUT#STORAGE_AVAILABLE_CELL_ID`
+- ทั่วไป → เกี่ยวกับ → ผู้ให้บริการ: `bridge:root=GENERAL_LINK&path=ABOUT#CARRIER_CELL_ID`
+- ทั่วไป → เกี่ยวกับ → บลูทูธ: `bridge:root=GENERAL_LINK&path=ABOUT#DEVICE_BLUETOOTH_ADDRESS_CELL_ID`
+- ทั่วไป → เกี่ยวกับ → IMEI: `bridge:root=GENERAL_LINK&path=ABOUT#IMEI_CELL_ID`
+- ทั่วไป → เกี่ยวกับ → ICCID: `bridge:root=GENERAL_LINK&path=ABOUT#ICCID_CELL_ID`
+- ทั่วไป → เกี่ยวกับ → EID: `bridge:root=GENERAL_LINK&path=ABOUT/EID_CELL_ID`
+- ทั่วไป → เกี่ยวกับ → SEID: `bridge:root=GENERAL_LINK&path=ABOUT/DEVICE_SEID_CELL_ID`
+- ทั่วไป → เกี่ยวกับ → ทางกฎหมาย: `bridge:root=GENERAL_LINK&path=ABOUT/LEGAL_CELL_ID`
+- ทั่วไป → เกี่ยวกับ → ดูคู่มือผู้ใช้ Apple Watch: `bridge:root=GENERAL_LINK&path=ABOUT#SHOW_MANUAL_CELL_ID`
+- ทั่วไป → รายการอัปเดตซอฟต์แวร์: `bridge:root=GENERAL_LINK&path=SOFTWARE_UPDATE_LINK`
+- ทั่วไป → ติดตั้งแอปอัตโนมัติ: `bridge:root=GENERAL_LINK#AUTO_APP_INSTALL_SWITCH_ID`
+- ทั่วไป → โหมดเครื่องบิน: `bridge:root=GENERAL_LINK&path=AIRPLANE_MODE_ID`
+- ทั่วไป → โฟกัส: `bridge:root=GENERAL_LINK&path=FOCUS_ID`
+- ทั่วไป → โฟกัส → เหมือนกับ iPhone ของฉัน: `bridge:root=GENERAL_LINK&path=FOCUS_ID#Mirror%20my%20iPhone`
+- ทั่วไป → แนวของนาฬิกา: `bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION_ID`
+- ทั่วไป → แนวของนาฬิกา → ใส่ Apple Watch ที่: `bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION_ID#WRIST_CHOICE_ID`
+- ทั่วไป → แนวของนาฬิกา → ข้อมือซ้าย: `bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION_ID#LEFT_HAND_ID`
+- ทั่วไป → แนวของนาฬิกา → ข้อมือขวา: `bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION_ID#RIGHT_HAND_ID`
+- ทั่วไป → แนวของนาฬิกา → Digital Crown อยู่ข้างซ้าย: `bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION_ID#LISA_ON_LEFT_ID`
+- ทั่วไป → แนวของนาฬิกา → Digital Crown อยู่ข้างขวา: `bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION_ID#LISA_ON_RIGHT_ID`
+- ทั่วไป → บัญชี Apple: `bridge:root=GENERAL_LINK&path=LINK_WITH_ICLOUD_LINK`
+- ทั่วไป → เปิดใช้งานการป้อนตามคำบอก: `bridge:root=GENERAL_LINK#DICTATION_CELL_ID`
+- ทั่วไป → เครื่องหมายวรรคตอนอัตโนมัติ: `bridge:root=GENERAL_LINK#DICTATION_AUTO_PUNCTUATION_CELL_ID`
+- ทั่วไป → เปิดใช้งาน Handoff: `bridge:root=GENERAL_LINK#CONTINUITY_ID`
+- ทั่วไป → โหมดข้างเตียง: `bridge:root=GENERAL_LINK#NIGHTSTAND_CELL_ID`
+- ทั่วไป → เปิดใช้งานการถ่ายภาพหน้าจอ: `bridge:root=GENERAL_LINK#BUTTON_CHORD_CELL_ID`
+- ทั่วไป → ประหยัดพลังงาน | พื้นที่จัดเก็บข้อมูล | ระยะเวลาการใช้หลังจากชาร์จเต็มที่ | เครื่องเปิดรอใช้งาน: `bridge:root=GENERAL_LINK&path=USAGE_LINK`
+- ทั่วไป → โปรไฟล์: `bridge:root=GENERAL_LINK&path=ManagedConfigurationList`
+- ทั่วไป → บันทึกการวินิจฉัยการใช้งาน: `bridge:root=GENERAL_LINK&path=DIAGNOSTIC_LOG_BROWSER`
+- ทั่วไป → บันทึกการวินิจฉัยการใช้งาน → กำลังโหลด…: `bridge:root=GENERAL_LINK&path=DIAGNOSTIC_LOG_BROWSER#Loading%E2%80%A6`
+- ทั่วไป → คัดลอกการวิเคราะห์ Watch: `bridge:root=GENERAL_LINK#LOGS_CELL_ID`
+- ทั่วไป → รีเซ็ต: `bridge:root=GENERAL_LINK&path=RESET_ID`
+- ทั่วไป → กลับไปที่หน้าปัด: `bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK_ID`
+- ทั่วไป → กลับไปที่หน้าปัด → กลับไปที่หน้าปัด: `bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK_ID#CSLPRFReturnToClockGroupID`
+- ทั่วไป → กลับไปที่หน้าปัด → แสดงเสมอ: `bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK_ID#RETURN_TO_CLOCK_ALWAYS`
+- ทั่วไป → กลับไปที่หน้าปัด → หลังจาก 2 นาที: `bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK_ID#RETURN_TO_CLOCK_AFTER_2_MINUTES`
+- ทั่วไป → กลับไปที่หน้าปัด → หลังจาก 1 ชั่วโมง: `bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK_ID#RETURN_TO_CLOCK_AFTER_1_HOUR`
+- ทั่วไป → กลับไปที่หน้าปัด → แอป: `bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK_ID#APP_GROUP_ID`
+- ทั่วไป → ดึงข้อมูลแอปอยู่เบื้องหลัง: `bridge:root=GENERAL_LINK&path=BAR_ROW_ID`
+- ทั่วไป → ดึงข้อมูลแอปอยู่เบื้องหลัง → ดึงข้อมูลแอปอยู่เบื้องหลัง: `bridge:root=GENERAL_LINK&path=BAR_ROW_ID#BACKGROUND_APP_UPDATING_CELL_ID`
+- ทั่วไป → ภาษาและภูมิภาค: `bridge:root=GENERAL_LINK&path=LANGUAGE_AND_REGION_ID`
+- ทั่วไป → ภาษาและภูมิภาค → เหมือนกับ iPhone ของฉัน: `bridge:root=GENERAL_LINK&path=LANGUAGE_AND_REGION_ID#MIRROR_MY_COMPANION_ID`
+- ทั่วไป → ภาษาและภูมิภาค → กำหนดเอง: `bridge:root=GENERAL_LINK&path=LANGUAGE_AND_REGION_ID#CUSTOM_ID`
+- ทั่วไป → เปิดอัตโนมัติเมื่ออยู่ใต้น้ำ: `bridge:root=GENERAL_LINK&path=AUTO_LAUNCH`
+- ทั่วไป → เปิดใช้โดยอัตโนมัติ: `bridge:root=GENERAL_LINK&path=AUTO_LAUNCH_ID`
+- ทั่วไป → Wake Screen: `bridge:root=GENERAL_LINK&path=WAKE_SCREEN`
+- ทั่วไป → Wake Screen → กำลังเล่นอยู่: `bridge:root=GENERAL_LINK&path=WAKE_SCREEN#AUTO_LAUNCH_MEDIA`
+- เสียงและการสั่น: `bridge:root=SOUNDS_ID`
+- เสียงและการสั่น → ระดับเสียงเตือน: `bridge:root=SOUNDS_ID#AUDIO_SLIDER`
+- เสียงและการสั่น → เสียงเรียกเข้าและเสียงเตือน: `bridge:root=SOUNDS_ID#RINGTONE_AND_ALERTS_SECTION_TITLE`
+- เสียงและการสั่น → โหมดปิดเสียง: `bridge:root=SOUNDS_ID#audio_mute_switch`
+- เสียงและการสั่น → ปรับระดับเสียงโดยอัตโนมัติ: `bridge:root=SOUNDS_ID#contextual_volume_switch`
+- เสียงและการสั่น → ระดับ: `bridge:root=SOUNDS_ID&path=contextual_volume_profile`
+- เสียงและการสั่น → ระดับ → ดังขึ้น: `bridge:root=SOUNDS_ID&path=contextual_volume_profile#CONTEXTUAL_VOLUME_PROFILE_LOUDER_ID`
+- เสียงและการสั่น → ระดับ → ค่าเริ่มต้น: `bridge:root=SOUNDS_ID&path=contextual_volume_profile#CONTEXTUAL_VOLUME_PROFILE_DEFAULT_ID`
+- เสียงและการสั่น → ระดับ → เบาลง: `bridge:root=SOUNDS_ID&path=contextual_volume_profile#CONTEXTUAL_VOLUME_PROFILE_QUIETER_ID`
+- เสียงและการสั่น → การสั่น: `bridge:root=SOUNDS_ID&path=HAPTICS_ID`
+- เสียงและการสั่น → การสั่น → ปิด: `bridge:root=SOUNDS_ID&path=HAPTICS_ID#OFF_ITEM_ID`
+- เสียงและการสั่น → การสั่น → ค่าเริ่มต้น: `bridge:root=SOUNDS_ID&path=HAPTICS_ID#DEFAULT_ITEM_ID`
+- เสียงและการสั่น → การสั่น → แบบแรง: `bridge:root=SOUNDS_ID&path=HAPTICS_ID#PROMINENT_ITEM_ID`
+- เสียงและการสั่น → เสียงเรียกเข้า: `bridge:root=SOUNDS_ID&path=SOUND_AND_HAPTIC_PATTERNS_RINGTONE_ID`
+- เสียงและการสั่น → เสียงข้อความ: `bridge:root=SOUNDS_ID&path=SOUND_AND_HAPTIC_PATTERNS_TEXTTONE_ID`
+- เสียงและการสั่น → เสียงเมลใหม่: `bridge:root=SOUNDS_ID&path=SOUND_AND_HAPTIC_PATTERNS_NEWMAIL_ID`
+- เสียงและการสั่น → เสียงเตือนปฏิทิน: `bridge:root=SOUNDS_ID&path=SOUND_AND_HAPTIC_PATTERNS_CALENDARALERTS_ID`
+- เสียงและการสั่น → เสียงเตือนความจำ: `bridge:root=SOUNDS_ID&path=SOUND_AND_HAPTIC_PATTERNS_REMINDERALERTS_ID`
+- เสียงและการสั่น → เสียงเตือนเริ่มต้น: `bridge:root=SOUNDS_ID&path=SOUND_AND_HAPTIC_PATTERNS_DEFAULTALERTS_ID`
+- เสียงและการสั่น → เสียงหูฟัง: `bridge:root=SOUNDS_ID#HEADPHONE_AUDIO_GROUP`
+- เสียงและการสั่น → ความปลอดภัยหูฟัง: `bridge:root=SOUNDS_ID&path=HEADPHONE_LEVEL_LIMIT_SETTING`
+- เสียงและการสั่น → ความปลอดภัยหูฟัง → การแจ้งเตือนหูฟัง: `bridge:root=SOUNDS_ID&path=HEADPHONE_LEVEL_LIMIT_SETTING#COSHeadphoneNotificationsSwitchKey`
+- เสียงและการสั่น → ความปลอดภัยหูฟัง → ลดเสียงดัง: `bridge:root=SOUNDS_ID&path=HEADPHONE_LEVEL_LIMIT_SETTING#COSHeadphoneLevelLimitSwitchKey`
+- เสียงและการสั่น → เสียงและการสั่นจากระบบ: `bridge:root=SOUNDS_ID#JACKRABBIT_GROUP_ID`
+- เสียงและการสั่น → การสั่นของ Digital Crown: `bridge:root=SOUNDS_ID#JACKRABBIT_ID`
+- เสียงและการสั่น → การสั่นจากระบบ: `bridge:root=SOUNDS_ID#SYSTEM_HAPTICS_ID`
+- SOS ฉุกเฉิน: `bridge:root=SOS_MODE_ID`
+- ความเป็นส่วนตัว: `bridge:root=PRIVACY_ID`
+- ความเป็นส่วนตัว → อุณหภูมิข้อมือ: `bridge:root=PRIVACY_ID#WRIST_TEMPERATURE_SWITCH_ID`
+- เวลาหน้าจอ: `bridge:root=SCREEN_TIME_ID`
+- Nike Run Club: `bridge:root=VICTORY_ROW_ID`
+- Nike Run Club → แสดงบน Apple Watch: `bridge:root=VICTORY_ROW_ID#SHOWS_ON_GIZMO`
+- เคล็ดลับ: `bridge:root=com.apple.NanoTipsBridgeSettings`
+- เคล็ดลับ → อนุญาตการแจ้งเตือน: `bridge:root=com.apple.NanoTipsBridgeSettings#ALLOW_NOTIFICATIONS_ID`
+- เคล็ดลับ → ส่งไปที่ศูนย์การแจ้งเตือน: `bridge:root=com.apple.NanoTipsBridgeSettings#SEND_TO_NOTIFICATION_CENTER_ID`
+- เคล็ดลับ → การแจ้งเตือนปิด: `bridge:root=com.apple.NanoTipsBridgeSettings#NOTIFICATIONS_OFF_ID`
+- เคล็ดลับ → การจัดกลุ่มการแจ้งเตือน: `bridge:root=com.apple.NanoTipsBridgeSettings&path=NOTIFICATION_COALESCING_ID`
+- นาฬิกา: `bridge:root=com.apple.NanoClockBridgeSettings`
+- นาฬิกา → เวลาแบบ 24 ชั่วโมง: `bridge:root=com.apple.NanoClockBridgeSettings#24-Hour%20Time`
+- นาฬิกา → เสียงเตือน: `bridge:root=com.apple.NanoClockBridgeSettings#Chimes`
+- นาฬิกา → เสียง: `bridge:root=com.apple.NanoClockBridgeSettings&path=Sounds`
+- นาฬิกา → เสียง → กระดิ่ง: `bridge:root=com.apple.NanoClockBridgeSettings&path=Sounds#Bells`
+- นาฬิกา → เสียง → นก: `bridge:root=com.apple.NanoClockBridgeSettings&path=Sounds#Birds`
+- นาฬิกา → พูดเวลา: `bridge:root=com.apple.NanoClockBridgeSettings#Speak%20Time`
+- นาฬิกา → ควบคุมด้วยโหมดเงียบ: `bridge:root=com.apple.NanoClockBridgeSettings#Control%20With%20Silent%20Mode`
+- นาฬิกา → อ่านออกเสียงเสมอ: `bridge:root=com.apple.NanoClockBridgeSettings#Always%20Speak`
+- นาฬิกา → การสั่นบอกเวลา: `bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time`
+- นาฬิกา → การสั่นบอกเวลา → การสั่นบอกเวลา: `bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time#Taptic%20Time`
+- นาฬิกา → การสั่นบอกเวลา → ตัวเลข: `bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time#Digits`
+- นาฬิกา → การสั่นบอกเวลา → สะกิด: `bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time#Terse`
+- นาฬิกา → การสั่นบอกเวลา → รหัสมอร์ส: `bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time#Morse%20Code`
+- นาฬิกา → ผลักข้อมูลการเตือนจาก iPhone: `bridge:root=com.apple.NanoClockBridgeSettings#Push%20Alerts%20from%20iPhone`
+- นาฬิกา → จุดแสดงการแจ้งเตือน: `bridge:root=com.apple.NanoClockBridgeSettings#Notifications%20Indicator`
+- นาฬิกา → อักษรย่อ: `bridge:root=com.apple.NanoClockBridgeSettings&path=MONOGRAM_ID`
+- นาฬิกา → การแจ้งเตือนหน้าปัดนาฬิกา: `bridge:root=com.apple.NanoClockBridgeSettings#Watch%20Face%20Notifications`
+- นาฬิกา → อักษรย่อของเมือง: `bridge:root=com.apple.NanoClockBridgeSettings&path=City%20Abbreviations`
+- นาฬิกา → แหล่งข้อมูล
+หน้าปัด Siri: `bridge:root=com.apple.NanoClockBridgeSettings&path=Siri%20Face%20Data%20Sources`
+- ปุ่มแอ็คชั่น: `bridge:root=ACTION_BUTTON_ID`
+- ปุ่มแอ็คชั่น → คำสั่งมือ | แอ็คชั่น: `bridge:root=ACTION_BUTTON_ID#StingSystemSettingsActionTypeGroupID`
+- ปุ่มแอ็คชั่น → ออกกำลังกาย: `bridge:root=ACTION_BUTTON_ID&path=StingSystemSettingsActionTypeItem`
+- ปุ่มแอ็คชั่น → ออกกำลังกาย → ไม่มี: `bridge:root=ACTION_BUTTON_ID&path=StingSystemSettingsActionTypeItem#StingSystemSettingsSelectedActionTypeItem`
+- ปุ่มแอ็คชั่น → กดหนึ่งครั้ง: `bridge:root=ACTION_BUTTON_ID#StingSystemSettingsWorkoutGroupID`
+- ปุ่มแอ็คชั่น → สลับอย่างรวดเร็ว: `bridge:root=ACTION_BUTTON_ID&path=ShowQuickSwitch`
+- ปุ่มแอ็คชั่น → สลับอย่างรวดเร็ว → สลับอย่างรวดเร็ว: `bridge:root=ACTION_BUTTON_ID&path=ShowQuickSwitch#StingQuickSwitchToggleGroup`
+- ปุ่มแอ็คชั่น → สลับอย่างรวดเร็ว → สลับอย่างรวดเร็ว: `bridge:root=ACTION_BUTTON_ID&path=ShowQuickSwitch#Quick%20Switch`
+- ปุ่มแอ็คชั่น → สลับอย่างรวดเร็ว → แอปที่รวมอยู่: `bridge:root=ACTION_BUTTON_ID&path=ShowQuickSwitch#StingQuickSwitchAppGroup`
+- เสียงรบกวน: `bridge:root=com.apple.Noise.settings`
+- เสียงรบกวน → การวัดระดับเสียงแวดล้อม: `bridge:root=com.apple.Noise.settings#ENABLE_MEASUREMENTS_ID`
+- เสียงรบกวน → การแจ้งเตือนเสียงรบกวน: `bridge:root=com.apple.Noise.settings#LOUD_NOTIFICATION_GROUP_ID`
+- เสียงรบกวน → เกณฑ์ระดับเสียงรบกวน: `bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID`
+- เสียงรบกวน → เกณฑ์ระดับเสียงรบกวน → ปิด: `bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#OFF`
+- เสียงรบกวน → เกณฑ์ระดับเสียงรบกวน → 80 เดซิเบล: `bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_80`
+- เสียงรบกวน → เกณฑ์ระดับเสียงรบกวน → 85 เดซิเบล: `bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_85`
+- เสียงรบกวน → เกณฑ์ระดับเสียงรบกวน → 90 เดซิเบล: `bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_90`
+- เสียงรบกวน → เกณฑ์ระดับเสียงรบกวน → 95 เดซิเบล: `bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_95`
+- เสียงรบกวน → เกณฑ์ระดับเสียงรบกวน → 100 เดซิเบล: `bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_100`
+- เสียงรบกวน → การจัดกลุ่มการแจ้งเตือน: `bridge:root=com.apple.Noise.settings&path=NOTIFICATION_COALESCING_ID`
+- ปฏิทิน: `bridge:root=com.apple.NanoCalendarBridgeSettings`
+- ปฏิทิน → การแจ้งเตือน: `bridge:root=com.apple.NanoCalendarBridgeSettings#MIRROR_RADIO_GROUP_ID`
+- ปฏิทิน → เหมือนกับ iPhone ของฉัน: `bridge:root=com.apple.NanoCalendarBridgeSettings#MIRROR_MY_COMPANION_ID`
+- ปฏิทิน → กำหนดเอง…: `bridge:root=com.apple.NanoCalendarBridgeSettings#CUSTOM_ID`
+- ปฏิทิน → ปฏิทิน: `bridge:root=com.apple.NanoCalendarBridgeSettings#CALENDARS_MIRROR_RADIO_GROUP_ID`
+- ปฏิทิน → เหมือนกับ iPhone ของฉัน: `bridge:root=com.apple.NanoCalendarBridgeSettings#CALENDARS_MIRROR_MY_COMPANION_ID`
+- ปฏิทิน → กำหนดเอง…: `bridge:root=com.apple.NanoCalendarBridgeSettings&path=CALENDARS_CUSTOM_ID`
+- ปฏิทิน → กิจกรรมที่ใกล้จะถึงเวลา: `bridge:root=com.apple.NanoCalendarBridgeSettings&path=Upcoming%20Events`
+- ปฏิทิน → คำเชิญ: `bridge:root=com.apple.NanoCalendarBridgeSettings&path=Invitations`
+- ปฏิทิน → การตอบของผู้รับเชิญ: `bridge:root=com.apple.NanoCalendarBridgeSettings&path=Invitee%20Responses`
+- ปฏิทิน → การเปลี่ยนแปลงของปฏิทินที่แชร์: `bridge:root=com.apple.NanoCalendarBridgeSettings&path=Shared%20Calendar%20Alerts`
+- วอล์คกี้ทอล์คกี้: `bridge:root=com.apple.tincan.settings`
+- วอล์คกี้ทอล์คกี้ → อนุญาตการแจ้งเตือน: `bridge:root=com.apple.tincan.settings#ALLOW_NOTIFICATIONS_ID`
+- วอล์คกี้ทอล์คกี้ → ส่งไปที่ศูนย์การแจ้งเตือน: `bridge:root=com.apple.tincan.settings#SEND_TO_NOTIFICATION_CENTER_ID`
+- วอล์คกี้ทอล์คกี้ → ปิดการแจ้งเตือน: `bridge:root=com.apple.tincan.settings#NOTIFICATIONS_OFF_ID`
+- วอล์คกี้ทอล์คกี้ → การจัดกลุ่มการแจ้งเตือน: `bridge:root=com.apple.tincan.settings&path=NOTIFICATION_COALESCING_ID`
+- วอล์คกี้ทอล์คกี้ → เพื่อนๆ: `bridge:root=com.apple.tincan.settings#Friends`
+- Siri: `bridge:root=SIRI_WATCH_SETTINGS_ID`
+- Siri → ถาม Siri: `bridge:root=SIRI_WATCH_SETTINGS_ID#ASK_SIRI_GROUP_ID`
+- Siri → ฟัง: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_TRIGGER_ID`
+- Siri → ฟัง → “Siri” หรือ “หวัดดี Siri”: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_TRIGGER_ID#HS_JS_ID`
+- Siri → ฟัง → “หวัดดี Siri”: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_TRIGGER_ID#HEY_SIRI_ID`
+- Siri → ฟัง → ปิด: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_TRIGGER_ID#VOICE_TRIGGER_DISABLED_ID`
+- Siri → ยกขึ้นเพื่อพูด: `bridge:root=SIRI_WATCH_SETTINGS_ID#RAISE_TO_SPEAK_SWITCH_ID`
+- Siri → กด Digital Crown: `bridge:root=SIRI_WATCH_SETTINGS_ID#DIGITAL_CROWN_SWITCH_ID`
+- Siri → ส่งข้อความโดยอัตโนมัติ: `bridge:root=SIRI_WATCH_SETTINGS_ID#AUTOMATICALLY_SEND_MESSAGES_SWITCH_ID`
+- Siri → การโต้ตอบของ Siri: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=SIRI_RESPONSES_ID`
+- Siri → การโต้ตอบของ Siri → แสดงคำพูดของเสียง Siri ตลอดเวลา: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=SIRI_RESPONSES_ID#ALWAYS_SHOW_SIRI_CAPTIONS_SWITCH_ID`
+- Siri → การโต้ตอบของ Siri → แสดงข้อความถอดเสียงพูดเสมอ: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=SIRI_RESPONSES_ID#ALWAYS_SHOW_SPEECH_SWITCH_ID`
+- Siri → การโต้ตอบของ Siri → ระดับเสียง: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=SIRI_RESPONSES_ID#CONSIDERATE_VOLUME_GROUP_ID`
+- Siri → การโต้ตอบของ Siri → ปรับระดับเสียงโดยอัตโนมัติ: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=SIRI_RESPONSES_ID#CONSIDERATE_VOLUME_SWITCH_ID`
+- Siri → การโต้ตอบของ Siri → ระดับ: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=SIRI_RESPONSES_ID/CONSIDERATE_VOLUME_PROFILE_ID`
+- Siri → การโต้ตอบของ Siri → ระดับ → ดังขึ้น: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=SIRI_RESPONSES_ID/CONSIDERATE_VOLUME_PROFILE_ID#CONSIDERATE_VOLUME_PROFILE_LOUDER_ID`
+- Siri → การโต้ตอบของ Siri → ระดับ → ค่าเริ่มต้น: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=SIRI_RESPONSES_ID/CONSIDERATE_VOLUME_PROFILE_ID#CONSIDERATE_VOLUME_PROFILE_DEFAULT_ID`
+- Siri → การโต้ตอบของ Siri → ระดับ → เบาลง: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=SIRI_RESPONSES_ID/CONSIDERATE_VOLUME_PROFILE_ID#CONSIDERATE_VOLUME_PROFILE_QUIETER_ID`
+- Siri → เสียงพูดโต้ตอบ: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_FEEDBACK_ID`
+- Siri → เสียงพูดโต้ตอบ → เปิดตลอด: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_FEEDBACK_ID#VOICE_FEEDBACK_ALWAYS_ON_ID`
+- Siri → เสียงพูดโต้ตอบ → ควบคุมด้วยโหมดเงียบ: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_FEEDBACK_ID#VOICE_FEEDBACK_CONTROL_WITH_SILENT_MODE_ID`
+- Siri → เสียงพูดโต้ตอบ → หูฟังเท่านั้น: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_FEEDBACK_ID#VOICE_FEEDBACK_HEADPHONES_ONLY_ID`
+- Siri → ระดับเสียง: `bridge:root=SIRI_WATCH_SETTINGS_ID#VOICE_VOLUME_GROUP_ID`
+- Siri → คำแนะนำโดย Siri: `bridge:root=SIRI_WATCH_SETTINGS_ID#ASSISTANT_SUGGESTIONS_GROUP_ID`
+- ออกกำลังกาย: `bridge:root=com.apple.SessionTrackerAppSettings`
+- ออกกำลังกาย → แสดงตัววัดเป้าหมาย: `bridge:root=com.apple.SessionTrackerAppSettings#PRO_SETTING_ENABLED_LABEL`
+- ออกกำลังกาย → มุมมองขณะออกกำลังกาย: `bridge:root=com.apple.SessionTrackerAppSettings&path=METRIC_VIEW_ID`
+- ออกกำลังกาย → หยุดพักอัตโนมัติ: `bridge:root=com.apple.SessionTrackerAppSettings&path=AUTO_PAUSE_ID`
+- ออกกำลังกาย → หยุดพักอัตโนมัติ → หยุดพักอัตโนมัติ: `bridge:root=com.apple.SessionTrackerAppSettings&path=AUTO_PAUSE_ID#WorkoutAutoPauseSwitch`
+- ออกกำลังกาย → เตือนให้เริ่มออกกำลังกาย: `bridge:root=com.apple.SessionTrackerAppSettings#AUTO_START_WORKOUT_NOTIFICATIONS_ENABLED_LABEL`
+- ออกกำลังกาย → เตือนให้สิ้นสุดการออกกำลังกาย: `bridge:root=com.apple.SessionTrackerAppSettings#END_REMINDERS_ENABLED_LABEL`
+- ออกกำลังกาย → กดเพื่อหยุดพัก: `bridge:root=com.apple.SessionTrackerAppSettings#CHORD_PRESS_PAUSE_WORKOUT_ENABLED_LABEL`
+- ออกกำลังกาย → ตรวจหาอุปกรณ์ยิม: `bridge:root=com.apple.SessionTrackerAppSettings#NFC_ENABLED_LABEL_ID`
+- ออกกำลังกาย → มุมมองเพซ/ความเร็ว: `bridge:root=com.apple.SessionTrackerAppSettings&path=PACE_VIEW_LABEL`
+- ออกกำลังกาย → มุมมองเพซ/ความเร็ว → ปัจจุบัน: `bridge:root=com.apple.SessionTrackerAppSettings&path=PACE_VIEW_LABEL#CURRENT_PACE_ID`
+- ออกกำลังกาย → มุมมองเพซ/ความเร็ว → เฉลี่ย: `bridge:root=com.apple.SessionTrackerAppSettings&path=PACE_VIEW_LABEL#AVERAGE_PACE_ID`
+- ออกกำลังกาย → เพลย์ลิสต์ออกกำลังกาย: `bridge:root=com.apple.SessionTrackerAppSettings&path=MUSIC_AUTOSTART_TITLE_ID`
+- ออกกำลังกาย → เพลย์ลิสต์ออกกำลังกาย → ไม่มี: `bridge:root=com.apple.SessionTrackerAppSettings&path=MUSIC_AUTOSTART_TITLE_ID#NONE_AUTOSTART_ID`
+- ออกกำลังกาย → เพลย์ลิสต์ออกกำลังกาย → เพลย์ลิสต์: `bridge:root=com.apple.SessionTrackerAppSettings&path=MUSIC_AUTOSTART_TITLE_ID#MUSIC_PLAYLIST_GROUP_ID`
+- ออกกำลังกาย → เล่นตั้งแต่ต้น: `bridge:root=com.apple.SessionTrackerAppSettings#WORKOUT_MUSIC_PLAY_FROM_BEGINNING_SETTING_ID`
+- ออกกำลังกาย → สุ่ม: `bridge:root=com.apple.SessionTrackerAppSettings#WORKOUT_MUSIC_SHUFFLE_SETTING_ID`
+- ออกกำลังกาย → หน่วยของการวัด: `bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID`
+- ออกกำลังกาย → หน่วยของการวัด → แคลอรี: `bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#ENERGY_UNITS_CALORIES_ID`
+- ออกกำลังกาย → หน่วยของการวัด → กิโลแคลอรี: `bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#ENERGY_UNITS_KILOCALORIES_ID`
+- ออกกำลังกาย → หน่วยของการวัด → กิโลจูล: `bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#ENERGY_UNITS_KILOJOULES_ID`
+- ออกกำลังกาย → หน่วยของการวัด → หลา: `bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#POOL_LENGTH_YARDS_ID`
+- ออกกำลังกาย → หน่วยของการวัด → เมตร: `bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#POOL_LENGTH_METERS_ID`
+- ออกกำลังกาย → หน่วยของการวัด → ไมล์: `bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#CYCLING_WORKOUTS_MILES_ID`
+- ออกกำลังกาย → หน่วยของการวัด → กิโลเมตร: `bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#CYCLING_WORKOUTS_KILOMETERS_ID`
+- ออกกำลังกาย → หน่วยของการวัด → ไมล์: `bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#WALKING_AND_RUNNING_WORKOUTS_MILES_ID`
+- ออกกำลังกาย → หน่วยของการวัด → กิโลเมตร: `bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#WALKING_AND_RUNNING_WORKOUTS_KILOMETERS_ID`
+- ออกกำลังกาย → เสียงพูดโต้ตอบ: `bridge:root=com.apple.SessionTrackerAppSettings#WORKOUT_VOICE_FEEDBACK_LABEL`
+- ออกกำลังกาย → ถึงเวลาเดิน: `bridge:root=com.apple.SessionTrackerAppSettings#GUIDED_WORKOUT_PREFETCH_FOOTER_ID`
+- ออกกำลังกาย → เพิ่มการออกกำลังกายใหม่ไปยัง Apple Watch: `bridge:root=com.apple.SessionTrackerAppSettings#GUIDED_WORKOUT_PREFETCH_LABEL_ID`
+- ออกกำลังกาย → โหมดประหยัดพลังงาน: `bridge:root=com.apple.SessionTrackerAppSettings#LOW_POWER_MODE`
+- ข้อความ: `bridge:root=com.apple.MessagesBridgeSettings`
+- ข้อความ → เหมือนกับ iPhone ของฉัน: `bridge:root=com.apple.MessagesBridgeSettings#MIRROR_MY_COMPANION_ID`
+- ข้อความ → กำหนดเอง: `bridge:root=com.apple.MessagesBridgeSettings#CUSTOM_ID`
+- ข้อความ → การตอบกลับเริ่มต้น: `bridge:root=com.apple.MessagesBridgeSettings&path=DEFAULT_REPLIES`
+- ข้อความ → การตอบกลับเริ่มต้น → การตอบกลับเริ่มต้น: `bridge:root=com.apple.MessagesBridgeSettings&path=DEFAULT_REPLIES#Default%20Replies`
+- ข้อความ → การตอบกลับเริ่มต้น → การตอบกลับอัจฉริยะ: `bridge:root=com.apple.MessagesBridgeSettings&path=DEFAULT_REPLIES#Smart%20Replies`
+- ข้อความ → การตอบกลับเริ่มต้น → เพิ่มการตอบกลับ…: `bridge:root=com.apple.MessagesBridgeSettings&path=DEFAULT_REPLIES#Add%20reply%E2%80%A6`
+- ข้อความ → เตือนซ้ำ: `bridge:root=com.apple.MessagesBridgeSettings&path=PLAY_ALERT_TONE`
+- ข้อความ → ข้อความเสียง: `bridge:root=com.apple.MessagesBridgeSettings&path=AudioMessagesMode`
+- เวลาเรียน: `bridge:root=SCHOOLTIME`
+- เวลาเรียน → เวลาเรียน: `bridge:root=SCHOOLTIME#SCHEDULE_FEATURE_ACTIVE_TITLE`
+- การตรวจจับข้อมือ | ปลดล็อคด้วย iPhone | ปิดการใช้รหัส | รหัส | รหัสแบบง่าย | ลบข้อมูล | เปลี่ยนรหัส | เปิดการใช้รหัส: `bridge:root=PASSCODE_ID`
+- การตรวจจับข้อมือ | ปลดล็อคด้วย iPhone | ปิดการใช้รหัส | รหัส | รหัสแบบง่าย | ลบข้อมูล | เปลี่ยนรหัส | เปิดการใช้รหัส → เปิดการใช้รหัส: `bridge:root=PASSCODE_ID#TOGGLE_PASSCODE_ID`
+- การตรวจจับข้อมือ | ปลดล็อคด้วย iPhone | ปิดการใช้รหัส | รหัส | รหัสแบบง่าย | ลบข้อมูล | เปลี่ยนรหัส | เปิดการใช้รหัส → เปลี่ยนรหัส: `bridge:root=PASSCODE_ID#CHANGE_PASSCODE_ID`
+- การตรวจจับข้อมือ | ปลดล็อคด้วย iPhone | ปิดการใช้รหัส | รหัส | รหัสแบบง่าย | ลบข้อมูล | เปลี่ยนรหัส | เปิดการใช้รหัส → รหัสแบบง่าย: `bridge:root=PASSCODE_ID#SIMPLE_PASSCODE_SWITCH_ID`
+- การตรวจจับข้อมือ | ปลดล็อคด้วย iPhone | ปิดการใช้รหัส | รหัส | รหัสแบบง่าย | ลบข้อมูล | เปลี่ยนรหัส | เปิดการใช้รหัส → ปลดล็อคด้วย iPhone: `bridge:root=PASSCODE_ID#AUTO_UNLOCK_SWITCH_ID`
+- การตรวจจับข้อมือ | ปลดล็อคด้วย iPhone | ปิดการใช้รหัส | รหัส | รหัสแบบง่าย | ลบข้อมูล | เปลี่ยนรหัส | เปิดการใช้รหัส → ลบข้อมูล: `bridge:root=PASSCODE_ID#ERASE_DATA_SWITCH_ID`
+- การตรวจจับข้อมือ | ปลดล็อคด้วย iPhone | ปิดการใช้รหัส | รหัส | รหัสแบบง่าย | ลบข้อมูล | เปลี่ยนรหัส | เปิดการใช้รหัส → การตรวจจับข้อมือ: `bridge:root=PASSCODE_ID#WRIST_DETECTION_CELL_ID`
+- การตรวจจับข้อมือ | ปลดล็อคด้วย iPhone | ปิดการใช้รหัส | รหัส | รหัสแบบง่าย | ลบข้อมูล | เปลี่ยนรหัส | เปิดการใช้รหัส → กลไกหน้าปัด: `bridge:root=PASSCODE_ID#SHOW_COMPLICATION_DATA_WHEN_LOCKED_GROUP_ID`
+- การตรวจจับข้อมือ | ปลดล็อคด้วย iPhone | ปิดการใช้รหัส | รหัส | รหัสแบบง่าย | ลบข้อมูล | เปลี่ยนรหัส | เปิดการใช้รหัส → แสดงข้อมูลเมื่อล็อคอยู่: `bridge:root=PASSCODE_ID#SHOW_COMPLICATION_DATA_WHEN_LOCKED_SWITCH_ID`
+- เมล: `bridge:root=com.apple.NanoMailBridgeSettings`
+- เมล → เหมือนกับ iPhone ของฉัน: `bridge:root=com.apple.NanoMailBridgeSettings#MIRROR_MY_COMPANION_ID`
+- เมล → กำหนดเอง: `bridge:root=com.apple.NanoMailBridgeSettings#CUSTOM_ID`
+- เมล → การตั้งค่าเมล: `bridge:root=com.apple.NanoMailBridgeSettings#Mail%20Settings`
+- เมล → บัญชี: `bridge:root=com.apple.NanoMailBridgeSettings&path=Accounts`
+- เมล → รวมเมล: `bridge:root=com.apple.NanoMailBridgeSettings&path=Include%20Mail`
+- เมล → แสดงตัวอย่างข้อความ: `bridge:root=com.apple.NanoMailBridgeSettings&path=Message%20Preview`
+- เมล → แสดงตัวอย่างข้อความ → ไม่มี: `bridge:root=com.apple.NanoMailBridgeSettings&path=Message%20Preview#0`
+- เมล → แสดงตัวอย่างข้อความ → 1 บรรทัด: `bridge:root=com.apple.NanoMailBridgeSettings&path=Message%20Preview#1`
+- เมล → แสดงตัวอย่างข้อความ → 2 บรรทัด: `bridge:root=com.apple.NanoMailBridgeSettings&path=Message%20Preview#2`
+- เมล → การตอบกลับเริ่มต้น: `bridge:root=com.apple.NanoMailBridgeSettings&path=Default%20Replies`
+- เมล → การตอบกลับเริ่มต้น → การตอบกลับเริ่มต้น: `bridge:root=com.apple.NanoMailBridgeSettings&path=Default%20Replies#Default%20Replies`
+- เมล → การตอบกลับเริ่มต้น → เพิ่มการตอบกลับ…: `bridge:root=com.apple.NanoMailBridgeSettings&path=Default%20Replies#Add%20reply%E2%80%A6`
+- เมล → ลายเซ็น: `bridge:root=com.apple.NanoMailBridgeSettings&path=Signature`
+- การเปลี่ยนแปลงจุด | มูลค่าตลาด | ราคาปัจจุบัน | หุ้น | หุ้นที่เลือกบนบัตร Siri | เปอร์เซ็นต์การเปลี่ยนแปลง: `bridge:root=com.apple.StocksBridgeSettings`
+- การเปลี่ยนแปลงจุด | มูลค่าตลาด | ราคาปัจจุบัน | หุ้น | หุ้นที่เลือกบนบัตร Siri | เปอร์เซ็นต์การเปลี่ยนแปลง → กลไกหน้าปัดนาฬิกาแสดง: `bridge:root=com.apple.StocksBridgeSettings#Clock%20Face%20Complication%20Shows`
+- การเปลี่ยนแปลงจุด | มูลค่าตลาด | ราคาปัจจุบัน | หุ้น | หุ้นที่เลือกบนบัตร Siri | เปอร์เซ็นต์การเปลี่ยนแปลง → ราคาปัจจุบัน: `bridge:root=com.apple.StocksBridgeSettings#Current%20Price`
+- การเปลี่ยนแปลงจุด | มูลค่าตลาด | ราคาปัจจุบัน | หุ้น | หุ้นที่เลือกบนบัตร Siri | เปอร์เซ็นต์การเปลี่ยนแปลง → การเปลี่ยนแปลงจุด: `bridge:root=com.apple.StocksBridgeSettings#Points%20Change`
+- การเปลี่ยนแปลงจุด | มูลค่าตลาด | ราคาปัจจุบัน | หุ้น | หุ้นที่เลือกบนบัตร Siri | เปอร์เซ็นต์การเปลี่ยนแปลง → เปอร์เซ็นต์การเปลี่ยนแปลง: `bridge:root=com.apple.StocksBridgeSettings#Percentage%20Change`
+- การเปลี่ยนแปลงจุด | มูลค่าตลาด | ราคาปัจจุบัน | หุ้น | หุ้นที่เลือกบนบัตร Siri | เปอร์เซ็นต์การเปลี่ยนแปลง → มูลค่าตลาด: `bridge:root=com.apple.StocksBridgeSettings#Market%20Cap`
+- การเปลี่ยนแปลงจุด | มูลค่าตลาด | ราคาปัจจุบัน | หุ้น | หุ้นที่เลือกบนบัตร Siri | เปอร์เซ็นต์การเปลี่ยนแปลง → หน้าปัด Siri แสดงข้อมูลหุ้นสำหรับ: `bridge:root=com.apple.StocksBridgeSettings#Siri%20Face%20Shows%20Quote%20For`
+- การเปลี่ยนแปลงจุด | มูลค่าตลาด | ราคาปัจจุบัน | หุ้น | หุ้นที่เลือกบนบัตร Siri | เปอร์เซ็นต์การเปลี่ยนแปลง → หุ้นที่เลือก: `bridge:root=com.apple.StocksBridgeSettings&path=Selected%20Stock`
+- การเปลี่ยนแปลงจุด | มูลค่าตลาด | ราคาปัจจุบัน | หุ้น | หุ้นที่เลือกบนบัตร Siri | เปอร์เซ็นต์การเปลี่ยนแปลง → หุ้นที่เลือก → หุ้นที่เลือก: `bridge:root=com.apple.StocksBridgeSettings&path=Selected%20Stock#Selected%20Stock`
+- กิจกรรม: `bridge:root=com.apple.HealthAppsSettings`
+- กิจกรรม → อัปเดตความคืบหน้า: `bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL`
+- กิจกรรม → อัปเดตความคืบหน้า → ไม่มี: `bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#ZERO_HOURS_ID`
+- กิจกรรม → อัปเดตความคืบหน้า → ทุก 2 ชั่วโมง: `bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#TWO_HOURS_ID`
+- กิจกรรม → อัปเดตความคืบหน้า → ทุก 4 ชั่วโมง: `bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#FOUR_HOURS_ID`
+- กิจกรรม → อัปเดตความคืบหน้า → ทุก 6 ชั่วโมง: `bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#SIX_HOURS_ID`
+- กิจกรรม → อัปเดตความคืบหน้า → ทุก 8 ชั่วโมง: `bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#EIGHT_HOURS_ID`
+- กิจกรรม → ผลสำเร็จ: `bridge:root=com.apple.HealthAppsSettings#ACHIEVEMENTS_ENABLED_LABEL`
+- กิจกรรม → สรุปรายสัปดาห์: `bridge:root=com.apple.HealthAppsSettings#WEEKLY_SUMMARY_ENABLED_LABEL`
+- กิจกรรม → คำแนะนำรายวัน: `bridge:root=com.apple.HealthAppsSettings#DAILY_PROGRESS_ENABLED_LABEL`
+- กิจกรรม → การทำเป้าหมายที่สำเร็จ: `bridge:root=com.apple.HealthAppsSettings#GOAL_COMPLETIONS_ENABLED_LABEL`
+- กิจกรรม → คำท้าพิเศษ: `bridge:root=com.apple.HealthAppsSettings#REMOTE_ACHIEVEMENTS_ENABLED_LABEL`
+- กิจกรรม → การแจ้งเตือนการแชร์กิจกรรม: `bridge:root=com.apple.HealthAppsSettings#ACTIVITY_SHARING_NOTIFICATIONS_ENABLED`
+- วิดเจ็ตซ้อนอัจฉริยะ: `bridge:root=SMARTSTACK_LINK`
+- สภาพอากาศ: `bridge:root=com.apple.weatherbridgesettings`
+- สภาพอากาศ → เมืองเริ่มต้น: `bridge:root=com.apple.weatherbridgesettings&path=Default%20City`
+- สภาพอากาศ → เมืองเริ่มต้น → เมืองเริ่มต้น: `bridge:root=com.apple.weatherbridgesettings&path=Default%20City#Default%20City`
+- สภาพอากาศ → เมืองเริ่มต้น → สถานที่ปัจจุบัน: `bridge:root=com.apple.weatherbridgesettings&path=Default%20City#Current%20Location`
+- รายชื่อ: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired`
+- รายชื่อ → ลำดับการเรียง: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=contactsSortOrder`
+- รายชื่อ → ลำดับการเรียง → ชื่อ, นามสกุล: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=contactsSortOrder#0`
+- รายชื่อ → ลำดับการเรียง → นามสกุล, ชื่อ: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=contactsSortOrder#1`
+- รายชื่อ → ลำดับแสดง: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=NSPersonNameDefaultDisplayNameOrder`
+- รายชื่อ → ลำดับแสดง → ชื่อ, นามสกุล: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=NSPersonNameDefaultDisplayNameOrder#1`
+- รายชื่อ → ลำดับแสดง → นามสกุล, ชื่อ: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=NSPersonNameDefaultDisplayNameOrder#2`
+- รายชื่อ → ชื่อย่อ: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName`
+- รายชื่อ → ชื่อย่อ → ชื่อย่อ: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#Short%20Name`
+- รายชื่อ → ชื่อย่อ → ชื่อเต็มและอักษรย่อนามสกุล: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#First%20Name%20&%20Last%20Initial`
+- รายชื่อ → ชื่อย่อ → อักษรย่อชื่อและนามสกุลเต็ม: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#First%20Initial%20&%20Last%20Name`
+- รายชื่อ → ชื่อย่อ → ชื่อเท่านั้น: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#First%20Name%20Only`
+- รายชื่อ → ชื่อย่อ → นามสกุลเท่านั้น: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#Last%20Name%20Only`
+- รายชื่อ → ชื่อย่อ → ต้องการใช้ชื่อเล่น: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#Prefer%20Nicknames`
+- การช่วยการเข้าถึง: `bridge:root=ACCESSIBILITY_ID`
+- การช่วยการเข้าถึง → การมองเห็น: `bridge:root=ACCESSIBILITY_ID#VISION_GROUP`
+- การช่วยการเข้าถึง → VoiceOver: `bridge:root=ACCESSIBILITY_ID&path=VOICEOVER_ID`
+- การช่วยการเข้าถึง → ซูม: `bridge:root=ACCESSIBILITY_ID&path=ZOOM_ID`
+- การช่วยการเข้าถึง → สัญลักษณ์ปุ่มเปิดหรือปิด: `bridge:root=ACCESSIBILITY_ID#OnOffLabelsEnabled`
+- การช่วยการเข้าถึง → ระดับสีเทา: `bridge:root=ACCESSIBILITY_ID#GrayscaleDisplay`
+- การช่วยการเข้าถึง → ลดความโปร่งใส: `bridge:root=ACCESSIBILITY_ID#REDUCE_TRANSPARENCY`
+- การช่วยการเข้าถึง → เพิ่มความต่างระดับสี: `bridge:root=ACCESSIBILITY_ID#INCREASE_CONTRAST`
+- การช่วยการเข้าถึง → ขนาดข้อความ: `bridge:root=ACCESSIBILITY_ID#TEXT_SIZE`
+- การช่วยการเข้าถึง → ข้อความตัวหนา: `bridge:root=ACCESSIBILITY_ID#BoldTextEnabled`
+- การช่วยการเข้าถึง → ลดการเคลื่อนไหว: `bridge:root=ACCESSIBILITY_ID&path=ReduceMotion`
+- การช่วยการเข้าถึง → เสียงเตือน: `bridge:root=ACCESSIBILITY_ID&path=TapticChimesCell`
+- การช่วยการเข้าถึง → เสียงเตือน → เสียงเตือน: `bridge:root=ACCESSIBILITY_ID&path=TapticChimesCell#Chimes`
+- การช่วยการเข้าถึง → เสียงเตือน → กำหนดเวลา: `bridge:root=ACCESSIBILITY_ID&path=TapticChimesCell/CHIMES_SCHEDULE_ID`
+- การช่วยการเข้าถึง → เสียงเตือน → กำหนดเวลา → ทุกชั่วโมง: `bridge:root=ACCESSIBILITY_ID&path=TapticChimesCell/CHIMES_SCHEDULE_ID#Hourly`
+- การช่วยการเข้าถึง → เสียงเตือน → กำหนดเวลา → 30 นาที: `bridge:root=ACCESSIBILITY_ID&path=TapticChimesCell/CHIMES_SCHEDULE_ID#30%20minutes`
+- การช่วยการเข้าถึง → เสียงเตือน → กำหนดเวลา → 15 นาที: `bridge:root=ACCESSIBILITY_ID&path=TapticChimesCell/CHIMES_SCHEDULE_ID#15%20minutes`
+- การช่วยการเข้าถึง → เสียงเตือน → เสียง: `bridge:root=ACCESSIBILITY_ID&path=TapticChimesCell/CHIMES_SOUNDS_ID`
+- การช่วยการเข้าถึง → เสียงเตือน → เสียง → กระดิ่ง: `bridge:root=ACCESSIBILITY_ID&path=TapticChimesCell/CHIMES_SOUNDS_ID#Bells`
+- การช่วยการเข้าถึง → เสียงเตือน → เสียง → นก: `bridge:root=ACCESSIBILITY_ID&path=TapticChimesCell/CHIMES_SOUNDS_ID#Birds`
+- การช่วยการเข้าถึง → การควบคุม: `bridge:root=ACCESSIBILITY_ID#MotorGroupCell`
+- การช่วยการเข้าถึง → ความเร็วในการกดปุ่มด้านข้าง: `bridge:root=ACCESSIBILITY_ID&path=SideButton`
+- การช่วยการเข้าถึง → ความเร็วในการกดปุ่มด้านข้าง → ความเร็วการกด: `bridge:root=ACCESSIBILITY_ID&path=SideButton#CLICK_SPEED_GROUP_CELL`
+- การช่วยการเข้าถึง → ความเร็วในการกดปุ่มด้านข้าง → ค่าเริ่มต้น: `bridge:root=ACCESSIBILITY_ID&path=SideButton#SIDE_CLICK_SPEED_DEFAULT`
+- การช่วยการเข้าถึง → ความเร็วในการกดปุ่มด้านข้าง → ช้า: `bridge:root=ACCESSIBILITY_ID&path=SideButton#SIDE_CLICK_SPEED_SLOW`
+- การช่วยการเข้าถึง → ความเร็วในการกดปุ่มด้านข้าง → ช้าที่สุด: `bridge:root=ACCESSIBILITY_ID&path=SideButton#SIDE_CLICK_SPEED_SLOWEST`
+- การช่วยการเข้าถึง → การช่วยปรับการสัมผัส: `bridge:root=ACCESSIBILITY_ID&path=TouchAccommodationsCell`
+- การช่วยการเข้าถึง → การช่วยปรับการสัมผัส → การช่วยปรับการสัมผัส: `bridge:root=ACCESSIBILITY_ID&path=TouchAccommodationsCell#TOUCH_ACCOMMODATIONS_SWITCHER`
+- การช่วยการเข้าถึง → การช่วยปรับการสัมผัส → ระยะเวลากดค้าง: `bridge:root=ACCESSIBILITY_ID&path=TouchAccommodationsCell#HoldDurationGroup`
+- การช่วยการเข้าถึง → การช่วยปรับการสัมผัส → ระยะเวลากดค้าง: `bridge:root=ACCESSIBILITY_ID&path=TouchAccommodationsCell#HoldDuration`
+- การช่วยการเข้าถึง → การช่วยปรับการสัมผัส → ไม่สนใจการกดซ้ำ: `bridge:root=ACCESSIBILITY_ID&path=TouchAccommodationsCell#IgnoreRepeatGroup`
+- การช่วยการเข้าถึง → การช่วยปรับการสัมผัส → ไม่สนใจการกดซ้ำ: `bridge:root=ACCESSIBILITY_ID&path=TouchAccommodationsCell#IgnoreRepeat`
+- การช่วยการเข้าถึง → การช่วยปรับการสัมผัส → การช่วยเหลือการแตะ: `bridge:root=ACCESSIBILITY_ID&path=TouchAccommodationsCell#Tap%20Assistance`
+- การช่วยการเข้าถึง → การช่วยปรับการสัมผัส → ปิด: `bridge:root=ACCESSIBILITY_ID&path=TouchAccommodationsCell#OFF`
+- การช่วยการเข้าถึง → การช่วยปรับการสัมผัส → ใช้ตำแหน่งสัมผัสแรก: `bridge:root=ACCESSIBILITY_ID&path=TouchAccommodationsCell#ACTIVATE_ON_TOUCH`
+- การช่วยการเข้าถึง → การช่วยปรับการสัมผัส → ใช้ตำแหน่งสัมผัสสุดท้าย: `bridge:root=ACCESSIBILITY_ID&path=TouchAccommodationsCell#ACTIVATE_ON_RELEASE`
+- การช่วยการเข้าถึง → กิจกรรมรถเข็นวีลแชร์: `bridge:root=ACCESSIBILITY_ID#MOBILITY`
+- การช่วยการเข้าถึง → วอล์คกี้ทอล์คกี้: `bridge:root=ACCESSIBILITY_ID#WalkieTalkieTapToTalkGroup`
+- การช่วยการเข้าถึง → แตะเพื่อพูด: `bridge:root=ACCESSIBILITY_ID#WalkieTalkieTapToTalk`
+- การช่วยการเข้าถึง → แถบสลับแอป: `bridge:root=ACCESSIBILITY_ID#AppSwitcherAutoSelectGroup`
+- การช่วยการเข้าถึง → เลือกแอปที่โฟกัสโดยอัตโนมัติ: `bridge:root=ACCESSIBILITY_ID#AppSwitcherAutoSelect`
+- การช่วยการเข้าถึง → Siri: `bridge:root=ACCESSIBILITY_ID&path=SIRI_CELL_ID`
+- การช่วยการเข้าถึง → Siri → พิมพ์โต้ตอบกับ Siri: `bridge:root=ACCESSIBILITY_ID&path=SIRI_CELL_ID#Type%20to%20Siri`
+- การช่วยการเข้าถึง → การได้ยิน: `bridge:root=ACCESSIBILITY_ID#HEARING`
+- การช่วยการเข้าถึง → RTT: `bridge:root=ACCESSIBILITY_ID&path=RTT_ID`
+- การช่วยการเข้าถึง → RTT → RTT: `bridge:root=ACCESSIBILITY_ID&path=RTT_ID#RTT_ROW_ID`
+- การช่วยการเข้าถึง → เสียงโมโน: `bridge:root=ACCESSIBILITY_ID#MonoAudioEnabled`
+- การช่วยการเข้าถึง → เสียงสเตอริโอสมดุลกันทั้งซ้ายและขวา: `bridge:root=ACCESSIBILITY_ID#LEFT_RIGHT_BALANCE_SPOKEN`
+- การช่วยการเข้าถึง → การแจ้งเตือนหูฟัง: `bridge:root=ACCESSIBILITY_ID#HeadphoneNotificationsID`
+- การช่วยการเข้าถึง → อุปกรณ์รับฟัง: `bridge:root=ACCESSIBILITY_ID#HearingDevicesComplicationGroupID`
+- การช่วยการเข้าถึง → กลไกหน้าปัด: `bridge:root=ACCESSIBILITY_ID&path=HearingDevicesComplicationRowID`
+- การช่วยการเข้าถึง → กลไกหน้าปัด → ระดับเสียงไมค์: `bridge:root=ACCESSIBILITY_ID&path=HearingDevicesComplicationRowID#Mic%20Volume`
+- การช่วยการเข้าถึง → กลไกหน้าปัด → โปรแกรม: `bridge:root=ACCESSIBILITY_ID&path=HearingDevicesComplicationRowID#Program`
+- การช่วยการเข้าถึง → ความเร็วการสั่นบอกเวลา: `bridge:root=ACCESSIBILITY_ID#TapticTimeSpeedAdjustmentGroup`
+- การช่วยการเข้าถึง → ปุ่มลัดการช่วยการเข้าถึง: `bridge:root=ACCESSIBILITY_ID&path=AX_SHORTCUT_ID`
+- เปิด/ปิดการแจ้งเตือน | แผนที่: `bridge:root=com.apple.NanoMapsBridgeSettings`
+- เปิด/ปิดการแจ้งเตือน | แผนที่ → การแจ้งเตือนการเลี้ยว: `bridge:root=com.apple.NanoMapsBridgeSettings#Turn%20Alerts`
+- เปิด/ปิดการแจ้งเตือน | แผนที่ → ขับรถ: `bridge:root=com.apple.NanoMapsBridgeSettings#Driving`
+- เปิด/ปิดการแจ้งเตือน | แผนที่ → ขับรถด้วย CarPlay: `bridge:root=com.apple.NanoMapsBridgeSettings#Driving%20with%20CarPlay`
+- เปิด/ปิดการแจ้งเตือน | แผนที่ → เดิน: `bridge:root=com.apple.NanoMapsBridgeSettings#Walking`
+- เปิด/ปิดการแจ้งเตือน | แผนที่ → ปั่นจักรยาน: `bridge:root=com.apple.NanoMapsBridgeSettings#Cycling`
+- เปิด/ปิดการแจ้งเตือน | แผนที่ → แสดงการนำทาง: `bridge:root=com.apple.NanoMapsBridgeSettings#Show%20Navigation`
+- เปิด/ปิดการแจ้งเตือน | แผนที่ → โดยสาร: `bridge:root=com.apple.NanoMapsBridgeSettings#Transit`
+- เปิด/ปิดการแจ้งเตือน | แผนที่ → ข้อมูลรุ่น: `bridge:root=com.apple.NanoMapsBridgeSettings#Build%20Info%3A`
+- เมลและปฏิทิน: `bridge:root=com.apple.BridgeRemoteAccounts`
+- เมลและปฏิทิน → บัญชี: `bridge:root=com.apple.BridgeRemoteAccounts#Accounts`
+- เมลและปฏิทิน → เพิ่มบัญชี Google…: `bridge:root=com.apple.BridgeRemoteAccounts#ADD_GOOGLE_ACCOUNT`
+- เมลและปฏิทิน → ดึงข้อมูล: `bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch`
+- เมลและปฏิทิน → ดึงข้อมูล → ปิด: `bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch#Off`
+- เมลและปฏิทิน → ดึงข้อมูล → ทุกชั่วโมง: `bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch#Hourly`
+- เมลและปฏิทิน → ดึงข้อมูล → 30 นาที: `bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch#30%20min`
+- เมลและปฏิทิน → ดึงข้อมูล → 15 นาที: `bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch#15%20min`
+- หัวใจ: `bridge:root=com.apple.HeartRateSettings`
+- หัวใจ → หัวใจ: `bridge:root=com.apple.HeartRateSettings#1`
+- หัวใจ → การแจ้งเตือนอัตราการเต้นของหัวใจ: `bridge:root=com.apple.HeartRateSettings#2`
+- หัวใจ → อัตราหัวใจเต้นเร็ว: `bridge:root=com.apple.HeartRateSettings#3`
+- หัวใจ → อัตราหัวใจเต้นช้า: `bridge:root=com.apple.HeartRateSettings#4`
+- หัวใจ → จังหวะการเต้นที่ไม่สม่ำเสมอ: `bridge:root=com.apple.HeartRateSettings#5`
+- หัวใจ → ดู ECG ที่บันทึกในแอปสุขภาพ: `bridge:root=com.apple.HeartRateSettings#6`
+- หัวใจ → ECG: `bridge:root=com.apple.HeartRateSettings#7`
+- App Store: `bridge:root=com.apple.BridgeAppStoreDaemonSettings`
+- App Store → รายการดาวน์โหลดอัตโนมัติ: `bridge:root=com.apple.BridgeAppStoreDaemonSettings#automaticDownloadSpecifier`
+- App Store → รายการอัปเดตอัตโนมัติ: `bridge:root=com.apple.BridgeAppStoreDaemonSettings#Automatic%20Updates`
+- คำสั่งมือ: `bridge:root=ELTON_SETTINGS_ID`
+- คำสั่งมือ → คำสั่งมือ: `bridge:root=ELTON_SETTINGS_ID#Gestures`
+- คำสั่งมือ → แตะสองครั้ง: `bridge:root=ELTON_SETTINGS_ID&path=ELTON_DOUBLE_TAP_ID`
+- คำสั่งมือ → แตะสองครั้ง → แตะสองครั้ง: `bridge:root=ELTON_SETTINGS_ID&path=ELTON_DOUBLE_TAP_ID#Double%20Tap`
+- คำสั่งมือ → แตะสองครั้ง → การเล่น: `bridge:root=ELTON_SETTINGS_ID&path=ELTON_DOUBLE_TAP_ID#playbackSettingsGroup`
+- คำสั่งมือ → แตะสองครั้ง → เล่น / หยุดพัก: `bridge:root=ELTON_SETTINGS_ID&path=ELTON_DOUBLE_TAP_ID#playbackSettingsPlayPause`
+- คำสั่งมือ → แตะสองครั้ง → ข้าม: `bridge:root=ELTON_SETTINGS_ID&path=ELTON_DOUBLE_TAP_ID#playbackSettingsSkip`
+- คำสั่งมือ → แตะสองครั้ง → วิดเจ็ตซ้อนอัจฉริยะ: `bridge:root=ELTON_SETTINGS_ID&path=ELTON_DOUBLE_TAP_ID#smartStackGroup`
+- คำสั่งมือ → แตะสองครั้ง → ขั้นสูง: `bridge:root=ELTON_SETTINGS_ID&path=ELTON_DOUBLE_TAP_ID#smartStackSettingsAdvance`
+- คำสั่งมือ → แตะสองครั้ง → เลือก: `bridge:root=ELTON_SETTINGS_ID&path=ELTON_DOUBLE_TAP_ID#smartStackSettingsSelect`
+- คำสั่งมือ → แตะสองครั้ง → เมื่อใช้ Apple Vision Pro: `bridge:root=ELTON_SETTINGS_ID&path=ELTON_DOUBLE_TAP_ID#ignoreWhileVisionProDonned`
+- คำสั่งมือ → แตะสองครั้ง → ไม่สนใจการแตะสองครั้ง: `bridge:root=ELTON_SETTINGS_ID&path=ELTON_DOUBLE_TAP_ID#ignoreDoubleTap`
+- คำสั่งมือ → บิดข้อมือ: `bridge:root=ELTON_SETTINGS_ID#Wrist%20Flick`
+- คำสั่งมือ → บังหน้าจอเพื่อปิดเสียง: `bridge:root=ELTON_SETTINGS_ID#Cover%20to%20Mute`
+- นอนหลับ: `bridge:root=com.apple.NanoBedtimeBridgeSettings`
+- นอนหลับ → ตั้งค่าการนอนหลับในแอปสุขภาพ: `bridge:root=com.apple.NanoBedtimeBridgeSettings#SET_UP_SLEEP_CELL_ID`
+- ขีดจำกัดพื้นที่จัดเก็บข้อมูล | เชื่อมข้อมูลเพลงแล้ว | เพลง: `bridge:root=com.apple.NanoMusicBridgeSettings`
+- ขีดจำกัดพื้นที่จัดเก็บข้อมูล | เชื่อมข้อมูลเพลงแล้ว | เพลง → เพลย์ลิสต์และอัลบั้ม: `bridge:root=com.apple.NanoMusicBridgeSettings#PLAYLISTS%20&%20ALBUMS`
+- ขีดจำกัดพื้นที่จัดเก็บข้อมูล | เชื่อมข้อมูลเพลงแล้ว | เพลง → เพิ่มเพลง…: `bridge:root=com.apple.NanoMusicBridgeSettings#Add%20Music%E2%80%A6`
+- กระเป๋าสตางค์และ Apple Pay: `bridge:root=com.apple.NanoPassbookBridgeSettings`
+- กระเป๋าสตางค์และ Apple Pay → Apple Cash: `bridge:root=com.apple.NanoPassbookBridgeSettings#Apple%C2%A0Cash`
+- กระเป๋าสตางค์และ Apple Pay → เพิ่มบัตร: `bridge:root=com.apple.NanoPassbookBridgeSettings#Add%20Card`
+- กระเป๋าสตางค์และ Apple Pay → การแจ้งเตือน: `bridge:root=com.apple.NanoPassbookBridgeSettings#MIRROR_RADIO_GROUP_ID`
+- กระเป๋าสตางค์และ Apple Pay → เหมือนกับ iPhone ของฉัน: `bridge:root=com.apple.NanoPassbookBridgeSettings#MIRROR_MY_COMPANION_ID`
+- กระเป๋าสตางค์และ Apple Pay → กำหนดเอง: `bridge:root=com.apple.NanoPassbookBridgeSettings#CUSTOM_ID`
+- สุขภาพ: `bridge:root=com.apple.BridgeHealthSettings`
+- ค้นหา Apple Watch ของฉัน: `bridge:root=ActiveWatch`
+- ค้นหา Apple Watch ของฉัน → จับคู่กับ Apple Watch เรือนใหม่: `bridge:root=ActiveWatch&path=Pair%20New%20Watch`
+- ทำสมาธิ: `bridge:root=com.apple.MindSettings`
+- ทำสมาธิ → อนุญาตการแจ้งเตือน: `bridge:root=com.apple.MindSettings#ALLOW_NOTIFICATIONS_ID`
+- ทำสมาธิ → ส่งไปที่ศูนย์การแจ้งเตือน: `bridge:root=com.apple.MindSettings#SEND_TO_NOTIFICATION_CENTER_ID`
+- ทำสมาธิ → ปิดการแจ้งเตือน: `bridge:root=com.apple.MindSettings#NOTIFICATIONS_OFF_ID`
+- ทำสมาธิ → การเตือนให้ทำสมาธิ: `bridge:root=com.apple.MindSettings#MIND_GROUP_ID`
+- ทำสมาธิ → เริ่มต้นวัน: `bridge:root=com.apple.MindSettings#MIND_START_OF_DAY_REMINDER`
+- ทำสมาธิ → สิ้นสุดวัน: `bridge:root=com.apple.MindSettings#MIND_END_OF_DAY_REMINDER`
+- ทำสมาธิ → เพิ่มเตือนความจำ…: `bridge:root=com.apple.MindSettings#Add%20Reminder%E2%80%A6`
+- ทำสมาธิ → สรุปรายสัปดาห์: `bridge:root=com.apple.MindSettings#MIND_WEEKLY_SUMMARY_ID`
+- ทำสมาธิ → ปิดการเตือนวันนี้: `bridge:root=com.apple.MindSettings#MIND_MUTE_FOR_TODAY_ID`
+- ทำสมาธิ → อัตราการหายใจเข้าออก: `bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID`
+- ทำสมาธิ → อัตราการหายใจเข้าออก → หายใจเข้าออก 4 ครั้งต่อนาที: `bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_4`
+- ทำสมาธิ → อัตราการหายใจเข้าออก → หายใจเข้าออก 5 ครั้งต่อนาที: `bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_5`
+- ทำสมาธิ → อัตราการหายใจเข้าออก → หายใจเข้าออก 6 ครั้งต่อนาที: `bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_6`
+- ทำสมาธิ → อัตราการหายใจเข้าออก → หายใจเข้าออก 7 ครั้งต่อนาที: `bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_7`
+- ทำสมาธิ → อัตราการหายใจเข้าออก → หายใจเข้าออก 8 ครั้งต่อนาที: `bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_8`
+- ทำสมาธิ → อัตราการหายใจเข้าออก → หายใจเข้าออก 9 ครั้งต่อนาที: `bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_9`
+- ทำสมาธิ → อัตราการหายใจเข้าออก → หายใจเข้าออก 10 ครั้งต่อนาที: `bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_10`
+- ทำสมาธิ → การสั่น: `bridge:root=com.apple.MindSettings&path=MIND_HAPTICS_ID`
+- ทำสมาธิ → การสั่น → ไม่มี: `bridge:root=com.apple.MindSettings&path=MIND_HAPTICS_ID#NONE_ID`
+- ทำสมาธิ → การสั่น → เบาสุด: `bridge:root=com.apple.MindSettings&path=MIND_HAPTICS_ID#MINIMAL_ID`
+- ทำสมาธิ → การสั่น → แบบแรง: `bridge:root=com.apple.MindSettings&path=MIND_HAPTICS_ID#PROMINENT_ID`
+- พ็อดคาสท์: `bridge:root=com.apple.private.PodcastsBridgeSettings`
+- โทรศัพท์: `bridge:root=com.apple.PhoneBridgeSettings`
+- โทรศัพท์ → สายโทร: `bridge:root=com.apple.PhoneBridgeSettings#carrier_direct_calling_group_id`
+- โทรศัพท์ → เสียงเรียกเข้า: `bridge:root=com.apple.PhoneBridgeSettings#RINGTONE`
+- โทรศัพท์ → เสียง: `bridge:root=com.apple.PhoneBridgeSettings#INCOMING_CALL_SOUND`
+- โทรศัพท์ → การสั่น: `bridge:root=com.apple.PhoneBridgeSettings#INCOMING_CALL_HAPTIC`
+- ความลึก: `bridge:root=com.apple.DepthCompanionSettings`
+- ปุ่มแอ็คชั่น: `bridge:root=STING_TITLE`
+- การตั้งค่าผู้ให้บริการ: `bridge:root=CARRIER_SETTINGS`
+- เซลลูลาร์: `bridge:root=CELLULAR_ID`
+- Dock: `bridge:root=DOCK`
+- Dock → การเรียงลำดับบน Dock: `bridge:root=DOCK#OrderingOptionGroup`
+- Dock → ล่าสุด: `bridge:root=DOCK#Recents`
+- Dock → รายการโปรด: `bridge:root=DOCK#Favorites`
+- Dock: `bridge:root=DOCK.0`
+- Dock → การเรียงลำดับบน Dock: `bridge:root=DOCK.0#OrderingOptionGroup`
+- Dock → ล่าสุด: `bridge:root=DOCK.0#Recents`
+- Dock → รายการโปรด: `bridge:root=DOCK.0#Favorites`
+- หนังสือเสียง: `bridge:root=com.apple.NanoBooks.BridgeSettings`
+- หนังสือเสียง → ลงชื่อเข้า: `bridge:root=com.apple.NanoBooks.BridgeSettings#Sign%20In`
+- จำนวนรูปภาพสูงสุด | อัลบั้มรูปภาพที่เลือก: `bridge:root=com.apple.mobileslideshow`
+- แจ้งว่าได้อ่านแล้ว: `bridge:root=com.apple.MessagesBridgeSettings%23READ_RECEIPTS`

@@ -1,0 +1,414 @@
+- Batterij: `prefs:root=BATTERY_USAGE`
+- Batterij → Energiebesparingsmodus | Energiebesparings­modus: `prefs:root=BATTERY_USAGE#BATTERY_SAVER_MODE`
+- Batterij → Batterijconditie: `prefs:root=BATTERY_USAGE#BATTERY_HEALTH_ID`
+- Algemeen: `prefs:root=General`
+- Algemeen → VPN- en apparaatbeheer: `prefs:root=General&path=ManagedConfigurationList`
+- Algemeen → 'Vul automatisch in' en wachtwoorden: `prefs:root=General&path=AUTOFILL`
+- Algemeen → 'Vul automatisch in' en wachtwoorden → Vul automatisch in: `prefs:root=General&path=AUTOFILL#AUTOFILL`
+- Algemeen → 'Vul automatisch in' en wachtwoorden → Ruim verificatiecodes op: `prefs:root=General&path=AUTOFILL#CLEAN_UP_VERIFICATION_CODES`
+- Algemeen → 'Vul automatisch in' en wachtwoorden → Configureer verificatie­codes: `prefs:root=General&path=AUTOFILL#SET_UP_VERIFICATION_CODES`
+- Algemeen → AppleCare en garantie: `prefs:root=General&path=COVERAGE/`
+- Algemeen → Woordenboek: `prefs:root=General&path=DICTIONARY`
+- Algemeen → Toetsenbord: `prefs:root=General&path=Keyboard`
+- Algemeen → Toetsenbord → Toetsenborden: `prefs:root=General&path=Keyboard/KEYBOARDS`
+- Algemeen → Toetsenbord → Tekstvervanging: `prefs:root=General&path=Keyboard/USER_DICTIONARY`
+- Algemeen → Toetsenbord → Automatische hoofdletters: `prefs:root=General&path=Keyboard#KeyboardAutocapitalization`
+- Algemeen → Toetsenbord → Autocorrectie: `prefs:root=General&path=Keyboard#KeyboardAutocorrection`
+- Algemeen → Toetsenbord → Controleer spelling: `prefs:root=General&path=Keyboard#KeyboardCheckSpelling`
+- Algemeen → Toetsenbord → Schakel Caps Lock in: `prefs:root=General&path=Keyboard#KeyboardCapsLock`
+- Algemeen → Toetsenbord → Opdrachten: `prefs:root=General&path=Keyboard#KeyboardAssistant`
+- Algemeen → Toetsenbord → Suggesties: `prefs:root=General&path=Keyboard#KeyboardPrediction`
+- Algemeen → Toetsenbord → Slimme interpunctie: `prefs:root=General&path=Keyboard#SmartTyping`
+- Algemeen → Toetsenbord → Gesplitst toetsenbord: `prefs:root=General&path=Keyboard#RivenKeyboard`
+- Algemeen → Toetsenbord → Schakel korte aanraking van toetsen in: `prefs:root=General&path=Keyboard#GesturesEnabled`
+- Algemeen → Toetsenbord → Voorvertoning teken: `prefs:root=General&path=Keyboard#KeyboardAllowPaddle`
+- Algemeen → Toetsenbord → Sneltoets voor punt: `prefs:root=General&path=Keyboard#KeyboardPeriodShortcut`
+- Algemeen → Toetsenbord → Veeg om te typen: `prefs:root=General&path=Keyboard#KeyboardContinuousPathEnabled`
+- Algemeen → Toetsenbord → Schakel dicteerfunctie in: `prefs:root=General&path=Keyboard#Dictation`
+- Algemeen → Toetsenbord → Automatische leestekens: `prefs:root=General&path=Keyboard#AutoPunctuationSetting`
+- Algemeen → Software-update: `prefs:root=General&path=SOFTWARE_UPDATE_LINK`
+- Algemeen → Software-update → Automatische updates: `prefs:root=General&path=SOFTWARE_UPDATE_LINK/SUAutomaticUpdateButton`
+- Algemeen → Opslag: `prefs:root=General&path=STORAGE_MGMT`
+- Algemeen → Opslag → Opslag: `prefs:root=General&path=STORAGE_MGMT#MANAGE`
+- Algemeen → Opslag → Ruim apps op: `prefs:root=General&path=STORAGE_MGMT#OFFLOAD`
+- Algemeen → Beeld in beeld: `prefs:root=General&path=PiP_SPEC`
+- Algemeen → Trackpad | Trackpad en muis: `prefs:root=General&path=POINTERS`
+- Algemeen → NFC: `prefs:root=General&path=NFC_LINK`
+- Algemeen → VPN: `prefs:root=General&path=VPN`
+- Algemeen → CarPlay: `prefs:root=General&path=CARPLAY`
+- Algemeen → Info: `prefs:root=General&path=About`
+- Algemeen → Info → Vertrouwde certificaten: `prefs:root=General&path=About/CERT_TRUST_SETTINGS`
+- Algemeen → Info → Serienummer: `prefs:root=General&path=About#SerialNumber`
+- Algemeen → Info → Modelnummer: `prefs:root=General&path=About#ProductModel`
+- Algemeen → Info → Modelnaam: `prefs:root=General&path=About#ProductModelName`
+- Algemeen → Info → iOS-versie: `prefs:root=General&path=About/SW_VERSION_SPECIFIER`
+- Algemeen → Juridische informatie en regelgeving: `prefs:root=General&path=LEGAL_AND_REGULATORY`
+- Algemeen → Juridische informatie en regelgeving → Garantie: `prefs:root=General&path=LEGAL_AND_REGULATORY#Warranty`
+- Algemeen → AirDrop: `prefs:root=General&path=AIRDROP_LINK`
+- Algemeen → AirDrop → Apparaten samenbrengen: `prefs:root=General&path=AIRDROP_LINK#AIRDROP_NFC_ID`
+- Algemeen → Thuisknop: `prefs:root=General&path=HOME_BUTTON`
+- Algemeen → Zijschakelaar: `prefs:root=General#Rotation_Switch_Action_Group`
+- Algemeen → Ververs op achtergrond: `prefs:root=General&path=AUTO_CONTENT_DOWNLOAD`
+- Algemeen → Datum en tijd: `prefs:root=General&path=DATE_AND_TIME`
+- Algemeen → Tv-uitvoer: `prefs:root=General&path=TV_OUT`
+- Algemeen → Stel opnieuw in: `prefs:root=General&path=Reset`
+- Algemeen → Stel opnieuw in → Herstel alle instellingen: `prefs:root=General&path=Reset#settingsErase`
+- Algemeen → Stel opnieuw in → Wis alle inhoud en instellingen: `prefs:root=General&path=Reset#fullErase`
+- Algemeen → Stel opnieuw in → Herstel netwerkinstellingen: `prefs:root=General&path=Reset#RESET_NETWORK_LABEL`
+- Algemeen → Stel opnieuw in → Verwijder alle mobieledata-abonnementen: `prefs:root=General&path=Reset#cellularErase`
+- Algemeen → Stel opnieuw in → Abonneeservices: `prefs:root=General&path=Reset#SUBSCRIBER_SERVICES_ID`
+- Algemeen → Stel opnieuw in → Herstel toetsenbordwoordenboek: `prefs:root=General&path=Reset#RESET_KEYBOARD_DICTIONARY_LABEL`
+- Algemeen → Stel opnieuw in → Herstel beginschermindeling: `prefs:root=General&path=Reset#RESET_ICONS_LABEL`
+- Algemeen → Stel opnieuw in → Herstel locatie en privacy: `prefs:root=General&path=Reset#RESET_PRIVACY_LABEL`
+- Algemeen → Zet uit: `prefs:root=General#SHUTDOWN_LABEL`
+- Algemeen → AirPlay en Continuïteit: `prefs:root=General&path=CONTINUITY_SPEC`
+- Algemeen → AirPlay en Continuïteit → Handoff: `prefs:root=General&path=CONTINUITY_SPEC#CONTINUITY`
+- Algemeen → AirPlay en Continuïteit → Zet over naar HomePod: `prefs:root=General&path=CONTINUITY_SPEC#TRANSFER_TO_HOMEPOD`
+- Algemeen → AirPlay en Continuïteit → Gebruik AirPlay: `prefs:root=General&path=CONTINUITY_SPEC#AUTOMATICALLY_AIRPLAY`
+- Algemeen → AirPlay en Continuïteit → Continuïteitscamera: `prefs:root=General&path=CONTINUITY_SPEC#WOMBAT_CAMERA`
+- Algemeen → Taal en regio: `prefs:root=General&path=INTERNATIONAL`
+- Algemeen → Taal en regio → Andere talen…: `prefs:root=General&path=INTERNATIONAL#NEW_PREFERRED_LANGUAGE`
+- Algemeen → Taal en regio → Volgorde voorkeurstalen: `prefs:root=General&path=INTERNATIONAL#PREFERRED_LANGUAGE_GROUP`
+- Algemeen → Taal en regio → Voeg taal toe…: `prefs:root=General&path=INTERNATIONAL#ADD_PREFERRED_LANGUAGE`
+- Algemeen → Taal en regio → Regio: `prefs:root=General&path=INTERNATIONAL/LOCALE`
+- Algemeen → Taal en regio → Getallen: `prefs:root=General&path=INTERNATIONAL/NUMBERING_SYSTEM`
+- Algemeen → Taal en regio → Agenda: `prefs:root=General&path=INTERNATIONAL/CALENDAR`
+- Algemeen → Taal en regio → Temperatuureenheid: `prefs:root=General&path=INTERNATIONAL/TEMPERATURE_UNIT`
+- Apple Account: `prefs:root=APPLE_ACCOUNT` or `settings-navigation://com.apple.Settings.AppleAccount`
+- Apple Account → Sleutelverificatie van contacten: `prefs:root=APPLE_ACCOUNT&path=TRANSPARENCY` or `settings-navigation://com.apple.Settings.AppleAccount/TRANSPARENCY`
+- Apple Account → iCloud: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE` or `prefs:root=CASTLE`
+- Apple Account → iCloud → iCloud-opslag: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/STORAGE_AND_BACKUP` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/STORAGE_AND_BACKUP` or `prefs:root=CASTLE&path=STORAGE_AND_BACKUP`
+- Apple Account → iCloud → iCloud Drive: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Ubiquity` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Ubiquity` or `prefs:root=CASTLE&path=com.apple.Dataclass.Ubiquity`
+- Apple Account → iCloud → Foto's: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.MediaStream` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.MediaStream` or `prefs:root=CASTLE&path=com.apple.Dataclass.MediaStream`
+- Apple Account → iCloud → Mail: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Mail` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail` or `prefs:root=CASTLE&path=com.apple.Dataclass.Mail`
+- Apple Account → iCloud → Contacten: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Contacts` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Contacts` or `prefs:root=CASTLE&path=com.apple.Dataclass.Contacts`
+- Apple Account → iCloud → Agenda: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Calendars` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Calendars` or `prefs:root=CASTLE&path=com.apple.Dataclass.Calendars`
+- Apple Account → iCloud → Herinneringen: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Reminders` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Reminders` or `prefs:root=CASTLE&path=com.apple.Dataclass.Reminders`
+- Apple Account → iCloud → Safari: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Bookmarks` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Bookmarks` or `prefs:root=CASTLE&path=com.apple.Dataclass.Bookmarks`
+- Apple Account → iCloud → Notities: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Notes` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Notes` or `prefs:root=CASTLE&path=com.apple.Dataclass.Notes`
+- Apple Account → iCloud → News: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.News` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.News` or `prefs:root=CASTLE&path=com.apple.Dataclass.News`
+- Apple Account → iCloud → Back‑up: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/BACKUP` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/BACKUP` or `prefs:root=CASTLE&path=BACKUP`
+- Apple Account → iCloud → Gezondheid: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Health` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Health` or `prefs:root=CASTLE&path=com.apple.Dataclass.Health`
+- Apple Account → iCloud → Wachtwoorden en sleutelhanger: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.KeychainSync` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.KeychainSync` or `prefs:root=CASTLE&path=com.apple.Dataclass.KeychainSync`
+- Apple Account → iCloud → Verberg mijn e-mailadres: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/PRIVATE_EMAIL_MANAGE` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/PRIVATE_EMAIL_MANAGE` or `prefs:root=CASTLE&path=PRIVATE_EMAIL_MANAGE`
+- Apple Account → Deel mijn locatie: `prefs:root=APPLE_ACCOUNT&path=LOCATION_SHARING` or `settings-navigation://com.apple.Settings.AppleAccount/LOCATION_SHARING`
+- Apple Account → Deel mijn locatie → Zoek mijn: `prefs:root=APPLE_ACCOUNT&path=LOCATION_SHARING/FindMyDevice-Settings` or `settings-navigation://com.apple.Settings.AppleAccount/LOCATION_SHARING/FindMyDevice-Settings`
+- Apple Account → Naam, telefoonnummers, e‑mail: `prefs:root=APPLE_ACCOUNT&path=APPLE_ACCOUNT_CONTACT` or `settings-navigation://com.apple.Settings.AppleAccount/APPLE_ACCOUNT_CONTACT`
+- Apple Account → Wachtwoord en beveiliging: `prefs:root=APPLE_ACCOUNT&path=PASSWORD_AND_SECURITY` or `settings-navigation://com.apple.Settings.AppleAccount/PASSWORD_AND_SECURITY`
+- Apple Account → Betaling en bezorging: `prefs:root=APPLE_ACCOUNT&path=PAYMENT_AND_SHIPPING` or `settings-navigation://com.apple.Settings.AppleAccount/PAYMENT_AND_SHIPPING`
+- Apple Account → Abonnementen: `prefs:root=APPLE_ACCOUNT&path=SUBSCRIPTIONS` or `settings-navigation://com.apple.Settings.AppleAccount/SUBSCRIPTIONS`
+- Apple Account → Gezin: `prefs:root=APPLE_ACCOUNT&path=Family` or `settings-navigation://com.apple.Settings.AppleAccount/Family`
+- Meldingen: `prefs:root=NOTIFICATIONS_ID`
+- Meldingen → Gepland overzicht: `prefs:root=NOTIFICATIONS_ID&path=SCHEDULED_DELIVERY_ID`
+- Weer: `prefs:root=WEATHER`
+- Freeform: `prefs:root=FREEFORM`
+- Focus: `prefs:root=DO_NOT_DISTURB`
+- Focus → Focus­status: `prefs:root=DO_NOT_DISTURB&path=status`
+- Dagboek: `prefs:root=JOURNAL`
+- Wallet en Apple Pay: `prefs:root=PASSBOOK`
+- Wallet en Apple Pay → Apple Cash: `prefs:root=PASSBOOK#Apple%C2%A0Cash`
+- Wallet en Apple Pay → Betaalkaarten: `prefs:root=PASSBOOK#SETTINGS_PAYMENT_CARDS_GROUP`
+- Wallet en Apple Pay → Voeg kaart toe: `prefs:root=PASSBOOK#Add%20Card`
+- Wallet en Apple Pay → Druk tweemaal op zijknop: `prefs:root=PASSBOOK#Double-Click%20Side%20Button`
+- Wallet en Apple Pay → Bestellingen bijhouden: `prefs:root=PASSBOOK#ORDER_TRACKING`
+- Beeldscherm en helderheid | Weergave: `prefs:root=DISPLAY`
+- Beeldscherm en helderheid | Weergave → Weergave: `prefs:root=DISPLAY#DEVICE_APPEARANCE`
+- Beeldscherm en helderheid | Weergave → True Tone: `prefs:root=DISPLAY#WHITE_BALANCE`
+- Beeldscherm en helderheid | Weergave → Night Shift: `prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION`
+- Beeldscherm en helderheid | Weergave → Night Shift → Gepland: `prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION#SCHEDULED`
+- Beeldscherm en helderheid | Weergave → Night Shift → Zet handmatig aan tot morgen: `prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION#MANUAL`
+- Beeldscherm en helderheid | Weergave → Night Shift → Kleurtemperatuur: `prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION#COLOR_TEMPERATURE`
+- Beeldscherm en helderheid | Weergave → Automatisch slot: `prefs:root=DISPLAY&path=AUTOLOCK`
+- Beeldscherm en helderheid | Weergave → Til op om te activeren: `prefs:root=DISPLAY#RAISE_TO_WAKE`
+- Beeldscherm en helderheid | Weergave → Vergrendel / Ontgrendel: `prefs:root=DISPLAY#SMART_CASE_LOCK_SPEC`
+- Beeldscherm en helderheid | Weergave → Tekstgrootte: `prefs:root=DISPLAY&path=TEXT_SIZE`
+- Beeldscherm en helderheid | Weergave → Vette tekst: `prefs:root=DISPLAY#BOLD_TEXT`
+- Beeldscherm en helderheid | Weergave → Helderheid: `prefs:root=DISPLAY#BRIGHTNESS`
+- Beeldscherm en helderheid | Weergave → Weergavezoom: `prefs:root=DISPLAY#DISPLAY_ZOOM_GROUP`
+- Beeldscherm en helderheid | Weergave → Weergave: `prefs:root=DISPLAY&path=APPEARANCE`
+- Beeldscherm en helderheid | Weergave → Weergave → Zoom in venster: `prefs:root=DISPLAY&path=APPEARANCE#WINDOW_ZOOM`
+- Beeldscherm en helderheid | Weergave → Weergave → Zoom in venster met twee handen: `prefs:root=DISPLAY&path=APPEARANCE#TWO_HANDED_WINDOW_ZOOM`
+- Beeldscherm en helderheid | Weergave → Weergave: `prefs:root=DISPLAY&path=MAGNIFY`
+- Beeldscherm en helderheid | Weergave → Altijd aan: `prefs:root=DISPLAY&path=ALWAYS_ON`
+- Beeldscherm en helderheid | Weergave → Altijd aan → Altijd aan: `prefs:root=DISPLAY&path=ALWAYS_ON#ALWAYS_ON`
+- Beeldscherm en helderheid | Weergave → Compatibele apps: `prefs:root=DISPLAY&path=COMPATIBLE_APPEARANCE`
+- Beeldscherm en helderheid | Weergave → Compatibele apps → Donker, Licht: `prefs:root=DISPLAY&path=COMPATIBLE_APPEARANCE#COMPATIBLE_APPEARANCE_CHOICES`
+- Meten: `prefs:root=MEASURE` or `settings-navigation://com.apple.Settings.Apps/com.apple.measure`
+- Meten → Meeteenheden: `prefs:root=MEASURE#MEASURE_UNITS` or `settings-navigation://com.apple.Settings.Apps/com.apple.measure#MEASURE_UNITS#MEASURE_UNITS`
+- Meten → Imperial: `prefs:root=MEASURE#Imperial` or `settings-navigation://com.apple.Settings.Apps/com.apple.measure#Imperial#Imperial`
+- Meten → Metrisch: `prefs:root=MEASURE#Metric` or `settings-navigation://com.apple.Settings.Apps/com.apple.measure#Metric#Metric`
+- Achtergrond: `prefs:root=Wallpaper`
+- Bedieningspaneel: `prefs:root=ControlCenter`
+- Bedieningspaneel → Toegang vanuit apps: `prefs:root=ControlCenter#ALLOWED_WITHIN_APPS`
+- Bedieningspaneel → Pas regelaars aan: `prefs:root=ControlCenter&path=CUSTOMIZE_CONTROLS`
+- Dictafoon: `prefs:root=VOICE_MEMOS`
+- Dictafoon → Wis verwijderde onderdelen: `prefs:root=VOICE_MEMOS&path=RCVoiceMemosRecentlyDeletedWindowKey`
+- Dictafoon → Audiokwaliteit: `prefs:root=VOICE_MEMOS&path=RCVoiceMemosAudioQualityKey`
+- Dictafoon → Locatiegebonden benaming: `prefs:root=VOICE_MEMOS#RCVoiceMemosUseLocationBasedNaming`
+- Agenda: `prefs:root=CALENDAR`
+- Agenda → Tijdzoneprioriteit: `prefs:root=CALENDAR&path=TimeZoneCityArray`
+- Agenda → Alternatieve kalenders: `prefs:root=CALENDAR&path=Alternate%20Calendars`
+- Agenda → Weeknummers: `prefs:root=CALENDAR#Week%20Numbers`
+- Agenda → Toon wie heeft afgeslagen: `prefs:root=CALENDAR#Show%20Invitee%20Declines`
+- Agenda → Synchroniseer: `prefs:root=CALENDAR&path=Sync`
+- Agenda → Standaardtijd meldingen: `prefs:root=CALENDAR&path=Default%20Alert%20Times`
+- Agenda → Begin week op: `prefs:root=CALENDAR&path=Start%20Week%20On`
+- Agenda → Voorgestelde locaties: `prefs:root=CALENDAR#Location%20Suggestions`
+- Ontwikkelaar: `prefs:root=DEVELOPER_SETTINGS`
+- Ontwikkelaar → Multipath-netwerkvoorzieningen: `prefs:root=DEVELOPER_SETTINGS&path=MULTI_PATH_AGG`
+- Ontwikkelaar → Multipath-netwerkvoorzieningen → Multipath-netwerkvoorzieningen: `prefs:root=DEVELOPER_SETTINGS&path=MULTI_PATH_AGG#Multipath%20Networking`
+- Ontwikkelaar → Weergave: `prefs:root=DEVELOPER_SETTINGS#UIAppearanceGroup`
+- Ontwikkelaar → Donkere weergave: `prefs:root=DEVELOPER_SETTINGS#UIAppearanceSettings`
+- Ontwikkelaar → Gekoppelde apparaten: `prefs:root=DEVELOPER_SETTINGS#DTPairedDevicesGroup`
+- Ontwikkelaar → Wis vertrouwde computers: `prefs:root=DEVELOPER_SETTINGS#CLEAR_TRUSTED_COMPUTERS`
+- Ontwikkelaar → Logs bijhouden: `prefs:root=DEVELOPER_SETTINGS&path=DTInstrumentsSettings`
+- Ontwikkelaar → Activeer UI-automatisering | UI-automatisering: `prefs:root=DEVELOPER_SETTINGS#UIAGroup`
+- Ontwikkelaar → Netwerken: `prefs:root=DEVELOPER_SETTINGS#NLCGroup`
+- Ontwikkelaar → Network Link Conditioner: `prefs:root=DEVELOPER_SETTINGS&path=NLC`
+- Ontwikkelaar → Aanvullende logsessie: `prefs:root=DEVELOPER_SETTINGS#ADDITIONAL_LOGGING`
+- Ontwikkelaar → Sta HTTP-voorzieningen toe: `prefs:root=DEVELOPER_SETTINGS#ALLOW_HTTP_SERVICES`
+- Ontwikkelaar → Schakel frequentiebeperking uit: `prefs:root=DEVELOPER_SETTINGS#DISABLE_RATE_LIMITING`
+- Ontwikkelaar → NFC-sleutel optioneel: `prefs:root=DEVELOPER_SETTINGS#NFC_PASS_KEY_OPTIONAL`
+- Ontwikkelaar → Mediavoorzieningen testen: `prefs:root=DEVELOPER_SETTINGS#MEDIA_SERVICES_TESTING`
+- Ontwikkelaar → Stel mediavoorzieningen opnieuw in: `prefs:root=DEVELOPER_SETTINGS#RESET_MEDIA_SERVICES`
+- Ontwikkelaar → News testen: `prefs:root=DEVELOPER_SETTINGS#NEWS_TESTING`
+- Ontwikkelaar → Stel lokale gegevens bij volgende start opnieuw in: `prefs:root=DEVELOPER_SETTINGS#RESET_LOCAL_DATA_ON_NEXT_LAUNCH`
+- Ontwikkelaar → Media Player Framework testen: `prefs:root=DEVELOPER_SETTINGS#RoutineSettingsGroup`
+- Ontwikkelaar → API voor afspeelbaar materiaal: `prefs:root=DEVELOPER_SETTINGS&path=RoutineSettings`
+- Ontwikkelaar → Tv-aanbieder: `prefs:root=DEVELOPER_SETTINGS&path=VideoSubscriberAccountSettings`
+- Ontwikkelaar → ClassKit-API: `prefs:root=DEVELOPER_SETTINGS&path=ClassKitSettings`
+- Ontwikkelaar → CoreSpotlight testen: `prefs:root=DEVELOPER_SETTINGS#CORESPOTLIGHT_TESTING`
+- Ontwikkelaar → Indexeer alle onderdelen opnieuw: `prefs:root=DEVELOPER_SETTINGS#REINDEX_ALL_ITEMS`
+- Ontwikkelaar → Indexeer alle onderdelen met ID's opnieuw: `prefs:root=DEVELOPER_SETTINGS#REINDEX_ALL_ITEMS_WITH_IDENTIFIERS`
+- Ontwikkelaar → Opdrachten testen: `prefs:root=DEVELOPER_SETTINGS#SIRI_ACTIONS_TESTING`
+- Ontwikkelaar → Toon recente opdrachten: `prefs:root=DEVELOPER_SETTINGS#DISPLAY_DONATIONS_SPOTLIGHT`
+- Ontwikkelaar → Toon geplande media: `prefs:root=DEVELOPER_SETTINGS#DISPLAY_UPCOMING_MEDIA`
+- Ontwikkelaar → Toon donaties op het toegangsscherm: `prefs:root=DEVELOPER_SETTINGS#DISPLAY_DONATIONS_LOCKSCREEN`
+- Ontwikkelaar → Forceer synchronisatie van opdrachten naar Apple Watch: `prefs:root=DEVELOPER_SETTINGS#SIRI_ACTIONS_SYNC_WATCHOS`
+- Ontwikkelaar → MIDI-CI testen: `prefs:root=DEVELOPER_SETTINGS#MIDI_CI_API_BETA`
+- Ontwikkelaar → Schakel MIDI-CI in: `prefs:root=DEVELOPER_SETTINGS#MIDI_CI_API_BETA_ENABLE`
+- Ontwikkelaar → Vastloopdetectie: `prefs:root=DEVELOPER_SETTINGS#HANGTRACER_EXTERNAL_CONFIGURE`
+- Face ID en toegangscode | Toegangscode | Touch ID en toegangscode: `prefs:root=PASSCODE`
+- Face ID en toegangscode | Toegangscode | Touch ID en toegangscode → Zet code uit: `prefs:root=PASSCODE#PASSCODE_OFF`
+- Face ID en toegangscode | Toegangscode | Touch ID en toegangscode → Wijzig toegangscode: `prefs:root=PASSCODE#CHANGE_PASSCODE`
+- Face ID en toegangscode | Toegangscode | Touch ID en toegangscode → Vraag om code: `prefs:root=PASSCODE&path=PASSCODE_REQ`
+- Face ID en toegangscode | Toegangscode | Touch ID en toegangscode → Voicedialing: `prefs:root=PASSCODE#VOICE_DIAL`
+- Face ID en toegangscode | Toegangscode | Touch ID en toegangscode → Toegang bij vergrendeling: `prefs:root=PASSCODE#ALLOW_ACCESS_WHEN_LOCKED`
+- Face ID en toegangscode | Toegangscode | Touch ID en toegangscode → Antwoord met bericht: `prefs:root=PASSCODE#REPLY_WITH_MESSAGE_SWITCH`
+- Face ID en toegangscode | Toegangscode | Touch ID en toegangscode → Woningbeheer: `prefs:root=PASSCODE#HOME_CONTROL_SWITCH`
+- Face ID en toegangscode | Toegangscode | Touch ID en toegangscode → Wallet: `prefs:root=PASSCODE#WALLET_SWITCH`
+- Face ID en toegangscode | Toegangscode | Touch ID en toegangscode → Bel gemiste oproepen terug: `prefs:root=PASSCODE#RETURN_MISSED_CALLS_SWITCH`
+- Face ID en toegangscode | Toegangscode | Touch ID en toegangscode → Wis gegevens: `prefs:root=PASSCODE#WIPE_DEVICE`
+- Face ID en toegangscode | Toegangscode | Touch ID en toegangscode → Ontgrendel met Apple Watch: `prefs:root=PASSCODE#AUTO_UNLOCK_DEVICES_GROUP`
+- Face ID en toegangscode | Toegangscode | Touch ID en toegangscode → Bescherming voor gestolen apparaat: `prefs:root=PASSCODE#DTO_GROUP_ID`
+- Telefoon: `prefs:root=Phone`
+- Telefoon → Mijn nummer: `prefs:root=Phone&path=My%20Number`
+- Telefoon → Inkomend: `prefs:root=Phone&path=INCOMING_CALL_STYLE`
+- Telefoon → Kondig beller aan: `prefs:root=Phone&path=ANNOUNCE_CALLS`
+- Telefoon → Sms/oproep melden: `prefs:root=Phone&path=CLASSIFICATION_AND_REPORTING`
+- Telefoon → Reageer met tekstbericht: `prefs:root=Phone&path=Respond%20with%20Text`
+- Telefoon → Doorschakelen: `prefs:root=Phone&path=Call%20Forwarding`
+- Telefoon → Doorschakelen → Doorschakelen: `prefs:root=Phone&path=Call%20Forwarding#idMasterOnOffSwitch`
+- Telefoon → Wisselgesprek: `prefs:root=Phone&path=Call%20Waiting`
+- Telefoon → Nummerherkenning: `prefs:root=Phone&path=Show%20My%20Caller%20ID`
+- Telefoon → Nummerherkenning → Nummerherkenning: `prefs:root=Phone&path=Show%20My%20Caller%20ID/Primary`
+- Telefoon → Nummerherkenning → Nummerherkenning → Nummerherkenning: `prefs:root=Phone&path=Show%20My%20Caller%20ID/Primary#Show%20My%20Caller%20ID`
+- Telefoon → Houd onbekende bellers stil: `prefs:root=Phone#SILENCE_CALLS`
+- Telefoon → Geblokkeerde contacten: `prefs:root=Phone&path=SPECIFIER_IDENTIFIER_BLACKLIST`
+- Telefoon → Nummerassistentie: `prefs:root=Phone&path=Dial%20Assist`
+- Notities: `prefs:root=NOTES` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes`
+- Notities → Standaardaccount: `prefs:root=NOTES&path=Default%20Account` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes/Default%20Account`
+- Notities → Wachtwoord: `prefs:root=NOTES&path=Password` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes/Password`
+- Notities → Sorteer notities op: `prefs:root=NOTES&path=Sort%20Notes%20By` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes/Sort%20Notes%20By`
+- Notities → Begin nieuwe notities met: `prefs:root=NOTES&path=New%20Notes%20Start%20With` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes/New%20Notes%20Start%20With`
+- Notities → Sorteer afgevinkte onderdelen: `prefs:root=NOTES&path=Sort%20Checked%20Items` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes/Sort%20Checked%20Items`
+- Notities → Lijnen/roosters: `prefs:root=NOTES&path=Lines%20%26%20Grids` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes/Lines%20%26%20Grids`
+- Notities → Bewaar in Foto's: `prefs:root=NOTES#Save%20to%20Photos` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes#Save%20to%20Photos#Save%20to%20Photos`
+- Notities → Open Notities in toegangsscherm: `prefs:root=NOTES&path=Access%20Notes%20from%20Lock%20Screen` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes/Access%20Notes%20from%20Lock%20Screen`
+- Boeken: `prefs:root=IBOOKS`
+- Boeken → Materiaal op internet: `prefs:root=IBOOKS#BKAllowOnlineContent`
+- Boeken → SYNCHRONISEREN: `prefs:root=IBOOKS#SYNCING`
+- Boeken → Lees ik nu: `prefs:root=IBOOKS#BKLibrary.ReadingNow`
+- Boeken → iCloud Drive: `prefs:root=IBOOKS#BCSyncICloudDrive`
+- Boeken → LEZEN: `prefs:root=IBOOKS#READING`
+- Boeken → Volledig uitgevuld: `prefs:root=IBOOKS#BKFullJustification`
+- Boeken → Woordafbreking: `prefs:root=IBOOKS#BKAutoHyphenation`
+- Boeken → Vooruit via beide kantlijnen: `prefs:root=IBOOKS#BKLeftTapTurnToNext`
+- Boeken → Leesdoelen: `prefs:root=IBOOKS#READING_GOALS`
+- Boeken → Wis gegevens over leesdoelen: `prefs:root=IBOOKS#BKReadingGoalsShouldClearDataKey`
+- Boeken → ZOEKEN: `prefs:root=IBOOKS#SEARCHING`
+- Boeken → Book Store: `prefs:root=IBOOKS#BKIncludeBookStoreResultsInSearch`
+- Boeken → AUDIOBOEKEN: `prefs:root=IBOOKS#AUDIOBOOKS`
+- Boeken → Spring vooruit: `prefs:root=IBOOKS&path=BKAudioBookSkipForward`
+- Boeken → Spring terug: `prefs:root=IBOOKS&path=BKAudioBookSkipBackward`
+- Boeken → EXTERNE REGELAARS: `prefs:root=IBOOKS#BKRemoteSkipInsteadOfNextTrackDefaultKey`
+- Boeken → Volgende/vorige: `prefs:root=IBOOKS#Next/Previous`
+- Boeken → Spring vooruit/achteruit: `prefs:root=IBOOKS#Skip%20Forward/Back`
+- Boeken → PRIVACY: `prefs:root=IBOOKS#PRIVACY`
+- Boeken → Stel ID opnieuw in: `prefs:root=IBOOKS#BAResetAnalyticsUserID`
+- Boeken → Colofon: `prefs:root=IBOOKS&path=Acknowledgements`
+- Game Center: `prefs:root=GAMECENTER`
+- SOS-noodmelding: `prefs:root=EMERGENCY_SOS`
+- SOS-noodmelding → Bel met zijknop: `prefs:root=EMERGENCY_SOS#CALL_WITH_SIDE_BUTTON`
+- SOS-noodmelding → Automatisch bellen: `prefs:root=EMERGENCY_SOS#AUTO_CALL`
+- SOS-noodmelding → SOS-contactpersonen: `prefs:root=EMERGENCY_SOS#EMERGENCY_CONTACTS`
+- SOS-noodmelding → Aftelgeluid: `prefs:root=EMERGENCY_SOS#ALARM_SOUND_SWITCH`
+- Herinneringen: `prefs:root=REMINDERS`
+- Herinneringen → Standaardlijst: `prefs:root=REMINDERS&path=DEFAULT_LIST`
+- Herinneringen → Standaardlijst → Herinneringen: `prefs:root=REMINDERS&path=DEFAULT_LIST#preferredDefaultListID`
+- Herinneringen → Melding vandaag: `prefs:root=REMINDERS#todayNotificationFireTime`
+- Herinneringen → Toon als verlopen: `prefs:root=REMINDERS#showRemindersAsOverdue`
+- Mobiel netwerk: `prefs:root=MOBILE_DATA_SETTINGS_ID`
+- Mobiel netwerk → Opties mobiele data: `prefs:root=MOBILE_DATA_SETTINGS_ID&path=CELLULAR_DATA_OPTIONS`
+- Mobiel netwerk → Opties mobiele data → Databesparingsmodus: `prefs:root=MOBILE_DATA_SETTINGS_ID&path=CELLULAR_DATA_OPTIONS#Low%20Data%20Mode`
+- Mobiel netwerk → Mobiele data: `prefs:root=MOBILE_DATA_SETTINGS_ID&path=SHOW_ALL`
+- WLAN | Wifi: `prefs:root=WIFI`
+- Contacten: `prefs:root=CONTACTS`
+- Contacten → Geef Contacten toegang tot: `prefs:root=CONTACTS#Allow%20Contacts%20To%20Access`
+- Contacten → Siri: `prefs:root=CONTACTS&path=SIRI_AND_SEARCH`
+- Contacten → Sorteervolgorde: `prefs:root=CONTACTS&path=ContactsSortOrder`
+- Contacten → Geef weer: `prefs:root=CONTACTS&path=PersonNameOrder`
+- Contacten → Korte naam: `prefs:root=CONTACTS&path=PersonShortName`
+- Contacten → Korte naam → Korte naam: `prefs:root=CONTACTS&path=PersonShortName#Short%20Name`
+- Contacten → Korte naam → Gebruik bijnamen: `prefs:root=CONTACTS&path=PersonShortName#Prefer%20Nicknames`
+- Contacten → Mijn info: `prefs:root=CONTACTS&path=MeCard`
+- Contacten → Importeer simcontacten: `prefs:root=CONTACTS#SIMImport`
+- Opdrachten: `prefs:root=SHORTCUTS`
+- Opdrachten → iCloud-synchronisatie: `prefs:root=SHORTCUTS#WFCloudKitSyncEnabled`
+- Opdrachten → Volgorde opdrachten in 'Synchronisatie': `prefs:root=SHORTCUTS#WFCloudKitSyncOrderEnabled`
+- Opdrachten → Juridische informatie: `prefs:root=SHORTCUTS&path=Legal%20Notices`
+- TV | Video's: `prefs:root=TVAPP`
+- TV | Video's → Mobiele data voor afspelen: `prefs:root=TVAPP#com.apple.videos%3AVideosUseCellularDataEnabledSetting`
+- TV | Video's → Afspeelkwaliteit: `prefs:root=TVAPP#com.apple.videos%3APlaybackQualityGroup`
+- TV | Video's → Gekocht en gehuurd: `prefs:root=TVAPP&path=com.apple.videos%3APreferredPurchaseResolution`
+- TV | Video's → Thuisdeling: `prefs:root=TVAPP#com.apple.videos%3AHomeSharingFooter`
+- Muziek: `prefs:root=MUSIC`
+- Muziek → Toon Apple Music: `prefs:root=MUSIC#com.apple.Music%3AAppleMusicEnabled`
+- Muziek → Voeg afspeellijstnummers toe: `prefs:root=MUSIC#com.apple.Music%3AAddPlaylistSongsToMyMusicSwitch`
+- Muziek → Toon sterbeoordelingen: `prefs:root=MUSIC#com.apple.Music%3AShowStarRatings`
+- Muziek → Synchroniseer bibliotheek: `prefs:root=MUSIC#com.apple.Music%3ACloudMusicLibraryEnabled`
+- Muziek → Mobiele data: `prefs:root=MUSIC&path=com.apple.Music%3ACellularData`
+- Muziek → Gedownloade muziek: `prefs:root=MUSIC&path=com.apple.Music%3AMusicUsageLink`
+- Muziek → Optimaliseer opslag: `prefs:root=MUSIC&path=com.apple.Music%3AOptimizeStorage`
+- Muziek → Automatische downloads: `prefs:root=MUSIC#com.apple.Music%3AMusicAutomaticDownload`
+- Muziek → Equalizer: `prefs:root=MUSIC&path=com.apple.Music%3AEQ`
+- Muziek → Geluidscontrole: `prefs:root=MUSIC#com.apple.Music%3ASoundCheck`
+- Muziek → Gebruik luistergeschiedenis: `prefs:root=MUSIC#com.apple.Music%3APrivateListening`
+- Camera: `prefs:root=CAMERA`
+- Camera → Bestandsstructuren: `prefs:root=CAMERA&path=CameraFormatsSettingsList`
+- Camera → Bestandsstructuren → Apple ProRaw: `prefs:root=CAMERA&path=CameraFormatsSettingsList#CAMUserPreferenceEnableLinearDNGControl`
+- Camera → Record Video: `prefs:root=CAMERA&path=Record%20Video`
+- Camera → Record Video → HDR-video: `prefs:root=CAMERA&path=Record%20Video#HDR%20Video`
+- Camera → Bewaar instellingen: `prefs:root=CAMERA&path=CameraPreserveSettingsSwitch`
+- Camera → Bewaar instellingen → Cameramodus: `prefs:root=CAMERA&path=CameraPreserveSettingsSwitch#CAMUserPreferencePreserveCaptureMode`
+- Camera → Raster: `prefs:root=CAMERA#CameraGridSwitch`
+- Camera → Scan QR-codes: `prefs:root=CAMERA#CameraQRBannerSwitch`
+- Kompas: `prefs:root=COMPASS`
+- Kompas → Gebruik geografische noorden: `prefs:root=COMPASS#USE_TRUE_NORTH`
+- Blootstellingsmeldingen: `prefs:root=EXPOSURE_NOTIFICATION`
+- Mail: `prefs:root=MAIL`
+- Mail → Accounts: `prefs:root=MAIL&path=ACCOUNTS`
+- Mail → Accounts → Voeg account toe: `prefs:root=MAIL&path=ACCOUNTS#ADD_ACCOUNT`
+- Mail → Accounts → Nieuwe gegevens: `prefs:root=MAIL&path=ACCOUNTS#FETCH_NEW_DATA`
+- Mail → Voorvertoning: `prefs:root=MAIL&path=Preview`
+- Mail → Toon Aan/Kopie-labels: `prefs:root=MAIL#Show%20To/Cc%20Labels`
+- Mail → Veegopties: `prefs:root=MAIL&path=Swipe%20Options`
+- Mail → Vraag bij verwijderen: `prefs:root=MAIL#Ask%20Before%20Deleting`
+- Mail → Laad externe afbeeldingen: `prefs:root=MAIL#Load%20Remote%20Images`
+- Mail → Berichtenreeksen: `prefs:root=MAIL#Organize%20by%20Thread`
+- Mail → Vouw samen indien gelezen: `prefs:root=MAIL#Collapse%20Read%20Messages`
+- Mail → Nieuwste berichten bovenaan: `prefs:root=MAIL#Most%20Recent%20Message%20on%20Top`
+- Mail → Volledige berichtenreeksen: `prefs:root=MAIL#Complete%20Threads`
+- Mail → Handeling stille berichtenreeks: `prefs:root=MAIL&path=Muted%20Thread%20Action`
+- Mail → Negeer geblokkeerde afzenders: `prefs:root=MAIL#Ignore%20Blocked%20Senders`
+- Mail → Geblokkeerde afzenders: `prefs:root=MAIL&path=Blocked%20Sender%20Options`
+- Mail → Geblokkeerd: `prefs:root=MAIL&path=Blocked`
+- Mail → Blinde kopie naar mij: `prefs:root=MAIL#Always%20Bcc%20Myself`
+- Mail → Markeer adressen: `prefs:root=MAIL&path=Mark%20Addresses`
+- Mail → Verhoog citaatniveau: `prefs:root=MAIL&path=Increase%20Quote%20Level`
+- Mail → Stuur bijlagen mee met antwoorden: `prefs:root=MAIL&path=Include%20Attachments%20with%20Replies`
+- Mail → Handtekening: `prefs:root=MAIL&path=Signature`
+- Bluetooth: `prefs:root=Bluetooth`
+- News: `prefs:root=NEWS`
+- News → Show Story Previews: `prefs:root=NEWS#show_excerpt_mode`
+- News → Restrict Stories in Today: `prefs:root=NEWS#showStoriesFromFavoritesSpecifierID`
+- News → Privacy: `prefs:root=NEWS#Privacy`
+- News → Stel ID opnieuw in: `prefs:root=NEWS#reset_identifier`
+- News → Colofon: `prefs:root=NEWS&path=Acknowledgements`
+- Foto's: `prefs:root=Photos`
+- Foto's → iCloud-foto's: `prefs:root=Photos#iCloudPhotosSwitch`
+- Foto's → Optimaliseer opslag: `prefs:root=Photos#iCloudOptimizeStorageOption`
+- Foto's → Download en bewaar originelen: `prefs:root=Photos#iCloudKeepOriginalsOption`
+- Foto's → Gedeelde albums: `prefs:root=Photos#SharedStreamsSwitch`
+- Foto's → Mobiele data: `prefs:root=Photos&path=CellularDataLinkList`
+- Foto's → Speel video's automatisch af: `prefs:root=Photos#VideoAutoplaySwitch`
+- Foto's → Bekijk volledig HDR: `prefs:root=Photos#ImageModulationSwitch`
+- Foto's → Toon feestelijke activiteiten: `prefs:root=Photos#MEMORIES_HOLIDAY_CALENDAR_EVENTS_SWITCH`
+- Foto's → Zet over naar Mac of pc: `prefs:root=Photos#TransferGroup`
+- Podcasts: `prefs:root=PODCASTS`
+- Privacy en beveiliging: `prefs:root=Privacy` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity`
+- Privacy en beveiliging → Gezondheid: `prefs:root=Privacy&path=HEALTH` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/HEALTH`
+- Privacy en beveiliging → Gegevens: `prefs:root=Privacy&path=HEALTH_DATA` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/HEALTH_DATA`
+- Privacy en beveiliging → Locatie: `prefs:root=Privacy&path=LOCATION` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/LOCATION`
+- Privacy en beveiliging → Locatie → Deel mijn locatie: `prefs:root=Privacy&path=LOCATION/LOCATION_SHARING` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/LOCATION/LOCATION_SHARING`
+- Privacy en beveiliging → Contacten: `prefs:root=Privacy&path=CONTACTS` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/CONTACTS`
+- Privacy en beveiliging → Agenda's: `prefs:root=Privacy&path=CALENDARS` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/CALENDARS`
+- Privacy en beveiliging → Herinneringen: `prefs:root=Privacy&path=REMINDERS` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/REMINDERS`
+- Privacy en beveiliging → Foto's: `prefs:root=Privacy&path=PHOTOS` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/PHOTOS`
+- Privacy en beveiliging → Bluetooth-deling: `prefs:root=Privacy&path=BT_PERIPHERAL` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/BT_PERIPHERAL`
+- Privacy en beveiliging → Microfoon: `prefs:root=Privacy&path=MICROPHONE` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/MICROPHONE`
+- Privacy en beveiliging → Spraakherkenning: `prefs:root=Privacy&path=SPEECH_RECOGNITION` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/SPEECH_RECOGNITION`
+- Privacy en beveiliging → Camera: `prefs:root=Privacy&path=CAMERA` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/CAMERA`
+- Privacy en beveiliging → HomeKit: `prefs:root=Privacy&path=WILLOW` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/WILLOW`
+- Privacy en beveiliging → Media en Apple Music: `prefs:root=Privacy&path=MEDIALIBRARY` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/MEDIALIBRARY`
+- Privacy en beveiliging → Analyse: `prefs:root=Privacy&path=PROBLEM_REPORTING` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/PROBLEM_REPORTING`
+- Privacy en beveiliging → Reclame: `prefs:root=Privacy&path=ADVERTISING` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/ADVERTISING`
+- Privacy en beveiliging → Bestanden en mappen: `prefs:root=Privacy&path=FILEACCESS` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/FILEACCESS`
+- Privacy en beveiliging → Tracking: `prefs:root=Privacy&path=USER_TRACKING` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/USER_TRACKING`
+- Privacy en beveiliging → Rapport over privacy van apps: `prefs:root=Privacy&path=PRIVACY_REPORT` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/PRIVACY_REPORT`
+- Privacy en beveiliging → Isolatiemodus: `prefs:root=Privacy#LOCKDOWN_MODE` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity#LOCKDOWN_MODE#LOCKDOWN_MODE`
+- Privacy en beveiliging → Gevoelig materiaal: `prefs:root=Privacy#NUDITY_DETECTION` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity#NUDITY_DETECTION#NUDITY_DETECTION`
+- FaceTime: `prefs:root=FACETIME`
+- Schermtijd: `prefs:root=SCREEN_TIME`
+- Geluiden | Horen en voelen: `prefs:root=Sounds`
+- Geluiden | Horen en voelen → Koptelefoonveiligheid: `prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING`
+- Geluiden | Horen en voelen → Koptelefoonveiligheid → Lightning-adapters: `prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING/HEADPHONE_LIGHTNING_ADAPTERS`
+- Geluiden | Horen en voelen → Koptelefoonveiligheid → Koptelefoonmeldingen: `prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING#SHSHeadphoneWeeklyNotificationsKey`
+- Geluiden | Horen en voelen → Koptelefoonveiligheid → Verminder hard geluid: `prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING#SHSHeadphoneLevelLimitSwitchKey`
+- Geluiden | Horen en voelen → Geluidseffecten: `prefs:root=Sounds&path=SOUND_EFFECTS`
+- Geluiden | Horen en voelen → Beltoon en meldingen: `prefs:root=Sounds#RINGER_AND_ALERT_GROUP`
+- Geluiden | Horen en voelen → Wijzig met knoppen: `prefs:root=Sounds#CHANGE_WITH_BUTTONS`
+- Geluiden | Horen en voelen → Geluiden en trillingspatronen: `prefs:root=Sounds#SOUNDS_ALERT_GROUP`
+- Geluiden | Horen en voelen → Beltoon: `prefs:root=Sounds&path=Ringtone`
+- Geluiden | Horen en voelen → Sms-toon: `prefs:root=Sounds&path=Text_Messages`
+- Geluiden | Horen en voelen → Nieuwe voicemail: `prefs:root=Sounds&path=Voicemail`
+- Geluiden | Horen en voelen → Nieuwe e‑mail: `prefs:root=Sounds&path=NEW_MAIL`
+- Geluiden | Horen en voelen → Verstuurde e‑mail: `prefs:root=Sounds&path=SENT_MAIL`
+- Geluiden | Horen en voelen → Agendameldingen: `prefs:root=Sounds&path=Calendar%20Alarm`
+- Geluiden | Horen en voelen → Herinneringsmeldingen: `prefs:root=Sounds&path=Reminder%20Alerts`
+- Geluiden | Horen en voelen → Toetsenbordklik: `prefs:root=Sounds#KEYBOARD_SOUND_SWITCH`
+- Geluiden | Horen en voelen → Vergrendelgeluid: `prefs:root=Sounds#LOCK_SOUND_SWITCH`
+- Geluiden | Horen en voelen → Gepersonaliseerde ruimtelijke audio: `prefs:root=Sounds&path=Personalized%20Spatial%20Audio`
+- Apple Pencil: `prefs:root=Pencil`
+- Apple Pencil → Apple Pencil: `prefs:root=Pencil#PrefersPencilDraws`
+- Apple Pencil → Apple Pencil: `prefs:root=Pencil#PencilTextInput`
+- Berichten: `prefs:root=MESSAGES`
+- Aandelen: `prefs:root=STOCKS`
+- Aandelen → Privacy: `prefs:root=STOCKS#Privacy`
+- Aandelen → Stel ID opnieuw in: `prefs:root=STOCKS#reset_identifier`
+- Vertaal: `prefs:root=TRANSLATE`
+- Vertaal → Apparaatmodus: `prefs:root=TRANSLATE#OnDeviceOnly`
+- Siri: `prefs:root=SIRI`
+- Siri → Sta Siri toe bij vergrendeling: `prefs:root=SIRI#ASSISTANT_LOCK_SCREEN_ACCESS`
+- Siri → Taal: `prefs:root=SIRI&path=LANGUAGE_ID`
+- Siri → Siri-stem: `prefs:root=SIRI&path=VOICE_ID`
+- Siri → Gesproken feedback: `prefs:root=SIRI&path=VOICE_FEEDBACK_ID`
+- Siri → Mijn informatie: `prefs:root=SIRI&path=MY_INFO`
+- Gegevens | Gezondheid: `prefs:root=HEALTH`
+- App Store: `prefs:root=STORE`
+- App Store → Automatische downloads: `prefs:root=STORE#Automatic%20Downloads`
+- App Store → App-updates: `prefs:root=STORE#App%20Updates`
+- App Store → Appdownloads: `prefs:root=STORE&path=App%20Downloads`
+- App Store → Speel video automatisch af: `prefs:root=STORE&path=Video%20Autoplay`
+- App Store → Beoordelingen en recensies: `prefs:root=STORE#In-App%20Ratings%20&%20Reviews`
+- Vliegtuigmodus: `prefs:root=ROOT#AIRPLANE_MODE`

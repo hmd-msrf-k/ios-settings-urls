@@ -1,0 +1,414 @@
+- แบตเตอรี่: `prefs:root=BATTERY_USAGE`
+- แบตเตอรี่ → โหมดประหยัดพลังงาน: `prefs:root=BATTERY_USAGE#BATTERY_SAVER_MODE`
+- แบตเตอรี่ → สุขภาพแบตเตอรี่: `prefs:root=BATTERY_USAGE#BATTERY_HEALTH_ID`
+- ทั่วไป: `prefs:root=General`
+- ทั่วไป → การจัดการ VPN และอุปกรณ์: `prefs:root=General&path=ManagedConfigurationList`
+- ทั่วไป → ป้อนอัตโนมัติและรหัสผ่าน: `prefs:root=General&path=AUTOFILL`
+- ทั่วไป → ป้อนอัตโนมัติและรหัสผ่าน → ป้อนรหัสผ่านอัตโนมัติ: `prefs:root=General&path=AUTOFILL#AUTOFILL`
+- ทั่วไป → ป้อนอัตโนมัติและรหัสผ่าน → ล้างรหัสตรวจสอบยืนยัน: `prefs:root=General&path=AUTOFILL#CLEAN_UP_VERIFICATION_CODES`
+- ทั่วไป → ป้อนอัตโนมัติและรหัสผ่าน → ตั้งค่ารหัสตรวจสอบยืนยัน: `prefs:root=General&path=AUTOFILL#SET_UP_VERIFICATION_CODES`
+- ทั่วไป → AppleCare และการรับประกัน: `prefs:root=General&path=COVERAGE/`
+- ทั่วไป → พจนานุกรม: `prefs:root=General&path=DICTIONARY`
+- ทั่วไป → แป้นพิมพ์: `prefs:root=General&path=Keyboard`
+- ทั่วไป → แป้นพิมพ์ → แป้นพิมพ์: `prefs:root=General&path=Keyboard/KEYBOARDS`
+- ทั่วไป → แป้นพิมพ์ → การแทนที่ข้อความ: `prefs:root=General&path=Keyboard/USER_DICTIONARY`
+- ทั่วไป → แป้นพิมพ์ → ตัวพิมพ์ใหญ่อัตโนมัติ: `prefs:root=General&path=Keyboard#KeyboardAutocapitalization`
+- ทั่วไป → แป้นพิมพ์ → แก้ไขคำผิดอัตโนมัติ: `prefs:root=General&path=Keyboard#KeyboardAutocorrection`
+- ทั่วไป → แป้นพิมพ์ → ตรวจสอบการสะกด: `prefs:root=General&path=Keyboard#KeyboardCheckSpelling`
+- ทั่วไป → แป้นพิมพ์ → เปิดใช้งานปุ่ม Caps Lock: `prefs:root=General&path=Keyboard#KeyboardCapsLock`
+- ทั่วไป → แป้นพิมพ์ → คำสั่งลัด: `prefs:root=General&path=Keyboard#KeyboardAssistant`
+- ทั่วไป → แป้นพิมพ์ → การคาดเดา: `prefs:root=General&path=Keyboard#KeyboardPrediction`
+- ทั่วไป → แป้นพิมพ์ → เครื่องหมายวรรคตอนอัจฉริยะ: `prefs:root=General&path=Keyboard#SmartTyping`
+- ทั่วไป → แป้นพิมพ์ → แป้นพิมพ์แยกออก: `prefs:root=General&path=Keyboard#RivenKeyboard`
+- ทั่วไป → แป้นพิมพ์ → เปิดใช้งานการตวัดปุ่ม: `prefs:root=General&path=Keyboard#GesturesEnabled`
+- ทั่วไป → แป้นพิมพ์ → แสดงตัวอย่างอักขระ: `prefs:root=General&path=Keyboard#KeyboardAllowPaddle`
+- ทั่วไป → แป้นพิมพ์ → ปุ่มลัด “.”: `prefs:root=General&path=Keyboard#KeyboardPeriodShortcut`
+- ทั่วไป → แป้นพิมพ์ → ลากนิ้วเพื่อป้อน: `prefs:root=General&path=Keyboard#KeyboardContinuousPathEnabled`
+- ทั่วไป → แป้นพิมพ์ → เปิดใช้งานการป้อนตามคำบอก: `prefs:root=General&path=Keyboard#Dictation`
+- ทั่วไป → แป้นพิมพ์ → เครื่องหมายวรรคตอนอัตโนมัติ: `prefs:root=General&path=Keyboard#AutoPunctuationSetting`
+- ทั่วไป → รายการอัปเดตซอฟต์แวร์: `prefs:root=General&path=SOFTWARE_UPDATE_LINK`
+- ทั่วไป → รายการอัปเดตซอฟต์แวร์ → รายการอัปเดตอัตโนมัติ: `prefs:root=General&path=SOFTWARE_UPDATE_LINK/SUAutomaticUpdateButton`
+- ทั่วไป → พื้นที่จัดเก็บข้อมูล: `prefs:root=General&path=STORAGE_MGMT`
+- ทั่วไป → พื้นที่จัดเก็บข้อมูล → พื้นที่จัดเก็บข้อมูล: `prefs:root=General&path=STORAGE_MGMT#MANAGE`
+- ทั่วไป → พื้นที่จัดเก็บข้อมูล → เอาแอปที่ไม่ได้ใช้ออก: `prefs:root=General&path=STORAGE_MGMT#OFFLOAD`
+- ทั่วไป → หน้าต่างย่อยในหน้าต่างหลัก: `prefs:root=General&path=PiP_SPEC`
+- ทั่วไป → แทร็คแพด | แทร็คแพดและเมาส์: `prefs:root=General&path=POINTERS`
+- ทั่วไป → NFC: `prefs:root=General&path=NFC_LINK`
+- ทั่วไป → VPN: `prefs:root=General&path=VPN`
+- ทั่วไป → CarPlay: `prefs:root=General&path=CARPLAY`
+- ทั่วไป → เกี่ยวกับ: `prefs:root=General&path=About`
+- ทั่วไป → เกี่ยวกับ → ใบรับรองที่เชื่อถือแล้ว: `prefs:root=General&path=About/CERT_TRUST_SETTINGS`
+- ทั่วไป → เกี่ยวกับ → เลขประจำเครื่อง: `prefs:root=General&path=About#SerialNumber`
+- ทั่วไป → เกี่ยวกับ → หมายเลขรุ่น: `prefs:root=General&path=About#ProductModel`
+- ทั่วไป → เกี่ยวกับ → ชื่อโมเดล: `prefs:root=General&path=About#ProductModelName`
+- ทั่วไป → เกี่ยวกับ → เวอร์ชั่น iOS: `prefs:root=General&path=About/SW_VERSION_SPECIFIER`
+- ทั่วไป → กฎหมายและระเบียบข้อบังคับ: `prefs:root=General&path=LEGAL_AND_REGULATORY`
+- ทั่วไป → กฎหมายและระเบียบข้อบังคับ → การรับประกัน: `prefs:root=General&path=LEGAL_AND_REGULATORY#Warranty`
+- ทั่วไป → AirDrop: `prefs:root=General&path=AIRDROP_LINK`
+- ทั่วไป → AirDrop → นำอุปกรณ์ทั้งสองมาไว้ใกล้กัน: `prefs:root=General&path=AIRDROP_LINK#AIRDROP_NFC_ID`
+- ทั่วไป → ปุ่มโฮม: `prefs:root=General&path=HOME_BUTTON`
+- ทั่วไป → สวิตช์ด้านข้าง: `prefs:root=General#Rotation_Switch_Action_Group`
+- ทั่วไป → ดึงข้อมูลแอปอยู่เบื้องหลัง: `prefs:root=General&path=AUTO_CONTENT_DOWNLOAD`
+- ทั่วไป → วันที่และเวลา: `prefs:root=General&path=DATE_AND_TIME`
+- ทั่วไป → สัญญาณทีวีออก: `prefs:root=General&path=TV_OUT`
+- ทั่วไป → รีเซ็ต: `prefs:root=General&path=Reset`
+- ทั่วไป → รีเซ็ต → รีเซ็ตการตั้งค่าทั้งหมด: `prefs:root=General&path=Reset#settingsErase`
+- ทั่วไป → รีเซ็ต → ลบข้อมูลและการตั้งค่าทั้งหมด: `prefs:root=General&path=Reset#fullErase`
+- ทั่วไป → รีเซ็ต → รีเซ็ตการตั้งค่าเครือข่าย: `prefs:root=General&path=Reset#RESET_NETWORK_LABEL`
+- ทั่วไป → รีเซ็ต → เอาแผนบริการข้อมูลเซลลูลาร์ทั้งหมดออก: `prefs:root=General&path=Reset#cellularErase`
+- ทั่วไป → รีเซ็ต → บริการบอกรับผู้สมัคร: `prefs:root=General&path=Reset#SUBSCRIBER_SERVICES_ID`
+- ทั่วไป → รีเซ็ต → รีเซ็ตพจนานุกรมแป้นพิมพ์: `prefs:root=General&path=Reset#RESET_KEYBOARD_DICTIONARY_LABEL`
+- ทั่วไป → รีเซ็ต → รีเซ็ตการจัดเรียงไอคอนบนหน้าจอโฮม: `prefs:root=General&path=Reset#RESET_ICONS_LABEL`
+- ทั่วไป → รีเซ็ต → รีเซ็ตตำแหน่งที่ตั้งและความเป็นส่วนตัว: `prefs:root=General&path=Reset#RESET_PRIVACY_LABEL`
+- ทั่วไป → ปิดเครื่อง: `prefs:root=General#SHUTDOWN_LABEL`
+- ทั่วไป → AirPlay และความต่อเนื่อง: `prefs:root=General&path=CONTINUITY_SPEC`
+- ทั่วไป → AirPlay และความต่อเนื่อง → Handoff: `prefs:root=General&path=CONTINUITY_SPEC#CONTINUITY`
+- ทั่วไป → AirPlay และความต่อเนื่อง → ย้ายไปบน HomePod: `prefs:root=General&path=CONTINUITY_SPEC#TRANSFER_TO_HOMEPOD`
+- ทั่วไป → AirPlay และความต่อเนื่อง → AirPlay อัตโนมัติ: `prefs:root=General&path=CONTINUITY_SPEC#AUTOMATICALLY_AIRPLAY`
+- ทั่วไป → AirPlay และความต่อเนื่อง → กล้องต่อเนื่อง: `prefs:root=General&path=CONTINUITY_SPEC#WOMBAT_CAMERA`
+- ทั่วไป → ภาษาและภูมิภาค: `prefs:root=General&path=INTERNATIONAL`
+- ทั่วไป → ภาษาและภูมิภาค → ภาษาอื่น…: `prefs:root=General&path=INTERNATIONAL#NEW_PREFERRED_LANGUAGE`
+- ทั่วไป → ภาษาและภูมิภาค → ลำดับภาษาที่ต้องการ: `prefs:root=General&path=INTERNATIONAL#PREFERRED_LANGUAGE_GROUP`
+- ทั่วไป → ภาษาและภูมิภาค → เพิ่มภาษา…: `prefs:root=General&path=INTERNATIONAL#ADD_PREFERRED_LANGUAGE`
+- ทั่วไป → ภาษาและภูมิภาค → ภูมิภาค: `prefs:root=General&path=INTERNATIONAL/LOCALE`
+- ทั่วไป → ภาษาและภูมิภาค → ตัวเลข: `prefs:root=General&path=INTERNATIONAL/NUMBERING_SYSTEM`
+- ทั่วไป → ภาษาและภูมิภาค → ปฏิทิน: `prefs:root=General&path=INTERNATIONAL/CALENDAR`
+- ทั่วไป → ภาษาและภูมิภาค → หน่วยวัดอุณหภูมิ: `prefs:root=General&path=INTERNATIONAL/TEMPERATURE_UNIT`
+- บัญชี Apple: `prefs:root=APPLE_ACCOUNT` or `settings-navigation://com.apple.Settings.AppleAccount`
+- บัญชี Apple → ตรวจสอบยืนยันรหัสผู้ติดต่อ: `prefs:root=APPLE_ACCOUNT&path=TRANSPARENCY` or `settings-navigation://com.apple.Settings.AppleAccount/TRANSPARENCY`
+- บัญชี Apple → iCloud: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE` or `prefs:root=CASTLE`
+- บัญชี Apple → iCloud → พื้นที่จัดเก็บข้อมูล iCloud: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/STORAGE_AND_BACKUP` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/STORAGE_AND_BACKUP` or `prefs:root=CASTLE&path=STORAGE_AND_BACKUP`
+- บัญชี Apple → iCloud → iCloud Drive: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Ubiquity` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Ubiquity` or `prefs:root=CASTLE&path=com.apple.Dataclass.Ubiquity`
+- บัญชี Apple → iCloud → รูปภาพ: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.MediaStream` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.MediaStream` or `prefs:root=CASTLE&path=com.apple.Dataclass.MediaStream`
+- บัญชี Apple → iCloud → เมล: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Mail` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail` or `prefs:root=CASTLE&path=com.apple.Dataclass.Mail`
+- บัญชี Apple → iCloud → รายชื่อ: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Contacts` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Contacts` or `prefs:root=CASTLE&path=com.apple.Dataclass.Contacts`
+- บัญชี Apple → iCloud → ปฏิทิน: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Calendars` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Calendars` or `prefs:root=CASTLE&path=com.apple.Dataclass.Calendars`
+- บัญชี Apple → iCloud → เตือนความจำ: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Reminders` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Reminders` or `prefs:root=CASTLE&path=com.apple.Dataclass.Reminders`
+- บัญชี Apple → iCloud → Safari: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Bookmarks` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Bookmarks` or `prefs:root=CASTLE&path=com.apple.Dataclass.Bookmarks`
+- บัญชี Apple → iCloud → โน้ต: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Notes` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Notes` or `prefs:root=CASTLE&path=com.apple.Dataclass.Notes`
+- บัญชี Apple → iCloud → ข่าว: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.News` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.News` or `prefs:root=CASTLE&path=com.apple.Dataclass.News`
+- บัญชี Apple → iCloud → ข้อมูลสำรอง: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/BACKUP` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/BACKUP` or `prefs:root=CASTLE&path=BACKUP`
+- บัญชี Apple → iCloud → สุขภาพ: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Health` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Health` or `prefs:root=CASTLE&path=com.apple.Dataclass.Health`
+- บัญชี Apple → iCloud → รหัสผ่านและพวงกุญแจ: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.KeychainSync` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.KeychainSync` or `prefs:root=CASTLE&path=com.apple.Dataclass.KeychainSync`
+- บัญชี Apple → iCloud → ซ่อนอีเมลของฉัน: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/PRIVATE_EMAIL_MANAGE` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/PRIVATE_EMAIL_MANAGE` or `prefs:root=CASTLE&path=PRIVATE_EMAIL_MANAGE`
+- บัญชี Apple → แชร์ตำแหน่งที่ตั้งของฉัน: `prefs:root=APPLE_ACCOUNT&path=LOCATION_SHARING` or `settings-navigation://com.apple.Settings.AppleAccount/LOCATION_SHARING`
+- บัญชี Apple → แชร์ตำแหน่งที่ตั้งของฉัน → ค้นหาของฉัน: `prefs:root=APPLE_ACCOUNT&path=LOCATION_SHARING/FindMyDevice-Settings` or `settings-navigation://com.apple.Settings.AppleAccount/LOCATION_SHARING/FindMyDevice-Settings`
+- บัญชี Apple → ชื่อ เบอร์โทรศัพท์ อีเมล: `prefs:root=APPLE_ACCOUNT&path=APPLE_ACCOUNT_CONTACT` or `settings-navigation://com.apple.Settings.AppleAccount/APPLE_ACCOUNT_CONTACT`
+- บัญชี Apple → รหัสผ่านและความปลอดภัย: `prefs:root=APPLE_ACCOUNT&path=PASSWORD_AND_SECURITY` or `settings-navigation://com.apple.Settings.AppleAccount/PASSWORD_AND_SECURITY`
+- บัญชี Apple → การชำระเงินและการจัดส่ง: `prefs:root=APPLE_ACCOUNT&path=PAYMENT_AND_SHIPPING` or `settings-navigation://com.apple.Settings.AppleAccount/PAYMENT_AND_SHIPPING`
+- บัญชี Apple → การสมัครรับ: `prefs:root=APPLE_ACCOUNT&path=SUBSCRIPTIONS` or `settings-navigation://com.apple.Settings.AppleAccount/SUBSCRIPTIONS`
+- บัญชี Apple → ครอบครัว: `prefs:root=APPLE_ACCOUNT&path=Family` or `settings-navigation://com.apple.Settings.AppleAccount/Family`
+- การแจ้งเตือน: `prefs:root=NOTIFICATIONS_ID`
+- การแจ้งเตือน → กำหนดเวลาส่งสรุป: `prefs:root=NOTIFICATIONS_ID&path=SCHEDULED_DELIVERY_ID`
+- สภาพอากาศ: `prefs:root=WEATHER`
+- Freeform: `prefs:root=FREEFORM`
+- โฟกัส: `prefs:root=DO_NOT_DISTURB`
+- โฟกัส → สถานะโฟกัส: `prefs:root=DO_NOT_DISTURB&path=status`
+- บันทึก: `prefs:root=JOURNAL`
+- กระเป๋าสตางค์และ Apple Pay: `prefs:root=PASSBOOK`
+- กระเป๋าสตางค์และ Apple Pay → Apple Cash: `prefs:root=PASSBOOK#Apple%C2%A0Cash`
+- กระเป๋าสตางค์และ Apple Pay → บัตรชำระเงิน: `prefs:root=PASSBOOK#SETTINGS_PAYMENT_CARDS_GROUP`
+- กระเป๋าสตางค์และ Apple Pay → เพิ่มบัตร: `prefs:root=PASSBOOK#Add%20Card`
+- กระเป๋าสตางค์และ Apple Pay → กดปุ่มด้านข้างสองครั้ง: `prefs:root=PASSBOOK#Double-Click%20Side%20Button`
+- กระเป๋าสตางค์และ Apple Pay → การติดตามคำสั่งซื้อ: `prefs:root=PASSBOOK#ORDER_TRACKING`
+- จอภาพและความสว่าง | รูปแบบ: `prefs:root=DISPLAY`
+- จอภาพและความสว่าง | รูปแบบ → รูปแบบ: `prefs:root=DISPLAY#DEVICE_APPEARANCE`
+- จอภาพและความสว่าง | รูปแบบ → True Tone: `prefs:root=DISPLAY#WHITE_BALANCE`
+- จอภาพและความสว่าง | รูปแบบ → Night Shift: `prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION`
+- จอภาพและความสว่าง | รูปแบบ → Night Shift → กำหนดเวลา: `prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION#SCHEDULED`
+- จอภาพและความสว่าง | รูปแบบ → Night Shift → เปิดใช้งานจนถึงวันพรุ่งนี้: `prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION#MANUAL`
+- จอภาพและความสว่าง | รูปแบบ → Night Shift → อุณหภูมิสี: `prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION#COLOR_TEMPERATURE`
+- จอภาพและความสว่าง | รูปแบบ → ล็อคอัตโนมัติ: `prefs:root=DISPLAY&path=AUTOLOCK`
+- จอภาพและความสว่าง | รูปแบบ → ยกขึ้นเพื่อปลุก: `prefs:root=DISPLAY#RAISE_TO_WAKE`
+- จอภาพและความสว่าง | รูปแบบ → ล็อคหรือปลดล็อค: `prefs:root=DISPLAY#SMART_CASE_LOCK_SPEC`
+- จอภาพและความสว่าง | รูปแบบ → ขนาดข้อความ: `prefs:root=DISPLAY&path=TEXT_SIZE`
+- จอภาพและความสว่าง | รูปแบบ → ข้อความตัวหนา: `prefs:root=DISPLAY#BOLD_TEXT`
+- จอภาพและความสว่าง | รูปแบบ → ความสว่าง: `prefs:root=DISPLAY#BRIGHTNESS`
+- จอภาพและความสว่าง | รูปแบบ → การซูมหน้าจอ: `prefs:root=DISPLAY#DISPLAY_ZOOM_GROUP`
+- จอภาพและความสว่าง | รูปแบบ → รูปแบบ: `prefs:root=DISPLAY&path=APPEARANCE`
+- จอภาพและความสว่าง | รูปแบบ → รูปแบบ → ซูมแบบหน้าต่าง: `prefs:root=DISPLAY&path=APPEARANCE#WINDOW_ZOOM`
+- จอภาพและความสว่าง | รูปแบบ → รูปแบบ → ซูมแบบหน้าต่างโดยใช้สองมือ: `prefs:root=DISPLAY&path=APPEARANCE#TWO_HANDED_WINDOW_ZOOM`
+- จอภาพและความสว่าง | รูปแบบ → มุมมอง: `prefs:root=DISPLAY&path=MAGNIFY`
+- จอภาพและความสว่าง | รูปแบบ → หน้าจอเปิดตลอด: `prefs:root=DISPLAY&path=ALWAYS_ON`
+- จอภาพและความสว่าง | รูปแบบ → หน้าจอเปิดตลอด → หน้าจอเปิดตลอด: `prefs:root=DISPLAY&path=ALWAYS_ON#ALWAYS_ON`
+- จอภาพและความสว่าง | รูปแบบ → แอปที่ใช้งานร่วมกันได้: `prefs:root=DISPLAY&path=COMPATIBLE_APPEARANCE`
+- จอภาพและความสว่าง | รูปแบบ → แอปที่ใช้งานร่วมกันได้ → มืด, สว่าง: `prefs:root=DISPLAY&path=COMPATIBLE_APPEARANCE#COMPATIBLE_APPEARANCE_CHOICES`
+- เครื่องมือวัด: `prefs:root=MEASURE` or `settings-navigation://com.apple.Settings.Apps/com.apple.measure`
+- เครื่องมือวัด → หน่วยวัด: `prefs:root=MEASURE#MEASURE_UNITS` or `settings-navigation://com.apple.Settings.Apps/com.apple.measure#MEASURE_UNITS#MEASURE_UNITS`
+- เครื่องมือวัด → ระบบอังกฤษ: `prefs:root=MEASURE#Imperial` or `settings-navigation://com.apple.Settings.Apps/com.apple.measure#Imperial#Imperial`
+- เครื่องมือวัด → เมตริก: `prefs:root=MEASURE#Metric` or `settings-navigation://com.apple.Settings.Apps/com.apple.measure#Metric#Metric`
+- ภาพพื้นหลัง: `prefs:root=Wallpaper`
+- ศูนย์ควบคุม: `prefs:root=ControlCenter`
+- ศูนย์ควบคุม → เข้าถึงจากภายในแอป: `prefs:root=ControlCenter#ALLOWED_WITHIN_APPS`
+- ศูนย์ควบคุม → กำหนดตัวควบคุมเอง: `prefs:root=ControlCenter&path=CUSTOMIZE_CONTROLS`
+- เสียงบันทึก: `prefs:root=VOICE_MEMOS`
+- เสียงบันทึก → ล้างรายการที่ถูกลบ: `prefs:root=VOICE_MEMOS&path=RCVoiceMemosRecentlyDeletedWindowKey`
+- เสียงบันทึก → คุณภาพเสียง: `prefs:root=VOICE_MEMOS&path=RCVoiceMemosAudioQualityKey`
+- เสียงบันทึก → การตั้งชื่อตามตำแหน่งที่ตั้ง: `prefs:root=VOICE_MEMOS#RCVoiceMemosUseLocationBasedNaming`
+- ปฏิทิน: `prefs:root=CALENDAR`
+- ปฏิทิน → การกำหนดทับไทม์โซน: `prefs:root=CALENDAR&path=TimeZoneCityArray`
+- ปฏิทิน → ปฏิทินอื่น: `prefs:root=CALENDAR&path=Alternate%20Calendars`
+- ปฏิทิน → ตัวเลขสัปดาห์: `prefs:root=CALENDAR#Week%20Numbers`
+- ปฏิทิน → แสดงผู้รับเชิญที่ตอบปฏิเสธ: `prefs:root=CALENDAR#Show%20Invitee%20Declines`
+- ปฏิทิน → เชื่อมข้อมูล: `prefs:root=CALENDAR&path=Sync`
+- ปฏิทิน → เวลาเตือนเริ่มต้น: `prefs:root=CALENDAR&path=Default%20Alert%20Times`
+- ปฏิทิน → เริ่มต้นสัปดาห์ด้วย: `prefs:root=CALENDAR&path=Start%20Week%20On`
+- ปฏิทิน → คำแนะนำสถานที่: `prefs:root=CALENDAR#Location%20Suggestions`
+- นักพัฒนา: `prefs:root=DEVELOPER_SETTINGS`
+- นักพัฒนา → เครือข่ายทางเดินข้อมูลหลายทาง: `prefs:root=DEVELOPER_SETTINGS&path=MULTI_PATH_AGG`
+- นักพัฒนา → เครือข่ายทางเดินข้อมูลหลายทาง → เครือข่ายทางเดินข้อมูลหลายทาง: `prefs:root=DEVELOPER_SETTINGS&path=MULTI_PATH_AGG#Multipath%20Networking`
+- นักพัฒนา → รูปแบบ: `prefs:root=DEVELOPER_SETTINGS#UIAppearanceGroup`
+- นักพัฒนา → แบบมืด: `prefs:root=DEVELOPER_SETTINGS#UIAppearanceSettings`
+- นักพัฒนา → อุปกรณ์ที่จับคู่: `prefs:root=DEVELOPER_SETTINGS#DTPairedDevicesGroup`
+- นักพัฒนา → ล้างรายการคอมพิวเตอร์ที่เชื่อถือแล้ว: `prefs:root=DEVELOPER_SETTINGS#CLEAR_TRUSTED_COMPUTERS`
+- นักพัฒนา → การเก็บบันทึกการใช้งาน: `prefs:root=DEVELOPER_SETTINGS&path=DTInstrumentsSettings`
+- นักพัฒนา → UI ของการทำงานอัตโนมัติ | เปิดใช้งาน UI ของการทำงานอัตโนมัติ: `prefs:root=DEVELOPER_SETTINGS#UIAGroup`
+- นักพัฒนา → ระบบเครือข่าย: `prefs:root=DEVELOPER_SETTINGS#NLCGroup`
+- นักพัฒนา → เงื่อนไขลิงก์เครือข่าย: `prefs:root=DEVELOPER_SETTINGS&path=NLC`
+- นักพัฒนา → บันทึกการใช้งานเพิ่มเติม: `prefs:root=DEVELOPER_SETTINGS#ADDITIONAL_LOGGING`
+- นักพัฒนา → อนุญาตบริการ HTTP: `prefs:root=DEVELOPER_SETTINGS#ALLOW_HTTP_SERVICES`
+- นักพัฒนา → ปิดใช้งานการจำกัดอัตรา: `prefs:root=DEVELOPER_SETTINGS#DISABLE_RATE_LIMITING`
+- นักพัฒนา → ตัวเลือกรหัสบัตร NFC: `prefs:root=DEVELOPER_SETTINGS#NFC_PASS_KEY_OPTIONAL`
+- นักพัฒนา → การทดสอบบริการสื่อ: `prefs:root=DEVELOPER_SETTINGS#MEDIA_SERVICES_TESTING`
+- นักพัฒนา → รีเซ็ตบริการสื่อ: `prefs:root=DEVELOPER_SETTINGS#RESET_MEDIA_SERVICES`
+- นักพัฒนา → การทดสอบ News: `prefs:root=DEVELOPER_SETTINGS#NEWS_TESTING`
+- นักพัฒนา → รีเซ็ตข้อมูลภายในเครื่องในครั้งถัดไปที่เปิดใช้: `prefs:root=DEVELOPER_SETTINGS#RESET_LOCAL_DATA_ON_NEXT_LAUNCH`
+- นักพัฒนา → การทดสอบเฟรมเวิร์คเครื่องเล่นสื่อ: `prefs:root=DEVELOPER_SETTINGS#RoutineSettingsGroup`
+- นักพัฒนา → API สำหรับเนื้อหาที่สามารถเล่นได้: `prefs:root=DEVELOPER_SETTINGS&path=RoutineSettings`
+- นักพัฒนา → ผู้ให้บริการทีวี: `prefs:root=DEVELOPER_SETTINGS&path=VideoSubscriberAccountSettings`
+- นักพัฒนา → ClassKit API: `prefs:root=DEVELOPER_SETTINGS&path=ClassKitSettings`
+- นักพัฒนา → การทดสอบ CoreSpotlight: `prefs:root=DEVELOPER_SETTINGS#CORESPOTLIGHT_TESTING`
+- นักพัฒนา → จัดเรียงดัชนีทั้งหมดใหม่: `prefs:root=DEVELOPER_SETTINGS#REINDEX_ALL_ITEMS`
+- นักพัฒนา → จัดเรียงดัชนีทั้งหมดตามข้อมูลจำเพาะ: `prefs:root=DEVELOPER_SETTINGS#REINDEX_ALL_ITEMS_WITH_IDENTIFIERS`
+- นักพัฒนา → การทดสอบคำสั่งลัด: `prefs:root=DEVELOPER_SETTINGS#SIRI_ACTIONS_TESTING`
+- นักพัฒนา → แสดงคำสั่งลัดล่าสุด: `prefs:root=DEVELOPER_SETTINGS#DISPLAY_DONATIONS_SPOTLIGHT`
+- นักพัฒนา → แสดงสื่อถัดไป: `prefs:root=DEVELOPER_SETTINGS#DISPLAY_UPCOMING_MEDIA`
+- นักพัฒนา → แสดงการบริจาคบนหน้าจอล็อค: `prefs:root=DEVELOPER_SETTINGS#DISPLAY_DONATIONS_LOCKSCREEN`
+- นักพัฒนา → บังคับเชื่อมข้อมูลคำสั่งลัดกับ Apple Watch: `prefs:root=DEVELOPER_SETTINGS#SIRI_ACTIONS_SYNC_WATCHOS`
+- นักพัฒนา → การทดสอบ MIDI-CI: `prefs:root=DEVELOPER_SETTINGS#MIDI_CI_API_BETA`
+- นักพัฒนา → เปิดใช้งาน MIDI-CI: `prefs:root=DEVELOPER_SETTINGS#MIDI_CI_API_BETA_ENABLE`
+- นักพัฒนา → การตรวจจับการค้าง: `prefs:root=DEVELOPER_SETTINGS#HANGTRACER_EXTERNAL_CONFIGURE`
+- Face ID และรหัส | Touch ID และรหัส | รหัส: `prefs:root=PASSCODE`
+- Face ID และรหัส | Touch ID และรหัส | รหัส → ปิดการใช้รหัส: `prefs:root=PASSCODE#PASSCODE_OFF`
+- Face ID และรหัส | Touch ID และรหัส | รหัส → เปลี่ยนรหัส: `prefs:root=PASSCODE#CHANGE_PASSCODE`
+- Face ID และรหัส | Touch ID และรหัส | รหัส → ต้องใช้รหัส: `prefs:root=PASSCODE&path=PASSCODE_REQ`
+- Face ID และรหัส | Touch ID และรหัส | รหัส → โทรออกด้วยเสียง: `prefs:root=PASSCODE#VOICE_DIAL`
+- Face ID และรหัส | Touch ID และรหัส | รหัส → อนุญาตให้เข้าถึงขณะล็อคอยู่: `prefs:root=PASSCODE#ALLOW_ACCESS_WHEN_LOCKED`
+- Face ID และรหัส | Touch ID และรหัส | รหัส → ตอบกลับเป็นข้อความ: `prefs:root=PASSCODE#REPLY_WITH_MESSAGE_SWITCH`
+- Face ID และรหัส | Touch ID และรหัส | รหัส → ตัวควบคุมบ้าน: `prefs:root=PASSCODE#HOME_CONTROL_SWITCH`
+- Face ID และรหัส | Touch ID และรหัส | รหัส → กระเป๋าสตางค์: `prefs:root=PASSCODE#WALLET_SWITCH`
+- Face ID และรหัส | Touch ID และรหัส | รหัส → โทรกลับสายที่ไม่ได้รับ: `prefs:root=PASSCODE#RETURN_MISSED_CALLS_SWITCH`
+- Face ID และรหัส | Touch ID และรหัส | รหัส → ลบข้อมูล: `prefs:root=PASSCODE#WIPE_DEVICE`
+- Face ID และรหัส | Touch ID และรหัส | รหัส → ปลดล็อคด้วย Apple Watch: `prefs:root=PASSCODE#AUTO_UNLOCK_DEVICES_GROUP`
+- Face ID และรหัส | Touch ID และรหัส | รหัส → ปกป้องอุปกรณ์เมื่อถูกขโมย: `prefs:root=PASSCODE#DTO_GROUP_ID`
+- โทรศัพท์: `prefs:root=Phone`
+- โทรศัพท์ → เบอร์โทรของฉัน: `prefs:root=Phone&path=My%20Number`
+- โทรศัพท์ → สายโทรเข้า: `prefs:root=Phone&path=INCOMING_CALL_STYLE`
+- โทรศัพท์ → การอ่านชื่อสายเรียกเข้า: `prefs:root=Phone&path=ANNOUNCE_CALLS`
+- โทรศัพท์ → การแจ้งเกี่ยวกับ SMS/สายโทร: `prefs:root=Phone&path=CLASSIFICATION_AND_REPORTING`
+- โทรศัพท์ → ตอบกลับเป็นข้อความ: `prefs:root=Phone&path=Respond%20with%20Text`
+- โทรศัพท์ → การโอนสาย: `prefs:root=Phone&path=Call%20Forwarding`
+- โทรศัพท์ → การโอนสาย → การโอนสาย: `prefs:root=Phone&path=Call%20Forwarding#idMasterOnOffSwitch`
+- โทรศัพท์ → สายเรียกซ้อน: `prefs:root=Phone&path=Call%20Waiting`
+- โทรศัพท์ → แสดงหมายเลขผู้โทรของฉัน: `prefs:root=Phone&path=Show%20My%20Caller%20ID`
+- โทรศัพท์ → แสดงหมายเลขผู้โทรของฉัน → แสดงหมายเลขผู้โทรของฉัน: `prefs:root=Phone&path=Show%20My%20Caller%20ID/Primary`
+- โทรศัพท์ → แสดงหมายเลขผู้โทรของฉัน → แสดงหมายเลขผู้โทรของฉัน → แสดงหมายเลขผู้โทรของฉัน: `prefs:root=Phone&path=Show%20My%20Caller%20ID/Primary#Show%20My%20Caller%20ID`
+- โทรศัพท์ → ปิดเสียงผู้โทรที่ไม่รู้จัก: `prefs:root=Phone#SILENCE_CALLS`
+- โทรศัพท์ → รายชื่อที่ปิดกั้น: `prefs:root=Phone&path=SPECIFIER_IDENTIFIER_BLACKLIST`
+- โทรศัพท์ → ผู้ช่วยเรียกสาย: `prefs:root=Phone&path=Dial%20Assist`
+- โน้ต: `prefs:root=NOTES` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes`
+- โน้ต → บัญชีเริ่มต้น: `prefs:root=NOTES&path=Default%20Account` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes/Default%20Account`
+- โน้ต → รหัสผ่าน: `prefs:root=NOTES&path=Password` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes/Password`
+- โน้ต → เรียงโน้ตตาม: `prefs:root=NOTES&path=Sort%20Notes%20By` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes/Sort%20Notes%20By`
+- โน้ต → เริ่มโน้ตใหม่ด้วย: `prefs:root=NOTES&path=New%20Notes%20Start%20With` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes/New%20Notes%20Start%20With`
+- โน้ต → เรียงรายการที่เสร็จแล้ว: `prefs:root=NOTES&path=Sort%20Checked%20Items` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes/Sort%20Checked%20Items`
+- โน้ต → เส้นและตาราง: `prefs:root=NOTES&path=Lines%20%26%20Grids` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes/Lines%20%26%20Grids`
+- โน้ต → บันทึกไปยังแอปรูปภาพ: `prefs:root=NOTES#Save%20to%20Photos` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes#Save%20to%20Photos#Save%20to%20Photos`
+- โน้ต → เข้าถึงโน้ตบนหน้าจอล็อค: `prefs:root=NOTES&path=Access%20Notes%20from%20Lock%20Screen` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes/Access%20Notes%20from%20Lock%20Screen`
+- หนังสือ: `prefs:root=IBOOKS`
+- หนังสือ → เนื้อหาออนไลน์: `prefs:root=IBOOKS#BKAllowOnlineContent`
+- หนังสือ → การเชื่อมข้อมูล: `prefs:root=IBOOKS#SYNCING`
+- หนังสือ → กำลังอ่านอยู่: `prefs:root=IBOOKS#BKLibrary.ReadingNow`
+- หนังสือ → iCloud Drive: `prefs:root=IBOOKS#BCSyncICloudDrive`
+- หนังสือ → การอ่าน: `prefs:root=IBOOKS#READING`
+- หนังสือ → จัดขอบเอกสารแบบเสมอหน้า: `prefs:root=IBOOKS#BKFullJustification`
+- หนังสือ → ใส่เครื่องหมายขีดสั้นอัตโนมัติ: `prefs:root=IBOOKS#BKAutoHyphenation`
+- หนังสือ → ระยะขอบทั้งคู่: `prefs:root=IBOOKS#BKLeftTapTurnToNext`
+- หนังสือ → เป้าหมายการอ่าน: `prefs:root=IBOOKS#READING_GOALS`
+- หนังสือ → ล้างข้อมูลเป้าหมายการอ่าน: `prefs:root=IBOOKS#BKReadingGoalsShouldClearDataKey`
+- หนังสือ → การค้นหา: `prefs:root=IBOOKS#SEARCHING`
+- หนังสือ → ร้านหนังสือ: `prefs:root=IBOOKS#BKIncludeBookStoreResultsInSearch`
+- หนังสือ → หนังสือเสียง: `prefs:root=IBOOKS#AUDIOBOOKS`
+- หนังสือ → ข้ามไปข้างหน้า: `prefs:root=IBOOKS&path=BKAudioBookSkipForward`
+- หนังสือ → ข้ามไปข้างหลัง: `prefs:root=IBOOKS&path=BKAudioBookSkipBackward`
+- หนังสือ → การควบคุมภายนอก: `prefs:root=IBOOKS#BKRemoteSkipInsteadOfNextTrackDefaultKey`
+- หนังสือ → ถัดไป/ก่อนหน้า: `prefs:root=IBOOKS#Next/Previous`
+- หนังสือ → ข้ามไปข้างหน้า/ข้างหลัง: `prefs:root=IBOOKS#Skip%20Forward/Back`
+- หนังสือ → ความเป็นส่วนตัว: `prefs:root=IBOOKS#PRIVACY`
+- หนังสือ → รีเซ็ตข้อมูลจำเพาะ: `prefs:root=IBOOKS#BAResetAnalyticsUserID`
+- หนังสือ → กิตติกรรมประกาศ: `prefs:root=IBOOKS&path=Acknowledgements`
+- Game Center: `prefs:root=GAMECENTER`
+- SOS ฉุกเฉิน: `prefs:root=EMERGENCY_SOS`
+- SOS ฉุกเฉิน → โทรด้วยปุ่มด้านข้าง: `prefs:root=EMERGENCY_SOS#CALL_WITH_SIDE_BUTTON`
+- SOS ฉุกเฉิน → โทรอัตโนมัติ: `prefs:root=EMERGENCY_SOS#AUTO_CALL`
+- SOS ฉุกเฉิน → รายชื่อติดต่อฉุกเฉิน: `prefs:root=EMERGENCY_SOS#EMERGENCY_CONTACTS`
+- SOS ฉุกเฉิน → เสียงนับเวลา: `prefs:root=EMERGENCY_SOS#ALARM_SOUND_SWITCH`
+- เตือนความจำ: `prefs:root=REMINDERS`
+- เตือนความจำ → ลิสต์เริ่มต้น: `prefs:root=REMINDERS&path=DEFAULT_LIST`
+- เตือนความจำ → ลิสต์เริ่มต้น → เตือนความจำ: `prefs:root=REMINDERS&path=DEFAULT_LIST#preferredDefaultListID`
+- เตือนความจำ → การแจ้งเตือนวันนี้: `prefs:root=REMINDERS#todayNotificationFireTime`
+- เตือนความจำ → แสดงเป็นเลยกำหนด: `prefs:root=REMINDERS#showRemindersAsOverdue`
+- เซลลูลาร์: `prefs:root=MOBILE_DATA_SETTINGS_ID`
+- เซลลูลาร์ → ตัวเลือกข้อมูลเซลลูลาร์: `prefs:root=MOBILE_DATA_SETTINGS_ID&path=CELLULAR_DATA_OPTIONS`
+- เซลลูลาร์ → ตัวเลือกข้อมูลเซลลูลาร์ → โหมดประหยัดข้อมูล: `prefs:root=MOBILE_DATA_SETTINGS_ID&path=CELLULAR_DATA_OPTIONS#Low%20Data%20Mode`
+- เซลลูลาร์ → ข้อมูลเซลลูลาร์: `prefs:root=MOBILE_DATA_SETTINGS_ID&path=SHOW_ALL`
+- WLAN | Wi‑Fi: `prefs:root=WIFI`
+- รายชื่อ: `prefs:root=CONTACTS`
+- รายชื่อ → อนุญาตให้รายชื่อเข้าถึง: `prefs:root=CONTACTS#Allow%20Contacts%20To%20Access`
+- รายชื่อ → Siri: `prefs:root=CONTACTS&path=SIRI_AND_SEARCH`
+- รายชื่อ → ลำดับการเรียง: `prefs:root=CONTACTS&path=ContactsSortOrder`
+- รายชื่อ → ลำดับแสดง: `prefs:root=CONTACTS&path=PersonNameOrder`
+- รายชื่อ → ชื่อย่อ: `prefs:root=CONTACTS&path=PersonShortName`
+- รายชื่อ → ชื่อย่อ → ชื่อย่อ: `prefs:root=CONTACTS&path=PersonShortName#Short%20Name`
+- รายชื่อ → ชื่อย่อ → ต้องการใช้ชื่อเล่น: `prefs:root=CONTACTS&path=PersonShortName#Prefer%20Nicknames`
+- รายชื่อ → ข้อมูลของฉัน: `prefs:root=CONTACTS&path=MeCard`
+- รายชื่อ → นำเข้ารายชื่อซิม: `prefs:root=CONTACTS#SIMImport`
+- คำสั่งลัด: `prefs:root=SHORTCUTS`
+- คำสั่งลัด → การเชื่อมข้อมูล iCloud: `prefs:root=SHORTCUTS#WFCloudKitSyncEnabled`
+- คำสั่งลัด → เชื่อมข้อมูลลำดับคำสั่งลัด: `prefs:root=SHORTCUTS#WFCloudKitSyncOrderEnabled`
+- คำสั่งลัด → ประกาศทางกฎหมาย: `prefs:root=SHORTCUTS&path=Legal%20Notices`
+- TV | วิดีโอ: `prefs:root=TVAPP`
+- TV | วิดีโอ → ใช้ข้อมูลเซลลูลาร์สำหรับการเล่น: `prefs:root=TVAPP#com.apple.videos%3AVideosUseCellularDataEnabledSetting`
+- TV | วิดีโอ → คุณภาพการเล่น: `prefs:root=TVAPP#com.apple.videos%3APlaybackQualityGroup`
+- TV | วิดีโอ → สินค้าที่ซื้อและรายการเช่า: `prefs:root=TVAPP&path=com.apple.videos%3APreferredPurchaseResolution`
+- TV | วิดีโอ → การแชร์ภายในพื้นที่: `prefs:root=TVAPP#com.apple.videos%3AHomeSharingFooter`
+- เพลง: `prefs:root=MUSIC`
+- เพลง → แสดง Apple Music: `prefs:root=MUSIC#com.apple.Music%3AAppleMusicEnabled`
+- เพลง → เพิ่มเพลงจากเพลย์ลิสต์: `prefs:root=MUSIC#com.apple.Music%3AAddPlaylistSongsToMyMusicSwitch`
+- เพลง → แสดงดาวจัดอันดับ: `prefs:root=MUSIC#com.apple.Music%3AShowStarRatings`
+- เพลง → คลังเชื่อมข้อมูล: `prefs:root=MUSIC#com.apple.Music%3ACloudMusicLibraryEnabled`
+- เพลง → ข้อมูลเซลลูลาร์: `prefs:root=MUSIC&path=com.apple.Music%3ACellularData`
+- เพลง → เพลงที่ดาวน์โหลดแล้ว: `prefs:root=MUSIC&path=com.apple.Music%3AMusicUsageLink`
+- เพลง → ปรับขนาดพื้นที่จัดเก็บข้อมูล: `prefs:root=MUSIC&path=com.apple.Music%3AOptimizeStorage`
+- เพลง → รายการดาวน์โหลดอัตโนมัติ: `prefs:root=MUSIC#com.apple.Music%3AMusicAutomaticDownload`
+- เพลง → EQ: `prefs:root=MUSIC&path=com.apple.Music%3AEQ`
+- เพลง → ปรับเสียงอัตโนมัติ: `prefs:root=MUSIC#com.apple.Music%3ASoundCheck`
+- เพลง → ใช้ประวัติการฟัง: `prefs:root=MUSIC#com.apple.Music%3APrivateListening`
+- กล้อง: `prefs:root=CAMERA`
+- กล้อง → รูปแบบ: `prefs:root=CAMERA&path=CameraFormatsSettingsList`
+- กล้อง → รูปแบบ → Apple ProRaw: `prefs:root=CAMERA&path=CameraFormatsSettingsList#CAMUserPreferenceEnableLinearDNGControl`
+- กล้อง → Record Video: `prefs:root=CAMERA&path=Record%20Video`
+- กล้อง → Record Video → วิดีโอ HDR: `prefs:root=CAMERA&path=Record%20Video#HDR%20Video`
+- กล้อง → คงการตั้งค่า: `prefs:root=CAMERA&path=CameraPreserveSettingsSwitch`
+- กล้อง → คงการตั้งค่า → โหมดกล้อง: `prefs:root=CAMERA&path=CameraPreserveSettingsSwitch#CAMUserPreferencePreserveCaptureMode`
+- กล้อง → เส้นตาราง: `prefs:root=CAMERA#CameraGridSwitch`
+- กล้อง → สแกนคิวอาร์โค้ด: `prefs:root=CAMERA#CameraQRBannerSwitch`
+- เข็มทิศ: `prefs:root=COMPASS`
+- เข็มทิศ → ใช้ทิศเหนือจริง: `prefs:root=COMPASS#USE_TRUE_NORTH`
+- การแจ้งเตือนการสัมผัสเชื้อ: `prefs:root=EXPOSURE_NOTIFICATION`
+- เมล: `prefs:root=MAIL`
+- เมล → บัญชี: `prefs:root=MAIL&path=ACCOUNTS`
+- เมล → บัญชี → เพิ่มบัญชี: `prefs:root=MAIL&path=ACCOUNTS#ADD_ACCOUNT`
+- เมล → บัญชี → ดึงข้อมูลใหม่: `prefs:root=MAIL&path=ACCOUNTS#FETCH_NEW_DATA`
+- เมล → แสดงตัวอย่าง: `prefs:root=MAIL&path=Preview`
+- เมล → แสดงถึง/สำเนา: `prefs:root=MAIL#Show%20To/Cc%20Labels`
+- เมล → ตัวเลือกการปัด: `prefs:root=MAIL&path=Swipe%20Options`
+- เมล → ถามก่อนจะลบ: `prefs:root=MAIL#Ask%20Before%20Deleting`
+- เมล → โหลดรูปภาพระยะไกล: `prefs:root=MAIL#Load%20Remote%20Images`
+- เมล → จัดกลุ่มตามชื่อเรื่อง: `prefs:root=MAIL#Organize%20by%20Thread`
+- เมล → ยุบข้อความที่อ่าน: `prefs:root=MAIL#Collapse%20Read%20Messages`
+- เมล → ข้อความล่าสุดอยู่ด้านบนสุด: `prefs:root=MAIL#Most%20Recent%20Message%20on%20Top`
+- เมล → ข้อความทั้งหมดในชื่อเรื่อง: `prefs:root=MAIL#Complete%20Threads`
+- เมล → จัดการกลุ่มชื่อเรื่องที่ไม่แจ้งเตือน: `prefs:root=MAIL&path=Muted%20Thread%20Action`
+- เมล → ไม่สนใจผู้ส่งที่ถูกปิดกั้น: `prefs:root=MAIL#Ignore%20Blocked%20Senders`
+- เมล → ตัวเลือกผู้ส่งที่ถูกปิดกั้น: `prefs:root=MAIL&path=Blocked%20Sender%20Options`
+- เมล → ปิดกั้นอยู่: `prefs:root=MAIL&path=Blocked`
+- เมล → สำเนาลับตัวเองเสมอ: `prefs:root=MAIL#Always%20Bcc%20Myself`
+- เมล → ทำเครื่องหมายที่อยู่: `prefs:root=MAIL&path=Mark%20Addresses`
+- เมล → เพิ่มระดับย่อหน้าอ้างอิง: `prefs:root=MAIL&path=Increase%20Quote%20Level`
+- เมล → แนบไฟล์แนบกับการตอบกลับ: `prefs:root=MAIL&path=Include%20Attachments%20with%20Replies`
+- เมล → ลายเซ็น: `prefs:root=MAIL&path=Signature`
+- บลูทูธ: `prefs:root=Bluetooth`
+- News: `prefs:root=NEWS`
+- News → แสดงการแสดงตัวอย่างข่าว: `prefs:root=NEWS#show_excerpt_mode`
+- News → จำกัดข่าวในวันนี้: `prefs:root=NEWS#showStoriesFromFavoritesSpecifierID`
+- News → ความเป็นส่วนตัว: `prefs:root=NEWS#Privacy`
+- News → รีเซ็ตข้อมูลจำเพาะ: `prefs:root=NEWS#reset_identifier`
+- News → กิตติกรรมประกาศ: `prefs:root=NEWS&path=Acknowledgements`
+- รูปภาพ: `prefs:root=Photos`
+- รูปภาพ → รูปภาพบน iCloud: `prefs:root=Photos#iCloudPhotosSwitch`
+- รูปภาพ → ปรับขนาดพื้นที่จัดเก็บข้อมูล: `prefs:root=Photos#iCloudOptimizeStorageOption`
+- รูปภาพ → ดาวน์โหลดและเก็บต้นฉบับไว้: `prefs:root=Photos#iCloudKeepOriginalsOption`
+- รูปภาพ → อัลบั้มที่แชร์: `prefs:root=Photos#SharedStreamsSwitch`
+- รูปภาพ → ข้อมูลเซลลูลาร์: `prefs:root=Photos&path=CellularDataLinkList`
+- รูปภาพ → เล่นวิดีโอโดยอัตโนมัติ: `prefs:root=Photos#VideoAutoplaySwitch`
+- รูปภาพ → ดู HDR แบบเต็ม: `prefs:root=Photos#ImageModulationSwitch`
+- รูปภาพ → แสดงกิจกรรมวันหยุด: `prefs:root=Photos#MEMORIES_HOLIDAY_CALENDAR_EVENTS_SWITCH`
+- รูปภาพ → ถ่ายโอนไปยัง Mac หรือ PC: `prefs:root=Photos#TransferGroup`
+- พ็อดคาสท์: `prefs:root=PODCASTS`
+- ความเป็นส่วนตัวและความปลอดภัย: `prefs:root=Privacy` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity`
+- ความเป็นส่วนตัวและความปลอดภัย → สุขภาพ: `prefs:root=Privacy&path=HEALTH` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/HEALTH`
+- ความเป็นส่วนตัวและความปลอดภัย → ข้อมูลสุขภาพ: `prefs:root=Privacy&path=HEALTH_DATA` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/HEALTH_DATA`
+- ความเป็นส่วนตัวและความปลอดภัย → ตำแหน่งที่ตั้ง: `prefs:root=Privacy&path=LOCATION` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/LOCATION`
+- ความเป็นส่วนตัวและความปลอดภัย → ตำแหน่งที่ตั้ง → แชร์ตำแหน่งที่ตั้งของฉัน: `prefs:root=Privacy&path=LOCATION/LOCATION_SHARING` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/LOCATION/LOCATION_SHARING`
+- ความเป็นส่วนตัวและความปลอดภัย → รายชื่อ: `prefs:root=Privacy&path=CONTACTS` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/CONTACTS`
+- ความเป็นส่วนตัวและความปลอดภัย → ปฏิทิน: `prefs:root=Privacy&path=CALENDARS` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/CALENDARS`
+- ความเป็นส่วนตัวและความปลอดภัย → เตือนความจำ: `prefs:root=Privacy&path=REMINDERS` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/REMINDERS`
+- ความเป็นส่วนตัวและความปลอดภัย → รูปภาพ: `prefs:root=Privacy&path=PHOTOS` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/PHOTOS`
+- ความเป็นส่วนตัวและความปลอดภัย → การแชร์บลูทูธ: `prefs:root=Privacy&path=BT_PERIPHERAL` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/BT_PERIPHERAL`
+- ความเป็นส่วนตัวและความปลอดภัย → ไมโครโฟน: `prefs:root=Privacy&path=MICROPHONE` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/MICROPHONE`
+- ความเป็นส่วนตัวและความปลอดภัย → การจำเสียงพูด: `prefs:root=Privacy&path=SPEECH_RECOGNITION` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/SPEECH_RECOGNITION`
+- ความเป็นส่วนตัวและความปลอดภัย → กล้อง: `prefs:root=Privacy&path=CAMERA` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/CAMERA`
+- ความเป็นส่วนตัวและความปลอดภัย → HomeKit: `prefs:root=Privacy&path=WILLOW` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/WILLOW`
+- ความเป็นส่วนตัวและความปลอดภัย → สื่อและ Apple Music: `prefs:root=Privacy&path=MEDIALIBRARY` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/MEDIALIBRARY`
+- ความเป็นส่วนตัวและความปลอดภัย → การวิเคราะห์: `prefs:root=Privacy&path=PROBLEM_REPORTING` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/PROBLEM_REPORTING`
+- ความเป็นส่วนตัวและความปลอดภัย → การโฆษณา: `prefs:root=Privacy&path=ADVERTISING` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/ADVERTISING`
+- ความเป็นส่วนตัวและความปลอดภัย → ไฟล์และโฟลเดอร์: `prefs:root=Privacy&path=FILEACCESS` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/FILEACCESS`
+- ความเป็นส่วนตัวและความปลอดภัย → การติดตาม: `prefs:root=Privacy&path=USER_TRACKING` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/USER_TRACKING`
+- ความเป็นส่วนตัวและความปลอดภัย → รายงานความเป็นส่วนตัวของแอป: `prefs:root=Privacy&path=PRIVACY_REPORT` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/PRIVACY_REPORT`
+- ความเป็นส่วนตัวและความปลอดภัย → โหมดล็อคดาวน์: `prefs:root=Privacy#LOCKDOWN_MODE` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity#LOCKDOWN_MODE#LOCKDOWN_MODE`
+- ความเป็นส่วนตัวและความปลอดภัย → เนื้อหาที่ละเอียดอ่อน: `prefs:root=Privacy#NUDITY_DETECTION` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity#NUDITY_DETECTION#NUDITY_DETECTION`
+- FaceTime: `prefs:root=FACETIME`
+- เวลาหน้าจอ: `prefs:root=SCREEN_TIME`
+- เสียง | เสียงและการสั่น: `prefs:root=Sounds`
+- เสียง | เสียงและการสั่น → ความปลอดภัยหูฟัง: `prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING`
+- เสียง | เสียงและการสั่น → ความปลอดภัยหูฟัง → อะแดปเตอร์แบบ Lightning: `prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING/HEADPHONE_LIGHTNING_ADAPTERS`
+- เสียง | เสียงและการสั่น → ความปลอดภัยหูฟัง → การแจ้งเตือนหูฟัง: `prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING#SHSHeadphoneWeeklyNotificationsKey`
+- เสียง | เสียงและการสั่น → ความปลอดภัยหูฟัง → ลดเสียงดัง: `prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING#SHSHeadphoneLevelLimitSwitchKey`
+- เสียง | เสียงและการสั่น → เอฟเฟ็กต์เสียง: `prefs:root=Sounds&path=SOUND_EFFECTS`
+- เสียง | เสียงและการสั่น → เสียงเรียกเข้าและเสียงเตือน: `prefs:root=Sounds#RINGER_AND_ALERT_GROUP`
+- เสียง | เสียงและการสั่น → ปรับเปลี่ยนด้วยปุ่ม: `prefs:root=Sounds#CHANGE_WITH_BUTTONS`
+- เสียง | เสียงและการสั่น → เสียงและรูปแบบลักษณะการสั่น: `prefs:root=Sounds#SOUNDS_ALERT_GROUP`
+- เสียง | เสียงและการสั่น → เสียงเรียกเข้า: `prefs:root=Sounds&path=Ringtone`
+- เสียง | เสียงและการสั่น → เสียงข้อความ: `prefs:root=Sounds&path=Text_Messages`
+- เสียง | เสียงและการสั่น → วอยซ์เมลใหม่: `prefs:root=Sounds&path=Voicemail`
+- เสียง | เสียงและการสั่น → เมลใหม่: `prefs:root=Sounds&path=NEW_MAIL`
+- เสียง | เสียงและการสั่น → ส่งเมล: `prefs:root=Sounds&path=SENT_MAIL`
+- เสียง | เสียงและการสั่น → เสียงเตือนปฏิทิน: `prefs:root=Sounds&path=Calendar%20Alarm`
+- เสียง | เสียงและการสั่น → เสียงเตือนความจำ: `prefs:root=Sounds&path=Reminder%20Alerts`
+- เสียง | เสียงและการสั่น → เสียงกดแป้นพิมพ์: `prefs:root=Sounds#KEYBOARD_SOUND_SWITCH`
+- เสียง | เสียงและการสั่น → เสียงล็อคหน้าจอ: `prefs:root=Sounds#LOCK_SOUND_SWITCH`
+- เสียง | เสียงและการสั่น → เสียงเชิงมิติพื้นที่สำหรับคุณ: `prefs:root=Sounds&path=Personalized%20Spatial%20Audio`
+- Apple Pencil: `prefs:root=Pencil`
+- Apple Pencil → Apple Pencil: `prefs:root=Pencil#PrefersPencilDraws`
+- Apple Pencil → Apple Pencil: `prefs:root=Pencil#PencilTextInput`
+- ข้อความ: `prefs:root=MESSAGES`
+- หุ้น: `prefs:root=STOCKS`
+- หุ้น → ความเป็นส่วนตัว: `prefs:root=STOCKS#Privacy`
+- หุ้น → รีเซ็ตข้อมูลจำเพาะ: `prefs:root=STOCKS#reset_identifier`
+- แปลภาษา: `prefs:root=TRANSLATE`
+- แปลภาษา → โหมดบนอุปกรณ์: `prefs:root=TRANSLATE#OnDeviceOnly`
+- Siri: `prefs:root=SIRI`
+- Siri → อนุญาต Siri ขณะล็อคอยู่: `prefs:root=SIRI#ASSISTANT_LOCK_SCREEN_ACCESS`
+- Siri → ภาษา: `prefs:root=SIRI&path=LANGUAGE_ID`
+- Siri → เสียง Siri: `prefs:root=SIRI&path=VOICE_ID`
+- Siri → เสียงพูดโต้ตอบ: `prefs:root=SIRI&path=VOICE_FEEDBACK_ID`
+- Siri → ข้อมูลของฉัน: `prefs:root=SIRI&path=MY_INFO`
+- ข้อมูลสุขภาพ | สุขภาพ: `prefs:root=HEALTH`
+- App Store: `prefs:root=STORE`
+- App Store → รายการดาวน์โหลดอัตโนมัติ: `prefs:root=STORE#Automatic%20Downloads`
+- App Store → รายการอัปเดตแอป: `prefs:root=STORE#App%20Updates`
+- App Store → รายการดาวน์โหลดแอป: `prefs:root=STORE&path=App%20Downloads`
+- App Store → การเล่นวิดีโอโดยอัตโนมัติ: `prefs:root=STORE&path=Video%20Autoplay`
+- App Store → จัดอันดับและความเห็นในแอป: `prefs:root=STORE#In-App%20Ratings%20&%20Reviews`
+- โหมดเครื่องบิน: `prefs:root=ROOT#AIRPLANE_MODE`

@@ -1,0 +1,14 @@
+- గోప్యత, భద్రత: `settings-navigation://com.apple.Settings.PrivacyAndSecurity`
+- గోప్యత, భద్రత → సేఫ్టీ చెక్: `settings-navigation://com.apple.Settings.PrivacyAndSecurity/SAFETY_CHECK`
+- Apps: `settings-navigation://com.apple.Settings.Apps`
+- Apps → Safari: `settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari/` or `prefs:root=SAFARI`
+- Apps → Safari → ఎక్స్‌టెన్షన్‌లు: `settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari/WEB_EXTENSIONS` or `prefs:root=SAFARI&path=WEB_EXTENSIONS`
+- Apps → Safari → పాప్-అప్‌లను బ్లాక్ చేయండి: `settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari#BLOCK_POPUPS`
+- Apps → Safari → క్రాస్-సైట్ ట్ర్యాకింగ్‌ను నిరోధించండి: `settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari#TRACKER_PROTECTION`
+- Apps → Safari → ఆటోఫిల్: `settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari/AUTO_FILL` or `prefs:root=SAFARI&path=AUTO_FILL`
+- Apps → Safari → డౌన్‌లోడ్‌లు: `settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari/DOWNLOADS` or `prefs:root=SAFARI&path=DOWNLOADS`
+- Apps → పాస్‌వర్డ్స్: `settings-navigation://com.apple.Settings.Apps/com.apple.Passwords`
+- Apps → పాస్‌వర్డ్స్ → భద్రతా సిఫార్సులు: `settings-navigation://com.apple.Settings.Apps/com.apple.Passwords#SECURITY_RECOMMENDATIONS`
+- హోమ్: `settings-navigation://com.apple.Settings.HomeKit`
+- Search: `settings-navigation://com.apple.Settings.Search`
+- TV ప్రొవైడర్: `settings-navigation://com.apple.Settings.TVProvider`

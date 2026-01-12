@@ -1,0 +1,14 @@
+- സ്വകാര്യതയും സുരക്ഷയും: `settings-navigation://com.apple.Settings.PrivacyAndSecurity`
+- സ്വകാര്യതയും സുരക്ഷയും → സുരക്ഷാ പരിശോധന: `settings-navigation://com.apple.Settings.PrivacyAndSecurity/SAFETY_CHECK`
+- Apps: `settings-navigation://com.apple.Settings.Apps`
+- Apps → Safari: `settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari/` or `prefs:root=SAFARI`
+- Apps → Safari → വിപുലീകരണങ്ങൾ: `settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari/WEB_EXTENSIONS` or `prefs:root=SAFARI&path=WEB_EXTENSIONS`
+- Apps → Safari → പോപ്പ്-അപ്പുകൾ ബ്ലോക്ക് ചെയ്യൂ: `settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari#BLOCK_POPUPS`
+- Apps → Safari → ക്രോസ് സൈറ്റ് ട്രാക്കിങ് തടയൂ: `settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari#TRACKER_PROTECTION`
+- Apps → Safari → ഓട്ടോ-ഫിൽ ചെയ്യൂ: `settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari/AUTO_FILL` or `prefs:root=SAFARI&path=AUTO_FILL`
+- Apps → Safari → ഡൗൺലോഡുകൾ: `settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari/DOWNLOADS` or `prefs:root=SAFARI&path=DOWNLOADS`
+- Apps → പാസ്‌വേഡ്സ്: `settings-navigation://com.apple.Settings.Apps/com.apple.Passwords`
+- Apps → പാസ്‌വേഡ്സ് → സുരക്ഷാ ശുപാർശകൾ: `settings-navigation://com.apple.Settings.Apps/com.apple.Passwords#SECURITY_RECOMMENDATIONS`
+- ഹോം: `settings-navigation://com.apple.Settings.HomeKit`
+- Search: `settings-navigation://com.apple.Settings.Search`
+- TV ദാതാവ്: `settings-navigation://com.apple.Settings.TVProvider`

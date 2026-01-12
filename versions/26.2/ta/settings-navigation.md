@@ -1,0 +1,14 @@
+- தனியுரிமை & பாதுகாப்பு: `settings-navigation://com.apple.Settings.PrivacyAndSecurity`
+- தனியுரிமை & பாதுகாப்பு → பாதுகாப்புச் சரிபார்ப்பு: `settings-navigation://com.apple.Settings.PrivacyAndSecurity/SAFETY_CHECK`
+- Apps: `settings-navigation://com.apple.Settings.Apps`
+- Apps → Safari: `settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari/` or `prefs:root=SAFARI`
+- Apps → Safari → நீட்டிப்புகள்: `settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari/WEB_EXTENSIONS` or `prefs:root=SAFARI&path=WEB_EXTENSIONS`
+- Apps → Safari → பாப்-அப்களைத் தடு: `settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari#BLOCK_POPUPS`
+- Apps → Safari → கிராஸ்-சைட் டிராக்கிங்கைத் தடு: `settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari#TRACKER_PROTECTION`
+- Apps → Safari → தானாக நிரப்பு: `settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari/AUTO_FILL` or `prefs:root=SAFARI&path=AUTO_FILL`
+- Apps → Safari → பதிவிறக்கங்கள்: `settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari/DOWNLOADS` or `prefs:root=SAFARI&path=DOWNLOADS`
+- Apps → பாஸ்வேர்டுகள்: `settings-navigation://com.apple.Settings.Apps/com.apple.Passwords`
+- Apps → பாஸ்வேர்டுகள் → பாதுகாப்புப் பரிந்துரைகள்: `settings-navigation://com.apple.Settings.Apps/com.apple.Passwords#SECURITY_RECOMMENDATIONS`
+- ஹோம்: `settings-navigation://com.apple.Settings.HomeKit`
+- Search: `settings-navigation://com.apple.Settings.Search`
+- டிவி புரொவைடர்: `settings-navigation://com.apple.Settings.TVProvider`

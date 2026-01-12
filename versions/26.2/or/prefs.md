@@ -1,0 +1,414 @@
+- ବ୍ୟାଟରି: `prefs:root=BATTERY_USAGE`
+- ବ୍ୟାଟରି → ଲୋ ପାୱର୍ ମୋଡ୍‌: `prefs:root=BATTERY_USAGE#BATTERY_SAVER_MODE`
+- ବ୍ୟାଟରି → ବ୍ୟାଟରି ହେଲଥ୍: `prefs:root=BATTERY_USAGE#BATTERY_HEALTH_ID`
+- ସାଧାରଣ: `prefs:root=General`
+- ସାଧାରଣ → VPN ଓ ଡିଭାଇସ୍ ପରିଚାଳନା: `prefs:root=General&path=ManagedConfigurationList`
+- ସାଧାରଣ → ଅଟୋଫିଲ୍‌ ଓ ପାସ୍‌ୱର୍ଡ୍‌: `prefs:root=General&path=AUTOFILL`
+- ସାଧାରଣ → ଅଟୋଫିଲ୍‌ ଓ ପାସ୍‌ୱର୍ଡ୍‌ → ଅଟୋଫିଲ ପାସୱର୍ଡ: `prefs:root=General&path=AUTOFILL#AUTOFILL`
+- ସାଧାରଣ → ଅଟୋଫିଲ୍‌ ଓ ପାସ୍‌ୱର୍ଡ୍‌ → ଯାଞ୍ଚକରଣ କୋଡ୍ ଖାଲି କରନ୍ତୁ: `prefs:root=General&path=AUTOFILL#CLEAN_UP_VERIFICATION_CODES`
+- ସାଧାରଣ → ଅଟୋଫିଲ୍‌ ଓ ପାସ୍‌ୱର୍ଡ୍‌ → ଯାଞ୍ଚକରଣ କୋଡ୍ ସେଟ୍ ଅପ୍ କରନ୍ତୁ: `prefs:root=General&path=AUTOFILL#SET_UP_VERIFICATION_CODES`
+- ସାଧାରଣ → AppleCare ଓ ୱାରେଣ୍ଟୀ: `prefs:root=General&path=COVERAGE/`
+- ସାଧାରଣ → ଶବ୍ଦକୋଷ: `prefs:root=General&path=DICTIONARY`
+- ସାଧାରଣ → କୀ’ବୋର୍ଡ୍‌: `prefs:root=General&path=Keyboard`
+- ସାଧାରଣ → କୀ’ବୋର୍ଡ୍‌ → କୀ’ବୋର୍ଡ୍‌: `prefs:root=General&path=Keyboard/KEYBOARDS`
+- ସାଧାରଣ → କୀ’ବୋର୍ଡ୍‌ → ଟେକ୍ସ୍‌ଟ୍‌ ରିପ୍ଲେସ୍‌ମେଣ୍ଟ୍‌: `prefs:root=General&path=Keyboard/USER_DICTIONARY`
+- ସାଧାରଣ → କୀ’ବୋର୍ଡ୍‌ → ଅଟୋ-କ୍ୟାପିଟାଲାଇଜେଶନ୍: `prefs:root=General&path=Keyboard#KeyboardAutocapitalization`
+- ସାଧାରଣ → କୀ’ବୋର୍ଡ୍‌ → ଅଟୋ-ସଠିକ୍: `prefs:root=General&path=Keyboard#KeyboardAutocorrection`
+- ସାଧାରଣ → କୀ’ବୋର୍ଡ୍‌ → ବନାନ ଯାଞ୍ଚ କରନ୍ତୁ: `prefs:root=General&path=Keyboard#KeyboardCheckSpelling`
+- ସାଧାରଣ → କୀ’ବୋର୍ଡ୍‌ → କ୍ଯାପ୍ସ୍‌ ଲକ୍ ସକ୍ଷମ କରନ୍ତୁ: `prefs:root=General&path=Keyboard#KeyboardCapsLock`
+- ସାଧାରଣ → କୀ’ବୋର୍ଡ୍‌ → ଶର୍ଟ୍‌କଟ୍‌: `prefs:root=General&path=Keyboard#KeyboardAssistant`
+- ସାଧାରଣ → କୀ’ବୋର୍ଡ୍‌ → ପ୍ରେଡିକ୍ଟିଭ୍: `prefs:root=General&path=Keyboard#KeyboardPrediction`
+- ସାଧାରଣ → କୀ’ବୋର୍ଡ୍‌ → ସ୍ମାର୍ଟ୍‌ ବିରାମ ଚିହ୍ନ: `prefs:root=General&path=Keyboard#SmartTyping`
+- ସାଧାରଣ → କୀ’ବୋର୍ଡ୍‌ → ସ୍ପ୍ଲିଟ୍‌ କୀ’ବୋର୍ଡ୍‌: `prefs:root=General&path=Keyboard#RivenKeyboard`
+- ସାଧାରଣ → କୀ’ବୋର୍ଡ୍‌ → କୀ’ ଫ୍ଲିକ୍ସ ସକ୍ଷମ କରନ୍ତୁ: `prefs:root=General&path=Keyboard#GesturesEnabled`
+- ସାଧାରଣ → କୀ’ବୋର୍ଡ୍‌ → କ‍୍ୟାରେକ୍ଟର୍‌ ପ୍ରୀଭ୍ୟୂ: `prefs:root=General&path=Keyboard#KeyboardAllowPaddle`
+- ସାଧାରଣ → କୀ’ବୋର୍ଡ୍‌ → “।” ଶର୍ଟ୍‌କଟ୍‌: `prefs:root=General&path=Keyboard#KeyboardPeriodShortcut`
+- ସାଧାରଣ → କୀ’ବୋର୍ଡ୍‌ → ଟାଇପ୍ କରିବାକୁ ସ୍ଲାଇଡ୍ କରନ୍ତୁ: `prefs:root=General&path=Keyboard#KeyboardContinuousPathEnabled`
+- ସାଧାରଣ → କୀ’ବୋର୍ଡ୍‌ → ଡିକ୍ଟେଶନ୍ ସକ୍ଷମ କରନ୍ତୁ: `prefs:root=General&path=Keyboard#Dictation`
+- ସାଧାରଣ → କୀ’ବୋର୍ଡ୍‌ → ଅଟୋ ବିରାମଚିହ୍ନ: `prefs:root=General&path=Keyboard#AutoPunctuationSetting`
+- ସାଧାରଣ → ସଫ୍ଟ୍‌ୱେୟର୍ ଅପ୍‌ଡେଟ୍ କରନ୍ତୁ: `prefs:root=General&path=SOFTWARE_UPDATE_LINK`
+- ସାଧାରଣ → ସଫ୍ଟ୍‌ୱେୟର୍ ଅପ୍‌ଡେଟ୍ କରନ୍ତୁ → ସ୍ୱୟଂଚାଳିତ ଅପ୍‌ଡେଟ୍‌: `prefs:root=General&path=SOFTWARE_UPDATE_LINK/SUAutomaticUpdateButton`
+- ସାଧାରଣ → ଷ୍ଟୋରେଜ୍: `prefs:root=General&path=STORAGE_MGMT`
+- ସାଧାରଣ → ଷ୍ଟୋରେଜ୍ → ଷ୍ଟୋରେଜ୍: `prefs:root=General&path=STORAGE_MGMT#MANAGE`
+- ସାଧାରଣ → ଷ୍ଟୋରେଜ୍ → ଅବ୍ଯବହୃତ ଆପ୍ ଅଫ୍‌ଲୋଡ୍ କରନ୍ତୁ: `prefs:root=General&path=STORAGE_MGMT#OFFLOAD`
+- ସାଧାରଣ → ପିକ୍ଚର୍ ଇନ୍ ପିକ୍ଚର୍: `prefs:root=General&path=PiP_SPEC`
+- ସାଧାରଣ → ଟ୍ରାକ୍‌ପ୍ୟାଡ୍ | ଟ୍ରାକ୍‌ପ୍ୟାଡ୍ ଏବଂ ମାଉସ୍: `prefs:root=General&path=POINTERS`
+- ସାଧାରଣ → NFC: `prefs:root=General&path=NFC_LINK`
+- ସାଧାରଣ → VPN: `prefs:root=General&path=VPN`
+- ସାଧାରଣ → CarPlay: `prefs:root=General&path=CARPLAY`
+- ସାଧାରଣ → ବିଷୟରେ: `prefs:root=General&path=About`
+- ସାଧାରଣ → ବିଷୟରେ → ବିଶ୍ୱସନୀୟ ସାର୍ଟିଫିକେଟ୍: `prefs:root=General&path=About/CERT_TRUST_SETTINGS`
+- ସାଧାରଣ → ବିଷୟରେ → ସିରିଅଲ୍ ନମ୍ବର୍: `prefs:root=General&path=About#SerialNumber`
+- ସାଧାରଣ → ବିଷୟରେ → ମଡେଲ୍ ନମ୍ବର୍: `prefs:root=General&path=About#ProductModel`
+- ସାଧାରଣ → ବିଷୟରେ → ମଡେଲ୍ ନାମ: `prefs:root=General&path=About#ProductModelName`
+- ସାଧାରଣ → ବିଷୟରେ → iOS ଭର୍ଶନ୍‌: `prefs:root=General&path=About/SW_VERSION_SPECIFIER`
+- ସାଧାରଣ → ଆଇନଗତ ଓ ନିୟାମକ: `prefs:root=General&path=LEGAL_AND_REGULATORY`
+- ସାଧାରଣ → ଆଇନଗତ ଓ ନିୟାମକ → ୱାରଣ୍ଟି: `prefs:root=General&path=LEGAL_AND_REGULATORY#Warranty`
+- ସାଧାରଣ → AirDrop: `prefs:root=General&path=AIRDROP_LINK`
+- ସାଧାରଣ → AirDrop → ଡିଭାଇସ୍‌ଗୁଡ଼ିକୁ ଏକାଠି କରିବା: `prefs:root=General&path=AIRDROP_LINK#AIRDROP_NFC_ID`
+- ସାଧାରଣ → ହୋମ୍ ବଟନ୍: `prefs:root=General&path=HOME_BUTTON`
+- ସାଧାରଣ → ସାଇଡ୍ ସ୍ବିଚ୍: `prefs:root=General#Rotation_Switch_Action_Group`
+- ସାଧାରଣ → ବ୍ୟାକ୍‌ଗ୍ରାଉଣ୍ଡ୍‌ ଆପ୍ ରିଫ୍ରେଶ୍: `prefs:root=General&path=AUTO_CONTENT_DOWNLOAD`
+- ସାଧାରଣ → ତାରିଖ ଏବଂ ସମୟ: `prefs:root=General&path=DATE_AND_TIME`
+- ସାଧାରଣ → ଟିଭି ଆଉଟ୍‌: `prefs:root=General&path=TV_OUT`
+- ସାଧାରଣ → ରୀସେଟ୍ କରନ୍ତୁ: `prefs:root=General&path=Reset`
+- ସାଧାରଣ → ରୀସେଟ୍ କରନ୍ତୁ → ସବୁ ସେଟିଂସ୍‌‌କୁ ରୀସେଟ୍ କରନ୍ତୁ: `prefs:root=General&path=Reset#settingsErase`
+- ସାଧାରଣ → ରୀସେଟ୍ କରନ୍ତୁ → ସମସ୍ତ ବିଷୟବସ୍ତୁ ଓ ସେଟିଂସ୍ ଇରେଜ୍ କରନ୍ତୁ: `prefs:root=General&path=Reset#fullErase`
+- ସାଧାରଣ → ରୀସେଟ୍ କରନ୍ତୁ → ନେଟ୍‌ୱର୍କ୍‌ ସେଟିଂସ୍‌‌କୁ ରୀସେଟ୍ କରନ୍ତୁ: `prefs:root=General&path=Reset#RESET_NETWORK_LABEL`
+- ସାଧାରଣ → ରୀସେଟ୍ କରନ୍ତୁ → ସମସ୍ତ ମୋବାଇଲ୍‌ ଡେଟା ପ୍ଲାନ୍ କାଢ଼ି ଦିଅନ୍ତୁ: `prefs:root=General&path=Reset#cellularErase`
+- ସାଧାରଣ → ରୀସେଟ୍ କରନ୍ତୁ → ସବ୍‌ସ୍କ୍ରାଇବର୍ ସର୍ଭିସ୍: `prefs:root=General&path=Reset#SUBSCRIBER_SERVICES_ID`
+- ସାଧାରଣ → ରୀସେଟ୍ କରନ୍ତୁ → କୀ’ବୋର୍ଡ୍‌ ଡିକ୍ସନରି ରୀସେଟ୍ କରନ୍ତୁ: `prefs:root=General&path=Reset#RESET_KEYBOARD_DICTIONARY_LABEL`
+- ସାଧାରଣ → ରୀସେଟ୍ କରନ୍ତୁ → ହୋମ୍ ସ୍କ୍ରୀନ୍ ରୀସେଟ୍ ଲେଆଉଟ୍: `prefs:root=General&path=Reset#RESET_ICONS_LABEL`
+- ସାଧାରଣ → ରୀସେଟ୍ କରନ୍ତୁ → ଲୋକେଶନ୍ ସେବା ଓ ଗୋପନୀୟତାକୁ ରୀସେଟ୍ କରନ୍ତୁ: `prefs:root=General&path=Reset#RESET_PRIVACY_LABEL`
+- ସାଧାରଣ → ବନ୍ଦ କରନ୍ତୁ: `prefs:root=General#SHUTDOWN_LABEL`
+- ସାଧାରଣ → AirPlay ଓ କଣ୍ଟିନ୍ଯୁଇଟି: `prefs:root=General&path=CONTINUITY_SPEC`
+- ସାଧାରଣ → AirPlay ଓ କଣ୍ଟିନ୍ଯୁଇଟି → Handoff: `prefs:root=General&path=CONTINUITY_SPEC#CONTINUITY`
+- ସାଧାରଣ → AirPlay ଓ କଣ୍ଟିନ୍ଯୁଇଟି → HomePod କୁ ଟ୍ରାନ୍ସ୍‌ଫର୍‌ କରନ୍ତୁ: `prefs:root=General&path=CONTINUITY_SPEC#TRANSFER_TO_HOMEPOD`
+- ସାଧାରଣ → AirPlay ଓ କଣ୍ଟିନ୍ଯୁଇଟି → ସ୍ୱୟଂଚାଳିତ ଭାବେ AirPlay: `prefs:root=General&path=CONTINUITY_SPEC#AUTOMATICALLY_AIRPLAY`
+- ସାଧାରଣ → AirPlay ଓ କଣ୍ଟିନ୍ଯୁଇଟି → କଣ୍ଟିନ୍ଯୁଇଟି କ୍ଯାମେରା: `prefs:root=General&path=CONTINUITY_SPEC#WOMBAT_CAMERA`
+- ସାଧାରଣ → ଭାଷା ଏବଂ ଅଞ୍ଚଳ: `prefs:root=General&path=INTERNATIONAL`
+- ସାଧାରଣ → ଭାଷା ଏବଂ ଅଞ୍ଚଳ → ଅନ୍ଯାନ ଭାଷାଗୁଡ଼ିକ…: `prefs:root=General&path=INTERNATIONAL#NEW_PREFERRED_LANGUAGE`
+- ସାଧାରଣ → ଭାଷା ଏବଂ ଅଞ୍ଚଳ → ପସନ୍ଦର ଭାଷାର କ୍ରମ: `prefs:root=General&path=INTERNATIONAL#PREFERRED_LANGUAGE_GROUP`
+- ସାଧାରଣ → ଭାଷା ଏବଂ ଅଞ୍ଚଳ → ଭାଷା ଯୋଡ଼ନ୍ତୁ…: `prefs:root=General&path=INTERNATIONAL#ADD_PREFERRED_LANGUAGE`
+- ସାଧାରଣ → ଭାଷା ଏବଂ ଅଞ୍ଚଳ → ଅଞ୍ଚଳ: `prefs:root=General&path=INTERNATIONAL/LOCALE`
+- ସାଧାରଣ → ଭାଷା ଏବଂ ଅଞ୍ଚଳ → Numbers: `prefs:root=General&path=INTERNATIONAL/NUMBERING_SYSTEM`
+- ସାଧାରଣ → ଭାଷା ଏବଂ ଅଞ୍ଚଳ → କ‍୍ୟାଲେଣ୍ଡର୍‌: `prefs:root=General&path=INTERNATIONAL/CALENDAR`
+- ସାଧାରଣ → ଭାଷା ଏବଂ ଅଞ୍ଚଳ → ତାପମାତ୍ରାର ଏକକ: `prefs:root=General&path=INTERNATIONAL/TEMPERATURE_UNIT`
+- Apple ଆକାଉଣ୍ଟ୍: `prefs:root=APPLE_ACCOUNT` or `settings-navigation://com.apple.Settings.AppleAccount`
+- Apple ଆକାଉଣ୍ଟ୍ → କଣ୍ଟାକ୍ଟ୍ କୀ’ ଯାଞ୍ଚକରଣ: `prefs:root=APPLE_ACCOUNT&path=TRANSPARENCY` or `settings-navigation://com.apple.Settings.AppleAccount/TRANSPARENCY`
+- Apple ଆକାଉଣ୍ଟ୍ → iCloud: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE` or `prefs:root=CASTLE`
+- Apple ଆକାଉଣ୍ଟ୍ → iCloud → iCloud ଷ୍ଟୋରେଜ୍: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/STORAGE_AND_BACKUP` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/STORAGE_AND_BACKUP` or `prefs:root=CASTLE&path=STORAGE_AND_BACKUP`
+- Apple ଆକାଉଣ୍ଟ୍ → iCloud → iCloud Drive: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Ubiquity` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Ubiquity` or `prefs:root=CASTLE&path=com.apple.Dataclass.Ubiquity`
+- Apple ଆକାଉଣ୍ଟ୍ → iCloud → ଫଟୋ: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.MediaStream` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.MediaStream` or `prefs:root=CASTLE&path=com.apple.Dataclass.MediaStream`
+- Apple ଆକାଉଣ୍ଟ୍ → iCloud → Mail: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Mail` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail` or `prefs:root=CASTLE&path=com.apple.Dataclass.Mail`
+- Apple ଆକାଉଣ୍ଟ୍ → iCloud → କଣ୍ଟାକ୍ଟ୍‌: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Contacts` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Contacts` or `prefs:root=CASTLE&path=com.apple.Dataclass.Contacts`
+- Apple ଆକାଉଣ୍ଟ୍ → iCloud → କ‍୍ୟାଲେଣ୍ଡର୍‌: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Calendars` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Calendars` or `prefs:root=CASTLE&path=com.apple.Dataclass.Calendars`
+- Apple ଆକାଉଣ୍ଟ୍ → iCloud → ରିମାଇଣ୍ଡର୍‌: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Reminders` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Reminders` or `prefs:root=CASTLE&path=com.apple.Dataclass.Reminders`
+- Apple ଆକାଉଣ୍ଟ୍ → iCloud → Safari: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Bookmarks` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Bookmarks` or `prefs:root=CASTLE&path=com.apple.Dataclass.Bookmarks`
+- Apple ଆକାଉଣ୍ଟ୍ → iCloud → ନୋଟ୍‌: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Notes` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Notes` or `prefs:root=CASTLE&path=com.apple.Dataclass.Notes`
+- Apple ଆକାଉଣ୍ଟ୍ → iCloud → News: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.News` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.News` or `prefs:root=CASTLE&path=com.apple.Dataclass.News`
+- Apple ଆକାଉଣ୍ଟ୍ → iCloud → ବ୍ୟାକ୍‌ଅପ୍: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/BACKUP` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/BACKUP` or `prefs:root=CASTLE&path=BACKUP`
+- Apple ଆକାଉଣ୍ଟ୍ → iCloud → ସ୍ୱାସ୍ଥ୍ୟ: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Health` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Health` or `prefs:root=CASTLE&path=com.apple.Dataclass.Health`
+- Apple ଆକାଉଣ୍ଟ୍ → iCloud → ପାସ୍‌ୱର୍ଡ୍ ଓ କୀ’ଚେନ୍: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.KeychainSync` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.KeychainSync` or `prefs:root=CASTLE&path=com.apple.Dataclass.KeychainSync`
+- Apple ଆକାଉଣ୍ଟ୍ → iCloud → ମୋ ଇମେଲ୍ ଲୁଚାନ୍ତୁ: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/PRIVATE_EMAIL_MANAGE` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/PRIVATE_EMAIL_MANAGE` or `prefs:root=CASTLE&path=PRIVATE_EMAIL_MANAGE`
+- Apple ଆକାଉଣ୍ଟ୍ → ମୋ ଲୋକେଶନ୍ ଶେୟର୍ କରନ୍ତୁ: `prefs:root=APPLE_ACCOUNT&path=LOCATION_SHARING` or `settings-navigation://com.apple.Settings.AppleAccount/LOCATION_SHARING`
+- Apple ଆକାଉଣ୍ଟ୍ → ମୋ ଲୋକେଶନ୍ ଶେୟର୍ କରନ୍ତୁ → ଖୋଜାଖୋଜି: `prefs:root=APPLE_ACCOUNT&path=LOCATION_SHARING/FindMyDevice-Settings` or `settings-navigation://com.apple.Settings.AppleAccount/LOCATION_SHARING/FindMyDevice-Settings`
+- Apple ଆକାଉଣ୍ଟ୍ → ନାମ, ଫୋନ୍ ନମ୍ବର୍, ଇମେଲ୍: `prefs:root=APPLE_ACCOUNT&path=APPLE_ACCOUNT_CONTACT` or `settings-navigation://com.apple.Settings.AppleAccount/APPLE_ACCOUNT_CONTACT`
+- Apple ଆକାଉଣ୍ଟ୍ → ପାସ୍‌ୱର୍ଡ୍‌ ଓ ସୁରକ୍ଷା: `prefs:root=APPLE_ACCOUNT&path=PASSWORD_AND_SECURITY` or `settings-navigation://com.apple.Settings.AppleAccount/PASSWORD_AND_SECURITY`
+- Apple ଆକାଉଣ୍ଟ୍ → ପେମେଣ୍ଟ୍ ଓ ଶିପିଂ: `prefs:root=APPLE_ACCOUNT&path=PAYMENT_AND_SHIPPING` or `settings-navigation://com.apple.Settings.AppleAccount/PAYMENT_AND_SHIPPING`
+- Apple ଆକାଉଣ୍ଟ୍ → ସବ୍‌ସ୍କ୍ରିପ୍ସନ୍‌: `prefs:root=APPLE_ACCOUNT&path=SUBSCRIPTIONS` or `settings-navigation://com.apple.Settings.AppleAccount/SUBSCRIPTIONS`
+- Apple ଆକାଉଣ୍ଟ୍ → ପରିବାର: `prefs:root=APPLE_ACCOUNT&path=Family` or `settings-navigation://com.apple.Settings.AppleAccount/Family`
+- ନୋଟିଫିକେଶନ୍: `prefs:root=NOTIFICATIONS_ID`
+- ନୋଟିଫିକେଶନ୍ → ଶେଡ୍ୟୂଲ୍‌ ହୋଇଥିବା ସାରାଂଶ: `prefs:root=NOTIFICATIONS_ID&path=SCHEDULED_DELIVERY_ID`
+- ପାଣିପାଗ: `prefs:root=WEATHER`
+- Freeform: `prefs:root=FREEFORM`
+- ଫୋକସ୍: `prefs:root=DO_NOT_DISTURB`
+- ଫୋକସ୍ → ଫୋକସ୍ ଷ୍ଟାଟସ୍: `prefs:root=DO_NOT_DISTURB&path=status`
+- ଜର୍ନଲ୍‌: `prefs:root=JOURNAL`
+- ୱଲେଟ୍ ଓ Apple Pay: `prefs:root=PASSBOOK`
+- ୱଲେଟ୍ ଓ Apple Pay → Apple Cash: `prefs:root=PASSBOOK#Apple%C2%A0Cash`
+- ୱଲେଟ୍ ଓ Apple Pay → ପେମେଣ୍ଟ୍ କାର୍ଡ୍‌: `prefs:root=PASSBOOK#SETTINGS_PAYMENT_CARDS_GROUP`
+- ୱଲେଟ୍ ଓ Apple Pay → କାର୍ଡ୍‌ ଯୋଡ଼ନ୍ତୁ: `prefs:root=PASSBOOK#Add%20Card`
+- ୱଲେଟ୍ ଓ Apple Pay → ସାଇଡ୍ ବଟନ୍‌ରେ ଡବଲ୍-କ୍ଲିକ୍ କରନ୍ତୁ: `prefs:root=PASSBOOK#Double-Click%20Side%20Button`
+- ୱଲେଟ୍ ଓ Apple Pay → ଅର୍ଡର୍ ଟ୍ରାକିଂ: `prefs:root=PASSBOOK#ORDER_TRACKING`
+- ଆପିଅରନ୍ସ୍‌ | ଡିସ୍‌ପ୍ଲେ ଓ ଉଜ୍ଜ୍ବଳତା: `prefs:root=DISPLAY`
+- ଆପିଅରନ୍ସ୍‌ | ଡିସ୍‌ପ୍ଲେ ଓ ଉଜ୍ଜ୍ବଳତା → ଆପିଅରନ୍ସ୍: `prefs:root=DISPLAY#DEVICE_APPEARANCE`
+- ଆପିଅରନ୍ସ୍‌ | ଡିସ୍‌ପ୍ଲେ ଓ ଉଜ୍ଜ୍ବଳତା → True Tone: `prefs:root=DISPLAY#WHITE_BALANCE`
+- ଆପିଅରନ୍ସ୍‌ | ଡିସ୍‌ପ୍ଲେ ଓ ଉଜ୍ଜ୍ବଳତା → Night Shift: `prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION`
+- ଆପିଅରନ୍ସ୍‌ | ଡିସ୍‌ପ୍ଲେ ଓ ଉଜ୍ଜ୍ବଳତା → Night Shift → ଶେଡ‍୍ୟୂଲ୍‌ ହୋଇଛି: `prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION#SCHEDULED`
+- ଆପିଅରନ୍ସ୍‌ | ଡିସ୍‌ପ୍ଲେ ଓ ଉଜ୍ଜ୍ବଳତା → Night Shift → ଆସନ୍ତାକାଲି ପର୍ଯ୍ୟନ୍ତ ମାନ୍ୟୁଅଲି ସକ୍ଷମ କରନ୍ତୁ: `prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION#MANUAL`
+- ଆପିଅରନ୍ସ୍‌ | ଡିସ୍‌ପ୍ଲେ ଓ ଉଜ୍ଜ୍ବଳତା → Night Shift → ରଙ୍ଗ ତାପମାତ୍ରା: `prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION#COLOR_TEMPERATURE`
+- ଆପିଅରନ୍ସ୍‌ | ଡିସ୍‌ପ୍ଲେ ଓ ଉଜ୍ଜ୍ବଳତା → ଅଟୋ-ଲକ୍: `prefs:root=DISPLAY&path=AUTOLOCK`
+- ଆପିଅରନ୍ସ୍‌ | ଡିସ୍‌ପ୍ଲେ ଓ ଉଜ୍ଜ୍ବଳତା → ସକ୍ରିୟ କରିବାକୁ ଉଠାନ୍ତୁ: `prefs:root=DISPLAY#RAISE_TO_WAKE`
+- ଆପିଅରନ୍ସ୍‌ | ଡିସ୍‌ପ୍ଲେ ଓ ଉଜ୍ଜ୍ବଳତା → ଲକ୍ / ଅନ୍‌ଲକ୍: `prefs:root=DISPLAY#SMART_CASE_LOCK_SPEC`
+- ଆପିଅରନ୍ସ୍‌ | ଡିସ୍‌ପ୍ଲେ ଓ ଉଜ୍ଜ୍ବଳତା → ଟେକ୍ସ୍‌ଟ୍‌ ସାଇଜ୍: `prefs:root=DISPLAY&path=TEXT_SIZE`
+- ଆପିଅରନ୍ସ୍‌ | ଡିସ୍‌ପ୍ଲେ ଓ ଉଜ୍ଜ୍ବଳତା → ବୋଲ୍ଡ୍ ଟେକ୍ସ୍‌ଟ୍‌: `prefs:root=DISPLAY#BOLD_TEXT`
+- ଆପିଅରନ୍ସ୍‌ | ଡିସ୍‌ପ୍ଲେ ଓ ଉଜ୍ଜ୍ବଳତା → ଉଜ୍ଜ୍ୱଳତା: `prefs:root=DISPLAY#BRIGHTNESS`
+- ଆପିଅରନ୍ସ୍‌ | ଡିସ୍‌ପ୍ଲେ ଓ ଉଜ୍ଜ୍ବଳତା → ଡିସ୍‌ପ୍ଲେ ଜୂମ୍: `prefs:root=DISPLAY#DISPLAY_ZOOM_GROUP`
+- ଆପିଅରନ୍ସ୍‌ | ଡିସ୍‌ପ୍ଲେ ଓ ଉଜ୍ଜ୍ବଳତା → ଆପିଅରନ୍ସ୍: `prefs:root=DISPLAY&path=APPEARANCE`
+- ଆପିଅରନ୍ସ୍‌ | ଡିସ୍‌ପ୍ଲେ ଓ ଉଜ୍ଜ୍ବଳତା → ଆପିଅରନ୍ସ୍ → ୱିଣ୍ଡୋ ଜୂମ୍: `prefs:root=DISPLAY&path=APPEARANCE#WINDOW_ZOOM`
+- ଆପିଅରନ୍ସ୍‌ | ଡିସ୍‌ପ୍ଲେ ଓ ଉଜ୍ଜ୍ବଳତା → ଆପିଅରନ୍ସ୍ → ଦୁଇ ହାତରେ ୱିଣ୍ଡୋ ଜୂମ୍‌: `prefs:root=DISPLAY&path=APPEARANCE#TWO_HANDED_WINDOW_ZOOM`
+- ଆପିଅରନ୍ସ୍‌ | ଡିସ୍‌ପ୍ଲେ ଓ ଉଜ୍ଜ୍ବଳତା → ଦେଖନ୍ତୁ: `prefs:root=DISPLAY&path=MAGNIFY`
+- ଆପିଅରନ୍ସ୍‌ | ଡିସ୍‌ପ୍ଲେ ଓ ଉଜ୍ଜ୍ବଳତା → ‘ସର୍ବଦା ଅନ୍’ ଡିସ୍‌ପ୍ଲେ: `prefs:root=DISPLAY&path=ALWAYS_ON`
+- ଆପିଅରନ୍ସ୍‌ | ଡିସ୍‌ପ୍ଲେ ଓ ଉଜ୍ଜ୍ବଳତା → ‘ସର୍ବଦା ଅନ୍’ ଡିସ୍‌ପ୍ଲେ → ‘ସର୍ବଦା ଅନ୍’ ଡିସ୍‌ପ୍ଲେ: `prefs:root=DISPLAY&path=ALWAYS_ON#ALWAYS_ON`
+- ଆପିଅରନ୍ସ୍‌ | ଡିସ୍‌ପ୍ଲେ ଓ ଉଜ୍ଜ୍ବଳତା → ସୁସଙ୍ଗତ ଆପ୍‌: `prefs:root=DISPLAY&path=COMPATIBLE_APPEARANCE`
+- ଆପିଅରନ୍ସ୍‌ | ଡିସ୍‌ପ୍ଲେ ଓ ଉଜ୍ଜ୍ବଳତା → ସୁସଙ୍ଗତ ଆପ୍‌ → ଡାର୍କ୍‌, ଲାଇଟ୍: `prefs:root=DISPLAY&path=COMPATIBLE_APPEARANCE#COMPATIBLE_APPEARANCE_CHOICES`
+- ମାପନ୍ତୁ: `prefs:root=MEASURE` or `settings-navigation://com.apple.Settings.Apps/com.apple.measure`
+- ମାପନ୍ତୁ → ଏକକଗୁଡ଼ିକୁ ମାପନ୍ତୁ: `prefs:root=MEASURE#MEASURE_UNITS` or `settings-navigation://com.apple.Settings.Apps/com.apple.measure#MEASURE_UNITS#MEASURE_UNITS`
+- ମାପନ୍ତୁ → ଇମ୍ପେରିଅଲ୍: `prefs:root=MEASURE#Imperial` or `settings-navigation://com.apple.Settings.Apps/com.apple.measure#Imperial#Imperial`
+- ମାପନ୍ତୁ → ମେଟ୍ରିକ୍: `prefs:root=MEASURE#Metric` or `settings-navigation://com.apple.Settings.Apps/com.apple.measure#Metric#Metric`
+- ୱାଲ୍‌ପେପର୍: `prefs:root=Wallpaper`
+- କଣ୍ଟ୍ରୋଲ୍ ସେଣ୍ଟର୍: `prefs:root=ControlCenter`
+- କଣ୍ଟ୍ରୋଲ୍ ସେଣ୍ଟର୍ → ଆପ୍ ଭିତରେ ଆକ୍ସେସ୍ କରନ୍ତୁ: `prefs:root=ControlCenter#ALLOWED_WITHIN_APPS`
+- କଣ୍ଟ୍ରୋଲ୍ ସେଣ୍ଟର୍ → କଣ୍ଟ୍ରୋଲ୍ କଷ୍ଟମାଇଜ୍ କରନ୍ତୁ: `prefs:root=ControlCenter&path=CUSTOMIZE_CONTROLS`
+- ଭଏସ୍ ମେମୋ: `prefs:root=VOICE_MEMOS`
+- ଭଏସ୍ ମେମୋ → ଡିଲିଟ୍ ହୋଇଥିବା ଫାଇଲ୍ କ୍ଲିଅର୍‌ କରନ୍ତୁ: `prefs:root=VOICE_MEMOS&path=RCVoiceMemosRecentlyDeletedWindowKey`
+- ଭଏସ୍ ମେମୋ → ଅଡିଓ ଗୁଣବତ୍ତା: `prefs:root=VOICE_MEMOS&path=RCVoiceMemosAudioQualityKey`
+- ଭଏସ୍ ମେମୋ → ଲୋକେଶନ୍-ଆଧାରିତ ନେମିଂ: `prefs:root=VOICE_MEMOS#RCVoiceMemosUseLocationBasedNaming`
+- କ‍୍ୟାଲେଣ୍ଡର୍‌: `prefs:root=CALENDAR`
+- କ‍୍ୟାଲେଣ୍ଡର୍‌ → ଟାଇମ୍ ଜୋନ୍ ଓଭର୍‌ରାଇଡ୍: `prefs:root=CALENDAR&path=TimeZoneCityArray`
+- କ‍୍ୟାଲେଣ୍ଡର୍‌ → ବୈକଳ୍ପିକ କ୍ୟାଲେଣ୍ଡର୍: `prefs:root=CALENDAR&path=Alternate%20Calendars`
+- କ‍୍ୟାଲେଣ୍ଡର୍‌ → ସପ୍ତାହର ସଂଖ୍ୟାଗୁଡ଼ିକ: `prefs:root=CALENDAR#Week%20Numbers`
+- କ‍୍ୟାଲେଣ୍ଡର୍‌ → ଅସ୍ବୀକାର ହୋଇଥିବା ଆମନ୍ତ୍ରଣଗୁଡ଼ିକୁ ଦେଖାନ୍ତୁ: `prefs:root=CALENDAR#Show%20Invitee%20Declines`
+- କ‍୍ୟାଲେଣ୍ଡର୍‌ → ସିଙ୍କ୍‌ କରନ୍ତୁ: `prefs:root=CALENDAR&path=Sync`
+- କ‍୍ୟାଲେଣ୍ଡର୍‌ → ଡିଫଲ୍ଟ୍‌ ଆଲର୍ଟ୍‌ ସମୟ: `prefs:root=CALENDAR&path=Default%20Alert%20Times`
+- କ‍୍ୟାଲେଣ୍ଡର୍‌ → ସପ୍ତାହର ପ୍ରଥମ ବାର: `prefs:root=CALENDAR&path=Start%20Week%20On`
+- କ‍୍ୟାଲେଣ୍ଡର୍‌ → ଲୋକେଶନ୍ ପରାମର୍ଶ: `prefs:root=CALENDAR#Location%20Suggestions`
+- ଡିଭେଲପର୍‌: `prefs:root=DEVELOPER_SETTINGS`
+- ଡିଭେଲପର୍‌ → ମଲ୍ଟିପାଥ୍ ନେଟ୍‌ୱର୍କିଂ: `prefs:root=DEVELOPER_SETTINGS&path=MULTI_PATH_AGG`
+- ଡିଭେଲପର୍‌ → ମଲ୍ଟିପାଥ୍ ନେଟ୍‌ୱର୍କିଂ → ମଲ୍ଟିପାଥ୍ ନେଟ୍‌ୱର୍କିଂ: `prefs:root=DEVELOPER_SETTINGS&path=MULTI_PATH_AGG#Multipath%20Networking`
+- ଡିଭେଲପର୍‌ → ଆପିଅରନ୍ସ୍‌: `prefs:root=DEVELOPER_SETTINGS#UIAppearanceGroup`
+- ଡିଭେଲପର୍‌ → ଡାର୍କ୍‌ ଆପିଅରନ୍ସ୍‌: `prefs:root=DEVELOPER_SETTINGS#UIAppearanceSettings`
+- ଡିଭେଲପର୍‌ → ଯୋଡ଼ା ଯାଇଥିବା ଡିଭାଇସ୍‌ଗୁଡ଼ିକ: `prefs:root=DEVELOPER_SETTINGS#DTPairedDevicesGroup`
+- ଡିଭେଲପର୍‌ → ବିଶ୍ୱସନୀୟ କଣ୍ଟାକ୍ଟ୍‌ କ୍ଲିଅର୍‌ କରନ୍ତୁ: `prefs:root=DEVELOPER_SETTINGS#CLEAR_TRUSTED_COMPUTERS`
+- ଡିଭେଲପର୍‌ → ଲଗିଙ୍ଗ୍: `prefs:root=DEVELOPER_SETTINGS&path=DTInstrumentsSettings`
+- ଡିଭେଲପର୍‌ → UI ଅଟୋମେଶନ୍ | UI ଅଟୋମେଶନ୍ ସକ୍ଷମ କରନ୍ତୁ: `prefs:root=DEVELOPER_SETTINGS#UIAGroup`
+- ଡିଭେଲପର୍‌ → ନେଟ୍‌ୱର୍କିଂ: `prefs:root=DEVELOPER_SETTINGS#NLCGroup`
+- ଡିଭେଲପର୍‌ → ନେଟ୍‌ୱର୍କ୍‌ ଲିଙ୍କ୍ କଣ୍ଡିସନର୍: `prefs:root=DEVELOPER_SETTINGS&path=NLC`
+- ଡିଭେଲପର୍‌ → ଅତିରିକ୍ତ ଲଗିଂ: `prefs:root=DEVELOPER_SETTINGS#ADDITIONAL_LOGGING`
+- ଡିଭେଲପର୍‌ → HTTP ସେବାଗୁଡ଼ିକୁ ଅନୁମତି ଦିଅନ୍ତୁ: `prefs:root=DEVELOPER_SETTINGS#ALLOW_HTTP_SERVICES`
+- ଡିଭେଲପର୍‌ → ରେଟ୍ ସୀମିତ କରିବା ଅକ୍ଷମ କରନ୍ତୁ: `prefs:root=DEVELOPER_SETTINGS#DISABLE_RATE_LIMITING`
+- ଡିଭେଲପର୍‌ → NFC ପାସ୍ କୀ ବିକଳ୍ପ: `prefs:root=DEVELOPER_SETTINGS#NFC_PASS_KEY_OPTIONAL`
+- ଡିଭେଲପର୍‌ → ମିଡିଆ ସର୍ଭିସ୍ ଟେଷ୍ଟିଂ: `prefs:root=DEVELOPER_SETTINGS#MEDIA_SERVICES_TESTING`
+- ଡିଭେଲପର୍‌ → ମିଡିଆ ସେବାଗୁଡ଼ିକୁ ରୀସେଟ୍ କରନ୍ତୁ: `prefs:root=DEVELOPER_SETTINGS#RESET_MEDIA_SERVICES`
+- ଡିଭେଲପର୍‌ → News ଟେଷ୍ଟିଂ: `prefs:root=DEVELOPER_SETTINGS#NEWS_TESTING`
+- ଡିଭେଲପର୍‌ → ପରବର୍ତ୍ତୀ ଲଞ୍ଚ୍‌ରେ ଲୋକାଲ୍ ଡେଟା ରୀସେଟ୍ କରନ୍ତୁ: `prefs:root=DEVELOPER_SETTINGS#RESET_LOCAL_DATA_ON_NEXT_LAUNCH`
+- ଡିଭେଲପର୍‌ → ମିଡିଆ ପ୍ଲେୟର୍ ଫ୍ରେମୱର୍କ ଟେଷ୍ଟିଂ: `prefs:root=DEVELOPER_SETTINGS#RoutineSettingsGroup`
+- ଡିଭେଲପର୍‌ → ଖେଳିବାଯୋଗ୍ଯ ବିଷୟବସ୍ତୁ API: `prefs:root=DEVELOPER_SETTINGS&path=RoutineSettings`
+- ଡିଭେଲପର୍‌ → TV ପ୍ରୋଭାଇଡର୍‌: `prefs:root=DEVELOPER_SETTINGS&path=VideoSubscriberAccountSettings`
+- ଡିଭେଲପର୍‌ → ClassKit API: `prefs:root=DEVELOPER_SETTINGS&path=ClassKitSettings`
+- ଡିଭେଲପର୍‌ → CoreSpotlight ଟେଷ୍ଟିଂ: `prefs:root=DEVELOPER_SETTINGS#CORESPOTLIGHT_TESTING`
+- ଡିଭେଲପର୍‌ → ସମସ୍ତ ଆଇଟମ୍‌କୁ ରିଇଣ୍ଡେକ୍ସ କରନ୍ତୁ: `prefs:root=DEVELOPER_SETTINGS#REINDEX_ALL_ITEMS`
+- ଡିଭେଲପର୍‌ → ସମସ୍ତ ଆଇଟମ୍ ସହିତ ଚିହ୍ନଟକାରୀକୁ ରିଇଣ୍ଡେକ୍ସ କରନ୍ତୁ: `prefs:root=DEVELOPER_SETTINGS#REINDEX_ALL_ITEMS_WITH_IDENTIFIERS`
+- ଡିଭେଲପର୍‌ → ଶର୍ଟ୍‌କଟ୍‌ ଟେଷ୍ଟିଂ: `prefs:root=DEVELOPER_SETTINGS#SIRI_ACTIONS_TESTING`
+- ଡିଭେଲପର୍‌ → ସାମ୍ପ୍ରତିକ ଶର୍ଟ୍‌କଟ୍ ଡିସ୍‌ପ୍ଲେ କରନ୍ତୁ: `prefs:root=DEVELOPER_SETTINGS#DISPLAY_DONATIONS_SPOTLIGHT`
+- ଡିଭେଲପର୍‌ → ଆଗାମୀ ମିଡିଆ ଡିସ୍‌ପ୍ଲେ କରନ୍ତୁ: `prefs:root=DEVELOPER_SETTINGS#DISPLAY_UPCOMING_MEDIA`
+- ଡିଭେଲପର୍‌ → ଲକ୍ ସ୍କ୍ରୀନ୍‌ରେ ଡୋନେଶନ୍ ଡିସ୍‌ପ୍ଲେ କରନ୍ତୁ: `prefs:root=DEVELOPER_SETTINGS#DISPLAY_DONATIONS_LOCKSCREEN`
+- ଡିଭେଲପର୍‌ → ଶର୍ଟ୍‌କଟ୍‌କୁ Watch ସହ ବାଧ୍ୟତାମୂଳକ ଭାବରେ ସିଙ୍କ୍ କରନ୍ତୁ: `prefs:root=DEVELOPER_SETTINGS#SIRI_ACTIONS_SYNC_WATCHOS`
+- ଡିଭେଲପର୍‌ → MIDI-CI ଟେଷ୍ଟିଂ: `prefs:root=DEVELOPER_SETTINGS#MIDI_CI_API_BETA`
+- ଡିଭେଲପର୍‌ → MIDI-CI କୁ ସକ୍ଷମ କରନ୍ତୁ: `prefs:root=DEVELOPER_SETTINGS#MIDI_CI_API_BETA_ENABLE`
+- ଡିଭେଲପର୍‌ → ହ୍ୟାଙ୍ଗ୍ ଚିହ୍ନଟକରଣ: `prefs:root=DEVELOPER_SETTINGS#HANGTRACER_EXTERNAL_CONFIGURE`
+- Face ID ଓ ପାସ୍‌କୋଡ୍ | Touch ID ଓ ପାସ୍‌କୋଡ୍ | ପାସ୍‌କୋଡ୍: `prefs:root=PASSCODE`
+- Face ID ଓ ପାସ୍‌କୋଡ୍ | Touch ID ଓ ପାସ୍‌କୋଡ୍ | ପାସ୍‌କୋଡ୍ → ପାସ୍‌କୋଡ୍ ବନ୍ଦ କରନ୍ତୁ: `prefs:root=PASSCODE#PASSCODE_OFF`
+- Face ID ଓ ପାସ୍‌କୋଡ୍ | Touch ID ଓ ପାସ୍‌କୋଡ୍ | ପାସ୍‌କୋଡ୍ → ପାସ୍‌କୋଡ୍ ବଦଳାନ୍ତୁ: `prefs:root=PASSCODE#CHANGE_PASSCODE`
+- Face ID ଓ ପାସ୍‌କୋଡ୍ | Touch ID ଓ ପାସ୍‌କୋଡ୍ | ପାସ୍‌କୋଡ୍ → ପାସ୍‌କୋଡ୍ ଆବଶ୍ୟକ: `prefs:root=PASSCODE&path=PASSCODE_REQ`
+- Face ID ଓ ପାସ୍‌କୋଡ୍ | Touch ID ଓ ପାସ୍‌କୋଡ୍ | ପାସ୍‌କୋଡ୍ → ଭଏସ୍ ଡାଏଲ୍: `prefs:root=PASSCODE#VOICE_DIAL`
+- Face ID ଓ ପାସ୍‌କୋଡ୍ | Touch ID ଓ ପାସ୍‌କୋଡ୍ | ପାସ୍‌କୋଡ୍ → ଲକ୍ ଥିବା ବେଳେ ଆକ୍ସେସ୍ ପାଇଁ ଅନୁମତି ଦିଅନ୍ତୁ: `prefs:root=PASSCODE#ALLOW_ACCESS_WHEN_LOCKED`
+- Face ID ଓ ପାସ୍‌କୋଡ୍ | Touch ID ଓ ପାସ୍‌କୋଡ୍ | ପାସ୍‌କୋଡ୍ → ମେସେଜ୍‌ରେ ପ୍ରତ୍ଯୁତ୍ତର ଦିଅନ୍ତୁ: `prefs:root=PASSCODE#REPLY_WITH_MESSAGE_SWITCH`
+- Face ID ଓ ପାସ୍‌କୋଡ୍ | Touch ID ଓ ପାସ୍‌କୋଡ୍ | ପାସ୍‌କୋଡ୍ → ହୋମ୍ କଣ୍ଟ୍ରୋଲ୍: `prefs:root=PASSCODE#HOME_CONTROL_SWITCH`
+- Face ID ଓ ପାସ୍‌କୋଡ୍ | Touch ID ଓ ପାସ୍‌କୋଡ୍ | ପାସ୍‌କୋଡ୍ → ୱଲେଟ୍: `prefs:root=PASSCODE#WALLET_SWITCH`
+- Face ID ଓ ପାସ୍‌କୋଡ୍ | Touch ID ଓ ପାସ୍‌କୋଡ୍ | ପାସ୍‌କୋଡ୍ → ମିସ୍‌ ହୋଇଥିବା କଲ୍‌ଗୁଡ଼ିକୁ ରିଟର୍ନ୍ କଲ୍‌ କରନ୍ତୁ: `prefs:root=PASSCODE#RETURN_MISSED_CALLS_SWITCH`
+- Face ID ଓ ପାସ୍‌କୋଡ୍ | Touch ID ଓ ପାସ୍‌କୋଡ୍ | ପାସ୍‌କୋଡ୍ → ଡେଟା ଇରେଜ୍ କରନ୍ତୁ: `prefs:root=PASSCODE#WIPE_DEVICE`
+- Face ID ଓ ପାସ୍‌କୋଡ୍ | Touch ID ଓ ପାସ୍‌କୋଡ୍ | ପାସ୍‌କୋଡ୍ → Apple Watch ସହିତ ଅନ୍‌ଲକ୍‌ କରନ୍ତୁ: `prefs:root=PASSCODE#AUTO_UNLOCK_DEVICES_GROUP`
+- Face ID ଓ ପାସ୍‌କୋଡ୍ | Touch ID ଓ ପାସ୍‌କୋଡ୍ | ପାସ୍‌କୋଡ୍ → ଚୋରି ହେବା କ୍ଷେତ୍ରରେ ଡିଭାଇସ୍ ସୁରକ୍ଷା: `prefs:root=PASSCODE#DTO_GROUP_ID`
+- ଫୋନ୍‌: `prefs:root=Phone`
+- ଫୋନ୍‌ → ମୋ ନମ୍ବର୍: `prefs:root=Phone&path=My%20Number`
+- ଫୋନ୍‌ → ଇନ୍‌କମିଂ କଲ୍‌: `prefs:root=Phone&path=INCOMING_CALL_STYLE`
+- ଫୋନ୍‌ → କଲ୍ ଘୋଷଣା କରନ୍ତୁ: `prefs:root=Phone&path=ANNOUNCE_CALLS`
+- ଫୋନ୍‌ → SMS/କଲ୍ ରିପୋର୍ଟିଂ: `prefs:root=Phone&path=CLASSIFICATION_AND_REPORTING`
+- ଫୋନ୍‌ → ଟେକ୍ସ୍‌ଟ୍‌ରେ ପ୍ରତିକ୍ରିୟା ଦିଅନ୍ତୁ: `prefs:root=Phone&path=Respond%20with%20Text`
+- ଫୋନ୍‌ → କଲ୍ ଫର୍‌ୱର୍ଡିଂ: `prefs:root=Phone&path=Call%20Forwarding`
+- ଫୋନ୍‌ → କଲ୍ ଫର୍‌ୱର୍ଡିଂ → କଲ୍ ଫର୍‌ୱର୍ଡିଂ: `prefs:root=Phone&path=Call%20Forwarding#idMasterOnOffSwitch`
+- ଫୋନ୍‌ → କଲ୍ ୱେଟିଂ: `prefs:root=Phone&path=Call%20Waiting`
+- ଫୋନ୍‌ → ମୋର କଲର୍ ID ଦେଖାନ୍ତୁ: `prefs:root=Phone&path=Show%20My%20Caller%20ID`
+- ଫୋନ୍‌ → ମୋର କଲର୍ ID ଦେଖାନ୍ତୁ → ମୋର କଲର୍ ID ଦେଖାନ୍ତୁ: `prefs:root=Phone&path=Show%20My%20Caller%20ID/Primary`
+- ଫୋନ୍‌ → ମୋର କଲର୍ ID ଦେଖାନ୍ତୁ → ମୋର କଲର୍ ID ଦେଖାନ୍ତୁ → ମୋର କଲର୍ ID ଦେଖାନ୍ତୁ: `prefs:root=Phone&path=Show%20My%20Caller%20ID/Primary#Show%20My%20Caller%20ID`
+- ଫୋନ୍‌ → ଅଜଣା କଲର୍‌ଙ୍କୁ ନୀରବ କରନ୍ତୁ: `prefs:root=Phone#SILENCE_CALLS`
+- ଫୋନ୍‌ → ବ୍ଲକ୍ ହୋଇଥିବା କଣ୍ଟାକ୍ଟ୍‌ଗୁଡ଼ିକୁ: `prefs:root=Phone&path=SPECIFIER_IDENTIFIER_BLACKLIST`
+- ଫୋନ୍‌ → ଡାଏଲ୍ ସହାୟତା: `prefs:root=Phone&path=Dial%20Assist`
+- ନୋଟ୍‌: `prefs:root=NOTES` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes`
+- ନୋଟ୍‌ → ଡିଫଲ୍ଟ୍‌ ଆକାଉଣ୍ଟ୍: `prefs:root=NOTES&path=Default%20Account` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes/Default%20Account`
+- ନୋଟ୍‌ → ପାସ୍‌ୱର୍ଡ୍‌: `prefs:root=NOTES&path=Password` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes/Password`
+- ନୋଟ୍‌ → ଏହି ଅନୁଯାୟୀ ନୋଟ୍ ସର୍ଟ କରନ୍ତୁ: `prefs:root=NOTES&path=Sort%20Notes%20By` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes/Sort%20Notes%20By`
+- ନୋଟ୍‌ → ଏଥିରେ ନୂଆ ନୋଟ୍ ଆରମ୍ଭ ହୋଇଥାଏ: `prefs:root=NOTES&path=New%20Notes%20Start%20With` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes/New%20Notes%20Start%20With`
+- ନୋଟ୍‌ → ଯାଞ୍ଚ ହୋଇଥିବା ଆଇଟମ୍ ସର୍ଟ କରନ୍ତୁ: `prefs:root=NOTES&path=Sort%20Checked%20Items` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes/Sort%20Checked%20Items`
+- ନୋଟ୍‌ → ଲାଇନ୍ ଓ ଗ୍ରିଡ୍‌: `prefs:root=NOTES&path=Lines%20%26%20Grids` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes/Lines%20%26%20Grids`
+- ନୋଟ୍‌ → ଫଟୋରେ ସେଭ୍ କରନ୍ତୁ: `prefs:root=NOTES#Save%20to%20Photos` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes#Save%20to%20Photos#Save%20to%20Photos`
+- ନୋଟ୍‌ → ନୋଟ୍‌କୁ ଲକ୍ ସ୍କ୍ରୀନ୍‌ରୁ ଆକ୍ସେସ୍ କରନ୍ତୁ: `prefs:root=NOTES&path=Access%20Notes%20from%20Lock%20Screen` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes/Access%20Notes%20from%20Lock%20Screen`
+- ବହି: `prefs:root=IBOOKS`
+- ବହି → ଅନ୍‌ଲାଇନ୍ ବିଷୟବସ୍ତୁ: `prefs:root=IBOOKS#BKAllowOnlineContent`
+- ବହି → ସିଙ୍କ୍‌ ହେଉଛି: `prefs:root=IBOOKS#SYNCING`
+- ବହି → ରୀଡିଂ ନାଓ: `prefs:root=IBOOKS#BKLibrary.ReadingNow`
+- ବହି → iCloud Drive: `prefs:root=IBOOKS#BCSyncICloudDrive`
+- ବହି → ପଢ଼ିବା: `prefs:root=IBOOKS#READING`
+- ବହି → ପୂର୍ଣ୍ଣ ଯଥାର୍ଥତା: `prefs:root=IBOOKS#BKFullJustification`
+- ବହି → ଅଟୋ-ହାଇଫେନେସନ୍: `prefs:root=IBOOKS#BKAutoHyphenation`
+- ବହି → ଉଭୟ ମାର୍ଜିନ୍‌ ବୃଦ୍ଧି ହୁଏ: `prefs:root=IBOOKS#BKLeftTapTurnToNext`
+- ବହି → ପଢ଼ିବା ଲକ୍ଷ୍ଯ: `prefs:root=IBOOKS#READING_GOALS`
+- ବହି → ରୀଡିଂ ଗୋଲ୍ ଡେଟା କ୍ଲିଅର୍‌ କରନ୍ତୁ: `prefs:root=IBOOKS#BKReadingGoalsShouldClearDataKey`
+- ବହି → ସର୍ଚ୍ଚ୍‌ କରୁଛି: `prefs:root=IBOOKS#SEARCHING`
+- ବହି → ବହି ଦୋକାନ: `prefs:root=IBOOKS#BKIncludeBookStoreResultsInSearch`
+- ବହି → ଅଡିଓବୁକ୍: `prefs:root=IBOOKS#AUDIOBOOKS`
+- ବହି → ଫାଷ୍ଟ୍ ଫର୍‌ୱର୍ଡ୍ କରନ୍ତୁ: `prefs:root=IBOOKS&path=BKAudioBookSkipForward`
+- ବହି → ବ୍ୟାକ୍ କରନ୍ତୁ ବାଦ୍ ଦିଅନ୍ତୁ: `prefs:root=IBOOKS&path=BKAudioBookSkipBackward`
+- ବହି → ବାହ୍ୟ ନିୟନ୍ତ୍ରଣଗୁଡ଼ିକ: `prefs:root=IBOOKS#BKRemoteSkipInsteadOfNextTrackDefaultKey`
+- ବହି → ପରବର୍ତ୍ତୀ/ପୂର୍ବବର୍ତ୍ତୀ: `prefs:root=IBOOKS#Next/Previous`
+- ବହି → ଆଗକୁ/ପଛକୁ ଯାଆନ୍ତୁ: `prefs:root=IBOOKS#Skip%20Forward/Back`
+- ବହି → ଗୋପନୀୟତା: `prefs:root=IBOOKS#PRIVACY`
+- ବହି → ଚିହ୍ନଟକାରୀ ରୀସେଟ୍ କରନ୍ତୁ: `prefs:root=IBOOKS#BAResetAnalyticsUserID`
+- ବହି → ସ୍ୱୀକୃତି: `prefs:root=IBOOKS&path=Acknowledgements`
+- Game Center: `prefs:root=GAMECENTER`
+- ଜରୁରୀକାଳୀନ SOS: `prefs:root=EMERGENCY_SOS`
+- ଜରୁରୀକାଳୀନ SOS → ପାର୍ଶ୍ୱ ବଟନ୍ ସାହାଯ୍ୟରେ କଲ୍ କରନ୍ତୁ: `prefs:root=EMERGENCY_SOS#CALL_WITH_SIDE_BUTTON`
+- ଜରୁରୀକାଳୀନ SOS → ଅଟୋ କଲ୍: `prefs:root=EMERGENCY_SOS#AUTO_CALL`
+- ଜରୁରୀକାଳୀନ SOS → ଜରୁରୀକାଳୀନ କଣ୍ଟାକ୍ଟ୍‌: `prefs:root=EMERGENCY_SOS#EMERGENCY_CONTACTS`
+- ଜରୁରୀକାଳୀନ SOS → କାଉଣ୍ଟ୍‌ଡାଉନ୍ ସାଉଣ୍ଡ୍: `prefs:root=EMERGENCY_SOS#ALARM_SOUND_SWITCH`
+- ରିମାଇଣ୍ଡର୍‌: `prefs:root=REMINDERS`
+- ରିମାଇଣ୍ଡର୍‌ → ଡିଫଲ୍ଟ୍‌ ଲିଷ୍ଟ୍: `prefs:root=REMINDERS&path=DEFAULT_LIST`
+- ରିମାଇଣ୍ଡର୍‌ → ଡିଫଲ୍ଟ୍‌ ଲିଷ୍ଟ୍ → ରିମାଇଣ୍ଡର୍‌: `prefs:root=REMINDERS&path=DEFAULT_LIST#preferredDefaultListID`
+- ରିମାଇଣ୍ଡର୍‌ → ଆଜିର ନୋଟିଫିକେଶନ୍: `prefs:root=REMINDERS#todayNotificationFireTime`
+- ରିମାଇଣ୍ଡର୍‌ → ବିଳମ୍ବିତ ଭାବରେ ଦେଖାନ୍ତୁ: `prefs:root=REMINDERS#showRemindersAsOverdue`
+- ମୋବାଇଲ୍‌: `prefs:root=MOBILE_DATA_SETTINGS_ID`
+- ମୋବାଇଲ୍‌ → ମୋବାଇଲ୍‌ ଡେଟା ବିକଳ୍ପ: `prefs:root=MOBILE_DATA_SETTINGS_ID&path=CELLULAR_DATA_OPTIONS`
+- ମୋବାଇଲ୍‌ → ମୋବାଇଲ୍‌ ଡେଟା ବିକଳ୍ପ → ଲୋ ଡେଟା ମୋଡ୍‌: `prefs:root=MOBILE_DATA_SETTINGS_ID&path=CELLULAR_DATA_OPTIONS#Low%20Data%20Mode`
+- ମୋବାଇଲ୍‌ → ମୋବାଇଲ୍‌ ଡେଟା: `prefs:root=MOBILE_DATA_SETTINGS_ID&path=SHOW_ALL`
+- WLAN | Wi-Fi: `prefs:root=WIFI`
+- କଣ୍ଟାକ୍ଟ୍‌: `prefs:root=CONTACTS`
+- କଣ୍ଟାକ୍ଟ୍‌ → କଣ୍ଟାକ୍ଟ୍‌ ଆକ୍ସେସ୍ କରିବାକୁ ଅନୁମତି ଦିଅନ୍ତୁ: `prefs:root=CONTACTS#Allow%20Contacts%20To%20Access`
+- କଣ୍ଟାକ୍ଟ୍‌ → Siri: `prefs:root=CONTACTS&path=SIRI_AND_SEARCH`
+- କଣ୍ଟାକ୍ଟ୍‌ → ଅର୍ଡର୍ ସର୍ଟ କରନ୍ତୁ: `prefs:root=CONTACTS&path=ContactsSortOrder`
+- କଣ୍ଟାକ୍ଟ୍‌ → ଡିସ୍‌ପ୍ଲେ କ୍ରମ: `prefs:root=CONTACTS&path=PersonNameOrder`
+- କଣ୍ଟାକ୍ଟ୍‌ → ସଂକ୍ଷିପ୍ତ ନାମ: `prefs:root=CONTACTS&path=PersonShortName`
+- କଣ୍ଟାକ୍ଟ୍‌ → ସଂକ୍ଷିପ୍ତ ନାମ → ସଂକ୍ଷିପ୍ତ ନାମ: `prefs:root=CONTACTS&path=PersonShortName#Short%20Name`
+- କଣ୍ଟାକ୍ଟ୍‌ → ସଂକ୍ଷିପ୍ତ ନାମ → ଡାକନାମକୁ ପ୍ରାଥମିକତା ଦିଅନ୍ତୁ: `prefs:root=CONTACTS&path=PersonShortName#Prefer%20Nicknames`
+- କଣ୍ଟାକ୍ଟ୍‌ → ମୋ ସୂଚନା: `prefs:root=CONTACTS&path=MeCard`
+- କଣ୍ଟାକ୍ଟ୍‌ → SIM କଣ୍ଟାକ୍ଟ୍‌ ଇମ୍ପୋର୍ଟ କରନ୍ତୁ: `prefs:root=CONTACTS#SIMImport`
+- ଶର୍ଟ୍‌କଟ୍‌: `prefs:root=SHORTCUTS`
+- ଶର୍ଟ୍‌କଟ୍‌ → iCloud ସିଙ୍କ୍: `prefs:root=SHORTCUTS#WFCloudKitSyncEnabled`
+- ଶର୍ଟ୍‌କଟ୍‌ → ଶର୍ଟ୍‌କଟ୍‌ ଅର୍ଡର୍ ସିଙ୍କ୍ କରନ୍ତୁ: `prefs:root=SHORTCUTS#WFCloudKitSyncOrderEnabled`
+- ଶର୍ଟ୍‌କଟ୍‌ → ଆଇନଗତ ନୋଟିସ୍‌ଗୁଡ଼ିକ: `prefs:root=SHORTCUTS&path=Legal%20Notices`
+- ଟିଭି | ଭିଡିଓ: `prefs:root=TVAPP`
+- ଟିଭି | ଭିଡିଓ → ପ୍ଲେବ୍ଯାାକ୍ ପାଇଁ ମୋବାଇଲ୍ ଡେଟା ବ୍ଯବହାର କରନ୍ତୁ: `prefs:root=TVAPP#com.apple.videos%3AVideosUseCellularDataEnabledSetting`
+- ଟିଭି | ଭିଡିଓ → ପ୍ଲେବ୍ୟାକ୍ ଗୁଣବତ୍ତା: `prefs:root=TVAPP#com.apple.videos%3APlaybackQualityGroup`
+- ଟିଭି | ଭିଡିଓ → କ୍ରୟ ଓ ରେଣ୍ଟାଲ୍: `prefs:root=TVAPP&path=com.apple.videos%3APreferredPurchaseResolution`
+- ଟିଭି | ଭିଡିଓ → ହୋମ୍ ଶେୟରିଂ: `prefs:root=TVAPP#com.apple.videos%3AHomeSharingFooter`
+- ମ‍୍ୟୂଜିକ୍‌: `prefs:root=MUSIC`
+- ମ‍୍ୟୂଜିକ୍‌ → Apple Music ଦେଖାନ୍ତୁ: `prefs:root=MUSIC#com.apple.Music%3AAppleMusicEnabled`
+- ମ‍୍ୟୂଜିକ୍‌ → ପ୍ଲେଲିଷ୍ଟ ଗୀତଗୁଡ଼ିକୁ ଯୋଡ଼ନ୍ତୁ: `prefs:root=MUSIC#com.apple.Music%3AAddPlaylistSongsToMyMusicSwitch`
+- ମ‍୍ୟୂଜିକ୍‌ → ଷ୍ଟାର୍ ରେଟିଂ ଦେଖାନ୍ତୁ: `prefs:root=MUSIC#com.apple.Music%3AShowStarRatings`
+- ମ‍୍ୟୂଜିକ୍‌ → ଲାଇବ୍ରେରି ସିଙ୍କ୍ କରନ୍ତୁ: `prefs:root=MUSIC#com.apple.Music%3ACloudMusicLibraryEnabled`
+- ମ‍୍ୟୂଜିକ୍‌ → ମୋବାଇଲ୍‌ ଡେଟା: `prefs:root=MUSIC&path=com.apple.Music%3ACellularData`
+- ମ‍୍ୟୂଜିକ୍‌ → ଡାଉନ୍‌ଲୋଡ୍ ହୋଇଥିବା ମ୍ଯୂଜିକ୍‌: `prefs:root=MUSIC&path=com.apple.Music%3AMusicUsageLink`
+- ମ‍୍ୟୂଜିକ୍‌ → ଷ୍ଟୋରେଜ୍ ଅପ୍ଟିମାଇଜ୍ କରନ୍ତୁ: `prefs:root=MUSIC&path=com.apple.Music%3AOptimizeStorage`
+- ମ‍୍ୟୂଜିକ୍‌ → ସ୍ୱୟଂଚାଳିତ ଡାଉନ୍‌ଲୋଡ୍: `prefs:root=MUSIC#com.apple.Music%3AMusicAutomaticDownload`
+- ମ‍୍ୟୂଜିକ୍‌ → EQ: `prefs:root=MUSIC&path=com.apple.Music%3AEQ`
+- ମ‍୍ୟୂଜିକ୍‌ → ସାଉଣ୍ଡ୍ ଯାଞ୍ଚ: `prefs:root=MUSIC#com.apple.Music%3ASoundCheck`
+- ମ‍୍ୟୂଜିକ୍‌ → ଶୁଣିବା ହିଷ୍ଟ୍ରିକୁ ବ୍ୟବହାର କରନ୍ତୁ: `prefs:root=MUSIC#com.apple.Music%3APrivateListening`
+- କ୍ୟାମେରା: `prefs:root=CAMERA`
+- କ୍ୟାମେରା → ଫର୍ମାଟ୍: `prefs:root=CAMERA&path=CameraFormatsSettingsList`
+- କ୍ୟାମେରା → ଫର୍ମାଟ୍ → Apple ProRaw: `prefs:root=CAMERA&path=CameraFormatsSettingsList#CAMUserPreferenceEnableLinearDNGControl`
+- କ୍ୟାମେରା → Record Video: `prefs:root=CAMERA&path=Record%20Video`
+- କ୍ୟାମେରା → Record Video → HDR ଭିଡିଓ: `prefs:root=CAMERA&path=Record%20Video#HDR%20Video`
+- କ୍ୟାମେରା → ସେଟିଂସ୍‌ ସଂରକ୍ଷଣ କରନ୍ତୁ: `prefs:root=CAMERA&path=CameraPreserveSettingsSwitch`
+- କ୍ୟାମେରା → ସେଟିଂସ୍‌ ସଂରକ୍ଷଣ କରନ୍ତୁ → କ୍ୟାମେରା ମୋଡ୍: `prefs:root=CAMERA&path=CameraPreserveSettingsSwitch#CAMUserPreferencePreserveCaptureMode`
+- କ୍ୟାମେରା → ଗ୍ରିଡ୍‌: `prefs:root=CAMERA#CameraGridSwitch`
+- କ୍ୟାମେରା → QR କୋଡ୍ ସ୍କାନ୍ କରନ୍ତୁ: `prefs:root=CAMERA#CameraQRBannerSwitch`
+- କମ୍ପାସ୍‌: `prefs:root=COMPASS`
+- କମ୍ପାସ୍‌ → ବାସ୍ତବ ଉତ୍ତର ଦିଗ ବ୍ୟବହାର କରନ୍ତୁ: `prefs:root=COMPASS#USE_TRUE_NORTH`
+- ଏକ୍ସ୍‌ପୋଜର୍‌ ନୋଟିଫିକେଶନ୍‌: `prefs:root=EXPOSURE_NOTIFICATION`
+- Mail: `prefs:root=MAIL`
+- Mail → ଆକାଉଣ୍ଟ୍‌: `prefs:root=MAIL&path=ACCOUNTS`
+- Mail → ଆକାଉଣ୍ଟ୍‌ → ଆକାଉଣ୍ଟ୍ ଯୋଗ କରନ୍ତୁ: `prefs:root=MAIL&path=ACCOUNTS#ADD_ACCOUNT`
+- Mail → ଆକାଉଣ୍ଟ୍‌ → ନୂତନ ଡେଟା ପ୍ରାପ୍ତ କରନ୍ତୁ: `prefs:root=MAIL&path=ACCOUNTS#FETCH_NEW_DATA`
+- Mail → ପ୍ରୀଭ୍ୟୂ କରନ୍ତୁ: `prefs:root=MAIL&path=Preview`
+- Mail → To/Cc ଲେବଲ୍ ଦେଖାନ୍ତୁ: `prefs:root=MAIL#Show%20To/Cc%20Labels`
+- Mail → ବିକଳ୍ପଗୁଡ଼ିକୁ ସ୍ବାଇପ୍ କରନ୍ତୁ: `prefs:root=MAIL&path=Swipe%20Options`
+- Mail → ଡିଲିଟ୍ କରିବା ଆଗରୁ ପଚାରନ୍ତୁ: `prefs:root=MAIL#Ask%20Before%20Deleting`
+- Mail → ରିମୋଟ୍ ଇମେଜ୍ ଲୋଡ୍ କରନ୍ତୁ: `prefs:root=MAIL#Load%20Remote%20Images`
+- Mail → ଥ୍ରେଡ୍ ଦ୍ବାରା ବ୍ୟବସ୍ଥିତ: `prefs:root=MAIL#Organize%20by%20Thread`
+- Mail → ପଢିଥିବା ମେସେଜ୍ ସଂକ୍ଷିପ୍ତ କରନ୍ତୁ: `prefs:root=MAIL#Collapse%20Read%20Messages`
+- Mail → ସବୁଠାରୁ ନୂଆ ମେସେଜ୍‌ ଶୀର୍ଷରେ ଅଛି: `prefs:root=MAIL#Most%20Recent%20Message%20on%20Top`
+- Mail → ଥ୍ରେଡ୍ ସମ୍ପୂର୍ଣ୍ଣ କରନ୍ତୁ: `prefs:root=MAIL#Complete%20Threads`
+- Mail → ମ‍୍ୟୂଟ୍‌ କରାଯାଇଥିବା ଥ୍ରେଡ୍ ଆକ୍ସନ୍: `prefs:root=MAIL&path=Muted%20Thread%20Action`
+- Mail → ବ୍ଲକ୍ ହୋଇଥିବା ପ୍ରେରକଙ୍କୁ ଅଣଦେଖା କରନ୍ତୁ: `prefs:root=MAIL#Ignore%20Blocked%20Senders`
+- Mail → ଅବରୋଧ ହୋଇଥିବା ସେଣ୍ଡର୍ ବିକଳ୍ପ: `prefs:root=MAIL&path=Blocked%20Sender%20Options`
+- Mail → ବ୍ଲକ୍ ହୋଇଛି: `prefs:root=MAIL&path=Blocked`
+- Mail → ସର୍ବଦା ନିଜକୁ Bcc ରେ ରଖନ୍ତୁ: `prefs:root=MAIL#Always%20Bcc%20Myself`
+- Mail → ଠିକଣାଗୁଡ଼ିକୁ ଚିହ୍ନିତ କରନ୍ତୁ: `prefs:root=MAIL&path=Mark%20Addresses`
+- Mail → କୋଟ୍ ସ୍ତର ବୃଦ୍ଧି କରନ୍ତୁ: `prefs:root=MAIL&path=Increase%20Quote%20Level`
+- Mail → ପ୍ରତ୍ଯୁତ୍ତର ସହିତ ଆଟାଚ୍‌ମେଣ୍ଟ୍ ଅନ୍ତର୍ଭୁକ୍ତ କରନ୍ତୁ: `prefs:root=MAIL&path=Include%20Attachments%20with%20Replies`
+- Mail → ସ୍ବାକ୍ଷର: `prefs:root=MAIL&path=Signature`
+- Bluetooth: `prefs:root=Bluetooth`
+- ନ୍ଯୁଜ୍: `prefs:root=NEWS`
+- ନ୍ଯୁଜ୍ → ଷ୍ଟୋରି ପ୍ରୀଭ୍ଯୂ ଦେଖାନ୍ତୁ: `prefs:root=NEWS#show_excerpt_mode`
+- ନ୍ଯୁଜ୍ → ଆଜି ଷ୍ଟୋରୀକୁ ନିଷେଧ କରନ୍ତୁ: `prefs:root=NEWS#showStoriesFromFavoritesSpecifierID`
+- ନ୍ଯୁଜ୍ → ଗୋପନୀୟତା: `prefs:root=NEWS#Privacy`
+- ନ୍ଯୁଜ୍ → ଚିହ୍ନଟକାରୀ ରୀସେଟ୍ କରନ୍ତୁ: `prefs:root=NEWS#reset_identifier`
+- ନ୍ଯୁଜ୍ → ସ୍ୱୀକୃତି: `prefs:root=NEWS&path=Acknowledgements`
+- ଫଟୋ: `prefs:root=Photos`
+- ଫଟୋ → iCloud ଫଟୋ: `prefs:root=Photos#iCloudPhotosSwitch`
+- ଫଟୋ → ଷ୍ଟୋରେଜ୍ ଅପ୍ଟିମାଇଜ୍ କରନ୍ତୁ: `prefs:root=Photos#iCloudOptimizeStorageOption`
+- ଫଟୋ → ଡାଉନ୍‌ଲୋଡ୍ କରି ଅରିଜିନଲ୍‌କୁ ରଖନ୍ତୁ: `prefs:root=Photos#iCloudKeepOriginalsOption`
+- ଫଟୋ → ଶେୟର୍ କରାଯାଇଥିବା ଆଲ୍‌ବମ୍‌: `prefs:root=Photos#SharedStreamsSwitch`
+- ଫଟୋ → ମୋବାଇଲ୍‌ ଡେଟା: `prefs:root=Photos&path=CellularDataLinkList`
+- ଫଟୋ → ଅଟୋପ୍ଲେ ହୋଇଥିବା ଭିଡିଓ: `prefs:root=Photos#VideoAutoplaySwitch`
+- ଫଟୋ → ପୂର୍ଣ୍ଣ HDR ରେ ଦେଖନ୍ତୁ: `prefs:root=Photos#ImageModulationSwitch`
+- ଫଟୋ → ଛୁଟିଦିନର ଘଟଣାଗୁଡ଼ିକୁ ଦେଖାନ୍ତୁ: `prefs:root=Photos#MEMORIES_HOLIDAY_CALENDAR_EVENTS_SWITCH`
+- ଫଟୋ → Mac କିମ୍ବା PC କୁ ଟ୍ରାନ୍ସ୍‌ଫର୍‌ କରନ୍ତୁ: `prefs:root=Photos#TransferGroup`
+- ପଡ୍‌କାଷ୍ଟ: `prefs:root=PODCASTS`
+- ଗୋପନୀୟତା ଓ ସୁରକ୍ଷା: `prefs:root=Privacy` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity`
+- ଗୋପନୀୟତା ଓ ସୁରକ୍ଷା → ସ୍ବାସ୍ଥ୍ଯ: `prefs:root=Privacy&path=HEALTH` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/HEALTH`
+- ଗୋପନୀୟତା ଓ ସୁରକ୍ଷା → ସ୍ୱାସ୍ଥ୍ୟ ଡେଟା: `prefs:root=Privacy&path=HEALTH_DATA` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/HEALTH_DATA`
+- ଗୋପନୀୟତା ଓ ସୁରକ୍ଷା → ଲୋକେଶନ୍‌: `prefs:root=Privacy&path=LOCATION` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/LOCATION`
+- ଗୋପନୀୟତା ଓ ସୁରକ୍ଷା → ଲୋକେଶନ୍‌ → ମୋ ଲୋକେଶନ୍ ଶେୟର୍ କରନ୍ତୁ: `prefs:root=Privacy&path=LOCATION/LOCATION_SHARING` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/LOCATION/LOCATION_SHARING`
+- ଗୋପନୀୟତା ଓ ସୁରକ୍ଷା → କଣ୍ଟାକ୍ଟ୍‌: `prefs:root=Privacy&path=CONTACTS` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/CONTACTS`
+- ଗୋପନୀୟତା ଓ ସୁରକ୍ଷା → କ୍ୟାଲେଣ୍ଡର୍: `prefs:root=Privacy&path=CALENDARS` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/CALENDARS`
+- ଗୋପନୀୟତା ଓ ସୁରକ୍ଷା → ରିମାଇଣ୍ଡର୍‌: `prefs:root=Privacy&path=REMINDERS` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/REMINDERS`
+- ଗୋପନୀୟତା ଓ ସୁରକ୍ଷା → ଫଟୋ: `prefs:root=Privacy&path=PHOTOS` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/PHOTOS`
+- ଗୋପନୀୟତା ଓ ସୁରକ୍ଷା → Bluetooth ଶେୟରିଂ: `prefs:root=Privacy&path=BT_PERIPHERAL` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/BT_PERIPHERAL`
+- ଗୋପନୀୟତା ଓ ସୁରକ୍ଷା → ମାଇକ୍ରୋଫୋନ୍: `prefs:root=Privacy&path=MICROPHONE` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/MICROPHONE`
+- ଗୋପନୀୟତା ଓ ସୁରକ୍ଷା → ସ୍ପୀଚ୍ ଚିହ୍ନଟକରଣ: `prefs:root=Privacy&path=SPEECH_RECOGNITION` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/SPEECH_RECOGNITION`
+- ଗୋପନୀୟତା ଓ ସୁରକ୍ଷା → କ୍ୟାମେରା: `prefs:root=Privacy&path=CAMERA` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/CAMERA`
+- ଗୋପନୀୟତା ଓ ସୁରକ୍ଷା → HomeKit: `prefs:root=Privacy&path=WILLOW` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/WILLOW`
+- ଗୋପନୀୟତା ଓ ସୁରକ୍ଷା → ମିଡିଆ ଓ Apple Music: `prefs:root=Privacy&path=MEDIALIBRARY` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/MEDIALIBRARY`
+- ଗୋପନୀୟତା ଓ ସୁରକ୍ଷା → ଆନାଲିଟିକ୍ସ୍‌: `prefs:root=Privacy&path=PROBLEM_REPORTING` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/PROBLEM_REPORTING`
+- ଗୋପନୀୟତା ଓ ସୁରକ୍ଷା → ବିଜ୍ଞାପନ: `prefs:root=Privacy&path=ADVERTISING` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/ADVERTISING`
+- ଗୋପନୀୟତା ଓ ସୁରକ୍ଷା → ଫାଇଲ୍ ଓ ଫୋଲ୍ଡର୍‌: `prefs:root=Privacy&path=FILEACCESS` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/FILEACCESS`
+- ଗୋପନୀୟତା ଓ ସୁରକ୍ଷା → ଟ୍ରାକିଂ: `prefs:root=Privacy&path=USER_TRACKING` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/USER_TRACKING`
+- ଗୋପନୀୟତା ଓ ସୁରକ୍ଷା → ଆପ୍ ଗୋପନୀୟତା ରିପୋର୍ଟ୍‌: `prefs:root=Privacy&path=PRIVACY_REPORT` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/PRIVACY_REPORT`
+- ଗୋପନୀୟତା ଓ ସୁରକ୍ଷା → ଲକ୍‌ଡାଉନ୍ ମୋଡ୍: `prefs:root=Privacy#LOCKDOWN_MODE` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity#LOCKDOWN_MODE#LOCKDOWN_MODE`
+- ଗୋପନୀୟତା ଓ ସୁରକ୍ଷା → ସମ୍ୱେଦନଶୀଳ ବିଷୟବସ୍ତୁ: `prefs:root=Privacy#NUDITY_DETECTION` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity#NUDITY_DETECTION#NUDITY_DETECTION`
+- FaceTime: `prefs:root=FACETIME`
+- ସ୍କ୍ରୀନ୍ ଟାଇମ୍: `prefs:root=SCREEN_TIME`
+- ସାଉଣ୍ଡ୍ ଓ ହାପ୍‌ଟିକ୍ସ୍‌ | ସାଉଣ୍ଡ୍‌: `prefs:root=Sounds`
+- ସାଉଣ୍ଡ୍ ଓ ହାପ୍‌ଟିକ୍ସ୍‌ | ସାଉଣ୍ଡ୍‌ → ହେଡ୍‌ଫୋନ୍ ନିରାପତ୍ତା: `prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING`
+- ସାଉଣ୍ଡ୍ ଓ ହାପ୍‌ଟିକ୍ସ୍‌ | ସାଉଣ୍ଡ୍‌ → ହେଡ୍‌ଫୋନ୍ ନିରାପତ୍ତା → Lightning ଆଡାପ୍ଟର୍: `prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING/HEADPHONE_LIGHTNING_ADAPTERS`
+- ସାଉଣ୍ଡ୍ ଓ ହାପ୍‌ଟିକ୍ସ୍‌ | ସାଉଣ୍ଡ୍‌ → ହେଡ୍‌ଫୋନ୍ ନିରାପତ୍ତା → ହେଡ୍‌ଫୋନ୍ ବିଜ୍ଞପ୍ତି: `prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING#SHSHeadphoneWeeklyNotificationsKey`
+- ସାଉଣ୍ଡ୍ ଓ ହାପ୍‌ଟିକ୍ସ୍‌ | ସାଉଣ୍ଡ୍‌ → ହେଡ୍‌ଫୋନ୍ ନିରାପତ୍ତା → ତୀବ୍ର ଶବ୍ଦ ହ୍ରାସ କରନ୍ତୁ: `prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING#SHSHeadphoneLevelLimitSwitchKey`
+- ସାଉଣ୍ଡ୍ ଓ ହାପ୍‌ଟିକ୍ସ୍‌ | ସାଉଣ୍ଡ୍‌ → ସାଉଣ୍ଡ୍ ଇଫେକ୍ଟ: `prefs:root=Sounds&path=SOUND_EFFECTS`
+- ସାଉଣ୍ଡ୍ ଓ ହାପ୍‌ଟିକ୍ସ୍‌ | ସାଉଣ୍ଡ୍‌ → ରିଙ୍ଗର୍ ଏବଂ ଆଲର୍ଟ୍‌: `prefs:root=Sounds#RINGER_AND_ALERT_GROUP`
+- ସାଉଣ୍ଡ୍ ଓ ହାପ୍‌ଟିକ୍ସ୍‌ | ସାଉଣ୍ଡ୍‌ → ବଟନ୍‌ଗୁଡ଼ିକ ସହାୟତାରେ ବଦଳାନ୍ତୁ: `prefs:root=Sounds#CHANGE_WITH_BUTTONS`
+- ସାଉଣ୍ଡ୍ ଓ ହାପ୍‌ଟିକ୍ସ୍‌ | ସାଉଣ୍ଡ୍‌ → ସାଉଣ୍ଡ୍ ଏବଂ କମ୍ପନ ଶୈଳୀ: `prefs:root=Sounds#SOUNDS_ALERT_GROUP`
+- ସାଉଣ୍ଡ୍ ଓ ହାପ୍‌ଟିକ୍ସ୍‌ | ସାଉଣ୍ଡ୍‌ → ରିଂଟୋନ୍: `prefs:root=Sounds&path=Ringtone`
+- ସାଉଣ୍ଡ୍ ଓ ହାପ୍‌ଟିକ୍ସ୍‌ | ସାଉଣ୍ଡ୍‌ → ଟେକ୍ସ୍‌ଟ୍‌ ଟୋନ୍: `prefs:root=Sounds&path=Text_Messages`
+- ସାଉଣ୍ଡ୍ ଓ ହାପ୍‌ଟିକ୍ସ୍‌ | ସାଉଣ୍ଡ୍‌ → ନୂଆ ଭଏସ୍‌ମେଲ୍: `prefs:root=Sounds&path=Voicemail`
+- ସାଉଣ୍ଡ୍ ଓ ହାପ୍‌ଟିକ୍ସ୍‌ | ସାଉଣ୍ଡ୍‌ → ନୂଆ Mail: `prefs:root=Sounds&path=NEW_MAIL`
+- ସାଉଣ୍ଡ୍ ଓ ହାପ୍‌ଟିକ୍ସ୍‌ | ସାଉଣ୍ଡ୍‌ → ପଠାଯାଇଥିବା Mail: `prefs:root=Sounds&path=SENT_MAIL`
+- ସାଉଣ୍ଡ୍ ଓ ହାପ୍‌ଟିକ୍ସ୍‌ | ସାଉଣ୍ଡ୍‌ → କ୍ୟାଲେଣ୍ଡର୍ ଆଲର୍ଟ୍‌: `prefs:root=Sounds&path=Calendar%20Alarm`
+- ସାଉଣ୍ଡ୍ ଓ ହାପ୍‌ଟିକ୍ସ୍‌ | ସାଉଣ୍ଡ୍‌ → ରିମାଇଣ୍ଡର୍ ଆଲର୍ଟ୍‌: `prefs:root=Sounds&path=Reminder%20Alerts`
+- ସାଉଣ୍ଡ୍ ଓ ହାପ୍‌ଟିକ୍ସ୍‌ | ସାଉଣ୍ଡ୍‌ → କୀ’ବୋର୍ଡ୍‌ କ୍ଲିକ୍‌: `prefs:root=Sounds#KEYBOARD_SOUND_SWITCH`
+- ସାଉଣ୍ଡ୍ ଓ ହାପ୍‌ଟିକ୍ସ୍‌ | ସାଉଣ୍ଡ୍‌ → ଲକ୍ ସାଉଣ୍ଡ୍: `prefs:root=Sounds#LOCK_SOUND_SWITCH`
+- ସାଉଣ୍ଡ୍ ଓ ହାପ୍‌ଟିକ୍ସ୍‌ | ସାଉଣ୍ଡ୍‌ → ପର୍ସନଲାଇଜ୍‌ ହୋଇଥିବା ସ୍ପେଶିୟଲ୍ ଅଡିଓ: `prefs:root=Sounds&path=Personalized%20Spatial%20Audio`
+- Apple Pencil: `prefs:root=Pencil`
+- Apple Pencil → Apple Pencil: `prefs:root=Pencil#PrefersPencilDraws`
+- Apple Pencil → Apple Pencil: `prefs:root=Pencil#PencilTextInput`
+- ମେସେଜ୍‌ଗୁଡ଼ିକ: `prefs:root=MESSAGES`
+- ଷ୍ଟକ୍‌: `prefs:root=STOCKS`
+- ଷ୍ଟକ୍‌ → ଗୋପନୀୟତା: `prefs:root=STOCKS#Privacy`
+- ଷ୍ଟକ୍‌ → ଚିହ୍ନଟକାରୀ ରୀସେଟ୍ କରନ୍ତୁ: `prefs:root=STOCKS#reset_identifier`
+- ଅନୁବାଦ କରନ୍ତୁ: `prefs:root=TRANSLATE`
+- ଅନୁବାଦ କରନ୍ତୁ → ଡିଭାଇସ୍ ମୋଡ୍‌ରେ: `prefs:root=TRANSLATE#OnDeviceOnly`
+- Siri: `prefs:root=SIRI`
+- Siri → ଲକ୍ ଥିବା ବେଳେ Siriକୁ ଅନୁମତି ଦିଅନ୍ତୁ: `prefs:root=SIRI#ASSISTANT_LOCK_SCREEN_ACCESS`
+- Siri → ଭାଷା: `prefs:root=SIRI&path=LANGUAGE_ID`
+- Siri → Siri ଭଏସ୍: `prefs:root=SIRI&path=VOICE_ID`
+- Siri → ଭଏସ୍ ମତାମତ: `prefs:root=SIRI&path=VOICE_FEEDBACK_ID`
+- Siri → ମୋ ସୂଚନା: `prefs:root=SIRI&path=MY_INFO`
+- ସ୍ବାସ୍ଥ୍ଯ | ସ୍ୱାସ୍ଥ୍ୟ ଡେଟା: `prefs:root=HEALTH`
+- App Store: `prefs:root=STORE`
+- App Store → ସ୍ୱୟଂଚାଳିତ ଡାଉନ୍‌ଲୋଡ୍: `prefs:root=STORE#Automatic%20Downloads`
+- App Store → ଆପ୍ ଅପ୍‌ଡେଟ୍‌: `prefs:root=STORE#App%20Updates`
+- App Store → ଆପ୍ ଡାଉନ୍‌ଲୋଡ୍: `prefs:root=STORE&path=App%20Downloads`
+- App Store → ଭିଡିଓ ଅଟୋପ୍ଲେ: `prefs:root=STORE&path=Video%20Autoplay`
+- App Store → ଇନ୍-ଆପ୍ ମୂଲ୍ଯାଙ୍କନ ଏବଂ ସମୀକ୍ଷା: `prefs:root=STORE#In-App%20Ratings%20&%20Reviews`
+- ଏଅରପ୍ଲେନ୍ ମୋଡ୍: `prefs:root=ROOT#AIRPLANE_MODE`

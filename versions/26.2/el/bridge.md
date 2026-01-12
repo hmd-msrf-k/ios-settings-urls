@@ -1,0 +1,518 @@
+- Οξυγόνωση: `bridge:root=com.apple.OxygenSaturationSettings`
+- Πλύσιμο χεριών: `bridge:root=com.apple.BrookBridgeSettings`
+- Πλύσιμο χεριών → Επιτρέπονται γνωστοποιήσεις: `bridge:root=com.apple.BrookBridgeSettings#ALLOW_NOTIFICATIONS_ID`
+- Πλύσιμο χεριών → Αποστολή στο Κέντρο γνωστοπ.: `bridge:root=com.apple.BrookBridgeSettings#SEND_TO_NOTIFICATION_CENTER_ID`
+- Πλύσιμο χεριών → Γνωστοποιήσεις ανενεργές: `bridge:root=com.apple.BrookBridgeSettings#NOTIFICATIONS_OFF_ID`
+- Πλύσιμο χεριών → Ομάδες γνωστ/σεων: `bridge:root=com.apple.BrookBridgeSettings&path=NOTIFICATION_COALESCING_ID`
+- Πλύσιμο χεριών → Χρονοδιακόπτης πλυσίματος χεριών: `bridge:root=com.apple.BrookBridgeSettings#HANDWASHING_TIMER_ID`
+- Οθόνη και φωτεινότητα: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID`
+- Οθόνη και φωτεινότητα → Διάρκεια αφύπνισης: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=WAKE_DURATION_SELECTION_KEY`
+- Οθόνη και φωτεινότητα → Διάρκεια αφύπνισης → ΜΕ ΑΓΓΙΓΜΑ: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=WAKE_DURATION_SELECTION_KEY#ON_TAP_GROUP_ID`
+- Οθόνη και φωτεινότητα → Διάρκεια αφύπνισης → Αφύπνιση για 15 δευτερόλεπτα: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=WAKE_DURATION_SELECTION_KEY#SHORT_WAKE_ID`
+- Οθόνη και φωτεινότητα → Διάρκεια αφύπνισης → Αφύπνιση για 70 δευτερόλεπτα: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=WAKE_DURATION_SELECTION_KEY#LONG_WAKE_ID`
+- Οθόνη και φωτεινότητα → Φωτεινότητα: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID#BRIGHTNESS_LABEL`
+- Οθόνη και φωτεινότητα → Πάντα ενεργή: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID`
+- Οθόνη και φωτεινότητα → Πάντα ενεργή → Πάντα ενεργή: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID#TRITIUM_ID`
+- Οθόνη και φωτεινότητα → Πάντα ενεργή → ΚΑΤΕΒΑΣΜΕΝΟΣ ΚΑΡΠΟΣ: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID#TRITIUM_PRIVACY_GROUP_ID`
+- Οθόνη και φωτεινότητα → Πάντα ενεργή → Εμφάνιση Ζωντανών δραστηριοτήτων: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_LIVE_ACTIVITIES_ID`
+- Οθόνη και φωτεινότητα → Πάντα ενεργή → Εμφάνιση Ζωντανών δραστηριοτήτων → Εμφάνιση Ζωντανών δραστηριοτήτων: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_LIVE_ACTIVITIES_ID#APP_BACKLIGHT_PRIVACY_GLOBAL_APP`
+- Οθόνη και φωτεινότητα → Πάντα ενεργή → Εμφάνιση εφαρμογών: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_APPS_ID`
+- Οθόνη και φωτεινότητα → Πάντα ενεργή → Εμφάνιση εφαρμογών → Εμφάνιση εφαρμογών: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_APPS_ID#APP_BACKLIGHT_PRIVACY_GLOBAL_APP`
+- Οθόνη και φωτεινότητα → Πάντα ενεργή → Εμφάνιση εφαρμογών → ΕΦΑΡΜΟΓΕΣ: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_APPS_ID#APP_GROUP_ID`
+- Οθόνη και φωτεινότητα → Πάντα ενεργή → Εμφάνιση εφαρμογών → App Store: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_APPS_ID#com.apple.AppStore`
+- Οθόνη και φωτεινότητα → Πάντα ενεργή → Εμφάνιση εφαρμογών → Nike Run Club: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_APPS_ID#com.nike.nikeplus-gps.watchkitapp`
+- Οθόνη και φωτεινότητα → Πάντα ενεργή → Εμφάνιση εφαρμογών → Τηλέφωνο: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_APPS_ID#com.apple.NanoPhone`
+- Οθόνη και φωτεινότητα → Πάντα ενεργή → Εμφάνιση εφαρμογών → Φωτογραφίες: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_APPS_ID#com.apple.NanoPhotos`
+- Οθόνη και φωτεινότητα → Πάντα ενεργή → Εμφάνιση εφαρμογών → Ρυθμίσεις: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_APPS_ID#com.apple.NanoSettings`
+- Οθόνη και φωτεινότητα → Πάντα ενεργή → Εμφάνιση εφαρμογών → Άγγιγμα για Radar: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_APPS_ID#com.apple.NanoTapToRadar`
+- Οθόνη και φωτεινότητα → Πάντα ενεργή → Εμφάνιση Γνωστοποιήσεων: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID`
+- Οθόνη και φωτεινότητα → Πάντα ενεργή → Εμφάνιση Γνωστοποιήσεων → Εμφάνιση Γνωστοποιήσεων: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#APP_BACKLIGHT_PRIVACY_GLOBAL_APP`
+- Οθόνη και φωτεινότητα → Πάντα ενεργή → Εμφάνιση Γνωστοποιήσεων → ΕΦΑΡΜΟΓΕΣ APPLE WATCH | ΕΦΑΡΜΟΓΕΣ IPHONE: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#APP_GROUP_ID`
+- Οθόνη και φωτεινότητα → Πάντα ενεργή → Εμφάνιση Γνωστοποιήσεων → App Store: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.AppStore`
+- Οθόνη και φωτεινότητα → Πάντα ενεργή → Εμφάνιση Γνωστοποιήσεων → Nike Run Club: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.nike.nikeplus-gps.watchkitapp`
+- Οθόνη και φωτεινότητα → Πάντα ενεργή → Εμφάνιση Γνωστοποιήσεων → Τηλέφωνο: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.NanoPhone`
+- Οθόνη και φωτεινότητα → Πάντα ενεργή → Εμφάνιση Γνωστοποιήσεων → Φωτογραφίες: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.NanoPhotos`
+- Οθόνη και φωτεινότητα → Πάντα ενεργή → Εμφάνιση Γνωστοποιήσεων → Ρυθμίσεις: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.NanoSettings`
+- Οθόνη και φωτεινότητα → Πάντα ενεργή → Εμφάνιση Γνωστοποιήσεων → Άγγιγμα για Radar: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.NanoTapToRadar`
+- Οθόνη και φωτεινότητα → Πάντα ενεργή → Εμφάνιση Γνωστοποιήσεων → Ρυθμίσεις προσβασιμότητας: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.accessibility.TeachableMomentsNotifications`
+- Οθόνη και φωτεινότητα → Πάντα ενεργή → Εμφάνιση Γνωστοποιήσεων → Βιβλία: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.iBooks`
+- Οθόνη και φωτεινότητα → Πάντα ενεργή → Εμφάνιση Γνωστοποιήσεων → Caffè Macs: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.ist.CaffeMacsApp`
+- Οθόνη και φωτεινότητα → Πάντα ενεργή → Εμφάνιση Γνωστοποιήσεων → Ημερολόγιο: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.mobilecal`
+- Οθόνη και φωτεινότητα → Πάντα ενεργή → Εμφάνιση Γνωστοποιήσεων → Κάμερα: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.camera`
+- Οθόνη και φωτεινότητα → Πάντα ενεργή → Εμφάνιση Γνωστοποιήσεων → Σύνδεση: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.ist.AppleConnect`
+- Οθόνη και φωτεινότητα → Πάντα ενεργή → Εμφάνιση Γνωστοποιήσεων → Πρόγραμμα αναφοράς διαγνωστικών: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.DiagnosticsReporter`
+- Οθόνη και φωτεινότητα → Πάντα ενεργή → Εμφάνιση Γνωστοποιήσεων → Εσωτερικά σχόλια: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.FeedbackInternal`
+- Οθόνη και φωτεινότητα → Πάντα ενεργή → Εμφάνιση Γνωστοποιήσεων → Άθληση: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.Fitness`
+- Οθόνη και φωτεινότητα → Πάντα ενεργή → Εμφάνιση Γνωστοποιήσεων → Game Center: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.gamecenter`
+- Οθόνη και φωτεινότητα → Πάντα ενεργή → Εμφάνιση Γνωστοποιήσεων → Υγεία: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.Health`
+- Οθόνη και φωτεινότητα → Πάντα ενεργή → Εμφάνιση Γνωστοποιήσεων → Livability: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.Livability`
+- Οθόνη και φωτεινότητα → Πάντα ενεργή → Εμφάνιση Γνωστοποιήσεων → Mail: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.mobilemail`
+- Οθόνη και φωτεινότητα → Πάντα ενεργή → Εμφάνιση Γνωστοποιήσεων → Μηνύματα: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.MobileSMS`
+- Οθόνη και φωτεινότητα → Πάντα ενεργή → Εμφάνιση Γνωστοποιήσεων → Σελφ-σέρβις: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.jamfsoftware.selfservice`
+- Οθόνη και φωτεινότητα → Πάντα ενεργή → Εμφάνιση Γνωστοποιήσεων → Γνωστοποιήσεις Ανίχνευσης: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.FindMySafetyAlertsNotifications`
+- Οθόνη και φωτεινότητα → Πάντα ενεργή → Εμφάνιση Γνωστοποιήσεων → Καιρός: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.weather`
+- Οθόνη και φωτεινότητα → Πάντα ενεργή → Εμφάνιση δεδομένων πολυπλοκοτήτων: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_COMPLICATIONS_DATA_ID`
+- Οθόνη και φωτεινότητα → Πάντα ενεργή → Εμφάνιση δεδομένων πολυπλοκοτήτων → Εμφάνιση δεδομένων πολυπλοκοτήτων: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_COMPLICATIONS_DATA_ID#Show%20Complication%20Data`
+- Οθόνη και φωτεινότητα → Πάντα ενεργή → Εμφάνιση δεδομένων πολυπλοκοτήτων → Εφαρμογές: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_COMPLICATIONS_DATA_ID#Apps`
+- Οθόνη και φωτεινότητα → Πάντα ενεργή → Εμφάνιση δεδομένων πολυπλοκοτήτων → Φόρτωση…: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_COMPLICATIONS_DATA_ID#Loading%E2%80%A6`
+- Οθόνη και φωτεινότητα → Πάντα ενεργή → Εμφάνιση δεδομένων πολυπλοκοτήτων → Siri: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_COMPLICATIONS_DATA_ID#Siri`
+- Οθόνη και φωτεινότητα → Πάντα ενεργή → Εμφάνιση δεδομένων πολυπλοκοτήτων → Κάρτες Siri: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_COMPLICATIONS_DATA_ID#Siri%20Cards`
+- Οθόνη και φωτεινότητα → Μέγεθος κειμένου: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID#TEXT_SIZE`
+- Οθόνη και φωτεινότητα → Έντονο κείμενο: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID#BOLD_TEXT`
+- Οθόνη και φωτεινότητα → Αφύπνιση: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID#Wake`
+- Οθόνη και φωτεινότητα → Αφύπνιση με σήκωμα καρπού: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID#WAKE_SCREEN_ON_WRIST_RAISE_SWITCH_ID`
+- Οθόνη και φωτεινότητα → Αφύπνιση με περιστροφή Crown: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID#WAKE_SCREEN_ON_CROWN_UP_SWITCH_ID`
+- Φωτογραφίες: `bridge:root=com.apple.NanoPhotosBridgeSettings`
+- Φωτογραφίες → Συγχρονισμός φωτογραφιών: `bridge:root=com.apple.NanoPhotosBridgeSettings#Photo%20Syncing`
+- Φωτογραφίες → Αναμνήσεις: `bridge:root=com.apple.NanoPhotosBridgeSettings#Memories`
+- Φωτογραφίες → Συγχρονισμός αναμνήσεων: `bridge:root=com.apple.NanoPhotosBridgeSettings#Sync%20Memories`
+- Φωτογραφίες → Προτεινόμενες φωτογραφίες: `bridge:root=com.apple.NanoPhotosBridgeSettings#Featured%20Photos`
+- Φωτογραφίες → Συγχρονισμός προτεινόμενων φωτογραφιών: `bridge:root=com.apple.NanoPhotosBridgeSettings#Sync%20Featured%20Photos`
+- Φωτογραφίες → Άλμπουμ: `bridge:root=com.apple.NanoPhotosBridgeSettings#Album`
+- Φωτογραφίες → Συγχρονισμός άλμπουμ: `bridge:root=com.apple.NanoPhotosBridgeSettings&path=Sync%20Album`
+- Φωτογραφίες → Όριο φωτογραφιών: `bridge:root=com.apple.NanoPhotosBridgeSettings&path=Photos%20Limit`
+- Φωτογραφίες → Ρυθμίσεις γνωστοποιήσεων: `bridge:root=com.apple.NanoPhotosBridgeSettings#MIRROR_RADIO_GROUP_ID`
+- Φωτογραφίες → Κατοπτρισμός του iPhone: `bridge:root=com.apple.NanoPhotosBridgeSettings#MIRROR_MY_COMPANION_ID`
+- Φωτογραφίες → Προσαρμογή: `bridge:root=com.apple.NanoPhotosBridgeSettings#CUSTOM_ID`
+- Πολυπλοκότητες: `bridge:root=COMPLICATIONS`
+- Κέντρο ελέγχου: `bridge:root=CONTROL_CENTER_ID`
+- Κέντρο ελέγχου → Επαναφορά της διάταξης του Κέντρου ελέγχου: `bridge:root=CONTROL_CENTER_ID#CONTROL_CENTER_RESET_ID`
+- Προβολή εφαρμογών: `bridge:root=APP_VIEW_ID`
+- Γενικά: `bridge:root=GENERAL_LINK`
+- Γενικά → Πληροφορίες: `bridge:root=GENERAL_LINK&path=ABOUT`
+- Γενικά → Πληροφορίες → Όνομα: `bridge:root=GENERAL_LINK&path=ABOUT/NAME_CELL_ID`
+- Γενικά → Πληροφορίες → Έκδοση watchOS: `bridge:root=GENERAL_LINK&path=ABOUT#OS_VERSION_CELL_ID`
+- Γενικά → Πληροφορίες → Όνομα μοντέλου: `bridge:root=GENERAL_LINK&path=ABOUT#DEVICE_MARKETING_NAME_CELL_ID`
+- Γενικά → Πληροφορίες → Λεπτομέρειες μοντέλου: `bridge:root=GENERAL_LINK&path=ABOUT#DEVICE_DETAIL_CELL_ID`
+- Γενικά → Πληροφορίες → Αριθμός μοντέλου: `bridge:root=GENERAL_LINK&path=ABOUT#DEVICE_MODEL_CELL_ID`
+- Γενικά → Πληροφορίες → Σειριακός αριθμός: `bridge:root=GENERAL_LINK&path=ABOUT#DEVICE_SERIAL_NUMBER_CELL_ID`
+- Γενικά → Πληροφορίες → Τραγούδια: `bridge:root=GENERAL_LINK&path=ABOUT#SONGS_CELL_ID`
+- Γενικά → Πληροφορίες → Φωτογραφίες: `bridge:root=GENERAL_LINK&path=ABOUT#PHOTOS_CELL_ID`
+- Γενικά → Πληροφορίες → Εφαρμογές: `bridge:root=GENERAL_LINK&path=ABOUT#APPLICATIONS_CELL_ID`
+- Γενικά → Πληροφορίες → Χωρητικότητα: `bridge:root=GENERAL_LINK&path=ABOUT#STORAGE_CAPACITY_CELL_ID`
+- Γενικά → Πληροφορίες → Διαθέσιμος χώρος: `bridge:root=GENERAL_LINK&path=ABOUT#STORAGE_AVAILABLE_CELL_ID`
+- Γενικά → Πληροφορίες → Φορέας: `bridge:root=GENERAL_LINK&path=ABOUT#CARRIER_CELL_ID`
+- Γενικά → Πληροφορίες → Bluetooth: `bridge:root=GENERAL_LINK&path=ABOUT#DEVICE_BLUETOOTH_ADDRESS_CELL_ID`
+- Γενικά → Πληροφορίες → IMEI: `bridge:root=GENERAL_LINK&path=ABOUT#IMEI_CELL_ID`
+- Γενικά → Πληροφορίες → ICCID: `bridge:root=GENERAL_LINK&path=ABOUT#ICCID_CELL_ID`
+- Γενικά → Πληροφορίες → EID: `bridge:root=GENERAL_LINK&path=ABOUT/EID_CELL_ID`
+- Γενικά → Πληροφορίες → SEID: `bridge:root=GENERAL_LINK&path=ABOUT/DEVICE_SEID_CELL_ID`
+- Γενικά → Πληροφορίες → Νομικά: `bridge:root=GENERAL_LINK&path=ABOUT/LEGAL_CELL_ID`
+- Γενικά → Πληροφορίες → Οδηγός χρήσης Apple Watch : `bridge:root=GENERAL_LINK&path=ABOUT#SHOW_MANUAL_CELL_ID`
+- Γενικά → Ενημέρωση λογισμικού: `bridge:root=GENERAL_LINK&path=SOFTWARE_UPDATE_LINK`
+- Γενικά → Αυτόματη εγκατάσταση: `bridge:root=GENERAL_LINK#AUTO_APP_INSTALL_SWITCH_ID`
+- Γενικά → Χρήση σε πτήση: `bridge:root=GENERAL_LINK&path=AIRPLANE_MODE_ID`
+- Γενικά → Συγκέντρωση: `bridge:root=GENERAL_LINK&path=FOCUS_ID`
+- Γενικά → Συγκέντρωση → Κατοπτρισμός του iPhone: `bridge:root=GENERAL_LINK&path=FOCUS_ID#Mirror%20my%20iPhone`
+- Γενικά → Προσανατολισμός Watch: `bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION_ID`
+- Γενικά → Προσανατολισμός Watch → Θέση του Apple Watch: `bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION_ID#WRIST_CHOICE_ID`
+- Γενικά → Προσανατολισμός Watch → Αριστερός καρπός: `bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION_ID#LEFT_HAND_ID`
+- Γενικά → Προσανατολισμός Watch → Δεξιός καρπός: `bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION_ID#RIGHT_HAND_ID`
+- Γενικά → Προσανατολισμός Watch → Digital Crown αριστερά: `bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION_ID#LISA_ON_LEFT_ID`
+- Γενικά → Προσανατολισμός Watch → Digital Crown δεξιά: `bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION_ID#LISA_ON_RIGHT_ID`
+- Γενικά → Λογαριασμός Apple: `bridge:root=GENERAL_LINK&path=LINK_WITH_ICLOUD_LINK`
+- Γενικά → Ενεργοποίηση της Υπαγόρευσης: `bridge:root=GENERAL_LINK#DICTATION_CELL_ID`
+- Γενικά → Αυτόματη στίξη: `bridge:root=GENERAL_LINK#DICTATION_AUTO_PUNCTUATION_CELL_ID`
+- Γενικά → Ενεργοποίηση Handoff: `bridge:root=GENERAL_LINK#CONTINUITY_ID`
+- Γενικά → Λειτουργία κομοδίνου: `bridge:root=GENERAL_LINK#NIGHTSTAND_CELL_ID`
+- Γενικά → Ενεργοποίηση στιγμιότυπων: `bridge:root=GENERAL_LINK#BUTTON_CHORD_CELL_ID`
+- Γενικά → Αναμονή | Εξοικονόμηση ενέργειας | Χρόνος από την τελευταία πλήρη φόρτιση | Χώρος αποθήκευσης: `bridge:root=GENERAL_LINK&path=USAGE_LINK`
+- Γενικά → Προφίλ: `bridge:root=GENERAL_LINK&path=ManagedConfigurationList`
+- Γενικά → Αρχεία καταγραφής διαγνωστικών: `bridge:root=GENERAL_LINK&path=DIAGNOSTIC_LOG_BROWSER`
+- Γενικά → Αρχεία καταγραφής διαγνωστικών → Φόρτωση…: `bridge:root=GENERAL_LINK&path=DIAGNOSTIC_LOG_BROWSER#Loading%E2%80%A6`
+- Γενικά → Αντιγραφή της Ανάλυσης Watch: `bridge:root=GENERAL_LINK#LOGS_CELL_ID`
+- Γενικά → Επαναφορά: `bridge:root=GENERAL_LINK&path=RESET_ID`
+- Γενικά → ΕΠΙΣΤΡΟΦΗ ΣΤΟ ΡΟΛΟΪ: `bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK_ID`
+- Γενικά → ΕΠΙΣΤΡΟΦΗ ΣΤΟ ΡΟΛΟΪ → ΕΠΙΣΤΡΟΦΗ ΣΤΟ ΡΟΛΟΪ: `bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK_ID#CSLPRFReturnToClockGroupID`
+- Γενικά → ΕΠΙΣΤΡΟΦΗ ΣΤΟ ΡΟΛΟΪ → Πάντα: `bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK_ID#RETURN_TO_CLOCK_ALWAYS`
+- Γενικά → ΕΠΙΣΤΡΟΦΗ ΣΤΟ ΡΟΛΟΪ → Μετά από 2 λεπτά: `bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK_ID#RETURN_TO_CLOCK_AFTER_2_MINUTES`
+- Γενικά → ΕΠΙΣΤΡΟΦΗ ΣΤΟ ΡΟΛΟΪ → Μετά από 1 ώρα: `bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK_ID#RETURN_TO_CLOCK_AFTER_1_HOUR`
+- Γενικά → ΕΠΙΣΤΡΟΦΗ ΣΤΟ ΡΟΛΟΪ → ΕΦΑΡΜΟΓΕΣ: `bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK_ID#APP_GROUP_ID`
+- Γενικά → Ανανέωση στο παρασκήνιο: `bridge:root=GENERAL_LINK&path=BAR_ROW_ID`
+- Γενικά → Ανανέωση στο παρασκήνιο → Ανανέωση στο παρασκήνιο: `bridge:root=GENERAL_LINK&path=BAR_ROW_ID#BACKGROUND_APP_UPDATING_CELL_ID`
+- Γενικά → Γλώσσα και περιοχή: `bridge:root=GENERAL_LINK&path=LANGUAGE_AND_REGION_ID`
+- Γενικά → Γλώσσα και περιοχή → Κατοπτρισμός του iPhone: `bridge:root=GENERAL_LINK&path=LANGUAGE_AND_REGION_ID#MIRROR_MY_COMPANION_ID`
+- Γενικά → Γλώσσα και περιοχή → Προσαρμογή: `bridge:root=GENERAL_LINK&path=LANGUAGE_AND_REGION_ID#CUSTOM_ID`
+- Γενικά → Αυτοέναρξη υποβρυχίως: `bridge:root=GENERAL_LINK&path=AUTO_LAUNCH`
+- Γενικά → Αυτοέναρξη: `bridge:root=GENERAL_LINK&path=AUTO_LAUNCH_ID`
+- Γενικά → Wake Screen: `bridge:root=GENERAL_LINK&path=WAKE_SCREEN`
+- Γενικά → Wake Screen → Παίζει τώρα: `bridge:root=GENERAL_LINK&path=WAKE_SCREEN#AUTO_LAUNCH_MEDIA`
+- Ήχοι και απτικά: `bridge:root=SOUNDS_ID`
+- Ήχοι και απτικά → Ένταση ήχου ειδοποίησης: `bridge:root=SOUNDS_ID#AUDIO_SLIDER`
+- Ήχοι και απτικά → Κουδούνισμα και ειδοποιήσεις: `bridge:root=SOUNDS_ID#RINGTONE_AND_ALERTS_SECTION_TITLE`
+- Ήχοι και απτικά → Αθόρυβη λειτουργία: `bridge:root=SOUNDS_ID#audio_mute_switch`
+- Ήχοι και απτικά → Αυτόματη προσαρμογή ήχου: `bridge:root=SOUNDS_ID#contextual_volume_switch`
+- Ήχοι και απτικά → Επίπεδο: `bridge:root=SOUNDS_ID&path=contextual_volume_profile`
+- Ήχοι και απτικά → Επίπεδο → Πιο δυνατά: `bridge:root=SOUNDS_ID&path=contextual_volume_profile#CONTEXTUAL_VOLUME_PROFILE_LOUDER_ID`
+- Ήχοι και απτικά → Επίπεδο → Προεπιλογή: `bridge:root=SOUNDS_ID&path=contextual_volume_profile#CONTEXTUAL_VOLUME_PROFILE_DEFAULT_ID`
+- Ήχοι και απτικά → Επίπεδο → Πιο σιγά: `bridge:root=SOUNDS_ID&path=contextual_volume_profile#CONTEXTUAL_VOLUME_PROFILE_QUIETER_ID`
+- Ήχοι και απτικά → Απτικά: `bridge:root=SOUNDS_ID&path=HAPTICS_ID`
+- Ήχοι και απτικά → Απτικά → Όχι: `bridge:root=SOUNDS_ID&path=HAPTICS_ID#OFF_ITEM_ID`
+- Ήχοι και απτικά → Απτικά → Προεπιλογή: `bridge:root=SOUNDS_ID&path=HAPTICS_ID#DEFAULT_ITEM_ID`
+- Ήχοι και απτικά → Απτικά → Διακριτά: `bridge:root=SOUNDS_ID&path=HAPTICS_ID#PROMINENT_ITEM_ID`
+- Ήχοι και απτικά → Κουδούνισμα: `bridge:root=SOUNDS_ID&path=SOUND_AND_HAPTIC_PATTERNS_RINGTONE_ID`
+- Ήχοι και απτικά → Τόνος SMS: `bridge:root=SOUNDS_ID&path=SOUND_AND_HAPTIC_PATTERNS_TEXTTONE_ID`
+- Ήχοι και απτικά → Νέο email: `bridge:root=SOUNDS_ID&path=SOUND_AND_HAPTIC_PATTERNS_NEWMAIL_ID`
+- Ήχοι και απτικά → Ειδοποιήσεις Ημερολογίου: `bridge:root=SOUNDS_ID&path=SOUND_AND_HAPTIC_PATTERNS_CALENDARALERTS_ID`
+- Ήχοι και απτικά → Ειδοποιήσεις υπομνήσεων: `bridge:root=SOUNDS_ID&path=SOUND_AND_HAPTIC_PATTERNS_REMINDERALERTS_ID`
+- Ήχοι και απτικά → Προεπιλεγμένες ειδοποιήσεις: `bridge:root=SOUNDS_ID&path=SOUND_AND_HAPTIC_PATTERNS_DEFAULTALERTS_ID`
+- Ήχοι και απτικά → Ήχος ακουστικών: `bridge:root=SOUNDS_ID#HEADPHONE_AUDIO_GROUP`
+- Ήχοι και απτικά → Ασφάλεια ακουστικών: `bridge:root=SOUNDS_ID&path=HEADPHONE_LEVEL_LIMIT_SETTING`
+- Ήχοι και απτικά → Ασφάλεια ακουστικών → Γνωστοποιήσεις ακουστικών: `bridge:root=SOUNDS_ID&path=HEADPHONE_LEVEL_LIMIT_SETTING#COSHeadphoneNotificationsSwitchKey`
+- Ήχοι και απτικά → Ασφάλεια ακουστικών → Μείωση δυνατών ήχων: `bridge:root=SOUNDS_ID&path=HEADPHONE_LEVEL_LIMIT_SETTING#COSHeadphoneLevelLimitSwitchKey`
+- Ήχοι και απτικά → Ήχοι συστήματος και απτικά: `bridge:root=SOUNDS_ID#JACKRABBIT_GROUP_ID`
+- Ήχοι και απτικά → Απτική ανάδραση Crown: `bridge:root=SOUNDS_ID#JACKRABBIT_ID`
+- Ήχοι και απτικά → Απτικά συστήματος: `bridge:root=SOUNDS_ID#SYSTEM_HAPTICS_ID`
+- Επείγον SOS: `bridge:root=SOS_MODE_ID`
+- Απόρρητο: `bridge:root=PRIVACY_ID`
+- Απόρρητο → Θερμοκρασία καρπού: `bridge:root=PRIVACY_ID#WRIST_TEMPERATURE_SWITCH_ID`
+- Χρόνος επί οθόνης: `bridge:root=SCREEN_TIME_ID`
+- Nike Run Club: `bridge:root=VICTORY_ROW_ID`
+- Nike Run Club → Εμφάνιση εφαρμογής στο Apple Watch: `bridge:root=VICTORY_ROW_ID#SHOWS_ON_GIZMO`
+- Συμβουλές: `bridge:root=com.apple.NanoTipsBridgeSettings`
+- Συμβουλές → Να επιτρέπονται γνωστοποιήσεις: `bridge:root=com.apple.NanoTipsBridgeSettings#ALLOW_NOTIFICATIONS_ID`
+- Συμβουλές → Αποστολή στο Κέντρο γνωστοπ.: `bridge:root=com.apple.NanoTipsBridgeSettings#SEND_TO_NOTIFICATION_CENTER_ID`
+- Συμβουλές → Γνωστοποιήσεις ανενεργές: `bridge:root=com.apple.NanoTipsBridgeSettings#NOTIFICATIONS_OFF_ID`
+- Συμβουλές → Ομάδες γνωστ/σεων: `bridge:root=com.apple.NanoTipsBridgeSettings&path=NOTIFICATION_COALESCING_ID`
+- Ρολόι: `bridge:root=com.apple.NanoClockBridgeSettings`
+- Ρολόι → 24ωρη μορφή ώρας: `bridge:root=com.apple.NanoClockBridgeSettings#24-Hour%20Time`
+- Ρολόι → Κουδουνίσματα: `bridge:root=com.apple.NanoClockBridgeSettings#Chimes`
+- Ρολόι → Ήχοι: `bridge:root=com.apple.NanoClockBridgeSettings&path=Sounds`
+- Ρολόι → Ήχοι → Καμπάνες: `bridge:root=com.apple.NanoClockBridgeSettings&path=Sounds#Bells`
+- Ρολόι → Ήχοι → Πτηνά: `bridge:root=com.apple.NanoClockBridgeSettings&path=Sounds#Birds`
+- Ρολόι → Εκφώνηση ώρας: `bridge:root=com.apple.NanoClockBridgeSettings#Speak%20Time`
+- Ρολόι → Έλεγχος με την Αθόρυβη λειτουργία: `bridge:root=com.apple.NanoClockBridgeSettings#Control%20With%20Silent%20Mode`
+- Ρολόι → Πάντα εκφώνηση: `bridge:root=com.apple.NanoClockBridgeSettings#Always%20Speak`
+- Ρολόι → Απτική ώρα: `bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time`
+- Ρολόι → Απτική ώρα → Απτική ώρα: `bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time#Taptic%20Time`
+- Ρολόι → Απτική ώρα → Ψηφία: `bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time#Digits`
+- Ρολόι → Απτική ώρα → Σύντομο: `bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time#Terse`
+- Ρολόι → Απτική ώρα → Κώδικας Μορς: `bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time#Morse%20Code`
+- Ρολόι → Ώθηση ειδοποιήσεων iPhone: `bridge:root=com.apple.NanoClockBridgeSettings#Push%20Alerts%20from%20iPhone`
+- Ρολόι → Ένδειξη γνωστοποιήσεων: `bridge:root=com.apple.NanoClockBridgeSettings#Notifications%20Indicator`
+- Ρολόι → Μονόγραμμα: `bridge:root=com.apple.NanoClockBridgeSettings&path=MONOGRAM_ID`
+- Ρολόι → Γνωστοποιήσεις προσόψεων ρολογιού: `bridge:root=com.apple.NanoClockBridgeSettings#Watch%20Face%20Notifications`
+- Ρολόι → Συντομογραφίες πόλεων: `bridge:root=com.apple.NanoClockBridgeSettings&path=City%20Abbreviations`
+- Ρολόι → Πηγές δεδομένων πρόσοψης Siri: `bridge:root=com.apple.NanoClockBridgeSettings&path=Siri%20Face%20Data%20Sources`
+- Κουμπί ενέργειας: `bridge:root=ACTION_BUTTON_ID`
+- Κουμπί ενέργειας → Ενέργεια | Χειρονομίες: `bridge:root=ACTION_BUTTON_ID#StingSystemSettingsActionTypeGroupID`
+- Κουμπί ενέργειας → Προπόνηση: `bridge:root=ACTION_BUTTON_ID&path=StingSystemSettingsActionTypeItem`
+- Κουμπί ενέργειας → Προπόνηση → Όχι: `bridge:root=ACTION_BUTTON_ID&path=StingSystemSettingsActionTypeItem#StingSystemSettingsSelectedActionTypeItem`
+- Κουμπί ενέργειας → Πρώτο πάτημα: `bridge:root=ACTION_BUTTON_ID#StingSystemSettingsWorkoutGroupID`
+- Κουμπί ενέργειας → Γρήγορη εναλλαγή: `bridge:root=ACTION_BUTTON_ID&path=ShowQuickSwitch`
+- Κουμπί ενέργειας → Γρήγορη εναλλαγή → Γρήγορη εναλλαγή: `bridge:root=ACTION_BUTTON_ID&path=ShowQuickSwitch#StingQuickSwitchToggleGroup`
+- Κουμπί ενέργειας → Γρήγορη εναλλαγή → Γρήγορη εναλλαγή: `bridge:root=ACTION_BUTTON_ID&path=ShowQuickSwitch#Quick%20Switch`
+- Κουμπί ενέργειας → Γρήγορη εναλλαγή → Συμπεριλαμβανόμενες εφαρμογές: `bridge:root=ACTION_BUTTON_ID&path=ShowQuickSwitch#StingQuickSwitchAppGroup`
+- Θόρυβος: `bridge:root=com.apple.Noise.settings`
+- Θόρυβος → Μετρήσεις περιβαλλοντικού ήχου: `bridge:root=com.apple.Noise.settings#ENABLE_MEASUREMENTS_ID`
+- Θόρυβος → Γνωστοποιήσεις θορύβου: `bridge:root=com.apple.Noise.settings#LOUD_NOTIFICATION_GROUP_ID`
+- Θόρυβος → Κατώφλι θορύβου: `bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID`
+- Θόρυβος → Κατώφλι θορύβου → Όχι: `bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#OFF`
+- Θόρυβος → Κατώφλι θορύβου → 80 ντεσιμπέλ: `bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_80`
+- Θόρυβος → Κατώφλι θορύβου → 85 ντεσιμπέλ: `bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_85`
+- Θόρυβος → Κατώφλι θορύβου → 90 ντεσιμπέλ: `bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_90`
+- Θόρυβος → Κατώφλι θορύβου → 95 ντεσιμπέλ: `bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_95`
+- Θόρυβος → Κατώφλι θορύβου → 100 ντεσιμπέλ: `bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_100`
+- Θόρυβος → Ομάδες γνωστ/σεων: `bridge:root=com.apple.Noise.settings&path=NOTIFICATION_COALESCING_ID`
+- Ημερολόγιο: `bridge:root=com.apple.NanoCalendarBridgeSettings`
+- Ημερολόγιο → ΓΝΩΣΤΟΠΟΙΗΣΕΙΣ: `bridge:root=com.apple.NanoCalendarBridgeSettings#MIRROR_RADIO_GROUP_ID`
+- Ημερολόγιο → Κατοπτρισμός του iPhone: `bridge:root=com.apple.NanoCalendarBridgeSettings#MIRROR_MY_COMPANION_ID`
+- Ημερολόγιο → Προσαρμογή…: `bridge:root=com.apple.NanoCalendarBridgeSettings#CUSTOM_ID`
+- Ημερολόγιο → ΗΜΕΡΟΛΟΓΙΑ: `bridge:root=com.apple.NanoCalendarBridgeSettings#CALENDARS_MIRROR_RADIO_GROUP_ID`
+- Ημερολόγιο → Κατοπτρισμός του iPhone: `bridge:root=com.apple.NanoCalendarBridgeSettings#CALENDARS_MIRROR_MY_COMPANION_ID`
+- Ημερολόγιο → Προσαρμογή…: `bridge:root=com.apple.NanoCalendarBridgeSettings&path=CALENDARS_CUSTOM_ID`
+- Ημερολόγιο → Προσεχή γεγονότα: `bridge:root=com.apple.NanoCalendarBridgeSettings&path=Upcoming%20Events`
+- Ημερολόγιο → Προσκλήσεις: `bridge:root=com.apple.NanoCalendarBridgeSettings&path=Invitations`
+- Ημερολόγιο → Απαντήσεις προσκεκλημένων: `bridge:root=com.apple.NanoCalendarBridgeSettings&path=Invitee%20Responses`
+- Ημερολόγιο → Αλλαγές σε κοινόχρηστα ημερολόγια: `bridge:root=com.apple.NanoCalendarBridgeSettings&path=Shared%20Calendar%20Alerts`
+- Ασύρματος: `bridge:root=com.apple.tincan.settings`
+- Ασύρματος → Επιτρέπονται γνωστοποιήσεις: `bridge:root=com.apple.tincan.settings#ALLOW_NOTIFICATIONS_ID`
+- Ασύρματος → Αποστολή στο Κέντρο γνωστοπ.: `bridge:root=com.apple.tincan.settings#SEND_TO_NOTIFICATION_CENTER_ID`
+- Ασύρματος → Γνωστοποιήσεις ανενεργές: `bridge:root=com.apple.tincan.settings#NOTIFICATIONS_OFF_ID`
+- Ασύρματος → Ομάδες γνωστ/σεων: `bridge:root=com.apple.tincan.settings&path=NOTIFICATION_COALESCING_ID`
+- Ασύρματος → Φίλοι: `bridge:root=com.apple.tincan.settings#Friends`
+- Siri: `bridge:root=SIRI_WATCH_SETTINGS_ID`
+- Siri → Ερώτηση στο Siri: `bridge:root=SIRI_WATCH_SETTINGS_ID#ASK_SIRI_GROUP_ID`
+- Siri → Ακρόαση για: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_TRIGGER_ID`
+- Siri → Ακρόαση για → «Siri» ή «Hey Siri»: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_TRIGGER_ID#HS_JS_ID`
+- Siri → Ακρόαση για → «Hey Siri»: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_TRIGGER_ID#HEY_SIRI_ID`
+- Siri → Ακρόαση για → Όχι: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_TRIGGER_ID#VOICE_TRIGGER_DISABLED_ID`
+- Siri → Σήκωμα για ομιλία: `bridge:root=SIRI_WATCH_SETTINGS_ID#RAISE_TO_SPEAK_SWITCH_ID`
+- Siri → Πάτημα του Digital Crown: `bridge:root=SIRI_WATCH_SETTINGS_ID#DIGITAL_CROWN_SWITCH_ID`
+- Siri → Αυτόματη αποστολή μηνυμάτων: `bridge:root=SIRI_WATCH_SETTINGS_ID#AUTOMATICALLY_SEND_MESSAGES_SWITCH_ID`
+- Siri → Απαντήσεις Siri: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=SIRI_RESPONSES_ID`
+- Siri → Απαντήσεις Siri → Πάντα εμφάνιση λεζαντών Siri: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=SIRI_RESPONSES_ID#ALWAYS_SHOW_SIRI_CAPTIONS_SWITCH_ID`
+- Siri → Απαντήσεις Siri → Πάντα εμφάνιση κειμένου ομιλίας: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=SIRI_RESPONSES_ID#ALWAYS_SHOW_SPEECH_SWITCH_ID`
+- Siri → Απαντήσεις Siri → Ένταση ήχου φωνής: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=SIRI_RESPONSES_ID#CONSIDERATE_VOLUME_GROUP_ID`
+- Siri → Απαντήσεις Siri → Αυτόματη προσαρμογή ήχου: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=SIRI_RESPONSES_ID#CONSIDERATE_VOLUME_SWITCH_ID`
+- Siri → Απαντήσεις Siri → Επίπεδο: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=SIRI_RESPONSES_ID/CONSIDERATE_VOLUME_PROFILE_ID`
+- Siri → Απαντήσεις Siri → Επίπεδο → Πιο δυνατά: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=SIRI_RESPONSES_ID/CONSIDERATE_VOLUME_PROFILE_ID#CONSIDERATE_VOLUME_PROFILE_LOUDER_ID`
+- Siri → Απαντήσεις Siri → Επίπεδο → Προεπιλογή: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=SIRI_RESPONSES_ID/CONSIDERATE_VOLUME_PROFILE_ID#CONSIDERATE_VOLUME_PROFILE_DEFAULT_ID`
+- Siri → Απαντήσεις Siri → Επίπεδο → Πιο σιγά: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=SIRI_RESPONSES_ID/CONSIDERATE_VOLUME_PROFILE_ID#CONSIDERATE_VOLUME_PROFILE_QUIETER_ID`
+- Siri → Φωνητική ανάδραση: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_FEEDBACK_ID`
+- Siri → Φωνητική ανάδραση → Πάντα ενεργή: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_FEEDBACK_ID#VOICE_FEEDBACK_ALWAYS_ON_ID`
+- Siri → Φωνητική ανάδραση → Έλεγχος με την Αθόρυβη λειτουργία: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_FEEDBACK_ID#VOICE_FEEDBACK_CONTROL_WITH_SILENT_MODE_ID`
+- Siri → Φωνητική ανάδραση → Ακουστικά μόνο: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_FEEDBACK_ID#VOICE_FEEDBACK_HEADPHONES_ONLY_ID`
+- Siri → Ένταση ήχου φωνής: `bridge:root=SIRI_WATCH_SETTINGS_ID#VOICE_VOLUME_GROUP_ID`
+- Siri → Προτάσεις Siri: `bridge:root=SIRI_WATCH_SETTINGS_ID#ASSISTANT_SUGGESTIONS_GROUP_ID`
+- Προπόνηση: `bridge:root=com.apple.SessionTrackerAppSettings`
+- Προπόνηση → Εμφάνιση μέτρησης στόχου: `bridge:root=com.apple.SessionTrackerAppSettings#PRO_SETTING_ENABLED_LABEL`
+- Προπόνηση → Προβολή προπόνησης: `bridge:root=com.apple.SessionTrackerAppSettings&path=METRIC_VIEW_ID`
+- Προπόνηση → Αυτόματη παύση: `bridge:root=com.apple.SessionTrackerAppSettings&path=AUTO_PAUSE_ID`
+- Προπόνηση → Αυτόματη παύση → Αυτόματη παύση: `bridge:root=com.apple.SessionTrackerAppSettings&path=AUTO_PAUSE_ID#WorkoutAutoPauseSwitch`
+- Προπόνηση → Υπόμνηση έναρξης: `bridge:root=com.apple.SessionTrackerAppSettings#AUTO_START_WORKOUT_NOTIFICATIONS_ENABLED_LABEL`
+- Προπόνηση → Υπόμνηση τερματισμού: `bridge:root=com.apple.SessionTrackerAppSettings#END_REMINDERS_ENABLED_LABEL`
+- Προπόνηση → Πιέστε για παύση: `bridge:root=com.apple.SessionTrackerAppSettings#CHORD_PRESS_PAUSE_WORKOUT_ENABLED_LABEL`
+- Προπόνηση → Ανίχνευση εξοπλισμού: `bridge:root=com.apple.SessionTrackerAppSettings#NFC_ENABLED_LABEL_ID`
+- Προπόνηση → Προβολή ρυθμού/ταχύτητας: `bridge:root=com.apple.SessionTrackerAppSettings&path=PACE_VIEW_LABEL`
+- Προπόνηση → Προβολή ρυθμού/ταχύτητας → Τώρα: `bridge:root=com.apple.SessionTrackerAppSettings&path=PACE_VIEW_LABEL#CURRENT_PACE_ID`
+- Προπόνηση → Προβολή ρυθμού/ταχύτητας → Μέσος όρος: `bridge:root=com.apple.SessionTrackerAppSettings&path=PACE_VIEW_LABEL#AVERAGE_PACE_ID`
+- Προπόνηση → Λίστα προπονήσεων: `bridge:root=com.apple.SessionTrackerAppSettings&path=MUSIC_AUTOSTART_TITLE_ID`
+- Προπόνηση → Λίστα προπονήσεων → Καμία: `bridge:root=com.apple.SessionTrackerAppSettings&path=MUSIC_AUTOSTART_TITLE_ID#NONE_AUTOSTART_ID`
+- Προπόνηση → Λίστα προπονήσεων → Λίστες: `bridge:root=com.apple.SessionTrackerAppSettings&path=MUSIC_AUTOSTART_TITLE_ID#MUSIC_PLAYLIST_GROUP_ID`
+- Προπόνηση → Αναπαραγωγή από την αρχή: `bridge:root=com.apple.SessionTrackerAppSettings#WORKOUT_MUSIC_PLAY_FROM_BEGINNING_SETTING_ID`
+- Προπόνηση → Τυχαία σειρά: `bridge:root=com.apple.SessionTrackerAppSettings#WORKOUT_MUSIC_SHUFFLE_SETTING_ID`
+- Προπόνηση → Μονάδες μέτρησης: `bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID`
+- Προπόνηση → Μονάδες μέτρησης → Θερμίδες: `bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#ENERGY_UNITS_CALORIES_ID`
+- Προπόνηση → Μονάδες μέτρησης → Χιλιοθερμίδες: `bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#ENERGY_UNITS_KILOCALORIES_ID`
+- Προπόνηση → Μονάδες μέτρησης → Κιλοτζάουλ: `bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#ENERGY_UNITS_KILOJOULES_ID`
+- Προπόνηση → Μονάδες μέτρησης → Γιάρδες: `bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#POOL_LENGTH_YARDS_ID`
+- Προπόνηση → Μονάδες μέτρησης → Μέτρα: `bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#POOL_LENGTH_METERS_ID`
+- Προπόνηση → Μονάδες μέτρησης → Μίλια: `bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#CYCLING_WORKOUTS_MILES_ID`
+- Προπόνηση → Μονάδες μέτρησης → Χιλιόμετρα: `bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#CYCLING_WORKOUTS_KILOMETERS_ID`
+- Προπόνηση → Μονάδες μέτρησης → Μίλια: `bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#WALKING_AND_RUNNING_WORKOUTS_MILES_ID`
+- Προπόνηση → Μονάδες μέτρησης → Χιλιόμετρα: `bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#WALKING_AND_RUNNING_WORKOUTS_KILOMETERS_ID`
+- Προπόνηση → Φωνητική ανάδραση: `bridge:root=com.apple.SessionTrackerAppSettings#WORKOUT_VOICE_FEEDBACK_LABEL`
+- Προπόνηση → Ώρα για βάδισμα: `bridge:root=com.apple.SessionTrackerAppSettings#GUIDED_WORKOUT_PREFETCH_FOOTER_ID`
+- Προπόνηση → Προσθήκη νέων προπονήσεων στο Watch: `bridge:root=com.apple.SessionTrackerAppSettings#GUIDED_WORKOUT_PREFETCH_LABEL_ID`
+- Προπόνηση → Λειτουργία χαμηλής ισχύος: `bridge:root=com.apple.SessionTrackerAppSettings#LOW_POWER_MODE`
+- Μηνύματα: `bridge:root=com.apple.MessagesBridgeSettings`
+- Μηνύματα → Κατοπτρισμός του iPhone: `bridge:root=com.apple.MessagesBridgeSettings#MIRROR_MY_COMPANION_ID`
+- Μηνύματα → Προσαρμογή: `bridge:root=com.apple.MessagesBridgeSettings#CUSTOM_ID`
+- Μηνύματα → Προεπιλεγμένες απαντήσεις: `bridge:root=com.apple.MessagesBridgeSettings&path=DEFAULT_REPLIES`
+- Μηνύματα → Προεπιλεγμένες απαντήσεις → Προεπιλεγμένες απαντήσεις: `bridge:root=com.apple.MessagesBridgeSettings&path=DEFAULT_REPLIES#Default%20Replies`
+- Μηνύματα → Προεπιλεγμένες απαντήσεις → Έξυπνες απαντήσεις: `bridge:root=com.apple.MessagesBridgeSettings&path=DEFAULT_REPLIES#Smart%20Replies`
+- Μηνύματα → Προεπιλεγμένες απαντήσεις → Προσθήκη απάντησης…: `bridge:root=com.apple.MessagesBridgeSettings&path=DEFAULT_REPLIES#Add%20reply%E2%80%A6`
+- Μηνύματα → Επανάληψη ειδοποιήσεων: `bridge:root=com.apple.MessagesBridgeSettings&path=PLAY_ALERT_TONE`
+- Μηνύματα → Ηχητικά μηνύματα: `bridge:root=com.apple.MessagesBridgeSettings&path=AudioMessagesMode`
+- Ώρα σχολείου: `bridge:root=SCHOOLTIME`
+- Ώρα σχολείου → Ώρα σχολείου: `bridge:root=SCHOOLTIME#SCHEDULE_FEATURE_ACTIVE_TITLE`
+- Αλλαγή κωδικού | Ανίχνευση καρπού | Απενεργοποίηση κωδικού | Απλός κωδικός | Ενεργοποίηση κωδικού | Κωδικός | Ξεκλείδωμα μέσω iPhone | Σβήσιμο δεδομένων: `bridge:root=PASSCODE_ID`
+- Αλλαγή κωδικού | Ανίχνευση καρπού | Απενεργοποίηση κωδικού | Απλός κωδικός | Ενεργοποίηση κωδικού | Κωδικός | Ξεκλείδωμα μέσω iPhone | Σβήσιμο δεδομένων → Ενεργοποίηση κωδικού: `bridge:root=PASSCODE_ID#TOGGLE_PASSCODE_ID`
+- Αλλαγή κωδικού | Ανίχνευση καρπού | Απενεργοποίηση κωδικού | Απλός κωδικός | Ενεργοποίηση κωδικού | Κωδικός | Ξεκλείδωμα μέσω iPhone | Σβήσιμο δεδομένων → Αλλαγή κωδικού: `bridge:root=PASSCODE_ID#CHANGE_PASSCODE_ID`
+- Αλλαγή κωδικού | Ανίχνευση καρπού | Απενεργοποίηση κωδικού | Απλός κωδικός | Ενεργοποίηση κωδικού | Κωδικός | Ξεκλείδωμα μέσω iPhone | Σβήσιμο δεδομένων → Απλός κωδικός: `bridge:root=PASSCODE_ID#SIMPLE_PASSCODE_SWITCH_ID`
+- Αλλαγή κωδικού | Ανίχνευση καρπού | Απενεργοποίηση κωδικού | Απλός κωδικός | Ενεργοποίηση κωδικού | Κωδικός | Ξεκλείδωμα μέσω iPhone | Σβήσιμο δεδομένων → Ξεκλείδωμα μέσω iPhone: `bridge:root=PASSCODE_ID#AUTO_UNLOCK_SWITCH_ID`
+- Αλλαγή κωδικού | Ανίχνευση καρπού | Απενεργοποίηση κωδικού | Απλός κωδικός | Ενεργοποίηση κωδικού | Κωδικός | Ξεκλείδωμα μέσω iPhone | Σβήσιμο δεδομένων → Σβήσιμο δεδομένων: `bridge:root=PASSCODE_ID#ERASE_DATA_SWITCH_ID`
+- Αλλαγή κωδικού | Ανίχνευση καρπού | Απενεργοποίηση κωδικού | Απλός κωδικός | Ενεργοποίηση κωδικού | Κωδικός | Ξεκλείδωμα μέσω iPhone | Σβήσιμο δεδομένων → Ανίχνευση καρπού: `bridge:root=PASSCODE_ID#WRIST_DETECTION_CELL_ID`
+- Αλλαγή κωδικού | Ανίχνευση καρπού | Απενεργοποίηση κωδικού | Απλός κωδικός | Ενεργοποίηση κωδικού | Κωδικός | Ξεκλείδωμα μέσω iPhone | Σβήσιμο δεδομένων → Πολυπλοκότητες: `bridge:root=PASSCODE_ID#SHOW_COMPLICATION_DATA_WHEN_LOCKED_GROUP_ID`
+- Αλλαγή κωδικού | Ανίχνευση καρπού | Απενεργοποίηση κωδικού | Απλός κωδικός | Ενεργοποίηση κωδικού | Κωδικός | Ξεκλείδωμα μέσω iPhone | Σβήσιμο δεδομένων → Εμφάνιση δεδομένων όταν είναι κλειδωμένο: `bridge:root=PASSCODE_ID#SHOW_COMPLICATION_DATA_WHEN_LOCKED_SWITCH_ID`
+- Mail: `bridge:root=com.apple.NanoMailBridgeSettings`
+- Mail → Κατοπτρισμός του iPhone: `bridge:root=com.apple.NanoMailBridgeSettings#MIRROR_MY_COMPANION_ID`
+- Mail → Προσαρμογή: `bridge:root=com.apple.NanoMailBridgeSettings#CUSTOM_ID`
+- Mail → Ρυθμίσεις Mail: `bridge:root=com.apple.NanoMailBridgeSettings#Mail%20Settings`
+- Mail → Λογαριασμοί: `bridge:root=com.apple.NanoMailBridgeSettings&path=Accounts`
+- Mail → Συμπερίληψη email: `bridge:root=com.apple.NanoMailBridgeSettings&path=Include%20Mail`
+- Mail → Προεπισκόπηση μηνύματος: `bridge:root=com.apple.NanoMailBridgeSettings&path=Message%20Preview`
+- Mail → Προεπισκόπηση μηνύματος → Καμία: `bridge:root=com.apple.NanoMailBridgeSettings&path=Message%20Preview#0`
+- Mail → Προεπισκόπηση μηνύματος → 1 γραμμή: `bridge:root=com.apple.NanoMailBridgeSettings&path=Message%20Preview#1`
+- Mail → Προεπισκόπηση μηνύματος → 2 γραμμές: `bridge:root=com.apple.NanoMailBridgeSettings&path=Message%20Preview#2`
+- Mail → Προεπιλεγμένες απαντήσεις: `bridge:root=com.apple.NanoMailBridgeSettings&path=Default%20Replies`
+- Mail → Προεπιλεγμένες απαντήσεις → Προεπιλεγμένες απαντήσεις: `bridge:root=com.apple.NanoMailBridgeSettings&path=Default%20Replies#Default%20Replies`
+- Mail → Προεπιλεγμένες απαντήσεις → Προσθήκη απάντησης…: `bridge:root=com.apple.NanoMailBridgeSettings&path=Default%20Replies#Add%20reply%E2%80%A6`
+- Mail → Υπογραφή: `bridge:root=com.apple.NanoMailBridgeSettings&path=Signature`
+- Αλλαγή σε μονάδες | Επιλεγμένη μετοχή κάρτας Siri | Κεφαλαιοποίηση | Μετοχές | Ποσοστιαία αλλαγή | Τρέχουσα τιμή: `bridge:root=com.apple.StocksBridgeSettings`
+- Αλλαγή σε μονάδες | Επιλεγμένη μετοχή κάρτας Siri | Κεφαλαιοποίηση | Μετοχές | Ποσοστιαία αλλαγή | Τρέχουσα τιμή → Η πολυπλοκότητα της πρόσοψης ρολογιού εμφανίζει: `bridge:root=com.apple.StocksBridgeSettings#Clock%20Face%20Complication%20Shows`
+- Αλλαγή σε μονάδες | Επιλεγμένη μετοχή κάρτας Siri | Κεφαλαιοποίηση | Μετοχές | Ποσοστιαία αλλαγή | Τρέχουσα τιμή → Τρέχουσα τιμή: `bridge:root=com.apple.StocksBridgeSettings#Current%20Price`
+- Αλλαγή σε μονάδες | Επιλεγμένη μετοχή κάρτας Siri | Κεφαλαιοποίηση | Μετοχές | Ποσοστιαία αλλαγή | Τρέχουσα τιμή → Αλλαγή σε μονάδες: `bridge:root=com.apple.StocksBridgeSettings#Points%20Change`
+- Αλλαγή σε μονάδες | Επιλεγμένη μετοχή κάρτας Siri | Κεφαλαιοποίηση | Μετοχές | Ποσοστιαία αλλαγή | Τρέχουσα τιμή → Ποσοστιαία αλλαγή: `bridge:root=com.apple.StocksBridgeSettings#Percentage%20Change`
+- Αλλαγή σε μονάδες | Επιλεγμένη μετοχή κάρτας Siri | Κεφαλαιοποίηση | Μετοχές | Ποσοστιαία αλλαγή | Τρέχουσα τιμή → Κεφαλαιοποίηση: `bridge:root=com.apple.StocksBridgeSettings#Market%20Cap`
+- Αλλαγή σε μονάδες | Επιλεγμένη μετοχή κάρτας Siri | Κεφαλαιοποίηση | Μετοχές | Ποσοστιαία αλλαγή | Τρέχουσα τιμή → Η πρόσοψη Siri εμφανίζει τιμή για: `bridge:root=com.apple.StocksBridgeSettings#Siri%20Face%20Shows%20Quote%20For`
+- Αλλαγή σε μονάδες | Επιλεγμένη μετοχή κάρτας Siri | Κεφαλαιοποίηση | Μετοχές | Ποσοστιαία αλλαγή | Τρέχουσα τιμή → Επιλεγμένη μετοχή: `bridge:root=com.apple.StocksBridgeSettings&path=Selected%20Stock`
+- Αλλαγή σε μονάδες | Επιλεγμένη μετοχή κάρτας Siri | Κεφαλαιοποίηση | Μετοχές | Ποσοστιαία αλλαγή | Τρέχουσα τιμή → Επιλεγμένη μετοχή → Επιλεγμένη μετοχή: `bridge:root=com.apple.StocksBridgeSettings&path=Selected%20Stock#Selected%20Stock`
+- Δραστηριότητα: `bridge:root=com.apple.HealthAppsSettings`
+- Δραστηριότητα → Ενημερώσεις προόδου: `bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL`
+- Δραστηριότητα → Ενημερώσεις προόδου → Καμία: `bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#ZERO_HOURS_ID`
+- Δραστηριότητα → Ενημερώσεις προόδου → Κάθε 2 ώρες: `bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#TWO_HOURS_ID`
+- Δραστηριότητα → Ενημερώσεις προόδου → Κάθε 4 ώρες: `bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#FOUR_HOURS_ID`
+- Δραστηριότητα → Ενημερώσεις προόδου → Κάθε 6 ώρες: `bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#SIX_HOURS_ID`
+- Δραστηριότητα → Ενημερώσεις προόδου → Κάθε 8 ώρες: `bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#EIGHT_HOURS_ID`
+- Δραστηριότητα → Επιτεύγματα: `bridge:root=com.apple.HealthAppsSettings#ACHIEVEMENTS_ENABLED_LABEL`
+- Δραστηριότητα → Εβδομαδιαία σύνοψη: `bridge:root=com.apple.HealthAppsSettings#WEEKLY_SUMMARY_ENABLED_LABEL`
+- Δραστηριότητα → Καθημερινή καθοδήγηση: `bridge:root=com.apple.HealthAppsSettings#DAILY_PROGRESS_ENABLED_LABEL`
+- Δραστηριότητα → Ολοκληρωμένοι στόχοι: `bridge:root=com.apple.HealthAppsSettings#GOAL_COMPLETIONS_ENABLED_LABEL`
+- Δραστηριότητα → Ιδιαίτερες προκλήσεις: `bridge:root=com.apple.HealthAppsSettings#REMOTE_ACHIEVEMENTS_ENABLED_LABEL`
+- Δραστηριότητα → Γνωστοποιήσεις Κοινοποίησης: `bridge:root=com.apple.HealthAppsSettings#ACTIVITY_SHARING_NOTIFICATIONS_ENABLED`
+- Έξυπνη στοίβα: `bridge:root=SMARTSTACK_LINK`
+- Καιρός: `bridge:root=com.apple.weatherbridgesettings`
+- Καιρός → Προεπιλεγμένη πόλη: `bridge:root=com.apple.weatherbridgesettings&path=Default%20City`
+- Καιρός → Προεπιλεγμένη πόλη → Προεπιλεγμένη πόλη: `bridge:root=com.apple.weatherbridgesettings&path=Default%20City#Default%20City`
+- Καιρός → Προεπιλεγμένη πόλη → Τρέχουσα τοποθεσία: `bridge:root=com.apple.weatherbridgesettings&path=Default%20City#Current%20Location`
+- Επαφές: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired`
+- Επαφές → Σειρά ταξινόμησης: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=contactsSortOrder`
+- Επαφές → Σειρά ταξινόμησης → Όνομα, Επώνυμο: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=contactsSortOrder#0`
+- Επαφές → Σειρά ταξινόμησης → Επώνυμο, Όνομα: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=contactsSortOrder#1`
+- Επαφές → Σειρά εμφάνισης: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=NSPersonNameDefaultDisplayNameOrder`
+- Επαφές → Σειρά εμφάνισης → Όνομα, Επώνυμο: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=NSPersonNameDefaultDisplayNameOrder#1`
+- Επαφές → Σειρά εμφάνισης → Επώνυμο, Όνομα: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=NSPersonNameDefaultDisplayNameOrder#2`
+- Επαφές → Σύντομο όνομα: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName`
+- Επαφές → Σύντομο όνομα → Σύντομο όνομα: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#Short%20Name`
+- Επαφές → Σύντομο όνομα → Όνομα και αρχικό επωνύμου: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#First%20Name%20&%20Last%20Initial`
+- Επαφές → Σύντομο όνομα → Αρχικό ονόματος και επώνυμο: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#First%20Initial%20&%20Last%20Name`
+- Επαφές → Σύντομο όνομα → Όνομα μόνο: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#First%20Name%20Only`
+- Επαφές → Σύντομο όνομα → Επώνυμο μόνο: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#Last%20Name%20Only`
+- Επαφές → Σύντομο όνομα → Προτίμηση προσωνυμίων: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#Prefer%20Nicknames`
+- Προσβασιμότητα: `bridge:root=ACCESSIBILITY_ID`
+- Προσβασιμότητα → Όραση: `bridge:root=ACCESSIBILITY_ID#VISION_GROUP`
+- Προσβασιμότητα → VoiceOver: `bridge:root=ACCESSIBILITY_ID&path=VOICEOVER_ID`
+- Προσβασιμότητα → Ζουμ: `bridge:root=ACCESSIBILITY_ID&path=ZOOM_ID`
+- Προσβασιμότητα → Ετικέτες Ναι/Όχι: `bridge:root=ACCESSIBILITY_ID#OnOffLabelsEnabled`
+- Προσβασιμότητα → Κλίμακα του γκρι: `bridge:root=ACCESSIBILITY_ID#GrayscaleDisplay`
+- Προσβασιμότητα → Μείωση διαφάνειας: `bridge:root=ACCESSIBILITY_ID#REDUCE_TRANSPARENCY`
+- Προσβασιμότητα → Αύξηση αντίθεσης: `bridge:root=ACCESSIBILITY_ID#INCREASE_CONTRAST`
+- Προσβασιμότητα → Μέγεθος κειμένου: `bridge:root=ACCESSIBILITY_ID#TEXT_SIZE`
+- Προσβασιμότητα → Έντονο κείμενο: `bridge:root=ACCESSIBILITY_ID#BoldTextEnabled`
+- Προσβασιμότητα → Μείωση κίνησης: `bridge:root=ACCESSIBILITY_ID&path=ReduceMotion`
+- Προσβασιμότητα → Κουδουνίσματα: `bridge:root=ACCESSIBILITY_ID&path=TapticChimesCell`
+- Προσβασιμότητα → Κουδουνίσματα → Κουδουνίσματα: `bridge:root=ACCESSIBILITY_ID&path=TapticChimesCell#Chimes`
+- Προσβασιμότητα → Κουδουνίσματα → Πρόγραμμα: `bridge:root=ACCESSIBILITY_ID&path=TapticChimesCell/CHIMES_SCHEDULE_ID`
+- Προσβασιμότητα → Κουδουνίσματα → Πρόγραμμα → Ωριαία: `bridge:root=ACCESSIBILITY_ID&path=TapticChimesCell/CHIMES_SCHEDULE_ID#Hourly`
+- Προσβασιμότητα → Κουδουνίσματα → Πρόγραμμα → 30 λεπτά: `bridge:root=ACCESSIBILITY_ID&path=TapticChimesCell/CHIMES_SCHEDULE_ID#30%20minutes`
+- Προσβασιμότητα → Κουδουνίσματα → Πρόγραμμα → 15 λεπτά: `bridge:root=ACCESSIBILITY_ID&path=TapticChimesCell/CHIMES_SCHEDULE_ID#15%20minutes`
+- Προσβασιμότητα → Κουδουνίσματα → Ήχοι: `bridge:root=ACCESSIBILITY_ID&path=TapticChimesCell/CHIMES_SOUNDS_ID`
+- Προσβασιμότητα → Κουδουνίσματα → Ήχοι → Καμπάνες: `bridge:root=ACCESSIBILITY_ID&path=TapticChimesCell/CHIMES_SOUNDS_ID#Bells`
+- Προσβασιμότητα → Κουδουνίσματα → Ήχοι → Πουλιά: `bridge:root=ACCESSIBILITY_ID&path=TapticChimesCell/CHIMES_SOUNDS_ID#Birds`
+- Προσβασιμότητα → Κινητική δεξιότητα: `bridge:root=ACCESSIBILITY_ID#MotorGroupCell`
+- Προσβασιμότητα → Ταχύτητα κλικ σε πλευρικό κουμπί: `bridge:root=ACCESSIBILITY_ID&path=SideButton`
+- Προσβασιμότητα → Ταχύτητα κλικ σε πλευρικό κουμπί → Ταχύτητα κλικ: `bridge:root=ACCESSIBILITY_ID&path=SideButton#CLICK_SPEED_GROUP_CELL`
+- Προσβασιμότητα → Ταχύτητα κλικ σε πλευρικό κουμπί → Προεπιλογή: `bridge:root=ACCESSIBILITY_ID&path=SideButton#SIDE_CLICK_SPEED_DEFAULT`
+- Προσβασιμότητα → Ταχύτητα κλικ σε πλευρικό κουμπί → Αργά: `bridge:root=ACCESSIBILITY_ID&path=SideButton#SIDE_CLICK_SPEED_SLOW`
+- Προσβασιμότητα → Ταχύτητα κλικ σε πλευρικό κουμπί → Πολύ αργά: `bridge:root=ACCESSIBILITY_ID&path=SideButton#SIDE_CLICK_SPEED_SLOWEST`
+- Προσβασιμότητα → Βοηθήματα αφής: `bridge:root=ACCESSIBILITY_ID&path=TouchAccommodationsCell`
+- Προσβασιμότητα → Βοηθήματα αφής → Βοηθήματα αφής: `bridge:root=ACCESSIBILITY_ID&path=TouchAccommodationsCell#TOUCH_ACCOMMODATIONS_SWITCHER`
+- Προσβασιμότητα → Βοηθήματα αφής → Διάρκεια πατήματος: `bridge:root=ACCESSIBILITY_ID&path=TouchAccommodationsCell#HoldDurationGroup`
+- Προσβασιμότητα → Βοηθήματα αφής → Διάρκεια πατήματος: `bridge:root=ACCESSIBILITY_ID&path=TouchAccommodationsCell#HoldDuration`
+- Προσβασιμότητα → Βοηθήματα αφής → Αγνόηση επανάληψης: `bridge:root=ACCESSIBILITY_ID&path=TouchAccommodationsCell#IgnoreRepeatGroup`
+- Προσβασιμότητα → Βοηθήματα αφής → Αγνόηση επανάληψης: `bridge:root=ACCESSIBILITY_ID&path=TouchAccommodationsCell#IgnoreRepeat`
+- Προσβασιμότητα → Βοηθήματα αφής → Βοήθεια αγγίγματος: `bridge:root=ACCESSIBILITY_ID&path=TouchAccommodationsCell#Tap%20Assistance`
+- Προσβασιμότητα → Βοηθήματα αφής → Όχι: `bridge:root=ACCESSIBILITY_ID&path=TouchAccommodationsCell#OFF`
+- Προσβασιμότητα → Βοηθήματα αφής → Χρήση της θέσης Αρχικού αγγίγματος: `bridge:root=ACCESSIBILITY_ID&path=TouchAccommodationsCell#ACTIVATE_ON_TOUCH`
+- Προσβασιμότητα → Βοηθήματα αφής → Χρήση της θέσης Τελικού αγγίγματος: `bridge:root=ACCESSIBILITY_ID&path=TouchAccommodationsCell#ACTIVATE_ON_RELEASE`
+- Προσβασιμότητα → Δραστηριότητα με αναπηρικό αμαξίδιο: `bridge:root=ACCESSIBILITY_ID#MOBILITY`
+- Προσβασιμότητα → Ασύρματος: `bridge:root=ACCESSIBILITY_ID#WalkieTalkieTapToTalkGroup`
+- Προσβασιμότητα → Αγγίξτε για ομιλία: `bridge:root=ACCESSIBILITY_ID#WalkieTalkieTapToTalk`
+- Προσβασιμότητα → Εναλλαγή εφαρμογών: `bridge:root=ACCESSIBILITY_ID#AppSwitcherAutoSelectGroup`
+- Προσβασιμότητα → Αυτόματη επιλογή εστιασμένης εφαρμογής: `bridge:root=ACCESSIBILITY_ID#AppSwitcherAutoSelect`
+- Προσβασιμότητα → Siri: `bridge:root=ACCESSIBILITY_ID&path=SIRI_CELL_ID`
+- Προσβασιμότητα → Siri → Γραπτό αίτημα στο Siri: `bridge:root=ACCESSIBILITY_ID&path=SIRI_CELL_ID#Type%20to%20Siri`
+- Προσβασιμότητα → Ακοή: `bridge:root=ACCESSIBILITY_ID#HEARING`
+- Προσβασιμότητα → RTT: `bridge:root=ACCESSIBILITY_ID&path=RTT_ID`
+- Προσβασιμότητα → RTT → RTT: `bridge:root=ACCESSIBILITY_ID&path=RTT_ID#RTT_ROW_ID`
+- Προσβασιμότητα → Μονοφωνικός ήχος: `bridge:root=ACCESSIBILITY_ID#MonoAudioEnabled`
+- Προσβασιμότητα → Στερεοφωνική εξισορρόπηση αριστερά-δεξιά: `bridge:root=ACCESSIBILITY_ID#LEFT_RIGHT_BALANCE_SPOKEN`
+- Προσβασιμότητα → Γνωστοποιήσεις ακουστικών: `bridge:root=ACCESSIBILITY_ID#HeadphoneNotificationsID`
+- Προσβασιμότητα → Συσκευές ακοής: `bridge:root=ACCESSIBILITY_ID#HearingDevicesComplicationGroupID`
+- Προσβασιμότητα → Πολυπλοκότητα: `bridge:root=ACCESSIBILITY_ID&path=HearingDevicesComplicationRowID`
+- Προσβασιμότητα → Πολυπλοκότητα → Ένταση μικροφώνου: `bridge:root=ACCESSIBILITY_ID&path=HearingDevicesComplicationRowID#Mic%20Volume`
+- Προσβασιμότητα → Πολυπλοκότητα → Πρόγραμμα: `bridge:root=ACCESSIBILITY_ID&path=HearingDevicesComplicationRowID#Program`
+- Προσβασιμότητα → Ταχύτητα απτικής ώρας: `bridge:root=ACCESSIBILITY_ID#TapticTimeSpeedAdjustmentGroup`
+- Προσβασιμότητα → Συντόμευση Προσβασιμότητας: `bridge:root=ACCESSIBILITY_ID&path=AX_SHORTCUT_ID`
+- Ειδοποιήσεις στροφής | Χάρτες: `bridge:root=com.apple.NanoMapsBridgeSettings`
+- Ειδοποιήσεις στροφής | Χάρτες → Ειδοποιήσεις στροφής: `bridge:root=com.apple.NanoMapsBridgeSettings#Turn%20Alerts`
+- Ειδοποιήσεις στροφής | Χάρτες → Οδήγηση: `bridge:root=com.apple.NanoMapsBridgeSettings#Driving`
+- Ειδοποιήσεις στροφής | Χάρτες → Οδήγηση με CarPlay: `bridge:root=com.apple.NanoMapsBridgeSettings#Driving%20with%20CarPlay`
+- Ειδοποιήσεις στροφής | Χάρτες → Βάδισμα: `bridge:root=com.apple.NanoMapsBridgeSettings#Walking`
+- Ειδοποιήσεις στροφής | Χάρτες → Ποδηλασία: `bridge:root=com.apple.NanoMapsBridgeSettings#Cycling`
+- Ειδοποιήσεις στροφής | Χάρτες → Εμφάνιση πλοήγησης: `bridge:root=com.apple.NanoMapsBridgeSettings#Show%20Navigation`
+- Ειδοποιήσεις στροφής | Χάρτες → ΜΜΜ: `bridge:root=com.apple.NanoMapsBridgeSettings#Transit`
+- Ειδοποιήσεις στροφής | Χάρτες → Πληροφορίες δομής: `bridge:root=com.apple.NanoMapsBridgeSettings#Build%20Info%3A`
+- Mail και Ημερολόγιο: `bridge:root=com.apple.BridgeRemoteAccounts`
+- Mail και Ημερολόγιο → Λογαριασμοί: `bridge:root=com.apple.BridgeRemoteAccounts#Accounts`
+- Mail και Ημερολόγιο → Προσθήκη λογαριασμού Google…: `bridge:root=com.apple.BridgeRemoteAccounts#ADD_GOOGLE_ACCOUNT`
+- Mail και Ημερολόγιο → Προσκόμιση: `bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch`
+- Mail και Ημερολόγιο → Προσκόμιση → Όχι: `bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch#Off`
+- Mail και Ημερολόγιο → Προσκόμιση → Ωριαία: `bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch#Hourly`
+- Mail και Ημερολόγιο → Προσκόμιση → 30 λ.: `bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch#30%20min`
+- Mail και Ημερολόγιο → Προσκόμιση → 15 λ.: `bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch#15%20min`
+- Καρδιά: `bridge:root=com.apple.HeartRateSettings`
+- Καρδιά → Καρδιά: `bridge:root=com.apple.HeartRateSettings#1`
+- Καρδιά → Γνωστοποιήσεις καρδιακών παλμών: `bridge:root=com.apple.HeartRateSettings#2`
+- Καρδιά → Υψηλός σφυγμός: `bridge:root=com.apple.HeartRateSettings#3`
+- Καρδιά → Χαμηλός σφυγμός: `bridge:root=com.apple.HeartRateSettings#4`
+- Καρδιά → Ακανόνιστος ρυθμός: `bridge:root=com.apple.HeartRateSettings#5`
+- Καρδιά → Προβολή ΗΚΓ στην Υγεία: `bridge:root=com.apple.HeartRateSettings#6`
+- Καρδιά → ΗΚΓ: `bridge:root=com.apple.HeartRateSettings#7`
+- App Store: `bridge:root=com.apple.BridgeAppStoreDaemonSettings`
+- App Store → Αυτόματες λήψεις: `bridge:root=com.apple.BridgeAppStoreDaemonSettings#automaticDownloadSpecifier`
+- App Store → Αυτόματες ενημερώσεις: `bridge:root=com.apple.BridgeAppStoreDaemonSettings#Automatic%20Updates`
+- Χειρονομίες: `bridge:root=ELTON_SETTINGS_ID`
+- Χειρονομίες → Χειρονομίες: `bridge:root=ELTON_SETTINGS_ID#Gestures`
+- Χειρονομίες → Διπλό άγγιγμα: `bridge:root=ELTON_SETTINGS_ID&path=ELTON_DOUBLE_TAP_ID`
+- Χειρονομίες → Διπλό άγγιγμα → Διπλό άγγιγμα: `bridge:root=ELTON_SETTINGS_ID&path=ELTON_DOUBLE_TAP_ID#Double%20Tap`
+- Χειρονομίες → Διπλό άγγιγμα → Αναπαραγωγή: `bridge:root=ELTON_SETTINGS_ID&path=ELTON_DOUBLE_TAP_ID#playbackSettingsGroup`
+- Χειρονομίες → Διπλό άγγιγμα → Αναπαραγωγή/Παύση: `bridge:root=ELTON_SETTINGS_ID&path=ELTON_DOUBLE_TAP_ID#playbackSettingsPlayPause`
+- Χειρονομίες → Διπλό άγγιγμα → Παράλειψη: `bridge:root=ELTON_SETTINGS_ID&path=ELTON_DOUBLE_TAP_ID#playbackSettingsSkip`
+- Χειρονομίες → Διπλό άγγιγμα → Έξυπνη στοίβα: `bridge:root=ELTON_SETTINGS_ID&path=ELTON_DOUBLE_TAP_ID#smartStackGroup`
+- Χειρονομίες → Διπλό άγγιγμα → Επόμενο: `bridge:root=ELTON_SETTINGS_ID&path=ELTON_DOUBLE_TAP_ID#smartStackSettingsAdvance`
+- Χειρονομίες → Διπλό άγγιγμα → Επιλογή: `bridge:root=ELTON_SETTINGS_ID&path=ELTON_DOUBLE_TAP_ID#smartStackSettingsSelect`
+- Χειρονομίες → Διπλό άγγιγμα → Κατά τη χρήση του Apple Vision Pro: `bridge:root=ELTON_SETTINGS_ID&path=ELTON_DOUBLE_TAP_ID#ignoreWhileVisionProDonned`
+- Χειρονομίες → Διπλό άγγιγμα → Αγνόηση διπλού αγγίγματος: `bridge:root=ELTON_SETTINGS_ID&path=ELTON_DOUBLE_TAP_ID#ignoreDoubleTap`
+- Χειρονομίες → Τίναγμα καρπού: `bridge:root=ELTON_SETTINGS_ID#Wrist%20Flick`
+- Χειρονομίες → Κάλυψη για σίγαση: `bridge:root=ELTON_SETTINGS_ID#Cover%20to%20Mute`
+- Ύπνος: `bridge:root=com.apple.NanoBedtimeBridgeSettings`
+- Ύπνος → Διαμόρφωση του Ύπνου στην εφαρμογή «Υγεία»: `bridge:root=com.apple.NanoBedtimeBridgeSettings#SET_UP_SLEEP_CELL_ID`
+- Όριο χώρου αποθήκευσης | Μουσική | Συγχρονισμένη μουσική: `bridge:root=com.apple.NanoMusicBridgeSettings`
+- Όριο χώρου αποθήκευσης | Μουσική | Συγχρονισμένη μουσική → ΛΙΣΤΕΣ ΚΑΙ ΑΛΜΠΟΥΜ: `bridge:root=com.apple.NanoMusicBridgeSettings#PLAYLISTS%20&%20ALBUMS`
+- Όριο χώρου αποθήκευσης | Μουσική | Συγχρονισμένη μουσική → Προσθήκη μουσικής…: `bridge:root=com.apple.NanoMusicBridgeSettings#Add%20Music%E2%80%A6`
+- Πορτοφόλι και Apple Pay: `bridge:root=com.apple.NanoPassbookBridgeSettings`
+- Πορτοφόλι και Apple Pay → Apple Cash: `bridge:root=com.apple.NanoPassbookBridgeSettings#Apple%C2%A0Cash`
+- Πορτοφόλι και Apple Pay → Νέα κάρτα: `bridge:root=com.apple.NanoPassbookBridgeSettings#Add%20Card`
+- Πορτοφόλι και Apple Pay → Γνωστοποιήσεις: `bridge:root=com.apple.NanoPassbookBridgeSettings#MIRROR_RADIO_GROUP_ID`
+- Πορτοφόλι και Apple Pay → Κατοπτρισμός του iPhone: `bridge:root=com.apple.NanoPassbookBridgeSettings#MIRROR_MY_COMPANION_ID`
+- Πορτοφόλι και Apple Pay → Προσαρμογή: `bridge:root=com.apple.NanoPassbookBridgeSettings#CUSTOM_ID`
+- Υγεία: `bridge:root=com.apple.BridgeHealthSettings`
+- Εύρεση Apple Watch: `bridge:root=ActiveWatch`
+- Εύρεση Apple Watch → Ζευγοποίηση νέου Watch: `bridge:root=ActiveWatch&path=Pair%20New%20Watch`
+- Ενσυνειδητότητα: `bridge:root=com.apple.MindSettings`
+- Ενσυνειδητότητα → Επιτρέπονται γνωστοποιήσεις: `bridge:root=com.apple.MindSettings#ALLOW_NOTIFICATIONS_ID`
+- Ενσυνειδητότητα → Αποστολή στο Κέντρο γνωστοπ.: `bridge:root=com.apple.MindSettings#SEND_TO_NOTIFICATION_CENTER_ID`
+- Ενσυνειδητότητα → Γνωστοποιήσεις ανενεργές: `bridge:root=com.apple.MindSettings#NOTIFICATIONS_OFF_ID`
+- Ενσυνειδητότητα → Υπομνήσεις ενσυνειδητότητας: `bridge:root=com.apple.MindSettings#MIND_GROUP_ID`
+- Ενσυνειδητότητα → Αρχή ημέρας: `bridge:root=com.apple.MindSettings#MIND_START_OF_DAY_REMINDER`
+- Ενσυνειδητότητα → Τέλος ημέρας: `bridge:root=com.apple.MindSettings#MIND_END_OF_DAY_REMINDER`
+- Ενσυνειδητότητα → Προσθήκη υπόμνησης…: `bridge:root=com.apple.MindSettings#Add%20Reminder%E2%80%A6`
+- Ενσυνειδητότητα → Εβδομαδιαία σύνοψη: `bridge:root=com.apple.MindSettings#MIND_WEEKLY_SUMMARY_ID`
+- Ενσυνειδητότητα → Σίγαση για σήμερα: `bridge:root=com.apple.MindSettings#MIND_MUTE_FOR_TODAY_ID`
+- Ενσυνειδητότητα → Ρυθμός αναπνοής: `bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID`
+- Ενσυνειδητότητα → Ρυθμός αναπνοής → 4 ανάσες ανά λεπτό: `bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_4`
+- Ενσυνειδητότητα → Ρυθμός αναπνοής → 5 ανάσες ανά λεπτό: `bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_5`
+- Ενσυνειδητότητα → Ρυθμός αναπνοής → 6 ανάσες ανά λεπτό: `bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_6`
+- Ενσυνειδητότητα → Ρυθμός αναπνοής → 7 ανάσες ανά λεπτό: `bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_7`
+- Ενσυνειδητότητα → Ρυθμός αναπνοής → 8 ανάσες ανά λεπτό: `bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_8`
+- Ενσυνειδητότητα → Ρυθμός αναπνοής → 9 ανάσες ανά λεπτό: `bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_9`
+- Ενσυνειδητότητα → Ρυθμός αναπνοής → 10 ανάσες ανά λεπτό: `bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_10`
+- Ενσυνειδητότητα → Απτικά: `bridge:root=com.apple.MindSettings&path=MIND_HAPTICS_ID`
+- Ενσυνειδητότητα → Απτικά → Όχι: `bridge:root=com.apple.MindSettings&path=MIND_HAPTICS_ID#NONE_ID`
+- Ενσυνειδητότητα → Απτικά → Ελάχιστα: `bridge:root=com.apple.MindSettings&path=MIND_HAPTICS_ID#MINIMAL_ID`
+- Ενσυνειδητότητα → Απτικά → Διακριτά: `bridge:root=com.apple.MindSettings&path=MIND_HAPTICS_ID#PROMINENT_ID`
+- Podcasts: `bridge:root=com.apple.private.PodcastsBridgeSettings`
+- Τηλέφωνο: `bridge:root=com.apple.PhoneBridgeSettings`
+- Τηλέφωνο → Κλήσεις: `bridge:root=com.apple.PhoneBridgeSettings#carrier_direct_calling_group_id`
+- Τηλέφωνο → Κουδούνισμα: `bridge:root=com.apple.PhoneBridgeSettings#RINGTONE`
+- Τηλέφωνο → Ήχος: `bridge:root=com.apple.PhoneBridgeSettings#INCOMING_CALL_SOUND`
+- Τηλέφωνο → Απτικό: `bridge:root=com.apple.PhoneBridgeSettings#INCOMING_CALL_HAPTIC`
+- Βάθος: `bridge:root=com.apple.DepthCompanionSettings`
+- Κουμπί ενέργειας: `bridge:root=STING_TITLE`
+- Ρυθμίσεις φορέα κινητής τηλεφωνίας: `bridge:root=CARRIER_SETTINGS`
+- Κινητό δίκτυο: `bridge:root=CELLULAR_ID`
+- Dock: `bridge:root=DOCK`
+- Dock → Διάταξη στο Dock: `bridge:root=DOCK#OrderingOptionGroup`
+- Dock → Πρόσφατα: `bridge:root=DOCK#Recents`
+- Dock → Αγαπημένα: `bridge:root=DOCK#Favorites`
+- Dock: `bridge:root=DOCK.0`
+- Dock → Διάταξη στο Dock: `bridge:root=DOCK.0#OrderingOptionGroup`
+- Dock → Πρόσφατα: `bridge:root=DOCK.0#Recents`
+- Dock → Αγαπημένα: `bridge:root=DOCK.0#Favorites`
+- Ηχοβιβλία: `bridge:root=com.apple.NanoBooks.BridgeSettings`
+- Ηχοβιβλία → Σύνδεση: `bridge:root=com.apple.NanoBooks.BridgeSettings#Sign%20In`
+- Όριο φωτογραφιών | Επιλεγμένο άλμπουμ φωτογραφιών: `bridge:root=com.apple.mobileslideshow`
+- Αποδεικτικά ανάγνωσης: `bridge:root=com.apple.MessagesBridgeSettings%23READ_RECEIPTS`

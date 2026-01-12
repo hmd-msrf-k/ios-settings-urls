@@ -1,0 +1,414 @@
+- بیٹری: `prefs:root=BATTERY_USAGE`
+- بیٹری → کم پاور موڈ: `prefs:root=BATTERY_USAGE#BATTERY_SAVER_MODE`
+- بیٹری → بیٹری کی صحت: `prefs:root=BATTERY_USAGE#BATTERY_HEALTH_ID`
+- عام: `prefs:root=General`
+- عام → ‏VPN اور ڈیوائس مینیجمنٹ: `prefs:root=General&path=ManagedConfigurationList`
+- عام → آٹوفِل اور پاس ورڈ: `prefs:root=General&path=AUTOFILL`
+- عام → آٹوفِل اور پاس ورڈ → آٹوفِل پاس ورڈ: `prefs:root=General&path=AUTOFILL#AUTOFILL`
+- عام → آٹوفِل اور پاس ورڈ → تصدیقی کوڈ صاف کریں: `prefs:root=General&path=AUTOFILL#CLEAN_UP_VERIFICATION_CODES`
+- عام → آٹوفِل اور پاس ورڈ → تصدیقی کوڈ سیٹ اپ کریں: `prefs:root=General&path=AUTOFILL#SET_UP_VERIFICATION_CODES`
+- عام → ‏AppleCare اور وارنٹی: `prefs:root=General&path=COVERAGE/`
+- عام → لغت: `prefs:root=General&path=DICTIONARY`
+- عام → کی بورڈ: `prefs:root=General&path=Keyboard`
+- عام → کی بورڈ → کی بورڈ: `prefs:root=General&path=Keyboard/KEYBOARDS`
+- عام → کی بورڈ → متن کی تبدیلی: `prefs:root=General&path=Keyboard/USER_DICTIONARY`
+- عام → کی بورڈ → آٹو کیپیٹلائزیشن: `prefs:root=General&path=Keyboard#KeyboardAutocapitalization`
+- عام → کی بورڈ → آٹو کریکشن: `prefs:root=General&path=Keyboard#KeyboardAutocorrection`
+- عام → کی بورڈ → ہجے چیک کریں: `prefs:root=General&path=Keyboard#KeyboardCheckSpelling`
+- عام → کی بورڈ → کیپس لاک فعال کریں: `prefs:root=General&path=Keyboard#KeyboardCapsLock`
+- عام → کی بورڈ → شارٹ کٹ: `prefs:root=General&path=Keyboard#KeyboardAssistant`
+- عام → کی بورڈ → تجویز: `prefs:root=General&path=Keyboard#KeyboardPrediction`
+- عام → کی بورڈ → اسمارٹ رموز اوقاف: `prefs:root=General&path=Keyboard#SmartTyping`
+- عام → کی بورڈ → کی بورڈ سپلٹ کریں: `prefs:root=General&path=Keyboard#RivenKeyboard`
+- عام → کی بورڈ → کِی فلکس فعال کریں: `prefs:root=General&path=Keyboard#GesturesEnabled`
+- عام → کی بورڈ → حرف کا پری ویو: `prefs:root=General&path=Keyboard#KeyboardAllowPaddle`
+- عام → کی بورڈ → “.” شارٹ کٹ: `prefs:root=General&path=Keyboard#KeyboardPeriodShortcut`
+- عام → کی بورڈ → سلائیڈ کر کے ٹائپ کریں: `prefs:root=General&path=Keyboard#KeyboardContinuousPathEnabled`
+- عام → کی بورڈ → املا فعال کریں: `prefs:root=General&path=Keyboard#Dictation`
+- عام → کی بورڈ → آٹومیٹک رموز اوقاف: `prefs:root=General&path=Keyboard#AutoPunctuationSetting`
+- عام → سافٹ ویئر اپڈیٹ: `prefs:root=General&path=SOFTWARE_UPDATE_LINK`
+- عام → سافٹ ویئر اپڈیٹ → آٹومیٹک اپڈیٹ: `prefs:root=General&path=SOFTWARE_UPDATE_LINK/SUAutomaticUpdateButton`
+- عام → اسٹوریج: `prefs:root=General&path=STORAGE_MGMT`
+- عام → اسٹوریج → اسٹوریج: `prefs:root=General&path=STORAGE_MGMT#MANAGE`
+- عام → اسٹوریج → غیر استعمال کردہ ایپ آف لوڈ کریں: `prefs:root=General&path=STORAGE_MGMT#OFFLOAD`
+- عام → پکچر اِن پکچر: `prefs:root=General&path=PiP_SPEC`
+- عام → ٹریک پیڈ | ٹریک پیڈ اور ماؤس: `prefs:root=General&path=POINTERS`
+- عام → ‏NFC: `prefs:root=General&path=NFC_LINK`
+- عام → ‏VPN: `prefs:root=General&path=VPN`
+- عام → ‏CarPlay: `prefs:root=General&path=CARPLAY`
+- عام → تعارف: `prefs:root=General&path=About`
+- عام → تعارف → معتبر سرٹیفیکیٹ: `prefs:root=General&path=About/CERT_TRUST_SETTINGS`
+- عام → تعارف → سیریل نمبر: `prefs:root=General&path=About#SerialNumber`
+- عام → تعارف → ماڈل نمبر: `prefs:root=General&path=About#ProductModel`
+- عام → تعارف → ماڈل کا نام: `prefs:root=General&path=About#ProductModelName`
+- عام → تعارف → ‏iOS ورژن: `prefs:root=General&path=About/SW_VERSION_SPECIFIER`
+- عام → قانونی اور انضباطی: `prefs:root=General&path=LEGAL_AND_REGULATORY`
+- عام → قانونی اور انضباطی → ضمانت: `prefs:root=General&path=LEGAL_AND_REGULATORY#Warranty`
+- عام → ‏AirDrop: `prefs:root=General&path=AIRDROP_LINK`
+- عام → ‏AirDrop → ڈیوائس نزدیک لا کر: `prefs:root=General&path=AIRDROP_LINK#AIRDROP_NFC_ID`
+- عام → ہوم بٹن: `prefs:root=General&path=HOME_BUTTON`
+- عام → سائڈ سوئچ: `prefs:root=General#Rotation_Switch_Action_Group`
+- عام → پس منظر میں ایپ کا ریفریش: `prefs:root=General&path=AUTO_CONTENT_DOWNLOAD`
+- عام → تاریخ اور وقت: `prefs:root=General&path=DATE_AND_TIME`
+- عام → ‏TV آؤٹ: `prefs:root=General&path=TV_OUT`
+- عام → ری سیٹ کریں: `prefs:root=General&path=Reset`
+- عام → ری سیٹ کریں → سبھی سیٹنگ کو ری سیٹ کریں: `prefs:root=General&path=Reset#settingsErase`
+- عام → ری سیٹ کریں → تمام مواد اور سیٹنگ کو مٹائیں: `prefs:root=General&path=Reset#fullErase`
+- عام → ری سیٹ کریں → نیٹ ورک کی سیٹنگ ری سیٹ کریں: `prefs:root=General&path=Reset#RESET_NETWORK_LABEL`
+- عام → ری سیٹ کریں → سبھی موبائل ڈیٹا پلان ہٹائیں: `prefs:root=General&path=Reset#cellularErase`
+- عام → ری سیٹ کریں → سبسکرائبر خدمات: `prefs:root=General&path=Reset#SUBSCRIBER_SERVICES_ID`
+- عام → ری سیٹ کریں → کی بورڈ لغت ری سیٹ کریں: `prefs:root=General&path=Reset#RESET_KEYBOARD_DICTIONARY_LABEL`
+- عام → ری سیٹ کریں → ہوم اسکرین لے آؤٹ ری سیٹ کریں: `prefs:root=General&path=Reset#RESET_ICONS_LABEL`
+- عام → ری سیٹ کریں → لوکیشن اور رازداری ری سیٹ کریں: `prefs:root=General&path=Reset#RESET_PRIVACY_LABEL`
+- عام → شٹ ڈاؤن کریں: `prefs:root=General#SHUTDOWN_LABEL`
+- عام → ‏AirPlay اور کنٹینیوٹی: `prefs:root=General&path=CONTINUITY_SPEC`
+- عام → ‏AirPlay اور کنٹینیوٹی → ‏Handoff: `prefs:root=General&path=CONTINUITY_SPEC#CONTINUITY`
+- عام → ‏AirPlay اور کنٹینیوٹی → ‏HomePod پر ٹرانسفر کریں: `prefs:root=General&path=CONTINUITY_SPEC#TRANSFER_TO_HOMEPOD`
+- عام → ‏AirPlay اور کنٹینیوٹی → آٹومیٹک طریقے سے ‏AirPlay کریں: `prefs:root=General&path=CONTINUITY_SPEC#AUTOMATICALLY_AIRPLAY`
+- عام → ‏AirPlay اور کنٹینیوٹی → کنٹینیوٹی کیمرا: `prefs:root=General&path=CONTINUITY_SPEC#WOMBAT_CAMERA`
+- عام → زبان اور خطہ: `prefs:root=General&path=INTERNATIONAL`
+- عام → زبان اور خطہ → دیگر زبانیں…: `prefs:root=General&path=INTERNATIONAL#NEW_PREFERRED_LANGUAGE`
+- عام → زبان اور خطہ → ترجیحی زبان کی ترتیب: `prefs:root=General&path=INTERNATIONAL#PREFERRED_LANGUAGE_GROUP`
+- عام → زبان اور خطہ → زبان شامل کریں…: `prefs:root=General&path=INTERNATIONAL#ADD_PREFERRED_LANGUAGE`
+- عام → زبان اور خطہ → خطہ: `prefs:root=General&path=INTERNATIONAL/LOCALE`
+- عام → زبان اور خطہ → نمبرات: `prefs:root=General&path=INTERNATIONAL/NUMBERING_SYSTEM`
+- عام → زبان اور خطہ → کیلنڈر: `prefs:root=General&path=INTERNATIONAL/CALENDAR`
+- عام → زبان اور خطہ → درجۂ حرارت کی اکائی: `prefs:root=General&path=INTERNATIONAL/TEMPERATURE_UNIT`
+- ‏Apple اکاؤنٹ: `prefs:root=APPLE_ACCOUNT` or `settings-navigation://com.apple.Settings.AppleAccount`
+- ‏Apple اکاؤنٹ → رابطہ کِی کی تصدیق: `prefs:root=APPLE_ACCOUNT&path=TRANSPARENCY` or `settings-navigation://com.apple.Settings.AppleAccount/TRANSPARENCY`
+- ‏Apple اکاؤنٹ → iCloud: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE` or `prefs:root=CASTLE`
+- ‏Apple اکاؤنٹ → iCloud → ‏iCloud اسٹوریج: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/STORAGE_AND_BACKUP` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/STORAGE_AND_BACKUP` or `prefs:root=CASTLE&path=STORAGE_AND_BACKUP`
+- ‏Apple اکاؤنٹ → iCloud → iCloud Drive: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Ubiquity` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Ubiquity` or `prefs:root=CASTLE&path=com.apple.Dataclass.Ubiquity`
+- ‏Apple اکاؤنٹ → iCloud → تصاویر: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.MediaStream` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.MediaStream` or `prefs:root=CASTLE&path=com.apple.Dataclass.MediaStream`
+- ‏Apple اکاؤنٹ → iCloud → ‏Mail: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Mail` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail` or `prefs:root=CASTLE&path=com.apple.Dataclass.Mail`
+- ‏Apple اکاؤنٹ → iCloud → رابطہ: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Contacts` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Contacts` or `prefs:root=CASTLE&path=com.apple.Dataclass.Contacts`
+- ‏Apple اکاؤنٹ → iCloud → کیلنڈر: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Calendars` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Calendars` or `prefs:root=CASTLE&path=com.apple.Dataclass.Calendars`
+- ‏Apple اکاؤنٹ → iCloud → ریمائنڈر: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Reminders` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Reminders` or `prefs:root=CASTLE&path=com.apple.Dataclass.Reminders`
+- ‏Apple اکاؤنٹ → iCloud → Safari: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Bookmarks` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Bookmarks` or `prefs:root=CASTLE&path=com.apple.Dataclass.Bookmarks`
+- ‏Apple اکاؤنٹ → iCloud → نوٹ: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Notes` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Notes` or `prefs:root=CASTLE&path=com.apple.Dataclass.Notes`
+- ‏Apple اکاؤنٹ → iCloud → News: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.News` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.News` or `prefs:root=CASTLE&path=com.apple.Dataclass.News`
+- ‏Apple اکاؤنٹ → iCloud → بیک اپ: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/BACKUP` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/BACKUP` or `prefs:root=CASTLE&path=BACKUP`
+- ‏Apple اکاؤنٹ → iCloud → صحت: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Health` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Health` or `prefs:root=CASTLE&path=com.apple.Dataclass.Health`
+- ‏Apple اکاؤنٹ → iCloud → پاس ورڈ اور کیِ چین: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.KeychainSync` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.KeychainSync` or `prefs:root=CASTLE&path=com.apple.Dataclass.KeychainSync`
+- ‏Apple اکاؤنٹ → iCloud → میرا ای میل چھپائیں: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/PRIVATE_EMAIL_MANAGE` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/PRIVATE_EMAIL_MANAGE` or `prefs:root=CASTLE&path=PRIVATE_EMAIL_MANAGE`
+- ‏Apple اکاؤنٹ → میری لوکیشن شیئر کریں: `prefs:root=APPLE_ACCOUNT&path=LOCATION_SHARING` or `settings-navigation://com.apple.Settings.AppleAccount/LOCATION_SHARING`
+- ‏Apple اکاؤنٹ → میری لوکیشن شیئر کریں → پتہ لگائیں: `prefs:root=APPLE_ACCOUNT&path=LOCATION_SHARING/FindMyDevice-Settings` or `settings-navigation://com.apple.Settings.AppleAccount/LOCATION_SHARING/FindMyDevice-Settings`
+- ‏Apple اکاؤنٹ → نام، فون نمبر، ای میل: `prefs:root=APPLE_ACCOUNT&path=APPLE_ACCOUNT_CONTACT` or `settings-navigation://com.apple.Settings.AppleAccount/APPLE_ACCOUNT_CONTACT`
+- ‏Apple اکاؤنٹ → پاس ورڈ اور سیکورٹی: `prefs:root=APPLE_ACCOUNT&path=PASSWORD_AND_SECURITY` or `settings-navigation://com.apple.Settings.AppleAccount/PASSWORD_AND_SECURITY`
+- ‏Apple اکاؤنٹ → ادائیگی اور ترسیل: `prefs:root=APPLE_ACCOUNT&path=PAYMENT_AND_SHIPPING` or `settings-navigation://com.apple.Settings.AppleAccount/PAYMENT_AND_SHIPPING`
+- ‏Apple اکاؤنٹ → سبسکرپشن: `prefs:root=APPLE_ACCOUNT&path=SUBSCRIPTIONS` or `settings-navigation://com.apple.Settings.AppleAccount/SUBSCRIPTIONS`
+- ‏Apple اکاؤنٹ → فیملی: `prefs:root=APPLE_ACCOUNT&path=Family` or `settings-navigation://com.apple.Settings.AppleAccount/Family`
+- اطلاعات: `prefs:root=NOTIFICATIONS_ID`
+- اطلاعات → شیڈول کیا گیا خلاصہ: `prefs:root=NOTIFICATIONS_ID&path=SCHEDULED_DELIVERY_ID`
+- موسم: `prefs:root=WEATHER`
+- ‏Freeform: `prefs:root=FREEFORM`
+- فوکس: `prefs:root=DO_NOT_DISTURB`
+- فوکس → فوکس اسٹیٹس: `prefs:root=DO_NOT_DISTURB&path=status`
+- جرنل: `prefs:root=JOURNAL`
+- والیٹ اور ‏⁨Apple Pay⁩: `prefs:root=PASSBOOK`
+- والیٹ اور ‏⁨Apple Pay⁩ → Apple Cash‏: `prefs:root=PASSBOOK#Apple%C2%A0Cash`
+- والیٹ اور ‏⁨Apple Pay⁩ → پیمنٹ کارڈ: `prefs:root=PASSBOOK#SETTINGS_PAYMENT_CARDS_GROUP`
+- والیٹ اور ‏⁨Apple Pay⁩ → کارڈ شامل کریں: `prefs:root=PASSBOOK#Add%20Card`
+- والیٹ اور ‏⁨Apple Pay⁩ → سائڈ بٹن پر ڈبل کلک کریں: `prefs:root=PASSBOOK#Double-Click%20Side%20Button`
+- والیٹ اور ‏⁨Apple Pay⁩ → آرڈر ٹریکنگ: `prefs:root=PASSBOOK#ORDER_TRACKING`
+- شکل | ڈسپلے اور روشنی: `prefs:root=DISPLAY`
+- شکل | ڈسپلے اور روشنی → شکل: `prefs:root=DISPLAY#DEVICE_APPEARANCE`
+- شکل | ڈسپلے اور روشنی → ‏⁨True Tone⁩: `prefs:root=DISPLAY#WHITE_BALANCE`
+- شکل | ڈسپلے اور روشنی → ‏⁨Night Shift⁩: `prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION`
+- شکل | ڈسپلے اور روشنی → ‏⁨Night Shift⁩ → شیڈول کیا گیا: `prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION#SCHEDULED`
+- شکل | ڈسپلے اور روشنی → ‏⁨Night Shift⁩ → کل تک کے لیے مینوئل طریقے سے فعال کریں: `prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION#MANUAL`
+- شکل | ڈسپلے اور روشنی → ‏⁨Night Shift⁩ → رنگ کا درجۂ حرارت: `prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION#COLOR_TEMPERATURE`
+- شکل | ڈسپلے اور روشنی → آٹو لاک کریں: `prefs:root=DISPLAY&path=AUTOLOCK`
+- شکل | ڈسپلے اور روشنی → فعال کرنے کے لیے اٹھائیں: `prefs:root=DISPLAY#RAISE_TO_WAKE`
+- شکل | ڈسپلے اور روشنی → لاک/اَنلاک: `prefs:root=DISPLAY#SMART_CASE_LOCK_SPEC`
+- شکل | ڈسپلے اور روشنی → متن کا سائز: `prefs:root=DISPLAY&path=TEXT_SIZE`
+- شکل | ڈسپلے اور روشنی → بولڈ متن: `prefs:root=DISPLAY#BOLD_TEXT`
+- شکل | ڈسپلے اور روشنی → روشنی: `prefs:root=DISPLAY#BRIGHTNESS`
+- شکل | ڈسپلے اور روشنی → ڈسپلے زوم: `prefs:root=DISPLAY#DISPLAY_ZOOM_GROUP`
+- شکل | ڈسپلے اور روشنی → شکل: `prefs:root=DISPLAY&path=APPEARANCE`
+- شکل | ڈسپلے اور روشنی → شکل → ونڈو زوم: `prefs:root=DISPLAY&path=APPEARANCE#WINDOW_ZOOM`
+- شکل | ڈسپلے اور روشنی → شکل → دو ہاتھوں سے ونڈو زوم: `prefs:root=DISPLAY&path=APPEARANCE#TWO_HANDED_WINDOW_ZOOM`
+- شکل | ڈسپلے اور روشنی → دیکھیں: `prefs:root=DISPLAY&path=MAGNIFY`
+- شکل | ڈسپلے اور روشنی → ہمیشہ چالو ڈسپلے: `prefs:root=DISPLAY&path=ALWAYS_ON`
+- شکل | ڈسپلے اور روشنی → ہمیشہ چالو ڈسپلے → ہمیشہ چالو ڈسپلے: `prefs:root=DISPLAY&path=ALWAYS_ON#ALWAYS_ON`
+- شکل | ڈسپلے اور روشنی → موافق ایپ: `prefs:root=DISPLAY&path=COMPATIBLE_APPEARANCE`
+- شکل | ڈسپلے اور روشنی → موافق ایپ → تاریک، روشن: `prefs:root=DISPLAY&path=COMPATIBLE_APPEARANCE#COMPATIBLE_APPEARANCE_CHOICES`
+- پیمائش: `prefs:root=MEASURE` or `settings-navigation://com.apple.Settings.Apps/com.apple.measure`
+- پیمائش → پیمائش کی اکائی: `prefs:root=MEASURE#MEASURE_UNITS` or `settings-navigation://com.apple.Settings.Apps/com.apple.measure#MEASURE_UNITS#MEASURE_UNITS`
+- پیمائش → امپیریل: `prefs:root=MEASURE#Imperial` or `settings-navigation://com.apple.Settings.Apps/com.apple.measure#Imperial#Imperial`
+- پیمائش → میٹرک: `prefs:root=MEASURE#Metric` or `settings-navigation://com.apple.Settings.Apps/com.apple.measure#Metric#Metric`
+- وال پیپر: `prefs:root=Wallpaper`
+- کنٹرول سینٹر: `prefs:root=ControlCenter`
+- کنٹرول سینٹر → ایپ کے اندر رسائی: `prefs:root=ControlCenter#ALLOWED_WITHIN_APPS`
+- کنٹرول سینٹر → کنٹرول کو حسب خواہش بنائیں: `prefs:root=ControlCenter&path=CUSTOMIZE_CONTROLS`
+- وائس میمو: `prefs:root=VOICE_MEMOS`
+- وائس میمو → حذف کردہ صاف کریں: `prefs:root=VOICE_MEMOS&path=RCVoiceMemosRecentlyDeletedWindowKey`
+- وائس میمو → آڈیو کوالٹی: `prefs:root=VOICE_MEMOS&path=RCVoiceMemosAudioQualityKey`
+- وائس میمو → لوکیشن پر مبنی نام: `prefs:root=VOICE_MEMOS#RCVoiceMemosUseLocationBasedNaming`
+- کیلنڈر: `prefs:root=CALENDAR`
+- کیلنڈر → ٹائم زون اوور رائیڈ: `prefs:root=CALENDAR&path=TimeZoneCityArray`
+- کیلنڈر → متبادل کیلنڈر: `prefs:root=CALENDAR&path=Alternate%20Calendars`
+- کیلنڈر → ہفتہ کی تعداد: `prefs:root=CALENDAR#Week%20Numbers`
+- کیلنڈر → مدعو شخص کے مسترد دعوت نامے دکھائیں: `prefs:root=CALENDAR#Show%20Invitee%20Declines`
+- کیلنڈر → سِنک: `prefs:root=CALENDAR&path=Sync`
+- کیلنڈر → ڈیفالٹ الرٹ ٹائم: `prefs:root=CALENDAR&path=Default%20Alert%20Times`
+- کیلنڈر → ہفتہ شروع کریں: `prefs:root=CALENDAR&path=Start%20Week%20On`
+- کیلنڈر → لوکیشن کی تجاویز: `prefs:root=CALENDAR#Location%20Suggestions`
+- ڈیولپر: `prefs:root=DEVELOPER_SETTINGS`
+- ڈیولپر → ملٹی پاتھ نیٹ ورکنگ: `prefs:root=DEVELOPER_SETTINGS&path=MULTI_PATH_AGG`
+- ڈیولپر → ملٹی پاتھ نیٹ ورکنگ → ملٹی پاتھ نیٹ ورکنگ: `prefs:root=DEVELOPER_SETTINGS&path=MULTI_PATH_AGG#Multipath%20Networking`
+- ڈیولپر → شکل: `prefs:root=DEVELOPER_SETTINGS#UIAppearanceGroup`
+- ڈیولپر → گہری شکل: `prefs:root=DEVELOPER_SETTINGS#UIAppearanceSettings`
+- ڈیولپر → پیئر کئے گئے ڈیوائس: `prefs:root=DEVELOPER_SETTINGS#DTPairedDevicesGroup`
+- ڈیولپر → معتبر کمپیوٹر صاف کریں: `prefs:root=DEVELOPER_SETTINGS#CLEAR_TRUSTED_COMPUTERS`
+- ڈیولپر → لاگنگ: `prefs:root=DEVELOPER_SETTINGS&path=DTInstrumentsSettings`
+- ڈیولپر → ‏UI آٹومیشن | ‏UI آٹومیشن فعال کریں: `prefs:root=DEVELOPER_SETTINGS#UIAGroup`
+- ڈیولپر → نیٹ ورکنگ: `prefs:root=DEVELOPER_SETTINGS#NLCGroup`
+- ڈیولپر → نیٹ ورک لنک کنڈیشنر: `prefs:root=DEVELOPER_SETTINGS&path=NLC`
+- ڈیولپر → اِضافی لاگنگ: `prefs:root=DEVELOPER_SETTINGS#ADDITIONAL_LOGGING`
+- ڈیولپر → HTTP خدمات کو اجازت دیں: `prefs:root=DEVELOPER_SETTINGS#ALLOW_HTTP_SERVICES`
+- ڈیولپر → ریٹ کی حد غیر فعال کریں: `prefs:root=DEVELOPER_SETTINGS#DISABLE_RATE_LIMITING`
+- ڈیولپر → اختیاری ‏NFC پاس کِی: `prefs:root=DEVELOPER_SETTINGS#NFC_PASS_KEY_OPTIONAL`
+- ڈیولپر → میڈیا خدمات کی جانچ: `prefs:root=DEVELOPER_SETTINGS#MEDIA_SERVICES_TESTING`
+- ڈیولپر → میڈیا خدمات ری سیٹ کریں: `prefs:root=DEVELOPER_SETTINGS#RESET_MEDIA_SERVICES`
+- ڈیولپر → ‏News کی جانچ: `prefs:root=DEVELOPER_SETTINGS#NEWS_TESTING`
+- ڈیولپر → اگلے لانچ پر مقامی ڈیٹا ری سیٹ کریں: `prefs:root=DEVELOPER_SETTINGS#RESET_LOCAL_DATA_ON_NEXT_LAUNCH`
+- ڈیولپر → میڈیا پلیئر فریم ورک کی جانچ: `prefs:root=DEVELOPER_SETTINGS#RoutineSettingsGroup`
+- ڈیولپر → پلے کرنے کے لائق مواد ‏API: `prefs:root=DEVELOPER_SETTINGS&path=RoutineSettings`
+- ڈیولپر → ٹی وی فراہم کنندہ: `prefs:root=DEVELOPER_SETTINGS&path=VideoSubscriberAccountSettings`
+- ڈیولپر → ‏⁨ClassKit API⁩: `prefs:root=DEVELOPER_SETTINGS&path=ClassKitSettings`
+- ڈیولپر → ‏CoreSpotlight کی جانچ: `prefs:root=DEVELOPER_SETTINGS#CORESPOTLIGHT_TESTING`
+- ڈیولپر → سبھی آئٹم کو دوبارہ انڈیکس کریں: `prefs:root=DEVELOPER_SETTINGS#REINDEX_ALL_ITEMS`
+- ڈیولپر → آئیڈنٹیفائر کے ساتھ سبھی آئٹم کو دوبارہ انڈیکس کریں: `prefs:root=DEVELOPER_SETTINGS#REINDEX_ALL_ITEMS_WITH_IDENTIFIERS`
+- ڈیولپر → شارٹ کٹ کی جانچ: `prefs:root=DEVELOPER_SETTINGS#SIRI_ACTIONS_TESTING`
+- ڈیولپر → حالیہ شارٹ کٹ ڈسپلے کریں: `prefs:root=DEVELOPER_SETTINGS#DISPLAY_DONATIONS_SPOTLIGHT`
+- ڈیولپر → آنے والا میڈیا ڈسپلے کریں: `prefs:root=DEVELOPER_SETTINGS#DISPLAY_UPCOMING_MEDIA`
+- ڈیولپر → لاک اسکرین پر عطیہ ڈسپلے کریں: `prefs:root=DEVELOPER_SETTINGS#DISPLAY_DONATIONS_LOCKSCREEN`
+- ڈیولپر → ‏Watch میں شارٹ کٹ فورس سِنک کریں: `prefs:root=DEVELOPER_SETTINGS#SIRI_ACTIONS_SYNC_WATCHOS`
+- ڈیولپر → ‏⁨MIDI-CI⁩ کی جانچ: `prefs:root=DEVELOPER_SETTINGS#MIDI_CI_API_BETA`
+- ڈیولپر → ‏⁨MIDI-CI⁩ فعال کریں: `prefs:root=DEVELOPER_SETTINGS#MIDI_CI_API_BETA_ENABLE`
+- ڈیولپر → ہینگ کی شناخت: `prefs:root=DEVELOPER_SETTINGS#HANGTRACER_EXTERNAL_CONFIGURE`
+- پاس کوڈ | ‏Face ID اور پاس کوڈ | ‏⁨Touch ID⁩ اور پاس کوڈ: `prefs:root=PASSCODE`
+- پاس کوڈ | ‏Face ID اور پاس کوڈ | ‏⁨Touch ID⁩ اور پاس کوڈ → پاس کوڈ بند کریں: `prefs:root=PASSCODE#PASSCODE_OFF`
+- پاس کوڈ | ‏Face ID اور پاس کوڈ | ‏⁨Touch ID⁩ اور پاس کوڈ → پاس کوڈ تبدیل کریں: `prefs:root=PASSCODE#CHANGE_PASSCODE`
+- پاس کوڈ | ‏Face ID اور پاس کوڈ | ‏⁨Touch ID⁩ اور پاس کوڈ → مطلوب پاس کوڈ: `prefs:root=PASSCODE&path=PASSCODE_REQ`
+- پاس کوڈ | ‏Face ID اور پاس کوڈ | ‏⁨Touch ID⁩ اور پاس کوڈ → وائس ڈائل: `prefs:root=PASSCODE#VOICE_DIAL`
+- پاس کوڈ | ‏Face ID اور پاس کوڈ | ‏⁨Touch ID⁩ اور پاس کوڈ → لاک ہونے کی صورت میں رسائی کی اجازت دیں: `prefs:root=PASSCODE#ALLOW_ACCESS_WHEN_LOCKED`
+- پاس کوڈ | ‏Face ID اور پاس کوڈ | ‏⁨Touch ID⁩ اور پاس کوڈ → پیغام کے ذریعے جواب دیں: `prefs:root=PASSCODE#REPLY_WITH_MESSAGE_SWITCH`
+- پاس کوڈ | ‏Face ID اور پاس کوڈ | ‏⁨Touch ID⁩ اور پاس کوڈ → “گھر” ایپ کا کنٹرول: `prefs:root=PASSCODE#HOME_CONTROL_SWITCH`
+- پاس کوڈ | ‏Face ID اور پاس کوڈ | ‏⁨Touch ID⁩ اور پاس کوڈ → والیٹ: `prefs:root=PASSCODE#WALLET_SWITCH`
+- پاس کوڈ | ‏Face ID اور پاس کوڈ | ‏⁨Touch ID⁩ اور پاس کوڈ → چھوٹی ہوئی کال لوٹائیں: `prefs:root=PASSCODE#RETURN_MISSED_CALLS_SWITCH`
+- پاس کوڈ | ‏Face ID اور پاس کوڈ | ‏⁨Touch ID⁩ اور پاس کوڈ → ڈیٹا مٹائیں: `prefs:root=PASSCODE#WIPE_DEVICE`
+- پاس کوڈ | ‏Face ID اور پاس کوڈ | ‏⁨Touch ID⁩ اور پاس کوڈ → ‏⁨Apple Watch⁩ سے اَنلاک کریں: `prefs:root=PASSCODE#AUTO_UNLOCK_DEVICES_GROUP`
+- پاس کوڈ | ‏Face ID اور پاس کوڈ | ‏⁨Touch ID⁩ اور پاس کوڈ → چوری ہو جانے پر ڈیوائس کا تحفظ: `prefs:root=PASSCODE#DTO_GROUP_ID`
+- فون: `prefs:root=Phone`
+- فون → میرا نمبر: `prefs:root=Phone&path=My%20Number`
+- فون → اِنکمنگ کال: `prefs:root=Phone&path=INCOMING_CALL_STYLE`
+- فون → کال کا اعلان کریں: `prefs:root=Phone&path=ANNOUNCE_CALLS`
+- فون → ‏SMS/کال کی رپورٹنگ: `prefs:root=Phone&path=CLASSIFICATION_AND_REPORTING`
+- فون → ‏SMS کے ذریعے جواب دیں: `prefs:root=Phone&path=Respond%20with%20Text`
+- فون → کال فارورڈ: `prefs:root=Phone&path=Call%20Forwarding`
+- فون → کال فارورڈ → کال فارورڈ: `prefs:root=Phone&path=Call%20Forwarding#idMasterOnOffSwitch`
+- فون → کال ویٹنگ: `prefs:root=Phone&path=Call%20Waiting`
+- فون → میری ‏⁨Caller ID⁩ دکھائیں: `prefs:root=Phone&path=Show%20My%20Caller%20ID`
+- فون → میری ‏⁨Caller ID⁩ دکھائیں → میری ‏⁨Caller ID⁩ دکھائیں: `prefs:root=Phone&path=Show%20My%20Caller%20ID/Primary`
+- فون → میری ‏⁨Caller ID⁩ دکھائیں → میری ‏⁨Caller ID⁩ دکھائیں → میری ‏⁨Caller ID⁩ دکھائیں: `prefs:root=Phone&path=Show%20My%20Caller%20ID/Primary#Show%20My%20Caller%20ID`
+- فون → نامعلوم کالر کو خاموش کریں: `prefs:root=Phone#SILENCE_CALLS`
+- فون → بلاک کردہ روابط: `prefs:root=Phone&path=SPECIFIER_IDENTIFIER_BLACKLIST`
+- فون → ڈائل اسسٹ: `prefs:root=Phone&path=Dial%20Assist`
+- نوٹ: `prefs:root=NOTES` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes`
+- نوٹ → ڈیفالٹ اکاؤنٹ: `prefs:root=NOTES&path=Default%20Account` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes/Default%20Account`
+- نوٹ → پاس ورڈ: `prefs:root=NOTES&path=Password` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes/Password`
+- نوٹ → نوٹ کو اس کے مطابق ترتیب دیں: `prefs:root=NOTES&path=Sort%20Notes%20By` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes/Sort%20Notes%20By`
+- نوٹ → نئے نوٹ کی شروعات: `prefs:root=NOTES&path=New%20Notes%20Start%20With` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes/New%20Notes%20Start%20With`
+- نوٹ → چیک کردہ آئٹم شارٹ کریں: `prefs:root=NOTES&path=Sort%20Checked%20Items` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes/Sort%20Checked%20Items`
+- نوٹ → لائن اور گرِڈ: `prefs:root=NOTES&path=Lines%20%26%20Grids` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes/Lines%20%26%20Grids`
+- نوٹ → تصاویر میں محفوظ کریں: `prefs:root=NOTES#Save%20to%20Photos` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes#Save%20to%20Photos#Save%20to%20Photos`
+- نوٹ → لاک اسکرین سے نوٹ ایپ تک رسائی حاصل کریں: `prefs:root=NOTES&path=Access%20Notes%20from%20Lock%20Screen` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes/Access%20Notes%20from%20Lock%20Screen`
+- کتاب: `prefs:root=IBOOKS`
+- کتاب → آن لائن مواد: `prefs:root=IBOOKS#BKAllowOnlineContent`
+- کتاب → سِنک کیا جا رہا ہے: `prefs:root=IBOOKS#SYNCING`
+- کتاب → فی الحال پڑھا جا رہا ہے: `prefs:root=IBOOKS#BKLibrary.ReadingNow`
+- کتاب → iCloud Drive: `prefs:root=IBOOKS#BCSyncICloudDrive`
+- کتاب → پڑھا جا رہا ہے: `prefs:root=IBOOKS#READING`
+- کتاب → فُل جسٹِفکیشن: `prefs:root=IBOOKS#BKFullJustification`
+- کتاب → آٹو ہائیفنیشن: `prefs:root=IBOOKS#BKAutoHyphenation`
+- کتاب → دونوں حاشیوں کے ذریعے آگے بڑھیں: `prefs:root=IBOOKS#BKLeftTapTurnToNext`
+- کتاب → ریڈنگ ہدف: `prefs:root=IBOOKS#READING_GOALS`
+- کتاب → ریڈنگ ہدف ڈیٹا صاف کریں: `prefs:root=IBOOKS#BKReadingGoalsShouldClearDataKey`
+- کتاب → تلاش جاری ہے: `prefs:root=IBOOKS#SEARCHING`
+- کتاب → بُک اسٹور: `prefs:root=IBOOKS#BKIncludeBookStoreResultsInSearch`
+- کتاب → آڈیوبک: `prefs:root=IBOOKS#AUDIOBOOKS`
+- کتاب → آگے اسکپ کریں: `prefs:root=IBOOKS&path=BKAudioBookSkipForward`
+- کتاب → پیچھے اسکپ کریں: `prefs:root=IBOOKS&path=BKAudioBookSkipBackward`
+- کتاب → خارجی کنٹرول: `prefs:root=IBOOKS#BKRemoteSkipInsteadOfNextTrackDefaultKey`
+- کتاب → اگلا / پچھلا: `prefs:root=IBOOKS#Next/Previous`
+- کتاب → آگے / پیچھے اسکپ کریں: `prefs:root=IBOOKS#Skip%20Forward/Back`
+- کتاب → رازداری: `prefs:root=IBOOKS#PRIVACY`
+- کتاب → آئیڈنٹیفائر کو ری سیٹ کریں: `prefs:root=IBOOKS#BAResetAnalyticsUserID`
+- کتاب → اظہار تشکر: `prefs:root=IBOOKS&path=Acknowledgements`
+- Game Center: `prefs:root=GAMECENTER`
+- ایمرجنسی ‏SOS: `prefs:root=EMERGENCY_SOS`
+- ایمرجنسی ‏SOS → سائیڈ بٹن سے کال کریں: `prefs:root=EMERGENCY_SOS#CALL_WITH_SIDE_BUTTON`
+- ایمرجنسی ‏SOS → آٹو کال: `prefs:root=EMERGENCY_SOS#AUTO_CALL`
+- ایمرجنسی ‏SOS → ایمرجنسی روابط: `prefs:root=EMERGENCY_SOS#EMERGENCY_CONTACTS`
+- ایمرجنسی ‏SOS → کاؤنٹ ڈاؤن کی آواز: `prefs:root=EMERGENCY_SOS#ALARM_SOUND_SWITCH`
+- ریمائنڈر: `prefs:root=REMINDERS`
+- ریمائنڈر → ڈیفالٹ فہرست: `prefs:root=REMINDERS&path=DEFAULT_LIST`
+- ریمائنڈر → ڈیفالٹ فہرست → ریمائنڈر: `prefs:root=REMINDERS&path=DEFAULT_LIST#preferredDefaultListID`
+- ریمائنڈر → آج کی اطلاع: `prefs:root=REMINDERS#todayNotificationFireTime`
+- ریمائنڈر → بطور زائدالمیعاد دکھائیں: `prefs:root=REMINDERS#showRemindersAsOverdue`
+- موبائل سروس: `prefs:root=MOBILE_DATA_SETTINGS_ID`
+- موبائل سروس → موبائل ڈیٹا کے اختیارات: `prefs:root=MOBILE_DATA_SETTINGS_ID&path=CELLULAR_DATA_OPTIONS`
+- موبائل سروس → موبائل ڈیٹا کے اختیارات → کم ڈیٹا موڈ: `prefs:root=MOBILE_DATA_SETTINGS_ID&path=CELLULAR_DATA_OPTIONS#Low%20Data%20Mode`
+- موبائل سروس → موبائل سروس: `prefs:root=MOBILE_DATA_SETTINGS_ID&path=SHOW_ALL`
+- ‏WLAN | ‏⁨Wi-Fi⁩: `prefs:root=WIFI`
+- رابطہ: `prefs:root=CONTACTS`
+- رابطہ → روابط کو درج ذیل تک رسائی کی اجازت دیں: `prefs:root=CONTACTS#Allow%20Contacts%20To%20Access`
+- رابطہ → Siri‏: `prefs:root=CONTACTS&path=SIRI_AND_SEARCH`
+- رابطہ → ترتیب کی نوعیت: `prefs:root=CONTACTS&path=ContactsSortOrder`
+- رابطہ → ڈسپلے کی نوعیت: `prefs:root=CONTACTS&path=PersonNameOrder`
+- رابطہ → مختصر نام: `prefs:root=CONTACTS&path=PersonShortName`
+- رابطہ → مختصر نام → مختصر نام: `prefs:root=CONTACTS&path=PersonShortName#Short%20Name`
+- رابطہ → مختصر نام → عرفی نام کو ترجیح دیں: `prefs:root=CONTACTS&path=PersonShortName#Prefer%20Nicknames`
+- رابطہ → میری معلومات: `prefs:root=CONTACTS&path=MeCard`
+- رابطہ → ‏SIM کے روابط امپورٹ کریں: `prefs:root=CONTACTS#SIMImport`
+- شارٹ کٹ: `prefs:root=SHORTCUTS`
+- شارٹ کٹ → ‏iCloud سِنک: `prefs:root=SHORTCUTS#WFCloudKitSyncEnabled`
+- شارٹ کٹ → شارٹ کٹ کی ترتیب سِنک کریں: `prefs:root=SHORTCUTS#WFCloudKitSyncOrderEnabled`
+- شارٹ کٹ → قانونی نوٹِس: `prefs:root=SHORTCUTS&path=Legal%20Notices`
+- ویڈیو | ‏TV: `prefs:root=TVAPP`
+- ویڈیو | ‏TV → پلے بیک کے لیے موبائل ڈیٹا استعمال کریں: `prefs:root=TVAPP#com.apple.videos%3AVideosUseCellularDataEnabledSetting`
+- ویڈیو | ‏TV → پلے بیک کا معیار: `prefs:root=TVAPP#com.apple.videos%3APlaybackQualityGroup`
+- ویڈیو | ‏TV → خریداری اور رینٹل: `prefs:root=TVAPP&path=com.apple.videos%3APreferredPurchaseResolution`
+- ویڈیو | ‏TV → گھر کی شیئرنگ: `prefs:root=TVAPP#com.apple.videos%3AHomeSharingFooter`
+- موسیقی: `prefs:root=MUSIC`
+- موسیقی → ‏⁨Apple Music⁩ دکھائیں: `prefs:root=MUSIC#com.apple.Music%3AAppleMusicEnabled`
+- موسیقی → پلے لسٹ کے گانے شامل کریں: `prefs:root=MUSIC#com.apple.Music%3AAddPlaylistSongsToMyMusicSwitch`
+- موسیقی → اسٹار کی ریٹنگ دکھائیں: `prefs:root=MUSIC#com.apple.Music%3AShowStarRatings`
+- موسیقی → لائبریری سِنک کریں: `prefs:root=MUSIC#com.apple.Music%3ACloudMusicLibraryEnabled`
+- موسیقی → موبائل سروس: `prefs:root=MUSIC&path=com.apple.Music%3ACellularData`
+- موسیقی → ڈاؤنلوڈ کردہ موسیقی: `prefs:root=MUSIC&path=com.apple.Music%3AMusicUsageLink`
+- موسیقی → اسٹوریج آپٹیمائز کریں: `prefs:root=MUSIC&path=com.apple.Music%3AOptimizeStorage`
+- موسیقی → آٹومیٹک ڈاؤنلوڈ: `prefs:root=MUSIC#com.apple.Music%3AMusicAutomaticDownload`
+- موسیقی → ‏EQ: `prefs:root=MUSIC&path=com.apple.Music%3AEQ`
+- موسیقی → آواز چیک: `prefs:root=MUSIC#com.apple.Music%3ASoundCheck`
+- موسیقی → سننے کی سرگزشت کا استعمال کریں: `prefs:root=MUSIC#com.apple.Music%3APrivateListening`
+- کیمرا: `prefs:root=CAMERA`
+- کیمرا → فارمیٹ: `prefs:root=CAMERA&path=CameraFormatsSettingsList`
+- کیمرا → فارمیٹ → ‏⁨Apple ProRaw⁩: `prefs:root=CAMERA&path=CameraFormatsSettingsList#CAMUserPreferenceEnableLinearDNGControl`
+- کیمرا → Record Video: `prefs:root=CAMERA&path=Record%20Video`
+- کیمرا → Record Video → ‏HDR ویڈیو: `prefs:root=CAMERA&path=Record%20Video#HDR%20Video`
+- کیمرا → سیٹنگ محفوظ کریں: `prefs:root=CAMERA&path=CameraPreserveSettingsSwitch`
+- کیمرا → سیٹنگ محفوظ کریں → کیمرا موڈ: `prefs:root=CAMERA&path=CameraPreserveSettingsSwitch#CAMUserPreferencePreserveCaptureMode`
+- کیمرا → گرِڈ: `prefs:root=CAMERA#CameraGridSwitch`
+- کیمرا → ‏QR کوڈ اسکین کریں: `prefs:root=CAMERA#CameraQRBannerSwitch`
+- کمپاس: `prefs:root=COMPASS`
+- کمپاس → حقیقی شمال کا استعمال کریں: `prefs:root=COMPASS#USE_TRUE_NORTH`
+- اکسپوژر نوٹیفیکیشن: `prefs:root=EXPOSURE_NOTIFICATION`
+- ‏Mail: `prefs:root=MAIL`
+- ‏Mail → اکاؤنٹ: `prefs:root=MAIL&path=ACCOUNTS`
+- ‏Mail → اکاؤنٹ → اکاؤنٹ شامل کریں: `prefs:root=MAIL&path=ACCOUNTS#ADD_ACCOUNT`
+- ‏Mail → اکاؤنٹ → نیا ڈیٹا فچ کریں: `prefs:root=MAIL&path=ACCOUNTS#FETCH_NEW_DATA`
+- ‏Mail → پری ویو: `prefs:root=MAIL&path=Preview`
+- ‏Mail → بنام/نقل کا لیبل دکھائیں: `prefs:root=MAIL#Show%20To/Cc%20Labels`
+- ‏Mail → سوائپ کے اختیارات: `prefs:root=MAIL&path=Swipe%20Options`
+- ‏Mail → حذف کرنے سے پہلے پوچھیں: `prefs:root=MAIL#Ask%20Before%20Deleting`
+- ‏Mail → ریموٹ امیج لوڈ کریں: `prefs:root=MAIL#Load%20Remote%20Images`
+- ‏Mail → تھریڈ کے ذریعے نظم کریں: `prefs:root=MAIL#Organize%20by%20Thread`
+- ‏Mail → پڑھا ہوا پیغام سمیٹیں: `prefs:root=MAIL#Collapse%20Read%20Messages`
+- ‏Mail → حالیہ ترین پیغام سب سے اوپر: `prefs:root=MAIL#Most%20Recent%20Message%20on%20Top`
+- ‏Mail → تھریڈ مکمل کریں: `prefs:root=MAIL#Complete%20Threads`
+- ‏Mail → میوٹ کردہ تھریڈ کا ایکشن: `prefs:root=MAIL&path=Muted%20Thread%20Action`
+- ‏Mail → بلاک کیے گئے بھیجنے والوں کو نظر انداز کریں: `prefs:root=MAIL#Ignore%20Blocked%20Senders`
+- ‏Mail → بلاک کردہ بھیجنے والے کے اختیارات: `prefs:root=MAIL&path=Blocked%20Sender%20Options`
+- ‏Mail → بلاک کردہ: `prefs:root=MAIL&path=Blocked`
+- ‏Mail → خود کو ہمیشہ خفیہ نقل بھیجیں: `prefs:root=MAIL#Always%20Bcc%20Myself`
+- ‏Mail → پتے نشان زد کریں: `prefs:root=MAIL&path=Mark%20Addresses`
+- ‏Mail → کوٹ لیول بڑھائیں: `prefs:root=MAIL&path=Increase%20Quote%20Level`
+- ‏Mail → جواب میں اٹیچمنٹ شامل کریں: `prefs:root=MAIL&path=Include%20Attachments%20with%20Replies`
+- ‏Mail → دستخط: `prefs:root=MAIL&path=Signature`
+- ‏Bluetooth: `prefs:root=Bluetooth`
+- ‏News: `prefs:root=NEWS`
+- ‏News → اسٹوری کی پری ویو دکھائیں: `prefs:root=NEWS#show_excerpt_mode`
+- ‏News → ’آج‘ میں اسٹوری محدود کریں: `prefs:root=NEWS#showStoriesFromFavoritesSpecifierID`
+- ‏News → رازداری: `prefs:root=NEWS#Privacy`
+- ‏News → آئیڈنٹیفائر کو ری سیٹ کریں: `prefs:root=NEWS#reset_identifier`
+- ‏News → اظہار تشکر: `prefs:root=NEWS&path=Acknowledgements`
+- تصویر: `prefs:root=Photos`
+- تصویر → ‏iCloud تصاویر: `prefs:root=Photos#iCloudPhotosSwitch`
+- تصویر → اسٹوریج آپٹیمائز کریں: `prefs:root=Photos#iCloudOptimizeStorageOption`
+- تصویر → ڈاؤنلوڈ کریں اور اصل باقی رکھیں: `prefs:root=Photos#iCloudKeepOriginalsOption`
+- تصویر → شیئر کردہ البم: `prefs:root=Photos#SharedStreamsSwitch`
+- تصویر → موبائل سروس: `prefs:root=Photos&path=CellularDataLinkList`
+- تصویر → ویڈیو آٹو پلے کریں: `prefs:root=Photos#VideoAutoplaySwitch`
+- تصویر → مکمل ‏HDR دیکھیں: `prefs:root=Photos#ImageModulationSwitch`
+- تصویر → تعطیلی ایونٹ دکھائیں: `prefs:root=Photos#MEMORIES_HOLIDAY_CALENDAR_EVENTS_SWITCH`
+- تصویر → ‏Mac یا ‏PC پر ٹرانسفر کریں: `prefs:root=Photos#TransferGroup`
+- پوڈکاسٹ: `prefs:root=PODCASTS`
+- رازداری اور تحفظ: `prefs:root=Privacy` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity`
+- رازداری اور تحفظ → صحت: `prefs:root=Privacy&path=HEALTH` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/HEALTH`
+- رازداری اور تحفظ → صحت ڈیٹا: `prefs:root=Privacy&path=HEALTH_DATA` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/HEALTH_DATA`
+- رازداری اور تحفظ → لوکیشن: `prefs:root=Privacy&path=LOCATION` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/LOCATION`
+- رازداری اور تحفظ → لوکیشن → میری لوکیشن شیئر کریں: `prefs:root=Privacy&path=LOCATION/LOCATION_SHARING` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/LOCATION/LOCATION_SHARING`
+- رازداری اور تحفظ → رابطہ: `prefs:root=Privacy&path=CONTACTS` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/CONTACTS`
+- رازداری اور تحفظ → کیلنڈر: `prefs:root=Privacy&path=CALENDARS` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/CALENDARS`
+- رازداری اور تحفظ → ریمائنڈر: `prefs:root=Privacy&path=REMINDERS` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/REMINDERS`
+- رازداری اور تحفظ → تصویر: `prefs:root=Privacy&path=PHOTOS` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/PHOTOS`
+- رازداری اور تحفظ → ‏Bluetooth شیئرنگ: `prefs:root=Privacy&path=BT_PERIPHERAL` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/BT_PERIPHERAL`
+- رازداری اور تحفظ → مائکروفون: `prefs:root=Privacy&path=MICROPHONE` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/MICROPHONE`
+- رازداری اور تحفظ → اسپیچ کی شناخت: `prefs:root=Privacy&path=SPEECH_RECOGNITION` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/SPEECH_RECOGNITION`
+- رازداری اور تحفظ → کیمرا: `prefs:root=Privacy&path=CAMERA` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/CAMERA`
+- رازداری اور تحفظ → ‏HomeKit: `prefs:root=Privacy&path=WILLOW` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/WILLOW`
+- رازداری اور تحفظ → میڈیا اور ‏⁨Apple Music⁩: `prefs:root=Privacy&path=MEDIALIBRARY` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/MEDIALIBRARY`
+- رازداری اور تحفظ → تجزیے: `prefs:root=Privacy&path=PROBLEM_REPORTING` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/PROBLEM_REPORTING`
+- رازداری اور تحفظ → اشتہار: `prefs:root=Privacy&path=ADVERTISING` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/ADVERTISING`
+- رازداری اور تحفظ → فائل اور فولڈر: `prefs:root=Privacy&path=FILEACCESS` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/FILEACCESS`
+- رازداری اور تحفظ → ٹریکنگ: `prefs:root=Privacy&path=USER_TRACKING` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/USER_TRACKING`
+- رازداری اور تحفظ → ایپ کی رازداری کی رپورٹ: `prefs:root=Privacy&path=PRIVACY_REPORT` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/PRIVACY_REPORT`
+- رازداری اور تحفظ → لاک ڈاؤن موڈ: `prefs:root=Privacy#LOCKDOWN_MODE` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity#LOCKDOWN_MODE#LOCKDOWN_MODE`
+- رازداری اور تحفظ → حساس مواد: `prefs:root=Privacy#NUDITY_DETECTION` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity#NUDITY_DETECTION#NUDITY_DETECTION`
+- ‏FaceTime: `prefs:root=FACETIME`
+- اسکرین ٹائم: `prefs:root=SCREEN_TIME`
+- آواز اور ہیپٹک | آوازیں: `prefs:root=Sounds`
+- آواز اور ہیپٹک | آوازیں → ہیڈ فون سیفٹی: `prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING`
+- آواز اور ہیپٹک | آوازیں → ہیڈ فون سیفٹی → ‏Lightning اڈیپٹر: `prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING/HEADPHONE_LIGHTNING_ADAPTERS`
+- آواز اور ہیپٹک | آوازیں → ہیڈ فون سیفٹی → ہیڈفون کی اطلاعات: `prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING#SHSHeadphoneWeeklyNotificationsKey`
+- آواز اور ہیپٹک | آوازیں → ہیڈ فون سیفٹی → تیز آڈیو کو کم کریں: `prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING#SHSHeadphoneLevelLimitSwitchKey`
+- آواز اور ہیپٹک | آوازیں → صوتی افیکٹ: `prefs:root=Sounds&path=SOUND_EFFECTS`
+- آواز اور ہیپٹک | آوازیں → رِنگر اور الرٹ: `prefs:root=Sounds#RINGER_AND_ALERT_GROUP`
+- آواز اور ہیپٹک | آوازیں → بٹن سے تبدیل کریں: `prefs:root=Sounds#CHANGE_WITH_BUTTONS`
+- آواز اور ہیپٹک | آوازیں → آواز اور وائبریشن پیٹرن: `prefs:root=Sounds#SOUNDS_ALERT_GROUP`
+- آواز اور ہیپٹک | آوازیں → رِنگ ٹون: `prefs:root=Sounds&path=Ringtone`
+- آواز اور ہیپٹک | آوازیں → متن کا ٹون: `prefs:root=Sounds&path=Text_Messages`
+- آواز اور ہیپٹک | آوازیں → نیا وائس میل: `prefs:root=Sounds&path=Voicemail`
+- آواز اور ہیپٹک | آوازیں → نیا ‏Mail: `prefs:root=Sounds&path=NEW_MAIL`
+- آواز اور ہیپٹک | آوازیں → میل بھیجیں: `prefs:root=Sounds&path=SENT_MAIL`
+- آواز اور ہیپٹک | آوازیں → کیلنڈر الرٹ: `prefs:root=Sounds&path=Calendar%20Alarm`
+- آواز اور ہیپٹک | آوازیں → ریمائنڈر الرٹ: `prefs:root=Sounds&path=Reminder%20Alerts`
+- آواز اور ہیپٹک | آوازیں → کی بورڈ کلِک: `prefs:root=Sounds#KEYBOARD_SOUND_SWITCH`
+- آواز اور ہیپٹک | آوازیں → لاک کی آواز: `prefs:root=Sounds#LOCK_SOUND_SWITCH`
+- آواز اور ہیپٹک | آوازیں → ذاتی کردہ اسپیشیل آڈیو: `prefs:root=Sounds&path=Personalized%20Spatial%20Audio`
+- ‏⁨Apple Pencil⁩: `prefs:root=Pencil`
+- ‏⁨Apple Pencil⁩ → ‏⁨Apple Pencil⁩: `prefs:root=Pencil#PrefersPencilDraws`
+- ‏⁨Apple Pencil⁩ → ‏⁨Apple Pencil⁩: `prefs:root=Pencil#PencilTextInput`
+- پیغام: `prefs:root=MESSAGES`
+- اسٹاک: `prefs:root=STOCKS`
+- اسٹاک → رازداری: `prefs:root=STOCKS#Privacy`
+- اسٹاک → آئیڈنٹیفائر کو ری سیٹ کریں: `prefs:root=STOCKS#reset_identifier`
+- ترجمہ: `prefs:root=TRANSLATE`
+- ترجمہ → آن ڈیوائس موڈ: `prefs:root=TRANSLATE#OnDeviceOnly`
+- Siri‏: `prefs:root=SIRI`
+- Siri‏ → لاک ہونے کی صورت میں ‏Siri کو اجازت دیں: `prefs:root=SIRI#ASSISTANT_LOCK_SCREEN_ACCESS`
+- Siri‏ → زبان: `prefs:root=SIRI&path=LANGUAGE_ID`
+- Siri‏ → ‏Siri کی آواز: `prefs:root=SIRI&path=VOICE_ID`
+- Siri‏ → وائس فیڈ بیک: `prefs:root=SIRI&path=VOICE_FEEDBACK_ID`
+- Siri‏ → میری معلومات: `prefs:root=SIRI&path=MY_INFO`
+- صحت | صحت ڈیٹا: `prefs:root=HEALTH`
+- App Store: `prefs:root=STORE`
+- App Store → آٹومیٹک ڈاؤنلوڈ: `prefs:root=STORE#Automatic%20Downloads`
+- App Store → ایپ کے اپڈیٹ: `prefs:root=STORE#App%20Updates`
+- App Store → ایپ کے ڈاؤنلوڈ: `prefs:root=STORE&path=App%20Downloads`
+- App Store → ویڈیو آٹو پلے: `prefs:root=STORE&path=Video%20Autoplay`
+- App Store → اِن ایپ ریٹنگ اور جائزے: `prefs:root=STORE#In-App%20Ratings%20&%20Reviews`
+- ہوائی جہاز موڈ: `prefs:root=ROOT#AIRPLANE_MODE`

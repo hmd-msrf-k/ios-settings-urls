@@ -1,8 +1,17 @@
+- Privacy & Security: `settings-navigation://com.apple.Settings.PrivacyAndSecurity`
+- Privacy & Security → Safety Check: `settings-navigation://com.apple.Settings.PrivacyAndSecurity/SAFETY_CHECK`
+- Apps: `settings-navigation://com.apple.Settings.Apps`
+- Apps → Fitness: `settings-navigation://com.apple.Settings.Apps/com.apple.Fitness`
+- Apps → Safari: `settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari/` or `prefs:root=SAFARI`
+- Apps → Safari → Extensions: `settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari/WEB_EXTENSIONS` or `prefs:root=SAFARI&path=WEB_EXTENSIONS`
+- Apps → Safari → Block Pop-ups: `settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari#BLOCK_POPUPS`
+- Apps → Safari → Prevent Cross-Site Tracking: `settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari#TRACKER_PROTECTION`
+- Apps → Safari → AutoFill: `settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari/AUTO_FILL` or `prefs:root=SAFARI&path=AUTO_FILL`
+- Apps → Safari → Downloads: `settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari/DOWNLOADS` or `prefs:root=SAFARI&path=DOWNLOADS`
+- Apps → Passwords: `settings-navigation://com.apple.Settings.Apps/com.apple.Passwords`
+- Apps → Passwords → Security recommendations: `settings-navigation://com.apple.Settings.Apps/com.apple.Passwords#SECURITY_RECOMMENDATIONS`
 - Apple Account: `settings-navigation://com.apple.Settings.AppleAccount`
 - Apple Account → iCloud: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE`
-- Apple Account → iCloud → Calendar: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Calendars`
-- Apple Account → iCloud → Calendar → Send & Receive: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Calendars/CALENDAR_SEND_RECEIVE`
-- Apple Account → iCloud → Calendar → Receive Email Updates: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Calendars/CALENDAR_SHARED_CALENDAR_UPDATE`
 - Apple Account → iCloud → Mail: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail`
 - Apple Account → iCloud → Mail → Default Email: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail/DEFAULT_EMAIL`
 - Apple Account → iCloud → Mail → Addresses: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail/ALIASES`
@@ -12,18 +21,9 @@
 - Apple Account → iCloud → Mail → Mailbox Behaviors: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail/MAILBOX_BEHAVIORS`
 - Apple Account → iCloud → Mail → Signing and Encryption: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail/S_MIME`
 - Apple Account → iCloud → Mail → Import Messages: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail/MAIL_IMPORT`
-- Apps: `settings-navigation://com.apple.Settings.Apps`
-- Apps → Fitness: `settings-navigation://com.apple.Settings.Apps/com.apple.Fitness`
-- Apps → Safari: `settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari/`
-- Apps → Safari → Extensions: `settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari/WEB_EXTENSIONS`
-- Apps → Safari → Block Pop-ups: `settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari#BLOCK_POPUPS`
-- Apps → Safari → Prevent Cross-Site Tracking: `settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari#TRACKER_PROTECTION`
-- Apps → Safari → AutoFill: `settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari/AUTO_FILL`
-- Apps → Safari → Downloads: `settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari/DOWNLOADS`
-- Apps → Passwords: `settings-navigation://com.apple.Settings.Apps/com.apple.Passwords`
-- Apps → Passwords → Security recommendations: `settings-navigation://com.apple.Settings.Apps/com.apple.Passwords#SECURITY_RECOMMENDATIONS`
-- Privacy & Security: `settings-navigation://com.apple.Settings.PrivacyAndSecurity`
-- Privacy & Security → Safety Check: `settings-navigation://com.apple.Settings.PrivacyAndSecurity/SAFETY_CHECK`
+- Apple Account → iCloud → Calendar: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Calendars`
+- Apple Account → iCloud → Calendar → Send & Receive: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Calendars/CALENDAR_SEND_RECEIVE`
+- Apple Account → iCloud → Calendar → Receive Email Updates: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Calendars/CALENDAR_SHARED_CALENDAR_UPDATE`
 - Home: `settings-navigation://com.apple.Settings.HomeKit`
 - Search: `settings-navigation://com.apple.Settings.Search`
 - TV Provider: `settings-navigation://com.apple.Settings.TVProvider`

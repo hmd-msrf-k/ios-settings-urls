@@ -1,0 +1,518 @@
+- 血氧: `bridge:root=com.apple.OxygenSaturationSettings`
+- 洗手: `bridge:root=com.apple.BrookBridgeSettings`
+- 洗手 → 允许通知: `bridge:root=com.apple.BrookBridgeSettings#ALLOW_NOTIFICATIONS_ID`
+- 洗手 → 发送到通知中心: `bridge:root=com.apple.BrookBridgeSettings#SEND_TO_NOTIFICATION_CENTER_ID`
+- 洗手 → 关闭通知: `bridge:root=com.apple.BrookBridgeSettings#NOTIFICATIONS_OFF_ID`
+- 洗手 → 通知分组: `bridge:root=com.apple.BrookBridgeSettings&path=NOTIFICATION_COALESCING_ID`
+- 洗手 → 洗手计时器: `bridge:root=com.apple.BrookBridgeSettings#HANDWASHING_TIMER_ID`
+- 显示与亮度: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID`
+- 显示与亮度 → 唤醒时长: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=WAKE_DURATION_SELECTION_KEY`
+- 显示与亮度 → 唤醒时长 → 在轻点时: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=WAKE_DURATION_SELECTION_KEY#ON_TAP_GROUP_ID`
+- 显示与亮度 → 唤醒时长 → 唤醒15秒: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=WAKE_DURATION_SELECTION_KEY#SHORT_WAKE_ID`
+- 显示与亮度 → 唤醒时长 → 唤醒70秒: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=WAKE_DURATION_SELECTION_KEY#LONG_WAKE_ID`
+- 显示与亮度 → 亮度: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID#BRIGHTNESS_LABEL`
+- 显示与亮度 → 全天候显示: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID`
+- 显示与亮度 → 全天候显示 → 全天候显示: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID#TRITIUM_ID`
+- 显示与亮度 → 全天候显示 → 垂腕: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID#TRITIUM_PRIVACY_GROUP_ID`
+- 显示与亮度 → 全天候显示 → 显示实时活动: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_LIVE_ACTIVITIES_ID`
+- 显示与亮度 → 全天候显示 → 显示实时活动 → 显示实时活动: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_LIVE_ACTIVITIES_ID#APP_BACKLIGHT_PRIVACY_GLOBAL_APP`
+- 显示与亮度 → 全天候显示 → 显示App: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_APPS_ID`
+- 显示与亮度 → 全天候显示 → 显示App → 显示App: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_APPS_ID#APP_BACKLIGHT_PRIVACY_GLOBAL_APP`
+- 显示与亮度 → 全天候显示 → 显示App → App: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_APPS_ID#APP_GROUP_ID`
+- 显示与亮度 → 全天候显示 → 显示App → App Store: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_APPS_ID#com.apple.AppStore`
+- 显示与亮度 → 全天候显示 → 显示App → Nike Run Club: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_APPS_ID#com.nike.nikeplus-gps.watchkitapp`
+- 显示与亮度 → 全天候显示 → 显示App → 电话: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_APPS_ID#com.apple.NanoPhone`
+- 显示与亮度 → 全天候显示 → 显示App → 照片: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_APPS_ID#com.apple.NanoPhotos`
+- 显示与亮度 → 全天候显示 → 显示App → 设置: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_APPS_ID#com.apple.NanoSettings`
+- 显示与亮度 → 全天候显示 → 显示App → Tap-to-Radar: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_APPS_ID#com.apple.NanoTapToRadar`
+- 显示与亮度 → 全天候显示 → 显示通知: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID`
+- 显示与亮度 → 全天候显示 → 显示通知 → 显示通知: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#APP_BACKLIGHT_PRIVACY_GLOBAL_APP`
+- 显示与亮度 → 全天候显示 → 显示通知 → APPLE WATCH APP | IPHONE APP: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#APP_GROUP_ID`
+- 显示与亮度 → 全天候显示 → 显示通知 → App Store: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.AppStore`
+- 显示与亮度 → 全天候显示 → 显示通知 → Nike Run Club: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.nike.nikeplus-gps.watchkitapp`
+- 显示与亮度 → 全天候显示 → 显示通知 → 电话: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.NanoPhone`
+- 显示与亮度 → 全天候显示 → 显示通知 → 照片: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.NanoPhotos`
+- 显示与亮度 → 全天候显示 → 显示通知 → 设置: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.NanoSettings`
+- 显示与亮度 → 全天候显示 → 显示通知 → Tap-to-Radar: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.NanoTapToRadar`
+- 显示与亮度 → 全天候显示 → 显示通知 → 辅助功能设置: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.accessibility.TeachableMomentsNotifications`
+- 显示与亮度 → 全天候显示 → 显示通知 → 图书: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.iBooks`
+- 显示与亮度 → 全天候显示 → 显示通知 → Caffè Macs: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.ist.CaffeMacsApp`
+- 显示与亮度 → 全天候显示 → 显示通知 → 日历: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.mobilecal`
+- 显示与亮度 → 全天候显示 → 显示通知 → 相机: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.camera`
+- 显示与亮度 → 全天候显示 → 显示通知 → Connect: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.ist.AppleConnect`
+- 显示与亮度 → 全天候显示 → 显示通知 → 诊断报告程序: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.DiagnosticsReporter`
+- 显示与亮度 → 全天候显示 → 显示通知 → Internal反馈: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.FeedbackInternal`
+- 显示与亮度 → 全天候显示 → 显示通知 → 健身: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.Fitness`
+- 显示与亮度 → 全天候显示 → 显示通知 → Game Center: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.gamecenter`
+- 显示与亮度 → 全天候显示 → 显示通知 → 健康: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.Health`
+- 显示与亮度 → 全天候显示 → 显示通知 → Livability: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.Livability`
+- 显示与亮度 → 全天候显示 → 显示通知 → 邮件: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.mobilemail`
+- 显示与亮度 → 全天候显示 → 显示通知 → 信息: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.MobileSMS`
+- 显示与亮度 → 全天候显示 → 显示通知 → Self Service: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.jamfsoftware.selfservice`
+- 显示与亮度 → 全天候显示 → 显示通知 → 跟踪通知: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.FindMySafetyAlertsNotifications`
+- 显示与亮度 → 全天候显示 → 显示通知 → 天气: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.weather`
+- 显示与亮度 → 全天候显示 → 显示复杂功能数据: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_COMPLICATIONS_DATA_ID`
+- 显示与亮度 → 全天候显示 → 显示复杂功能数据 → 显示复杂功能数据: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_COMPLICATIONS_DATA_ID#Show%20Complication%20Data`
+- 显示与亮度 → 全天候显示 → 显示复杂功能数据 → App: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_COMPLICATIONS_DATA_ID#Apps`
+- 显示与亮度 → 全天候显示 → 显示复杂功能数据 → 正在载入…: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_COMPLICATIONS_DATA_ID#Loading%E2%80%A6`
+- 显示与亮度 → 全天候显示 → 显示复杂功能数据 → Siri: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_COMPLICATIONS_DATA_ID#Siri`
+- 显示与亮度 → 全天候显示 → 显示复杂功能数据 → Siri卡片: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_COMPLICATIONS_DATA_ID#Siri%20Cards`
+- 显示与亮度 → 文字大小: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID#TEXT_SIZE`
+- 显示与亮度 → 粗体文本: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID#BOLD_TEXT`
+- 显示与亮度 → 唤醒: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID#Wake`
+- 显示与亮度 → 抬腕时唤醒: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID#WAKE_SCREEN_ON_WRIST_RAISE_SWITCH_ID`
+- 显示与亮度 → 旋转表冠时唤醒: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID#WAKE_SCREEN_ON_CROWN_UP_SWITCH_ID`
+- 照片: `bridge:root=com.apple.NanoPhotosBridgeSettings`
+- 照片 → 照片同步: `bridge:root=com.apple.NanoPhotosBridgeSettings#Photo%20Syncing`
+- 照片 → 回忆: `bridge:root=com.apple.NanoPhotosBridgeSettings#Memories`
+- 照片 → 同步回忆: `bridge:root=com.apple.NanoPhotosBridgeSettings#Sync%20Memories`
+- 照片 → 精选照片: `bridge:root=com.apple.NanoPhotosBridgeSettings#Featured%20Photos`
+- 照片 → 同步精选照片: `bridge:root=com.apple.NanoPhotosBridgeSettings#Sync%20Featured%20Photos`
+- 照片 → 相簿: `bridge:root=com.apple.NanoPhotosBridgeSettings#Album`
+- 照片 → 同步相簿: `bridge:root=com.apple.NanoPhotosBridgeSettings&path=Sync%20Album`
+- 照片 → 照片上限: `bridge:root=com.apple.NanoPhotosBridgeSettings&path=Photos%20Limit`
+- 照片 → 通知设置: `bridge:root=com.apple.NanoPhotosBridgeSettings#MIRROR_RADIO_GROUP_ID`
+- 照片 → 从我的iPhone镜像: `bridge:root=com.apple.NanoPhotosBridgeSettings#MIRROR_MY_COMPANION_ID`
+- 照片 → 自定义: `bridge:root=com.apple.NanoPhotosBridgeSettings#CUSTOM_ID`
+- 复杂功能: `bridge:root=COMPLICATIONS`
+- 控制中心: `bridge:root=CONTROL_CENTER_ID`
+- 控制中心 → 还原控制中心布局: `bridge:root=CONTROL_CENTER_ID#CONTROL_CENTER_RESET_ID`
+- App视图: `bridge:root=APP_VIEW_ID`
+- 通用: `bridge:root=GENERAL_LINK`
+- 通用 → 关于本机: `bridge:root=GENERAL_LINK&path=ABOUT`
+- 通用 → 关于本机 → 名称: `bridge:root=GENERAL_LINK&path=ABOUT/NAME_CELL_ID`
+- 通用 → 关于本机 → watchOS版本: `bridge:root=GENERAL_LINK&path=ABOUT#OS_VERSION_CELL_ID`
+- 通用 → 关于本机 → 型号名称: `bridge:root=GENERAL_LINK&path=ABOUT#DEVICE_MARKETING_NAME_CELL_ID`
+- 通用 → 关于本机 → 型号详细信息: `bridge:root=GENERAL_LINK&path=ABOUT#DEVICE_DETAIL_CELL_ID`
+- 通用 → 关于本机 → 型号: `bridge:root=GENERAL_LINK&path=ABOUT#DEVICE_MODEL_CELL_ID`
+- 通用 → 关于本机 → 序列号: `bridge:root=GENERAL_LINK&path=ABOUT#DEVICE_SERIAL_NUMBER_CELL_ID`
+- 通用 → 关于本机 → 歌曲: `bridge:root=GENERAL_LINK&path=ABOUT#SONGS_CELL_ID`
+- 通用 → 关于本机 → 照片: `bridge:root=GENERAL_LINK&path=ABOUT#PHOTOS_CELL_ID`
+- 通用 → 关于本机 → 应用程序: `bridge:root=GENERAL_LINK&path=ABOUT#APPLICATIONS_CELL_ID`
+- 通用 → 关于本机 → 容量: `bridge:root=GENERAL_LINK&path=ABOUT#STORAGE_CAPACITY_CELL_ID`
+- 通用 → 关于本机 → 可用容量: `bridge:root=GENERAL_LINK&path=ABOUT#STORAGE_AVAILABLE_CELL_ID`
+- 通用 → 关于本机 → 运营商: `bridge:root=GENERAL_LINK&path=ABOUT#CARRIER_CELL_ID`
+- 通用 → 关于本机 → 蓝牙: `bridge:root=GENERAL_LINK&path=ABOUT#DEVICE_BLUETOOTH_ADDRESS_CELL_ID`
+- 通用 → 关于本机 → IMEI: `bridge:root=GENERAL_LINK&path=ABOUT#IMEI_CELL_ID`
+- 通用 → 关于本机 → ICCID: `bridge:root=GENERAL_LINK&path=ABOUT#ICCID_CELL_ID`
+- 通用 → 关于本机 → EID: `bridge:root=GENERAL_LINK&path=ABOUT/EID_CELL_ID`
+- 通用 → 关于本机 → SEID: `bridge:root=GENERAL_LINK&path=ABOUT/DEVICE_SEID_CELL_ID`
+- 通用 → 关于本机 → 法律信息: `bridge:root=GENERAL_LINK&path=ABOUT/LEGAL_CELL_ID`
+- 通用 → 关于本机 → 查看Apple Watch使用手册: `bridge:root=GENERAL_LINK&path=ABOUT#SHOW_MANUAL_CELL_ID`
+- 通用 → 软件更新: `bridge:root=GENERAL_LINK&path=SOFTWARE_UPDATE_LINK`
+- 通用 → 自动安装App: `bridge:root=GENERAL_LINK#AUTO_APP_INSTALL_SWITCH_ID`
+- 通用 → 飞行模式: `bridge:root=GENERAL_LINK&path=AIRPLANE_MODE_ID`
+- 通用 → 专注模式: `bridge:root=GENERAL_LINK&path=FOCUS_ID`
+- 通用 → 专注模式 → 从我的iPhone镜像: `bridge:root=GENERAL_LINK&path=FOCUS_ID#Mirror%20my%20iPhone`
+- 通用 → 手表方向: `bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION_ID`
+- 通用 → 手表方向 → Apple Watch佩戴手腕: `bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION_ID#WRIST_CHOICE_ID`
+- 通用 → 手表方向 → 左腕: `bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION_ID#LEFT_HAND_ID`
+- 通用 → 手表方向 → 右腕: `bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION_ID#RIGHT_HAND_ID`
+- 通用 → 手表方向 → 数码表冠在左: `bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION_ID#LISA_ON_LEFT_ID`
+- 通用 → 手表方向 → 数码表冠在右: `bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION_ID#LISA_ON_RIGHT_ID`
+- 通用 → Apple账户: `bridge:root=GENERAL_LINK&path=LINK_WITH_ICLOUD_LINK`
+- 通用 → 启用听写: `bridge:root=GENERAL_LINK#DICTATION_CELL_ID`
+- 通用 → 自动标点符号: `bridge:root=GENERAL_LINK#DICTATION_AUTO_PUNCTUATION_CELL_ID`
+- 通用 → 启用接力: `bridge:root=GENERAL_LINK#CONTINUITY_ID`
+- 通用 → 床头钟模式: `bridge:root=GENERAL_LINK#NIGHTSTAND_CELL_ID`
+- 通用 → 启用截屏: `bridge:root=GENERAL_LINK#BUTTON_CHORD_CELL_ID`
+- 通用 → 上次完全充电后的时间统计 | 储存空间 | 待机显示 | 省电模式: `bridge:root=GENERAL_LINK&path=USAGE_LINK`
+- 通用 → 描述文件: `bridge:root=GENERAL_LINK&path=ManagedConfigurationList`
+- 通用 → 诊断日志: `bridge:root=GENERAL_LINK&path=DIAGNOSTIC_LOG_BROWSER`
+- 通用 → 诊断日志 → 正在载入…: `bridge:root=GENERAL_LINK&path=DIAGNOSTIC_LOG_BROWSER#Loading%E2%80%A6`
+- 通用 → 拷贝手表分析: `bridge:root=GENERAL_LINK#LOGS_CELL_ID`
+- 通用 → 还原: `bridge:root=GENERAL_LINK&path=RESET_ID`
+- 通用 → 返回表盘: `bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK_ID`
+- 通用 → 返回表盘 → 返回表盘: `bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK_ID#CSLPRFReturnToClockGroupID`
+- 通用 → 返回表盘 → 始终: `bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK_ID#RETURN_TO_CLOCK_ALWAYS`
+- 通用 → 返回表盘 → 2分钟后: `bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK_ID#RETURN_TO_CLOCK_AFTER_2_MINUTES`
+- 通用 → 返回表盘 → 1小时后: `bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK_ID#RETURN_TO_CLOCK_AFTER_1_HOUR`
+- 通用 → 返回表盘 → App: `bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK_ID#APP_GROUP_ID`
+- 通用 → 后台App刷新: `bridge:root=GENERAL_LINK&path=BAR_ROW_ID`
+- 通用 → 后台App刷新 → 后台App刷新: `bridge:root=GENERAL_LINK&path=BAR_ROW_ID#BACKGROUND_APP_UPDATING_CELL_ID`
+- 通用 → 语言与地区: `bridge:root=GENERAL_LINK&path=LANGUAGE_AND_REGION_ID`
+- 通用 → 语言与地区 → 从我的iPhone镜像: `bridge:root=GENERAL_LINK&path=LANGUAGE_AND_REGION_ID#MIRROR_MY_COMPANION_ID`
+- 通用 → 语言与地区 → 自定义: `bridge:root=GENERAL_LINK&path=LANGUAGE_AND_REGION_ID#CUSTOM_ID`
+- 通用 → 浸入水中时自动启动: `bridge:root=GENERAL_LINK&path=AUTO_LAUNCH`
+- 通用 → 自动启动: `bridge:root=GENERAL_LINK&path=AUTO_LAUNCH_ID`
+- 通用 → Wake Screen: `bridge:root=GENERAL_LINK&path=WAKE_SCREEN`
+- 通用 → Wake Screen → 播放中: `bridge:root=GENERAL_LINK&path=WAKE_SCREEN#AUTO_LAUNCH_MEDIA`
+- 声效与触感反馈: `bridge:root=SOUNDS_ID`
+- 声效与触感反馈 → 提醒音量: `bridge:root=SOUNDS_ID#AUDIO_SLIDER`
+- 声效与触感反馈 → 铃声和提醒: `bridge:root=SOUNDS_ID#RINGTONE_AND_ALERTS_SECTION_TITLE`
+- 声效与触感反馈 → 静音模式: `bridge:root=SOUNDS_ID#audio_mute_switch`
+- 声效与触感反馈 → 自动调整音量: `bridge:root=SOUNDS_ID#contextual_volume_switch`
+- 声效与触感反馈 → 音量: `bridge:root=SOUNDS_ID&path=contextual_volume_profile`
+- 声效与触感反馈 → 音量 → 大声: `bridge:root=SOUNDS_ID&path=contextual_volume_profile#CONTEXTUAL_VOLUME_PROFILE_LOUDER_ID`
+- 声效与触感反馈 → 音量 → 默认: `bridge:root=SOUNDS_ID&path=contextual_volume_profile#CONTEXTUAL_VOLUME_PROFILE_DEFAULT_ID`
+- 声效与触感反馈 → 音量 → 小声: `bridge:root=SOUNDS_ID&path=contextual_volume_profile#CONTEXTUAL_VOLUME_PROFILE_QUIETER_ID`
+- 声效与触感反馈 → 触感反馈: `bridge:root=SOUNDS_ID&path=HAPTICS_ID`
+- 声效与触感反馈 → 触感反馈 → 关闭: `bridge:root=SOUNDS_ID&path=HAPTICS_ID#OFF_ITEM_ID`
+- 声效与触感反馈 → 触感反馈 → 默认: `bridge:root=SOUNDS_ID&path=HAPTICS_ID#DEFAULT_ITEM_ID`
+- 声效与触感反馈 → 触感反馈 → 强: `bridge:root=SOUNDS_ID&path=HAPTICS_ID#PROMINENT_ITEM_ID`
+- 声效与触感反馈 → 电话铃声: `bridge:root=SOUNDS_ID&path=SOUND_AND_HAPTIC_PATTERNS_RINGTONE_ID`
+- 声效与触感反馈 → 短信铃声: `bridge:root=SOUNDS_ID&path=SOUND_AND_HAPTIC_PATTERNS_TEXTTONE_ID`
+- 声效与触感反馈 → 收到新邮件: `bridge:root=SOUNDS_ID&path=SOUND_AND_HAPTIC_PATTERNS_NEWMAIL_ID`
+- 声效与触感反馈 → 日历提醒: `bridge:root=SOUNDS_ID&path=SOUND_AND_HAPTIC_PATTERNS_CALENDARALERTS_ID`
+- 声效与触感反馈 → 提醒事项的提醒: `bridge:root=SOUNDS_ID&path=SOUND_AND_HAPTIC_PATTERNS_REMINDERALERTS_ID`
+- 声效与触感反馈 → 默认提醒: `bridge:root=SOUNDS_ID&path=SOUND_AND_HAPTIC_PATTERNS_DEFAULTALERTS_ID`
+- 声效与触感反馈 → 耳机音频: `bridge:root=SOUNDS_ID#HEADPHONE_AUDIO_GROUP`
+- 声效与触感反馈 → 耳机安全: `bridge:root=SOUNDS_ID&path=HEADPHONE_LEVEL_LIMIT_SETTING`
+- 声效与触感反馈 → 耳机安全 → 耳机通知: `bridge:root=SOUNDS_ID&path=HEADPHONE_LEVEL_LIMIT_SETTING#COSHeadphoneNotificationsSwitchKey`
+- 声效与触感反馈 → 耳机安全 → 降低高音量: `bridge:root=SOUNDS_ID&path=HEADPHONE_LEVEL_LIMIT_SETTING#COSHeadphoneLevelLimitSwitchKey`
+- 声效与触感反馈 → 系统声效与触感反馈: `bridge:root=SOUNDS_ID#JACKRABBIT_GROUP_ID`
+- 声效与触感反馈 → 表冠触感反馈: `bridge:root=SOUNDS_ID#JACKRABBIT_ID`
+- 声效与触感反馈 → 系统触感反馈: `bridge:root=SOUNDS_ID#SYSTEM_HAPTICS_ID`
+- SOS紧急联络: `bridge:root=SOS_MODE_ID`
+- 隐私: `bridge:root=PRIVACY_ID`
+- 隐私 → 手腕温度: `bridge:root=PRIVACY_ID#WRIST_TEMPERATURE_SWITCH_ID`
+- 屏幕时间: `bridge:root=SCREEN_TIME_ID`
+- Nike Run Club: `bridge:root=VICTORY_ROW_ID`
+- Nike Run Club → 在Apple Watch上显示App: `bridge:root=VICTORY_ROW_ID#SHOWS_ON_GIZMO`
+- 提示: `bridge:root=com.apple.NanoTipsBridgeSettings`
+- 提示 → 允许通知: `bridge:root=com.apple.NanoTipsBridgeSettings#ALLOW_NOTIFICATIONS_ID`
+- 提示 → 发送到通知中心: `bridge:root=com.apple.NanoTipsBridgeSettings#SEND_TO_NOTIFICATION_CENTER_ID`
+- 提示 → 关闭通知: `bridge:root=com.apple.NanoTipsBridgeSettings#NOTIFICATIONS_OFF_ID`
+- 提示 → 通知分组: `bridge:root=com.apple.NanoTipsBridgeSettings&path=NOTIFICATION_COALESCING_ID`
+- 时钟: `bridge:root=com.apple.NanoClockBridgeSettings`
+- 时钟 → 24小时制: `bridge:root=com.apple.NanoClockBridgeSettings#24-Hour%20Time`
+- 时钟 → 钟鸣: `bridge:root=com.apple.NanoClockBridgeSettings#Chimes`
+- 时钟 → 声音: `bridge:root=com.apple.NanoClockBridgeSettings&path=Sounds`
+- 时钟 → 声音 → 铃铛: `bridge:root=com.apple.NanoClockBridgeSettings&path=Sounds#Bells`
+- 时钟 → 声音 → 鸟鸣: `bridge:root=com.apple.NanoClockBridgeSettings&path=Sounds#Birds`
+- 时钟 → 报时: `bridge:root=com.apple.NanoClockBridgeSettings#Speak%20Time`
+- 时钟 → 用静音模式控制: `bridge:root=com.apple.NanoClockBridgeSettings#Control%20With%20Silent%20Mode`
+- 时钟 → 始终朗读: `bridge:root=com.apple.NanoClockBridgeSettings#Always%20Speak`
+- 时钟 → 触感报时: `bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time`
+- 时钟 → 触感报时 → 触感报时: `bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time#Taptic%20Time`
+- 时钟 → 触感报时 → 数字: `bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time#Digits`
+- 时钟 → 触感报时 → 简洁: `bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time#Terse`
+- 时钟 → 触感报时 → 摩尔斯电码: `bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time#Morse%20Code`
+- 时钟 → 推送来自iPhone的提醒: `bridge:root=com.apple.NanoClockBridgeSettings#Push%20Alerts%20from%20iPhone`
+- 时钟 → 通知提示 : `bridge:root=com.apple.NanoClockBridgeSettings#Notifications%20Indicator`
+- 时钟 → 字母图案: `bridge:root=com.apple.NanoClockBridgeSettings&path=MONOGRAM_ID`
+- 时钟 → 表盘通知: `bridge:root=com.apple.NanoClockBridgeSettings#Watch%20Face%20Notifications`
+- 时钟 → 城市缩写: `bridge:root=com.apple.NanoClockBridgeSettings&path=City%20Abbreviations`
+- 时钟 → Siri表盘数据源: `bridge:root=com.apple.NanoClockBridgeSettings&path=Siri%20Face%20Data%20Sources`
+- 操作按钮: `bridge:root=ACTION_BUTTON_ID`
+- 操作按钮 → 手势 | 操作: `bridge:root=ACTION_BUTTON_ID#StingSystemSettingsActionTypeGroupID`
+- 操作按钮 → 体能训练: `bridge:root=ACTION_BUTTON_ID&path=StingSystemSettingsActionTypeItem`
+- 操作按钮 → 体能训练 → 无: `bridge:root=ACTION_BUTTON_ID&path=StingSystemSettingsActionTypeItem#StingSystemSettingsSelectedActionTypeItem`
+- 操作按钮 → 首次按下: `bridge:root=ACTION_BUTTON_ID#StingSystemSettingsWorkoutGroupID`
+- 操作按钮 → 快速切换: `bridge:root=ACTION_BUTTON_ID&path=ShowQuickSwitch`
+- 操作按钮 → 快速切换 → 快速切换: `bridge:root=ACTION_BUTTON_ID&path=ShowQuickSwitch#StingQuickSwitchToggleGroup`
+- 操作按钮 → 快速切换 → 快速切换: `bridge:root=ACTION_BUTTON_ID&path=ShowQuickSwitch#Quick%20Switch`
+- 操作按钮 → 快速切换 → 包含的App: `bridge:root=ACTION_BUTTON_ID&path=ShowQuickSwitch#StingQuickSwitchAppGroup`
+- 噪声: `bridge:root=com.apple.Noise.settings`
+- 噪声 → 环境音量测量: `bridge:root=com.apple.Noise.settings#ENABLE_MEASUREMENTS_ID`
+- 噪声 → 噪声通知: `bridge:root=com.apple.Noise.settings#LOUD_NOTIFICATION_GROUP_ID`
+- 噪声 → 噪声临界值: `bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID`
+- 噪声 → 噪声临界值 → 关闭: `bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#OFF`
+- 噪声 → 噪声临界值 → 80分贝: `bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_80`
+- 噪声 → 噪声临界值 → 85分贝: `bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_85`
+- 噪声 → 噪声临界值 → 90分贝: `bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_90`
+- 噪声 → 噪声临界值 → 95分贝: `bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_95`
+- 噪声 → 噪声临界值 → 100分贝: `bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_100`
+- 噪声 → 通知分组: `bridge:root=com.apple.Noise.settings&path=NOTIFICATION_COALESCING_ID`
+- 日历: `bridge:root=com.apple.NanoCalendarBridgeSettings`
+- 日历 → 通知: `bridge:root=com.apple.NanoCalendarBridgeSettings#MIRROR_RADIO_GROUP_ID`
+- 日历 → 从我的iPhone镜像: `bridge:root=com.apple.NanoCalendarBridgeSettings#MIRROR_MY_COMPANION_ID`
+- 日历 → 自定义…: `bridge:root=com.apple.NanoCalendarBridgeSettings#CUSTOM_ID`
+- 日历 → 日历: `bridge:root=com.apple.NanoCalendarBridgeSettings#CALENDARS_MIRROR_RADIO_GROUP_ID`
+- 日历 → 从我的iPhone镜像: `bridge:root=com.apple.NanoCalendarBridgeSettings#CALENDARS_MIRROR_MY_COMPANION_ID`
+- 日历 → 自定义…: `bridge:root=com.apple.NanoCalendarBridgeSettings&path=CALENDARS_CUSTOM_ID`
+- 日历 → 临近日程: `bridge:root=com.apple.NanoCalendarBridgeSettings&path=Upcoming%20Events`
+- 日历 → 邀请: `bridge:root=com.apple.NanoCalendarBridgeSettings&path=Invitations`
+- 日历 → 受邀人的回复: `bridge:root=com.apple.NanoCalendarBridgeSettings&path=Invitee%20Responses`
+- 日历 → 共享日历更改: `bridge:root=com.apple.NanoCalendarBridgeSettings&path=Shared%20Calendar%20Alerts`
+- 对讲机: `bridge:root=com.apple.tincan.settings`
+- 对讲机 → 允许通知: `bridge:root=com.apple.tincan.settings#ALLOW_NOTIFICATIONS_ID`
+- 对讲机 → 发送到通知中心: `bridge:root=com.apple.tincan.settings#SEND_TO_NOTIFICATION_CENTER_ID`
+- 对讲机 → 关闭通知: `bridge:root=com.apple.tincan.settings#NOTIFICATIONS_OFF_ID`
+- 对讲机 → 通知分组: `bridge:root=com.apple.tincan.settings&path=NOTIFICATION_COALESCING_ID`
+- 对讲机 → 朋友: `bridge:root=com.apple.tincan.settings#Friends`
+- Siri: `bridge:root=SIRI_WATCH_SETTINGS_ID`
+- Siri → 询问Siri: `bridge:root=SIRI_WATCH_SETTINGS_ID#ASK_SIRI_GROUP_ID`
+- Siri → 听取: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_TRIGGER_ID`
+- Siri → 听取 → “Siri”或“嘿Siri”: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_TRIGGER_ID#HS_JS_ID`
+- Siri → 听取 → “嘿Siri”: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_TRIGGER_ID#HEY_SIRI_ID`
+- Siri → 听取 → 关闭: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_TRIGGER_ID#VOICE_TRIGGER_DISABLED_ID`
+- Siri → 抬腕对话: `bridge:root=SIRI_WATCH_SETTINGS_ID#RAISE_TO_SPEAK_SWITCH_ID`
+- Siri → 按下数码表冠: `bridge:root=SIRI_WATCH_SETTINGS_ID#DIGITAL_CROWN_SWITCH_ID`
+- Siri → 自动发送信息: `bridge:root=SIRI_WATCH_SETTINGS_ID#AUTOMATICALLY_SEND_MESSAGES_SWITCH_ID`
+- Siri → Siri回应: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=SIRI_RESPONSES_ID`
+- Siri → Siri回应 → 始终显示Siri的回答: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=SIRI_RESPONSES_ID#ALWAYS_SHOW_SIRI_CAPTIONS_SWITCH_ID`
+- Siri → Siri回应 → 始终显示你对Siri说的话: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=SIRI_RESPONSES_ID#ALWAYS_SHOW_SPEECH_SWITCH_ID`
+- Siri → Siri回应 → 声音音量: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=SIRI_RESPONSES_ID#CONSIDERATE_VOLUME_GROUP_ID`
+- Siri → Siri回应 → 自动调整音量: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=SIRI_RESPONSES_ID#CONSIDERATE_VOLUME_SWITCH_ID`
+- Siri → Siri回应 → 音量: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=SIRI_RESPONSES_ID/CONSIDERATE_VOLUME_PROFILE_ID`
+- Siri → Siri回应 → 音量 → 大声: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=SIRI_RESPONSES_ID/CONSIDERATE_VOLUME_PROFILE_ID#CONSIDERATE_VOLUME_PROFILE_LOUDER_ID`
+- Siri → Siri回应 → 音量 → 默认: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=SIRI_RESPONSES_ID/CONSIDERATE_VOLUME_PROFILE_ID#CONSIDERATE_VOLUME_PROFILE_DEFAULT_ID`
+- Siri → Siri回应 → 音量 → 小声: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=SIRI_RESPONSES_ID/CONSIDERATE_VOLUME_PROFILE_ID#CONSIDERATE_VOLUME_PROFILE_QUIETER_ID`
+- Siri → 语音反馈: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_FEEDBACK_ID`
+- Siri → 语音反馈 → 全天候显示: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_FEEDBACK_ID#VOICE_FEEDBACK_ALWAYS_ON_ID`
+- Siri → 语音反馈 → 用静音模式控制: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_FEEDBACK_ID#VOICE_FEEDBACK_CONTROL_WITH_SILENT_MODE_ID`
+- Siri → 语音反馈 → 仅耳机: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_FEEDBACK_ID#VOICE_FEEDBACK_HEADPHONES_ONLY_ID`
+- Siri → 声音音量: `bridge:root=SIRI_WATCH_SETTINGS_ID#VOICE_VOLUME_GROUP_ID`
+- Siri → Siri建议: `bridge:root=SIRI_WATCH_SETTINGS_ID#ASSISTANT_SUGGESTIONS_GROUP_ID`
+- 体能训练: `bridge:root=com.apple.SessionTrackerAppSettings`
+- 体能训练 → 显示目标数值: `bridge:root=com.apple.SessionTrackerAppSettings#PRO_SETTING_ENABLED_LABEL`
+- 体能训练 → 体能训练视图: `bridge:root=com.apple.SessionTrackerAppSettings&path=METRIC_VIEW_ID`
+- 体能训练 → 自动暂停: `bridge:root=com.apple.SessionTrackerAppSettings&path=AUTO_PAUSE_ID`
+- 体能训练 → 自动暂停 → 自动暂停: `bridge:root=com.apple.SessionTrackerAppSettings&path=AUTO_PAUSE_ID#WorkoutAutoPauseSwitch`
+- 体能训练 → 体能训练开始提醒: `bridge:root=com.apple.SessionTrackerAppSettings#AUTO_START_WORKOUT_NOTIFICATIONS_ENABLED_LABEL`
+- 体能训练 → 体能训练结束提醒: `bridge:root=com.apple.SessionTrackerAppSettings#END_REMINDERS_ENABLED_LABEL`
+- 体能训练 → 按下以暂停: `bridge:root=com.apple.SessionTrackerAppSettings#CHORD_PRESS_PAUSE_WORKOUT_ENABLED_LABEL`
+- 体能训练 → 检测健身器材: `bridge:root=com.apple.SessionTrackerAppSettings#NFC_ENABLED_LABEL_ID`
+- 体能训练 → 配速/速度视图: `bridge:root=com.apple.SessionTrackerAppSettings&path=PACE_VIEW_LABEL`
+- 体能训练 → 配速/速度视图 → 当前: `bridge:root=com.apple.SessionTrackerAppSettings&path=PACE_VIEW_LABEL#CURRENT_PACE_ID`
+- 体能训练 → 配速/速度视图 → 一般: `bridge:root=com.apple.SessionTrackerAppSettings&path=PACE_VIEW_LABEL#AVERAGE_PACE_ID`
+- 体能训练 → 体能训练播放列表: `bridge:root=com.apple.SessionTrackerAppSettings&path=MUSIC_AUTOSTART_TITLE_ID`
+- 体能训练 → 体能训练播放列表 → 无: `bridge:root=com.apple.SessionTrackerAppSettings&path=MUSIC_AUTOSTART_TITLE_ID#NONE_AUTOSTART_ID`
+- 体能训练 → 体能训练播放列表 → 播放列表: `bridge:root=com.apple.SessionTrackerAppSettings&path=MUSIC_AUTOSTART_TITLE_ID#MUSIC_PLAYLIST_GROUP_ID`
+- 体能训练 → 从开头播放: `bridge:root=com.apple.SessionTrackerAppSettings#WORKOUT_MUSIC_PLAY_FROM_BEGINNING_SETTING_ID`
+- 体能训练 → 随机播放: `bridge:root=com.apple.SessionTrackerAppSettings#WORKOUT_MUSIC_SHUFFLE_SETTING_ID`
+- 体能训练 → 测量单位: `bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID`
+- 体能训练 → 测量单位 → 大卡: `bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#ENERGY_UNITS_CALORIES_ID`
+- 体能训练 → 测量单位 → 千卡: `bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#ENERGY_UNITS_KILOCALORIES_ID`
+- 体能训练 → 测量单位 → 千焦: `bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#ENERGY_UNITS_KILOJOULES_ID`
+- 体能训练 → 测量单位 → 码: `bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#POOL_LENGTH_YARDS_ID`
+- 体能训练 → 测量单位 → 米: `bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#POOL_LENGTH_METERS_ID`
+- 体能训练 → 测量单位 → 英里: `bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#CYCLING_WORKOUTS_MILES_ID`
+- 体能训练 → 测量单位 → 公里: `bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#CYCLING_WORKOUTS_KILOMETERS_ID`
+- 体能训练 → 测量单位 → 英里: `bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#WALKING_AND_RUNNING_WORKOUTS_MILES_ID`
+- 体能训练 → 测量单位 → 公里: `bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#WALKING_AND_RUNNING_WORKOUTS_KILOMETERS_ID`
+- 体能训练 → 语音反馈: `bridge:root=com.apple.SessionTrackerAppSettings#WORKOUT_VOICE_FEEDBACK_LABEL`
+- 体能训练 → 步行时间: `bridge:root=com.apple.SessionTrackerAppSettings#GUIDED_WORKOUT_PREFETCH_FOOTER_ID`
+- 体能训练 → 将新体能训练添加到Apple Watch: `bridge:root=com.apple.SessionTrackerAppSettings#GUIDED_WORKOUT_PREFETCH_LABEL_ID`
+- 体能训练 → 低电量模式: `bridge:root=com.apple.SessionTrackerAppSettings#LOW_POWER_MODE`
+- 信息: `bridge:root=com.apple.MessagesBridgeSettings`
+- 信息 → 从我的iPhone镜像: `bridge:root=com.apple.MessagesBridgeSettings#MIRROR_MY_COMPANION_ID`
+- 信息 → 自定义: `bridge:root=com.apple.MessagesBridgeSettings#CUSTOM_ID`
+- 信息 → 默认回复: `bridge:root=com.apple.MessagesBridgeSettings&path=DEFAULT_REPLIES`
+- 信息 → 默认回复 → 默认回复: `bridge:root=com.apple.MessagesBridgeSettings&path=DEFAULT_REPLIES#Default%20Replies`
+- 信息 → 默认回复 → 智能回复: `bridge:root=com.apple.MessagesBridgeSettings&path=DEFAULT_REPLIES#Smart%20Replies`
+- 信息 → 默认回复 → 添加回复…: `bridge:root=com.apple.MessagesBridgeSettings&path=DEFAULT_REPLIES#Add%20reply%E2%80%A6`
+- 信息 → 重复提醒: `bridge:root=com.apple.MessagesBridgeSettings&path=PLAY_ALERT_TONE`
+- 信息 → 音频信息: `bridge:root=com.apple.MessagesBridgeSettings&path=AudioMessagesMode`
+- 课堂时间: `bridge:root=SCHOOLTIME`
+- 课堂时间 → 课堂时间: `bridge:root=SCHOOLTIME#SCHEDULE_FEATURE_ACTIVE_TITLE`
+- 关闭密码 | 密码 | 手腕检测 | 打开密码 | 抹掉数据 | 更改密码 | 用iPhone解锁 | 简单密码: `bridge:root=PASSCODE_ID`
+- 关闭密码 | 密码 | 手腕检测 | 打开密码 | 抹掉数据 | 更改密码 | 用iPhone解锁 | 简单密码 → 打开密码: `bridge:root=PASSCODE_ID#TOGGLE_PASSCODE_ID`
+- 关闭密码 | 密码 | 手腕检测 | 打开密码 | 抹掉数据 | 更改密码 | 用iPhone解锁 | 简单密码 → 更改密码: `bridge:root=PASSCODE_ID#CHANGE_PASSCODE_ID`
+- 关闭密码 | 密码 | 手腕检测 | 打开密码 | 抹掉数据 | 更改密码 | 用iPhone解锁 | 简单密码 → 简单密码: `bridge:root=PASSCODE_ID#SIMPLE_PASSCODE_SWITCH_ID`
+- 关闭密码 | 密码 | 手腕检测 | 打开密码 | 抹掉数据 | 更改密码 | 用iPhone解锁 | 简单密码 → 用iPhone解锁: `bridge:root=PASSCODE_ID#AUTO_UNLOCK_SWITCH_ID`
+- 关闭密码 | 密码 | 手腕检测 | 打开密码 | 抹掉数据 | 更改密码 | 用iPhone解锁 | 简单密码 → 抹掉数据: `bridge:root=PASSCODE_ID#ERASE_DATA_SWITCH_ID`
+- 关闭密码 | 密码 | 手腕检测 | 打开密码 | 抹掉数据 | 更改密码 | 用iPhone解锁 | 简单密码 → 手腕检测: `bridge:root=PASSCODE_ID#WRIST_DETECTION_CELL_ID`
+- 关闭密码 | 密码 | 手腕检测 | 打开密码 | 抹掉数据 | 更改密码 | 用iPhone解锁 | 简单密码 → 复杂功能: `bridge:root=PASSCODE_ID#SHOW_COMPLICATION_DATA_WHEN_LOCKED_GROUP_ID`
+- 关闭密码 | 密码 | 手腕检测 | 打开密码 | 抹掉数据 | 更改密码 | 用iPhone解锁 | 简单密码 → 锁定时显示数据: `bridge:root=PASSCODE_ID#SHOW_COMPLICATION_DATA_WHEN_LOCKED_SWITCH_ID`
+- 邮件: `bridge:root=com.apple.NanoMailBridgeSettings`
+- 邮件 → 从我的iPhone镜像: `bridge:root=com.apple.NanoMailBridgeSettings#MIRROR_MY_COMPANION_ID`
+- 邮件 → 自定义: `bridge:root=com.apple.NanoMailBridgeSettings#CUSTOM_ID`
+- 邮件 → 邮件设置: `bridge:root=com.apple.NanoMailBridgeSettings#Mail%20Settings`
+- 邮件 → 账户: `bridge:root=com.apple.NanoMailBridgeSettings&path=Accounts`
+- 邮件 → 包括邮件: `bridge:root=com.apple.NanoMailBridgeSettings&path=Include%20Mail`
+- 邮件 → 邮件预览: `bridge:root=com.apple.NanoMailBridgeSettings&path=Message%20Preview`
+- 邮件 → 邮件预览 → 无: `bridge:root=com.apple.NanoMailBridgeSettings&path=Message%20Preview#0`
+- 邮件 → 邮件预览 → 1行: `bridge:root=com.apple.NanoMailBridgeSettings&path=Message%20Preview#1`
+- 邮件 → 邮件预览 → 2行: `bridge:root=com.apple.NanoMailBridgeSettings&path=Message%20Preview#2`
+- 邮件 → 默认回复: `bridge:root=com.apple.NanoMailBridgeSettings&path=Default%20Replies`
+- 邮件 → 默认回复 → 默认回复: `bridge:root=com.apple.NanoMailBridgeSettings&path=Default%20Replies#Default%20Replies`
+- 邮件 → 默认回复 → 添加回复…: `bridge:root=com.apple.NanoMailBridgeSettings&path=Default%20Replies#Add%20reply%E2%80%A6`
+- 邮件 → 签名: `bridge:root=com.apple.NanoMailBridgeSettings&path=Signature`
+- Siri卡片所选股票 | 市值 | 当前价格 | 点数变化 | 百分比变化 | 股市: `bridge:root=com.apple.StocksBridgeSettings`
+- Siri卡片所选股票 | 市值 | 当前价格 | 点数变化 | 百分比变化 | 股市 → 表盘复杂功能显示: `bridge:root=com.apple.StocksBridgeSettings#Clock%20Face%20Complication%20Shows`
+- Siri卡片所选股票 | 市值 | 当前价格 | 点数变化 | 百分比变化 | 股市 → 当前价格: `bridge:root=com.apple.StocksBridgeSettings#Current%20Price`
+- Siri卡片所选股票 | 市值 | 当前价格 | 点数变化 | 百分比变化 | 股市 → 点数变化: `bridge:root=com.apple.StocksBridgeSettings#Points%20Change`
+- Siri卡片所选股票 | 市值 | 当前价格 | 点数变化 | 百分比变化 | 股市 → 百分比变化: `bridge:root=com.apple.StocksBridgeSettings#Percentage%20Change`
+- Siri卡片所选股票 | 市值 | 当前价格 | 点数变化 | 百分比变化 | 股市 → 市值: `bridge:root=com.apple.StocksBridgeSettings#Market%20Cap`
+- Siri卡片所选股票 | 市值 | 当前价格 | 点数变化 | 百分比变化 | 股市 → Siri表盘显示的股票报价: `bridge:root=com.apple.StocksBridgeSettings#Siri%20Face%20Shows%20Quote%20For`
+- Siri卡片所选股票 | 市值 | 当前价格 | 点数变化 | 百分比变化 | 股市 → 所选股票: `bridge:root=com.apple.StocksBridgeSettings&path=Selected%20Stock`
+- Siri卡片所选股票 | 市值 | 当前价格 | 点数变化 | 百分比变化 | 股市 → 所选股票 → 所选股票: `bridge:root=com.apple.StocksBridgeSettings&path=Selected%20Stock#Selected%20Stock`
+- 健身记录: `bridge:root=com.apple.HealthAppsSettings`
+- 健身记录 → 进度更新: `bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL`
+- 健身记录 → 进度更新 → 无: `bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#ZERO_HOURS_ID`
+- 健身记录 → 进度更新 → 每2小时: `bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#TWO_HOURS_ID`
+- 健身记录 → 进度更新 → 每4小时: `bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#FOUR_HOURS_ID`
+- 健身记录 → 进度更新 → 每6小时: `bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#SIX_HOURS_ID`
+- 健身记录 → 进度更新 → 每8小时: `bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#EIGHT_HOURS_ID`
+- 健身记录 → 成就: `bridge:root=com.apple.HealthAppsSettings#ACHIEVEMENTS_ENABLED_LABEL`
+- 健身记录 → 每周摘要: `bridge:root=com.apple.HealthAppsSettings#WEEKLY_SUMMARY_ENABLED_LABEL`
+- 健身记录 → 每日指导: `bridge:root=com.apple.HealthAppsSettings#DAILY_PROGRESS_ENABLED_LABEL`
+- 健身记录 → 目标完成情况: `bridge:root=com.apple.HealthAppsSettings#GOAL_COMPLETIONS_ENABLED_LABEL`
+- 健身记录 → 特别挑战: `bridge:root=com.apple.HealthAppsSettings#REMOTE_ACHIEVEMENTS_ENABLED_LABEL`
+- 健身记录 → 健身记录共享通知: `bridge:root=com.apple.HealthAppsSettings#ACTIVITY_SHARING_NOTIFICATIONS_ENABLED`
+- 智能叠放: `bridge:root=SMARTSTACK_LINK`
+- 天气: `bridge:root=com.apple.weatherbridgesettings`
+- 天气 → 默认城市: `bridge:root=com.apple.weatherbridgesettings&path=Default%20City`
+- 天气 → 默认城市 → 默认城市: `bridge:root=com.apple.weatherbridgesettings&path=Default%20City#Default%20City`
+- 天气 → 默认城市 → 当前位置: `bridge:root=com.apple.weatherbridgesettings&path=Default%20City#Current%20Location`
+- 通讯录: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired`
+- 通讯录 → 排列顺序: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=contactsSortOrder`
+- 通讯录 → 排列顺序 → 名，姓: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=contactsSortOrder#0`
+- 通讯录 → 排列顺序 → 姓，名: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=contactsSortOrder#1`
+- 通讯录 → 显示顺序: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=NSPersonNameDefaultDisplayNameOrder`
+- 通讯录 → 显示顺序 → 名，姓: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=NSPersonNameDefaultDisplayNameOrder#1`
+- 通讯录 → 显示顺序 → 姓，名: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=NSPersonNameDefaultDisplayNameOrder#2`
+- 通讯录 → 短名称: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName`
+- 通讯录 → 短名称 → 短名称: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#Short%20Name`
+- 通讯录 → 短名称 → 名字和姓氏首字母: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#First%20Name%20&%20Last%20Initial`
+- 通讯录 → 短名称 → 名字首字母和姓氏: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#First%20Initial%20&%20Last%20Name`
+- 通讯录 → 短名称 → 仅名字: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#First%20Name%20Only`
+- 通讯录 → 短名称 → 仅姓氏: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#Last%20Name%20Only`
+- 通讯录 → 短名称 → 首选昵称: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#Prefer%20Nicknames`
+- 辅助功能: `bridge:root=ACCESSIBILITY_ID`
+- 辅助功能 → 视觉: `bridge:root=ACCESSIBILITY_ID#VISION_GROUP`
+- 辅助功能 → 旁白: `bridge:root=ACCESSIBILITY_ID&path=VOICEOVER_ID`
+- 辅助功能 → 缩放: `bridge:root=ACCESSIBILITY_ID&path=ZOOM_ID`
+- 辅助功能 → 开/关标签: `bridge:root=ACCESSIBILITY_ID#OnOffLabelsEnabled`
+- 辅助功能 → 灰度: `bridge:root=ACCESSIBILITY_ID#GrayscaleDisplay`
+- 辅助功能 → 降低透明度: `bridge:root=ACCESSIBILITY_ID#REDUCE_TRANSPARENCY`
+- 辅助功能 → 增强对比度: `bridge:root=ACCESSIBILITY_ID#INCREASE_CONTRAST`
+- 辅助功能 → 文字大小: `bridge:root=ACCESSIBILITY_ID#TEXT_SIZE`
+- 辅助功能 → 粗体文本: `bridge:root=ACCESSIBILITY_ID#BoldTextEnabled`
+- 辅助功能 → 减弱动态效果: `bridge:root=ACCESSIBILITY_ID&path=ReduceMotion`
+- 辅助功能 → 钟鸣: `bridge:root=ACCESSIBILITY_ID&path=TapticChimesCell`
+- 辅助功能 → 钟鸣 → 钟鸣: `bridge:root=ACCESSIBILITY_ID&path=TapticChimesCell#Chimes`
+- 辅助功能 → 钟鸣 → 定时: `bridge:root=ACCESSIBILITY_ID&path=TapticChimesCell/CHIMES_SCHEDULE_ID`
+- 辅助功能 → 钟鸣 → 定时 → 每小时: `bridge:root=ACCESSIBILITY_ID&path=TapticChimesCell/CHIMES_SCHEDULE_ID#Hourly`
+- 辅助功能 → 钟鸣 → 定时 → 30分钟: `bridge:root=ACCESSIBILITY_ID&path=TapticChimesCell/CHIMES_SCHEDULE_ID#30%20minutes`
+- 辅助功能 → 钟鸣 → 定时 → 15分钟: `bridge:root=ACCESSIBILITY_ID&path=TapticChimesCell/CHIMES_SCHEDULE_ID#15%20minutes`
+- 辅助功能 → 钟鸣 → 声音: `bridge:root=ACCESSIBILITY_ID&path=TapticChimesCell/CHIMES_SOUNDS_ID`
+- 辅助功能 → 钟鸣 → 声音 → 铃铛: `bridge:root=ACCESSIBILITY_ID&path=TapticChimesCell/CHIMES_SOUNDS_ID#Bells`
+- 辅助功能 → 钟鸣 → 声音 → 鸟鸣: `bridge:root=ACCESSIBILITY_ID&path=TapticChimesCell/CHIMES_SOUNDS_ID#Birds`
+- 辅助功能 → 动作: `bridge:root=ACCESSIBILITY_ID#MotorGroupCell`
+- 辅助功能 → 侧边按钮点按速度: `bridge:root=ACCESSIBILITY_ID&path=SideButton`
+- 辅助功能 → 侧边按钮点按速度 → 点按速度: `bridge:root=ACCESSIBILITY_ID&path=SideButton#CLICK_SPEED_GROUP_CELL`
+- 辅助功能 → 侧边按钮点按速度 → 默认: `bridge:root=ACCESSIBILITY_ID&path=SideButton#SIDE_CLICK_SPEED_DEFAULT`
+- 辅助功能 → 侧边按钮点按速度 → 慢: `bridge:root=ACCESSIBILITY_ID&path=SideButton#SIDE_CLICK_SPEED_SLOW`
+- 辅助功能 → 侧边按钮点按速度 → 最慢: `bridge:root=ACCESSIBILITY_ID&path=SideButton#SIDE_CLICK_SPEED_SLOWEST`
+- 辅助功能 → 触控调节: `bridge:root=ACCESSIBILITY_ID&path=TouchAccommodationsCell`
+- 辅助功能 → 触控调节 → 触控调节: `bridge:root=ACCESSIBILITY_ID&path=TouchAccommodationsCell#TOUCH_ACCOMMODATIONS_SWITCHER`
+- 辅助功能 → 触控调节 → 按住时长: `bridge:root=ACCESSIBILITY_ID&path=TouchAccommodationsCell#HoldDurationGroup`
+- 辅助功能 → 触控调节 → 按住时长: `bridge:root=ACCESSIBILITY_ID&path=TouchAccommodationsCell#HoldDuration`
+- 辅助功能 → 触控调节 → 忽略重复触控: `bridge:root=ACCESSIBILITY_ID&path=TouchAccommodationsCell#IgnoreRepeatGroup`
+- 辅助功能 → 触控调节 → 忽略重复触控: `bridge:root=ACCESSIBILITY_ID&path=TouchAccommodationsCell#IgnoreRepeat`
+- 辅助功能 → 触控调节 → 轻点辅助: `bridge:root=ACCESSIBILITY_ID&path=TouchAccommodationsCell#Tap%20Assistance`
+- 辅助功能 → 触控调节 → 关闭: `bridge:root=ACCESSIBILITY_ID&path=TouchAccommodationsCell#OFF`
+- 辅助功能 → 触控调节 → 使用触控初始位置: `bridge:root=ACCESSIBILITY_ID&path=TouchAccommodationsCell#ACTIVATE_ON_TOUCH`
+- 辅助功能 → 触控调节 → 使用触控结束位置: `bridge:root=ACCESSIBILITY_ID&path=TouchAccommodationsCell#ACTIVATE_ON_RELEASE`
+- 辅助功能 → 轮椅活动: `bridge:root=ACCESSIBILITY_ID#MOBILITY`
+- 辅助功能 → 对讲机: `bridge:root=ACCESSIBILITY_ID#WalkieTalkieTapToTalkGroup`
+- 辅助功能 → 轻点以对讲: `bridge:root=ACCESSIBILITY_ID#WalkieTalkieTapToTalk`
+- 辅助功能 → App切换器: `bridge:root=ACCESSIBILITY_ID#AppSwitcherAutoSelectGroup`
+- 辅助功能 → 自动选择聚焦的App: `bridge:root=ACCESSIBILITY_ID#AppSwitcherAutoSelect`
+- 辅助功能 → Siri: `bridge:root=ACCESSIBILITY_ID&path=SIRI_CELL_ID`
+- 辅助功能 → Siri → 通过键入使用Siri: `bridge:root=ACCESSIBILITY_ID&path=SIRI_CELL_ID#Type%20to%20Siri`
+- 辅助功能 → 听觉: `bridge:root=ACCESSIBILITY_ID#HEARING`
+- 辅助功能 → RTT: `bridge:root=ACCESSIBILITY_ID&path=RTT_ID`
+- 辅助功能 → RTT → RTT: `bridge:root=ACCESSIBILITY_ID&path=RTT_ID#RTT_ROW_ID`
+- 辅助功能 → 单声道音频: `bridge:root=ACCESSIBILITY_ID#MonoAudioEnabled`
+- 辅助功能 → 立体声左右声道平衡: `bridge:root=ACCESSIBILITY_ID#LEFT_RIGHT_BALANCE_SPOKEN`
+- 辅助功能 → 耳机通知: `bridge:root=ACCESSIBILITY_ID#HeadphoneNotificationsID`
+- 辅助功能 → 助听设备: `bridge:root=ACCESSIBILITY_ID#HearingDevicesComplicationGroupID`
+- 辅助功能 → 复杂功能: `bridge:root=ACCESSIBILITY_ID&path=HearingDevicesComplicationRowID`
+- 辅助功能 → 复杂功能 → 麦克风音量: `bridge:root=ACCESSIBILITY_ID&path=HearingDevicesComplicationRowID#Mic%20Volume`
+- 辅助功能 → 复杂功能 → 程序: `bridge:root=ACCESSIBILITY_ID&path=HearingDevicesComplicationRowID#Program`
+- 辅助功能 → 触感报时速度: `bridge:root=ACCESSIBILITY_ID#TapticTimeSpeedAdjustmentGroup`
+- 辅助功能 → 辅助功能快捷键: `bridge:root=ACCESSIBILITY_ID&path=AX_SHORTCUT_ID`
+- 地图 | 转向时提醒: `bridge:root=com.apple.NanoMapsBridgeSettings`
+- 地图 | 转向时提醒 → 转向时提醒: `bridge:root=com.apple.NanoMapsBridgeSettings#Turn%20Alerts`
+- 地图 | 转向时提醒 → 驾车: `bridge:root=com.apple.NanoMapsBridgeSettings#Driving`
+- 地图 | 转向时提醒 → 开车时启用CarPlay车载: `bridge:root=com.apple.NanoMapsBridgeSettings#Driving%20with%20CarPlay`
+- 地图 | 转向时提醒 → 步行: `bridge:root=com.apple.NanoMapsBridgeSettings#Walking`
+- 地图 | 转向时提醒 → 骑车: `bridge:root=com.apple.NanoMapsBridgeSettings#Cycling`
+- 地图 | 转向时提醒 → 显示导航: `bridge:root=com.apple.NanoMapsBridgeSettings#Show%20Navigation`
+- 地图 | 转向时提醒 → 公交: `bridge:root=com.apple.NanoMapsBridgeSettings#Transit`
+- 地图 | 转向时提醒 → 版号信息: `bridge:root=com.apple.NanoMapsBridgeSettings#Build%20Info%3A`
+- 邮件与日历: `bridge:root=com.apple.BridgeRemoteAccounts`
+- 邮件与日历 → 账户: `bridge:root=com.apple.BridgeRemoteAccounts#Accounts`
+- 邮件与日历 → 添加Google账户…: `bridge:root=com.apple.BridgeRemoteAccounts#ADD_GOOGLE_ACCOUNT`
+- 邮件与日历 → 抓取: `bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch`
+- 邮件与日历 → 抓取 → 关闭: `bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch#Off`
+- 邮件与日历 → 抓取 → 每小时: `bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch#Hourly`
+- 邮件与日历 → 抓取 → 30分钟: `bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch#30%20min`
+- 邮件与日历 → 抓取 → 15分钟: `bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch#15%20min`
+- 心脏: `bridge:root=com.apple.HeartRateSettings`
+- 心脏 → 心脏: `bridge:root=com.apple.HeartRateSettings#1`
+- 心脏 → 心率通知: `bridge:root=com.apple.HeartRateSettings#2`
+- 心脏 → 高心率: `bridge:root=com.apple.HeartRateSettings#3`
+- 心脏 → 低心率: `bridge:root=com.apple.HeartRateSettings#4`
+- 心脏 → 心律不规则: `bridge:root=com.apple.HeartRateSettings#5`
+- 心脏 → 在“健康”中查看已记录的心电图: `bridge:root=com.apple.HeartRateSettings#6`
+- 心脏 → 心电图: `bridge:root=com.apple.HeartRateSettings#7`
+- App Store: `bridge:root=com.apple.BridgeAppStoreDaemonSettings`
+- App Store → 自动下载: `bridge:root=com.apple.BridgeAppStoreDaemonSettings#automaticDownloadSpecifier`
+- App Store → 自动更新: `bridge:root=com.apple.BridgeAppStoreDaemonSettings#Automatic%20Updates`
+- 手势: `bridge:root=ELTON_SETTINGS_ID`
+- 手势 → 手势: `bridge:root=ELTON_SETTINGS_ID#Gestures`
+- 手势 → 互点两下: `bridge:root=ELTON_SETTINGS_ID&path=ELTON_DOUBLE_TAP_ID`
+- 手势 → 互点两下 → 互点两下: `bridge:root=ELTON_SETTINGS_ID&path=ELTON_DOUBLE_TAP_ID#Double%20Tap`
+- 手势 → 互点两下 → 播放: `bridge:root=ELTON_SETTINGS_ID&path=ELTON_DOUBLE_TAP_ID#playbackSettingsGroup`
+- 手势 → 互点两下 → 播放 / 暂停: `bridge:root=ELTON_SETTINGS_ID&path=ELTON_DOUBLE_TAP_ID#playbackSettingsPlayPause`
+- 手势 → 互点两下 → 跳过: `bridge:root=ELTON_SETTINGS_ID&path=ELTON_DOUBLE_TAP_ID#playbackSettingsSkip`
+- 手势 → 互点两下 → 智能叠放: `bridge:root=ELTON_SETTINGS_ID&path=ELTON_DOUBLE_TAP_ID#smartStackGroup`
+- 手势 → 互点两下 → 前进: `bridge:root=ELTON_SETTINGS_ID&path=ELTON_DOUBLE_TAP_ID#smartStackSettingsAdvance`
+- 手势 → 互点两下 → 选择: `bridge:root=ELTON_SETTINGS_ID&path=ELTON_DOUBLE_TAP_ID#smartStackSettingsSelect`
+- 手势 → 互点两下 → 使用Apple Vision Pro时: `bridge:root=ELTON_SETTINGS_ID&path=ELTON_DOUBLE_TAP_ID#ignoreWhileVisionProDonned`
+- 手势 → 互点两下 → 忽略互点两下: `bridge:root=ELTON_SETTINGS_ID&path=ELTON_DOUBLE_TAP_ID#ignoreDoubleTap`
+- 手势 → 轻翻手腕: `bridge:root=ELTON_SETTINGS_ID#Wrist%20Flick`
+- 手势 → 覆屏静音: `bridge:root=ELTON_SETTINGS_ID#Cover%20to%20Mute`
+- 睡眠: `bridge:root=com.apple.NanoBedtimeBridgeSettings`
+- 睡眠 → 在“健康”App中设置“睡眠”: `bridge:root=com.apple.NanoBedtimeBridgeSettings#SET_UP_SLEEP_CELL_ID`
+- 存储限制 | 已同步的音乐 | 音乐: `bridge:root=com.apple.NanoMusicBridgeSettings`
+- 存储限制 | 已同步的音乐 | 音乐 → 播放列表与专辑: `bridge:root=com.apple.NanoMusicBridgeSettings#PLAYLISTS%20&%20ALBUMS`
+- 存储限制 | 已同步的音乐 | 音乐 → 添加音乐…: `bridge:root=com.apple.NanoMusicBridgeSettings#Add%20Music%E2%80%A6`
+- 钱包与Apple Pay: `bridge:root=com.apple.NanoPassbookBridgeSettings`
+- 钱包与Apple Pay → Apple Cash: `bridge:root=com.apple.NanoPassbookBridgeSettings#Apple%C2%A0Cash`
+- 钱包与Apple Pay → 添加卡片: `bridge:root=com.apple.NanoPassbookBridgeSettings#Add%20Card`
+- 钱包与Apple Pay → 通知: `bridge:root=com.apple.NanoPassbookBridgeSettings#MIRROR_RADIO_GROUP_ID`
+- 钱包与Apple Pay → 从我的iPhone镜像: `bridge:root=com.apple.NanoPassbookBridgeSettings#MIRROR_MY_COMPANION_ID`
+- 钱包与Apple Pay → 自定义: `bridge:root=com.apple.NanoPassbookBridgeSettings#CUSTOM_ID`
+- 健康: `bridge:root=com.apple.BridgeHealthSettings`
+- 查找我的Apple Watch: `bridge:root=ActiveWatch`
+- 查找我的Apple Watch → 配对新手表: `bridge:root=ActiveWatch&path=Pair%20New%20Watch`
+- 正念: `bridge:root=com.apple.MindSettings`
+- 正念 → 允许通知: `bridge:root=com.apple.MindSettings#ALLOW_NOTIFICATIONS_ID`
+- 正念 → 发送到通知中心: `bridge:root=com.apple.MindSettings#SEND_TO_NOTIFICATION_CENTER_ID`
+- 正念 → 关闭通知: `bridge:root=com.apple.MindSettings#NOTIFICATIONS_OFF_ID`
+- 正念 → 正念提醒: `bridge:root=com.apple.MindSettings#MIND_GROUP_ID`
+- 正念 → 一天开始时: `bridge:root=com.apple.MindSettings#MIND_START_OF_DAY_REMINDER`
+- 正念 → 一天结束时: `bridge:root=com.apple.MindSettings#MIND_END_OF_DAY_REMINDER`
+- 正念 → 添加提醒…: `bridge:root=com.apple.MindSettings#Add%20Reminder%E2%80%A6`
+- 正念 → 每周摘要: `bridge:root=com.apple.MindSettings#MIND_WEEKLY_SUMMARY_ID`
+- 正念 → 今天不再提醒: `bridge:root=com.apple.MindSettings#MIND_MUTE_FOR_TODAY_ID`
+- 正念 → 呼吸频率: `bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID`
+- 正念 → 呼吸频率 → 每分钟呼吸4次: `bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_4`
+- 正念 → 呼吸频率 → 每分钟呼吸5次: `bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_5`
+- 正念 → 呼吸频率 → 每分钟呼吸6次: `bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_6`
+- 正念 → 呼吸频率 → 每分钟呼吸7次: `bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_7`
+- 正念 → 呼吸频率 → 每分钟呼吸8次: `bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_8`
+- 正念 → 呼吸频率 → 每分钟呼吸9次: `bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_9`
+- 正念 → 呼吸频率 → 每分钟呼吸10次: `bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_10`
+- 正念 → 触感反馈: `bridge:root=com.apple.MindSettings&path=MIND_HAPTICS_ID`
+- 正念 → 触感反馈 → 无: `bridge:root=com.apple.MindSettings&path=MIND_HAPTICS_ID#NONE_ID`
+- 正念 → 触感反馈 → 弱: `bridge:root=com.apple.MindSettings&path=MIND_HAPTICS_ID#MINIMAL_ID`
+- 正念 → 触感反馈 → 强: `bridge:root=com.apple.MindSettings&path=MIND_HAPTICS_ID#PROMINENT_ID`
+- 播客: `bridge:root=com.apple.private.PodcastsBridgeSettings`
+- 电话: `bridge:root=com.apple.PhoneBridgeSettings`
+- 电话 → 呼叫: `bridge:root=com.apple.PhoneBridgeSettings#carrier_direct_calling_group_id`
+- 电话 → 电话铃声: `bridge:root=com.apple.PhoneBridgeSettings#RINGTONE`
+- 电话 → 铃声: `bridge:root=com.apple.PhoneBridgeSettings#INCOMING_CALL_SOUND`
+- 电话 → 触感反馈: `bridge:root=com.apple.PhoneBridgeSettings#INCOMING_CALL_HAPTIC`
+- 水深: `bridge:root=com.apple.DepthCompanionSettings`
+- 操作按钮: `bridge:root=STING_TITLE`
+- 运营商设置: `bridge:root=CARRIER_SETTINGS`
+- 蜂窝网络: `bridge:root=CELLULAR_ID`
+- 程序坞: `bridge:root=DOCK`
+- 程序坞 → 程序坞排序: `bridge:root=DOCK#OrderingOptionGroup`
+- 程序坞 → 最近项目: `bridge:root=DOCK#Recents`
+- 程序坞 → 个人收藏: `bridge:root=DOCK#Favorites`
+- 程序坞: `bridge:root=DOCK.0`
+- 程序坞 → 程序坞排序: `bridge:root=DOCK.0#OrderingOptionGroup`
+- 程序坞 → 最近项目: `bridge:root=DOCK.0#Recents`
+- 程序坞 → 个人收藏: `bridge:root=DOCK.0#Favorites`
+- 有声书: `bridge:root=com.apple.NanoBooks.BridgeSettings`
+- 有声书 → 登录: `bridge:root=com.apple.NanoBooks.BridgeSettings#Sign%20In`
+- 已选相簿 | 照片上限: `bridge:root=com.apple.mobileslideshow`
+- 发送已读回执: `bridge:root=com.apple.MessagesBridgeSettings%23READ_RECEIPTS`

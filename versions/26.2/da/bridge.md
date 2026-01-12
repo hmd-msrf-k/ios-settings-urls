@@ -1,0 +1,518 @@
+- Iltniveau i blodet: `bridge:root=com.apple.OxygenSaturationSettings`
+- Håndvask: `bridge:root=com.apple.BrookBridgeSettings`
+- Håndvask → Tillad notifikationer: `bridge:root=com.apple.BrookBridgeSettings#ALLOW_NOTIFICATIONS_ID`
+- Håndvask → Send til Notifikationscenter: `bridge:root=com.apple.BrookBridgeSettings#SEND_TO_NOTIFICATION_CENTER_ID`
+- Håndvask → Notifikationer er slået fra: `bridge:root=com.apple.BrookBridgeSettings#NOTIFICATIONS_OFF_ID`
+- Håndvask → Grupper notifikationer: `bridge:root=com.apple.BrookBridgeSettings&path=NOTIFICATION_COALESCING_ID`
+- Håndvask → Tidtagning af håndvask: `bridge:root=com.apple.BrookBridgeSettings#HANDWASHING_TIMER_ID`
+- Skærm & lysstyrke: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID`
+- Skærm & lysstyrke → Varighed af Afbryd vågeblus: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=WAKE_DURATION_SELECTION_KEY`
+- Skærm & lysstyrke → Varighed af Afbryd vågeblus → VED TRYK: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=WAKE_DURATION_SELECTION_KEY#ON_TAP_GROUP_ID`
+- Skærm & lysstyrke → Varighed af Afbryd vågeblus → Tændt i 15 sekunder: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=WAKE_DURATION_SELECTION_KEY#SHORT_WAKE_ID`
+- Skærm & lysstyrke → Varighed af Afbryd vågeblus → Tændt i 70 sekunder: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=WAKE_DURATION_SELECTION_KEY#LONG_WAKE_ID`
+- Skærm & lysstyrke → Lysstyrke: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID#BRIGHTNESS_LABEL`
+- Skærm & lysstyrke → Altid til: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID`
+- Skærm & lysstyrke → Altid til → Altid til: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID#TRITIUM_ID`
+- Skærm & lysstyrke → Altid til → SÆNKET HÅNDLED: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID#TRITIUM_PRIVACY_GROUP_ID`
+- Skærm & lysstyrke → Altid til → Vis liveaktiviteter: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_LIVE_ACTIVITIES_ID`
+- Skærm & lysstyrke → Altid til → Vis liveaktiviteter → Vis liveaktiviteter: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_LIVE_ACTIVITIES_ID#APP_BACKLIGHT_PRIVACY_GLOBAL_APP`
+- Skærm & lysstyrke → Altid til → Vis apps: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_APPS_ID`
+- Skærm & lysstyrke → Altid til → Vis apps → Vis apps: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_APPS_ID#APP_BACKLIGHT_PRIVACY_GLOBAL_APP`
+- Skærm & lysstyrke → Altid til → Vis apps → APPS: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_APPS_ID#APP_GROUP_ID`
+- Skærm & lysstyrke → Altid til → Vis apps → App Store: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_APPS_ID#com.apple.AppStore`
+- Skærm & lysstyrke → Altid til → Vis apps → Nike Run Club: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_APPS_ID#com.nike.nikeplus-gps.watchkitapp`
+- Skærm & lysstyrke → Altid til → Vis apps → Telefon: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_APPS_ID#com.apple.NanoPhone`
+- Skærm & lysstyrke → Altid til → Vis apps → Fotos: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_APPS_ID#com.apple.NanoPhotos`
+- Skærm & lysstyrke → Altid til → Vis apps → Indstillinger: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_APPS_ID#com.apple.NanoSettings`
+- Skærm & lysstyrke → Altid til → Vis apps → Tap-to-Radar: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_APPS_ID#com.apple.NanoTapToRadar`
+- Skærm & lysstyrke → Altid til → Vis notifikationer: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID`
+- Skærm & lysstyrke → Altid til → Vis notifikationer → Vis notifikationer: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#APP_BACKLIGHT_PRIVACY_GLOBAL_APP`
+- Skærm & lysstyrke → Altid til → Vis notifikationer → APPS TIL APPLE WATCH | APPS TIL IPHONE: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#APP_GROUP_ID`
+- Skærm & lysstyrke → Altid til → Vis notifikationer → App Store: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.AppStore`
+- Skærm & lysstyrke → Altid til → Vis notifikationer → Nike Run Club: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.nike.nikeplus-gps.watchkitapp`
+- Skærm & lysstyrke → Altid til → Vis notifikationer → Telefon: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.NanoPhone`
+- Skærm & lysstyrke → Altid til → Vis notifikationer → Fotos: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.NanoPhotos`
+- Skærm & lysstyrke → Altid til → Vis notifikationer → Indstillinger: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.NanoSettings`
+- Skærm & lysstyrke → Altid til → Vis notifikationer → Tap-to-Radar: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.NanoTapToRadar`
+- Skærm & lysstyrke → Altid til → Vis notifikationer → Indstillinger til Tilgængelighed: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.accessibility.TeachableMomentsNotifications`
+- Skærm & lysstyrke → Altid til → Vis notifikationer → Bøger: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.iBooks`
+- Skærm & lysstyrke → Altid til → Vis notifikationer → Caffè Macs: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.ist.CaffeMacsApp`
+- Skærm & lysstyrke → Altid til → Vis notifikationer → Kalender: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.mobilecal`
+- Skærm & lysstyrke → Altid til → Vis notifikationer → Kamera: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.camera`
+- Skærm & lysstyrke → Altid til → Vis notifikationer → Forbind: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.ist.AppleConnect`
+- Skærm & lysstyrke → Altid til → Vis notifikationer → Diagnostics Reporter: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.DiagnosticsReporter`
+- Skærm & lysstyrke → Altid til → Vis notifikationer → Intern feedback: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.FeedbackInternal`
+- Skærm & lysstyrke → Altid til → Vis notifikationer → Fitness: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.Fitness`
+- Skærm & lysstyrke → Altid til → Vis notifikationer → Game Center: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.gamecenter`
+- Skærm & lysstyrke → Altid til → Vis notifikationer → Sundhed: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.Health`
+- Skærm & lysstyrke → Altid til → Vis notifikationer → Livability: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.Livability`
+- Skærm & lysstyrke → Altid til → Vis notifikationer → Mail: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.mobilemail`
+- Skærm & lysstyrke → Altid til → Vis notifikationer → Beskeder: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.MobileSMS`
+- Skærm & lysstyrke → Altid til → Vis notifikationer → Selvbetjening: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.jamfsoftware.selfservice`
+- Skærm & lysstyrke → Altid til → Vis notifikationer → Sporingsnotifikationer: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.FindMySafetyAlertsNotifications`
+- Skærm & lysstyrke → Altid til → Vis notifikationer → Vejr: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.weather`
+- Skærm & lysstyrke → Altid til → Vis komplikationsdata: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_COMPLICATIONS_DATA_ID`
+- Skærm & lysstyrke → Altid til → Vis komplikationsdata → Vis komplikationsdata: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_COMPLICATIONS_DATA_ID#Show%20Complication%20Data`
+- Skærm & lysstyrke → Altid til → Vis komplikationsdata → Apps: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_COMPLICATIONS_DATA_ID#Apps`
+- Skærm & lysstyrke → Altid til → Vis komplikationsdata → Indlæser…: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_COMPLICATIONS_DATA_ID#Loading%E2%80%A6`
+- Skærm & lysstyrke → Altid til → Vis komplikationsdata → Siri: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_COMPLICATIONS_DATA_ID#Siri`
+- Skærm & lysstyrke → Altid til → Vis komplikationsdata → Siri-kort: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_COMPLICATIONS_DATA_ID#Siri%20Cards`
+- Skærm & lysstyrke → Tekststørrelse: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID#TEXT_SIZE`
+- Skærm & lysstyrke → Fed tekst: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID#BOLD_TEXT`
+- Skærm & lysstyrke → Afbryd vågeblus: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID#Wake`
+- Skærm & lysstyrke → Afbryd vågeblus, når håndled løftes: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID#WAKE_SCREEN_ON_WRIST_RAISE_SWITCH_ID`
+- Skærm & lysstyrke → Afbryd vågeblus, når Crown drejes: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID#WAKE_SCREEN_ON_CROWN_UP_SWITCH_ID`
+- Fotos: `bridge:root=com.apple.NanoPhotosBridgeSettings`
+- Fotos → Fotosynkronisering: `bridge:root=com.apple.NanoPhotosBridgeSettings#Photo%20Syncing`
+- Fotos → Minder: `bridge:root=com.apple.NanoPhotosBridgeSettings#Memories`
+- Fotos → Synkroniser Minder: `bridge:root=com.apple.NanoPhotosBridgeSettings#Sync%20Memories`
+- Fotos → Udvalgte fotos: `bridge:root=com.apple.NanoPhotosBridgeSettings#Featured%20Photos`
+- Fotos → Synkroniser Udvalgte fotos: `bridge:root=com.apple.NanoPhotosBridgeSettings#Sync%20Featured%20Photos`
+- Fotos → Album: `bridge:root=com.apple.NanoPhotosBridgeSettings#Album`
+- Fotos → Synkroniser Album: `bridge:root=com.apple.NanoPhotosBridgeSettings&path=Sync%20Album`
+- Fotos → Grænse for fotos: `bridge:root=com.apple.NanoPhotosBridgeSettings&path=Photos%20Limit`
+- Fotos → Notifikationsindstillinger: `bridge:root=com.apple.NanoPhotosBridgeSettings#MIRROR_RADIO_GROUP_ID`
+- Fotos → Dubler min iPhone: `bridge:root=com.apple.NanoPhotosBridgeSettings#MIRROR_MY_COMPANION_ID`
+- Fotos → Speciel: `bridge:root=com.apple.NanoPhotosBridgeSettings#CUSTOM_ID`
+- Komplikationer: `bridge:root=COMPLICATIONS`
+- Kontrolcenter: `bridge:root=CONTROL_CENTER_ID`
+- Kontrolcenter → Nulstil layout af Kontrolcenter: `bridge:root=CONTROL_CENTER_ID#CONTROL_CENTER_RESET_ID`
+- Appoversigt: `bridge:root=APP_VIEW_ID`
+- Generelt: `bridge:root=GENERAL_LINK`
+- Generelt → Om: `bridge:root=GENERAL_LINK&path=ABOUT`
+- Generelt → Om → Navn: `bridge:root=GENERAL_LINK&path=ABOUT/NAME_CELL_ID`
+- Generelt → Om → watchOS-version: `bridge:root=GENERAL_LINK&path=ABOUT#OS_VERSION_CELL_ID`
+- Generelt → Om → Modelnavn: `bridge:root=GENERAL_LINK&path=ABOUT#DEVICE_MARKETING_NAME_CELL_ID`
+- Generelt → Om → Modeloplysninger: `bridge:root=GENERAL_LINK&path=ABOUT#DEVICE_DETAIL_CELL_ID`
+- Generelt → Om → Modelnummer: `bridge:root=GENERAL_LINK&path=ABOUT#DEVICE_MODEL_CELL_ID`
+- Generelt → Om → Serienummer: `bridge:root=GENERAL_LINK&path=ABOUT#DEVICE_SERIAL_NUMBER_CELL_ID`
+- Generelt → Om → Sange: `bridge:root=GENERAL_LINK&path=ABOUT#SONGS_CELL_ID`
+- Generelt → Om → Fotos: `bridge:root=GENERAL_LINK&path=ABOUT#PHOTOS_CELL_ID`
+- Generelt → Om → Apps: `bridge:root=GENERAL_LINK&path=ABOUT#APPLICATIONS_CELL_ID`
+- Generelt → Om → Kapacitet: `bridge:root=GENERAL_LINK&path=ABOUT#STORAGE_CAPACITY_CELL_ID`
+- Generelt → Om → Ledig: `bridge:root=GENERAL_LINK&path=ABOUT#STORAGE_AVAILABLE_CELL_ID`
+- Generelt → Om → Operatør: `bridge:root=GENERAL_LINK&path=ABOUT#CARRIER_CELL_ID`
+- Generelt → Om → Bluetooth: `bridge:root=GENERAL_LINK&path=ABOUT#DEVICE_BLUETOOTH_ADDRESS_CELL_ID`
+- Generelt → Om → IMEI: `bridge:root=GENERAL_LINK&path=ABOUT#IMEI_CELL_ID`
+- Generelt → Om → ICCID: `bridge:root=GENERAL_LINK&path=ABOUT#ICCID_CELL_ID`
+- Generelt → Om → EID: `bridge:root=GENERAL_LINK&path=ABOUT/EID_CELL_ID`
+- Generelt → Om → SEID: `bridge:root=GENERAL_LINK&path=ABOUT/DEVICE_SEID_CELL_ID`
+- Generelt → Om → Juridiske oplysninger: `bridge:root=GENERAL_LINK&path=ABOUT/LEGAL_CELL_ID`
+- Generelt → Om → Vis brugerhåndbogen til Apple Watch: `bridge:root=GENERAL_LINK&path=ABOUT#SHOW_MANUAL_CELL_ID`
+- Generelt → Softwareopdatering: `bridge:root=GENERAL_LINK&path=SOFTWARE_UPDATE_LINK`
+- Generelt → Automatisk appinstallering: `bridge:root=GENERAL_LINK#AUTO_APP_INSTALL_SWITCH_ID`
+- Generelt → Flyfunktion: `bridge:root=GENERAL_LINK&path=AIRPLANE_MODE_ID`
+- Generelt → Fokus: `bridge:root=GENERAL_LINK&path=FOCUS_ID`
+- Generelt → Fokus → Dubler min iPhone: `bridge:root=GENERAL_LINK&path=FOCUS_ID#Mirror%20my%20iPhone`
+- Generelt → Retning på ur: `bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION_ID`
+- Generelt → Retning på ur → Brug Apple Watch på: `bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION_ID#WRIST_CHOICE_ID`
+- Generelt → Retning på ur → Venstre hånd: `bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION_ID#LEFT_HAND_ID`
+- Generelt → Retning på ur → Højre hånd: `bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION_ID#RIGHT_HAND_ID`
+- Generelt → Retning på ur → Digital Crown på venstre side: `bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION_ID#LISA_ON_LEFT_ID`
+- Generelt → Retning på ur → Digital Crown på højre side: `bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION_ID#LISA_ON_RIGHT_ID`
+- Generelt → Apple‑konto: `bridge:root=GENERAL_LINK&path=LINK_WITH_ICLOUD_LINK`
+- Generelt → Slå Diktering til: `bridge:root=GENERAL_LINK#DICTATION_CELL_ID`
+- Generelt → Automatisk tegnsætning: `bridge:root=GENERAL_LINK#DICTATION_AUTO_PUNCTUATION_CELL_ID`
+- Generelt → Slå Handoff til: `bridge:root=GENERAL_LINK#CONTINUITY_ID`
+- Generelt → Vækkeursfunktion: `bridge:root=GENERAL_LINK#NIGHTSTAND_CELL_ID`
+- Generelt → Slå skærmbilleder til: `bridge:root=GENERAL_LINK#BUTTON_CHORD_CELL_ID`
+- Generelt → Lagringsplads | Reservespænding | Standby | Tid siden sidste fulde opladning: `bridge:root=GENERAL_LINK&path=USAGE_LINK`
+- Generelt → Profil: `bridge:root=GENERAL_LINK&path=ManagedConfigurationList`
+- Generelt → Logarkiver til diagnosticering: `bridge:root=GENERAL_LINK&path=DIAGNOSTIC_LOG_BROWSER`
+- Generelt → Logarkiver til diagnosticering → Indlæser…: `bridge:root=GENERAL_LINK&path=DIAGNOSTIC_LOG_BROWSER#Loading%E2%80%A6`
+- Generelt → Kopier Apple Watch‑analyse: `bridge:root=GENERAL_LINK#LOGS_CELL_ID`
+- Generelt → Nulstil: `bridge:root=GENERAL_LINK&path=RESET_ID`
+- Generelt → VEND TILBAGE TIL UR: `bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK_ID`
+- Generelt → VEND TILBAGE TIL UR → VEND TILBAGE TIL UR: `bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK_ID#CSLPRFReturnToClockGroupID`
+- Generelt → VEND TILBAGE TIL UR → Altid: `bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK_ID#RETURN_TO_CLOCK_ALWAYS`
+- Generelt → VEND TILBAGE TIL UR → Efter 2 minutter: `bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK_ID#RETURN_TO_CLOCK_AFTER_2_MINUTES`
+- Generelt → VEND TILBAGE TIL UR → Efter 1 time: `bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK_ID#RETURN_TO_CLOCK_AFTER_1_HOUR`
+- Generelt → VEND TILBAGE TIL UR → APPS: `bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK_ID#APP_GROUP_ID`
+- Generelt → Opdater apps i baggrunden: `bridge:root=GENERAL_LINK&path=BAR_ROW_ID`
+- Generelt → Opdater apps i baggrunden → Opdater apps i baggrunden: `bridge:root=GENERAL_LINK&path=BAR_ROW_ID#BACKGROUND_APP_UPDATING_CELL_ID`
+- Generelt → Sprog & område: `bridge:root=GENERAL_LINK&path=LANGUAGE_AND_REGION_ID`
+- Generelt → Sprog & område → Dubler min iPhone: `bridge:root=GENERAL_LINK&path=LANGUAGE_AND_REGION_ID#MIRROR_MY_COMPANION_ID`
+- Generelt → Sprog & område → Speciel: `bridge:root=GENERAL_LINK&path=LANGUAGE_AND_REGION_ID#CUSTOM_ID`
+- Generelt → Start automatisk, når under vand: `bridge:root=GENERAL_LINK&path=AUTO_LAUNCH`
+- Generelt → Automatisk start: `bridge:root=GENERAL_LINK&path=AUTO_LAUNCH_ID`
+- Generelt → Wake Screen: `bridge:root=GENERAL_LINK&path=WAKE_SCREEN`
+- Generelt → Wake Screen → Afspiller nu: `bridge:root=GENERAL_LINK&path=WAKE_SCREEN#AUTO_LAUNCH_MEDIA`
+- Lyde & haptisk feedback: `bridge:root=SOUNDS_ID`
+- Lyde & haptisk feedback → Lydstyrke på advarsel: `bridge:root=SOUNDS_ID#AUDIO_SLIDER`
+- Lyde & haptisk feedback → Ringetone og advarsler: `bridge:root=SOUNDS_ID#RINGTONE_AND_ALERTS_SECTION_TITLE`
+- Lyde & haptisk feedback → Lydløs: `bridge:root=SOUNDS_ID#audio_mute_switch`
+- Lyde & haptisk feedback → Juster automatisk lydstyrken: `bridge:root=SOUNDS_ID#contextual_volume_switch`
+- Lyde & haptisk feedback → Niveau: `bridge:root=SOUNDS_ID&path=contextual_volume_profile`
+- Lyde & haptisk feedback → Niveau → Højere: `bridge:root=SOUNDS_ID&path=contextual_volume_profile#CONTEXTUAL_VOLUME_PROFILE_LOUDER_ID`
+- Lyde & haptisk feedback → Niveau → Standard: `bridge:root=SOUNDS_ID&path=contextual_volume_profile#CONTEXTUAL_VOLUME_PROFILE_DEFAULT_ID`
+- Lyde & haptisk feedback → Niveau → Lavere: `bridge:root=SOUNDS_ID&path=contextual_volume_profile#CONTEXTUAL_VOLUME_PROFILE_QUIETER_ID`
+- Lyde & haptisk feedback → Haptisk feedback: `bridge:root=SOUNDS_ID&path=HAPTICS_ID`
+- Lyde & haptisk feedback → Haptisk feedback → Fra: `bridge:root=SOUNDS_ID&path=HAPTICS_ID#OFF_ITEM_ID`
+- Lyde & haptisk feedback → Haptisk feedback → Standard: `bridge:root=SOUNDS_ID&path=HAPTICS_ID#DEFAULT_ITEM_ID`
+- Lyde & haptisk feedback → Haptisk feedback → Markant: `bridge:root=SOUNDS_ID&path=HAPTICS_ID#PROMINENT_ITEM_ID`
+- Lyde & haptisk feedback → Ringetone: `bridge:root=SOUNDS_ID&path=SOUND_AND_HAPTIC_PATTERNS_RINGTONE_ID`
+- Lyde & haptisk feedback → Beskedtone: `bridge:root=SOUNDS_ID&path=SOUND_AND_HAPTIC_PATTERNS_TEXTTONE_ID`
+- Lyde & haptisk feedback → Ny e-mail: `bridge:root=SOUNDS_ID&path=SOUND_AND_HAPTIC_PATTERNS_NEWMAIL_ID`
+- Lyde & haptisk feedback → Kalenderadvarsler: `bridge:root=SOUNDS_ID&path=SOUND_AND_HAPTIC_PATTERNS_CALENDARALERTS_ID`
+- Lyde & haptisk feedback → Påmindelsesadvarsler: `bridge:root=SOUNDS_ID&path=SOUND_AND_HAPTIC_PATTERNS_REMINDERALERTS_ID`
+- Lyde & haptisk feedback → Standardadvarsler: `bridge:root=SOUNDS_ID&path=SOUND_AND_HAPTIC_PATTERNS_DEFAULTALERTS_ID`
+- Lyde & haptisk feedback → Lyd i hovedtelefoner: `bridge:root=SOUNDS_ID#HEADPHONE_AUDIO_GROUP`
+- Lyde & haptisk feedback → Sikker brug af hovedtelefoner: `bridge:root=SOUNDS_ID&path=HEADPHONE_LEVEL_LIMIT_SETTING`
+- Lyde & haptisk feedback → Sikker brug af hovedtelefoner → Notifikationer om hoved­telefoner: `bridge:root=SOUNDS_ID&path=HEADPHONE_LEVEL_LIMIT_SETTING#COSHeadphoneNotificationsSwitchKey`
+- Lyde & haptisk feedback → Sikker brug af hovedtelefoner → Formindsk høje lyde: `bridge:root=SOUNDS_ID&path=HEADPHONE_LEVEL_LIMIT_SETTING#COSHeadphoneLevelLimitSwitchKey`
+- Lyde & haptisk feedback → Systemlyde & haptisk feedback: `bridge:root=SOUNDS_ID#JACKRABBIT_GROUP_ID`
+- Lyde & haptisk feedback → Haptisk på Crown: `bridge:root=SOUNDS_ID#JACKRABBIT_ID`
+- Lyde & haptisk feedback → Haptisk feedback i system: `bridge:root=SOUNDS_ID#SYSTEM_HAPTICS_ID`
+- Nød‑SOS: `bridge:root=SOS_MODE_ID`
+- Anonymitet: `bridge:root=PRIVACY_ID`
+- Anonymitet → Håndledstemperatur: `bridge:root=PRIVACY_ID#WRIST_TEMPERATURE_SWITCH_ID`
+- Skærmtid: `bridge:root=SCREEN_TIME_ID`
+- Nike Run Club: `bridge:root=VICTORY_ROW_ID`
+- Nike Run Club → Vis app på Apple Watch: `bridge:root=VICTORY_ROW_ID#SHOWS_ON_GIZMO`
+- Tips: `bridge:root=com.apple.NanoTipsBridgeSettings`
+- Tips → Tillad notifikationer: `bridge:root=com.apple.NanoTipsBridgeSettings#ALLOW_NOTIFICATIONS_ID`
+- Tips → Send til Notifikationscenter: `bridge:root=com.apple.NanoTipsBridgeSettings#SEND_TO_NOTIFICATION_CENTER_ID`
+- Tips → Notifikationer er slået fra: `bridge:root=com.apple.NanoTipsBridgeSettings#NOTIFICATIONS_OFF_ID`
+- Tips → Grupper notifikationer: `bridge:root=com.apple.NanoTipsBridgeSettings&path=NOTIFICATION_COALESCING_ID`
+- Ur: `bridge:root=com.apple.NanoClockBridgeSettings`
+- Ur → 24 timers ur: `bridge:root=com.apple.NanoClockBridgeSettings#24-Hour%20Time`
+- Ur → Klokkespil: `bridge:root=com.apple.NanoClockBridgeSettings#Chimes`
+- Ur → Lyde: `bridge:root=com.apple.NanoClockBridgeSettings&path=Sounds`
+- Ur → Lyde → Klokker: `bridge:root=com.apple.NanoClockBridgeSettings&path=Sounds#Bells`
+- Ur → Lyde → Fugle: `bridge:root=com.apple.NanoClockBridgeSettings&path=Sounds#Birds`
+- Ur → Læs tid op: `bridge:root=com.apple.NanoClockBridgeSettings#Speak%20Time`
+- Ur → Betjen med Lydløs: `bridge:root=com.apple.NanoClockBridgeSettings#Control%20With%20Silent%20Mode`
+- Ur → Læs altid op: `bridge:root=com.apple.NanoClockBridgeSettings#Always%20Speak`
+- Ur → Følbar tid: `bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time`
+- Ur → Følbar tid → Følbar tid: `bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time#Taptic%20Time`
+- Ur → Følbar tid → Cifre: `bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time#Digits`
+- Ur → Følbar tid → Kort: `bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time#Terse`
+- Ur → Følbar tid → Morsekode: `bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time#Morse%20Code`
+- Ur → Advarsler fra iPhone via push: `bridge:root=com.apple.NanoClockBridgeSettings#Push%20Alerts%20from%20iPhone`
+- Ur → Indikator for notifikationer: `bridge:root=com.apple.NanoClockBridgeSettings#Notifications%20Indicator`
+- Ur → Monogram: `bridge:root=com.apple.NanoClockBridgeSettings&path=MONOGRAM_ID`
+- Ur → Notifikationer om urskiver: `bridge:root=com.apple.NanoClockBridgeSettings#Watch%20Face%20Notifications`
+- Ur → Forkortelser for byer: `bridge:root=com.apple.NanoClockBridgeSettings&path=City%20Abbreviations`
+- Ur → Datakilder for urskiven Siri: `bridge:root=com.apple.NanoClockBridgeSettings&path=Siri%20Face%20Data%20Sources`
+- Handlingsknap: `bridge:root=ACTION_BUTTON_ID`
+- Handlingsknap → Bevægelser | Handling: `bridge:root=ACTION_BUTTON_ID#StingSystemSettingsActionTypeGroupID`
+- Handlingsknap → Træning: `bridge:root=ACTION_BUTTON_ID&path=StingSystemSettingsActionTypeItem`
+- Handlingsknap → Træning → Ingen: `bridge:root=ACTION_BUTTON_ID&path=StingSystemSettingsActionTypeItem#StingSystemSettingsSelectedActionTypeItem`
+- Handlingsknap → Første tryk: `bridge:root=ACTION_BUTTON_ID#StingSystemSettingsWorkoutGroupID`
+- Handlingsknap → Hurtigt skift: `bridge:root=ACTION_BUTTON_ID&path=ShowQuickSwitch`
+- Handlingsknap → Hurtigt skift → Hurtigt skift: `bridge:root=ACTION_BUTTON_ID&path=ShowQuickSwitch#StingQuickSwitchToggleGroup`
+- Handlingsknap → Hurtigt skift → Hurtigt skift: `bridge:root=ACTION_BUTTON_ID&path=ShowQuickSwitch#Quick%20Switch`
+- Handlingsknap → Hurtigt skift → Inkluderede apps: `bridge:root=ACTION_BUTTON_ID&path=ShowQuickSwitch#StingQuickSwitchAppGroup`
+- Støj: `bridge:root=com.apple.Noise.settings`
+- Støj → Målinger af lyd i omgivelserne: `bridge:root=com.apple.Noise.settings#ENABLE_MEASUREMENTS_ID`
+- Støj → Notifikationer om støj: `bridge:root=com.apple.Noise.settings#LOUD_NOTIFICATION_GROUP_ID`
+- Støj → Støjtærskel: `bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID`
+- Støj → Støjtærskel → Fra: `bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#OFF`
+- Støj → Støjtærskel → 80 decibel: `bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_80`
+- Støj → Støjtærskel → 85 decibel: `bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_85`
+- Støj → Støjtærskel → 90 decibel: `bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_90`
+- Støj → Støjtærskel → 95 decibel: `bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_95`
+- Støj → Støjtærskel → 100 decibel: `bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_100`
+- Støj → Grupper notifikationer: `bridge:root=com.apple.Noise.settings&path=NOTIFICATION_COALESCING_ID`
+- Kalender: `bridge:root=com.apple.NanoCalendarBridgeSettings`
+- Kalender → NOTIFIKATIONER: `bridge:root=com.apple.NanoCalendarBridgeSettings#MIRROR_RADIO_GROUP_ID`
+- Kalender → Dubler min iPhone: `bridge:root=com.apple.NanoCalendarBridgeSettings#MIRROR_MY_COMPANION_ID`
+- Kalender → Speciel…: `bridge:root=com.apple.NanoCalendarBridgeSettings#CUSTOM_ID`
+- Kalender → KALENDERE: `bridge:root=com.apple.NanoCalendarBridgeSettings#CALENDARS_MIRROR_RADIO_GROUP_ID`
+- Kalender → Dubler min iPhone: `bridge:root=com.apple.NanoCalendarBridgeSettings#CALENDARS_MIRROR_MY_COMPANION_ID`
+- Kalender → Speciel…: `bridge:root=com.apple.NanoCalendarBridgeSettings&path=CALENDARS_CUSTOM_ID`
+- Kalender → Kommende begivenheder: `bridge:root=com.apple.NanoCalendarBridgeSettings&path=Upcoming%20Events`
+- Kalender → Invitationer: `bridge:root=com.apple.NanoCalendarBridgeSettings&path=Invitations`
+- Kalender → Svar på invitationer: `bridge:root=com.apple.NanoCalendarBridgeSettings&path=Invitee%20Responses`
+- Kalender → Ændringer i delte kalendere: `bridge:root=com.apple.NanoCalendarBridgeSettings&path=Shared%20Calendar%20Alerts`
+- Walkie-talkie: `bridge:root=com.apple.tincan.settings`
+- Walkie-talkie → Tillad notifikationer: `bridge:root=com.apple.tincan.settings#ALLOW_NOTIFICATIONS_ID`
+- Walkie-talkie → Send til Notifikationscenter: `bridge:root=com.apple.tincan.settings#SEND_TO_NOTIFICATION_CENTER_ID`
+- Walkie-talkie → Notifikationer er slået fra: `bridge:root=com.apple.tincan.settings#NOTIFICATIONS_OFF_ID`
+- Walkie-talkie → Grupper notifikationer: `bridge:root=com.apple.tincan.settings&path=NOTIFICATION_COALESCING_ID`
+- Walkie-talkie → Venner: `bridge:root=com.apple.tincan.settings#Friends`
+- Siri: `bridge:root=SIRI_WATCH_SETTINGS_ID`
+- Siri → Spørg Siri: `bridge:root=SIRI_WATCH_SETTINGS_ID#ASK_SIRI_GROUP_ID`
+- Siri → Lyt efter: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_TRIGGER_ID`
+- Siri → Lyt efter → “Siri” eller “Hej Siri”: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_TRIGGER_ID#HS_JS_ID`
+- Siri → Lyt efter → “Hej Siri”: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_TRIGGER_ID#HEY_SIRI_ID`
+- Siri → Lyt efter → Fra: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_TRIGGER_ID#VOICE_TRIGGER_DISABLED_ID`
+- Siri → Løft for at tale: `bridge:root=SIRI_WATCH_SETTINGS_ID#RAISE_TO_SPEAK_SWITCH_ID`
+- Siri → Tryk på Digital Crown: `bridge:root=SIRI_WATCH_SETTINGS_ID#DIGITAL_CROWN_SWITCH_ID`
+- Siri → Send automatisk beskeder: `bridge:root=SIRI_WATCH_SETTINGS_ID#AUTOMATICALLY_SEND_MESSAGES_SWITCH_ID`
+- Siri → Siri-svar: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=SIRI_RESPONSES_ID`
+- Siri → Siri-svar → Vis altid Siri-undertekster: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=SIRI_RESPONSES_ID#ALWAYS_SHOW_SIRI_CAPTIONS_SWITCH_ID`
+- Siri → Siri-svar → Vis altid tale: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=SIRI_RESPONSES_ID#ALWAYS_SHOW_SPEECH_SWITCH_ID`
+- Siri → Siri-svar → Stemmelydstyrke: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=SIRI_RESPONSES_ID#CONSIDERATE_VOLUME_GROUP_ID`
+- Siri → Siri-svar → Juster automatisk lydstyrken: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=SIRI_RESPONSES_ID#CONSIDERATE_VOLUME_SWITCH_ID`
+- Siri → Siri-svar → Niveau: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=SIRI_RESPONSES_ID/CONSIDERATE_VOLUME_PROFILE_ID`
+- Siri → Siri-svar → Niveau → Højere: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=SIRI_RESPONSES_ID/CONSIDERATE_VOLUME_PROFILE_ID#CONSIDERATE_VOLUME_PROFILE_LOUDER_ID`
+- Siri → Siri-svar → Niveau → Standard: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=SIRI_RESPONSES_ID/CONSIDERATE_VOLUME_PROFILE_ID#CONSIDERATE_VOLUME_PROFILE_DEFAULT_ID`
+- Siri → Siri-svar → Niveau → Lavere: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=SIRI_RESPONSES_ID/CONSIDERATE_VOLUME_PROFILE_ID#CONSIDERATE_VOLUME_PROFILE_QUIETER_ID`
+- Siri → Stemmefeedback: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_FEEDBACK_ID`
+- Siri → Stemmefeedback → Altid til: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_FEEDBACK_ID#VOICE_FEEDBACK_ALWAYS_ON_ID`
+- Siri → Stemmefeedback → Betjen med Lydløs: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_FEEDBACK_ID#VOICE_FEEDBACK_CONTROL_WITH_SILENT_MODE_ID`
+- Siri → Stemmefeedback → Kun hovedtelefoner: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_FEEDBACK_ID#VOICE_FEEDBACK_HEADPHONES_ONLY_ID`
+- Siri → Stemmelydstyrke: `bridge:root=SIRI_WATCH_SETTINGS_ID#VOICE_VOLUME_GROUP_ID`
+- Siri → Siri-forslag: `bridge:root=SIRI_WATCH_SETTINGS_ID#ASSISTANT_SUGGESTIONS_GROUP_ID`
+- Træning: `bridge:root=com.apple.SessionTrackerAppSettings`
+- Træning → Vis mål: `bridge:root=com.apple.SessionTrackerAppSettings#PRO_SETTING_ENABLED_LABEL`
+- Træning → Træningsoversigt: `bridge:root=com.apple.SessionTrackerAppSettings&path=METRIC_VIEW_ID`
+- Træning → Automatisk pause: `bridge:root=com.apple.SessionTrackerAppSettings&path=AUTO_PAUSE_ID`
+- Træning → Automatisk pause → Automatisk pause: `bridge:root=com.apple.SessionTrackerAppSettings&path=AUTO_PAUSE_ID#WorkoutAutoPauseSwitch`
+- Træning → Træning er startet: `bridge:root=com.apple.SessionTrackerAppSettings#AUTO_START_WORKOUT_NOTIFICATIONS_ENABLED_LABEL`
+- Træning → Træning er afsluttet: `bridge:root=com.apple.SessionTrackerAppSettings#END_REMINDERS_ENABLED_LABEL`
+- Træning → Tryk for at sætte på pause: `bridge:root=com.apple.SessionTrackerAppSettings#CHORD_PRESS_PAUSE_WORKOUT_ENABLED_LABEL`
+- Træning → Find træningsudstyr: `bridge:root=com.apple.SessionTrackerAppSettings#NFC_ENABLED_LABEL_ID`
+- Træning → Oversigt over tempo/hastighed: `bridge:root=com.apple.SessionTrackerAppSettings&path=PACE_VIEW_LABEL`
+- Træning → Oversigt over tempo/hastighed → Aktuel: `bridge:root=com.apple.SessionTrackerAppSettings&path=PACE_VIEW_LABEL#CURRENT_PACE_ID`
+- Træning → Oversigt over tempo/hastighed → Gennemsnit: `bridge:root=com.apple.SessionTrackerAppSettings&path=PACE_VIEW_LABEL#AVERAGE_PACE_ID`
+- Træning → Træningsplayliste: `bridge:root=com.apple.SessionTrackerAppSettings&path=MUSIC_AUTOSTART_TITLE_ID`
+- Træning → Træningsplayliste → Ingen: `bridge:root=com.apple.SessionTrackerAppSettings&path=MUSIC_AUTOSTART_TITLE_ID#NONE_AUTOSTART_ID`
+- Træning → Træningsplayliste → Playlister: `bridge:root=com.apple.SessionTrackerAppSettings&path=MUSIC_AUTOSTART_TITLE_ID#MUSIC_PLAYLIST_GROUP_ID`
+- Træning → Afspil fra begyndelsen: `bridge:root=com.apple.SessionTrackerAppSettings#WORKOUT_MUSIC_PLAY_FROM_BEGINNING_SETTING_ID`
+- Træning → Bland: `bridge:root=com.apple.SessionTrackerAppSettings#WORKOUT_MUSIC_SHUFFLE_SETTING_ID`
+- Træning → Måleenheder: `bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID`
+- Træning → Måleenheder → Kalorier: `bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#ENERGY_UNITS_CALORIES_ID`
+- Træning → Måleenheder → Kilokalorier: `bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#ENERGY_UNITS_KILOCALORIES_ID`
+- Træning → Måleenheder → Kilojoule: `bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#ENERGY_UNITS_KILOJOULES_ID`
+- Træning → Måleenheder → Yard: `bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#POOL_LENGTH_YARDS_ID`
+- Træning → Måleenheder → Meter: `bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#POOL_LENGTH_METERS_ID`
+- Træning → Måleenheder → Miles: `bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#CYCLING_WORKOUTS_MILES_ID`
+- Træning → Måleenheder → Kilometer: `bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#CYCLING_WORKOUTS_KILOMETERS_ID`
+- Træning → Måleenheder → Miles: `bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#WALKING_AND_RUNNING_WORKOUTS_MILES_ID`
+- Træning → Måleenheder → Kilometer: `bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#WALKING_AND_RUNNING_WORKOUTS_KILOMETERS_ID`
+- Træning → Stemmefeedback: `bridge:root=com.apple.SessionTrackerAppSettings#WORKOUT_VOICE_FEEDBACK_LABEL`
+- Træning → Tid til at gå: `bridge:root=com.apple.SessionTrackerAppSettings#GUIDED_WORKOUT_PREFETCH_FOOTER_ID`
+- Træning → Føj nye træninger til Apple Watch: `bridge:root=com.apple.SessionTrackerAppSettings#GUIDED_WORKOUT_PREFETCH_LABEL_ID`
+- Træning → Energi­besparende funktion: `bridge:root=com.apple.SessionTrackerAppSettings#LOW_POWER_MODE`
+- Beskeder: `bridge:root=com.apple.MessagesBridgeSettings`
+- Beskeder → Dubler min iPhone: `bridge:root=com.apple.MessagesBridgeSettings#MIRROR_MY_COMPANION_ID`
+- Beskeder → Speciel: `bridge:root=com.apple.MessagesBridgeSettings#CUSTOM_ID`
+- Beskeder → Standardsvar: `bridge:root=com.apple.MessagesBridgeSettings&path=DEFAULT_REPLIES`
+- Beskeder → Standardsvar → Standardsvar: `bridge:root=com.apple.MessagesBridgeSettings&path=DEFAULT_REPLIES#Default%20Replies`
+- Beskeder → Standardsvar → Smarte svar: `bridge:root=com.apple.MessagesBridgeSettings&path=DEFAULT_REPLIES#Smart%20Replies`
+- Beskeder → Standardsvar → Tilføj svar…: `bridge:root=com.apple.MessagesBridgeSettings&path=DEFAULT_REPLIES#Add%20reply%E2%80%A6`
+- Beskeder → Gentag advarsler: `bridge:root=com.apple.MessagesBridgeSettings&path=PLAY_ALERT_TONE`
+- Beskeder → Lydbeskeder: `bridge:root=com.apple.MessagesBridgeSettings&path=AudioMessagesMode`
+- Skoletid: `bridge:root=SCHOOLTIME`
+- Skoletid → Skoletid: `bridge:root=SCHOOLTIME#SCHEDULE_FEATURE_ACTIVE_TITLE`
+- Enkel kode | Kode | Lås op med iPhone | Registrering af håndled | Skift kode | Slet data | Slå kode fra | Slå kode til: `bridge:root=PASSCODE_ID`
+- Enkel kode | Kode | Lås op med iPhone | Registrering af håndled | Skift kode | Slet data | Slå kode fra | Slå kode til → Slå kode til: `bridge:root=PASSCODE_ID#TOGGLE_PASSCODE_ID`
+- Enkel kode | Kode | Lås op med iPhone | Registrering af håndled | Skift kode | Slet data | Slå kode fra | Slå kode til → Skift kode: `bridge:root=PASSCODE_ID#CHANGE_PASSCODE_ID`
+- Enkel kode | Kode | Lås op med iPhone | Registrering af håndled | Skift kode | Slet data | Slå kode fra | Slå kode til → Enkel kode: `bridge:root=PASSCODE_ID#SIMPLE_PASSCODE_SWITCH_ID`
+- Enkel kode | Kode | Lås op med iPhone | Registrering af håndled | Skift kode | Slet data | Slå kode fra | Slå kode til → Lås op med iPhone: `bridge:root=PASSCODE_ID#AUTO_UNLOCK_SWITCH_ID`
+- Enkel kode | Kode | Lås op med iPhone | Registrering af håndled | Skift kode | Slet data | Slå kode fra | Slå kode til → Slet data: `bridge:root=PASSCODE_ID#ERASE_DATA_SWITCH_ID`
+- Enkel kode | Kode | Lås op med iPhone | Registrering af håndled | Skift kode | Slet data | Slå kode fra | Slå kode til → Registrering af håndled: `bridge:root=PASSCODE_ID#WRIST_DETECTION_CELL_ID`
+- Enkel kode | Kode | Lås op med iPhone | Registrering af håndled | Skift kode | Slet data | Slå kode fra | Slå kode til → Komplikationer: `bridge:root=PASSCODE_ID#SHOW_COMPLICATION_DATA_WHEN_LOCKED_GROUP_ID`
+- Enkel kode | Kode | Lås op med iPhone | Registrering af håndled | Skift kode | Slet data | Slå kode fra | Slå kode til → Vis data på låst skærm: `bridge:root=PASSCODE_ID#SHOW_COMPLICATION_DATA_WHEN_LOCKED_SWITCH_ID`
+- Mail: `bridge:root=com.apple.NanoMailBridgeSettings`
+- Mail → Dubler min iPhone: `bridge:root=com.apple.NanoMailBridgeSettings#MIRROR_MY_COMPANION_ID`
+- Mail → Speciel: `bridge:root=com.apple.NanoMailBridgeSettings#CUSTOM_ID`
+- Mail → Mail-indstillinger: `bridge:root=com.apple.NanoMailBridgeSettings#Mail%20Settings`
+- Mail → Konti: `bridge:root=com.apple.NanoMailBridgeSettings&path=Accounts`
+- Mail → Inkluder Mail: `bridge:root=com.apple.NanoMailBridgeSettings&path=Include%20Mail`
+- Mail → Beskedeksempel: `bridge:root=com.apple.NanoMailBridgeSettings&path=Message%20Preview`
+- Mail → Beskedeksempel → Ingen: `bridge:root=com.apple.NanoMailBridgeSettings&path=Message%20Preview#0`
+- Mail → Beskedeksempel → 1 linje: `bridge:root=com.apple.NanoMailBridgeSettings&path=Message%20Preview#1`
+- Mail → Beskedeksempel → 2 linjer: `bridge:root=com.apple.NanoMailBridgeSettings&path=Message%20Preview#2`
+- Mail → Standardsvar: `bridge:root=com.apple.NanoMailBridgeSettings&path=Default%20Replies`
+- Mail → Standardsvar → Standardsvar: `bridge:root=com.apple.NanoMailBridgeSettings&path=Default%20Replies#Default%20Replies`
+- Mail → Standardsvar → Tilføj svar…: `bridge:root=com.apple.NanoMailBridgeSettings&path=Default%20Replies#Add%20reply%E2%80%A6`
+- Mail → Signatur: `bridge:root=com.apple.NanoMailBridgeSettings&path=Signature`
+- Aktuel kurs | Børsværdi | Pointændring | Procentændring | Valgt værdipapir på Siri-kort | Værdipapirer: `bridge:root=com.apple.StocksBridgeSettings`
+- Aktuel kurs | Børsværdi | Pointændring | Procentændring | Valgt værdipapir på Siri-kort | Værdipapirer → Urskivekomplikation viser: `bridge:root=com.apple.StocksBridgeSettings#Clock%20Face%20Complication%20Shows`
+- Aktuel kurs | Børsværdi | Pointændring | Procentændring | Valgt værdipapir på Siri-kort | Værdipapirer → Aktuel kurs: `bridge:root=com.apple.StocksBridgeSettings#Current%20Price`
+- Aktuel kurs | Børsværdi | Pointændring | Procentændring | Valgt værdipapir på Siri-kort | Værdipapirer → Pointændring: `bridge:root=com.apple.StocksBridgeSettings#Points%20Change`
+- Aktuel kurs | Børsværdi | Pointændring | Procentændring | Valgt værdipapir på Siri-kort | Værdipapirer → Procentændring: `bridge:root=com.apple.StocksBridgeSettings#Percentage%20Change`
+- Aktuel kurs | Børsværdi | Pointændring | Procentændring | Valgt værdipapir på Siri-kort | Værdipapirer → Børsværdi: `bridge:root=com.apple.StocksBridgeSettings#Market%20Cap`
+- Aktuel kurs | Børsværdi | Pointændring | Procentændring | Valgt værdipapir på Siri-kort | Værdipapirer → Urskiven Siri viser kurs på: `bridge:root=com.apple.StocksBridgeSettings#Siri%20Face%20Shows%20Quote%20For`
+- Aktuel kurs | Børsværdi | Pointændring | Procentændring | Valgt værdipapir på Siri-kort | Værdipapirer → Valgt værdipapir: `bridge:root=com.apple.StocksBridgeSettings&path=Selected%20Stock`
+- Aktuel kurs | Børsværdi | Pointændring | Procentændring | Valgt værdipapir på Siri-kort | Værdipapirer → Valgt værdipapir → Valgt værdipapir: `bridge:root=com.apple.StocksBridgeSettings&path=Selected%20Stock#Selected%20Stock`
+- Aktivitet: `bridge:root=com.apple.HealthAppsSettings`
+- Aktivitet → Statusopdateringer: `bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL`
+- Aktivitet → Statusopdateringer → Ingen: `bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#ZERO_HOURS_ID`
+- Aktivitet → Statusopdateringer → Hver 2. time: `bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#TWO_HOURS_ID`
+- Aktivitet → Statusopdateringer → Hver 4. time: `bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#FOUR_HOURS_ID`
+- Aktivitet → Statusopdateringer → Hver 6. time: `bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#SIX_HOURS_ID`
+- Aktivitet → Statusopdateringer → Hver 8. time: `bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#EIGHT_HOURS_ID`
+- Aktivitet → Bedrifter: `bridge:root=com.apple.HealthAppsSettings#ACHIEVEMENTS_ENABLED_LABEL`
+- Aktivitet → Ugentligt resume: `bridge:root=com.apple.HealthAppsSettings#WEEKLY_SUMMARY_ENABLED_LABEL`
+- Aktivitet → Daglig coaching: `bridge:root=com.apple.HealthAppsSettings#DAILY_PROGRESS_ENABLED_LABEL`
+- Aktivitet → Gennemførte mål: `bridge:root=com.apple.HealthAppsSettings#GOAL_COMPLETIONS_ENABLED_LABEL`
+- Aktivitet → Specielle udfordringer: `bridge:root=com.apple.HealthAppsSettings#REMOTE_ACHIEVEMENTS_ENABLED_LABEL`
+- Aktivitet → Aktivitetsdeling: `bridge:root=com.apple.HealthAppsSettings#ACTIVITY_SHARING_NOTIFICATIONS_ENABLED`
+- Smart stak: `bridge:root=SMARTSTACK_LINK`
+- Vejr: `bridge:root=com.apple.weatherbridgesettings`
+- Vejr → Standardby: `bridge:root=com.apple.weatherbridgesettings&path=Default%20City`
+- Vejr → Standardby → Standardby: `bridge:root=com.apple.weatherbridgesettings&path=Default%20City#Default%20City`
+- Vejr → Standardby → Aktuel lokalitet: `bridge:root=com.apple.weatherbridgesettings&path=Default%20City#Current%20Location`
+- Kontakter: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired`
+- Kontakter → Sorter efter: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=contactsSortOrder`
+- Kontakter → Sorter efter → For-, efternavn: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=contactsSortOrder#0`
+- Kontakter → Sorter efter → Efter-, fornavn: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=contactsSortOrder#1`
+- Kontakter → Vis som: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=NSPersonNameDefaultDisplayNameOrder`
+- Kontakter → Vis som → For-, efternavn: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=NSPersonNameDefaultDisplayNameOrder#1`
+- Kontakter → Vis som → Efter-, fornavn: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=NSPersonNameDefaultDisplayNameOrder#2`
+- Kontakter → Kort navn: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName`
+- Kontakter → Kort navn → Kort navn: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#Short%20Name`
+- Kontakter → Kort navn → Fornavn og initial i efternavn: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#First%20Name%20&%20Last%20Initial`
+- Kontakter → Kort navn → Initial i fornavn og efternavn: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#First%20Initial%20&%20Last%20Name`
+- Kontakter → Kort navn → Kun fornavn: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#First%20Name%20Only`
+- Kontakter → Kort navn → Kun efternavn: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#Last%20Name%20Only`
+- Kontakter → Kort navn → Foretræk kaldenavne: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#Prefer%20Nicknames`
+- Tilgængelighed: `bridge:root=ACCESSIBILITY_ID`
+- Tilgængelighed → Syn: `bridge:root=ACCESSIBILITY_ID#VISION_GROUP`
+- Tilgængelighed → VoiceOver: `bridge:root=ACCESSIBILITY_ID&path=VOICEOVER_ID`
+- Tilgængelighed → Zoom: `bridge:root=ACCESSIBILITY_ID&path=ZOOM_ID`
+- Tilgængelighed → Til/fra-mærker: `bridge:root=ACCESSIBILITY_ID#OnOffLabelsEnabled`
+- Tilgængelighed → Gråtoner: `bridge:root=ACCESSIBILITY_ID#GrayscaleDisplay`
+- Tilgængelighed → Reducer gennemsigtighed: `bridge:root=ACCESSIBILITY_ID#REDUCE_TRANSPARENCY`
+- Tilgængelighed → Forøg kontrast: `bridge:root=ACCESSIBILITY_ID#INCREASE_CONTRAST`
+- Tilgængelighed → Tekststørrelse: `bridge:root=ACCESSIBILITY_ID#TEXT_SIZE`
+- Tilgængelighed → Fed tekst: `bridge:root=ACCESSIBILITY_ID#BoldTextEnabled`
+- Tilgængelighed → Reducer bevægelse: `bridge:root=ACCESSIBILITY_ID&path=ReduceMotion`
+- Tilgængelighed → Klokkespil: `bridge:root=ACCESSIBILITY_ID&path=TapticChimesCell`
+- Tilgængelighed → Klokkespil → Klokkespil: `bridge:root=ACCESSIBILITY_ID&path=TapticChimesCell#Chimes`
+- Tilgængelighed → Klokkespil → Planlæg: `bridge:root=ACCESSIBILITY_ID&path=TapticChimesCell/CHIMES_SCHEDULE_ID`
+- Tilgængelighed → Klokkespil → Planlæg → Hver time: `bridge:root=ACCESSIBILITY_ID&path=TapticChimesCell/CHIMES_SCHEDULE_ID#Hourly`
+- Tilgængelighed → Klokkespil → Planlæg → 30 minutter: `bridge:root=ACCESSIBILITY_ID&path=TapticChimesCell/CHIMES_SCHEDULE_ID#30%20minutes`
+- Tilgængelighed → Klokkespil → Planlæg → 15 minutter: `bridge:root=ACCESSIBILITY_ID&path=TapticChimesCell/CHIMES_SCHEDULE_ID#15%20minutes`
+- Tilgængelighed → Klokkespil → Lyde: `bridge:root=ACCESSIBILITY_ID&path=TapticChimesCell/CHIMES_SOUNDS_ID`
+- Tilgængelighed → Klokkespil → Lyde → Klokker: `bridge:root=ACCESSIBILITY_ID&path=TapticChimesCell/CHIMES_SOUNDS_ID#Bells`
+- Tilgængelighed → Klokkespil → Lyde → Fugle: `bridge:root=ACCESSIBILITY_ID&path=TapticChimesCell/CHIMES_SOUNDS_ID#Birds`
+- Tilgængelighed → Motorik: `bridge:root=ACCESSIBILITY_ID#MotorGroupCell`
+- Tilgængelighed → Trykhastighed på sideknap: `bridge:root=ACCESSIBILITY_ID&path=SideButton`
+- Tilgængelighed → Trykhastighed på sideknap → Trykhastighed: `bridge:root=ACCESSIBILITY_ID&path=SideButton#CLICK_SPEED_GROUP_CELL`
+- Tilgængelighed → Trykhastighed på sideknap → Standard: `bridge:root=ACCESSIBILITY_ID&path=SideButton#SIDE_CLICK_SPEED_DEFAULT`
+- Tilgængelighed → Trykhastighed på sideknap → Langsom: `bridge:root=ACCESSIBILITY_ID&path=SideButton#SIDE_CLICK_SPEED_SLOW`
+- Tilgængelighed → Trykhastighed på sideknap → Langsomst: `bridge:root=ACCESSIBILITY_ID&path=SideButton#SIDE_CLICK_SPEED_SLOWEST`
+- Tilgængelighed → Tilpasning af berøring: `bridge:root=ACCESSIBILITY_ID&path=TouchAccommodationsCell`
+- Tilgængelighed → Tilpasning af berøring → Tilpasning af berøring: `bridge:root=ACCESSIBILITY_ID&path=TouchAccommodationsCell#TOUCH_ACCOMMODATIONS_SWITCHER`
+- Tilgængelighed → Tilpasning af berøring → Varighed af tryk: `bridge:root=ACCESSIBILITY_ID&path=TouchAccommodationsCell#HoldDurationGroup`
+- Tilgængelighed → Tilpasning af berøring → Varighed af tryk: `bridge:root=ACCESSIBILITY_ID&path=TouchAccommodationsCell#HoldDuration`
+- Tilgængelighed → Tilpasning af berøring → Ignorer gentagelse: `bridge:root=ACCESSIBILITY_ID&path=TouchAccommodationsCell#IgnoreRepeatGroup`
+- Tilgængelighed → Tilpasning af berøring → Ignorer gentagelse: `bridge:root=ACCESSIBILITY_ID&path=TouchAccommodationsCell#IgnoreRepeat`
+- Tilgængelighed → Tilpasning af berøring → Hjælp til tryk: `bridge:root=ACCESSIBILITY_ID&path=TouchAccommodationsCell#Tap%20Assistance`
+- Tilgængelighed → Tilpasning af berøring → Fra: `bridge:root=ACCESSIBILITY_ID&path=TouchAccommodationsCell#OFF`
+- Tilgængelighed → Tilpasning af berøring → Brug placering af første berøring: `bridge:root=ACCESSIBILITY_ID&path=TouchAccommodationsCell#ACTIVATE_ON_TOUCH`
+- Tilgængelighed → Tilpasning af berøring → Brug placering af sidste berøring: `bridge:root=ACCESSIBILITY_ID&path=TouchAccommodationsCell#ACTIVATE_ON_RELEASE`
+- Tilgængelighed → Kørestolsaktivitet: `bridge:root=ACCESSIBILITY_ID#MOBILITY`
+- Tilgængelighed → Walkie-talkie: `bridge:root=ACCESSIBILITY_ID#WalkieTalkieTapToTalkGroup`
+- Tilgængelighed → Tryk for at tale: `bridge:root=ACCESSIBILITY_ID#WalkieTalkieTapToTalk`
+- Tilgængelighed → Appskifter: `bridge:root=ACCESSIBILITY_ID#AppSwitcherAutoSelectGroup`
+- Tilgængelighed → Vælg automatisk den app, der er i fokus: `bridge:root=ACCESSIBILITY_ID#AppSwitcherAutoSelect`
+- Tilgængelighed → Siri: `bridge:root=ACCESSIBILITY_ID&path=SIRI_CELL_ID`
+- Tilgængelighed → Siri → Skriv til Siri: `bridge:root=ACCESSIBILITY_ID&path=SIRI_CELL_ID#Type%20to%20Siri`
+- Tilgængelighed → Hørelse: `bridge:root=ACCESSIBILITY_ID#HEARING`
+- Tilgængelighed → RTT: `bridge:root=ACCESSIBILITY_ID&path=RTT_ID`
+- Tilgængelighed → RTT → RTT: `bridge:root=ACCESSIBILITY_ID&path=RTT_ID#RTT_ROW_ID`
+- Tilgængelighed → Monolyd: `bridge:root=ACCESSIBILITY_ID#MonoAudioEnabled`
+- Tilgængelighed → Venstre-højre stereobalance: `bridge:root=ACCESSIBILITY_ID#LEFT_RIGHT_BALANCE_SPOKEN`
+- Tilgængelighed → Notifikationer om hoved­telefoner: `bridge:root=ACCESSIBILITY_ID#HeadphoneNotificationsID`
+- Tilgængelighed → Høreapparater: `bridge:root=ACCESSIBILITY_ID#HearingDevicesComplicationGroupID`
+- Tilgængelighed → Komplikation: `bridge:root=ACCESSIBILITY_ID&path=HearingDevicesComplicationRowID`
+- Tilgængelighed → Komplikation → Mikrofonlydstyrke: `bridge:root=ACCESSIBILITY_ID&path=HearingDevicesComplicationRowID#Mic%20Volume`
+- Tilgængelighed → Komplikation → Program: `bridge:root=ACCESSIBILITY_ID&path=HearingDevicesComplicationRowID#Program`
+- Tilgængelighed → Hastighed for Følbar tid: `bridge:root=ACCESSIBILITY_ID#TapticTimeSpeedAdjustmentGroup`
+- Tilgængelighed → Tilgængelighedsgenvej: `bridge:root=ACCESSIBILITY_ID&path=AX_SHORTCUT_ID`
+- Advarsler, før du skal dreje | Kort: `bridge:root=com.apple.NanoMapsBridgeSettings`
+- Advarsler, før du skal dreje | Kort → Advarsler, før du skal dreje: `bridge:root=com.apple.NanoMapsBridgeSettings#Turn%20Alerts`
+- Advarsler, før du skal dreje | Kort → I bil: `bridge:root=com.apple.NanoMapsBridgeSettings#Driving`
+- Advarsler, før du skal dreje | Kort → I bil med CarPlay: `bridge:root=com.apple.NanoMapsBridgeSettings#Driving%20with%20CarPlay`
+- Advarsler, før du skal dreje | Kort → Til fods: `bridge:root=com.apple.NanoMapsBridgeSettings#Walking`
+- Advarsler, før du skal dreje | Kort → På cykel: `bridge:root=com.apple.NanoMapsBridgeSettings#Cycling`
+- Advarsler, før du skal dreje | Kort → Vis navigation: `bridge:root=com.apple.NanoMapsBridgeSettings#Show%20Navigation`
+- Advarsler, før du skal dreje | Kort → Offentlig transport: `bridge:root=com.apple.NanoMapsBridgeSettings#Transit`
+- Advarsler, før du skal dreje | Kort → Build-info: `bridge:root=com.apple.NanoMapsBridgeSettings#Build%20Info%3A`
+- Mail og Kalender: `bridge:root=com.apple.BridgeRemoteAccounts`
+- Mail og Kalender → Konti: `bridge:root=com.apple.BridgeRemoteAccounts#Accounts`
+- Mail og Kalender → Tilføj Google-konto…: `bridge:root=com.apple.BridgeRemoteAccounts#ADD_GOOGLE_ACCOUNT`
+- Mail og Kalender → Hent: `bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch`
+- Mail og Kalender → Hent → Fra: `bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch#Off`
+- Mail og Kalender → Hent → Hver time: `bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch#Hourly`
+- Mail og Kalender → Hent → 30 min.: `bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch#30%20min`
+- Mail og Kalender → Hent → 15 min.: `bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch#15%20min`
+- Hjerte: `bridge:root=com.apple.HeartRateSettings`
+- Hjerte → Hjerte: `bridge:root=com.apple.HeartRateSettings#1`
+- Hjerte → Notifikationer om puls: `bridge:root=com.apple.HeartRateSettings#2`
+- Hjerte → Høj puls: `bridge:root=com.apple.HeartRateSettings#3`
+- Hjerte → Lav puls: `bridge:root=com.apple.HeartRateSettings#4`
+- Hjerte → Uregelmæssig puls: `bridge:root=com.apple.HeartRateSettings#5`
+- Hjerte → Vis EKG-målinger i Sundhed: `bridge:root=com.apple.HeartRateSettings#6`
+- Hjerte → Ekg: `bridge:root=com.apple.HeartRateSettings#7`
+- App Store: `bridge:root=com.apple.BridgeAppStoreDaemonSettings`
+- App Store → Automatiske overførsler: `bridge:root=com.apple.BridgeAppStoreDaemonSettings#automaticDownloadSpecifier`
+- App Store → Automatiske opdateringer: `bridge:root=com.apple.BridgeAppStoreDaemonSettings#Automatic%20Updates`
+- Bevægelser: `bridge:root=ELTON_SETTINGS_ID`
+- Bevægelser → Bevægelser: `bridge:root=ELTON_SETTINGS_ID#Gestures`
+- Bevægelser → Dobbelttryk: `bridge:root=ELTON_SETTINGS_ID&path=ELTON_DOUBLE_TAP_ID`
+- Bevægelser → Dobbelttryk → Dobbelttryk: `bridge:root=ELTON_SETTINGS_ID&path=ELTON_DOUBLE_TAP_ID#Double%20Tap`
+- Bevægelser → Dobbelttryk → Afspilning: `bridge:root=ELTON_SETTINGS_ID&path=ELTON_DOUBLE_TAP_ID#playbackSettingsGroup`
+- Bevægelser → Dobbelttryk → Afspil/pause: `bridge:root=ELTON_SETTINGS_ID&path=ELTON_DOUBLE_TAP_ID#playbackSettingsPlayPause`
+- Bevægelser → Dobbelttryk → Spring over: `bridge:root=ELTON_SETTINGS_ID&path=ELTON_DOUBLE_TAP_ID#playbackSettingsSkip`
+- Bevægelser → Dobbelttryk → Smart stak: `bridge:root=ELTON_SETTINGS_ID&path=ELTON_DOUBLE_TAP_ID#smartStackGroup`
+- Bevægelser → Dobbelttryk → Fortsæt: `bridge:root=ELTON_SETTINGS_ID&path=ELTON_DOUBLE_TAP_ID#smartStackSettingsAdvance`
+- Bevægelser → Dobbelttryk → Vælg: `bridge:root=ELTON_SETTINGS_ID&path=ELTON_DOUBLE_TAP_ID#smartStackSettingsSelect`
+- Bevægelser → Dobbelttryk → Når du bruger Apple Vision Pro: `bridge:root=ELTON_SETTINGS_ID&path=ELTON_DOUBLE_TAP_ID#ignoreWhileVisionProDonned`
+- Bevægelser → Dobbelttryk → Ignorer dobbelttryk: `bridge:root=ELTON_SETTINGS_ID&path=ELTON_DOUBLE_TAP_ID#ignoreDoubleTap`
+- Bevægelser → Svirp med håndleddet: `bridge:root=ELTON_SETTINGS_ID#Wrist%20Flick`
+- Bevægelser → Dæk for at gøre lydløs: `bridge:root=ELTON_SETTINGS_ID#Cover%20to%20Mute`
+- Søvn: `bridge:root=com.apple.NanoBedtimeBridgeSettings`
+- Søvn → Indstil Søvn i appen Sundhed: `bridge:root=com.apple.NanoBedtimeBridgeSettings#SET_UP_SLEEP_CELL_ID`
+- Musik | Pladsbegrænsning | Synkroniseret musik: `bridge:root=com.apple.NanoMusicBridgeSettings`
+- Musik | Pladsbegrænsning | Synkroniseret musik → PLAYLISTER & ALBUM: `bridge:root=com.apple.NanoMusicBridgeSettings#PLAYLISTS%20&%20ALBUMS`
+- Musik | Pladsbegrænsning | Synkroniseret musik → Tilføj musik…: `bridge:root=com.apple.NanoMusicBridgeSettings#Add%20Music%E2%80%A6`
+- Wallet & Apple Pay: `bridge:root=com.apple.NanoPassbookBridgeSettings`
+- Wallet & Apple Pay → Apple Cash: `bridge:root=com.apple.NanoPassbookBridgeSettings#Apple%C2%A0Cash`
+- Wallet & Apple Pay → Tilføj kort: `bridge:root=com.apple.NanoPassbookBridgeSettings#Add%20Card`
+- Wallet & Apple Pay → Notifikationer: `bridge:root=com.apple.NanoPassbookBridgeSettings#MIRROR_RADIO_GROUP_ID`
+- Wallet & Apple Pay → Dubler min iPhone: `bridge:root=com.apple.NanoPassbookBridgeSettings#MIRROR_MY_COMPANION_ID`
+- Wallet & Apple Pay → Speciel: `bridge:root=com.apple.NanoPassbookBridgeSettings#CUSTOM_ID`
+- Sundhed: `bridge:root=com.apple.BridgeHealthSettings`
+- Find mit Apple Watch: `bridge:root=ActiveWatch`
+- Find mit Apple Watch → Dan par med nyt ur: `bridge:root=ActiveWatch&path=Pair%20New%20Watch`
+- Mindfulness: `bridge:root=com.apple.MindSettings`
+- Mindfulness → Tillad notifikationer: `bridge:root=com.apple.MindSettings#ALLOW_NOTIFICATIONS_ID`
+- Mindfulness → Send til Notifikationscenter: `bridge:root=com.apple.MindSettings#SEND_TO_NOTIFICATION_CENTER_ID`
+- Mindfulness → Notifikationer er slået fra: `bridge:root=com.apple.MindSettings#NOTIFICATIONS_OFF_ID`
+- Mindfulness → Påmindelser om mindfulness: `bridge:root=com.apple.MindSettings#MIND_GROUP_ID`
+- Mindfulness → Starten af dagen: `bridge:root=com.apple.MindSettings#MIND_START_OF_DAY_REMINDER`
+- Mindfulness → Slutningen af dagen: `bridge:root=com.apple.MindSettings#MIND_END_OF_DAY_REMINDER`
+- Mindfulness → Tilføj påmindelse…: `bridge:root=com.apple.MindSettings#Add%20Reminder%E2%80%A6`
+- Mindfulness → Ugentligt resume: `bridge:root=com.apple.MindSettings#MIND_WEEKLY_SUMMARY_ID`
+- Mindfulness → Ignorer i dag: `bridge:root=com.apple.MindSettings#MIND_MUTE_FOR_TODAY_ID`
+- Mindfulness → Frekvens: `bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID`
+- Mindfulness → Frekvens → 4 vejrtrækninger pr. min.: `bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_4`
+- Mindfulness → Frekvens → 5 vejrtrækninger pr. min.: `bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_5`
+- Mindfulness → Frekvens → 6 vejrtrækninger pr. min.: `bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_6`
+- Mindfulness → Frekvens → 7 vejrtrækninger pr. min.: `bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_7`
+- Mindfulness → Frekvens → 8 vejrtrækninger pr. min.: `bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_8`
+- Mindfulness → Frekvens → 9 vejrtrækninger pr. min.: `bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_9`
+- Mindfulness → Frekvens → 10 vejrtrækninger pr. min.: `bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_10`
+- Mindfulness → Haptisk feedback: `bridge:root=com.apple.MindSettings&path=MIND_HAPTICS_ID`
+- Mindfulness → Haptisk feedback → Ingen: `bridge:root=com.apple.MindSettings&path=MIND_HAPTICS_ID#NONE_ID`
+- Mindfulness → Haptisk feedback → Minimal: `bridge:root=com.apple.MindSettings&path=MIND_HAPTICS_ID#MINIMAL_ID`
+- Mindfulness → Haptisk feedback → Markant: `bridge:root=com.apple.MindSettings&path=MIND_HAPTICS_ID#PROMINENT_ID`
+- Podcasts: `bridge:root=com.apple.private.PodcastsBridgeSettings`
+- Telefon: `bridge:root=com.apple.PhoneBridgeSettings`
+- Telefon → Opkald: `bridge:root=com.apple.PhoneBridgeSettings#carrier_direct_calling_group_id`
+- Telefon → Ringetone: `bridge:root=com.apple.PhoneBridgeSettings#RINGTONE`
+- Telefon → Lyd: `bridge:root=com.apple.PhoneBridgeSettings#INCOMING_CALL_SOUND`
+- Telefon → Haptisk feedback: `bridge:root=com.apple.PhoneBridgeSettings#INCOMING_CALL_HAPTIC`
+- Dybde: `bridge:root=com.apple.DepthCompanionSettings`
+- Handlingsknap: `bridge:root=STING_TITLE`
+- Operatør­tjenester: `bridge:root=CARRIER_SETTINGS`
+- Mobilnetværk: `bridge:root=CELLULAR_ID`
+- Dock: `bridge:root=DOCK`
+- Dock → Arrangering af Dock: `bridge:root=DOCK#OrderingOptionGroup`
+- Dock → Seneste: `bridge:root=DOCK#Recents`
+- Dock → Favoritter: `bridge:root=DOCK#Favorites`
+- Dock: `bridge:root=DOCK.0`
+- Dock → Arrangering af Dock: `bridge:root=DOCK.0#OrderingOptionGroup`
+- Dock → Seneste: `bridge:root=DOCK.0#Recents`
+- Dock → Favoritter: `bridge:root=DOCK.0#Favorites`
+- Lydbøger: `bridge:root=com.apple.NanoBooks.BridgeSettings`
+- Lydbøger → Log ind: `bridge:root=com.apple.NanoBooks.BridgeSettings#Sign%20In`
+- Grænse for fotos | Valgte fotoalbum: `bridge:root=com.apple.mobileslideshow`
+- Send kvitteringer for læste beskeder: `bridge:root=com.apple.MessagesBridgeSettings%23READ_RECEIPTS`

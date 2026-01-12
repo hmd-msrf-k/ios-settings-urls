@@ -1,0 +1,414 @@
+- 電池: `prefs:root=BATTERY_USAGE`
+- 電池 → 低耗電模式: `prefs:root=BATTERY_USAGE#BATTERY_SAVER_MODE`
+- 電池 → 電池健康度: `prefs:root=BATTERY_USAGE#BATTERY_HEALTH_ID`
+- 一般: `prefs:root=General`
+- 一般 → VPN與裝置管理: `prefs:root=General&path=ManagedConfigurationList`
+- 一般 → 自動填寫與密碼: `prefs:root=General&path=AUTOFILL`
+- 一般 → 自動填寫與密碼 → 自動填寫密碼: `prefs:root=General&path=AUTOFILL#AUTOFILL`
+- 一般 → 自動填寫與密碼 → 清除驗證碼: `prefs:root=General&path=AUTOFILL#CLEAN_UP_VERIFICATION_CODES`
+- 一般 → 自動填寫與密碼 → 設定驗證碼: `prefs:root=General&path=AUTOFILL#SET_UP_VERIFICATION_CODES`
+- 一般 → AppleCare與保養: `prefs:root=General&path=COVERAGE/`
+- 一般 → 辭典: `prefs:root=General&path=DICTIONARY`
+- 一般 → 鍵盤: `prefs:root=General&path=Keyboard`
+- 一般 → 鍵盤 → 鍵盤: `prefs:root=General&path=Keyboard/KEYBOARDS`
+- 一般 → 鍵盤 → 文字替代: `prefs:root=General&path=Keyboard/USER_DICTIONARY`
+- 一般 → 鍵盤 → 自動大寫: `prefs:root=General&path=Keyboard#KeyboardAutocapitalization`
+- 一般 → 鍵盤 → 自動修正: `prefs:root=General&path=Keyboard#KeyboardAutocorrection`
+- 一般 → 鍵盤 → 檢查串法: `prefs:root=General&path=Keyboard#KeyboardCheckSpelling`
+- 一般 → 鍵盤 → 啟用大寫鎖定: `prefs:root=General&path=Keyboard#KeyboardCapsLock`
+- 一般 → 鍵盤 → 快捷鍵: `prefs:root=General&path=Keyboard#KeyboardAssistant`
+- 一般 → 鍵盤 → 輸入預測: `prefs:root=General&path=Keyboard#KeyboardPrediction`
+- 一般 → 鍵盤 → 智慧型標點符號: `prefs:root=General&path=Keyboard#SmartTyping`
+- 一般 → 鍵盤 → 分開式鍵盤: `prefs:root=General&path=Keyboard#RivenKeyboard`
+- 一般 → 鍵盤 → 啟用按鍵滑動: `prefs:root=General&path=Keyboard#GesturesEnabled`
+- 一般 → 鍵盤 → 文字預覽: `prefs:root=General&path=Keyboard#KeyboardAllowPaddle`
+- 一般 → 鍵盤 → 句號快捷鍵: `prefs:root=General&path=Keyboard#KeyboardPeriodShortcut`
+- 一般 → 鍵盤 → 滑動輸入: `prefs:root=General&path=Keyboard#KeyboardContinuousPathEnabled`
+- 一般 → 鍵盤 → 啟用聽寫: `prefs:root=General&path=Keyboard#Dictation`
+- 一般 → 鍵盤 → 自動標點符號: `prefs:root=General&path=Keyboard#AutoPunctuationSetting`
+- 一般 → 軟件更新: `prefs:root=General&path=SOFTWARE_UPDATE_LINK`
+- 一般 → 軟件更新 → 自動更新: `prefs:root=General&path=SOFTWARE_UPDATE_LINK/SUAutomaticUpdateButton`
+- 一般 → 儲存空間: `prefs:root=General&path=STORAGE_MGMT`
+- 一般 → 儲存空間 → 儲存空間: `prefs:root=General&path=STORAGE_MGMT#MANAGE`
+- 一般 → 儲存空間 → 卸載未使用的App: `prefs:root=General&path=STORAGE_MGMT#OFFLOAD`
+- 一般 → 畫中畫: `prefs:root=General&path=PiP_SPEC`
+- 一般 → 觸控板 | 觸控板與滑鼠: `prefs:root=General&path=POINTERS`
+- 一般 → NFC: `prefs:root=General&path=NFC_LINK`
+- 一般 → VPN: `prefs:root=General&path=VPN`
+- 一般 → CarPlay: `prefs:root=General&path=CARPLAY`
+- 一般 → 關於本機: `prefs:root=General&path=About`
+- 一般 → 關於本機 → 受信任的證書: `prefs:root=General&path=About/CERT_TRUST_SETTINGS`
+- 一般 → 關於本機 → 序號: `prefs:root=General&path=About#SerialNumber`
+- 一般 → 關於本機 → 型號號碼: `prefs:root=General&path=About#ProductModel`
+- 一般 → 關於本機 → 型號名稱: `prefs:root=General&path=About#ProductModelName`
+- 一般 → 關於本機 → iOS版本: `prefs:root=General&path=About/SW_VERSION_SPECIFIER`
+- 一般 → 法律與規範: `prefs:root=General&path=LEGAL_AND_REGULATORY`
+- 一般 → 法律與規範 → 保養: `prefs:root=General&path=LEGAL_AND_REGULATORY#Warranty`
+- 一般 → AirDrop: `prefs:root=General&path=AIRDROP_LINK`
+- 一般 → AirDrop → 將裝置靠近: `prefs:root=General&path=AIRDROP_LINK#AIRDROP_NFC_ID`
+- 一般 → 主畫面按鈕: `prefs:root=General&path=HOME_BUTTON`
+- 一般 → 側邊切換: `prefs:root=General#Rotation_Switch_Action_Group`
+- 一般 → 背景App重新整理: `prefs:root=General&path=AUTO_CONTENT_DOWNLOAD`
+- 一般 → 日期與時間: `prefs:root=General&path=DATE_AND_TIME`
+- 一般 → 電視輸出: `prefs:root=General&path=TV_OUT`
+- 一般 → 重設: `prefs:root=General&path=Reset`
+- 一般 → 重設 → 重設所有設定: `prefs:root=General&path=Reset#settingsErase`
+- 一般 → 重設 → 清除所有內容和設定: `prefs:root=General&path=Reset#fullErase`
+- 一般 → 重設 → 重設網絡設定: `prefs:root=General&path=Reset#RESET_NETWORK_LABEL`
+- 一般 → 重設 → 移除所有流動數據計劃: `prefs:root=General&path=Reset#cellularErase`
+- 一般 → 重設 → 訂閲者服務: `prefs:root=General&path=Reset#SUBSCRIBER_SERVICES_ID`
+- 一般 → 重設 → 重設鍵盤辭典: `prefs:root=General&path=Reset#RESET_KEYBOARD_DICTIONARY_LABEL`
+- 一般 → 重設 → 重設主畫面圖示排列: `prefs:root=General&path=Reset#RESET_ICONS_LABEL`
+- 一般 → 重設 → 重設定位服務與私隱: `prefs:root=General&path=Reset#RESET_PRIVACY_LABEL`
+- 一般 → 關機: `prefs:root=General#SHUTDOWN_LABEL`
+- 一般 → AirPlay與接續互通: `prefs:root=General&path=CONTINUITY_SPEC`
+- 一般 → AirPlay與接續互通 → 接手: `prefs:root=General&path=CONTINUITY_SPEC#CONTINUITY`
+- 一般 → AirPlay與接續互通 → 轉移到HomePod: `prefs:root=General&path=CONTINUITY_SPEC#TRANSFER_TO_HOMEPOD`
+- 一般 → AirPlay與接續互通 → 自動AirPlay: `prefs:root=General&path=CONTINUITY_SPEC#AUTOMATICALLY_AIRPLAY`
+- 一般 → AirPlay與接續互通 → 相機接續互通: `prefs:root=General&path=CONTINUITY_SPEC#WOMBAT_CAMERA`
+- 一般 → 語言與地區: `prefs:root=General&path=INTERNATIONAL`
+- 一般 → 語言與地區 → 其他語言⋯: `prefs:root=General&path=INTERNATIONAL#NEW_PREFERRED_LANGUAGE`
+- 一般 → 語言與地區 → 偏好的語言順序: `prefs:root=General&path=INTERNATIONAL#PREFERRED_LANGUAGE_GROUP`
+- 一般 → 語言與地區 → 新增語言⋯: `prefs:root=General&path=INTERNATIONAL#ADD_PREFERRED_LANGUAGE`
+- 一般 → 語言與地區 → 地區: `prefs:root=General&path=INTERNATIONAL/LOCALE`
+- 一般 → 語言與地區 → 數字: `prefs:root=General&path=INTERNATIONAL/NUMBERING_SYSTEM`
+- 一般 → 語言與地區 → 日曆: `prefs:root=General&path=INTERNATIONAL/CALENDAR`
+- 一般 → 語言與地區 → 温度單位: `prefs:root=General&path=INTERNATIONAL/TEMPERATURE_UNIT`
+- Apple帳户: `prefs:root=APPLE_ACCOUNT` or `settings-navigation://com.apple.Settings.AppleAccount`
+- Apple帳户 → 聯絡人密鑰驗證: `prefs:root=APPLE_ACCOUNT&path=TRANSPARENCY` or `settings-navigation://com.apple.Settings.AppleAccount/TRANSPARENCY`
+- Apple帳户 → iCloud: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE` or `prefs:root=CASTLE`
+- Apple帳户 → iCloud → iCloud儲存空間: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/STORAGE_AND_BACKUP` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/STORAGE_AND_BACKUP` or `prefs:root=CASTLE&path=STORAGE_AND_BACKUP`
+- Apple帳户 → iCloud → iCloud雲碟: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Ubiquity` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Ubiquity` or `prefs:root=CASTLE&path=com.apple.Dataclass.Ubiquity`
+- Apple帳户 → iCloud → 相片: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.MediaStream` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.MediaStream` or `prefs:root=CASTLE&path=com.apple.Dataclass.MediaStream`
+- Apple帳户 → iCloud → 郵件: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Mail` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail` or `prefs:root=CASTLE&path=com.apple.Dataclass.Mail`
+- Apple帳户 → iCloud → 通訊錄: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Contacts` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Contacts` or `prefs:root=CASTLE&path=com.apple.Dataclass.Contacts`
+- Apple帳户 → iCloud → 日曆: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Calendars` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Calendars` or `prefs:root=CASTLE&path=com.apple.Dataclass.Calendars`
+- Apple帳户 → iCloud → 提醒事項: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Reminders` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Reminders` or `prefs:root=CASTLE&path=com.apple.Dataclass.Reminders`
+- Apple帳户 → iCloud → Safari: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Bookmarks` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Bookmarks` or `prefs:root=CASTLE&path=com.apple.Dataclass.Bookmarks`
+- Apple帳户 → iCloud → 備忘錄: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Notes` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Notes` or `prefs:root=CASTLE&path=com.apple.Dataclass.Notes`
+- Apple帳户 → iCloud → 新聞: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.News` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.News` or `prefs:root=CASTLE&path=com.apple.Dataclass.News`
+- Apple帳户 → iCloud → 備份: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/BACKUP` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/BACKUP` or `prefs:root=CASTLE&path=BACKUP`
+- Apple帳户 → iCloud → 健康: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Health` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Health` or `prefs:root=CASTLE&path=com.apple.Dataclass.Health`
+- Apple帳户 → iCloud → 密碼與鑰匙圈: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.KeychainSync` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.KeychainSync` or `prefs:root=CASTLE&path=com.apple.Dataclass.KeychainSync`
+- Apple帳户 → iCloud → 隱藏我的電郵: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/PRIVATE_EMAIL_MANAGE` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/PRIVATE_EMAIL_MANAGE` or `prefs:root=CASTLE&path=PRIVATE_EMAIL_MANAGE`
+- Apple帳户 → 分享我的位置: `prefs:root=APPLE_ACCOUNT&path=LOCATION_SHARING` or `settings-navigation://com.apple.Settings.AppleAccount/LOCATION_SHARING`
+- Apple帳户 → 分享我的位置 → 尋找: `prefs:root=APPLE_ACCOUNT&path=LOCATION_SHARING/FindMyDevice-Settings` or `settings-navigation://com.apple.Settings.AppleAccount/LOCATION_SHARING/FindMyDevice-Settings`
+- Apple帳户 → 姓名、電話號碼、電郵: `prefs:root=APPLE_ACCOUNT&path=APPLE_ACCOUNT_CONTACT` or `settings-navigation://com.apple.Settings.AppleAccount/APPLE_ACCOUNT_CONTACT`
+- Apple帳户 → 密碼與保安: `prefs:root=APPLE_ACCOUNT&path=PASSWORD_AND_SECURITY` or `settings-navigation://com.apple.Settings.AppleAccount/PASSWORD_AND_SECURITY`
+- Apple帳户 → 付款與郵寄: `prefs:root=APPLE_ACCOUNT&path=PAYMENT_AND_SHIPPING` or `settings-navigation://com.apple.Settings.AppleAccount/PAYMENT_AND_SHIPPING`
+- Apple帳户 → 訂閲項目: `prefs:root=APPLE_ACCOUNT&path=SUBSCRIPTIONS` or `settings-navigation://com.apple.Settings.AppleAccount/SUBSCRIPTIONS`
+- Apple帳户 → 家人共享: `prefs:root=APPLE_ACCOUNT&path=Family` or `settings-navigation://com.apple.Settings.AppleAccount/Family`
+- 通知: `prefs:root=NOTIFICATIONS_ID`
+- 通知 → 摘要編排: `prefs:root=NOTIFICATIONS_ID&path=SCHEDULED_DELIVERY_ID`
+- 天氣: `prefs:root=WEATHER`
+- Freeform: `prefs:root=FREEFORM`
+- 專注模式: `prefs:root=DO_NOT_DISTURB`
+- 專注模式 → 專注模式狀態: `prefs:root=DO_NOT_DISTURB&path=status`
+- 日記: `prefs:root=JOURNAL`
+- 銀包與Apple Pay: `prefs:root=PASSBOOK`
+- 銀包與Apple Pay → Apple Cash: `prefs:root=PASSBOOK#Apple%C2%A0Cash`
+- 銀包與Apple Pay → 付款卡: `prefs:root=PASSBOOK#SETTINGS_PAYMENT_CARDS_GROUP`
+- 銀包與Apple Pay → 加卡: `prefs:root=PASSBOOK#Add%20Card`
+- 銀包與Apple Pay → 按兩下側邊按鈕: `prefs:root=PASSBOOK#Double-Click%20Side%20Button`
+- 銀包與Apple Pay → 訂單追蹤: `prefs:root=PASSBOOK#ORDER_TRACKING`
+- 外觀 | 螢幕與亮度: `prefs:root=DISPLAY`
+- 外觀 | 螢幕與亮度 → 外觀: `prefs:root=DISPLAY#DEVICE_APPEARANCE`
+- 外觀 | 螢幕與亮度 → 原色調: `prefs:root=DISPLAY#WHITE_BALANCE`
+- 外觀 | 螢幕與亮度 → 夜覽: `prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION`
+- 外觀 | 螢幕與亮度 → 夜覽 → 已編排: `prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION#SCHEDULED`
+- 外觀 | 螢幕與亮度 → 夜覽 → 手動啟用至明日: `prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION#MANUAL`
+- 外觀 | 螢幕與亮度 → 夜覽 → 色温: `prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION#COLOR_TEMPERATURE`
+- 外觀 | 螢幕與亮度 → 自動鎖定: `prefs:root=DISPLAY&path=AUTOLOCK`
+- 外觀 | 螢幕與亮度 → 提起以喚醒: `prefs:root=DISPLAY#RAISE_TO_WAKE`
+- 外觀 | 螢幕與亮度 → 鎖定/解鎖: `prefs:root=DISPLAY#SMART_CASE_LOCK_SPEC`
+- 外觀 | 螢幕與亮度 → 文字大小: `prefs:root=DISPLAY&path=TEXT_SIZE`
+- 外觀 | 螢幕與亮度 → 粗體文字: `prefs:root=DISPLAY#BOLD_TEXT`
+- 外觀 | 螢幕與亮度 → 亮度: `prefs:root=DISPLAY#BRIGHTNESS`
+- 外觀 | 螢幕與亮度 → 螢幕縮放: `prefs:root=DISPLAY#DISPLAY_ZOOM_GROUP`
+- 外觀 | 螢幕與亮度 → 外觀: `prefs:root=DISPLAY&path=APPEARANCE`
+- 外觀 | 螢幕與亮度 → 外觀 → 視窗縮放: `prefs:root=DISPLAY&path=APPEARANCE#WINDOW_ZOOM`
+- 外觀 | 螢幕與亮度 → 外觀 → 雙手視窗縮放: `prefs:root=DISPLAY&path=APPEARANCE#TWO_HANDED_WINDOW_ZOOM`
+- 外觀 | 螢幕與亮度 → 顯示畫面: `prefs:root=DISPLAY&path=MAGNIFY`
+- 外觀 | 螢幕與亮度 → 常亮螢幕: `prefs:root=DISPLAY&path=ALWAYS_ON`
+- 外觀 | 螢幕與亮度 → 常亮螢幕 → 常亮螢幕: `prefs:root=DISPLAY&path=ALWAYS_ON#ALWAYS_ON`
+- 外觀 | 螢幕與亮度 → 相容的App: `prefs:root=DISPLAY&path=COMPATIBLE_APPEARANCE`
+- 外觀 | 螢幕與亮度 → 相容的App → 深色、淺色: `prefs:root=DISPLAY&path=COMPATIBLE_APPEARANCE#COMPATIBLE_APPEARANCE_CHOICES`
+- 測距儀: `prefs:root=MEASURE` or `settings-navigation://com.apple.Settings.Apps/com.apple.measure`
+- 測距儀 → 測量單位: `prefs:root=MEASURE#MEASURE_UNITS` or `settings-navigation://com.apple.Settings.Apps/com.apple.measure#MEASURE_UNITS#MEASURE_UNITS`
+- 測距儀 → 英制: `prefs:root=MEASURE#Imperial` or `settings-navigation://com.apple.Settings.Apps/com.apple.measure#Imperial#Imperial`
+- 測距儀 → 公制: `prefs:root=MEASURE#Metric` or `settings-navigation://com.apple.Settings.Apps/com.apple.measure#Metric#Metric`
+- 背景圖片: `prefs:root=Wallpaper`
+- 控制中心: `prefs:root=ControlCenter`
+- 控制中心 → 在App中存取: `prefs:root=ControlCenter#ALLOWED_WITHIN_APPS`
+- 控制中心 → 自訂控制項目: `prefs:root=ControlCenter&path=CUSTOMIZE_CONTROLS`
+- 錄音機: `prefs:root=VOICE_MEMOS`
+- 錄音機 → 清除已刪除的項目: `prefs:root=VOICE_MEMOS&path=RCVoiceMemosRecentlyDeletedWindowKey`
+- 錄音機 → 音訊質素: `prefs:root=VOICE_MEMOS&path=RCVoiceMemosAudioQualityKey`
+- 錄音機 → 基於位置的命名: `prefs:root=VOICE_MEMOS#RCVoiceMemosUseLocationBasedNaming`
+- 日曆: `prefs:root=CALENDAR`
+- 日曆 → 時區優先: `prefs:root=CALENDAR&path=TimeZoneCityArray`
+- 日曆 → 其他曆法: `prefs:root=CALENDAR&path=Alternate%20Calendars`
+- 日曆 → 週數: `prefs:root=CALENDAR#Week%20Numbers`
+- 日曆 → 顯示邀請對象的拒絕內容: `prefs:root=CALENDAR#Show%20Invitee%20Declines`
+- 日曆 → 同步: `prefs:root=CALENDAR&path=Sync`
+- 日曆 → 預設提示時間: `prefs:root=CALENDAR&path=Default%20Alert%20Times`
+- 日曆 → 每星期開始日: `prefs:root=CALENDAR&path=Start%20Week%20On`
+- 日曆 → 地點建議: `prefs:root=CALENDAR#Location%20Suggestions`
+- 開發者: `prefs:root=DEVELOPER_SETTINGS`
+- 開發者 → 多重路徑網絡: `prefs:root=DEVELOPER_SETTINGS&path=MULTI_PATH_AGG`
+- 開發者 → 多重路徑網絡 → 多重路徑網絡: `prefs:root=DEVELOPER_SETTINGS&path=MULTI_PATH_AGG#Multipath%20Networking`
+- 開發者 → 外觀: `prefs:root=DEVELOPER_SETTINGS#UIAppearanceGroup`
+- 開發者 → 深色外觀: `prefs:root=DEVELOPER_SETTINGS#UIAppearanceSettings`
+- 開發者 → 配對的裝置: `prefs:root=DEVELOPER_SETTINGS#DTPairedDevicesGroup`
+- 開發者 → 清除受信任的電腦: `prefs:root=DEVELOPER_SETTINGS#CLEAR_TRUSTED_COMPUTERS`
+- 開發者 → 系統記錄: `prefs:root=DEVELOPER_SETTINGS&path=DTInstrumentsSettings`
+- 開發者 → 介面自動化 | 啟用介面自動化: `prefs:root=DEVELOPER_SETTINGS#UIAGroup`
+- 開發者 → 網絡: `prefs:root=DEVELOPER_SETTINGS#NLCGroup`
+- 開發者 → 網絡連結調節器: `prefs:root=DEVELOPER_SETTINGS&path=NLC`
+- 開發者 → 更多記錄: `prefs:root=DEVELOPER_SETTINGS#ADDITIONAL_LOGGING`
+- 開發者 → 允許HTTP服務: `prefs:root=DEVELOPER_SETTINGS#ALLOW_HTTP_SERVICES`
+- 開發者 → 停用頻率限制: `prefs:root=DEVELOPER_SETTINGS#DISABLE_RATE_LIMITING`
+- 開發者 → NFC票證密鑰（可選）: `prefs:root=DEVELOPER_SETTINGS#NFC_PASS_KEY_OPTIONAL`
+- 開發者 → 媒體服務測試: `prefs:root=DEVELOPER_SETTINGS#MEDIA_SERVICES_TESTING`
+- 開發者 → 重設媒體服務: `prefs:root=DEVELOPER_SETTINGS#RESET_MEDIA_SERVICES`
+- 開發者 → 新聞測試: `prefs:root=DEVELOPER_SETTINGS#NEWS_TESTING`
+- 開發者 → 下次啟動時重設本機資料: `prefs:root=DEVELOPER_SETTINGS#RESET_LOCAL_DATA_ON_NEXT_LAUNCH`
+- 開發者 → 媒體播放程式架構測試: `prefs:root=DEVELOPER_SETTINGS#RoutineSettingsGroup`
+- 開發者 → 可播放內容API: `prefs:root=DEVELOPER_SETTINGS&path=RoutineSettings`
+- 開發者 → 電視供應商: `prefs:root=DEVELOPER_SETTINGS&path=VideoSubscriberAccountSettings`
+- 開發者 → ClassKit API: `prefs:root=DEVELOPER_SETTINGS&path=ClassKitSettings`
+- 開發者 → CoreSpotlight測試: `prefs:root=DEVELOPER_SETTINGS#CORESPOTLIGHT_TESTING`
+- 開發者 → 重新索引所有項目: `prefs:root=DEVELOPER_SETTINGS#REINDEX_ALL_ITEMS`
+- 開發者 → 重新索引所有含識別碼的項目: `prefs:root=DEVELOPER_SETTINGS#REINDEX_ALL_ITEMS_WITH_IDENTIFIERS`
+- 開發者 → 捷徑測試: `prefs:root=DEVELOPER_SETTINGS#SIRI_ACTIONS_TESTING`
+- 開發者 → 顯示最近使用的捷徑: `prefs:root=DEVELOPER_SETTINGS#DISPLAY_DONATIONS_SPOTLIGHT`
+- 開發者 → 顯示下一個媒體: `prefs:root=DEVELOPER_SETTINGS#DISPLAY_UPCOMING_MEDIA`
+- 開發者 → 在鎖定畫面上顯示捐贈內容: `prefs:root=DEVELOPER_SETTINGS#DISPLAY_DONATIONS_LOCKSCREEN`
+- 開發者 → 強制將捷徑同步到手錶: `prefs:root=DEVELOPER_SETTINGS#SIRI_ACTIONS_SYNC_WATCHOS`
+- 開發者 → MIDI-CI測試: `prefs:root=DEVELOPER_SETTINGS#MIDI_CI_API_BETA`
+- 開發者 → 啟用MIDI-CI: `prefs:root=DEVELOPER_SETTINGS#MIDI_CI_API_BETA_ENABLE`
+- 開發者 → 死機偵測: `prefs:root=DEVELOPER_SETTINGS#HANGTRACER_EXTERNAL_CONFIGURE`
+- Face ID與密碼 | Touch ID與密碼 | 密碼: `prefs:root=PASSCODE`
+- Face ID與密碼 | Touch ID與密碼 | 密碼 → 關閉密碼: `prefs:root=PASSCODE#PASSCODE_OFF`
+- Face ID與密碼 | Touch ID與密碼 | 密碼 → 更改密碼: `prefs:root=PASSCODE#CHANGE_PASSCODE`
+- Face ID與密碼 | Touch ID與密碼 | 密碼 → 需要密碼: `prefs:root=PASSCODE&path=PASSCODE_REQ`
+- Face ID與密碼 | Touch ID與密碼 | 密碼 → 話音通話: `prefs:root=PASSCODE#VOICE_DIAL`
+- Face ID與密碼 | Touch ID與密碼 | 密碼 → 鎖定時允許使用: `prefs:root=PASSCODE#ALLOW_ACCESS_WHEN_LOCKED`
+- Face ID與密碼 | Touch ID與密碼 | 密碼 → 用訊息回覆: `prefs:root=PASSCODE#REPLY_WITH_MESSAGE_SWITCH`
+- Face ID與密碼 | Touch ID與密碼 | 密碼 → 家居控制: `prefs:root=PASSCODE#HOME_CONTROL_SWITCH`
+- Face ID與密碼 | Touch ID與密碼 | 密碼 → 銀包: `prefs:root=PASSCODE#WALLET_SWITCH`
+- Face ID與密碼 | Touch ID與密碼 | 密碼 → 回覆未接來電: `prefs:root=PASSCODE#RETURN_MISSED_CALLS_SWITCH`
+- Face ID與密碼 | Touch ID與密碼 | 密碼 → 清除資料: `prefs:root=PASSCODE#WIPE_DEVICE`
+- Face ID與密碼 | Touch ID與密碼 | 密碼 → 用Apple Watch解鎖: `prefs:root=PASSCODE#AUTO_UNLOCK_DEVICES_GROUP`
+- Face ID與密碼 | Touch ID與密碼 | 密碼 → 失竊裝置保護: `prefs:root=PASSCODE#DTO_GROUP_ID`
+- 電話: `prefs:root=Phone`
+- 電話 → 本機號碼: `prefs:root=Phone&path=My%20Number`
+- 電話 → 來電: `prefs:root=Phone&path=INCOMING_CALL_STYLE`
+- 電話 → 讀出來電: `prefs:root=Phone&path=ANNOUNCE_CALLS`
+- 電話 → SMS/來電回報: `prefs:root=Phone&path=CLASSIFICATION_AND_REPORTING`
+- 電話 → 用訊息回覆: `prefs:root=Phone&path=Respond%20with%20Text`
+- 電話 → 來電轉駁: `prefs:root=Phone&path=Call%20Forwarding`
+- 電話 → 來電轉駁 → 來電轉駁: `prefs:root=Phone&path=Call%20Forwarding#idMasterOnOffSwitch`
+- 電話 → 來電等候: `prefs:root=Phone&path=Call%20Waiting`
+- 電話 → 顯示我的來電號碼: `prefs:root=Phone&path=Show%20My%20Caller%20ID`
+- 電話 → 顯示我的來電號碼 → 顯示我的來電號碼: `prefs:root=Phone&path=Show%20My%20Caller%20ID/Primary`
+- 電話 → 顯示我的來電號碼 → 顯示我的來電號碼 → 顯示我的來電號碼: `prefs:root=Phone&path=Show%20My%20Caller%20ID/Primary#Show%20My%20Caller%20ID`
+- 電話 → 將未知的來電設定為靜音: `prefs:root=Phone#SILENCE_CALLS`
+- 電話 → 已封鎖的聯絡人: `prefs:root=Phone&path=SPECIFIER_IDENTIFIER_BLACKLIST`
+- 電話 → 撥號輔助: `prefs:root=Phone&path=Dial%20Assist`
+- 備忘錄: `prefs:root=NOTES` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes`
+- 備忘錄 → 預設帳户: `prefs:root=NOTES&path=Default%20Account` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes/Default%20Account`
+- 備忘錄 → 密碼: `prefs:root=NOTES&path=Password` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes/Password`
+- 備忘錄 → 備忘錄排序方式: `prefs:root=NOTES&path=Sort%20Notes%20By` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes/Sort%20Notes%20By`
+- 備忘錄 → 新備忘錄的開頭為: `prefs:root=NOTES&path=New%20Notes%20Start%20With` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes/New%20Notes%20Start%20With`
+- 備忘錄 → 排序已剔選項目: `prefs:root=NOTES&path=Sort%20Checked%20Items` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes/Sort%20Checked%20Items`
+- 備忘錄 → 橫線與格線: `prefs:root=NOTES&path=Lines%20%26%20Grids` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes/Lines%20%26%20Grids`
+- 備忘錄 → 儲存至「相片」: `prefs:root=NOTES#Save%20to%20Photos` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes#Save%20to%20Photos#Save%20to%20Photos`
+- 備忘錄 → 從鎖定畫面取用備忘錄: `prefs:root=NOTES&path=Access%20Notes%20from%20Lock%20Screen` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes/Access%20Notes%20from%20Lock%20Screen`
+- 書籍: `prefs:root=IBOOKS`
+- 書籍 → 網上內容: `prefs:root=IBOOKS#BKAllowOnlineContent`
+- 書籍 → 同步: `prefs:root=IBOOKS#SYNCING`
+- 書籍 → 閲讀中: `prefs:root=IBOOKS#BKLibrary.ReadingNow`
+- 書籍 → iCloud雲碟: `prefs:root=IBOOKS#BCSyncICloudDrive`
+- 書籍 → 閲讀: `prefs:root=IBOOKS#READING`
+- 書籍 → 左右對齊: `prefs:root=IBOOKS#BKFullJustification`
+- 書籍 → 自動加入連字號: `prefs:root=IBOOKS#BKAutoHyphenation`
+- 書籍 → 點一下左右頁邊翻頁: `prefs:root=IBOOKS#BKLeftTapTurnToNext`
+- 書籍 → 閲讀目標: `prefs:root=IBOOKS#READING_GOALS`
+- 書籍 → 清除閲讀目標資料: `prefs:root=IBOOKS#BKReadingGoalsShouldClearDataKey`
+- 書籍 → 搜尋: `prefs:root=IBOOKS#SEARCHING`
+- 書籍 → 書店: `prefs:root=IBOOKS#BKIncludeBookStoreResultsInSearch`
+- 書籍 → 有聲書: `prefs:root=IBOOKS#AUDIOBOOKS`
+- 書籍 → 快轉: `prefs:root=IBOOKS&path=BKAudioBookSkipForward`
+- 書籍 → 回帶: `prefs:root=IBOOKS&path=BKAudioBookSkipBackward`
+- 書籍 → 外部控制項目: `prefs:root=IBOOKS#BKRemoteSkipInsteadOfNextTrackDefaultKey`
+- 書籍 → 下一集/上一集: `prefs:root=IBOOKS#Next/Previous`
+- 書籍 → 快轉/回帶: `prefs:root=IBOOKS#Skip%20Forward/Back`
+- 書籍 → 私隱: `prefs:root=IBOOKS#PRIVACY`
+- 書籍 → 重設識別碼: `prefs:root=IBOOKS#BAResetAnalyticsUserID`
+- 書籍 → 版權宣吿: `prefs:root=IBOOKS&path=Acknowledgements`
+- Game Center: `prefs:root=GAMECENTER`
+- 緊急求助SOS: `prefs:root=EMERGENCY_SOS`
+- 緊急求助SOS → 透過側邊按鈕通話: `prefs:root=EMERGENCY_SOS#CALL_WITH_SIDE_BUTTON`
+- 緊急求助SOS → 自動通話: `prefs:root=EMERGENCY_SOS#AUTO_CALL`
+- 緊急求助SOS → 緊急聯絡人: `prefs:root=EMERGENCY_SOS#EMERGENCY_CONTACTS`
+- 緊急求助SOS → 倒數計時警告聲: `prefs:root=EMERGENCY_SOS#ALARM_SOUND_SWITCH`
+- 提醒事項: `prefs:root=REMINDERS`
+- 提醒事項 → 預設列表: `prefs:root=REMINDERS&path=DEFAULT_LIST`
+- 提醒事項 → 預設列表 → 提醒事項: `prefs:root=REMINDERS&path=DEFAULT_LIST#preferredDefaultListID`
+- 提醒事項 → 今日通知: `prefs:root=REMINDERS#todayNotificationFireTime`
+- 提醒事項 → 顯示為逾期: `prefs:root=REMINDERS#showRemindersAsOverdue`
+- 流動網絡: `prefs:root=MOBILE_DATA_SETTINGS_ID`
+- 流動網絡 → 流動數據選項: `prefs:root=MOBILE_DATA_SETTINGS_ID&path=CELLULAR_DATA_OPTIONS`
+- 流動網絡 → 流動數據選項 → 低數據模式: `prefs:root=MOBILE_DATA_SETTINGS_ID&path=CELLULAR_DATA_OPTIONS#Low%20Data%20Mode`
+- 流動網絡 → 流動數據: `prefs:root=MOBILE_DATA_SETTINGS_ID&path=SHOW_ALL`
+- WLAN | Wi-Fi: `prefs:root=WIFI`
+- 通訊錄: `prefs:root=CONTACTS`
+- 通訊錄 → 允許聯絡人取用: `prefs:root=CONTACTS#Allow%20Contacts%20To%20Access`
+- 通訊錄 → Siri: `prefs:root=CONTACTS&path=SIRI_AND_SEARCH`
+- 通訊錄 → 排序方式: `prefs:root=CONTACTS&path=ContactsSortOrder`
+- 通訊錄 → 顯示順序: `prefs:root=CONTACTS&path=PersonNameOrder`
+- 通訊錄 → 簡稱: `prefs:root=CONTACTS&path=PersonShortName`
+- 通訊錄 → 簡稱 → 簡稱: `prefs:root=CONTACTS&path=PersonShortName#Short%20Name`
+- 通訊錄 → 簡稱 → 優先使用暱稱: `prefs:root=CONTACTS&path=PersonShortName#Prefer%20Nicknames`
+- 通訊錄 → 我的資料: `prefs:root=CONTACTS&path=MeCard`
+- 通訊錄 → 輸入SIM卡通訊錄: `prefs:root=CONTACTS#SIMImport`
+- 捷徑: `prefs:root=SHORTCUTS`
+- 捷徑 → iCloud同步: `prefs:root=SHORTCUTS#WFCloudKitSyncEnabled`
+- 捷徑 → 同步捷徑順序: `prefs:root=SHORTCUTS#WFCloudKitSyncOrderEnabled`
+- 捷徑 → 法律聲明: `prefs:root=SHORTCUTS&path=Legal%20Notices`
+- TV | 影片: `prefs:root=TVAPP`
+- TV | 影片 → 使用流動數據播放: `prefs:root=TVAPP#com.apple.videos%3AVideosUseCellularDataEnabledSetting`
+- TV | 影片 → 播放質素: `prefs:root=TVAPP#com.apple.videos%3APlaybackQualityGroup`
+- TV | 影片 → 購買和租借項目: `prefs:root=TVAPP&path=com.apple.videos%3APreferredPurchaseResolution`
+- TV | 影片 → 家庭共享: `prefs:root=TVAPP#com.apple.videos%3AHomeSharingFooter`
+- 音樂: `prefs:root=MUSIC`
+- 音樂 → 顯示Apple Music: `prefs:root=MUSIC#com.apple.Music%3AAppleMusicEnabled`
+- 音樂 → 新增播放清單歌曲: `prefs:root=MUSIC#com.apple.Music%3AAddPlaylistSongsToMyMusicSwitch`
+- 音樂 → 顯示星級評分: `prefs:root=MUSIC#com.apple.Music%3AShowStarRatings`
+- 音樂 → 同步資料庫: `prefs:root=MUSIC#com.apple.Music%3ACloudMusicLibraryEnabled`
+- 音樂 → 流動數據: `prefs:root=MUSIC&path=com.apple.Music%3ACellularData`
+- 音樂 → 已下載的音樂: `prefs:root=MUSIC&path=com.apple.Music%3AMusicUsageLink`
+- 音樂 → 最佳化儲存空間: `prefs:root=MUSIC&path=com.apple.Music%3AOptimizeStorage`
+- 音樂 → 自動下載: `prefs:root=MUSIC#com.apple.Music%3AMusicAutomaticDownload`
+- 音樂 → 等化器: `prefs:root=MUSIC&path=com.apple.Music%3AEQ`
+- 音樂 → 音量平衡: `prefs:root=MUSIC#com.apple.Music%3ASoundCheck`
+- 音樂 → 使用聆聽記錄: `prefs:root=MUSIC#com.apple.Music%3APrivateListening`
+- 相機: `prefs:root=CAMERA`
+- 相機 → 格式: `prefs:root=CAMERA&path=CameraFormatsSettingsList`
+- 相機 → 格式 → Apple ProRaw: `prefs:root=CAMERA&path=CameraFormatsSettingsList#CAMUserPreferenceEnableLinearDNGControl`
+- 相機 → Record Video: `prefs:root=CAMERA&path=Record%20Video`
+- 相機 → Record Video → HDR影片: `prefs:root=CAMERA&path=Record%20Video#HDR%20Video`
+- 相機 → 保留設定: `prefs:root=CAMERA&path=CameraPreserveSettingsSwitch`
+- 相機 → 保留設定 → 相機模式: `prefs:root=CAMERA&path=CameraPreserveSettingsSwitch#CAMUserPreferencePreserveCaptureMode`
+- 相機 → 格狀: `prefs:root=CAMERA#CameraGridSwitch`
+- 相機 → 掃描二維碼: `prefs:root=CAMERA#CameraQRBannerSwitch`
+- 指南針: `prefs:root=COMPASS`
+- 指南針 → 使用正北: `prefs:root=COMPASS#USE_TRUE_NORTH`
+- 暴露通知: `prefs:root=EXPOSURE_NOTIFICATION`
+- 郵件: `prefs:root=MAIL`
+- 郵件 → 帳户: `prefs:root=MAIL&path=ACCOUNTS`
+- 郵件 → 帳户 → 加入帳户: `prefs:root=MAIL&path=ACCOUNTS#ADD_ACCOUNT`
+- 郵件 → 帳户 → 取得新資料: `prefs:root=MAIL&path=ACCOUNTS#FETCH_NEW_DATA`
+- 郵件 → 預覽: `prefs:root=MAIL&path=Preview`
+- 郵件 → 顯示收件人/副本標籤: `prefs:root=MAIL#Show%20To/Cc%20Labels`
+- 郵件 → 掃一下選項: `prefs:root=MAIL&path=Swipe%20Options`
+- 郵件 → 刪除前先詢問: `prefs:root=MAIL#Ask%20Before%20Deleting`
+- 郵件 → 載入遙距影像: `prefs:root=MAIL#Load%20Remote%20Images`
+- 郵件 → 以討論串分類: `prefs:root=MAIL#Organize%20by%20Thread`
+- 郵件 → 收合已讀郵件: `prefs:root=MAIL#Collapse%20Read%20Messages`
+- 郵件 → 將最新郵件顯示於最上方: `prefs:root=MAIL#Most%20Recent%20Message%20on%20Top`
+- 郵件 → 完整討論串: `prefs:root=MAIL#Complete%20Threads`
+- 郵件 → 已靜音的討論串動作: `prefs:root=MAIL&path=Muted%20Thread%20Action`
+- 郵件 → 忽略已封鎖的寄件人: `prefs:root=MAIL#Ignore%20Blocked%20Senders`
+- 郵件 → 已封鎖的寄件人選項: `prefs:root=MAIL&path=Blocked%20Sender%20Options`
+- 郵件 → 封鎖名單: `prefs:root=MAIL&path=Blocked`
+- 郵件 → 給自己寄送密件副本: `prefs:root=MAIL#Always%20Bcc%20Myself`
+- 郵件 → 標示地址: `prefs:root=MAIL&path=Mark%20Addresses`
+- 郵件 → 增加引述縮排: `prefs:root=MAIL&path=Increase%20Quote%20Level`
+- 郵件 → 在回覆中包括附件: `prefs:root=MAIL&path=Include%20Attachments%20with%20Replies`
+- 郵件 → 簽名: `prefs:root=MAIL&path=Signature`
+- 藍牙: `prefs:root=Bluetooth`
+- News: `prefs:root=NEWS`
+- News → 顯示故事預覽: `prefs:root=NEWS#show_excerpt_mode`
+- News → 限制Today的報道: `prefs:root=NEWS#showStoriesFromFavoritesSpecifierID`
+- News → 私隱: `prefs:root=NEWS#Privacy`
+- News → 重設識別碼: `prefs:root=NEWS#reset_identifier`
+- News → 版權宣吿: `prefs:root=NEWS&path=Acknowledgements`
+- 相片: `prefs:root=Photos`
+- 相片 → iCloud相片: `prefs:root=Photos#iCloudPhotosSwitch`
+- 相片 → 最佳化儲存空間: `prefs:root=Photos#iCloudOptimizeStorageOption`
+- 相片 → 下載並保留原始檔: `prefs:root=Photos#iCloudKeepOriginalsOption`
+- 相片 → 共享相簿: `prefs:root=Photos#SharedStreamsSwitch`
+- 相片 → 流動數據: `prefs:root=Photos&path=CellularDataLinkList`
+- 相片 → 自動播放影片: `prefs:root=Photos#VideoAutoplaySwitch`
+- 相片 → 檢視完整HDR: `prefs:root=Photos#ImageModulationSwitch`
+- 相片 → 顯示假期活動: `prefs:root=Photos#MEMORIES_HOLIDAY_CALENDAR_EVENTS_SWITCH`
+- 相片 → 傳送至Mac或PC: `prefs:root=Photos#TransferGroup`
+- Podcast: `prefs:root=PODCASTS`
+- 私隱與保安: `prefs:root=Privacy` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity`
+- 私隱與保安 → 健康: `prefs:root=Privacy&path=HEALTH` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/HEALTH`
+- 私隱與保安 → 健康資料: `prefs:root=Privacy&path=HEALTH_DATA` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/HEALTH_DATA`
+- 私隱與保安 → 定位服務: `prefs:root=Privacy&path=LOCATION` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/LOCATION`
+- 私隱與保安 → 定位服務 → 分享我的位置: `prefs:root=Privacy&path=LOCATION/LOCATION_SHARING` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/LOCATION/LOCATION_SHARING`
+- 私隱與保安 → 通訊錄: `prefs:root=Privacy&path=CONTACTS` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/CONTACTS`
+- 私隱與保安 → 日曆: `prefs:root=Privacy&path=CALENDARS` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/CALENDARS`
+- 私隱與保安 → 提醒事項: `prefs:root=Privacy&path=REMINDERS` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/REMINDERS`
+- 私隱與保安 → 相片: `prefs:root=Privacy&path=PHOTOS` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/PHOTOS`
+- 私隱與保安 → 藍牙分享: `prefs:root=Privacy&path=BT_PERIPHERAL` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/BT_PERIPHERAL`
+- 私隱與保安 → 咪高風: `prefs:root=Privacy&path=MICROPHONE` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/MICROPHONE`
+- 私隱與保安 → 語音識別: `prefs:root=Privacy&path=SPEECH_RECOGNITION` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/SPEECH_RECOGNITION`
+- 私隱與保安 → 相機: `prefs:root=Privacy&path=CAMERA` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/CAMERA`
+- 私隱與保安 → HomeKit: `prefs:root=Privacy&path=WILLOW` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/WILLOW`
+- 私隱與保安 → 媒體與Apple Music: `prefs:root=Privacy&path=MEDIALIBRARY` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/MEDIALIBRARY`
+- 私隱與保安 → 分析: `prefs:root=Privacy&path=PROBLEM_REPORTING` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/PROBLEM_REPORTING`
+- 私隱與保安 → 廣吿: `prefs:root=Privacy&path=ADVERTISING` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/ADVERTISING`
+- 私隱與保安 → 檔案與資料夾: `prefs:root=Privacy&path=FILEACCESS` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/FILEACCESS`
+- 私隱與保安 → 追蹤: `prefs:root=Privacy&path=USER_TRACKING` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/USER_TRACKING`
+- 私隱與保安 → App私隱報告: `prefs:root=Privacy&path=PRIVACY_REPORT` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/PRIVACY_REPORT`
+- 私隱與保安 → 封鎖模式: `prefs:root=Privacy#LOCKDOWN_MODE` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity#LOCKDOWN_MODE#LOCKDOWN_MODE`
+- 私隱與保安 → 敏感內容: `prefs:root=Privacy#NUDITY_DETECTION` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity#NUDITY_DETECTION#NUDITY_DETECTION`
+- FaceTime: `prefs:root=FACETIME`
+- 螢幕使用時間: `prefs:root=SCREEN_TIME`
+- 聲音 | 聲音與觸覺回報: `prefs:root=Sounds`
+- 聲音 | 聲音與觸覺回報 → 耳筒安全: `prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING`
+- 聲音 | 聲音與觸覺回報 → 耳筒安全 → Lightning轉換器: `prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING/HEADPHONE_LIGHTNING_ADAPTERS`
+- 聲音 | 聲音與觸覺回報 → 耳筒安全 → 耳筒通知: `prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING#SHSHeadphoneWeeklyNotificationsKey`
+- 聲音 | 聲音與觸覺回報 → 耳筒安全 → 降低高音量音訊: `prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING#SHSHeadphoneLevelLimitSwitchKey`
+- 聲音 | 聲音與觸覺回報 → 音效: `prefs:root=Sounds&path=SOUND_EFFECTS`
+- 聲音 | 聲音與觸覺回報 → 鈴聲及提示聲: `prefs:root=Sounds#RINGER_AND_ALERT_GROUP`
+- 聲音 | 聲音與觸覺回報 → 使用按鈕更改音量: `prefs:root=Sounds#CHANGE_WITH_BUTTONS`
+- 聲音 | 聲音與觸覺回報 → 聲音及震動模式: `prefs:root=Sounds#SOUNDS_ALERT_GROUP`
+- 聲音 | 聲音與觸覺回報 → 鈴聲: `prefs:root=Sounds&path=Ringtone`
+- 聲音 | 聲音與觸覺回報 → 訊息聲: `prefs:root=Sounds&path=Text_Messages`
+- 聲音 | 聲音與觸覺回報 → 收到新口訊: `prefs:root=Sounds&path=Voicemail`
+- 聲音 | 聲音與觸覺回報 → 新郵件: `prefs:root=Sounds&path=NEW_MAIL`
+- 聲音 | 聲音與觸覺回報 → 已傳送郵件: `prefs:root=Sounds&path=SENT_MAIL`
+- 聲音 | 聲音與觸覺回報 → 日曆提示: `prefs:root=Sounds&path=Calendar%20Alarm`
+- 聲音 | 聲音與觸覺回報 → 提醒事項提示: `prefs:root=Sounds&path=Reminder%20Alerts`
+- 聲音 | 聲音與觸覺回報 → 按鍵聲: `prefs:root=Sounds#KEYBOARD_SOUND_SWITCH`
+- 聲音 | 聲音與觸覺回報 → 鎖定聲: `prefs:root=Sounds#LOCK_SOUND_SWITCH`
+- 聲音 | 聲音與觸覺回報 → 個人化的空間音訊: `prefs:root=Sounds&path=Personalized%20Spatial%20Audio`
+- Apple Pencil: `prefs:root=Pencil`
+- Apple Pencil → Apple Pencil: `prefs:root=Pencil#PrefersPencilDraws`
+- Apple Pencil → Apple Pencil: `prefs:root=Pencil#PencilTextInput`
+- 訊息: `prefs:root=MESSAGES`
+- 股市: `prefs:root=STOCKS`
+- 股市 → 私隱: `prefs:root=STOCKS#Privacy`
+- 股市 → 重設識別碼: `prefs:root=STOCKS#reset_identifier`
+- 翻譯: `prefs:root=TRANSLATE`
+- 翻譯 → 裝置端模式: `prefs:root=TRANSLATE#OnDeviceOnly`
+- Siri: `prefs:root=SIRI`
+- Siri → 鎖定時允許Siri: `prefs:root=SIRI#ASSISTANT_LOCK_SCREEN_ACCESS`
+- Siri → 語言: `prefs:root=SIRI&path=LANGUAGE_ID`
+- Siri → Siri的聲音: `prefs:root=SIRI&path=VOICE_ID`
+- Siri → 語音回饋: `prefs:root=SIRI&path=VOICE_FEEDBACK_ID`
+- Siri → 我的資料: `prefs:root=SIRI&path=MY_INFO`
+- 健康 | 健康資料: `prefs:root=HEALTH`
+- App Store: `prefs:root=STORE`
+- App Store → 自動下載: `prefs:root=STORE#Automatic%20Downloads`
+- App Store → App更新項目: `prefs:root=STORE#App%20Updates`
+- App Store → App下載: `prefs:root=STORE&path=App%20Downloads`
+- App Store → 自動播放影片: `prefs:root=STORE&path=Video%20Autoplay`
+- App Store → App內評分與評論: `prefs:root=STORE#In-App%20Ratings%20&%20Reviews`
+- 飛行模式: `prefs:root=ROOT#AIRPLANE_MODE`

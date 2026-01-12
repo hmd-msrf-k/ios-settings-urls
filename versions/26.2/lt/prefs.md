@@ -1,0 +1,414 @@
+- Akumuliatorius: `prefs:root=BATTERY_USAGE`
+- Akumuliatorius → Energijos taupymo režimas: `prefs:root=BATTERY_USAGE#BATTERY_SAVER_MODE`
+- Akumuliatorius → Akumuliatoriaus būklė: `prefs:root=BATTERY_USAGE#BATTERY_HEALTH_ID`
+- Bendrieji: `prefs:root=General`
+- Bendrieji → VPN ir įrenginių valdymas: `prefs:root=General&path=ManagedConfigurationList`
+- Bendrieji → Automatinis užpildymas ir slaptažodžiai: `prefs:root=General&path=AUTOFILL`
+- Bendrieji → Automatinis užpildymas ir slaptažodžiai → Automatiškai užpildyti slaptažodžius: `prefs:root=General&path=AUTOFILL#AUTOFILL`
+- Bendrieji → Automatinis užpildymas ir slaptažodžiai → Išvalyti patvirtinimo kodus: `prefs:root=General&path=AUTOFILL#CLEAN_UP_VERIFICATION_CODES`
+- Bendrieji → Automatinis užpildymas ir slaptažodžiai → Nustatyti patvirtinimo kodus: `prefs:root=General&path=AUTOFILL#SET_UP_VERIFICATION_CODES`
+- Bendrieji → „AppleCare“ ir garantija: `prefs:root=General&path=COVERAGE/`
+- Bendrieji → Žodynas: `prefs:root=General&path=DICTIONARY`
+- Bendrieji → Klaviatūra: `prefs:root=General&path=Keyboard`
+- Bendrieji → Klaviatūra → Klaviatūros: `prefs:root=General&path=Keyboard/KEYBOARDS`
+- Bendrieji → Klaviatūra → Teksto keitimas: `prefs:root=General&path=Keyboard/USER_DICTIONARY`
+- Bendrieji → Klaviatūra → Automatiškai didžiosiomis: `prefs:root=General&path=Keyboard#KeyboardAutocapitalization`
+- Bendrieji → Klaviatūra → Automatinis taisymas: `prefs:root=General&path=Keyboard#KeyboardAutocorrection`
+- Bendrieji → Klaviatūra → Tikrinti rašybą: `prefs:root=General&path=Keyboard#KeyboardCheckSpelling`
+- Bendrieji → Klaviatūra → Įjungti didžiąsias raides: `prefs:root=General&path=Keyboard#KeyboardCapsLock`
+- Bendrieji → Klaviatūra → Sparčiosios komandos: `prefs:root=General&path=Keyboard#KeyboardAssistant`
+- Bendrieji → Klaviatūra → Numatomas: `prefs:root=General&path=Keyboard#KeyboardPrediction`
+- Bendrieji → Klaviatūra → Išmanioji skyryba: `prefs:root=General&path=Keyboard#SmartTyping`
+- Bendrieji → Klaviatūra → Padalytasis režimas: `prefs:root=General&path=Keyboard#RivenKeyboard`
+- Bendrieji → Klaviatūra → Įjungti klavišų brūkštelėjimą: `prefs:root=General&path=Keyboard#GesturesEnabled`
+- Bendrieji → Klaviatūra → Ženklų peržiūra: `prefs:root=General&path=Keyboard#KeyboardAllowPaddle`
+- Bendrieji → Klaviatūra → „.“ sparčioji komanda: `prefs:root=General&path=Keyboard#KeyboardPeriodShortcut`
+- Bendrieji → Klaviatūra → Rašymas braukiant: `prefs:root=General&path=Keyboard#KeyboardContinuousPathEnabled`
+- Bendrieji → Klaviatūra → Įjungti diktavimą: `prefs:root=General&path=Keyboard#Dictation`
+- Bendrieji → Klaviatūra → Automatinė skyryba: `prefs:root=General&path=Keyboard#AutoPunctuationSetting`
+- Bendrieji → Programinės įrangos atnaujinimas: `prefs:root=General&path=SOFTWARE_UPDATE_LINK`
+- Bendrieji → Programinės įrangos atnaujinimas → Automatiniai atnaujinimai: `prefs:root=General&path=SOFTWARE_UPDATE_LINK/SUAutomaticUpdateButton`
+- Bendrieji → Saugykla: `prefs:root=General&path=STORAGE_MGMT`
+- Bendrieji → Saugykla → Saugykla: `prefs:root=General&path=STORAGE_MGMT#MANAGE`
+- Bendrieji → Saugykla → Nenaudojamų programų iškėlimas: `prefs:root=General&path=STORAGE_MGMT#OFFLOAD`
+- Bendrieji → Vaizdas vaizde: `prefs:root=General&path=PiP_SPEC`
+- Bendrieji → Jutiklinis pultas | Jutiklinis pultas ir pelė: `prefs:root=General&path=POINTERS`
+- Bendrieji → NFC: `prefs:root=General&path=NFC_LINK`
+- Bendrieji → VPN: `prefs:root=General&path=VPN`
+- Bendrieji → CarPlay: `prefs:root=General&path=CARPLAY`
+- Bendrieji → Apie: `prefs:root=General&path=About`
+- Bendrieji → Apie → Patikimi sertifikatai: `prefs:root=General&path=About/CERT_TRUST_SETTINGS`
+- Bendrieji → Apie → Serijos numeris: `prefs:root=General&path=About#SerialNumber`
+- Bendrieji → Apie → Modelio numeris: `prefs:root=General&path=About#ProductModel`
+- Bendrieji → Apie → Modelio pavadinimas: `prefs:root=General&path=About#ProductModelName`
+- Bendrieji → Apie → „iOS“ versija: `prefs:root=General&path=About/SW_VERSION_SPECIFIER`
+- Bendrieji → Teisinė ir reguliavimo informacija: `prefs:root=General&path=LEGAL_AND_REGULATORY`
+- Bendrieji → Teisinė ir reguliavimo informacija → Garantija: `prefs:root=General&path=LEGAL_AND_REGULATORY#Warranty`
+- Bendrieji → AirDrop: `prefs:root=General&path=AIRDROP_LINK`
+- Bendrieji → AirDrop → Įrenginių suartinimas: `prefs:root=General&path=AIRDROP_LINK#AIRDROP_NFC_ID`
+- Bendrieji → Pradžios mygtukas: `prefs:root=General&path=HOME_BUTTON`
+- Bendrieji → Šoninis perjungiklis: `prefs:root=General#Rotation_Switch_Action_Group`
+- Bendrieji → Programų atnaujinimas fone: `prefs:root=General&path=AUTO_CONTENT_DOWNLOAD`
+- Bendrieji → Data ir laikas: `prefs:root=General&path=DATE_AND_TIME`
+- Bendrieji → Televizijos išvestis: `prefs:root=General&path=TV_OUT`
+- Bendrieji → Nustatyti iš naujo: `prefs:root=General&path=Reset`
+- Bendrieji → Nustatyti iš naujo → Nustatyti visus nustatymus iš naujo: `prefs:root=General&path=Reset#settingsErase`
+- Bendrieji → Nustatyti iš naujo → Trinti visą turinį ir nustatymus: `prefs:root=General&path=Reset#fullErase`
+- Bendrieji → Nustatyti iš naujo → Nustatyti tinklo nustatymus iš naujo: `prefs:root=General&path=Reset#RESET_NETWORK_LABEL`
+- Bendrieji → Nustatyti iš naujo → Šalinti visus mobiliojo ryšio duomenų planus: `prefs:root=General&path=Reset#cellularErase`
+- Bendrieji → Nustatyti iš naujo → Paslaugos prenumeratoriams: `prefs:root=General&path=Reset#SUBSCRIBER_SERVICES_ID`
+- Bendrieji → Nustatyti iš naujo → Nustatyti klaviatūros žodyną iš naujo: `prefs:root=General&path=Reset#RESET_KEYBOARD_DICTIONARY_LABEL`
+- Bendrieji → Nustatyti iš naujo → Nustatyti pradžios ekrano išdėstymą iš naujo: `prefs:root=General&path=Reset#RESET_ICONS_LABEL`
+- Bendrieji → Nustatyti iš naujo → Nustatyti sritį „Vieta ir privatumas“ iš naujo: `prefs:root=General&path=Reset#RESET_PRIVACY_LABEL`
+- Bendrieji → Išjungti: `prefs:root=General#SHUTDOWN_LABEL`
+- Bendrieji → „AirPlay“ ir tęstinumas: `prefs:root=General&path=CONTINUITY_SPEC`
+- Bendrieji → „AirPlay“ ir tęstinumas → Handoff: `prefs:root=General&path=CONTINUITY_SPEC#CONTINUITY`
+- Bendrieji → „AirPlay“ ir tęstinumas → Perduoti į „HomePod“: `prefs:root=General&path=CONTINUITY_SPEC#TRANSFER_TO_HOMEPOD`
+- Bendrieji → „AirPlay“ ir tęstinumas → Leisti automatiškai per „AirPlay“: `prefs:root=General&path=CONTINUITY_SPEC#AUTOMATICALLY_AIRPLAY`
+- Bendrieji → „AirPlay“ ir tęstinumas → Tęstinio vaizdo kamera: `prefs:root=General&path=CONTINUITY_SPEC#WOMBAT_CAMERA`
+- Bendrieji → Kalba ir regionas: `prefs:root=General&path=INTERNATIONAL`
+- Bendrieji → Kalba ir regionas → Kitos kalbos…: `prefs:root=General&path=INTERNATIONAL#NEW_PREFERRED_LANGUAGE`
+- Bendrieji → Kalba ir regionas → Pageidaujama kalbų rodymo tvarka: `prefs:root=General&path=INTERNATIONAL#PREFERRED_LANGUAGE_GROUP`
+- Bendrieji → Kalba ir regionas → Įtraukti kalbą…: `prefs:root=General&path=INTERNATIONAL#ADD_PREFERRED_LANGUAGE`
+- Bendrieji → Kalba ir regionas → Regionas: `prefs:root=General&path=INTERNATIONAL/LOCALE`
+- Bendrieji → Kalba ir regionas → Skaičiai: `prefs:root=General&path=INTERNATIONAL/NUMBERING_SYSTEM`
+- Bendrieji → Kalba ir regionas → Kalendorius: `prefs:root=General&path=INTERNATIONAL/CALENDAR`
+- Bendrieji → Kalba ir regionas → Temperatūros matavimo vienetas: `prefs:root=General&path=INTERNATIONAL/TEMPERATURE_UNIT`
+- „Apple“ paskyra: `prefs:root=APPLE_ACCOUNT` or `settings-navigation://com.apple.Settings.AppleAccount`
+- „Apple“ paskyra → Adresato rakto patvirtinimas: `prefs:root=APPLE_ACCOUNT&path=TRANSPARENCY` or `settings-navigation://com.apple.Settings.AppleAccount/TRANSPARENCY`
+- „Apple“ paskyra → iCloud: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE` or `prefs:root=CASTLE`
+- „Apple“ paskyra → iCloud → „iCloud“ saugykla: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/STORAGE_AND_BACKUP` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/STORAGE_AND_BACKUP` or `prefs:root=CASTLE&path=STORAGE_AND_BACKUP`
+- „Apple“ paskyra → iCloud → iCloud Drive: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Ubiquity` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Ubiquity` or `prefs:root=CASTLE&path=com.apple.Dataclass.Ubiquity`
+- „Apple“ paskyra → iCloud → Nuotraukos: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.MediaStream` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.MediaStream` or `prefs:root=CASTLE&path=com.apple.Dataclass.MediaStream`
+- „Apple“ paskyra → iCloud → Mail: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Mail` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail` or `prefs:root=CASTLE&path=com.apple.Dataclass.Mail`
+- „Apple“ paskyra → iCloud → Adresatai: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Contacts` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Contacts` or `prefs:root=CASTLE&path=com.apple.Dataclass.Contacts`
+- „Apple“ paskyra → iCloud → Kalendorius: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Calendars` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Calendars` or `prefs:root=CASTLE&path=com.apple.Dataclass.Calendars`
+- „Apple“ paskyra → iCloud → Priminimai: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Reminders` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Reminders` or `prefs:root=CASTLE&path=com.apple.Dataclass.Reminders`
+- „Apple“ paskyra → iCloud → Safari: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Bookmarks` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Bookmarks` or `prefs:root=CASTLE&path=com.apple.Dataclass.Bookmarks`
+- „Apple“ paskyra → iCloud → Užrašai: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Notes` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Notes` or `prefs:root=CASTLE&path=com.apple.Dataclass.Notes`
+- „Apple“ paskyra → iCloud → News: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.News` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.News` or `prefs:root=CASTLE&path=com.apple.Dataclass.News`
+- „Apple“ paskyra → iCloud → Atsarginė kopija: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/BACKUP` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/BACKUP` or `prefs:root=CASTLE&path=BACKUP`
+- „Apple“ paskyra → iCloud → Sveikata: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Health` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Health` or `prefs:root=CASTLE&path=com.apple.Dataclass.Health`
+- „Apple“ paskyra → iCloud → Slaptažodžiai ir raktai: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.KeychainSync` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.KeychainSync` or `prefs:root=CASTLE&path=com.apple.Dataclass.KeychainSync`
+- „Apple“ paskyra → iCloud → Slėpti mano el. pašto adresą: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/PRIVATE_EMAIL_MANAGE` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/PRIVATE_EMAIL_MANAGE` or `prefs:root=CASTLE&path=PRIVATE_EMAIL_MANAGE`
+- „Apple“ paskyra → Bendrinti mano vietą: `prefs:root=APPLE_ACCOUNT&path=LOCATION_SHARING` or `settings-navigation://com.apple.Settings.AppleAccount/LOCATION_SHARING`
+- „Apple“ paskyra → Bendrinti mano vietą → Lokatorius: `prefs:root=APPLE_ACCOUNT&path=LOCATION_SHARING/FindMyDevice-Settings` or `settings-navigation://com.apple.Settings.AppleAccount/LOCATION_SHARING/FindMyDevice-Settings`
+- „Apple“ paskyra → Vardas ir pavardė, telefono numeriai, el. pašto adresas: `prefs:root=APPLE_ACCOUNT&path=APPLE_ACCOUNT_CONTACT` or `settings-navigation://com.apple.Settings.AppleAccount/APPLE_ACCOUNT_CONTACT`
+- „Apple“ paskyra → Slaptažodis ir sauga: `prefs:root=APPLE_ACCOUNT&path=PASSWORD_AND_SECURITY` or `settings-navigation://com.apple.Settings.AppleAccount/PASSWORD_AND_SECURITY`
+- „Apple“ paskyra → Mokėjimas ir pristatymas: `prefs:root=APPLE_ACCOUNT&path=PAYMENT_AND_SHIPPING` or `settings-navigation://com.apple.Settings.AppleAccount/PAYMENT_AND_SHIPPING`
+- „Apple“ paskyra → Prenumeratos: `prefs:root=APPLE_ACCOUNT&path=SUBSCRIPTIONS` or `settings-navigation://com.apple.Settings.AppleAccount/SUBSCRIPTIONS`
+- „Apple“ paskyra → Šeima: `prefs:root=APPLE_ACCOUNT&path=Family` or `settings-navigation://com.apple.Settings.AppleAccount/Family`
+- Pranešimai: `prefs:root=NOTIFICATIONS_ID`
+- Pranešimai → Suplanuota suvestinė: `prefs:root=NOTIFICATIONS_ID&path=SCHEDULED_DELIVERY_ID`
+- Orai: `prefs:root=WEATHER`
+- Freeform: `prefs:root=FREEFORM`
+- Susitelkimas: `prefs:root=DO_NOT_DISTURB`
+- Susitelkimas → Susitelkimo būsena: `prefs:root=DO_NOT_DISTURB&path=status`
+- Dienoraštis: `prefs:root=JOURNAL`
+- „Piniginė“ ir „Apple Pay“: `prefs:root=PASSBOOK`
+- „Piniginė“ ir „Apple Pay“ → Apple Cash: `prefs:root=PASSBOOK#Apple%C2%A0Cash`
+- „Piniginė“ ir „Apple Pay“ → Mokėjimo kortelės: `prefs:root=PASSBOOK#SETTINGS_PAYMENT_CARDS_GROUP`
+- „Piniginė“ ir „Apple Pay“ → Įtraukti kortelę: `prefs:root=PASSBOOK#Add%20Card`
+- „Piniginė“ ir „Apple Pay“ → Dvigubas šoninio mygtuko spustelėjimas: `prefs:root=PASSBOOK#Double-Click%20Side%20Button`
+- „Piniginė“ ir „Apple Pay“ → Užsakymų sekimas: `prefs:root=PASSBOOK#ORDER_TRACKING`
+- Ekranas ir šviesumas | Išvaizda: `prefs:root=DISPLAY`
+- Ekranas ir šviesumas | Išvaizda → Išvaizda: `prefs:root=DISPLAY#DEVICE_APPEARANCE`
+- Ekranas ir šviesumas | Išvaizda → True Tone: `prefs:root=DISPLAY#WHITE_BALANCE`
+- Ekranas ir šviesumas | Išvaizda → Night Shift: `prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION`
+- Ekranas ir šviesumas | Išvaizda → Night Shift → Suplanuota: `prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION#SCHEDULED`
+- Ekranas ir šviesumas | Išvaizda → Night Shift → Įjungti neautomatiškai iki rytojaus: `prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION#MANUAL`
+- Ekranas ir šviesumas | Išvaizda → Night Shift → Spalvos temperatūra: `prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION#COLOR_TEMPERATURE`
+- Ekranas ir šviesumas | Išvaizda → Automatinis užrakinimas: `prefs:root=DISPLAY&path=AUTOLOCK`
+- Ekranas ir šviesumas | Išvaizda → Pakelkite norėdami pažadinti: `prefs:root=DISPLAY#RAISE_TO_WAKE`
+- Ekranas ir šviesumas | Išvaizda → Užrakinti / atrakinti: `prefs:root=DISPLAY#SMART_CASE_LOCK_SPEC`
+- Ekranas ir šviesumas | Išvaizda → Teksto dydis: `prefs:root=DISPLAY&path=TEXT_SIZE`
+- Ekranas ir šviesumas | Išvaizda → Paryškintas tekstas: `prefs:root=DISPLAY#BOLD_TEXT`
+- Ekranas ir šviesumas | Išvaizda → Šviesumas: `prefs:root=DISPLAY#BRIGHTNESS`
+- Ekranas ir šviesumas | Išvaizda → Ekrano mastelis: `prefs:root=DISPLAY#DISPLAY_ZOOM_GROUP`
+- Ekranas ir šviesumas | Išvaizda → Išvaizda: `prefs:root=DISPLAY&path=APPEARANCE`
+- Ekranas ir šviesumas | Išvaizda → Išvaizda → Lango mastelis: `prefs:root=DISPLAY&path=APPEARANCE#WINDOW_ZOOM`
+- Ekranas ir šviesumas | Išvaizda → Išvaizda → Dviem rankomis keičiamas lango mastelis: `prefs:root=DISPLAY&path=APPEARANCE#TWO_HANDED_WINDOW_ZOOM`
+- Ekranas ir šviesumas | Išvaizda → Rodinys: `prefs:root=DISPLAY&path=MAGNIFY`
+- Ekranas ir šviesumas | Išvaizda → Visada rodyti: `prefs:root=DISPLAY&path=ALWAYS_ON`
+- Ekranas ir šviesumas | Išvaizda → Visada rodyti → Visada rodyti: `prefs:root=DISPLAY&path=ALWAYS_ON#ALWAYS_ON`
+- Ekranas ir šviesumas | Išvaizda → Suderinamos programos: `prefs:root=DISPLAY&path=COMPATIBLE_APPEARANCE`
+- Ekranas ir šviesumas | Išvaizda → Suderinamos programos → Tamsi, šviesi: `prefs:root=DISPLAY&path=COMPATIBLE_APPEARANCE#COMPATIBLE_APPEARANCE_CHOICES`
+- Matuoklis: `prefs:root=MEASURE` or `settings-navigation://com.apple.Settings.Apps/com.apple.measure`
+- Matuoklis → Matavimo vienetai: `prefs:root=MEASURE#MEASURE_UNITS` or `settings-navigation://com.apple.Settings.Apps/com.apple.measure#MEASURE_UNITS#MEASURE_UNITS`
+- Matuoklis → Imperinė sistema: `prefs:root=MEASURE#Imperial` or `settings-navigation://com.apple.Settings.Apps/com.apple.measure#Imperial#Imperial`
+- Matuoklis → Metrinė sistema: `prefs:root=MEASURE#Metric` or `settings-navigation://com.apple.Settings.Apps/com.apple.measure#Metric#Metric`
+- Fonas: `prefs:root=Wallpaper`
+- Valdymo centras: `prefs:root=ControlCenter`
+- Valdymo centras → Prieiga programose: `prefs:root=ControlCenter#ALLOWED_WITHIN_APPS`
+- Valdymo centras → Pritaikyti valdiklius: `prefs:root=ControlCenter&path=CUSTOMIZE_CONTROLS`
+- Balso pastabos: `prefs:root=VOICE_MEMOS`
+- Balso pastabos → Išvalyti ištrintus: `prefs:root=VOICE_MEMOS&path=RCVoiceMemosRecentlyDeletedWindowKey`
+- Balso pastabos → Garso kokybė: `prefs:root=VOICE_MEMOS&path=RCVoiceMemosAudioQualityKey`
+- Balso pastabos → Su buvimo vieta susijęs pavadinimas: `prefs:root=VOICE_MEMOS#RCVoiceMemosUseLocationBasedNaming`
+- Kalendorius: `prefs:root=CALENDAR`
+- Kalendorius → Fiksuota laiko juosta: `prefs:root=CALENDAR&path=TimeZoneCityArray`
+- Kalendorius → Alternatyvūs kalendoriai: `prefs:root=CALENDAR&path=Alternate%20Calendars`
+- Kalendorius → Savaitės numeriai: `prefs:root=CALENDAR#Week%20Numbers`
+- Kalendorius → Rodyti pakviestųjų atsisakymus: `prefs:root=CALENDAR#Show%20Invitee%20Declines`
+- Kalendorius → Sinchronizuoti: `prefs:root=CALENDAR&path=Sync`
+- Kalendorius → Numatytieji įspėjimo laikai: `prefs:root=CALENDAR&path=Default%20Alert%20Times`
+- Kalendorius → Savaitės pradžios diena: `prefs:root=CALENDAR&path=Start%20Week%20On`
+- Kalendorius → Vietos pasiūlymai: `prefs:root=CALENDAR#Location%20Suggestions`
+- Kūrėjas: `prefs:root=DEVELOPER_SETTINGS`
+- Kūrėjas → Daugiakanalis tinklas: `prefs:root=DEVELOPER_SETTINGS&path=MULTI_PATH_AGG`
+- Kūrėjas → Daugiakanalis tinklas → Daugiakanalis tinklas: `prefs:root=DEVELOPER_SETTINGS&path=MULTI_PATH_AGG#Multipath%20Networking`
+- Kūrėjas → Išvaizda: `prefs:root=DEVELOPER_SETTINGS#UIAppearanceGroup`
+- Kūrėjas → Tamsi išvaizda: `prefs:root=DEVELOPER_SETTINGS#UIAppearanceSettings`
+- Kūrėjas → Susieti įrenginiai: `prefs:root=DEVELOPER_SETTINGS#DTPairedDevicesGroup`
+- Kūrėjas → Valyti patikimus kompiuterius: `prefs:root=DEVELOPER_SETTINGS#CLEAR_TRUSTED_COMPUTERS`
+- Kūrėjas → Registravimas: `prefs:root=DEVELOPER_SETTINGS&path=DTInstrumentsSettings`
+- Kūrėjas → UI automatizavimas | Įjungti naudotojo sąsajos automatizavimą: `prefs:root=DEVELOPER_SETTINGS#UIAGroup`
+- Kūrėjas → Darbas tinkle: `prefs:root=DEVELOPER_SETTINGS#NLCGroup`
+- Kūrėjas → Tinklo jungties kondicionierius: `prefs:root=DEVELOPER_SETTINGS&path=NLC`
+- Kūrėjas → Papildomas registravimas: `prefs:root=DEVELOPER_SETTINGS#ADDITIONAL_LOGGING`
+- Kūrėjas → Leisti HTTP paslaugas: `prefs:root=DEVELOPER_SETTINGS#ALLOW_HTTP_SERVICES`
+- Kūrėjas → Išjungti spartos ribojimą: `prefs:root=DEVELOPER_SETTINGS#DISABLE_RATE_LIMITING`
+- Kūrėjas → NFC prieigos raktas (nebūtinas): `prefs:root=DEVELOPER_SETTINGS#NFC_PASS_KEY_OPTIONAL`
+- Kūrėjas → Medijos paslaugų testavimas: `prefs:root=DEVELOPER_SETTINGS#MEDIA_SERVICES_TESTING`
+- Kūrėjas → Atkurti medijos paslaugas: `prefs:root=DEVELOPER_SETTINGS#RESET_MEDIA_SERVICES`
+- Kūrėjas → Naujienų testavimas: `prefs:root=DEVELOPER_SETTINGS#NEWS_TESTING`
+- Kūrėjas → Atkurti vietos duomenis per kitą paleidimą: `prefs:root=DEVELOPER_SETTINGS#RESET_LOCAL_DATA_ON_NEXT_LAUNCH`
+- Kūrėjas → Medijos leistuvo sistemos testavimas: `prefs:root=DEVELOPER_SETTINGS#RoutineSettingsGroup`
+- Kūrėjas → Leidžiamo turinio API: `prefs:root=DEVELOPER_SETTINGS&path=RoutineSettings`
+- Kūrėjas → Televizijos paslaugų teikėjas: `prefs:root=DEVELOPER_SETTINGS&path=VideoSubscriberAccountSettings`
+- Kūrėjas → ClassKit API: `prefs:root=DEVELOPER_SETTINGS&path=ClassKitSettings`
+- Kūrėjas → „CoreSpotlight“ testavimas: `prefs:root=DEVELOPER_SETTINGS#CORESPOTLIGHT_TESTING`
+- Kūrėjas → Indeksuoti visus elementus iš naujo: `prefs:root=DEVELOPER_SETTINGS#REINDEX_ALL_ITEMS`
+- Kūrėjas → Indeksuoti visus elementus su identifikatoriais iš naujo: `prefs:root=DEVELOPER_SETTINGS#REINDEX_ALL_ITEMS_WITH_IDENTIFIERS`
+- Kūrėjas → Nuorodų testavimas: `prefs:root=DEVELOPER_SETTINGS#SIRI_ACTIONS_TESTING`
+- Kūrėjas → Rodyti naujausias nuorodas: `prefs:root=DEVELOPER_SETTINGS#DISPLAY_DONATIONS_SPOTLIGHT`
+- Kūrėjas → Rodyti būsimą mediją: `prefs:root=DEVELOPER_SETTINGS#DISPLAY_UPCOMING_MEDIA`
+- Kūrėjas → Rodyti priskyrimus užrakintame ekrane: `prefs:root=DEVELOPER_SETTINGS#DISPLAY_DONATIONS_LOCKSCREEN`
+- Kūrėjas → Priverstinai sinchronizuoti sparčiąsias komandas su „Apple Watch“: `prefs:root=DEVELOPER_SETTINGS#SIRI_ACTIONS_SYNC_WATCHOS`
+- Kūrėjas → MIDI-CI testavimas: `prefs:root=DEVELOPER_SETTINGS#MIDI_CI_API_BETA`
+- Kūrėjas → Įjungti MIDI-CI: `prefs:root=DEVELOPER_SETTINGS#MIDI_CI_API_BETA_ENABLE`
+- Kūrėjas → Užstrigimo aptikimas: `prefs:root=DEVELOPER_SETTINGS#HANGTRACER_EXTERNAL_CONFIGURE`
+- Prieigos kodas | „Face ID“ ir prieigos kodas | „Touch ID“ ir prieigos kodas: `prefs:root=PASSCODE`
+- Prieigos kodas | „Face ID“ ir prieigos kodas | „Touch ID“ ir prieigos kodas → Išjungti prieigos kodą: `prefs:root=PASSCODE#PASSCODE_OFF`
+- Prieigos kodas | „Face ID“ ir prieigos kodas | „Touch ID“ ir prieigos kodas → Keisti prieigos kodą: `prefs:root=PASSCODE#CHANGE_PASSCODE`
+- Prieigos kodas | „Face ID“ ir prieigos kodas | „Touch ID“ ir prieigos kodas → Reikalauti prieigos kodo: `prefs:root=PASSCODE&path=PASSCODE_REQ`
+- Prieigos kodas | „Face ID“ ir prieigos kodas | „Touch ID“ ir prieigos kodas → Numerio rinkimas balsu: `prefs:root=PASSCODE#VOICE_DIAL`
+- Prieigos kodas | „Face ID“ ir prieigos kodas | „Touch ID“ ir prieigos kodas → Leisti prieigą, kai užrakinta: `prefs:root=PASSCODE#ALLOW_ACCESS_WHEN_LOCKED`
+- Prieigos kodas | „Face ID“ ir prieigos kodas | „Touch ID“ ir prieigos kodas → Atsakyti žinute: `prefs:root=PASSCODE#REPLY_WITH_MESSAGE_SWITCH`
+- Prieigos kodas | „Face ID“ ir prieigos kodas | „Touch ID“ ir prieigos kodas → Pradžios puslapio valdymas: `prefs:root=PASSCODE#HOME_CONTROL_SWITCH`
+- Prieigos kodas | „Face ID“ ir prieigos kodas | „Touch ID“ ir prieigos kodas → Piniginė: `prefs:root=PASSCODE#WALLET_SWITCH`
+- Prieigos kodas | „Face ID“ ir prieigos kodas | „Touch ID“ ir prieigos kodas → Atsakyti į praleistus skambučius: `prefs:root=PASSCODE#RETURN_MISSED_CALLS_SWITCH`
+- Prieigos kodas | „Face ID“ ir prieigos kodas | „Touch ID“ ir prieigos kodas → Trinti duomenis: `prefs:root=PASSCODE#WIPE_DEVICE`
+- Prieigos kodas | „Face ID“ ir prieigos kodas | „Touch ID“ ir prieigos kodas → Atrakinkite naudodami „Apple Watch“: `prefs:root=PASSCODE#AUTO_UNLOCK_DEVICES_GROUP`
+- Prieigos kodas | „Face ID“ ir prieigos kodas | „Touch ID“ ir prieigos kodas → Pavogto įrenginio apsauga: `prefs:root=PASSCODE#DTO_GROUP_ID`
+- Telefonas: `prefs:root=Phone`
+- Telefonas → Mano numeris: `prefs:root=Phone&path=My%20Number`
+- Telefonas → Įeinantys skambučiai: `prefs:root=Phone&path=INCOMING_CALL_STYLE`
+- Telefonas → Informuoti apie skambučius: `prefs:root=Phone&path=ANNOUNCE_CALLS`
+- Telefonas → Nepageidaujami SMS / skambučiai: `prefs:root=Phone&path=CLASSIFICATION_AND_REPORTING`
+- Telefonas → Atsakyti tekstine žinute: `prefs:root=Phone&path=Respond%20with%20Text`
+- Telefonas → Skambučių peradresavimas: `prefs:root=Phone&path=Call%20Forwarding`
+- Telefonas → Skambučių peradresavimas → Skambučių peradresavimas: `prefs:root=Phone&path=Call%20Forwarding#idMasterOnOffSwitch`
+- Telefonas → Skambučio laukimas: `prefs:root=Phone&path=Call%20Waiting`
+- Telefonas → Rodyti skambintojo identifikatorių: `prefs:root=Phone&path=Show%20My%20Caller%20ID`
+- Telefonas → Rodyti skambintojo identifikatorių → Rodyti skambintojo identifikatorių: `prefs:root=Phone&path=Show%20My%20Caller%20ID/Primary`
+- Telefonas → Rodyti skambintojo identifikatorių → Rodyti skambintojo identifikatorių → Rodyti skambintojo identifikatorių: `prefs:root=Phone&path=Show%20My%20Caller%20ID/Primary#Show%20My%20Caller%20ID`
+- Telefonas → Nutildyti nežinomus: `prefs:root=Phone#SILENCE_CALLS`
+- Telefonas → Užblokuoti adresatai: `prefs:root=Phone&path=SPECIFIER_IDENTIFIER_BLACKLIST`
+- Telefonas → Pagalba renkant numerį: `prefs:root=Phone&path=Dial%20Assist`
+- Užrašai: `prefs:root=NOTES` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes`
+- Užrašai → Numatytoji paskyra: `prefs:root=NOTES&path=Default%20Account` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes/Default%20Account`
+- Užrašai → Slaptažodis: `prefs:root=NOTES&path=Password` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes/Password`
+- Užrašai → Rikiuoti užrašus pagal: `prefs:root=NOTES&path=Sort%20Notes%20By` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes/Sort%20Notes%20By`
+- Užrašai → Nauji užrašai, prasidedantys: `prefs:root=NOTES&path=New%20Notes%20Start%20With` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes/New%20Notes%20Start%20With`
+- Užrašai → Rikiuoti patikrintus elementus: `prefs:root=NOTES&path=Sort%20Checked%20Items` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes/Sort%20Checked%20Items`
+- Užrašai → Linijos ir tinkleliai: `prefs:root=NOTES&path=Lines%20%26%20Grids` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes/Lines%20%26%20Grids`
+- Užrašai → Išsaugoti programoje „Nuotraukos“: `prefs:root=NOTES#Save%20to%20Photos` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes#Save%20to%20Photos#Save%20to%20Photos`
+- Užrašai → Pasiekite užrašus užrakintame ekrane: `prefs:root=NOTES&path=Access%20Notes%20from%20Lock%20Screen` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes/Access%20Notes%20from%20Lock%20Screen`
+- Knygos: `prefs:root=IBOOKS`
+- Knygos → Turinys prisijungus: `prefs:root=IBOOKS#BKAllowOnlineContent`
+- Knygos → SINCHRONIZAVIMAS: `prefs:root=IBOOKS#SYNCING`
+- Knygos → Skaitoma dabar: `prefs:root=IBOOKS#BKLibrary.ReadingNow`
+- Knygos → iCloud Drive: `prefs:root=IBOOKS#BCSyncICloudDrive`
+- Knygos → SKAITOMA: `prefs:root=IBOOKS#READING`
+- Knygos → Visiškas lygiavimas: `prefs:root=IBOOKS#BKFullJustification`
+- Knygos → Automatinis žodžių kėlimas: `prefs:root=IBOOKS#BKAutoHyphenation`
+- Knygos → Abiejų paraščių perėjimas: `prefs:root=IBOOKS#BKLeftTapTurnToNext`
+- Knygos → Skaitymo tikslai: `prefs:root=IBOOKS#READING_GOALS`
+- Knygos → Valyti skaitymo tikslų duomenis: `prefs:root=IBOOKS#BKReadingGoalsShouldClearDataKey`
+- Knygos → IEŠKOMA: `prefs:root=IBOOKS#SEARCHING`
+- Knygos → Book Store: `prefs:root=IBOOKS#BKIncludeBookStoreResultsInSearch`
+- Knygos → AUDIOKNYGOS: `prefs:root=IBOOKS#AUDIOBOOKS`
+- Knygos → Sukti pirmyn: `prefs:root=IBOOKS&path=BKAudioBookSkipForward`
+- Knygos → Sukti atgal: `prefs:root=IBOOKS&path=BKAudioBookSkipBackward`
+- Knygos → IŠORINIAI VALDIKLIAI: `prefs:root=IBOOKS#BKRemoteSkipInsteadOfNextTrackDefaultKey`
+- Knygos → Kitas / ankstesnis: `prefs:root=IBOOKS#Next/Previous`
+- Knygos → Sukti pirmyn / atgal: `prefs:root=IBOOKS#Skip%20Forward/Back`
+- Knygos → PRIVATUMAS: `prefs:root=IBOOKS#PRIVACY`
+- Knygos → Atkurti identifikatorių: `prefs:root=IBOOKS#BAResetAnalyticsUserID`
+- Knygos → Patvirtinimai: `prefs:root=IBOOKS&path=Acknowledgements`
+- Game Center: `prefs:root=GAMECENTER`
+- SOS signalas: `prefs:root=EMERGENCY_SOS`
+- SOS signalas → Skambinti naudojant šoninį mygtuką: `prefs:root=EMERGENCY_SOS#CALL_WITH_SIDE_BUTTON`
+- SOS signalas → Automatinis skambinimas: `prefs:root=EMERGENCY_SOS#AUTO_CALL`
+- SOS signalas → Adresatai nelaimės atveju: `prefs:root=EMERGENCY_SOS#EMERGENCY_CONTACTS`
+- SOS signalas → Atvirkštinio laikmačio garsas: `prefs:root=EMERGENCY_SOS#ALARM_SOUND_SWITCH`
+- Priminimai: `prefs:root=REMINDERS`
+- Priminimai → Numatytasis sąrašas: `prefs:root=REMINDERS&path=DEFAULT_LIST`
+- Priminimai → Numatytasis sąrašas → Priminimai: `prefs:root=REMINDERS&path=DEFAULT_LIST#preferredDefaultListID`
+- Priminimai → Šiandienos pranešimas: `prefs:root=REMINDERS#todayNotificationFireTime`
+- Priminimai → Rodyti kaip vėluojamą: `prefs:root=REMINDERS#showRemindersAsOverdue`
+- Mobilusis ryšys: `prefs:root=MOBILE_DATA_SETTINGS_ID`
+- Mobilusis ryšys → Mobiliojo ryšio duomenų parinktys: `prefs:root=MOBILE_DATA_SETTINGS_ID&path=CELLULAR_DATA_OPTIONS`
+- Mobilusis ryšys → Mobiliojo ryšio duomenų parinktys → Duomenų taupymo režimas: `prefs:root=MOBILE_DATA_SETTINGS_ID&path=CELLULAR_DATA_OPTIONS#Low%20Data%20Mode`
+- Mobilusis ryšys → Mobiliojo ryšio duomenys: `prefs:root=MOBILE_DATA_SETTINGS_ID&path=SHOW_ALL`
+- WLAN | Wi-Fi: `prefs:root=WIFI`
+- Adresatai: `prefs:root=CONTACTS`
+- Adresatai → Leisti prieigą prie adresatų: `prefs:root=CONTACTS#Allow%20Contacts%20To%20Access`
+- Adresatai → Siri: `prefs:root=CONTACTS&path=SIRI_AND_SEARCH`
+- Adresatai → Rikiavimo tvarka: `prefs:root=CONTACTS&path=ContactsSortOrder`
+- Adresatai → Rodymo tvarka: `prefs:root=CONTACTS&path=PersonNameOrder`
+- Adresatai → Trumpasis vardas: `prefs:root=CONTACTS&path=PersonShortName`
+- Adresatai → Trumpasis vardas → Trumpasis vardas: `prefs:root=CONTACTS&path=PersonShortName#Short%20Name`
+- Adresatai → Trumpasis vardas → Pirmenybę teikti slapyvardžiams: `prefs:root=CONTACTS&path=PersonShortName#Prefer%20Nicknames`
+- Adresatai → Mano informacija: `prefs:root=CONTACTS&path=MeCard`
+- Adresatai → Importuoti SIM adresatus: `prefs:root=CONTACTS#SIMImport`
+- Sparčiosios komandos: `prefs:root=SHORTCUTS`
+- Sparčiosios komandos → „iCloud“ sinchronizavimas: `prefs:root=SHORTCUTS#WFCloudKitSyncEnabled`
+- Sparčiosios komandos → Sinchronizuoti sparčiųjų komandų tvarką: `prefs:root=SHORTCUTS#WFCloudKitSyncOrderEnabled`
+- Sparčiosios komandos → Teisiniai pranešimai: `prefs:root=SHORTCUTS&path=Legal%20Notices`
+- TV | Vaizdo įrašai: `prefs:root=TVAPP`
+- TV | Vaizdo įrašai → Atkūrimui naudoti mobiliojo ryšio duomenis: `prefs:root=TVAPP#com.apple.videos%3AVideosUseCellularDataEnabledSetting`
+- TV | Vaizdo įrašai → Atkūrimo kokybė: `prefs:root=TVAPP#com.apple.videos%3APlaybackQualityGroup`
+- TV | Vaizdo įrašai → Pirkiniai ir nuoma: `prefs:root=TVAPP&path=com.apple.videos%3APreferredPurchaseResolution`
+- TV | Vaizdo įrašai → Namų bendrinimas: `prefs:root=TVAPP#com.apple.videos%3AHomeSharingFooter`
+- Muzika: `prefs:root=MUSIC`
+- Muzika → Rodyti „Apple Music“: `prefs:root=MUSIC#com.apple.Music%3AAppleMusicEnabled`
+- Muzika → Įtraukti grojaraščio dainų: `prefs:root=MUSIC#com.apple.Music%3AAddPlaylistSongsToMyMusicSwitch`
+- Muzika → Rodyti įvertinimus žvaigždėmis: `prefs:root=MUSIC#com.apple.Music%3AShowStarRatings`
+- Muzika → Sinchronizuoti biblioteką: `prefs:root=MUSIC#com.apple.Music%3ACloudMusicLibraryEnabled`
+- Muzika → Mobiliojo ryšio duomenys: `prefs:root=MUSIC&path=com.apple.Music%3ACellularData`
+- Muzika → Atsisiųsta muzika: `prefs:root=MUSIC&path=com.apple.Music%3AMusicUsageLink`
+- Muzika → Optimizuoti saugyklą: `prefs:root=MUSIC&path=com.apple.Music%3AOptimizeStorage`
+- Muzika → Automatiniai atsisiuntimai: `prefs:root=MUSIC#com.apple.Music%3AMusicAutomaticDownload`
+- Muzika → EKV: `prefs:root=MUSIC&path=com.apple.Music%3AEQ`
+- Muzika → Garso patikra: `prefs:root=MUSIC#com.apple.Music%3ASoundCheck`
+- Muzika → Naudoti klausymosi istoriją: `prefs:root=MUSIC#com.apple.Music%3APrivateListening`
+- Kamera: `prefs:root=CAMERA`
+- Kamera → Formatai: `prefs:root=CAMERA&path=CameraFormatsSettingsList`
+- Kamera → Formatai → Apple ProRaw: `prefs:root=CAMERA&path=CameraFormatsSettingsList#CAMUserPreferenceEnableLinearDNGControl`
+- Kamera → Record Video: `prefs:root=CAMERA&path=Record%20Video`
+- Kamera → Record Video → HDR vaizdo įrašas: `prefs:root=CAMERA&path=Record%20Video#HDR%20Video`
+- Kamera → Išsaugotieji nustatymai: `prefs:root=CAMERA&path=CameraPreserveSettingsSwitch`
+- Kamera → Išsaugotieji nustatymai → Kameros režimas: `prefs:root=CAMERA&path=CameraPreserveSettingsSwitch#CAMUserPreferencePreserveCaptureMode`
+- Kamera → Tinklelis: `prefs:root=CAMERA#CameraGridSwitch`
+- Kamera → Nuskaityti QR kodus: `prefs:root=CAMERA#CameraQRBannerSwitch`
+- Kompasas: `prefs:root=COMPASS`
+- Kompasas → Naudoti tikrąją šiaurę: `prefs:root=COMPASS#USE_TRUE_NORTH`
+- Pranešimai apie kontaktą: `prefs:root=EXPOSURE_NOTIFICATION`
+- Mail: `prefs:root=MAIL`
+- Mail → Paskyros: `prefs:root=MAIL&path=ACCOUNTS`
+- Mail → Paskyros → Įtraukti paskyrą: `prefs:root=MAIL&path=ACCOUNTS#ADD_ACCOUNT`
+- Mail → Paskyros → Gauti naujų duomenų: `prefs:root=MAIL&path=ACCOUNTS#FETCH_NEW_DATA`
+- Mail → Peržiūrėti: `prefs:root=MAIL&path=Preview`
+- Mail → Rodyti gavėjo / kopijos siuntimo žymes: `prefs:root=MAIL#Show%20To/Cc%20Labels`
+- Mail → Braukimo parinktys: `prefs:root=MAIL&path=Swipe%20Options`
+- Mail → Paklausti prieš ištrinant: `prefs:root=MAIL#Ask%20Before%20Deleting`
+- Mail → Įkelti nuotolinių vaizdų: `prefs:root=MAIL#Load%20Remote%20Images`
+- Mail → Tvarkyti pagal giją: `prefs:root=MAIL#Organize%20by%20Thread`
+- Mail → Suskleisti skaitytas žinutes: `prefs:root=MAIL#Collapse%20Read%20Messages`
+- Mail → Naujausia žinutė viršuje: `prefs:root=MAIL#Most%20Recent%20Message%20on%20Top`
+- Mail → Visos gijos: `prefs:root=MAIL#Complete%20Threads`
+- Mail → Nutildyta gija: `prefs:root=MAIL&path=Muted%20Thread%20Action`
+- Mail → Nepaisyti užblokuotų siuntėjų: `prefs:root=MAIL#Ignore%20Blocked%20Senders`
+- Mail → Užblokuoti siuntėjai: `prefs:root=MAIL&path=Blocked%20Sender%20Options`
+- Mail → Užrakinta: `prefs:root=MAIL&path=Blocked`
+- Mail → Visada siųsti man nematomą kopiją: `prefs:root=MAIL#Always%20Bcc%20Myself`
+- Mail → Žymėti adresus: `prefs:root=MAIL&path=Mark%20Addresses`
+- Mail → Padidinti atitraukimo lygį: `prefs:root=MAIL&path=Increase%20Quote%20Level`
+- Mail → Priedai su atsakymais: `prefs:root=MAIL&path=Include%20Attachments%20with%20Replies`
+- Mail → Parašas: `prefs:root=MAIL&path=Signature`
+- Bluetooth: `prefs:root=Bluetooth`
+- News: `prefs:root=NEWS`
+- News → Rodyti istorijų peržiūras: `prefs:root=NEWS#show_excerpt_mode`
+- News → Riboti istorijas šiandien: `prefs:root=NEWS#showStoriesFromFavoritesSpecifierID`
+- News → Privatumas: `prefs:root=NEWS#Privacy`
+- News → Atkurti identifikatorių: `prefs:root=NEWS#reset_identifier`
+- News → Patvirtinimai: `prefs:root=NEWS&path=Acknowledgements`
+- Nuotraukos: `prefs:root=Photos`
+- Nuotraukos → „iCloud“ nuotraukos: `prefs:root=Photos#iCloudPhotosSwitch`
+- Nuotraukos → Optimizuoti saugyklą: `prefs:root=Photos#iCloudOptimizeStorageOption`
+- Nuotraukos → Atsisiųsti ir palikti originalus: `prefs:root=Photos#iCloudKeepOriginalsOption`
+- Nuotraukos → Bendrinami albumai: `prefs:root=Photos#SharedStreamsSwitch`
+- Nuotraukos → Mobiliojo ryšio duomenys: `prefs:root=Photos&path=CellularDataLinkList`
+- Nuotraukos → Automatinės peržiūros: `prefs:root=Photos#VideoAutoplaySwitch`
+- Nuotraukos → Peržiūrėti „Full HDR“: `prefs:root=Photos#ImageModulationSwitch`
+- Nuotraukos → Rodyti šventes: `prefs:root=Photos#MEMORIES_HOLIDAY_CALENDAR_EVENTS_SWITCH`
+- Nuotraukos → Perkelti į „Mac“ ar kitą kompiuterį: `prefs:root=Photos#TransferGroup`
+- Tinklalaidės: `prefs:root=PODCASTS`
+- Privatumas ir sauga: `prefs:root=Privacy` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity`
+- Privatumas ir sauga → Sveikata: `prefs:root=Privacy&path=HEALTH` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/HEALTH`
+- Privatumas ir sauga → Sveikatos duomenys: `prefs:root=Privacy&path=HEALTH_DATA` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/HEALTH_DATA`
+- Privatumas ir sauga → Vieta: `prefs:root=Privacy&path=LOCATION` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/LOCATION`
+- Privatumas ir sauga → Vieta → Bendrinti mano vietą: `prefs:root=Privacy&path=LOCATION/LOCATION_SHARING` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/LOCATION/LOCATION_SHARING`
+- Privatumas ir sauga → Adresatai: `prefs:root=Privacy&path=CONTACTS` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/CONTACTS`
+- Privatumas ir sauga → Kalendoriai: `prefs:root=Privacy&path=CALENDARS` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/CALENDARS`
+- Privatumas ir sauga → Priminimai: `prefs:root=Privacy&path=REMINDERS` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/REMINDERS`
+- Privatumas ir sauga → Nuotraukos: `prefs:root=Privacy&path=PHOTOS` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/PHOTOS`
+- Privatumas ir sauga → „Bluetooth“ bendrinimas: `prefs:root=Privacy&path=BT_PERIPHERAL` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/BT_PERIPHERAL`
+- Privatumas ir sauga → Mikrofonas: `prefs:root=Privacy&path=MICROPHONE` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/MICROPHONE`
+- Privatumas ir sauga → Šnekos atpažinimas: `prefs:root=Privacy&path=SPEECH_RECOGNITION` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/SPEECH_RECOGNITION`
+- Privatumas ir sauga → Kamera: `prefs:root=Privacy&path=CAMERA` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/CAMERA`
+- Privatumas ir sauga → HomeKit: `prefs:root=Privacy&path=WILLOW` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/WILLOW`
+- Privatumas ir sauga → Medija ir „Apple Music“: `prefs:root=Privacy&path=MEDIALIBRARY` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/MEDIALIBRARY`
+- Privatumas ir sauga → Analizė: `prefs:root=Privacy&path=PROBLEM_REPORTING` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/PROBLEM_REPORTING`
+- Privatumas ir sauga → Reklama: `prefs:root=Privacy&path=ADVERTISING` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/ADVERTISING`
+- Privatumas ir sauga → Failai ir aplankai: `prefs:root=Privacy&path=FILEACCESS` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/FILEACCESS`
+- Privatumas ir sauga → Sekama: `prefs:root=Privacy&path=USER_TRACKING` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/USER_TRACKING`
+- Privatumas ir sauga → Programų privatumo ataskaita: `prefs:root=Privacy&path=PRIVACY_REPORT` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/PRIVACY_REPORT`
+- Privatumas ir sauga → Blokavimo režimas: `prefs:root=Privacy#LOCKDOWN_MODE` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity#LOCKDOWN_MODE#LOCKDOWN_MODE`
+- Privatumas ir sauga → Neskelbtinas turinys: `prefs:root=Privacy#NUDITY_DETECTION` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity#NUDITY_DETECTION#NUDITY_DETECTION`
+- FaceTime: `prefs:root=FACETIME`
+- Ekrano laikas: `prefs:root=SCREEN_TIME`
+- Garsai | Garsai ir haptika: `prefs:root=Sounds`
+- Garsai | Garsai ir haptika → Ausinių sauga: `prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING`
+- Garsai | Garsai ir haptika → Ausinių sauga → „Lightning“ adapteriai: `prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING/HEADPHONE_LIGHTNING_ADAPTERS`
+- Garsai | Garsai ir haptika → Ausinių sauga → Ausinių pranešimai: `prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING#SHSHeadphoneWeeklyNotificationsKey`
+- Garsai | Garsai ir haptika → Ausinių sauga → Pritildyti garsų garso įrašą: `prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING#SHSHeadphoneLevelLimitSwitchKey`
+- Garsai | Garsai ir haptika → Garso efektai: `prefs:root=Sounds&path=SOUND_EFFECTS`
+- Garsai | Garsai ir haptika → Skambutis ir įspėjimai: `prefs:root=Sounds#RINGER_AND_ALERT_GROUP`
+- Garsai | Garsai ir haptika → Keisti mygtukais: `prefs:root=Sounds#CHANGE_WITH_BUTTONS`
+- Garsai | Garsai ir haptika → Garsai ir vibravimo modeliai: `prefs:root=Sounds#SOUNDS_ALERT_GROUP`
+- Garsai | Garsai ir haptika → Skambučio melodija: `prefs:root=Sounds&path=Ringtone`
+- Garsai | Garsai ir haptika → Žinutės garsas: `prefs:root=Sounds&path=Text_Messages`
+- Garsai | Garsai ir haptika → Naujas balso paštas: `prefs:root=Sounds&path=Voicemail`
+- Garsai | Garsai ir haptika → Naujas paštas: `prefs:root=Sounds&path=NEW_MAIL`
+- Garsai | Garsai ir haptika → Išsiųstas paštas: `prefs:root=Sounds&path=SENT_MAIL`
+- Garsai | Garsai ir haptika → Kalendoriaus įspėjimai: `prefs:root=Sounds&path=Calendar%20Alarm`
+- Garsai | Garsai ir haptika → Priminimų įspėjimai: `prefs:root=Sounds&path=Reminder%20Alerts`
+- Garsai | Garsai ir haptika → Klaviatūros spustelėjimai: `prefs:root=Sounds#KEYBOARD_SOUND_SWITCH`
+- Garsai | Garsai ir haptika → Užrakinimo garsas: `prefs:root=Sounds#LOCK_SOUND_SWITCH`
+- Garsai | Garsai ir haptika → Suasmenintas erdvinis garsas: `prefs:root=Sounds&path=Personalized%20Spatial%20Audio`
+- Apple Pencil: `prefs:root=Pencil`
+- Apple Pencil → Apple Pencil: `prefs:root=Pencil#PrefersPencilDraws`
+- Apple Pencil → Apple Pencil: `prefs:root=Pencil#PencilTextInput`
+- Žinutės: `prefs:root=MESSAGES`
+- Akcijos: `prefs:root=STOCKS`
+- Akcijos → Privatumas: `prefs:root=STOCKS#Privacy`
+- Akcijos → Atkurti identifikatorių: `prefs:root=STOCKS#reset_identifier`
+- Vertimas: `prefs:root=TRANSLATE`
+- Vertimas → Įrenginio režimas: `prefs:root=TRANSLATE#OnDeviceOnly`
+- Siri: `prefs:root=SIRI`
+- Siri → Leisti „Siri“ užrakinus ekraną: `prefs:root=SIRI#ASSISTANT_LOCK_SCREEN_ACCESS`
+- Siri → Kalba: `prefs:root=SIRI&path=LANGUAGE_ID`
+- Siri → „Siri“ balsas: `prefs:root=SIRI&path=VOICE_ID`
+- Siri → Garsinis atsakas: `prefs:root=SIRI&path=VOICE_FEEDBACK_ID`
+- Siri → Mano informacija: `prefs:root=SIRI&path=MY_INFO`
+- Sveikata | Sveikatos duomenys: `prefs:root=HEALTH`
+- App Store: `prefs:root=STORE`
+- App Store → Automatiniai atsisiuntimai: `prefs:root=STORE#Automatic%20Downloads`
+- App Store → Programų naujiniai: `prefs:root=STORE#App%20Updates`
+- App Store → Atsisiuntimai: `prefs:root=STORE&path=App%20Downloads`
+- App Store → Automatinės peržiūros: `prefs:root=STORE&path=Video%20Autoplay`
+- App Store → Įvertinimai ir atsiliepimai: `prefs:root=STORE#In-App%20Ratings%20&%20Reviews`
+- Skrydžio režimas: `prefs:root=ROOT#AIRPLANE_MODE`

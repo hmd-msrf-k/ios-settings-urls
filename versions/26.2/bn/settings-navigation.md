@@ -1,0 +1,14 @@
+- গোপনীয়তা ও সুরক্ষা: `settings-navigation://com.apple.Settings.PrivacyAndSecurity`
+- গোপনীয়তা ও সুরক্ষা → সেফটি চেক: `settings-navigation://com.apple.Settings.PrivacyAndSecurity/SAFETY_CHECK`
+- Apps: `settings-navigation://com.apple.Settings.Apps`
+- Apps → Safari: `settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari/` or `prefs:root=SAFARI`
+- Apps → Safari → এক্সটেনশন: `settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari/WEB_EXTENSIONS` or `prefs:root=SAFARI&path=WEB_EXTENSIONS`
+- Apps → Safari → পপ-আপ ব্লক করুন: `settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari#BLOCK_POPUPS`
+- Apps → Safari → ক্রস-সাইট ট্র্যাকিং থেকে বিরত রাখুন: `settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari#TRACKER_PROTECTION`
+- Apps → Safari → অটোফিল: `settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari/AUTO_FILL` or `prefs:root=SAFARI&path=AUTO_FILL`
+- Apps → Safari → ডাউনলোড: `settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari/DOWNLOADS` or `prefs:root=SAFARI&path=DOWNLOADS`
+- Apps → পাসওয়ার্ড: `settings-navigation://com.apple.Settings.Apps/com.apple.Passwords`
+- Apps → পাসওয়ার্ড → সুরক্ষা সংক্রান্ত পরামর্শ: `settings-navigation://com.apple.Settings.Apps/com.apple.Passwords#SECURITY_RECOMMENDATIONS`
+- হোম: `settings-navigation://com.apple.Settings.HomeKit`
+- Search: `settings-navigation://com.apple.Settings.Search`
+- TV প্রোভাইডার: `settings-navigation://com.apple.Settings.TVProvider`

@@ -1,0 +1,414 @@
+- Bateria: `prefs:root=BATTERY_USAGE`
+- Bateria → Tryb Niskie zużycie energii: `prefs:root=BATTERY_USAGE#BATTERY_SAVER_MODE`
+- Bateria → Kondycja baterii: `prefs:root=BATTERY_USAGE#BATTERY_HEALTH_ID`
+- Ogólne: `prefs:root=General`
+- Ogólne → VPN i urządzenia zarządzane: `prefs:root=General&path=ManagedConfigurationList`
+- Ogólne → Wypełnianie i Hasła: `prefs:root=General&path=AUTOFILL`
+- Ogólne → Wypełnianie i Hasła → Automatyczne wypełnianie haseł: `prefs:root=General&path=AUTOFILL#AUTOFILL`
+- Ogólne → Wypełnianie i Hasła → Wyczyść kody weryfikacyjne: `prefs:root=General&path=AUTOFILL#CLEAN_UP_VERIFICATION_CODES`
+- Ogólne → Wypełnianie i Hasła → Skonfiguruj kody weryfikacyjne: `prefs:root=General&path=AUTOFILL#SET_UP_VERIFICATION_CODES`
+- Ogólne → AppleCare i gwarancja: `prefs:root=General&path=COVERAGE/`
+- Ogólne → Słownik: `prefs:root=General&path=DICTIONARY`
+- Ogólne → Klawiatura: `prefs:root=General&path=Keyboard`
+- Ogólne → Klawiatura → Klawiatury: `prefs:root=General&path=Keyboard/KEYBOARDS`
+- Ogólne → Klawiatura → Zastępowanie tekstu: `prefs:root=General&path=Keyboard/USER_DICTIONARY`
+- Ogólne → Klawiatura → Zaczynaj wielką literą: `prefs:root=General&path=Keyboard#KeyboardAutocapitalization`
+- Ogólne → Klawiatura → Automatyczna korekta: `prefs:root=General&path=Keyboard#KeyboardAutocorrection`
+- Ogólne → Klawiatura → Sprawdź pisownię: `prefs:root=General&path=Keyboard#KeyboardCheckSpelling`
+- Ogólne → Klawiatura → Włącz Caps Lock: `prefs:root=General&path=Keyboard#KeyboardCapsLock`
+- Ogólne → Klawiatura → Skróty: `prefs:root=General&path=Keyboard#KeyboardAssistant`
+- Ogólne → Klawiatura → Predykcja: `prefs:root=General&path=Keyboard#KeyboardPrediction`
+- Ogólne → Klawiatura → Interpunkcja inteligentna: `prefs:root=General&path=Keyboard#SmartTyping`
+- Ogólne → Klawiatura → Podzielona klawiatura: `prefs:root=General&path=Keyboard#RivenKeyboard`
+- Ogólne → Klawiatura → Włącz przesunięcia: `prefs:root=General&path=Keyboard#GesturesEnabled`
+- Ogólne → Klawiatura → Podgląd znaków: `prefs:root=General&path=Keyboard#KeyboardAllowPaddle`
+- Ogólne → Klawiatura → Skrót „.”: `prefs:root=General&path=Keyboard#KeyboardPeriodShortcut`
+- Ogólne → Klawiatura → Rysuj ścieżkę, aby pisać: `prefs:root=General&path=Keyboard#KeyboardContinuousPathEnabled`
+- Ogólne → Klawiatura → Włącz dyktowanie: `prefs:root=General&path=Keyboard#Dictation`
+- Ogólne → Klawiatura → Automatyczna interpunkcja: `prefs:root=General&path=Keyboard#AutoPunctuationSetting`
+- Ogólne → Uaktualnienie oprogramowania: `prefs:root=General&path=SOFTWARE_UPDATE_LINK`
+- Ogólne → Uaktualnienie oprogramowania → Uaktualn. automatyczne: `prefs:root=General&path=SOFTWARE_UPDATE_LINK/SUAutomaticUpdateButton`
+- Ogólne → Pamięć: `prefs:root=General&path=STORAGE_MGMT`
+- Ogólne → Pamięć → Pamięć: `prefs:root=General&path=STORAGE_MGMT#MANAGE`
+- Ogólne → Pamięć → Odinstaluj nieużywane: `prefs:root=General&path=STORAGE_MGMT#OFFLOAD`
+- Ogólne → Obraz w obrazie: `prefs:root=General&path=PiP_SPEC`
+- Ogólne → Gładzik | Gładzik i mysz: `prefs:root=General&path=POINTERS`
+- Ogólne → NFC: `prefs:root=General&path=NFC_LINK`
+- Ogólne → VPN: `prefs:root=General&path=VPN`
+- Ogólne → CarPlay: `prefs:root=General&path=CARPLAY`
+- Ogólne → To urządzenie…: `prefs:root=General&path=About`
+- Ogólne → To urządzenie… → Zaufane certyfikaty: `prefs:root=General&path=About/CERT_TRUST_SETTINGS`
+- Ogólne → To urządzenie… → Numer seryjny: `prefs:root=General&path=About#SerialNumber`
+- Ogólne → To urządzenie… → Numer modelu: `prefs:root=General&path=About#ProductModel`
+- Ogólne → To urządzenie… → Nazwa modelu: `prefs:root=General&path=About#ProductModelName`
+- Ogólne → To urządzenie… → Wersja iOS: `prefs:root=General&path=About/SW_VERSION_SPECIFIER`
+- Ogólne → Informacje prawne i certyfikaty: `prefs:root=General&path=LEGAL_AND_REGULATORY`
+- Ogólne → Informacje prawne i certyfikaty → Gwarancja: `prefs:root=General&path=LEGAL_AND_REGULATORY#Warranty`
+- Ogólne → AirDrop: `prefs:root=General&path=AIRDROP_LINK`
+- Ogólne → AirDrop → Zbliżanie urządzeń do siebie: `prefs:root=General&path=AIRDROP_LINK#AIRDROP_NFC_ID`
+- Ogólne → Przycisk główny: `prefs:root=General&path=HOME_BUTTON`
+- Ogólne → Przełącznik boczny: `prefs:root=General#Rotation_Switch_Action_Group`
+- Ogólne → Odświeżanie aplikacji w tle: `prefs:root=General&path=AUTO_CONTENT_DOWNLOAD`
+- Ogólne → Data i czas: `prefs:root=General&path=DATE_AND_TIME`
+- Ogólne → Wyjście TV: `prefs:root=General&path=TV_OUT`
+- Ogólne → Wyzeruj: `prefs:root=General&path=Reset`
+- Ogólne → Wyzeruj → Wyzeruj wszystkie ustawienia: `prefs:root=General&path=Reset#settingsErase`
+- Ogólne → Wyzeruj → Wymaż zawartość i ustawienia: `prefs:root=General&path=Reset#fullErase`
+- Ogólne → Wyzeruj → Ustawienia sieciowe: `prefs:root=General&path=Reset#RESET_NETWORK_LABEL`
+- Ogólne → Wyzeruj → Usuń wszystkie plany danych komórkowych: `prefs:root=General&path=Reset#cellularErase`
+- Ogólne → Wyzeruj → Usługi subskrypcji: `prefs:root=General&path=Reset#SUBSCRIBER_SERVICES_ID`
+- Ogólne → Wyzeruj → Słownik klawiatury: `prefs:root=General&path=Reset#RESET_KEYBOARD_DICTIONARY_LABEL`
+- Ogólne → Wyzeruj → Wyzeruj ekran główny: `prefs:root=General&path=Reset#RESET_ICONS_LABEL`
+- Ogólne → Wyzeruj → Dane lokalizacji/prywatności: `prefs:root=General&path=Reset#RESET_PRIVACY_LABEL`
+- Ogólne → Wyłącz: `prefs:root=General#SHUTDOWN_LABEL`
+- Ogólne → AirPlay i Continuity: `prefs:root=General&path=CONTINUITY_SPEC`
+- Ogólne → AirPlay i Continuity → Handoff: `prefs:root=General&path=CONTINUITY_SPEC#CONTINUITY`
+- Ogólne → AirPlay i Continuity → Przekaż na HomePoda: `prefs:root=General&path=CONTINUITY_SPEC#TRANSFER_TO_HOMEPOD`
+- Ogólne → AirPlay i Continuity → AirPlay automatycznie: `prefs:root=General&path=CONTINUITY_SPEC#AUTOMATICALLY_AIRPLAY`
+- Ogólne → AirPlay i Continuity → Kamera Continuity: `prefs:root=General&path=CONTINUITY_SPEC#WOMBAT_CAMERA`
+- Ogólne → Język i region: `prefs:root=General&path=INTERNATIONAL`
+- Ogólne → Język i region → Inne języki…: `prefs:root=General&path=INTERNATIONAL#NEW_PREFERRED_LANGUAGE`
+- Ogólne → Język i region → Preferowana kolejność języków: `prefs:root=General&path=INTERNATIONAL#PREFERRED_LANGUAGE_GROUP`
+- Ogólne → Język i region → Dodaj język…: `prefs:root=General&path=INTERNATIONAL#ADD_PREFERRED_LANGUAGE`
+- Ogólne → Język i region → Region: `prefs:root=General&path=INTERNATIONAL/LOCALE`
+- Ogólne → Język i region → Liczby: `prefs:root=General&path=INTERNATIONAL/NUMBERING_SYSTEM`
+- Ogólne → Język i region → Kalendarz: `prefs:root=General&path=INTERNATIONAL/CALENDAR`
+- Ogólne → Język i region → Jednostka temperatury: `prefs:root=General&path=INTERNATIONAL/TEMPERATURE_UNIT`
+- Konto Apple: `prefs:root=APPLE_ACCOUNT` or `settings-navigation://com.apple.Settings.AppleAccount`
+- Konto Apple → Weryfikacja kluczy kontaktów: `prefs:root=APPLE_ACCOUNT&path=TRANSPARENCY` or `settings-navigation://com.apple.Settings.AppleAccount/TRANSPARENCY`
+- Konto Apple → iCloud: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE` or `prefs:root=CASTLE`
+- Konto Apple → iCloud → Miejsce w iCloud: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/STORAGE_AND_BACKUP` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/STORAGE_AND_BACKUP` or `prefs:root=CASTLE&path=STORAGE_AND_BACKUP`
+- Konto Apple → iCloud → iCloud Drive: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Ubiquity` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Ubiquity` or `prefs:root=CASTLE&path=com.apple.Dataclass.Ubiquity`
+- Konto Apple → iCloud → Zdjęcia: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.MediaStream` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.MediaStream` or `prefs:root=CASTLE&path=com.apple.Dataclass.MediaStream`
+- Konto Apple → iCloud → Poczta: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Mail` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail` or `prefs:root=CASTLE&path=com.apple.Dataclass.Mail`
+- Konto Apple → iCloud → Kontakty: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Contacts` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Contacts` or `prefs:root=CASTLE&path=com.apple.Dataclass.Contacts`
+- Konto Apple → iCloud → Kalendarz: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Calendars` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Calendars` or `prefs:root=CASTLE&path=com.apple.Dataclass.Calendars`
+- Konto Apple → iCloud → Przypomnienia: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Reminders` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Reminders` or `prefs:root=CASTLE&path=com.apple.Dataclass.Reminders`
+- Konto Apple → iCloud → Safari: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Bookmarks` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Bookmarks` or `prefs:root=CASTLE&path=com.apple.Dataclass.Bookmarks`
+- Konto Apple → iCloud → Notatki: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Notes` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Notes` or `prefs:root=CASTLE&path=com.apple.Dataclass.Notes`
+- Konto Apple → iCloud → News: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.News` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.News` or `prefs:root=CASTLE&path=com.apple.Dataclass.News`
+- Konto Apple → iCloud → Backup: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/BACKUP` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/BACKUP` or `prefs:root=CASTLE&path=BACKUP`
+- Konto Apple → iCloud → Zdrowie: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Health` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Health` or `prefs:root=CASTLE&path=com.apple.Dataclass.Health`
+- Konto Apple → iCloud → Hasła i pęk kluczy: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.KeychainSync` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.KeychainSync` or `prefs:root=CASTLE&path=com.apple.Dataclass.KeychainSync`
+- Konto Apple → iCloud → Ukryj mój adres email: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/PRIVATE_EMAIL_MANAGE` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/PRIVATE_EMAIL_MANAGE` or `prefs:root=CASTLE&path=PRIVATE_EMAIL_MANAGE`
+- Konto Apple → Udostępniaj moje położenie: `prefs:root=APPLE_ACCOUNT&path=LOCATION_SHARING` or `settings-navigation://com.apple.Settings.AppleAccount/LOCATION_SHARING`
+- Konto Apple → Udostępniaj moje położenie → Znajdź: `prefs:root=APPLE_ACCOUNT&path=LOCATION_SHARING/FindMyDevice-Settings` or `settings-navigation://com.apple.Settings.AppleAccount/LOCATION_SHARING/FindMyDevice-Settings`
+- Konto Apple → Użytkownik, telefony, email: `prefs:root=APPLE_ACCOUNT&path=APPLE_ACCOUNT_CONTACT` or `settings-navigation://com.apple.Settings.AppleAccount/APPLE_ACCOUNT_CONTACT`
+- Konto Apple → Hasło i ochrona: `prefs:root=APPLE_ACCOUNT&path=PASSWORD_AND_SECURITY` or `settings-navigation://com.apple.Settings.AppleAccount/PASSWORD_AND_SECURITY`
+- Konto Apple → Płatność i wysyłka: `prefs:root=APPLE_ACCOUNT&path=PAYMENT_AND_SHIPPING` or `settings-navigation://com.apple.Settings.AppleAccount/PAYMENT_AND_SHIPPING`
+- Konto Apple → Subskrypcje: `prefs:root=APPLE_ACCOUNT&path=SUBSCRIPTIONS` or `settings-navigation://com.apple.Settings.AppleAccount/SUBSCRIPTIONS`
+- Konto Apple → Rodzina: `prefs:root=APPLE_ACCOUNT&path=Family` or `settings-navigation://com.apple.Settings.AppleAccount/Family`
+- Powiadomienia: `prefs:root=NOTIFICATIONS_ID`
+- Powiadomienia → Planowe podsumowania: `prefs:root=NOTIFICATIONS_ID&path=SCHEDULED_DELIVERY_ID`
+- Pogoda: `prefs:root=WEATHER`
+- Freeform: `prefs:root=FREEFORM`
+- Tryb skupienia: `prefs:root=DO_NOT_DISTURB`
+- Tryb skupienia → Status trybu skupienia: `prefs:root=DO_NOT_DISTURB&path=status`
+- Dziennik: `prefs:root=JOURNAL`
+- Portfel i Apple Pay: `prefs:root=PASSBOOK`
+- Portfel i Apple Pay → Apple Cash: `prefs:root=PASSBOOK#Apple%C2%A0Cash`
+- Portfel i Apple Pay → Karty płatnicze: `prefs:root=PASSBOOK#SETTINGS_PAYMENT_CARDS_GROUP`
+- Portfel i Apple Pay → Dodaj kartę: `prefs:root=PASSBOOK#Add%20Card`
+- Portfel i Apple Pay → Naciśnij 2x przycisk boczny: `prefs:root=PASSBOOK#Double-Click%20Side%20Button`
+- Portfel i Apple Pay → Śledzenie zamówień: `prefs:root=PASSBOOK#ORDER_TRACKING`
+- Ekran i jasność | Wygląd: `prefs:root=DISPLAY`
+- Ekran i jasność | Wygląd → Wygląd: `prefs:root=DISPLAY#DEVICE_APPEARANCE`
+- Ekran i jasność | Wygląd → True Tone: `prefs:root=DISPLAY#WHITE_BALANCE`
+- Ekran i jasność | Wygląd → Night Shift: `prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION`
+- Ekran i jasność | Wygląd → Night Shift → Według harmonogramu: `prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION#SCHEDULED`
+- Ekran i jasność | Wygląd → Night Shift → Włącz ręcznie do jutra: `prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION#MANUAL`
+- Ekran i jasność | Wygląd → Night Shift → Temperatura kolorów: `prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION#COLOR_TEMPERATURE`
+- Ekran i jasność | Wygląd → Autoblokada: `prefs:root=DISPLAY&path=AUTOLOCK`
+- Ekran i jasność | Wygląd → Unieś, aby obudzić: `prefs:root=DISPLAY#RAISE_TO_WAKE`
+- Ekran i jasność | Wygląd → Blokuj/odblokuj: `prefs:root=DISPLAY#SMART_CASE_LOCK_SPEC`
+- Ekran i jasność | Wygląd → Wielkość tekstu: `prefs:root=DISPLAY&path=TEXT_SIZE`
+- Ekran i jasność | Wygląd → Pogrubiony tekst: `prefs:root=DISPLAY#BOLD_TEXT`
+- Ekran i jasność | Wygląd → Jasność: `prefs:root=DISPLAY#BRIGHTNESS`
+- Ekran i jasność | Wygląd → Zoom ekranu: `prefs:root=DISPLAY#DISPLAY_ZOOM_GROUP`
+- Ekran i jasność | Wygląd → Wygląd: `prefs:root=DISPLAY&path=APPEARANCE`
+- Ekran i jasność | Wygląd → Wygląd → Zoom okna: `prefs:root=DISPLAY&path=APPEARANCE#WINDOW_ZOOM`
+- Ekran i jasność | Wygląd → Wygląd → Dwuręczny zoom okna: `prefs:root=DISPLAY&path=APPEARANCE#TWO_HANDED_WINDOW_ZOOM`
+- Ekran i jasność | Wygląd → Widok: `prefs:root=DISPLAY&path=MAGNIFY`
+- Ekran i jasność | Wygląd → Zawsze włączony: `prefs:root=DISPLAY&path=ALWAYS_ON`
+- Ekran i jasność | Wygląd → Zawsze włączony → Zawsze włączony: `prefs:root=DISPLAY&path=ALWAYS_ON#ALWAYS_ON`
+- Ekran i jasność | Wygląd → Zgodne aplikacje: `prefs:root=DISPLAY&path=COMPATIBLE_APPEARANCE`
+- Ekran i jasność | Wygląd → Zgodne aplikacje → Ciemny, Jasny: `prefs:root=DISPLAY&path=COMPATIBLE_APPEARANCE#COMPATIBLE_APPEARANCE_CHOICES`
+- Miarka: `prefs:root=MEASURE` or `settings-navigation://com.apple.Settings.Apps/com.apple.measure`
+- Miarka → Jednostki miary: `prefs:root=MEASURE#MEASURE_UNITS` or `settings-navigation://com.apple.Settings.Apps/com.apple.measure#MEASURE_UNITS#MEASURE_UNITS`
+- Miarka → Imperialne: `prefs:root=MEASURE#Imperial` or `settings-navigation://com.apple.Settings.Apps/com.apple.measure#Imperial#Imperial`
+- Miarka → Metryczne: `prefs:root=MEASURE#Metric` or `settings-navigation://com.apple.Settings.Apps/com.apple.measure#Metric#Metric`
+- Tapeta: `prefs:root=Wallpaper`
+- Centrum sterowania: `prefs:root=ControlCenter`
+- Centrum sterowania → Dostęp z aplikacji: `prefs:root=ControlCenter#ALLOWED_WITHIN_APPS`
+- Centrum sterowania → Dostosuj narzędzia: `prefs:root=ControlCenter&path=CUSTOMIZE_CONTROLS`
+- Dyktafon: `prefs:root=VOICE_MEMOS`
+- Dyktafon → Wymazuj usunięte: `prefs:root=VOICE_MEMOS&path=RCVoiceMemosRecentlyDeletedWindowKey`
+- Dyktafon → Jakość dźwięku: `prefs:root=VOICE_MEMOS&path=RCVoiceMemosAudioQualityKey`
+- Dyktafon → Nazwy wskazujące położenie: `prefs:root=VOICE_MEMOS#RCVoiceMemosUseLocationBasedNaming`
+- Kalendarz: `prefs:root=CALENDAR`
+- Kalendarz → Ustalona strefa czasowa: `prefs:root=CALENDAR&path=TimeZoneCityArray`
+- Kalendarz → Inne kalendarze: `prefs:root=CALENDAR&path=Alternate%20Calendars`
+- Kalendarz → Numery tygodni: `prefs:root=CALENDAR#Week%20Numbers`
+- Kalendarz → Pokaż odrzucone zaproszenia: `prefs:root=CALENDAR#Show%20Invitee%20Declines`
+- Kalendarz → Synchronizuj: `prefs:root=CALENDAR&path=Sync`
+- Kalendarz → Domyślne czasy alertów: `prefs:root=CALENDAR&path=Default%20Alert%20Times`
+- Kalendarz → 1. dzień tygodnia: `prefs:root=CALENDAR&path=Start%20Week%20On`
+- Kalendarz → Sugestie miejsc: `prefs:root=CALENDAR#Location%20Suggestions`
+- Deweloper: `prefs:root=DEVELOPER_SETTINGS`
+- Deweloper → Trasowanie wielościeżkowe: `prefs:root=DEVELOPER_SETTINGS&path=MULTI_PATH_AGG`
+- Deweloper → Trasowanie wielościeżkowe → Trasowanie wielościeżkowe: `prefs:root=DEVELOPER_SETTINGS&path=MULTI_PATH_AGG#Multipath%20Networking`
+- Deweloper → Wygląd: `prefs:root=DEVELOPER_SETTINGS#UIAppearanceGroup`
+- Deweloper → Wygląd ciemny: `prefs:root=DEVELOPER_SETTINGS#UIAppearanceSettings`
+- Deweloper → Urządzenia połączone w parę: `prefs:root=DEVELOPER_SETTINGS#DTPairedDevicesGroup`
+- Deweloper → Wymaż zaufane komputery: `prefs:root=DEVELOPER_SETTINGS#CLEAR_TRUSTED_COMPUTERS`
+- Deweloper → Rejestrowanie: `prefs:root=DEVELOPER_SETTINGS&path=DTInstrumentsSettings`
+- Deweloper → Automatyzacja UI | Włącz automatyzację UI: `prefs:root=DEVELOPER_SETTINGS#UIAGroup`
+- Deweloper → Sieci: `prefs:root=DEVELOPER_SETTINGS#NLCGroup`
+- Deweloper → Network Link Conditioner: `prefs:root=DEVELOPER_SETTINGS&path=NLC`
+- Deweloper → Rejestrowanie dodatkowe: `prefs:root=DEVELOPER_SETTINGS#ADDITIONAL_LOGGING`
+- Deweloper → Dopuszczaj usługi HTTP: `prefs:root=DEVELOPER_SETTINGS#ALLOW_HTTP_SERVICES`
+- Deweloper → Wyłącz ograniczenia żądań: `prefs:root=DEVELOPER_SETTINGS#DISABLE_RATE_LIMITING`
+- Deweloper → Opcjonalny klucz NFC: `prefs:root=DEVELOPER_SETTINGS#NFC_PASS_KEY_OPTIONAL`
+- Deweloper → Testowanie usług multimediów: `prefs:root=DEVELOPER_SETTINGS#MEDIA_SERVICES_TESTING`
+- Deweloper → Wyzeruj usługi multimediów: `prefs:root=DEVELOPER_SETTINGS#RESET_MEDIA_SERVICES`
+- Deweloper → Testowanie News: `prefs:root=DEVELOPER_SETTINGS#NEWS_TESTING`
+- Deweloper → Wyzeruj dane lokalne przy następnym uruchomieniu: `prefs:root=DEVELOPER_SETTINGS#RESET_LOCAL_DATA_ON_NEXT_LAUNCH`
+- Deweloper → Testowanie Media Player Framework: `prefs:root=DEVELOPER_SETTINGS#RoutineSettingsGroup`
+- Deweloper → API treści do odtwarzania: `prefs:root=DEVELOPER_SETTINGS&path=RoutineSettings`
+- Deweloper → Dostawca TV: `prefs:root=DEVELOPER_SETTINGS&path=VideoSubscriberAccountSettings`
+- Deweloper → ClassKit API: `prefs:root=DEVELOPER_SETTINGS&path=ClassKitSettings`
+- Deweloper → Testowanie CoreSpotlight: `prefs:root=DEVELOPER_SETTINGS#CORESPOTLIGHT_TESTING`
+- Deweloper → Indeksuj ponownie wszystkie rzeczy: `prefs:root=DEVELOPER_SETTINGS#REINDEX_ALL_ITEMS`
+- Deweloper → Indeksuj ponownie rzeczy z ID: `prefs:root=DEVELOPER_SETTINGS#REINDEX_ALL_ITEMS_WITH_IDENTIFIERS`
+- Deweloper → Testowanie aplikacji Skróty: `prefs:root=DEVELOPER_SETTINGS#SIRI_ACTIONS_TESTING`
+- Deweloper → Wyświetl ostatnie skróty: `prefs:root=DEVELOPER_SETTINGS#DISPLAY_DONATIONS_SPOTLIGHT`
+- Deweloper → Wyświetl następne multimedia: `prefs:root=DEVELOPER_SETTINGS#DISPLAY_UPCOMING_MEDIA`
+- Deweloper → Wyświetlaj datki na ekranie blokady: `prefs:root=DEVELOPER_SETTINGS#DISPLAY_DONATIONS_LOCKSCREEN`
+- Deweloper → Wymuszaj synchronizację skrótów z zegarkiem: `prefs:root=DEVELOPER_SETTINGS#SIRI_ACTIONS_SYNC_WATCHOS`
+- Deweloper → Testowanie MIDI-CI: `prefs:root=DEVELOPER_SETTINGS#MIDI_CI_API_BETA`
+- Deweloper → Włącz MIDI-CI: `prefs:root=DEVELOPER_SETTINGS#MIDI_CI_API_BETA_ENABLE`
+- Deweloper → Wykrywanie zdarzeń hang: `prefs:root=DEVELOPER_SETTINGS#HANGTRACER_EXTERNAL_CONFIGURE`
+- Face ID i kod | Kod | Touch ID i kod: `prefs:root=PASSCODE`
+- Face ID i kod | Kod | Touch ID i kod → Wyłącz kod: `prefs:root=PASSCODE#PASSCODE_OFF`
+- Face ID i kod | Kod | Touch ID i kod → Zmień kod: `prefs:root=PASSCODE#CHANGE_PASSCODE`
+- Face ID i kod | Kod | Touch ID i kod → Wymagaj kodu: `prefs:root=PASSCODE&path=PASSCODE_REQ`
+- Face ID i kod | Kod | Touch ID i kod → Wybieranie głosowe: `prefs:root=PASSCODE#VOICE_DIAL`
+- Face ID i kod | Kod | Touch ID i kod → Pozwalaj na dostęp z ekranu blokady:: `prefs:root=PASSCODE#ALLOW_ACCESS_WHEN_LOCKED`
+- Face ID i kod | Kod | Touch ID i kod → Odpow. wiadomością: `prefs:root=PASSCODE#REPLY_WITH_MESSAGE_SWITCH`
+- Face ID i kod | Kod | Touch ID i kod → Sterowanie domem: `prefs:root=PASSCODE#HOME_CONTROL_SWITCH`
+- Face ID i kod | Kod | Touch ID i kod → Portfel: `prefs:root=PASSCODE#WALLET_SWITCH`
+- Face ID i kod | Kod | Touch ID i kod → Oddzwoń (nieodebrane): `prefs:root=PASSCODE#RETURN_MISSED_CALLS_SWITCH`
+- Face ID i kod | Kod | Touch ID i kod → Wymaż dane: `prefs:root=PASSCODE#WIPE_DEVICE`
+- Face ID i kod | Kod | Touch ID i kod → Odblokowuj, używając Apple Watch: `prefs:root=PASSCODE#AUTO_UNLOCK_DEVICES_GROUP`
+- Face ID i kod | Kod | Touch ID i kod → Ochrona skradzionego urządzenia: `prefs:root=PASSCODE#DTO_GROUP_ID`
+- Telefon: `prefs:root=Phone`
+- Telefon → Mój numer: `prefs:root=Phone&path=My%20Number`
+- Telefon → Przychodzące: `prefs:root=Phone&path=INCOMING_CALL_STYLE`
+- Telefon → Ogłaszaj połączenia: `prefs:root=Phone&path=ANNOUNCE_CALLS`
+- Telefon → Zgłaszanie SMS-ów i połączeń: `prefs:root=Phone&path=CLASSIFICATION_AND_REPORTING`
+- Telefon → Odpowiedz wiadomością: `prefs:root=Phone&path=Respond%20with%20Text`
+- Telefon → Przekazywanie połączeń: `prefs:root=Phone&path=Call%20Forwarding`
+- Telefon → Przekazywanie połączeń → Przekazywanie połączeń: `prefs:root=Phone&path=Call%20Forwarding#idMasterOnOffSwitch`
+- Telefon → Połączenia oczekujące: `prefs:root=Phone&path=Call%20Waiting`
+- Telefon → Pokaż moje ID wywołującego: `prefs:root=Phone&path=Show%20My%20Caller%20ID`
+- Telefon → Pokaż moje ID wywołującego → Pokaż moje ID wywołującego: `prefs:root=Phone&path=Show%20My%20Caller%20ID/Primary`
+- Telefon → Pokaż moje ID wywołującego → Pokaż moje ID wywołującego → Pokaż moje ID wywołującego: `prefs:root=Phone&path=Show%20My%20Caller%20ID/Primary#Show%20My%20Caller%20ID`
+- Telefon → Wyciszaj od nieznanych: `prefs:root=Phone#SILENCE_CALLS`
+- Telefon → Zablokowane kontakty: `prefs:root=Phone&path=SPECIFIER_IDENTIFIER_BLACKLIST`
+- Telefon → Numer kierunkowy: `prefs:root=Phone&path=Dial%20Assist`
+- Notatki: `prefs:root=NOTES` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes`
+- Notatki → Konto domyślne: `prefs:root=NOTES&path=Default%20Account` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes/Default%20Account`
+- Notatki → Hasło: `prefs:root=NOTES&path=Password` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes/Password`
+- Notatki → Sortuj notatki wg: `prefs:root=NOTES&path=Sort%20Notes%20By` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes/Sort%20Notes%20By`
+- Notatki → Notatki zaczynaj od: `prefs:root=NOTES&path=New%20Notes%20Start%20With` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes/New%20Notes%20Start%20With`
+- Notatki → Sortuj zaznaczone pozycje: `prefs:root=NOTES&path=Sort%20Checked%20Items` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes/Sort%20Checked%20Items`
+- Notatki → Linie i siatki: `prefs:root=NOTES&path=Lines%20%26%20Grids` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes/Lines%20%26%20Grids`
+- Notatki → Zachowaj w Zdjęciach: `prefs:root=NOTES#Save%20to%20Photos` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes#Save%20to%20Photos#Save%20to%20Photos`
+- Notatki → Dostęp z ekranu blokady: `prefs:root=NOTES&path=Access%20Notes%20from%20Lock%20Screen` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes/Access%20Notes%20from%20Lock%20Screen`
+- Książki: `prefs:root=IBOOKS`
+- Książki → Treść online: `prefs:root=IBOOKS#BKAllowOnlineContent`
+- Książki → SYNCHRONIZUJĘ: `prefs:root=IBOOKS#SYNCING`
+- Książki → Czytane: `prefs:root=IBOOKS#BKLibrary.ReadingNow`
+- Książki → iCloud Drive: `prefs:root=IBOOKS#BCSyncICloudDrive`
+- Książki → CZYTAM: `prefs:root=IBOOKS#READING`
+- Książki → Pełna justyfikacja: `prefs:root=IBOOKS#BKFullJustification`
+- Książki → Autom. dzielenie wyrazów: `prefs:root=IBOOKS#BKAutoHyphenation`
+- Książki → Oba marginesy: `prefs:root=IBOOKS#BKLeftTapTurnToNext`
+- Książki → Cele czytelnicze: `prefs:root=IBOOKS#READING_GOALS`
+- Książki → Wymaż dane celów czytelniczych: `prefs:root=IBOOKS#BKReadingGoalsShouldClearDataKey`
+- Książki → SZUKAM: `prefs:root=IBOOKS#SEARCHING`
+- Książki → Księgarnia: `prefs:root=IBOOKS#BKIncludeBookStoreResultsInSearch`
+- Książki → AUDIOBOOKI: `prefs:root=IBOOKS#AUDIOBOOKS`
+- Książki → Przejdź do przodu: `prefs:root=IBOOKS&path=BKAudioBookSkipForward`
+- Książki → Przejdź do tyłu: `prefs:root=IBOOKS&path=BKAudioBookSkipBackward`
+- Książki → NARZĘDZIA ZEWNĘTRZNE: `prefs:root=IBOOKS#BKRemoteSkipInsteadOfNextTrackDefaultKey`
+- Książki → Następny/poprzedni: `prefs:root=IBOOKS#Next/Previous`
+- Książki → Przejdź do przodu/tyłu: `prefs:root=IBOOKS#Skip%20Forward/Back`
+- Książki → PRYWATNOŚĆ: `prefs:root=IBOOKS#PRIVACY`
+- Książki → Wyzeruj identyfikator: `prefs:root=IBOOKS#BAResetAnalyticsUserID`
+- Książki → Podziękowania: `prefs:root=IBOOKS&path=Acknowledgements`
+- Game Center: `prefs:root=GAMECENTER`
+- Alarmowe SOS: `prefs:root=EMERGENCY_SOS`
+- Alarmowe SOS → Dzwoń przyciskiem bocznym: `prefs:root=EMERGENCY_SOS#CALL_WITH_SIDE_BUTTON`
+- Alarmowe SOS → Dzwoń automatycznie: `prefs:root=EMERGENCY_SOS#AUTO_CALL`
+- Alarmowe SOS → Kontakty alarmowe: `prefs:root=EMERGENCY_SOS#EMERGENCY_CONTACTS`
+- Alarmowe SOS → Dźwięk odliczania: `prefs:root=EMERGENCY_SOS#ALARM_SOUND_SWITCH`
+- Przypomnienia: `prefs:root=REMINDERS`
+- Przypomnienia → Lista domyślna: `prefs:root=REMINDERS&path=DEFAULT_LIST`
+- Przypomnienia → Lista domyślna → Przypomnienia: `prefs:root=REMINDERS&path=DEFAULT_LIST#preferredDefaultListID`
+- Przypomnienia → Powiadomienie z dzisiaj: `prefs:root=REMINDERS#todayNotificationFireTime`
+- Przypomnienia → Pokazuj jako zaległe: `prefs:root=REMINDERS#showRemindersAsOverdue`
+- Sieć komórkowa: `prefs:root=MOBILE_DATA_SETTINGS_ID`
+- Sieć komórkowa → Opcje danych kom.: `prefs:root=MOBILE_DATA_SETTINGS_ID&path=CELLULAR_DATA_OPTIONS`
+- Sieć komórkowa → Opcje danych kom. → Tryb niskiego transferu danych: `prefs:root=MOBILE_DATA_SETTINGS_ID&path=CELLULAR_DATA_OPTIONS#Low%20Data%20Mode`
+- Sieć komórkowa → Dane komórkowe: `prefs:root=MOBILE_DATA_SETTINGS_ID&path=SHOW_ALL`
+- WLAN | Wi‑Fi: `prefs:root=WIFI`
+- Kontakty: `prefs:root=CONTACTS`
+- Kontakty → Dostęp (Kontakty): `prefs:root=CONTACTS#Allow%20Contacts%20To%20Access`
+- Kontakty → Siri: `prefs:root=CONTACTS&path=SIRI_AND_SEARCH`
+- Kontakty → Sortowanie: `prefs:root=CONTACTS&path=ContactsSortOrder`
+- Kontakty → Kolejność wyświetlania: `prefs:root=CONTACTS&path=PersonNameOrder`
+- Kontakty → Nazwa skrócona: `prefs:root=CONTACTS&path=PersonShortName`
+- Kontakty → Nazwa skrócona → Nazwa skrócona: `prefs:root=CONTACTS&path=PersonShortName#Short%20Name`
+- Kontakty → Nazwa skrócona → Preferuj pseudonimy: `prefs:root=CONTACTS&path=PersonShortName#Prefer%20Nicknames`
+- Kontakty → Moje informacje: `prefs:root=CONTACTS&path=MeCard`
+- Kontakty → Importuj kontakty z SIM: `prefs:root=CONTACTS#SIMImport`
+- Skróty: `prefs:root=SHORTCUTS`
+- Skróty → Synchronizacja iCloud: `prefs:root=SHORTCUTS#WFCloudKitSyncEnabled`
+- Skróty → Porządek synchronizacji: `prefs:root=SHORTCUTS#WFCloudKitSyncOrderEnabled`
+- Skróty → Zastrzeżenia prawne: `prefs:root=SHORTCUTS&path=Legal%20Notices`
+- TV | Wideo: `prefs:root=TVAPP`
+- TV | Wideo → Odtw. przez sieć komórkową: `prefs:root=TVAPP#com.apple.videos%3AVideosUseCellularDataEnabledSetting`
+- TV | Wideo → Jakość odtwarzania: `prefs:root=TVAPP#com.apple.videos%3APlaybackQualityGroup`
+- TV | Wideo → Kupione i wypożyczone: `prefs:root=TVAPP&path=com.apple.videos%3APreferredPurchaseResolution`
+- TV | Wideo → Kolekcja domowa: `prefs:root=TVAPP#com.apple.videos%3AHomeSharingFooter`
+- Muzyka: `prefs:root=MUSIC`
+- Muzyka → Pokaż Apple Music: `prefs:root=MUSIC#com.apple.Music%3AAppleMusicEnabled`
+- Muzyka → Dodawaj utwory z playlist: `prefs:root=MUSIC#com.apple.Music%3AAddPlaylistSongsToMyMusicSwitch`
+- Muzyka → Pokazuj oceny (gwiazdki): `prefs:root=MUSIC#com.apple.Music%3AShowStarRatings`
+- Muzyka → Synchronizuj bibliotekę: `prefs:root=MUSIC#com.apple.Music%3ACloudMusicLibraryEnabled`
+- Muzyka → Dane komórkowe: `prefs:root=MUSIC&path=com.apple.Music%3ACellularData`
+- Muzyka → Pobrana muzyka: `prefs:root=MUSIC&path=com.apple.Music%3AMusicUsageLink`
+- Muzyka → Optymalizuj dysk: `prefs:root=MUSIC&path=com.apple.Music%3AOptimizeStorage`
+- Muzyka → Pobieranie automatyczne: `prefs:root=MUSIC#com.apple.Music%3AMusicAutomaticDownload`
+- Muzyka → EQ: `prefs:root=MUSIC&path=com.apple.Music%3AEQ`
+- Muzyka → Wyrównanie dźwięku: `prefs:root=MUSIC#com.apple.Music%3ASoundCheck`
+- Muzyka → Używaj historii odtwarzania: `prefs:root=MUSIC#com.apple.Music%3APrivateListening`
+- Aparat: `prefs:root=CAMERA`
+- Aparat → Formaty: `prefs:root=CAMERA&path=CameraFormatsSettingsList`
+- Aparat → Formaty → Apple ProRaw: `prefs:root=CAMERA&path=CameraFormatsSettingsList#CAMUserPreferenceEnableLinearDNGControl`
+- Aparat → Record Video: `prefs:root=CAMERA&path=Record%20Video`
+- Aparat → Record Video → Wideo HDR: `prefs:root=CAMERA&path=Record%20Video#HDR%20Video`
+- Aparat → Zachowaj ustawienia: `prefs:root=CAMERA&path=CameraPreserveSettingsSwitch`
+- Aparat → Zachowaj ustawienia → Tryb aparatu: `prefs:root=CAMERA&path=CameraPreserveSettingsSwitch#CAMUserPreferencePreserveCaptureMode`
+- Aparat → Siatka: `prefs:root=CAMERA#CameraGridSwitch`
+- Aparat → Skanuj kody QR: `prefs:root=CAMERA#CameraQRBannerSwitch`
+- Kompas: `prefs:root=COMPASS`
+- Kompas → Północ geograficzna: `prefs:root=COMPASS#USE_TRUE_NORTH`
+- Powiadomienia o narażeniu: `prefs:root=EXPOSURE_NOTIFICATION`
+- Poczta: `prefs:root=MAIL`
+- Poczta → Konta: `prefs:root=MAIL&path=ACCOUNTS`
+- Poczta → Konta → Dodaj konto: `prefs:root=MAIL&path=ACCOUNTS#ADD_ACCOUNT`
+- Poczta → Konta → Pobierz nowe dane: `prefs:root=MAIL&path=ACCOUNTS#FETCH_NEW_DATA`
+- Poczta → Podgląd: `prefs:root=MAIL&path=Preview`
+- Poczta → Pokaż etykiety Do/Dw: `prefs:root=MAIL#Show%20To/Cc%20Labels`
+- Poczta → Opcje na liście: `prefs:root=MAIL&path=Swipe%20Options`
+- Poczta → Potwierdzaj usuwanie: `prefs:root=MAIL#Ask%20Before%20Deleting`
+- Poczta → Pobieraj obrazy zdalne: `prefs:root=MAIL#Load%20Remote%20Images`
+- Poczta → Używaj wątków: `prefs:root=MAIL#Organize%20by%20Thread`
+- Poczta → Zwijaj przeczytane wiadomości: `prefs:root=MAIL#Collapse%20Read%20Messages`
+- Poczta → Najnowsza na górze: `prefs:root=MAIL#Most%20Recent%20Message%20on%20Top`
+- Poczta → Całe wątki: `prefs:root=MAIL#Complete%20Threads`
+- Poczta → W wyciszonym wątku: `prefs:root=MAIL&path=Muted%20Thread%20Action`
+- Poczta → Ignoruj zablokowanych: `prefs:root=MAIL#Ignore%20Blocked%20Senders`
+- Poczta → Zablokowani nadawcy: `prefs:root=MAIL&path=Blocked%20Sender%20Options`
+- Poczta → Blokowane: `prefs:root=MAIL&path=Blocked`
+- Poczta → Zawsze Udw do mnie: `prefs:root=MAIL#Always%20Bcc%20Myself`
+- Poczta → Oznaczaj adresy: `prefs:root=MAIL&path=Mark%20Addresses`
+- Poczta → Zwiększ poziom cytatu: `prefs:root=MAIL&path=Increase%20Quote%20Level`
+- Poczta → Załączniki w odpowiedziach: `prefs:root=MAIL&path=Include%20Attachments%20with%20Replies`
+- Poczta → Podpis: `prefs:root=MAIL&path=Signature`
+- Bluetooth: `prefs:root=Bluetooth`
+- News: `prefs:root=NEWS`
+- News → Pokazuj podglądy publikacji: `prefs:root=NEWS#show_excerpt_mode`
+- News → Ograniczaj publikacje w widoku Dziś: `prefs:root=NEWS#showStoriesFromFavoritesSpecifierID`
+- News → Prywatność: `prefs:root=NEWS#Privacy`
+- News → Wyzeruj identyfikator: `prefs:root=NEWS#reset_identifier`
+- News → Podziękowania: `prefs:root=NEWS&path=Acknowledgements`
+- Zdjęcia: `prefs:root=Photos`
+- Zdjęcia → Zdjęcia w iCloud: `prefs:root=Photos#iCloudPhotosSwitch`
+- Zdjęcia → Optymalizuj dysk: `prefs:root=Photos#iCloudOptimizeStorageOption`
+- Zdjęcia → Pobieraj i pozostaw oryginały: `prefs:root=Photos#iCloudKeepOriginalsOption`
+- Zdjęcia → Albumy udostępniane: `prefs:root=Photos#SharedStreamsSwitch`
+- Zdjęcia → Dane komórkowe: `prefs:root=Photos&path=CellularDataLinkList`
+- Zdjęcia → Odtwarzaj wideo automatycznie: `prefs:root=Photos#VideoAutoplaySwitch`
+- Zdjęcia → Pokaż pełny HDR: `prefs:root=Photos#ImageModulationSwitch`
+- Zdjęcia → Wydarzenia z dni wolnych: `prefs:root=Photos#MEMORIES_HOLIDAY_CALENDAR_EVENTS_SWITCH`
+- Zdjęcia → Przenieś na Maca lub PC: `prefs:root=Photos#TransferGroup`
+- Podcasty: `prefs:root=PODCASTS`
+- Prywatność i ochrona: `prefs:root=Privacy` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity`
+- Prywatność i ochrona → Zdrowie: `prefs:root=Privacy&path=HEALTH` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/HEALTH`
+- Prywatność i ochrona → Dane zdrowotne: `prefs:root=Privacy&path=HEALTH_DATA` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/HEALTH_DATA`
+- Prywatność i ochrona → Położenie: `prefs:root=Privacy&path=LOCATION` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/LOCATION`
+- Prywatność i ochrona → Położenie → Udostępniaj moje położenie: `prefs:root=Privacy&path=LOCATION/LOCATION_SHARING` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/LOCATION/LOCATION_SHARING`
+- Prywatność i ochrona → Kontakty: `prefs:root=Privacy&path=CONTACTS` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/CONTACTS`
+- Prywatność i ochrona → Kalendarze: `prefs:root=Privacy&path=CALENDARS` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/CALENDARS`
+- Prywatność i ochrona → Przypomnienia: `prefs:root=Privacy&path=REMINDERS` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/REMINDERS`
+- Prywatność i ochrona → Zdjęcia: `prefs:root=Privacy&path=PHOTOS` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/PHOTOS`
+- Prywatność i ochrona → Udost. (Bluetooth): `prefs:root=Privacy&path=BT_PERIPHERAL` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/BT_PERIPHERAL`
+- Prywatność i ochrona → Mikrofon: `prefs:root=Privacy&path=MICROPHONE` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/MICROPHONE`
+- Prywatność i ochrona → Rozpoznawanie mowy: `prefs:root=Privacy&path=SPEECH_RECOGNITION` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/SPEECH_RECOGNITION`
+- Prywatność i ochrona → Aparat: `prefs:root=Privacy&path=CAMERA` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/CAMERA`
+- Prywatność i ochrona → HomeKit: `prefs:root=Privacy&path=WILLOW` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/WILLOW`
+- Prywatność i ochrona → Multimedia i Apple Music: `prefs:root=Privacy&path=MEDIALIBRARY` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/MEDIALIBRARY`
+- Prywatność i ochrona → Analizy: `prefs:root=Privacy&path=PROBLEM_REPORTING` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/PROBLEM_REPORTING`
+- Prywatność i ochrona → Reklamy: `prefs:root=Privacy&path=ADVERTISING` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/ADVERTISING`
+- Prywatność i ochrona → Pliki i foldery: `prefs:root=Privacy&path=FILEACCESS` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/FILEACCESS`
+- Prywatność i ochrona → Śledzenie: `prefs:root=Privacy&path=USER_TRACKING` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/USER_TRACKING`
+- Prywatność i ochrona → Raport prywatności aplikacji: `prefs:root=Privacy&path=PRIVACY_REPORT` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/PRIVACY_REPORT`
+- Prywatność i ochrona → Tryb blokady: `prefs:root=Privacy#LOCKDOWN_MODE` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity#LOCKDOWN_MODE#LOCKDOWN_MODE`
+- Prywatność i ochrona → Treść wymagająca dyskrecji: `prefs:root=Privacy#NUDITY_DETECTION` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity#NUDITY_DETECTION#NUDITY_DETECTION`
+- FaceTime: `prefs:root=FACETIME`
+- Czas przed ekranem: `prefs:root=SCREEN_TIME`
+- Dźwięki | Dźwięki i haptyka: `prefs:root=Sounds`
+- Dźwięki | Dźwięki i haptyka → Bezpieczne używanie słuchawek: `prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING`
+- Dźwięki | Dźwięki i haptyka → Bezpieczne używanie słuchawek → Adaptery Lightning: `prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING/HEADPHONE_LIGHTNING_ADAPTERS`
+- Dźwięki | Dźwięki i haptyka → Bezpieczne używanie słuchawek → Powiadomienia dotyczące słuchawek: `prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING#SHSHeadphoneWeeklyNotificationsKey`
+- Dźwięki | Dźwięki i haptyka → Bezpieczne używanie słuchawek → Redukuj głośny dźwięk: `prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING#SHSHeadphoneLevelLimitSwitchKey`
+- Dźwięki | Dźwięki i haptyka → Efekty dźwiękowe: `prefs:root=Sounds&path=SOUND_EFFECTS`
+- Dźwięki | Dźwięki i haptyka → Dzwonek i alerty: `prefs:root=Sounds#RINGER_AND_ALERT_GROUP`
+- Dźwięki | Dźwięki i haptyka → Zmieniaj przyciskami: `prefs:root=Sounds#CHANGE_WITH_BUTTONS`
+- Dźwięki | Dźwięki i haptyka → Dźwięki i melodie wibracji: `prefs:root=Sounds#SOUNDS_ALERT_GROUP`
+- Dźwięki | Dźwięki i haptyka → Dzwonek: `prefs:root=Sounds&path=Ringtone`
+- Dźwięki | Dźwięki i haptyka → SMS/MMS: `prefs:root=Sounds&path=Text_Messages`
+- Dźwięki | Dźwięki i haptyka → Nowa poczta głosowa: `prefs:root=Sounds&path=Voicemail`
+- Dźwięki | Dźwięki i haptyka → Nowa poczta: `prefs:root=Sounds&path=NEW_MAIL`
+- Dźwięki | Dźwięki i haptyka → Wysłanie poczty: `prefs:root=Sounds&path=SENT_MAIL`
+- Dźwięki | Dźwięki i haptyka → Alerty kalendarza: `prefs:root=Sounds&path=Calendar%20Alarm`
+- Dźwięki | Dźwięki i haptyka → Alerty przypomnień: `prefs:root=Sounds&path=Reminder%20Alerts`
+- Dźwięki | Dźwięki i haptyka → Kliknięcia klawiatury: `prefs:root=Sounds#KEYBOARD_SOUND_SWITCH`
+- Dźwięki | Dźwięki i haptyka → Dźwięk blokady: `prefs:root=Sounds#LOCK_SOUND_SWITCH`
+- Dźwięki | Dźwięki i haptyka → Spersonalizowany dźwięk przestrzenny: `prefs:root=Sounds&path=Personalized%20Spatial%20Audio`
+- Apple Pencil: `prefs:root=Pencil`
+- Apple Pencil → Apple Pencil: `prefs:root=Pencil#PrefersPencilDraws`
+- Apple Pencil → Apple Pencil: `prefs:root=Pencil#PencilTextInput`
+- Wiadomości: `prefs:root=MESSAGES`
+- Giełda: `prefs:root=STOCKS`
+- Giełda → Prywatność: `prefs:root=STOCKS#Privacy`
+- Giełda → Wyzeruj identyfikator: `prefs:root=STOCKS#reset_identifier`
+- Tłumacz: `prefs:root=TRANSLATE`
+- Tłumacz → Tryb lokalny: `prefs:root=TRANSLATE#OnDeviceOnly`
+- Siri: `prefs:root=SIRI`
+- Siri → Dostęp do Siri przy blokadzie: `prefs:root=SIRI#ASSISTANT_LOCK_SCREEN_ACCESS`
+- Siri → Język: `prefs:root=SIRI&path=LANGUAGE_ID`
+- Siri → Głos Siri: `prefs:root=SIRI&path=VOICE_ID`
+- Siri → Odpowiedzi głosowe: `prefs:root=SIRI&path=VOICE_FEEDBACK_ID`
+- Siri → Moje dane: `prefs:root=SIRI&path=MY_INFO`
+- Dane zdrowotne | Zdrowie: `prefs:root=HEALTH`
+- App Store: `prefs:root=STORE`
+- App Store → Pobieranie automatyczne: `prefs:root=STORE#Automatic%20Downloads`
+- App Store → Uakt. aplikacji: `prefs:root=STORE#App%20Updates`
+- App Store → Pobieranie aplikacji: `prefs:root=STORE&path=App%20Downloads`
+- App Store → Autoodtw. wideo: `prefs:root=STORE&path=Video%20Autoplay`
+- App Store → Oceny/recenzje w aplikacjach: `prefs:root=STORE#In-App%20Ratings%20&%20Reviews`
+- Tryb Samolot: `prefs:root=ROOT#AIRPLANE_MODE`

@@ -1,0 +1,519 @@
+- Ôxi trong máu: `bridge:root=com.apple.OxygenSaturationSettings`
+- Rửa tay: `bridge:root=com.apple.BrookBridgeSettings`
+- Rửa tay → Cho phép thông báo: `bridge:root=com.apple.BrookBridgeSettings#ALLOW_NOTIFICATIONS_ID`
+- Rửa tay → Gửi đến Trung tâm thông báo: `bridge:root=com.apple.BrookBridgeSettings#SEND_TO_NOTIFICATION_CENTER_ID`
+- Rửa tay → Tắt thông báo: `bridge:root=com.apple.BrookBridgeSettings#NOTIFICATIONS_OFF_ID`
+- Rửa tay → Nhóm thông báo: `bridge:root=com.apple.BrookBridgeSettings&path=NOTIFICATION_COALESCING_ID`
+- Rửa tay → Hẹn giờ rửa tay: `bridge:root=com.apple.BrookBridgeSettings#HANDWASHING_TIMER_ID`
+- Màn hình & Độ sáng: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID`
+- Màn hình & Độ sáng → Thời gian bật: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=WAKE_DURATION_SELECTION_KEY`
+- Màn hình & Độ sáng → Thời gian bật → KHI CHẠM: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=WAKE_DURATION_SELECTION_KEY#ON_TAP_GROUP_ID`
+- Màn hình & Độ sáng → Thời gian bật → Bật trong 15 giây: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=WAKE_DURATION_SELECTION_KEY#SHORT_WAKE_ID`
+- Màn hình & Độ sáng → Thời gian bật → Bật trong 70 giây: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=WAKE_DURATION_SELECTION_KEY#LONG_WAKE_ID`
+- Màn hình & Độ sáng → Độ sáng: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID#BRIGHTNESS_LABEL`
+- Màn hình & Độ sáng → Luôn bật: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID`
+- Màn hình & Độ sáng → Luôn bật → Luôn bật: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID#TRITIUM_ID`
+- Màn hình & Độ sáng → Luôn bật → ĐƯA CỔ TAY XUỐNG: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID#TRITIUM_PRIVACY_GROUP_ID`
+- Màn hình & Độ sáng → Luôn bật → Hiển thị Hoạt động trực tiếp: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_LIVE_ACTIVITIES_ID`
+- Màn hình & Độ sáng → Luôn bật → Hiển thị Hoạt động trực tiếp → Hiển thị Hoạt động trực tiếp: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_LIVE_ACTIVITIES_ID#APP_BACKLIGHT_PRIVACY_GLOBAL_APP`
+- Màn hình & Độ sáng → Luôn bật → Hiển thị ứng dụng: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_APPS_ID`
+- Màn hình & Độ sáng → Luôn bật → Hiển thị ứng dụng → Hiển thị ứng dụng: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_APPS_ID#APP_BACKLIGHT_PRIVACY_GLOBAL_APP`
+- Màn hình & Độ sáng → Luôn bật → Hiển thị ứng dụng → ỨNG DỤNG: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_APPS_ID#APP_GROUP_ID`
+- Màn hình & Độ sáng → Luôn bật → Hiển thị ứng dụng → App Store: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_APPS_ID#com.apple.AppStore`
+- Màn hình & Độ sáng → Luôn bật → Hiển thị ứng dụng → Nike Run Club: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_APPS_ID#com.nike.nikeplus-gps.watchkitapp`
+- Màn hình & Độ sáng → Luôn bật → Hiển thị ứng dụng → Điện thoại: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_APPS_ID#com.apple.NanoPhone`
+- Màn hình & Độ sáng → Luôn bật → Hiển thị ứng dụng → Ảnh: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_APPS_ID#com.apple.NanoPhotos`
+- Màn hình & Độ sáng → Luôn bật → Hiển thị ứng dụng → Cài đặt: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_APPS_ID#com.apple.NanoSettings`
+- Màn hình & Độ sáng → Luôn bật → Hiển thị ứng dụng → Tap-to-Radar: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_APPS_ID#com.apple.NanoTapToRadar`
+- Màn hình & Độ sáng → Luôn bật → Hiển thị thông báo: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID`
+- Màn hình & Độ sáng → Luôn bật → Hiển thị thông báo → Hiển thị thông báo: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#APP_BACKLIGHT_PRIVACY_GLOBAL_APP`
+- Màn hình & Độ sáng → Luôn bật → Hiển thị thông báo → ỨNG DỤNG CHO APPLE WATCH | ỨNG DỤNG CHO IPHONE: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#APP_GROUP_ID`
+- Màn hình & Độ sáng → Luôn bật → Hiển thị thông báo → App Store: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.AppStore`
+- Màn hình & Độ sáng → Luôn bật → Hiển thị thông báo → Nike Run Club: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.nike.nikeplus-gps.watchkitapp`
+- Màn hình & Độ sáng → Luôn bật → Hiển thị thông báo → Điện thoại: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.NanoPhone`
+- Màn hình & Độ sáng → Luôn bật → Hiển thị thông báo → Ảnh: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.NanoPhotos`
+- Màn hình & Độ sáng → Luôn bật → Hiển thị thông báo → Cài đặt: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.NanoSettings`
+- Màn hình & Độ sáng → Luôn bật → Hiển thị thông báo → Tap-to-Radar: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.NanoTapToRadar`
+- Màn hình & Độ sáng → Luôn bật → Hiển thị thông báo → Cài đặt Trợ năng: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.accessibility.TeachableMomentsNotifications`
+- Màn hình & Độ sáng → Luôn bật → Hiển thị thông báo → Sách: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.iBooks`
+- Màn hình & Độ sáng → Luôn bật → Hiển thị thông báo → Caffè Macs: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.ist.CaffeMacsApp`
+- Màn hình & Độ sáng → Luôn bật → Hiển thị thông báo → Lịch: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.mobilecal`
+- Màn hình & Độ sáng → Luôn bật → Hiển thị thông báo → Camera: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.camera`
+- Màn hình & Độ sáng → Luôn bật → Hiển thị thông báo → Kết nối: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.ist.AppleConnect`
+- Màn hình & Độ sáng → Luôn bật → Hiển thị thông báo → Trình báo cáo chẩn đoán: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.DiagnosticsReporter`
+- Màn hình & Độ sáng → Luôn bật → Hiển thị thông báo → Phản hồi nội bộ: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.FeedbackInternal`
+- Màn hình & Độ sáng → Luôn bật → Hiển thị thông báo → Thể dục: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.Fitness`
+- Màn hình & Độ sáng → Luôn bật → Hiển thị thông báo → Game Center: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.gamecenter`
+- Màn hình & Độ sáng → Luôn bật → Hiển thị thông báo → Sức khỏe: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.Health`
+- Màn hình & Độ sáng → Luôn bật → Hiển thị thông báo → Livability: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.Livability`
+- Màn hình & Độ sáng → Luôn bật → Hiển thị thông báo → Mail: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.mobilemail`
+- Màn hình & Độ sáng → Luôn bật → Hiển thị thông báo → Tin nhắn: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.MobileSMS`
+- Màn hình & Độ sáng → Luôn bật → Hiển thị thông báo → Tự phục vụ: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.jamfsoftware.selfservice`
+- Màn hình & Độ sáng → Luôn bật → Hiển thị thông báo → Thông báo theo dõi: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.FindMySafetyAlertsNotifications`
+- Màn hình & Độ sáng → Luôn bật → Hiển thị thông báo → Thời tiết: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.weather`
+- Màn hình & Độ sáng → Luôn bật → Hiển thị dữ liệu tổ hợp: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_COMPLICATIONS_DATA_ID`
+- Màn hình & Độ sáng → Luôn bật → Hiển thị dữ liệu tổ hợp → Hiển thị dữ liệu tổ hợp: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_COMPLICATIONS_DATA_ID#Show%20Complication%20Data`
+- Màn hình & Độ sáng → Luôn bật → Hiển thị dữ liệu tổ hợp → Ứng dụng: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_COMPLICATIONS_DATA_ID#Apps`
+- Màn hình & Độ sáng → Luôn bật → Hiển thị dữ liệu tổ hợp → Đang tải…: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_COMPLICATIONS_DATA_ID#Loading%E2%80%A6`
+- Màn hình & Độ sáng → Luôn bật → Hiển thị dữ liệu tổ hợp → Siri: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_COMPLICATIONS_DATA_ID#Siri`
+- Màn hình & Độ sáng → Luôn bật → Hiển thị dữ liệu tổ hợp → Thẻ Siri: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_COMPLICATIONS_DATA_ID#Siri%20Cards`
+- Màn hình & Độ sáng → Cỡ chữ: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID#TEXT_SIZE`
+- Màn hình & Độ sáng → Chữ đậm: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID#BOLD_TEXT`
+- Màn hình & Độ sáng → Bật: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID#Wake`
+- Màn hình & Độ sáng → Bật khi đưa cổ tay lên: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID#WAKE_SCREEN_ON_WRIST_RAISE_SWITCH_ID`
+- Màn hình & Độ sáng → Bật khi xoay Crown: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID#WAKE_SCREEN_ON_CROWN_UP_SWITCH_ID`
+- Ảnh: `bridge:root=com.apple.NanoPhotosBridgeSettings`
+- Ảnh → Đồng bộ hóa ảnh: `bridge:root=com.apple.NanoPhotosBridgeSettings#Photo%20Syncing`
+- Ảnh → Kỷ niệm: `bridge:root=com.apple.NanoPhotosBridgeSettings#Memories`
+- Ảnh → Đồng bộ hóa kỷ niệm: `bridge:root=com.apple.NanoPhotosBridgeSettings#Sync%20Memories`
+- Ảnh → Ảnh nổi bật: `bridge:root=com.apple.NanoPhotosBridgeSettings#Featured%20Photos`
+- Ảnh → Đồng bộ hóa ảnh nổi bật: `bridge:root=com.apple.NanoPhotosBridgeSettings#Sync%20Featured%20Photos`
+- Ảnh → Album: `bridge:root=com.apple.NanoPhotosBridgeSettings#Album`
+- Ảnh → Album đồng bộ hóa: `bridge:root=com.apple.NanoPhotosBridgeSettings&path=Sync%20Album`
+- Ảnh → Giới hạn ảnh: `bridge:root=com.apple.NanoPhotosBridgeSettings&path=Photos%20Limit`
+- Ảnh → Cài đặt thông báo: `bridge:root=com.apple.NanoPhotosBridgeSettings#MIRROR_RADIO_GROUP_ID`
+- Ảnh → Phản chiếu iPhone: `bridge:root=com.apple.NanoPhotosBridgeSettings#MIRROR_MY_COMPANION_ID`
+- Ảnh → Tùy chỉnh: `bridge:root=com.apple.NanoPhotosBridgeSettings#CUSTOM_ID`
+- Tổ hợp: `bridge:root=COMPLICATIONS`
+- Trung tâm điều khiển: `bridge:root=CONTROL_CENTER_ID`
+- Trung tâm điều khiển → Đặt lại bố cục Trung tâm điều khiển: `bridge:root=CONTROL_CENTER_ID#CONTROL_CENTER_RESET_ID`
+- Xem ứng dụng: `bridge:root=APP_VIEW_ID`
+- Cài đặt chung: `bridge:root=GENERAL_LINK`
+- Cài đặt chung → Giới thiệu: `bridge:root=GENERAL_LINK&path=ABOUT`
+- Cài đặt chung → Giới thiệu → Tên: `bridge:root=GENERAL_LINK&path=ABOUT/NAME_CELL_ID`
+- Cài đặt chung → Giới thiệu → Phiên bản watchOS: `bridge:root=GENERAL_LINK&path=ABOUT#OS_VERSION_CELL_ID`
+- Cài đặt chung → Giới thiệu → Kiểu máy: `bridge:root=GENERAL_LINK&path=ABOUT#DEVICE_MARKETING_NAME_CELL_ID`
+- Cài đặt chung → Giới thiệu → Chi tiết kiểu máy: `bridge:root=GENERAL_LINK&path=ABOUT#DEVICE_DETAIL_CELL_ID`
+- Cài đặt chung → Giới thiệu → Số máy: `bridge:root=GENERAL_LINK&path=ABOUT#DEVICE_MODEL_CELL_ID`
+- Cài đặt chung → Giới thiệu → Số sê-ri: `bridge:root=GENERAL_LINK&path=ABOUT#DEVICE_SERIAL_NUMBER_CELL_ID`
+- Cài đặt chung → Giới thiệu → Bài hát: `bridge:root=GENERAL_LINK&path=ABOUT#SONGS_CELL_ID`
+- Cài đặt chung → Giới thiệu → Ảnh: `bridge:root=GENERAL_LINK&path=ABOUT#PHOTOS_CELL_ID`
+- Cài đặt chung → Giới thiệu → Ứng dụng: `bridge:root=GENERAL_LINK&path=ABOUT#APPLICATIONS_CELL_ID`
+- Cài đặt chung → Giới thiệu → Dung lượng: `bridge:root=GENERAL_LINK&path=ABOUT#STORAGE_CAPACITY_CELL_ID`
+- Cài đặt chung → Giới thiệu → Khả dụng: `bridge:root=GENERAL_LINK&path=ABOUT#STORAGE_AVAILABLE_CELL_ID`
+- Cài đặt chung → Giới thiệu → Nhà cung cấp: `bridge:root=GENERAL_LINK&path=ABOUT#CARRIER_CELL_ID`
+- Cài đặt chung → Giới thiệu → Bluetooth: `bridge:root=GENERAL_LINK&path=ABOUT#DEVICE_BLUETOOTH_ADDRESS_CELL_ID`
+- Cài đặt chung → Giới thiệu → IMEI: `bridge:root=GENERAL_LINK&path=ABOUT#IMEI_CELL_ID`
+- Cài đặt chung → Giới thiệu → ICCID: `bridge:root=GENERAL_LINK&path=ABOUT#ICCID_CELL_ID`
+- Cài đặt chung → Giới thiệu → EID: `bridge:root=GENERAL_LINK&path=ABOUT/EID_CELL_ID`
+- Cài đặt chung → Giới thiệu → SEID: `bridge:root=GENERAL_LINK&path=ABOUT/DEVICE_SEID_CELL_ID`
+- Cài đặt chung → Giới thiệu → Pháp lý: `bridge:root=GENERAL_LINK&path=ABOUT/LEGAL_CELL_ID`
+- Cài đặt chung → Giới thiệu → Xem HD sử dụng Apple Watch : `bridge:root=GENERAL_LINK&path=ABOUT#SHOW_MANUAL_CELL_ID`
+- Cài đặt chung → Cập nhật phần mềm: `bridge:root=GENERAL_LINK&path=SOFTWARE_UPDATE_LINK`
+- Cài đặt chung → Tự động cài đặt ứng dụng: `bridge:root=GENERAL_LINK#AUTO_APP_INSTALL_SWITCH_ID`
+- Cài đặt chung → Chế độ máy bay: `bridge:root=GENERAL_LINK&path=AIRPLANE_MODE_ID`
+- Cài đặt chung → Tập trung: `bridge:root=GENERAL_LINK&path=FOCUS_ID`
+- Cài đặt chung → Tập trung → Phản chiếu iPhone: `bridge:root=GENERAL_LINK&path=FOCUS_ID#Mirror%20my%20iPhone`
+- Cài đặt chung → Hướng đồng hồ: `bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION_ID`
+- Cài đặt chung → Hướng đồng hồ → Đeo Apple Watch trên: `bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION_ID#WRIST_CHOICE_ID`
+- Cài đặt chung → Hướng đồng hồ → Cổ tay trái: `bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION_ID#LEFT_HAND_ID`
+- Cài đặt chung → Hướng đồng hồ → Cổ tay phải: `bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION_ID#RIGHT_HAND_ID`
+- Cài đặt chung → Hướng đồng hồ → Digital Crown ở bên trái: `bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION_ID#LISA_ON_LEFT_ID`
+- Cài đặt chung → Hướng đồng hồ → Digital Crown ở bên phải: `bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION_ID#LISA_ON_RIGHT_ID`
+- Cài đặt chung → Tài khoản Apple: `bridge:root=GENERAL_LINK&path=LINK_WITH_ICLOUD_LINK`
+- Cài đặt chung → Bật Đọc chính tả: `bridge:root=GENERAL_LINK#DICTATION_CELL_ID`
+- Cài đặt chung → Dấu câu tự động: `bridge:root=GENERAL_LINK#DICTATION_AUTO_PUNCTUATION_CELL_ID`
+- Cài đặt chung → Bật Handoff: `bridge:root=GENERAL_LINK#CONTINUITY_ID`
+- Cài đặt chung → Chế độ đầu giường: `bridge:root=GENERAL_LINK#NIGHTSTAND_CELL_ID`
+- Cài đặt chung → Bật ảnh màn hình: `bridge:root=GENERAL_LINK#BUTTON_CHORD_CELL_ID`
+- Cài đặt chung → Chế độ chờ | Dung lượng | Dự trữ năng lượng | Thời gian kể từ lần sạc đầy gần nhất: `bridge:root=GENERAL_LINK&path=USAGE_LINK`
+- Cài đặt chung → Hồ sơ: `bridge:root=GENERAL_LINK&path=ManagedConfigurationList`
+- Cài đặt chung → Bản ghi chẩn đoán: `bridge:root=GENERAL_LINK&path=DIAGNOSTIC_LOG_BROWSER`
+- Cài đặt chung → Bản ghi chẩn đoán → Đang tải…: `bridge:root=GENERAL_LINK&path=DIAGNOSTIC_LOG_BROWSER#Loading%E2%80%A6`
+- Cài đặt chung → Sao chép Phân tích đồng hồ: `bridge:root=GENERAL_LINK#LOGS_CELL_ID`
+- Cài đặt chung → Đặt lại: `bridge:root=GENERAL_LINK&path=RESET_ID`
+- Cài đặt chung → TRỞ VỀ MẶT ĐỒNG HỒ: `bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK_ID`
+- Cài đặt chung → TRỞ VỀ MẶT ĐỒNG HỒ → TRỞ VỀ MẶT ĐỒNG HỒ: `bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK_ID#CSLPRFReturnToClockGroupID`
+- Cài đặt chung → TRỞ VỀ MẶT ĐỒNG HỒ → Luôn luôn: `bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK_ID#RETURN_TO_CLOCK_ALWAYS`
+- Cài đặt chung → TRỞ VỀ MẶT ĐỒNG HỒ → Sau 2 phút: `bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK_ID#RETURN_TO_CLOCK_AFTER_2_MINUTES`
+- Cài đặt chung → TRỞ VỀ MẶT ĐỒNG HỒ → Sau 1 giờ: `bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK_ID#RETURN_TO_CLOCK_AFTER_1_HOUR`
+- Cài đặt chung → TRỞ VỀ MẶT ĐỒNG HỒ → ỨNG DỤNG: `bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK_ID#APP_GROUP_ID`
+- Cài đặt chung → Làm mới ứng dụng trong nền: `bridge:root=GENERAL_LINK&path=BAR_ROW_ID`
+- Cài đặt chung → Làm mới ứng dụng trong nền → Làm mới ứng dụng trong nền: `bridge:root=GENERAL_LINK&path=BAR_ROW_ID#BACKGROUND_APP_UPDATING_CELL_ID`
+- Cài đặt chung → Ngôn ngữ & Vùng: `bridge:root=GENERAL_LINK&path=LANGUAGE_AND_REGION_ID`
+- Cài đặt chung → Ngôn ngữ & Vùng → Phản chiếu iPhone: `bridge:root=GENERAL_LINK&path=LANGUAGE_AND_REGION_ID#MIRROR_MY_COMPANION_ID`
+- Cài đặt chung → Ngôn ngữ & Vùng → Tùy chỉnh: `bridge:root=GENERAL_LINK&path=LANGUAGE_AND_REGION_ID#CUSTOM_ID`
+- Cài đặt chung → Tự động khởi chạy khi được nhấn chìm: `bridge:root=GENERAL_LINK&path=AUTO_LAUNCH`
+- Cài đặt chung → Tự động khởi chạy: `bridge:root=GENERAL_LINK&path=AUTO_LAUNCH_ID`
+- Cài đặt chung → Wake Screen: `bridge:root=GENERAL_LINK&path=WAKE_SCREEN`
+- Cài đặt chung → Wake Screen → Đang phát: `bridge:root=GENERAL_LINK&path=WAKE_SCREEN#AUTO_LAUNCH_MEDIA`
+- Âm thanh & Cảm ứng: `bridge:root=SOUNDS_ID`
+- Âm thanh & Cảm ứng → Cảnh báo âm lượng: `bridge:root=SOUNDS_ID#AUDIO_SLIDER`
+- Âm thanh & Cảm ứng → Nhạc chuông và cảnh báo: `bridge:root=SOUNDS_ID#RINGTONE_AND_ALERTS_SECTION_TITLE`
+- Âm thanh & Cảm ứng → Chế độ im lặng: `bridge:root=SOUNDS_ID#audio_mute_switch`
+- Âm thanh & Cảm ứng → Tự động điều chỉnh âm lượng: `bridge:root=SOUNDS_ID#contextual_volume_switch`
+- Âm thanh & Cảm ứng → Mức: `bridge:root=SOUNDS_ID&path=contextual_volume_profile`
+- Âm thanh & Cảm ứng → Mức → Lớn hơn: `bridge:root=SOUNDS_ID&path=contextual_volume_profile#CONTEXTUAL_VOLUME_PROFILE_LOUDER_ID`
+- Âm thanh & Cảm ứng → Mức → Mặc định: `bridge:root=SOUNDS_ID&path=contextual_volume_profile#CONTEXTUAL_VOLUME_PROFILE_DEFAULT_ID`
+- Âm thanh & Cảm ứng → Mức → Nhỏ hơn: `bridge:root=SOUNDS_ID&path=contextual_volume_profile#CONTEXTUAL_VOLUME_PROFILE_QUIETER_ID`
+- Âm thanh & Cảm ứng → Cảm ứng: `bridge:root=SOUNDS_ID&path=HAPTICS_ID`
+- Âm thanh & Cảm ứng → Cảm ứng → Tắt: `bridge:root=SOUNDS_ID&path=HAPTICS_ID#OFF_ITEM_ID`
+- Âm thanh & Cảm ứng → Cảm ứng → Mặc định: `bridge:root=SOUNDS_ID&path=HAPTICS_ID#DEFAULT_ITEM_ID`
+- Âm thanh & Cảm ứng → Cảm ứng → Nổi bật: `bridge:root=SOUNDS_ID&path=HAPTICS_ID#PROMINENT_ITEM_ID`
+- Âm thanh & Cảm ứng → Nhạc chuông: `bridge:root=SOUNDS_ID&path=SOUND_AND_HAPTIC_PATTERNS_RINGTONE_ID`
+- Âm thanh & Cảm ứng → Âm báo tin nhắn: `bridge:root=SOUNDS_ID&path=SOUND_AND_HAPTIC_PATTERNS_TEXTTONE_ID`
+- Âm thanh & Cảm ứng → Thư mới: `bridge:root=SOUNDS_ID&path=SOUND_AND_HAPTIC_PATTERNS_NEWMAIL_ID`
+- Âm thanh & Cảm ứng → Cảnh báo lịch: `bridge:root=SOUNDS_ID&path=SOUND_AND_HAPTIC_PATTERNS_CALENDARALERTS_ID`
+- Âm thanh & Cảm ứng → Cảnh báo lời nhắc: `bridge:root=SOUNDS_ID&path=SOUND_AND_HAPTIC_PATTERNS_REMINDERALERTS_ID`
+- Âm thanh & Cảm ứng → Cảnh báo mặc định: `bridge:root=SOUNDS_ID&path=SOUND_AND_HAPTIC_PATTERNS_DEFAULTALERTS_ID`
+- Âm thanh & Cảm ứng → Âm thanh tai nghe: `bridge:root=SOUNDS_ID#HEADPHONE_AUDIO_GROUP`
+- Âm thanh & Cảm ứng → An toàn tai nghe: `bridge:root=SOUNDS_ID&path=HEADPHONE_LEVEL_LIMIT_SETTING`
+- Âm thanh & Cảm ứng → An toàn tai nghe → Thông báo tai nghe: `bridge:root=SOUNDS_ID&path=HEADPHONE_LEVEL_LIMIT_SETTING#COSHeadphoneNotificationsSwitchKey`
+- Âm thanh & Cảm ứng → An toàn tai nghe → Giảm âm thanh lớn: `bridge:root=SOUNDS_ID&path=HEADPHONE_LEVEL_LIMIT_SETTING#COSHeadphoneLevelLimitSwitchKey`
+- Âm thanh & Cảm ứng → Âm thanh hệ thống & cảm ứng: `bridge:root=SOUNDS_ID#JACKRABBIT_GROUP_ID`
+- Âm thanh & Cảm ứng → Cảm ứng Crown: `bridge:root=SOUNDS_ID#JACKRABBIT_ID`
+- Âm thanh & Cảm ứng → Cảm ứng hệ thống: `bridge:root=SOUNDS_ID#SYSTEM_HAPTICS_ID`
+- SOS khẩn cấp: `bridge:root=SOS_MODE_ID`
+- Quyền riêng tư: `bridge:root=PRIVACY_ID`
+- Quyền riêng tư → Nhiệt độ cổ tay: `bridge:root=PRIVACY_ID#WRIST_TEMPERATURE_SWITCH_ID`
+- Thời gian sử dụng: `bridge:root=SCREEN_TIME_ID`
+- Nike Run Club: `bridge:root=VICTORY_ROW_ID`
+- Nike Run Club → Hiển thị ứng dụng trên Apple Watch: `bridge:root=VICTORY_ROW_ID#SHOWS_ON_GIZMO`
+- Mẹo: `bridge:root=com.apple.NanoTipsBridgeSettings`
+- Mẹo → Cho phép thông báo: `bridge:root=com.apple.NanoTipsBridgeSettings#ALLOW_NOTIFICATIONS_ID`
+- Mẹo → Gửi đến Trung tâm thông báo: `bridge:root=com.apple.NanoTipsBridgeSettings#SEND_TO_NOTIFICATION_CENTER_ID`
+- Mẹo → Tắt thông báo: `bridge:root=com.apple.NanoTipsBridgeSettings#NOTIFICATIONS_OFF_ID`
+- Mẹo → Nhóm thông báo: `bridge:root=com.apple.NanoTipsBridgeSettings&path=NOTIFICATION_COALESCING_ID`
+- Đồng hồ: `bridge:root=com.apple.NanoClockBridgeSettings`
+- Đồng hồ → Thời gian 24 giờ: `bridge:root=com.apple.NanoClockBridgeSettings#24-Hour%20Time`
+- Đồng hồ → Chuông gió: `bridge:root=com.apple.NanoClockBridgeSettings#Chimes`
+- Đồng hồ → Âm thanh: `bridge:root=com.apple.NanoClockBridgeSettings&path=Sounds`
+- Đồng hồ → Âm thanh → Chuông: `bridge:root=com.apple.NanoClockBridgeSettings&path=Sounds#Bells`
+- Đồng hồ → Âm thanh → Chim: `bridge:root=com.apple.NanoClockBridgeSettings&path=Sounds#Birds`
+- Đồng hồ → Đọc thời gian: `bridge:root=com.apple.NanoClockBridgeSettings#Speak%20Time`
+- Đồng hồ → Điều khiển với Chế độ im lặng: `bridge:root=com.apple.NanoClockBridgeSettings#Control%20With%20Silent%20Mode`
+- Đồng hồ → Luôn đọc: `bridge:root=com.apple.NanoClockBridgeSettings#Always%20Speak`
+- Đồng hồ → Thời gian Taptic: `bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time`
+- Đồng hồ → Thời gian Taptic → Thời gian Taptic: `bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time#Taptic%20Time`
+- Đồng hồ → Thời gian Taptic → Chữ số: `bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time#Digits`
+- Đồng hồ → Thời gian Taptic → Súc tích: `bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time#Terse`
+- Đồng hồ → Thời gian Taptic → Mã Morse: `bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time#Morse%20Code`
+- Đồng hồ → Cảnh báo Push từ iPhone: `bridge:root=com.apple.NanoClockBridgeSettings#Push%20Alerts%20from%20iPhone`
+- Đồng hồ → Chỉ báo thông báo: `bridge:root=com.apple.NanoClockBridgeSettings#Notifications%20Indicator`
+- Đồng hồ → Chữ lồng: `bridge:root=com.apple.NanoClockBridgeSettings&path=MONOGRAM_ID`
+- Đồng hồ → Thông báo mặt đồng hồ: `bridge:root=com.apple.NanoClockBridgeSettings#Watch%20Face%20Notifications`
+- Đồng hồ → Tên viết tắt thành phố: `bridge:root=com.apple.NanoClockBridgeSettings&path=City%20Abbreviations`
+- Đồng hồ → Dữ liệu mặt đồng hồ Siri: `bridge:root=com.apple.NanoClockBridgeSettings&path=Siri%20Face%20Data%20Sources`
+- Nút Tác vụ: `bridge:root=ACTION_BUTTON_ID`
+- Nút Tác vụ → Cử chỉ | Tác vụ: `bridge:root=ACTION_BUTTON_ID#StingSystemSettingsActionTypeGroupID`
+- Nút Tác vụ → Bài tập: `bridge:root=ACTION_BUTTON_ID&path=StingSystemSettingsActionTypeItem`
+- Nút Tác vụ → Bài tập → Không có: `bridge:root=ACTION_BUTTON_ID&path=StingSystemSettingsActionTypeItem#StingSystemSettingsSelectedActionTypeItem`
+- Nút Tác vụ → Nhấn lần đầu: `bridge:root=ACTION_BUTTON_ID#StingSystemSettingsWorkoutGroupID`
+- Nút Tác vụ → Chuyển đổi nhanh: `bridge:root=ACTION_BUTTON_ID&path=ShowQuickSwitch`
+- Nút Tác vụ → Chuyển đổi nhanh → Chuyển đổi nhanh: `bridge:root=ACTION_BUTTON_ID&path=ShowQuickSwitch#StingQuickSwitchToggleGroup`
+- Nút Tác vụ → Chuyển đổi nhanh → Chuyển đổi nhanh: `bridge:root=ACTION_BUTTON_ID&path=ShowQuickSwitch#Quick%20Switch`
+- Nút Tác vụ → Chuyển đổi nhanh → Ứng dụng được bao gồm: `bridge:root=ACTION_BUTTON_ID&path=ShowQuickSwitch#StingQuickSwitchAppGroup`
+- Tiếng ồn: `bridge:root=com.apple.Noise.settings`
+- Tiếng ồn → Số đo âm thanh môi trường: `bridge:root=com.apple.Noise.settings#ENABLE_MEASUREMENTS_ID`
+- Tiếng ồn → Thông báo tiếng ồn: `bridge:root=com.apple.Noise.settings#LOUD_NOTIFICATION_GROUP_ID`
+- Tiếng ồn → Ngưỡng tiếng ồn: `bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID`
+- Tiếng ồn → Ngưỡng tiếng ồn → Tắt: `bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#OFF`
+- Tiếng ồn → Ngưỡng tiếng ồn → 80 decibel: `bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_80`
+- Tiếng ồn → Ngưỡng tiếng ồn → 85 decibel: `bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_85`
+- Tiếng ồn → Ngưỡng tiếng ồn → 90 decibel: `bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_90`
+- Tiếng ồn → Ngưỡng tiếng ồn → 95 decibel: `bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_95`
+- Tiếng ồn → Ngưỡng tiếng ồn → 100 decibel: `bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_100`
+- Tiếng ồn → Nhóm thông báo: `bridge:root=com.apple.Noise.settings&path=NOTIFICATION_COALESCING_ID`
+- Lịch: `bridge:root=com.apple.NanoCalendarBridgeSettings`
+- Lịch → THÔNG BÁO: `bridge:root=com.apple.NanoCalendarBridgeSettings#MIRROR_RADIO_GROUP_ID`
+- Lịch → Phản chiếu iPhone: `bridge:root=com.apple.NanoCalendarBridgeSettings#MIRROR_MY_COMPANION_ID`
+- Lịch → Tùy chỉnh…: `bridge:root=com.apple.NanoCalendarBridgeSettings#CUSTOM_ID`
+- Lịch → LỊCH: `bridge:root=com.apple.NanoCalendarBridgeSettings#CALENDARS_MIRROR_RADIO_GROUP_ID`
+- Lịch → Phản chiếu iPhone: `bridge:root=com.apple.NanoCalendarBridgeSettings#CALENDARS_MIRROR_MY_COMPANION_ID`
+- Lịch → Tùy chỉnh…: `bridge:root=com.apple.NanoCalendarBridgeSettings&path=CALENDARS_CUSTOM_ID`
+- Lịch → Sự kiện Sắp tới: `bridge:root=com.apple.NanoCalendarBridgeSettings&path=Upcoming%20Events`
+- Lịch → Lời mời: `bridge:root=com.apple.NanoCalendarBridgeSettings&path=Invitations`
+- Lịch → Phản hồi của Người được mời: `bridge:root=com.apple.NanoCalendarBridgeSettings&path=Invitee%20Responses`
+- Lịch → Thay đổi lịch được chia sẻ: `bridge:root=com.apple.NanoCalendarBridgeSettings&path=Shared%20Calendar%20Alerts`
+- Bộ đàm: `bridge:root=com.apple.tincan.settings`
+- Bộ đàm → Cho phép thông báo: `bridge:root=com.apple.tincan.settings#ALLOW_NOTIFICATIONS_ID`
+- Bộ đàm → Gửi đến Trung tâm thông báo: `bridge:root=com.apple.tincan.settings#SEND_TO_NOTIFICATION_CENTER_ID`
+- Bộ đàm → Tắt thông báo: `bridge:root=com.apple.tincan.settings#NOTIFICATIONS_OFF_ID`
+- Bộ đàm → Nhóm thông báo: `bridge:root=com.apple.tincan.settings&path=NOTIFICATION_COALESCING_ID`
+- Bộ đàm → Bạn bè: `bridge:root=com.apple.tincan.settings#Friends`
+- Siri: `bridge:root=SIRI_WATCH_SETTINGS_ID`
+- Siri → Hỏi Siri: `bridge:root=SIRI_WATCH_SETTINGS_ID#ASK_SIRI_GROUP_ID`
+- Siri → Lắng nghe: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_TRIGGER_ID`
+- Siri → Lắng nghe → “Siri” hoặc “Hey Siri”: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_TRIGGER_ID#HS_JS_ID`
+- Siri → Lắng nghe → “Hey Siri”: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_TRIGGER_ID#HEY_SIRI_ID`
+- Siri → Lắng nghe → Tắt: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_TRIGGER_ID#VOICE_TRIGGER_DISABLED_ID`
+- Siri → Đưa lên để nói: `bridge:root=SIRI_WATCH_SETTINGS_ID#RAISE_TO_SPEAK_SWITCH_ID`
+- Siri → Nhấn Digital Crown: `bridge:root=SIRI_WATCH_SETTINGS_ID#DIGITAL_CROWN_SWITCH_ID`
+- Siri → Tự động gửi tin nhắn: `bridge:root=SIRI_WATCH_SETTINGS_ID#AUTOMATICALLY_SEND_MESSAGES_SWITCH_ID`
+- Siri → Phản hồi của Siri: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=SIRI_RESPONSES_ID`
+- Siri → Phản hồi của Siri → Luôn hiển thị chú thích Siri: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=SIRI_RESPONSES_ID#ALWAYS_SHOW_SIRI_CAPTIONS_SWITCH_ID`
+- Siri → Phản hồi của Siri → Luôn hiển thị lời nói: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=SIRI_RESPONSES_ID#ALWAYS_SHOW_SPEECH_SWITCH_ID`
+- Siri → Phản hồi của Siri → Âm lượng giọng nói: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=SIRI_RESPONSES_ID#CONSIDERATE_VOLUME_GROUP_ID`
+- Siri → Phản hồi của Siri → Tự động điều chỉnh âm lượng: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=SIRI_RESPONSES_ID#CONSIDERATE_VOLUME_SWITCH_ID`
+- Siri → Phản hồi của Siri → Mức: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=SIRI_RESPONSES_ID/CONSIDERATE_VOLUME_PROFILE_ID`
+- Siri → Phản hồi của Siri → Mức → Lớn hơn: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=SIRI_RESPONSES_ID/CONSIDERATE_VOLUME_PROFILE_ID#CONSIDERATE_VOLUME_PROFILE_LOUDER_ID`
+- Siri → Phản hồi của Siri → Mức → Mặc định: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=SIRI_RESPONSES_ID/CONSIDERATE_VOLUME_PROFILE_ID#CONSIDERATE_VOLUME_PROFILE_DEFAULT_ID`
+- Siri → Phản hồi của Siri → Mức → Nhỏ hơn: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=SIRI_RESPONSES_ID/CONSIDERATE_VOLUME_PROFILE_ID#CONSIDERATE_VOLUME_PROFILE_QUIETER_ID`
+- Siri → Phản hồi bằng giọng nói: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_FEEDBACK_ID`
+- Siri → Phản hồi bằng giọng nói → Luôn bật: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_FEEDBACK_ID#VOICE_FEEDBACK_ALWAYS_ON_ID`
+- Siri → Phản hồi bằng giọng nói → Điều khiển với Chế độ im lặng: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_FEEDBACK_ID#VOICE_FEEDBACK_CONTROL_WITH_SILENT_MODE_ID`
+- Siri → Phản hồi bằng giọng nói → Chỉ tai nghe: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_FEEDBACK_ID#VOICE_FEEDBACK_HEADPHONES_ONLY_ID`
+- Siri → Âm lượng giọng nói: `bridge:root=SIRI_WATCH_SETTINGS_ID#VOICE_VOLUME_GROUP_ID`
+- Siri → Gợi ý của Siri: `bridge:root=SIRI_WATCH_SETTINGS_ID#ASSISTANT_SUGGESTIONS_GROUP_ID`
+- Bài tập: `bridge:root=com.apple.SessionTrackerAppSettings`
+- Bài tập → Hiển thị số liệu mục tiêu: `bridge:root=com.apple.SessionTrackerAppSettings#PRO_SETTING_ENABLED_LABEL`
+- Bài tập → Xem bài tập: `bridge:root=com.apple.SessionTrackerAppSettings&path=METRIC_VIEW_ID`
+- Bài tập → Tự động tạm dừng: `bridge:root=com.apple.SessionTrackerAppSettings&path=AUTO_PAUSE_ID`
+- Bài tập → Tự động tạm dừng → Tự động tạm dừng: `bridge:root=com.apple.SessionTrackerAppSettings&path=AUTO_PAUSE_ID#WorkoutAutoPauseSwitch`
+- Bài tập → Lời nhắc bắt đầu bài tập: `bridge:root=com.apple.SessionTrackerAppSettings#AUTO_START_WORKOUT_NOTIFICATIONS_ENABLED_LABEL`
+- Bài tập → Lời nhắc kết thúc bài tập: `bridge:root=com.apple.SessionTrackerAppSettings#END_REMINDERS_ENABLED_LABEL`
+- Bài tập → Nhấn để tạm dừng: `bridge:root=com.apple.SessionTrackerAppSettings#CHORD_PRESS_PAUSE_WORKOUT_ENABLED_LABEL`
+- Bài tập → Phát hiện thiết bị phòng gym: `bridge:root=com.apple.SessionTrackerAppSettings#NFC_ENABLED_LABEL_ID`
+- Bài tập → Xem tốc độ/vận tốc: `bridge:root=com.apple.SessionTrackerAppSettings&path=PACE_VIEW_LABEL`
+- Bài tập → Xem tốc độ/vận tốc → Hiện tại: `bridge:root=com.apple.SessionTrackerAppSettings&path=PACE_VIEW_LABEL#CURRENT_PACE_ID`
+- Bài tập → Xem tốc độ/vận tốc → Trung bình: `bridge:root=com.apple.SessionTrackerAppSettings&path=PACE_VIEW_LABEL#AVERAGE_PACE_ID`
+- Bài tập → Playlist bài tập: `bridge:root=com.apple.SessionTrackerAppSettings&path=MUSIC_AUTOSTART_TITLE_ID`
+- Bài tập → Playlist bài tập → Không có: `bridge:root=com.apple.SessionTrackerAppSettings&path=MUSIC_AUTOSTART_TITLE_ID#NONE_AUTOSTART_ID`
+- Bài tập → Playlist bài tập → Playlist: `bridge:root=com.apple.SessionTrackerAppSettings&path=MUSIC_AUTOSTART_TITLE_ID#MUSIC_PLAYLIST_GROUP_ID`
+- Bài tập → Phát từ đầu: `bridge:root=com.apple.SessionTrackerAppSettings#WORKOUT_MUSIC_PLAY_FROM_BEGINNING_SETTING_ID`
+- Bài tập → Xáo trộn: `bridge:root=com.apple.SessionTrackerAppSettings#WORKOUT_MUSIC_SHUFFLE_SETTING_ID`
+- Bài tập → Đơn vị đo: `bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID`
+- Bài tập → Đơn vị đo → Calo: `bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#ENERGY_UNITS_CALORIES_ID`
+- Bài tập → Đơn vị đo → Kilôcalo: `bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#ENERGY_UNITS_KILOCALORIES_ID`
+- Bài tập → Đơn vị đo → Kilôjun: `bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#ENERGY_UNITS_KILOJOULES_ID`
+- Bài tập → Đơn vị đo → Yard: `bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#POOL_LENGTH_YARDS_ID`
+- Bài tập → Đơn vị đo → Mét: `bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#POOL_LENGTH_METERS_ID`
+- Bài tập → Đơn vị đo → Dặm: `bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#CYCLING_WORKOUTS_MILES_ID`
+- Bài tập → Đơn vị đo → Kilômét: `bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#CYCLING_WORKOUTS_KILOMETERS_ID`
+- Bài tập → Đơn vị đo → Dặm: `bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#WALKING_AND_RUNNING_WORKOUTS_MILES_ID`
+- Bài tập → Đơn vị đo → Kilômét: `bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#WALKING_AND_RUNNING_WORKOUTS_KILOMETERS_ID`
+- Bài tập → Phản hồi bằng giọng nói: `bridge:root=com.apple.SessionTrackerAppSettings#WORKOUT_VOICE_FEEDBACK_LABEL`
+- Bài tập → Cùng nhau đi bộ: `bridge:root=com.apple.SessionTrackerAppSettings#GUIDED_WORKOUT_PREFETCH_FOOTER_ID`
+- Bài tập → Thêm bài tập mới vào đồng hồ: `bridge:root=com.apple.SessionTrackerAppSettings#GUIDED_WORKOUT_PREFETCH_LABEL_ID`
+- Bài tập → Chế độ nguồn điện thấp: `bridge:root=com.apple.SessionTrackerAppSettings#LOW_POWER_MODE`
+- Tin nhắn: `bridge:root=com.apple.MessagesBridgeSettings`
+- Tin nhắn → Phản chiếu iPhone: `bridge:root=com.apple.MessagesBridgeSettings#MIRROR_MY_COMPANION_ID`
+- Tin nhắn → Tùy chỉnh: `bridge:root=com.apple.MessagesBridgeSettings#CUSTOM_ID`
+- Tin nhắn → Trả lời Mặc định | Trả lời mặc định: `bridge:root=com.apple.MessagesBridgeSettings&path=DEFAULT_REPLIES`
+- Tin nhắn → Trả lời Mặc định | Trả lời mặc định → Trả lời mặc định: `bridge:root=com.apple.MessagesBridgeSettings&path=DEFAULT_REPLIES#Default%20Replies`
+- Tin nhắn → Trả lời Mặc định | Trả lời mặc định → Câu trả lời thông minh: `bridge:root=com.apple.MessagesBridgeSettings&path=DEFAULT_REPLIES#Smart%20Replies`
+- Tin nhắn → Trả lời Mặc định | Trả lời mặc định → Thêm câu trả lời…: `bridge:root=com.apple.MessagesBridgeSettings&path=DEFAULT_REPLIES#Add%20reply%E2%80%A6`
+- Tin nhắn → Lặp lại cảnh báo: `bridge:root=com.apple.MessagesBridgeSettings&path=PLAY_ALERT_TONE`
+- Tin nhắn → Tin nhắn Âm thanh: `bridge:root=com.apple.MessagesBridgeSettings&path=AudioMessagesMode`
+- Giờ lên lớp: `bridge:root=SCHOOLTIME`
+- Giờ lên lớp → Giờ lên lớp: `bridge:root=SCHOOLTIME#SCHEDULE_FEATURE_ACTIVE_TITLE`
+- Bật mật mã | Mật mã | Mật mã đơn giản | Mở khóa bằng iPhone | Phát hiện cổ tay | Thay đổi mật mã | Tắt mật mã | Xóa dữ liệu: `bridge:root=PASSCODE_ID`
+- Bật mật mã | Mật mã | Mật mã đơn giản | Mở khóa bằng iPhone | Phát hiện cổ tay | Thay đổi mật mã | Tắt mật mã | Xóa dữ liệu → Bật mật mã: `bridge:root=PASSCODE_ID#TOGGLE_PASSCODE_ID`
+- Bật mật mã | Mật mã | Mật mã đơn giản | Mở khóa bằng iPhone | Phát hiện cổ tay | Thay đổi mật mã | Tắt mật mã | Xóa dữ liệu → Thay đổi mật mã: `bridge:root=PASSCODE_ID#CHANGE_PASSCODE_ID`
+- Bật mật mã | Mật mã | Mật mã đơn giản | Mở khóa bằng iPhone | Phát hiện cổ tay | Thay đổi mật mã | Tắt mật mã | Xóa dữ liệu → Mật mã đơn giản: `bridge:root=PASSCODE_ID#SIMPLE_PASSCODE_SWITCH_ID`
+- Bật mật mã | Mật mã | Mật mã đơn giản | Mở khóa bằng iPhone | Phát hiện cổ tay | Thay đổi mật mã | Tắt mật mã | Xóa dữ liệu → Mở khóa bằng iPhone: `bridge:root=PASSCODE_ID#AUTO_UNLOCK_SWITCH_ID`
+- Bật mật mã | Mật mã | Mật mã đơn giản | Mở khóa bằng iPhone | Phát hiện cổ tay | Thay đổi mật mã | Tắt mật mã | Xóa dữ liệu → Xóa dữ liệu: `bridge:root=PASSCODE_ID#ERASE_DATA_SWITCH_ID`
+- Bật mật mã | Mật mã | Mật mã đơn giản | Mở khóa bằng iPhone | Phát hiện cổ tay | Thay đổi mật mã | Tắt mật mã | Xóa dữ liệu → Phát hiện cổ tay: `bridge:root=PASSCODE_ID#WRIST_DETECTION_CELL_ID`
+- Bật mật mã | Mật mã | Mật mã đơn giản | Mở khóa bằng iPhone | Phát hiện cổ tay | Thay đổi mật mã | Tắt mật mã | Xóa dữ liệu → Tổ hợp: `bridge:root=PASSCODE_ID#SHOW_COMPLICATION_DATA_WHEN_LOCKED_GROUP_ID`
+- Bật mật mã | Mật mã | Mật mã đơn giản | Mở khóa bằng iPhone | Phát hiện cổ tay | Thay đổi mật mã | Tắt mật mã | Xóa dữ liệu → Hiển thị dữ liệu khi bị khóa: `bridge:root=PASSCODE_ID#SHOW_COMPLICATION_DATA_WHEN_LOCKED_SWITCH_ID`
+- Mail: `bridge:root=com.apple.NanoMailBridgeSettings`
+- Mail → Phản chiếu iPhone: `bridge:root=com.apple.NanoMailBridgeSettings#MIRROR_MY_COMPANION_ID`
+- Mail → Tùy chỉnh: `bridge:root=com.apple.NanoMailBridgeSettings#CUSTOM_ID`
+- Mail → Cài đặt Mail: `bridge:root=com.apple.NanoMailBridgeSettings#Mail%20Settings`
+- Mail → Tài khoản: `bridge:root=com.apple.NanoMailBridgeSettings&path=Accounts`
+- Mail → Bao gồm Mail: `bridge:root=com.apple.NanoMailBridgeSettings&path=Include%20Mail`
+- Mail → Xem trước thư: `bridge:root=com.apple.NanoMailBridgeSettings&path=Message%20Preview`
+- Mail → Xem trước thư → Không có: `bridge:root=com.apple.NanoMailBridgeSettings&path=Message%20Preview#0`
+- Mail → Xem trước thư → 1 dòng: `bridge:root=com.apple.NanoMailBridgeSettings&path=Message%20Preview#1`
+- Mail → Xem trước thư → 2 dòng: `bridge:root=com.apple.NanoMailBridgeSettings&path=Message%20Preview#2`
+- Mail → Trả lời mặc định: `bridge:root=com.apple.NanoMailBridgeSettings&path=Default%20Replies`
+- Mail → Trả lời mặc định → Trả lời mặc định: `bridge:root=com.apple.NanoMailBridgeSettings&path=Default%20Replies#Default%20Replies`
+- Mail → Trả lời mặc định → Thêm câu trả lời…: `bridge:root=com.apple.NanoMailBridgeSettings&path=Default%20Replies#Add%20reply%E2%80%A6`
+- Mail → Chữ ký: `bridge:root=com.apple.NanoMailBridgeSettings&path=Signature`
+- Chứng khoán | Chứng khoán được chọn của thẻ Siri | Giá hiện tại | Giá trị vốn hóa | Thay đổi phần trăm | Thay đổi điểm: `bridge:root=com.apple.StocksBridgeSettings`
+- Chứng khoán | Chứng khoán được chọn của thẻ Siri | Giá hiện tại | Giá trị vốn hóa | Thay đổi phần trăm | Thay đổi điểm → Tổ hợp mặt đồng hồ hiển thị: `bridge:root=com.apple.StocksBridgeSettings#Clock%20Face%20Complication%20Shows`
+- Chứng khoán | Chứng khoán được chọn của thẻ Siri | Giá hiện tại | Giá trị vốn hóa | Thay đổi phần trăm | Thay đổi điểm → Giá hiện tại: `bridge:root=com.apple.StocksBridgeSettings#Current%20Price`
+- Chứng khoán | Chứng khoán được chọn của thẻ Siri | Giá hiện tại | Giá trị vốn hóa | Thay đổi phần trăm | Thay đổi điểm → Thay đổi điểm: `bridge:root=com.apple.StocksBridgeSettings#Points%20Change`
+- Chứng khoán | Chứng khoán được chọn của thẻ Siri | Giá hiện tại | Giá trị vốn hóa | Thay đổi phần trăm | Thay đổi điểm → Thay đổi phần trăm: `bridge:root=com.apple.StocksBridgeSettings#Percentage%20Change`
+- Chứng khoán | Chứng khoán được chọn của thẻ Siri | Giá hiện tại | Giá trị vốn hóa | Thay đổi phần trăm | Thay đổi điểm → GT vốn hóa: `bridge:root=com.apple.StocksBridgeSettings#Market%20Cap`
+- Chứng khoán | Chứng khoán được chọn của thẻ Siri | Giá hiện tại | Giá trị vốn hóa | Thay đổi phần trăm | Thay đổi điểm → Mặt đồng hồ Siri hiển thị chào giá cho: `bridge:root=com.apple.StocksBridgeSettings#Siri%20Face%20Shows%20Quote%20For`
+- Chứng khoán | Chứng khoán được chọn của thẻ Siri | Giá hiện tại | Giá trị vốn hóa | Thay đổi phần trăm | Thay đổi điểm → Chứng khoán được chọn: `bridge:root=com.apple.StocksBridgeSettings&path=Selected%20Stock`
+- Chứng khoán | Chứng khoán được chọn của thẻ Siri | Giá hiện tại | Giá trị vốn hóa | Thay đổi phần trăm | Thay đổi điểm → Chứng khoán được chọn → Chứng khoán được chọn: `bridge:root=com.apple.StocksBridgeSettings&path=Selected%20Stock#Selected%20Stock`
+- Hoạt động: `bridge:root=com.apple.HealthAppsSettings`
+- Hoạt động → Cập nhật tiến trình: `bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL`
+- Hoạt động → Cập nhật tiến trình → Không có: `bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#ZERO_HOURS_ID`
+- Hoạt động → Cập nhật tiến trình → 2 giờ một lần: `bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#TWO_HOURS_ID`
+- Hoạt động → Cập nhật tiến trình → 4 giờ một lần: `bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#FOUR_HOURS_ID`
+- Hoạt động → Cập nhật tiến trình → 6 giờ một lần: `bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#SIX_HOURS_ID`
+- Hoạt động → Cập nhật tiến trình → 8 giờ một lần: `bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#EIGHT_HOURS_ID`
+- Hoạt động → Thành tích: `bridge:root=com.apple.HealthAppsSettings#ACHIEVEMENTS_ENABLED_LABEL`
+- Hoạt động → Tóm tắt hàng tuần: `bridge:root=com.apple.HealthAppsSettings#WEEKLY_SUMMARY_ENABLED_LABEL`
+- Hoạt động → Huấn luyện hàng ngày: `bridge:root=com.apple.HealthAppsSettings#DAILY_PROGRESS_ENABLED_LABEL`
+- Hoạt động → Hoàn thành mục tiêu: `bridge:root=com.apple.HealthAppsSettings#GOAL_COMPLETIONS_ENABLED_LABEL`
+- Hoạt động → Thử thách đặc biệt: `bridge:root=com.apple.HealthAppsSettings#REMOTE_ACHIEVEMENTS_ENABLED_LABEL`
+- Hoạt động → Thông báo Chia sẻ hoạt động: `bridge:root=com.apple.HealthAppsSettings#ACTIVITY_SHARING_NOTIFICATIONS_ENABLED`
+- Ngăn xếp thông minh: `bridge:root=SMARTSTACK_LINK`
+- Thời tiết: `bridge:root=com.apple.weatherbridgesettings`
+- Thời tiết → Thành phố mặc định: `bridge:root=com.apple.weatherbridgesettings&path=Default%20City`
+- Thời tiết → Thành phố mặc định → Thành phố mặc định: `bridge:root=com.apple.weatherbridgesettings&path=Default%20City#Default%20City`
+- Thời tiết → Thành phố mặc định → Vị trí hiện tại: `bridge:root=com.apple.weatherbridgesettings&path=Default%20City#Current%20Location`
+- Danh bạ: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired`
+- Danh bạ → Thứ tự sắp xếp: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=contactsSortOrder`
+- Danh bạ → Thứ tự sắp xếp → Tên, Họ: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=contactsSortOrder#0`
+- Danh bạ → Thứ tự sắp xếp → Họ, Tên: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=contactsSortOrder#1`
+- Danh bạ → Thứ tự hiển thị: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=NSPersonNameDefaultDisplayNameOrder`
+- Danh bạ → Thứ tự hiển thị → Tên, Họ: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=NSPersonNameDefaultDisplayNameOrder#1`
+- Danh bạ → Thứ tự hiển thị → Họ, Tên: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=NSPersonNameDefaultDisplayNameOrder#2`
+- Danh bạ → Tên viết tắt: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName`
+- Danh bạ → Tên viết tắt → Tên viết tắt: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#Short%20Name`
+- Danh bạ → Tên viết tắt → Tên & Họ viết tắt: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#First%20Name%20&%20Last%20Initial`
+- Danh bạ → Tên viết tắt → Tên viết tắt & họ: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#First%20Initial%20&%20Last%20Name`
+- Danh bạ → Tên viết tắt → Chỉ tên: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#First%20Name%20Only`
+- Danh bạ → Tên viết tắt → Chỉ họ: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#Last%20Name%20Only`
+- Danh bạ → Tên viết tắt → Ưu tiên biệt danh: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#Prefer%20Nicknames`
+- Trợ năng: `bridge:root=ACCESSIBILITY_ID`
+- Trợ năng → Nhìn: `bridge:root=ACCESSIBILITY_ID#VISION_GROUP`
+- Trợ năng → VoiceOver: `bridge:root=ACCESSIBILITY_ID&path=VOICEOVER_ID`
+- Trợ năng → Thu phóng: `bridge:root=ACCESSIBILITY_ID&path=ZOOM_ID`
+- Trợ năng → Nhãn Bật/Tắt: `bridge:root=ACCESSIBILITY_ID#OnOffLabelsEnabled`
+- Trợ năng → Màu xám: `bridge:root=ACCESSIBILITY_ID#GrayscaleDisplay`
+- Trợ năng → Giảm độ trong suốt: `bridge:root=ACCESSIBILITY_ID#REDUCE_TRANSPARENCY`
+- Trợ năng → Tăng độ tương phản: `bridge:root=ACCESSIBILITY_ID#INCREASE_CONTRAST`
+- Trợ năng → Cỡ chữ: `bridge:root=ACCESSIBILITY_ID#TEXT_SIZE`
+- Trợ năng → Chữ đậm: `bridge:root=ACCESSIBILITY_ID#BoldTextEnabled`
+- Trợ năng → Giảm chuyển động: `bridge:root=ACCESSIBILITY_ID&path=ReduceMotion`
+- Trợ năng → Chuông gió: `bridge:root=ACCESSIBILITY_ID&path=TapticChimesCell`
+- Trợ năng → Chuông gió → Chuông gió: `bridge:root=ACCESSIBILITY_ID&path=TapticChimesCell#Chimes`
+- Trợ năng → Chuông gió → Lịch trình: `bridge:root=ACCESSIBILITY_ID&path=TapticChimesCell/CHIMES_SCHEDULE_ID`
+- Trợ năng → Chuông gió → Lịch trình → Hàng giờ: `bridge:root=ACCESSIBILITY_ID&path=TapticChimesCell/CHIMES_SCHEDULE_ID#Hourly`
+- Trợ năng → Chuông gió → Lịch trình → 30 phút: `bridge:root=ACCESSIBILITY_ID&path=TapticChimesCell/CHIMES_SCHEDULE_ID#30%20minutes`
+- Trợ năng → Chuông gió → Lịch trình → 15 phút: `bridge:root=ACCESSIBILITY_ID&path=TapticChimesCell/CHIMES_SCHEDULE_ID#15%20minutes`
+- Trợ năng → Chuông gió → Âm thanh: `bridge:root=ACCESSIBILITY_ID&path=TapticChimesCell/CHIMES_SOUNDS_ID`
+- Trợ năng → Chuông gió → Âm thanh → Chuông: `bridge:root=ACCESSIBILITY_ID&path=TapticChimesCell/CHIMES_SOUNDS_ID#Bells`
+- Trợ năng → Chuông gió → Âm thanh → Chim: `bridge:root=ACCESSIBILITY_ID&path=TapticChimesCell/CHIMES_SOUNDS_ID#Birds`
+- Trợ năng → Vận động: `bridge:root=ACCESSIBILITY_ID#MotorGroupCell`
+- Trợ năng → Tốc độ bấm nút sườn: `bridge:root=ACCESSIBILITY_ID&path=SideButton`
+- Trợ năng → Tốc độ bấm nút sườn → Tốc độ bấm: `bridge:root=ACCESSIBILITY_ID&path=SideButton#CLICK_SPEED_GROUP_CELL`
+- Trợ năng → Tốc độ bấm nút sườn → Mặc định: `bridge:root=ACCESSIBILITY_ID&path=SideButton#SIDE_CLICK_SPEED_DEFAULT`
+- Trợ năng → Tốc độ bấm nút sườn → Chậm: `bridge:root=ACCESSIBILITY_ID&path=SideButton#SIDE_CLICK_SPEED_SLOW`
+- Trợ năng → Tốc độ bấm nút sườn → Chậm nhất: `bridge:root=ACCESSIBILITY_ID&path=SideButton#SIDE_CLICK_SPEED_SLOWEST`
+- Trợ năng → Thích nghi cảm ứng: `bridge:root=ACCESSIBILITY_ID&path=TouchAccommodationsCell`
+- Trợ năng → Thích nghi cảm ứng → Thích nghi cảm ứng: `bridge:root=ACCESSIBILITY_ID&path=TouchAccommodationsCell#TOUCH_ACCOMMODATIONS_SWITCHER`
+- Trợ năng → Thích nghi cảm ứng → Thời gian giữ: `bridge:root=ACCESSIBILITY_ID&path=TouchAccommodationsCell#HoldDurationGroup`
+- Trợ năng → Thích nghi cảm ứng → Thời gian giữ: `bridge:root=ACCESSIBILITY_ID&path=TouchAccommodationsCell#HoldDuration`
+- Trợ năng → Thích nghi cảm ứng → Bỏ qua lặp lại: `bridge:root=ACCESSIBILITY_ID&path=TouchAccommodationsCell#IgnoreRepeatGroup`
+- Trợ năng → Thích nghi cảm ứng → Bỏ qua lặp lại: `bridge:root=ACCESSIBILITY_ID&path=TouchAccommodationsCell#IgnoreRepeat`
+- Trợ năng → Thích nghi cảm ứng → Hỗ trợ chạm: `bridge:root=ACCESSIBILITY_ID&path=TouchAccommodationsCell#Tap%20Assistance`
+- Trợ năng → Thích nghi cảm ứng → Tắt: `bridge:root=ACCESSIBILITY_ID&path=TouchAccommodationsCell#OFF`
+- Trợ năng → Thích nghi cảm ứng → Sử dụng vị trí chạm ban đầu: `bridge:root=ACCESSIBILITY_ID&path=TouchAccommodationsCell#ACTIVATE_ON_TOUCH`
+- Trợ năng → Thích nghi cảm ứng → Sử dụng vị trí chạm cuối cùng: `bridge:root=ACCESSIBILITY_ID&path=TouchAccommodationsCell#ACTIVATE_ON_RELEASE`
+- Trợ năng → Hoạt động xe lăn: `bridge:root=ACCESSIBILITY_ID#MOBILITY`
+- Trợ năng → Bộ đàm: `bridge:root=ACCESSIBILITY_ID#WalkieTalkieTapToTalkGroup`
+- Trợ năng → Chạm để nói: `bridge:root=ACCESSIBILITY_ID#WalkieTalkieTapToTalk`
+- Trợ năng → Bộ chuyển
+đổi ứng dụng: `bridge:root=ACCESSIBILITY_ID#AppSwitcherAutoSelectGroup`
+- Trợ năng → Tự động chọn ứng dụng tâm điểm: `bridge:root=ACCESSIBILITY_ID#AppSwitcherAutoSelect`
+- Trợ năng → Siri: `bridge:root=ACCESSIBILITY_ID&path=SIRI_CELL_ID`
+- Trợ năng → Siri → Nhập liệu vào Siri: `bridge:root=ACCESSIBILITY_ID&path=SIRI_CELL_ID#Type%20to%20Siri`
+- Trợ năng → Nghe: `bridge:root=ACCESSIBILITY_ID#HEARING`
+- Trợ năng → RTT: `bridge:root=ACCESSIBILITY_ID&path=RTT_ID`
+- Trợ năng → RTT → RTT: `bridge:root=ACCESSIBILITY_ID&path=RTT_ID#RTT_ROW_ID`
+- Trợ năng → Đơn âm sắc: `bridge:root=ACCESSIBILITY_ID#MonoAudioEnabled`
+- Trợ năng → Cân bằng stereo trái-phải: `bridge:root=ACCESSIBILITY_ID#LEFT_RIGHT_BALANCE_SPOKEN`
+- Trợ năng → Thông báo tai nghe: `bridge:root=ACCESSIBILITY_ID#HeadphoneNotificationsID`
+- Trợ năng → Thiết bị nghe: `bridge:root=ACCESSIBILITY_ID#HearingDevicesComplicationGroupID`
+- Trợ năng → Tổ hợp: `bridge:root=ACCESSIBILITY_ID&path=HearingDevicesComplicationRowID`
+- Trợ năng → Tổ hợp → Âm lượng micrô: `bridge:root=ACCESSIBILITY_ID&path=HearingDevicesComplicationRowID#Mic%20Volume`
+- Trợ năng → Tổ hợp → Chương trình: `bridge:root=ACCESSIBILITY_ID&path=HearingDevicesComplicationRowID#Program`
+- Trợ năng → Tốc độ thời gian taptic: `bridge:root=ACCESSIBILITY_ID#TapticTimeSpeedAdjustmentGroup`
+- Trợ năng → Phím tắt trợ năng: `bridge:root=ACCESSIBILITY_ID&path=AX_SHORTCUT_ID`
+- Bản đồ | Cảnh báo rẽ: `bridge:root=com.apple.NanoMapsBridgeSettings`
+- Bản đồ | Cảnh báo rẽ → Cảnh báo rẽ: `bridge:root=com.apple.NanoMapsBridgeSettings#Turn%20Alerts`
+- Bản đồ | Cảnh báo rẽ → Lái xe: `bridge:root=com.apple.NanoMapsBridgeSettings#Driving`
+- Bản đồ | Cảnh báo rẽ → Lái xe với CarPlay: `bridge:root=com.apple.NanoMapsBridgeSettings#Driving%20with%20CarPlay`
+- Bản đồ | Cảnh báo rẽ → Đi bộ: `bridge:root=com.apple.NanoMapsBridgeSettings#Walking`
+- Bản đồ | Cảnh báo rẽ → Đi xe đạp: `bridge:root=com.apple.NanoMapsBridgeSettings#Cycling`
+- Bản đồ | Cảnh báo rẽ → Hiển thị dẫn đường: `bridge:root=com.apple.NanoMapsBridgeSettings#Show%20Navigation`
+- Bản đồ | Cảnh báo rẽ → PT công cộng: `bridge:root=com.apple.NanoMapsBridgeSettings#Transit`
+- Bản đồ | Cảnh báo rẽ → Thông tin bản dựng: `bridge:root=com.apple.NanoMapsBridgeSettings#Build%20Info%3A`
+- Mail & Lịch: `bridge:root=com.apple.BridgeRemoteAccounts`
+- Mail & Lịch → Tài khoản: `bridge:root=com.apple.BridgeRemoteAccounts#Accounts`
+- Mail & Lịch → Thêm Tài khoản Google...: `bridge:root=com.apple.BridgeRemoteAccounts#ADD_GOOGLE_ACCOUNT`
+- Mail & Lịch → Tìm nạp: `bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch`
+- Mail & Lịch → Tìm nạp → Tắt: `bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch#Off`
+- Mail & Lịch → Tìm nạp → Hàng giờ: `bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch#Hourly`
+- Mail & Lịch → Tìm nạp → 30 phút: `bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch#30%20min`
+- Mail & Lịch → Tìm nạp → 15 phút: `bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch#15%20min`
+- Tim: `bridge:root=com.apple.HeartRateSettings`
+- Tim → Tim: `bridge:root=com.apple.HeartRateSettings#1`
+- Tim → Thông báo nhịp tim: `bridge:root=com.apple.HeartRateSettings#2`
+- Tim → Nhịp tim cao: `bridge:root=com.apple.HeartRateSettings#3`
+- Tim → Nhịp tim thấp: `bridge:root=com.apple.HeartRateSettings#4`
+- Tim → Nhịp không đều: `bridge:root=com.apple.HeartRateSettings#5`
+- Tim → Xem ECG đã ghi trong Sức khỏe: `bridge:root=com.apple.HeartRateSettings#6`
+- Tim → ECG: `bridge:root=com.apple.HeartRateSettings#7`
+- App Store: `bridge:root=com.apple.BridgeAppStoreDaemonSettings`
+- App Store → Tải về tự động: `bridge:root=com.apple.BridgeAppStoreDaemonSettings#automaticDownloadSpecifier`
+- App Store → Tự động cập nhật: `bridge:root=com.apple.BridgeAppStoreDaemonSettings#Automatic%20Updates`
+- Cử chỉ: `bridge:root=ELTON_SETTINGS_ID`
+- Cử chỉ → Cử chỉ: `bridge:root=ELTON_SETTINGS_ID#Gestures`
+- Cử chỉ → Chạm hai lần: `bridge:root=ELTON_SETTINGS_ID&path=ELTON_DOUBLE_TAP_ID`
+- Cử chỉ → Chạm hai lần → Chạm hai lần: `bridge:root=ELTON_SETTINGS_ID&path=ELTON_DOUBLE_TAP_ID#Double%20Tap`
+- Cử chỉ → Chạm hai lần → Phát lại: `bridge:root=ELTON_SETTINGS_ID&path=ELTON_DOUBLE_TAP_ID#playbackSettingsGroup`
+- Cử chỉ → Chạm hai lần → Phát / Tạm dừng: `bridge:root=ELTON_SETTINGS_ID&path=ELTON_DOUBLE_TAP_ID#playbackSettingsPlayPause`
+- Cử chỉ → Chạm hai lần → Bỏ qua: `bridge:root=ELTON_SETTINGS_ID&path=ELTON_DOUBLE_TAP_ID#playbackSettingsSkip`
+- Cử chỉ → Chạm hai lần → Ngăn xếp thông minh: `bridge:root=ELTON_SETTINGS_ID&path=ELTON_DOUBLE_TAP_ID#smartStackGroup`
+- Cử chỉ → Chạm hai lần → Chuyển: `bridge:root=ELTON_SETTINGS_ID&path=ELTON_DOUBLE_TAP_ID#smartStackSettingsAdvance`
+- Cử chỉ → Chạm hai lần → Chọn: `bridge:root=ELTON_SETTINGS_ID&path=ELTON_DOUBLE_TAP_ID#smartStackSettingsSelect`
+- Cử chỉ → Chạm hai lần → Khi sử dụng Apple Vision Pro: `bridge:root=ELTON_SETTINGS_ID&path=ELTON_DOUBLE_TAP_ID#ignoreWhileVisionProDonned`
+- Cử chỉ → Chạm hai lần → Bỏ qua Chạm hai lần: `bridge:root=ELTON_SETTINGS_ID&path=ELTON_DOUBLE_TAP_ID#ignoreDoubleTap`
+- Cử chỉ → Lắc cổ tay: `bridge:root=ELTON_SETTINGS_ID#Wrist%20Flick`
+- Cử chỉ → Che để tắt tiếng: `bridge:root=ELTON_SETTINGS_ID#Cover%20to%20Mute`
+- Ngủ: `bridge:root=com.apple.NanoBedtimeBridgeSettings`
+- Ngủ → Thiết lập Ngủ trong ứng dụng Sức khỏe: `bridge:root=com.apple.NanoBedtimeBridgeSettings#SET_UP_SLEEP_CELL_ID`
+- Giới hạn dung lượng | Nhạc | Nhạc đã đồng bộ hóa: `bridge:root=com.apple.NanoMusicBridgeSettings`
+- Giới hạn dung lượng | Nhạc | Nhạc đã đồng bộ hóa → PLAYLIST & ALBUM: `bridge:root=com.apple.NanoMusicBridgeSettings#PLAYLISTS%20&%20ALBUMS`
+- Giới hạn dung lượng | Nhạc | Nhạc đã đồng bộ hóa → Thêm nhạc…: `bridge:root=com.apple.NanoMusicBridgeSettings#Add%20Music%E2%80%A6`
+- Ví & Apple Pay: `bridge:root=com.apple.NanoPassbookBridgeSettings`
+- Ví & Apple Pay → Apple Cash: `bridge:root=com.apple.NanoPassbookBridgeSettings#Apple%C2%A0Cash`
+- Ví & Apple Pay → Thêm thẻ: `bridge:root=com.apple.NanoPassbookBridgeSettings#Add%20Card`
+- Ví & Apple Pay → Thông báo: `bridge:root=com.apple.NanoPassbookBridgeSettings#MIRROR_RADIO_GROUP_ID`
+- Ví & Apple Pay → Phản chiếu iPhone: `bridge:root=com.apple.NanoPassbookBridgeSettings#MIRROR_MY_COMPANION_ID`
+- Ví & Apple Pay → Tùy chỉnh: `bridge:root=com.apple.NanoPassbookBridgeSettings#CUSTOM_ID`
+- Sức khỏe: `bridge:root=com.apple.BridgeHealthSettings`
+- Tìm Apple Watch: `bridge:root=ActiveWatch`
+- Tìm Apple Watch → Ghép đôi đồng hồ mới: `bridge:root=ActiveWatch&path=Pair%20New%20Watch`
+- Chú tâm: `bridge:root=com.apple.MindSettings`
+- Chú tâm → Cho phép thông báo: `bridge:root=com.apple.MindSettings#ALLOW_NOTIFICATIONS_ID`
+- Chú tâm → Gửi đến Trung tâm thông báo: `bridge:root=com.apple.MindSettings#SEND_TO_NOTIFICATION_CENTER_ID`
+- Chú tâm → Tắt thông báo: `bridge:root=com.apple.MindSettings#NOTIFICATIONS_OFF_ID`
+- Chú tâm → Lời nhắc chú tâm: `bridge:root=com.apple.MindSettings#MIND_GROUP_ID`
+- Chú tâm → Bắt đầu ngày: `bridge:root=com.apple.MindSettings#MIND_START_OF_DAY_REMINDER`
+- Chú tâm → Cuối ngày: `bridge:root=com.apple.MindSettings#MIND_END_OF_DAY_REMINDER`
+- Chú tâm → Thêm lời nhắc…: `bridge:root=com.apple.MindSettings#Add%20Reminder%E2%80%A6`
+- Chú tâm → Tóm tắt hàng tuần: `bridge:root=com.apple.MindSettings#MIND_WEEKLY_SUMMARY_ID`
+- Chú tâm → Tắt cho hôm nay: `bridge:root=com.apple.MindSettings#MIND_MUTE_FOR_TODAY_ID`
+- Chú tâm → Tần suất hô hấp: `bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID`
+- Chú tâm → Tần suất hô hấp → 4 nhịp thở/phút: `bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_4`
+- Chú tâm → Tần suất hô hấp → 5 nhịp thở/phút: `bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_5`
+- Chú tâm → Tần suất hô hấp → 6 nhịp thở/phút: `bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_6`
+- Chú tâm → Tần suất hô hấp → 7 nhịp thở/phút: `bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_7`
+- Chú tâm → Tần suất hô hấp → 8 nhịp thở/phút: `bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_8`
+- Chú tâm → Tần suất hô hấp → 9 nhịp thở/phút: `bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_9`
+- Chú tâm → Tần suất hô hấp → 10 nhịp thở/phút: `bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_10`
+- Chú tâm → Cảm ứng: `bridge:root=com.apple.MindSettings&path=MIND_HAPTICS_ID`
+- Chú tâm → Cảm ứng → Không có: `bridge:root=com.apple.MindSettings&path=MIND_HAPTICS_ID#NONE_ID`
+- Chú tâm → Cảm ứng → Tối thiểu: `bridge:root=com.apple.MindSettings&path=MIND_HAPTICS_ID#MINIMAL_ID`
+- Chú tâm → Cảm ứng → Nổi bật: `bridge:root=com.apple.MindSettings&path=MIND_HAPTICS_ID#PROMINENT_ID`
+- Podcast: `bridge:root=com.apple.private.PodcastsBridgeSettings`
+- Điện thoại: `bridge:root=com.apple.PhoneBridgeSettings`
+- Điện thoại → Cuộc gọi: `bridge:root=com.apple.PhoneBridgeSettings#carrier_direct_calling_group_id`
+- Điện thoại → Nhạc chuông: `bridge:root=com.apple.PhoneBridgeSettings#RINGTONE`
+- Điện thoại → Âm thanh: `bridge:root=com.apple.PhoneBridgeSettings#INCOMING_CALL_SOUND`
+- Điện thoại → Cảm ứng: `bridge:root=com.apple.PhoneBridgeSettings#INCOMING_CALL_HAPTIC`
+- Độ sâu: `bridge:root=com.apple.DepthCompanionSettings`
+- Nút Tác vụ: `bridge:root=STING_TITLE`
+- Cài đặt nhà cung cấp: `bridge:root=CARRIER_SETTINGS`
+- Di động: `bridge:root=CELLULAR_ID`
+- Dock: `bridge:root=DOCK`
+- Dock → Sắp xếp Dock: `bridge:root=DOCK#OrderingOptionGroup`
+- Dock → Gần đây: `bridge:root=DOCK#Recents`
+- Dock → Mục ưa thích: `bridge:root=DOCK#Favorites`
+- Dock: `bridge:root=DOCK.0`
+- Dock → Sắp xếp Dock: `bridge:root=DOCK.0#OrderingOptionGroup`
+- Dock → Gần đây: `bridge:root=DOCK.0#Recents`
+- Dock → Mục ưa thích: `bridge:root=DOCK.0#Favorites`
+- Sách nói: `bridge:root=com.apple.NanoBooks.BridgeSettings`
+- Sách nói → Đăng nhập: `bridge:root=com.apple.NanoBooks.BridgeSettings#Sign%20In`
+- Album ảnh được chọn | Giới hạn Ảnh: `bridge:root=com.apple.mobileslideshow`
+- Gửi thông báo đã đọc: `bridge:root=com.apple.MessagesBridgeSettings%23READ_RECEIPTS`

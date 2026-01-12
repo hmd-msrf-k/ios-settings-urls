@@ -1,0 +1,414 @@
+- Batteri: `prefs:root=BATTERY_USAGE`
+- Batteri → Spareblussmodus | Sparebluss­modus: `prefs:root=BATTERY_USAGE#BATTERY_SAVER_MODE`
+- Batteri → Batteritilstand: `prefs:root=BATTERY_USAGE#BATTERY_HEALTH_ID`
+- Generelt: `prefs:root=General`
+- Generelt → VPN og enhetsadministrering: `prefs:root=General&path=ManagedConfigurationList`
+- Generelt → Autoutfylling og passord: `prefs:root=General&path=AUTOFILL`
+- Generelt → Autoutfylling og passord → Autoutfylling av passord: `prefs:root=General&path=AUTOFILL#AUTOFILL`
+- Generelt → Autoutfylling og passord → Fjern verifiseringskoder: `prefs:root=General&path=AUTOFILL#CLEAN_UP_VERIFICATION_CODES`
+- Generelt → Autoutfylling og passord → Konfigurer verifiseringskoder: `prefs:root=General&path=AUTOFILL#SET_UP_VERIFICATION_CODES`
+- Generelt → AppleCare og garanti: `prefs:root=General&path=COVERAGE/`
+- Generelt → Ordbok: `prefs:root=General&path=DICTIONARY`
+- Generelt → Tastatur: `prefs:root=General&path=Keyboard`
+- Generelt → Tastatur → Tastaturer: `prefs:root=General&path=Keyboard/KEYBOARDS`
+- Generelt → Tastatur → Teksterstatning: `prefs:root=General&path=Keyboard/USER_DICTIONARY`
+- Generelt → Tastatur → Automatisk stor bokstav: `prefs:root=General&path=Keyboard#KeyboardAutocapitalization`
+- Generelt → Tastatur → Autokorrigering: `prefs:root=General&path=Keyboard#KeyboardAutocorrection`
+- Generelt → Tastatur → Kontroller stavemåte: `prefs:root=General&path=Keyboard#KeyboardCheckSpelling`
+- Generelt → Tastatur → Aktiver låsetasten: `prefs:root=General&path=Keyboard#KeyboardCapsLock`
+- Generelt → Tastatur → Snarveier: `prefs:root=General&path=Keyboard#KeyboardAssistant`
+- Generelt → Tastatur → Forslag: `prefs:root=General&path=Keyboard#KeyboardPrediction`
+- Generelt → Tastatur → Smart tegnsetting: `prefs:root=General&path=Keyboard#SmartTyping`
+- Generelt → Tastatur → Delt tastatur: `prefs:root=General&path=Keyboard#RivenKeyboard`
+- Generelt → Tastatur → Aktiver tastesveip: `prefs:root=General&path=Keyboard#GesturesEnabled`
+- Generelt → Tastatur → Forhåndsvis tegn: `prefs:root=General&path=Keyboard#KeyboardAllowPaddle`
+- Generelt → Tastatur → «.»-snarvei: `prefs:root=General&path=Keyboard#KeyboardPeriodShortcut`
+- Generelt → Tastatur → Sveip tast til tast for å skrive: `prefs:root=General&path=Keyboard#KeyboardContinuousPathEnabled`
+- Generelt → Tastatur → Aktiver diktering: `prefs:root=General&path=Keyboard#Dictation`
+- Generelt → Tastatur → Automatisk tegnsetting: `prefs:root=General&path=Keyboard#AutoPunctuationSetting`
+- Generelt → Oppdatering: `prefs:root=General&path=SOFTWARE_UPDATE_LINK`
+- Generelt → Oppdatering → Oppdater automatisk: `prefs:root=General&path=SOFTWARE_UPDATE_LINK/SUAutomaticUpdateButton`
+- Generelt → Lagring: `prefs:root=General&path=STORAGE_MGMT`
+- Generelt → Lagring → Lagring: `prefs:root=General&path=STORAGE_MGMT#MANAGE`
+- Generelt → Lagring → Fjern ubrukte apper: `prefs:root=General&path=STORAGE_MGMT#OFFLOAD`
+- Generelt → Bilde i bilde: `prefs:root=General&path=PiP_SPEC`
+- Generelt → Styreflate | Styreflate og mus: `prefs:root=General&path=POINTERS`
+- Generelt → NFC: `prefs:root=General&path=NFC_LINK`
+- Generelt → VPN: `prefs:root=General&path=VPN`
+- Generelt → CarPlay: `prefs:root=General&path=CARPLAY`
+- Generelt → Om: `prefs:root=General&path=About`
+- Generelt → Om → Godkjente sertifikater: `prefs:root=General&path=About/CERT_TRUST_SETTINGS`
+- Generelt → Om → Serienummer: `prefs:root=General&path=About#SerialNumber`
+- Generelt → Om → Modellnummer: `prefs:root=General&path=About#ProductModel`
+- Generelt → Om → Modellnavn: `prefs:root=General&path=About#ProductModelName`
+- Generelt → Om → iOS-versjon: `prefs:root=General&path=About/SW_VERSION_SPECIFIER`
+- Generelt → Juridisk og typegodkjenninger: `prefs:root=General&path=LEGAL_AND_REGULATORY`
+- Generelt → Juridisk og typegodkjenninger → Garanti: `prefs:root=General&path=LEGAL_AND_REGULATORY#Warranty`
+- Generelt → AirDrop: `prefs:root=General&path=AIRDROP_LINK`
+- Generelt → AirDrop → Holde enhetene mot hverandre: `prefs:root=General&path=AIRDROP_LINK#AIRDROP_NFC_ID`
+- Generelt → Hjem-knapp: `prefs:root=General&path=HOME_BUTTON`
+- Generelt → Sidebryter: `prefs:root=General#Rotation_Switch_Action_Group`
+- Generelt → Bakgrunnsoppdatering: `prefs:root=General&path=AUTO_CONTENT_DOWNLOAD`
+- Generelt → Dato og tid: `prefs:root=General&path=DATE_AND_TIME`
+- Generelt → TV-ut: `prefs:root=General&path=TV_OUT`
+- Generelt → Nullstill: `prefs:root=General&path=Reset`
+- Generelt → Nullstill → Nullstill alle innstillinger: `prefs:root=General&path=Reset#settingsErase`
+- Generelt → Nullstill → Slett alt innhold og alle innstillinger: `prefs:root=General&path=Reset#fullErase`
+- Generelt → Nullstill → Nullstill nettverksinnstillinger: `prefs:root=General&path=Reset#RESET_NETWORK_LABEL`
+- Generelt → Nullstill → Fjern alle mobildataabonnementer: `prefs:root=General&path=Reset#cellularErase`
+- Generelt → Nullstill → Abonnenttjenester: `prefs:root=General&path=Reset#SUBSCRIBER_SERVICES_ID`
+- Generelt → Nullstill → Nullstill tastaturordboken: `prefs:root=General&path=Reset#RESET_KEYBOARD_DICTIONARY_LABEL`
+- Generelt → Nullstill → Nullstill layout på Hjem-skjerm: `prefs:root=General&path=Reset#RESET_ICONS_LABEL`
+- Generelt → Nullstill → Nullstill Sted og personvern: `prefs:root=General&path=Reset#RESET_PRIVACY_LABEL`
+- Generelt → Slå av: `prefs:root=General#SHUTDOWN_LABEL`
+- Generelt → AirPlay og kontinuitet: `prefs:root=General&path=CONTINUITY_SPEC`
+- Generelt → AirPlay og kontinuitet → Handoff: `prefs:root=General&path=CONTINUITY_SPEC#CONTINUITY`
+- Generelt → AirPlay og kontinuitet → Overfør til HomePod: `prefs:root=General&path=CONTINUITY_SPEC#TRANSFER_TO_HOMEPOD`
+- Generelt → AirPlay og kontinuitet → Bruk AirPlay automatisk: `prefs:root=General&path=CONTINUITY_SPEC#AUTOMATICALLY_AIRPLAY`
+- Generelt → AirPlay og kontinuitet → Kontinuitetskamera: `prefs:root=General&path=CONTINUITY_SPEC#WOMBAT_CAMERA`
+- Generelt → Språk og område: `prefs:root=General&path=INTERNATIONAL`
+- Generelt → Språk og område → Andre språk…: `prefs:root=General&path=INTERNATIONAL#NEW_PREFERRED_LANGUAGE`
+- Generelt → Språk og område → Ønsket rekkefølge av språk: `prefs:root=General&path=INTERNATIONAL#PREFERRED_LANGUAGE_GROUP`
+- Generelt → Språk og område → Legg til språk…: `prefs:root=General&path=INTERNATIONAL#ADD_PREFERRED_LANGUAGE`
+- Generelt → Språk og område → Region: `prefs:root=General&path=INTERNATIONAL/LOCALE`
+- Generelt → Språk og område → Tall: `prefs:root=General&path=INTERNATIONAL/NUMBERING_SYSTEM`
+- Generelt → Språk og område → Kalender: `prefs:root=General&path=INTERNATIONAL/CALENDAR`
+- Generelt → Språk og område → Temperaturenhet: `prefs:root=General&path=INTERNATIONAL/TEMPERATURE_UNIT`
+- Apple-konto: `prefs:root=APPLE_ACCOUNT` or `settings-navigation://com.apple.Settings.AppleAccount`
+- Apple-konto → Verifisering av kontaktnøkkel: `prefs:root=APPLE_ACCOUNT&path=TRANSPARENCY` or `settings-navigation://com.apple.Settings.AppleAccount/TRANSPARENCY`
+- Apple-konto → iCloud: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE` or `prefs:root=CASTLE`
+- Apple-konto → iCloud → iCloud-lagringsplass: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/STORAGE_AND_BACKUP` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/STORAGE_AND_BACKUP` or `prefs:root=CASTLE&path=STORAGE_AND_BACKUP`
+- Apple-konto → iCloud → iCloud Drive: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Ubiquity` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Ubiquity` or `prefs:root=CASTLE&path=com.apple.Dataclass.Ubiquity`
+- Apple-konto → iCloud → Bilder: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.MediaStream` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.MediaStream` or `prefs:root=CASTLE&path=com.apple.Dataclass.MediaStream`
+- Apple-konto → iCloud → Mail: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Mail` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail` or `prefs:root=CASTLE&path=com.apple.Dataclass.Mail`
+- Apple-konto → iCloud → Kontakter: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Contacts` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Contacts` or `prefs:root=CASTLE&path=com.apple.Dataclass.Contacts`
+- Apple-konto → iCloud → Kalender: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Calendars` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Calendars` or `prefs:root=CASTLE&path=com.apple.Dataclass.Calendars`
+- Apple-konto → iCloud → Påminnelser: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Reminders` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Reminders` or `prefs:root=CASTLE&path=com.apple.Dataclass.Reminders`
+- Apple-konto → iCloud → Safari: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Bookmarks` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Bookmarks` or `prefs:root=CASTLE&path=com.apple.Dataclass.Bookmarks`
+- Apple-konto → iCloud → Notater: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Notes` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Notes` or `prefs:root=CASTLE&path=com.apple.Dataclass.Notes`
+- Apple-konto → iCloud → Nyheter: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.News` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.News` or `prefs:root=CASTLE&path=com.apple.Dataclass.News`
+- Apple-konto → iCloud → Sikkerhetskopi: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/BACKUP` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/BACKUP` or `prefs:root=CASTLE&path=BACKUP`
+- Apple-konto → iCloud → Helse: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Health` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Health` or `prefs:root=CASTLE&path=com.apple.Dataclass.Health`
+- Apple-konto → iCloud → Passord og nøkkelring: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.KeychainSync` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.KeychainSync` or `prefs:root=CASTLE&path=com.apple.Dataclass.KeychainSync`
+- Apple-konto → iCloud → Skjul e-postadressen min: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/PRIVATE_EMAIL_MANAGE` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/PRIVATE_EMAIL_MANAGE` or `prefs:root=CASTLE&path=PRIVATE_EMAIL_MANAGE`
+- Apple-konto → Del posisjonen min: `prefs:root=APPLE_ACCOUNT&path=LOCATION_SHARING` or `settings-navigation://com.apple.Settings.AppleAccount/LOCATION_SHARING`
+- Apple-konto → Del posisjonen min → Hvor er: `prefs:root=APPLE_ACCOUNT&path=LOCATION_SHARING/FindMyDevice-Settings` or `settings-navigation://com.apple.Settings.AppleAccount/LOCATION_SHARING/FindMyDevice-Settings`
+- Apple-konto → Navn, telefonnummer, e‑post: `prefs:root=APPLE_ACCOUNT&path=APPLE_ACCOUNT_CONTACT` or `settings-navigation://com.apple.Settings.AppleAccount/APPLE_ACCOUNT_CONTACT`
+- Apple-konto → Passord og sikkerhet: `prefs:root=APPLE_ACCOUNT&path=PASSWORD_AND_SECURITY` or `settings-navigation://com.apple.Settings.AppleAccount/PASSWORD_AND_SECURITY`
+- Apple-konto → Betaling og levering: `prefs:root=APPLE_ACCOUNT&path=PAYMENT_AND_SHIPPING` or `settings-navigation://com.apple.Settings.AppleAccount/PAYMENT_AND_SHIPPING`
+- Apple-konto → Abonnementer: `prefs:root=APPLE_ACCOUNT&path=SUBSCRIPTIONS` or `settings-navigation://com.apple.Settings.AppleAccount/SUBSCRIPTIONS`
+- Apple-konto → Familiedeling: `prefs:root=APPLE_ACCOUNT&path=Family` or `settings-navigation://com.apple.Settings.AppleAccount/Family`
+- Varslinger: `prefs:root=NOTIFICATIONS_ID`
+- Varslinger → Planlagt sammendrag: `prefs:root=NOTIFICATIONS_ID&path=SCHEDULED_DELIVERY_ID`
+- Været: `prefs:root=WEATHER`
+- Freeform: `prefs:root=FREEFORM`
+- Fokus: `prefs:root=DO_NOT_DISTURB`
+- Fokus → Fokusstatus: `prefs:root=DO_NOT_DISTURB&path=status`
+- Dagbok: `prefs:root=JOURNAL`
+- Lommebok og Apple Pay: `prefs:root=PASSBOOK`
+- Lommebok og Apple Pay → Apple Cash: `prefs:root=PASSBOOK#Apple%C2%A0Cash`
+- Lommebok og Apple Pay → Betalingskort: `prefs:root=PASSBOOK#SETTINGS_PAYMENT_CARDS_GROUP`
+- Lommebok og Apple Pay → Legg til kort: `prefs:root=PASSBOOK#Add%20Card`
+- Lommebok og Apple Pay → Dobbelttrykk på sideknappen: `prefs:root=PASSBOOK#Double-Click%20Side%20Button`
+- Lommebok og Apple Pay → Bestillingssporing: `prefs:root=PASSBOOK#ORDER_TRACKING`
+- Skjerm og lysstyrke | Utseende: `prefs:root=DISPLAY`
+- Skjerm og lysstyrke | Utseende → Utseende: `prefs:root=DISPLAY#DEVICE_APPEARANCE`
+- Skjerm og lysstyrke | Utseende → True Tone: `prefs:root=DISPLAY#WHITE_BALANCE`
+- Skjerm og lysstyrke | Utseende → Night Shift: `prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION`
+- Skjerm og lysstyrke | Utseende → Night Shift → Planlagt: `prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION#SCHEDULED`
+- Skjerm og lysstyrke | Utseende → Night Shift → Aktiver til i morgen: `prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION#MANUAL`
+- Skjerm og lysstyrke | Utseende → Night Shift → Fargetemperatur: `prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION#COLOR_TEMPERATURE`
+- Skjerm og lysstyrke | Utseende → Autolås: `prefs:root=DISPLAY&path=AUTOLOCK`
+- Skjerm og lysstyrke | Utseende → Løft for å vekke: `prefs:root=DISPLAY#RAISE_TO_WAKE`
+- Skjerm og lysstyrke | Utseende → Lås / lås opp: `prefs:root=DISPLAY#SMART_CASE_LOCK_SPEC`
+- Skjerm og lysstyrke | Utseende → Tekststørrelse: `prefs:root=DISPLAY&path=TEXT_SIZE`
+- Skjerm og lysstyrke | Utseende → Halvfet tekst: `prefs:root=DISPLAY#BOLD_TEXT`
+- Skjerm og lysstyrke | Utseende → Lysstyrke: `prefs:root=DISPLAY#BRIGHTNESS`
+- Skjerm og lysstyrke | Utseende → Visningszoom: `prefs:root=DISPLAY#DISPLAY_ZOOM_GROUP`
+- Skjerm og lysstyrke | Utseende → Utseende: `prefs:root=DISPLAY&path=APPEARANCE`
+- Skjerm og lysstyrke | Utseende → Utseende → Vinduszoom: `prefs:root=DISPLAY&path=APPEARANCE#WINDOW_ZOOM`
+- Skjerm og lysstyrke | Utseende → Utseende → Vinduszoom med to hender: `prefs:root=DISPLAY&path=APPEARANCE#TWO_HANDED_WINDOW_ZOOM`
+- Skjerm og lysstyrke | Utseende → Visning: `prefs:root=DISPLAY&path=MAGNIFY`
+- Skjerm og lysstyrke | Utseende → Skjerm alltid på: `prefs:root=DISPLAY&path=ALWAYS_ON`
+- Skjerm og lysstyrke | Utseende → Skjerm alltid på → Skjerm alltid på: `prefs:root=DISPLAY&path=ALWAYS_ON#ALWAYS_ON`
+- Skjerm og lysstyrke | Utseende → Kompatible apper: `prefs:root=DISPLAY&path=COMPATIBLE_APPEARANCE`
+- Skjerm og lysstyrke | Utseende → Kompatible apper → Mørkt, lyst: `prefs:root=DISPLAY&path=COMPATIBLE_APPEARANCE#COMPATIBLE_APPEARANCE_CHOICES`
+- Måleverktøy: `prefs:root=MEASURE` or `settings-navigation://com.apple.Settings.Apps/com.apple.measure`
+- Måleverktøy → Måleenheter: `prefs:root=MEASURE#MEASURE_UNITS` or `settings-navigation://com.apple.Settings.Apps/com.apple.measure#MEASURE_UNITS#MEASURE_UNITS`
+- Måleverktøy → Britisk: `prefs:root=MEASURE#Imperial` or `settings-navigation://com.apple.Settings.Apps/com.apple.measure#Imperial#Imperial`
+- Måleverktøy → Metrisk: `prefs:root=MEASURE#Metric` or `settings-navigation://com.apple.Settings.Apps/com.apple.measure#Metric#Metric`
+- Bakgrunn: `prefs:root=Wallpaper`
+- Kontrollsenter: `prefs:root=ControlCenter`
+- Kontrollsenter → Tilgang fra apper: `prefs:root=ControlCenter#ALLOWED_WITHIN_APPS`
+- Kontrollsenter → Tilpass kontroller: `prefs:root=ControlCenter&path=CUSTOMIZE_CONTROLS`
+- Taleopptak: `prefs:root=VOICE_MEMOS`
+- Taleopptak → Fjern slettet: `prefs:root=VOICE_MEMOS&path=RCVoiceMemosRecentlyDeletedWindowKey`
+- Taleopptak → Lydkvalitet: `prefs:root=VOICE_MEMOS&path=RCVoiceMemosAudioQualityKey`
+- Taleopptak → Navngi etter sted: `prefs:root=VOICE_MEMOS#RCVoiceMemosUseLocationBasedNaming`
+- Kalender: `prefs:root=CALENDAR`
+- Kalender → Overstyring av tidssone: `prefs:root=CALENDAR&path=TimeZoneCityArray`
+- Kalender → Alternative kalendere: `prefs:root=CALENDAR&path=Alternate%20Calendars`
+- Kalender → Vis ukenummer: `prefs:root=CALENDAR#Week%20Numbers`
+- Kalender → Vis inviterte som takket nei: `prefs:root=CALENDAR#Show%20Invitee%20Declines`
+- Kalender → Synkroniser: `prefs:root=CALENDAR&path=Sync`
+- Kalender → Standard varseltider: `prefs:root=CALENDAR&path=Default%20Alert%20Times`
+- Kalender → Start uken på: `prefs:root=CALENDAR&path=Start%20Week%20On`
+- Kalender → Stedsforslag: `prefs:root=CALENDAR#Location%20Suggestions`
+- Utvikler: `prefs:root=DEVELOPER_SETTINGS`
+- Utvikler → Flerbanenettverk: `prefs:root=DEVELOPER_SETTINGS&path=MULTI_PATH_AGG`
+- Utvikler → Flerbanenettverk → Flerbanenettverk: `prefs:root=DEVELOPER_SETTINGS&path=MULTI_PATH_AGG#Multipath%20Networking`
+- Utvikler → Utseende: `prefs:root=DEVELOPER_SETTINGS#UIAppearanceGroup`
+- Utvikler → Mørkt utseende: `prefs:root=DEVELOPER_SETTINGS#UIAppearanceSettings`
+- Utvikler → Sammenkoblede enheter: `prefs:root=DEVELOPER_SETTINGS#DTPairedDevicesGroup`
+- Utvikler → Fjern godkjente datamaskiner: `prefs:root=DEVELOPER_SETTINGS#CLEAR_TRUSTED_COMPUTERS`
+- Utvikler → Loggføring: `prefs:root=DEVELOPER_SETTINGS&path=DTInstrumentsSettings`
+- Utvikler → Aktiver UI-automatisering | UI-automatisering: `prefs:root=DEVELOPER_SETTINGS#UIAGroup`
+- Utvikler → Nettverk: `prefs:root=DEVELOPER_SETTINGS#NLCGroup`
+- Utvikler → Nettverkslenkeforhold: `prefs:root=DEVELOPER_SETTINGS&path=NLC`
+- Utvikler → Ekstra loggføring: `prefs:root=DEVELOPER_SETTINGS#ADDITIONAL_LOGGING`
+- Utvikler → Tillat HTTP-tjenester: `prefs:root=DEVELOPER_SETTINGS#ALLOW_HTTP_SERVICES`
+- Utvikler → Deaktiver frekvensbegrensning: `prefs:root=DEVELOPER_SETTINGS#DISABLE_RATE_LIMITING`
+- Utvikler → NFC-nøkkel valgfritt: `prefs:root=DEVELOPER_SETTINGS#NFC_PASS_KEY_OPTIONAL`
+- Utvikler → Testing av medietjenester: `prefs:root=DEVELOPER_SETTINGS#MEDIA_SERVICES_TESTING`
+- Utvikler → Nullstill medietjenester: `prefs:root=DEVELOPER_SETTINGS#RESET_MEDIA_SERVICES`
+- Utvikler → News-testing: `prefs:root=DEVELOPER_SETTINGS#NEWS_TESTING`
+- Utvikler → Nullstill lokale data ved neste oppstart: `prefs:root=DEVELOPER_SETTINGS#RESET_LOCAL_DATA_ON_NEXT_LAUNCH`
+- Utvikler → Testing av Media Player-rammeverk: `prefs:root=DEVELOPER_SETTINGS#RoutineSettingsGroup`
+- Utvikler → API for spillbart innhold: `prefs:root=DEVELOPER_SETTINGS&path=RoutineSettings`
+- Utvikler → TV-distributør: `prefs:root=DEVELOPER_SETTINGS&path=VideoSubscriberAccountSettings`
+- Utvikler → ClassKit-API: `prefs:root=DEVELOPER_SETTINGS&path=ClassKitSettings`
+- Utvikler → CoreSpotlight-testing: `prefs:root=DEVELOPER_SETTINGS#CORESPOTLIGHT_TESTING`
+- Utvikler → Reindekser alle objekter: `prefs:root=DEVELOPER_SETTINGS#REINDEX_ALL_ITEMS`
+- Utvikler → Reindekser alle objekter med identifikatorer: `prefs:root=DEVELOPER_SETTINGS#REINDEX_ALL_ITEMS_WITH_IDENTIFIERS`
+- Utvikler → Snarveier-testing: `prefs:root=DEVELOPER_SETTINGS#SIRI_ACTIONS_TESTING`
+- Utvikler → Vis nylige snarveier: `prefs:root=DEVELOPER_SETTINGS#DISPLAY_DONATIONS_SPOTLIGHT`
+- Utvikler → Vis kommende medier: `prefs:root=DEVELOPER_SETTINGS#DISPLAY_UPCOMING_MEDIA`
+- Utvikler → Vis donasjoner på låst skjerm: `prefs:root=DEVELOPER_SETTINGS#DISPLAY_DONATIONS_LOCKSCREEN`
+- Utvikler → Tving synkronisering av snarveier til Apple Watch: `prefs:root=DEVELOPER_SETTINGS#SIRI_ACTIONS_SYNC_WATCHOS`
+- Utvikler → MIDI-CI-testing: `prefs:root=DEVELOPER_SETTINGS#MIDI_CI_API_BETA`
+- Utvikler → Aktiver MIDI-CI: `prefs:root=DEVELOPER_SETTINGS#MIDI_CI_API_BETA_ENABLE`
+- Utvikler → Hengregistrering: `prefs:root=DEVELOPER_SETTINGS#HANGTRACER_EXTERNAL_CONFIGURE`
+- Face ID og kode | Kode | Touch ID og kode: `prefs:root=PASSCODE`
+- Face ID og kode | Kode | Touch ID og kode → Slå av kode: `prefs:root=PASSCODE#PASSCODE_OFF`
+- Face ID og kode | Kode | Touch ID og kode → Endre kode: `prefs:root=PASSCODE#CHANGE_PASSCODE`
+- Face ID og kode | Kode | Touch ID og kode → Krev kode: `prefs:root=PASSCODE&path=PASSCODE_REQ`
+- Face ID og kode | Kode | Touch ID og kode → Talestyrt oppringing: `prefs:root=PASSCODE#VOICE_DIAL`
+- Face ID og kode | Kode | Touch ID og kode → Gi tilgang ved låst enhet: `prefs:root=PASSCODE#ALLOW_ACCESS_WHEN_LOCKED`
+- Face ID og kode | Kode | Touch ID og kode → Svar med melding: `prefs:root=PASSCODE#REPLY_WITH_MESSAGE_SWITCH`
+- Face ID og kode | Kode | Touch ID og kode → Hjemkontroll: `prefs:root=PASSCODE#HOME_CONTROL_SWITCH`
+- Face ID og kode | Kode | Touch ID og kode → Lommebok: `prefs:root=PASSCODE#WALLET_SWITCH`
+- Face ID og kode | Kode | Touch ID og kode → Ring tilbake til ubesvarte anrop: `prefs:root=PASSCODE#RETURN_MISSED_CALLS_SWITCH`
+- Face ID og kode | Kode | Touch ID og kode → Slett data: `prefs:root=PASSCODE#WIPE_DEVICE`
+- Face ID og kode | Kode | Touch ID og kode → Lås opp med Apple Watch: `prefs:root=PASSCODE#AUTO_UNLOCK_DEVICES_GROUP`
+- Face ID og kode | Kode | Touch ID og kode → Beskyttelse av stjålet enhet: `prefs:root=PASSCODE#DTO_GROUP_ID`
+- Telefon: `prefs:root=Phone`
+- Telefon → Mitt nummer: `prefs:root=Phone&path=My%20Number`
+- Telefon → Innkommende: `prefs:root=Phone&path=INCOMING_CALL_STYLE`
+- Telefon → Si hvem som ringer: `prefs:root=Phone&path=ANNOUNCE_CALLS`
+- Telefon → SMS-/anropsrapportering: `prefs:root=Phone&path=CLASSIFICATION_AND_REPORTING`
+- Telefon → Svar med melding: `prefs:root=Phone&path=Respond%20with%20Text`
+- Telefon → Viderekobling: `prefs:root=Phone&path=Call%20Forwarding`
+- Telefon → Viderekobling → Viderekobling: `prefs:root=Phone&path=Call%20Forwarding#idMasterOnOffSwitch`
+- Telefon → Samtale venter: `prefs:root=Phone&path=Call%20Waiting`
+- Telefon → Vis min anrops-ID: `prefs:root=Phone&path=Show%20My%20Caller%20ID`
+- Telefon → Vis min anrops-ID → Vis min anrops-ID: `prefs:root=Phone&path=Show%20My%20Caller%20ID/Primary`
+- Telefon → Vis min anrops-ID → Vis min anrops-ID → Vis min anrops-ID: `prefs:root=Phone&path=Show%20My%20Caller%20ID/Primary#Show%20My%20Caller%20ID`
+- Telefon → Demp ukjente anrop: `prefs:root=Phone#SILENCE_CALLS`
+- Telefon → Blokkerte kontakter: `prefs:root=Phone&path=SPECIFIER_IDENTIFIER_BLACKLIST`
+- Telefon → Ringehjelp: `prefs:root=Phone&path=Dial%20Assist`
+- Notater: `prefs:root=NOTES` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes`
+- Notater → Standardkonto: `prefs:root=NOTES&path=Default%20Account` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes/Default%20Account`
+- Notater → Passord: `prefs:root=NOTES&path=Password` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes/Password`
+- Notater → Sorter notater etter: `prefs:root=NOTES&path=Sort%20Notes%20By` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes/Sort%20Notes%20By`
+- Notater → Start nye notater med: `prefs:root=NOTES&path=New%20Notes%20Start%20With` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes/New%20Notes%20Start%20With`
+- Notater → Sorter avhakede objekter: `prefs:root=NOTES&path=Sort%20Checked%20Items` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes/Sort%20Checked%20Items`
+- Notater → Linjer og rutenett: `prefs:root=NOTES&path=Lines%20%26%20Grids` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes/Lines%20%26%20Grids`
+- Notater → Arkiver i Bilder: `prefs:root=NOTES#Save%20to%20Photos` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes#Save%20to%20Photos#Save%20to%20Photos`
+- Notater → Åpne notater fra låst skjerm: `prefs:root=NOTES&path=Access%20Notes%20from%20Lock%20Screen` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes/Access%20Notes%20from%20Lock%20Screen`
+- Bøker: `prefs:root=IBOOKS`
+- Bøker → Hent innhold fra nettet: `prefs:root=IBOOKS#BKAllowOnlineContent`
+- Bøker → SYNKRONISERING: `prefs:root=IBOOKS#SYNCING`
+- Bøker → Leses nå: `prefs:root=IBOOKS#BKLibrary.ReadingNow`
+- Bøker → iCloud Drive: `prefs:root=IBOOKS#BCSyncICloudDrive`
+- Bøker → LESER: `prefs:root=IBOOKS#READING`
+- Bøker → Rette marger: `prefs:root=IBOOKS#BKFullJustification`
+- Bøker → Automatisk orddeling: `prefs:root=IBOOKS#BKAutoHyphenation`
+- Bøker → Bla fram med begge marger: `prefs:root=IBOOKS#BKLeftTapTurnToNext`
+- Bøker → Lesemål: `prefs:root=IBOOKS#READING_GOALS`
+- Bøker → Tøm data for lesemål: `prefs:root=IBOOKS#BKReadingGoalsShouldClearDataKey`
+- Bøker → SØK: `prefs:root=IBOOKS#SEARCHING`
+- Bøker → Nettbokhandel: `prefs:root=IBOOKS#BKIncludeBookStoreResultsInSearch`
+- Bøker → LYDBØKER: `prefs:root=IBOOKS#AUDIOBOOKS`
+- Bøker → Hopp framover: `prefs:root=IBOOKS&path=BKAudioBookSkipForward`
+- Bøker → Hopp tilbake: `prefs:root=IBOOKS&path=BKAudioBookSkipBackward`
+- Bøker → EKSTERNE KONTROLLER: `prefs:root=IBOOKS#BKRemoteSkipInsteadOfNextTrackDefaultKey`
+- Bøker → Neste/forrige: `prefs:root=IBOOKS#Next/Previous`
+- Bøker → Hopp framover/tilbake: `prefs:root=IBOOKS#Skip%20Forward/Back`
+- Bøker → PERSONVERN: `prefs:root=IBOOKS#PRIVACY`
+- Bøker → Nullstill identifikator: `prefs:root=IBOOKS#BAResetAnalyticsUserID`
+- Bøker → Bidragsytere: `prefs:root=IBOOKS&path=Acknowledgements`
+- Game Center: `prefs:root=GAMECENTER`
+- Nødanrop (SOS): `prefs:root=EMERGENCY_SOS`
+- Nødanrop (SOS) → Ring med sideknappen: `prefs:root=EMERGENCY_SOS#CALL_WITH_SIDE_BUTTON`
+- Nødanrop (SOS) → Ring automatisk: `prefs:root=EMERGENCY_SOS#AUTO_CALL`
+- Nødanrop (SOS) → Nødnumre: `prefs:root=EMERGENCY_SOS#EMERGENCY_CONTACTS`
+- Nødanrop (SOS) → Nedtellingslyd: `prefs:root=EMERGENCY_SOS#ALARM_SOUND_SWITCH`
+- Påminnelser: `prefs:root=REMINDERS`
+- Påminnelser → Standardliste: `prefs:root=REMINDERS&path=DEFAULT_LIST`
+- Påminnelser → Standardliste → Påminnelser: `prefs:root=REMINDERS&path=DEFAULT_LIST#preferredDefaultListID`
+- Påminnelser → Varsling for i dag: `prefs:root=REMINDERS#todayNotificationFireTime`
+- Påminnelser → Vis som forfalt: `prefs:root=REMINDERS#showRemindersAsOverdue`
+- Mobilnett: `prefs:root=MOBILE_DATA_SETTINGS_ID`
+- Mobilnett → Mobildatavalg: `prefs:root=MOBILE_DATA_SETTINGS_ID&path=CELLULAR_DATA_OPTIONS`
+- Mobilnett → Mobildatavalg → Lav databruk: `prefs:root=MOBILE_DATA_SETTINGS_ID&path=CELLULAR_DATA_OPTIONS#Low%20Data%20Mode`
+- Mobilnett → Mobildata: `prefs:root=MOBILE_DATA_SETTINGS_ID&path=SHOW_ALL`
+- WLAN | Wi‑Fi: `prefs:root=WIFI`
+- Kontakter: `prefs:root=CONTACTS`
+- Kontakter → Gi Kontakter tilgang: `prefs:root=CONTACTS#Allow%20Contacts%20To%20Access`
+- Kontakter → Siri: `prefs:root=CONTACTS&path=SIRI_AND_SEARCH`
+- Kontakter → Sorter etter: `prefs:root=CONTACTS&path=ContactsSortOrder`
+- Kontakter → Vis som: `prefs:root=CONTACTS&path=PersonNameOrder`
+- Kontakter → Kortnavn: `prefs:root=CONTACTS&path=PersonShortName`
+- Kontakter → Kortnavn → Kortnavn: `prefs:root=CONTACTS&path=PersonShortName#Short%20Name`
+- Kontakter → Kortnavn → Foretrekk kallenavn: `prefs:root=CONTACTS&path=PersonShortName#Prefer%20Nicknames`
+- Kontakter → Min info: `prefs:root=CONTACTS&path=MeCard`
+- Kontakter → Importer SIM-kontakter: `prefs:root=CONTACTS#SIMImport`
+- Snarveier: `prefs:root=SHORTCUTS`
+- Snarveier → iCloud-synkronisering: `prefs:root=SHORTCUTS#WFCloudKitSyncEnabled`
+- Snarveier → Synkroniser snarveisrekkefølge: `prefs:root=SHORTCUTS#WFCloudKitSyncOrderEnabled`
+- Snarveier → Juridisk informasjon: `prefs:root=SHORTCUTS&path=Legal%20Notices`
+- TV | Videoer: `prefs:root=TVAPP`
+- TV | Videoer → Bruk mobildata for avspilling: `prefs:root=TVAPP#com.apple.videos%3AVideosUseCellularDataEnabledSetting`
+- TV | Videoer → Avspillingskvalitet: `prefs:root=TVAPP#com.apple.videos%3APlaybackQualityGroup`
+- TV | Videoer → Kjøpte og leide objekter: `prefs:root=TVAPP&path=com.apple.videos%3APreferredPurchaseResolution`
+- TV | Videoer → Hjemmedeling: `prefs:root=TVAPP#com.apple.videos%3AHomeSharingFooter`
+- Musikk: `prefs:root=MUSIC`
+- Musikk → Vis Apple Music: `prefs:root=MUSIC#com.apple.Music%3AAppleMusicEnabled`
+- Musikk → Legg til sanger fra spillelister: `prefs:root=MUSIC#com.apple.Music%3AAddPlaylistSongsToMyMusicSwitch`
+- Musikk → Vis vurdering med stjerner: `prefs:root=MUSIC#com.apple.Music%3AShowStarRatings`
+- Musikk → Synkroniser bibliotek: `prefs:root=MUSIC#com.apple.Music%3ACloudMusicLibraryEnabled`
+- Musikk → Mobildata: `prefs:root=MUSIC&path=com.apple.Music%3ACellularData`
+- Musikk → Nedlastet musikk: `prefs:root=MUSIC&path=com.apple.Music%3AMusicUsageLink`
+- Musikk → Optimaliser lagring: `prefs:root=MUSIC&path=com.apple.Music%3AOptimizeStorage`
+- Musikk → Automatiske nedlastinger: `prefs:root=MUSIC#com.apple.Music%3AMusicAutomaticDownload`
+- Musikk → Equalizer: `prefs:root=MUSIC&path=com.apple.Music%3AEQ`
+- Musikk → Volumjustering: `prefs:root=MUSIC#com.apple.Music%3ASoundCheck`
+- Musikk → Bruk avspillingsloggen: `prefs:root=MUSIC#com.apple.Music%3APrivateListening`
+- Kamera: `prefs:root=CAMERA`
+- Kamera → Formater: `prefs:root=CAMERA&path=CameraFormatsSettingsList`
+- Kamera → Formater → Apple ProRaw: `prefs:root=CAMERA&path=CameraFormatsSettingsList#CAMUserPreferenceEnableLinearDNGControl`
+- Kamera → Record Video: `prefs:root=CAMERA&path=Record%20Video`
+- Kamera → Record Video → HDR-video: `prefs:root=CAMERA&path=Record%20Video#HDR%20Video`
+- Kamera → Husk innstillinger: `prefs:root=CAMERA&path=CameraPreserveSettingsSwitch`
+- Kamera → Husk innstillinger → Kameramodus: `prefs:root=CAMERA&path=CameraPreserveSettingsSwitch#CAMUserPreferencePreserveCaptureMode`
+- Kamera → Rutenett: `prefs:root=CAMERA#CameraGridSwitch`
+- Kamera → Skann QR-koder: `prefs:root=CAMERA#CameraQRBannerSwitch`
+- Kompass: `prefs:root=COMPASS`
+- Kompass → Bruk geografisk nord: `prefs:root=COMPASS#USE_TRUE_NORTH`
+- Varslinger om smittekontakt: `prefs:root=EXPOSURE_NOTIFICATION`
+- Mail: `prefs:root=MAIL`
+- Mail → Kontoer: `prefs:root=MAIL&path=ACCOUNTS`
+- Mail → Kontoer → Legg til konto: `prefs:root=MAIL&path=ACCOUNTS#ADD_ACCOUNT`
+- Mail → Kontoer → Hent nye data: `prefs:root=MAIL&path=ACCOUNTS#FETCH_NEW_DATA`
+- Mail → Forhåndsvisning: `prefs:root=MAIL&path=Preview`
+- Mail → Vis Til/Kopi til-etiketter: `prefs:root=MAIL#Show%20To/Cc%20Labels`
+- Mail → Sveipevalg: `prefs:root=MAIL&path=Swipe%20Options`
+- Mail → Spør før sletting: `prefs:root=MAIL#Ask%20Before%20Deleting`
+- Mail → Hent eksterne bilder: `prefs:root=MAIL#Load%20Remote%20Images`
+- Mail → Organiser etter tråd: `prefs:root=MAIL#Organize%20by%20Thread`
+- Mail → Minimer leste meldinger: `prefs:root=MAIL#Collapse%20Read%20Messages`
+- Mail → Nyeste melding øverst: `prefs:root=MAIL#Most%20Recent%20Message%20on%20Top`
+- Mail → Fullstendige tråder: `prefs:root=MAIL#Complete%20Threads`
+- Mail → Handling for dempet tråd: `prefs:root=MAIL&path=Muted%20Thread%20Action`
+- Mail → Ignorer blokkerte avsendere: `prefs:root=MAIL#Ignore%20Blocked%20Senders`
+- Mail → Blokkerte avsendere: `prefs:root=MAIL&path=Blocked%20Sender%20Options`
+- Mail → Blokkert: `prefs:root=MAIL&path=Blocked`
+- Mail → Blindkopi til meg: `prefs:root=MAIL#Always%20Bcc%20Myself`
+- Mail → Merk adresser: `prefs:root=MAIL&path=Mark%20Addresses`
+- Mail → Øk sitatnivå: `prefs:root=MAIL&path=Increase%20Quote%20Level`
+- Mail → Inkluder vedlegg i svaret: `prefs:root=MAIL&path=Include%20Attachments%20with%20Replies`
+- Mail → Signatur: `prefs:root=MAIL&path=Signature`
+- Bluetooth: `prefs:root=Bluetooth`
+- News: `prefs:root=NEWS`
+- News → Forhåndsvis artikler: `prefs:root=NEWS#show_excerpt_mode`
+- News → Begrens artikler i dagsoversikten: `prefs:root=NEWS#showStoriesFromFavoritesSpecifierID`
+- News → Personvern: `prefs:root=NEWS#Privacy`
+- News → Nullstill identifikator: `prefs:root=NEWS#reset_identifier`
+- News → Bidragsytere: `prefs:root=NEWS&path=Acknowledgements`
+- Bilder: `prefs:root=Photos`
+- Bilder → iCloud Bilder: `prefs:root=Photos#iCloudPhotosSwitch`
+- Bilder → Optimaliser lagring: `prefs:root=Photos#iCloudOptimizeStorageOption`
+- Bilder → Last ned og behold originaler: `prefs:root=Photos#iCloudKeepOriginalsOption`
+- Bilder → Delte albumer: `prefs:root=Photos#SharedStreamsSwitch`
+- Bilder → Mobildata: `prefs:root=Photos&path=CellularDataLinkList`
+- Bilder → Spill automatisk av videoer: `prefs:root=Photos#VideoAutoplaySwitch`
+- Bilder → Se i full HDR: `prefs:root=Photos#ImageModulationSwitch`
+- Bilder → Vis høytidshendelser: `prefs:root=Photos#MEMORIES_HOLIDAY_CALENDAR_EVENTS_SWITCH`
+- Bilder → Overfør til Mac eller PC: `prefs:root=Photos#TransferGroup`
+- Podkaster: `prefs:root=PODCASTS`
+- Personvern og sikkerhet: `prefs:root=Privacy` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity`
+- Personvern og sikkerhet → Helse: `prefs:root=Privacy&path=HEALTH` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/HEALTH`
+- Personvern og sikkerhet → Helsedata: `prefs:root=Privacy&path=HEALTH_DATA` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/HEALTH_DATA`
+- Personvern og sikkerhet → Sted: `prefs:root=Privacy&path=LOCATION` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/LOCATION`
+- Personvern og sikkerhet → Sted → Del posisjonen min: `prefs:root=Privacy&path=LOCATION/LOCATION_SHARING` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/LOCATION/LOCATION_SHARING`
+- Personvern og sikkerhet → Kontakter: `prefs:root=Privacy&path=CONTACTS` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/CONTACTS`
+- Personvern og sikkerhet → Kalendere: `prefs:root=Privacy&path=CALENDARS` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/CALENDARS`
+- Personvern og sikkerhet → Påminnelser: `prefs:root=Privacy&path=REMINDERS` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/REMINDERS`
+- Personvern og sikkerhet → Bilder: `prefs:root=Privacy&path=PHOTOS` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/PHOTOS`
+- Personvern og sikkerhet → Bluetooth-deling: `prefs:root=Privacy&path=BT_PERIPHERAL` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/BT_PERIPHERAL`
+- Personvern og sikkerhet → Mikrofon: `prefs:root=Privacy&path=MICROPHONE` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/MICROPHONE`
+- Personvern og sikkerhet → Talegjenkjenning: `prefs:root=Privacy&path=SPEECH_RECOGNITION` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/SPEECH_RECOGNITION`
+- Personvern og sikkerhet → Kamera: `prefs:root=Privacy&path=CAMERA` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/CAMERA`
+- Personvern og sikkerhet → HomeKit: `prefs:root=Privacy&path=WILLOW` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/WILLOW`
+- Personvern og sikkerhet → Media og Apple Music: `prefs:root=Privacy&path=MEDIALIBRARY` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/MEDIALIBRARY`
+- Personvern og sikkerhet → Analyse: `prefs:root=Privacy&path=PROBLEM_REPORTING` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/PROBLEM_REPORTING`
+- Personvern og sikkerhet → Annonser: `prefs:root=Privacy&path=ADVERTISING` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/ADVERTISING`
+- Personvern og sikkerhet → Filer og mapper: `prefs:root=Privacy&path=FILEACCESS` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/FILEACCESS`
+- Personvern og sikkerhet → Sporing: `prefs:root=Privacy&path=USER_TRACKING` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/USER_TRACKING`
+- Personvern og sikkerhet → Personvernrapport for app: `prefs:root=Privacy&path=PRIVACY_REPORT` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/PRIVACY_REPORT`
+- Personvern og sikkerhet → Sikringsmodus: `prefs:root=Privacy#LOCKDOWN_MODE` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity#LOCKDOWN_MODE#LOCKDOWN_MODE`
+- Personvern og sikkerhet → Sensitivt innhold: `prefs:root=Privacy#NUDITY_DETECTION` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity#NUDITY_DETECTION#NUDITY_DETECTION`
+- FaceTime: `prefs:root=FACETIME`
+- Skjermtid: `prefs:root=SCREEN_TIME`
+- Lyd og følbar respons | Lyder: `prefs:root=Sounds`
+- Lyd og følbar respons | Lyder → Trygg bruk av hodetelefoner: `prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING`
+- Lyd og følbar respons | Lyder → Trygg bruk av hodetelefoner → Lightning-adaptere: `prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING/HEADPHONE_LIGHTNING_ADAPTERS`
+- Lyd og følbar respons | Lyder → Trygg bruk av hodetelefoner → Hodetelefonvarslinger: `prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING#SHSHeadphoneWeeklyNotificationsKey`
+- Lyd og følbar respons | Lyder → Trygg bruk av hodetelefoner → Reduser høyt lydvolum: `prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING#SHSHeadphoneLevelLimitSwitchKey`
+- Lyd og følbar respons | Lyder → Lydeffekter: `prefs:root=Sounds&path=SOUND_EFFECTS`
+- Lyd og følbar respons | Lyder → Ringelyd og varsler: `prefs:root=Sounds#RINGER_AND_ALERT_GROUP`
+- Lyd og følbar respons | Lyder → Endre med knapper: `prefs:root=Sounds#CHANGE_WITH_BUTTONS`
+- Lyd og følbar respons | Lyder → Lyder og vibreringsmønstre: `prefs:root=Sounds#SOUNDS_ALERT_GROUP`
+- Lyd og følbar respons | Lyder → Ringetone: `prefs:root=Sounds&path=Ringtone`
+- Lyd og følbar respons | Lyder → SMS-tone: `prefs:root=Sounds&path=Text_Messages`
+- Lyd og følbar respons | Lyder → Ny beskjed: `prefs:root=Sounds&path=Voicemail`
+- Lyd og følbar respons | Lyder → Ny e‑post: `prefs:root=Sounds&path=NEW_MAIL`
+- Lyd og følbar respons | Lyder → E‑post sendt: `prefs:root=Sounds&path=SENT_MAIL`
+- Lyd og følbar respons | Lyder → Kalendervarsel: `prefs:root=Sounds&path=Calendar%20Alarm`
+- Lyd og følbar respons | Lyder → Påminnelsesvarsler: `prefs:root=Sounds&path=Reminder%20Alerts`
+- Lyd og følbar respons | Lyder → Tastaturklikking: `prefs:root=Sounds#KEYBOARD_SOUND_SWITCH`
+- Lyd og følbar respons | Lyder → Låselyd: `prefs:root=Sounds#LOCK_SOUND_SWITCH`
+- Lyd og følbar respons | Lyder → Personlig romtilpasset lyd: `prefs:root=Sounds&path=Personalized%20Spatial%20Audio`
+- Apple Pencil: `prefs:root=Pencil`
+- Apple Pencil → Apple Pencil: `prefs:root=Pencil#PrefersPencilDraws`
+- Apple Pencil → Apple Pencil: `prefs:root=Pencil#PencilTextInput`
+- Meldinger: `prefs:root=MESSAGES`
+- Aksjer: `prefs:root=STOCKS`
+- Aksjer → Personvern: `prefs:root=STOCKS#Privacy`
+- Aksjer → Nullstill identifikator: `prefs:root=STOCKS#reset_identifier`
+- Oversett: `prefs:root=TRANSLATE`
+- Oversett → Lokal modus: `prefs:root=TRANSLATE#OnDeviceOnly`
+- Siri: `prefs:root=SIRI`
+- Siri → Tillat Siri på låst skjerm: `prefs:root=SIRI#ASSISTANT_LOCK_SCREEN_ACCESS`
+- Siri → Språk: `prefs:root=SIRI&path=LANGUAGE_ID`
+- Siri → Siri-stemme: `prefs:root=SIRI&path=VOICE_ID`
+- Siri → Taletilbakemelding: `prefs:root=SIRI&path=VOICE_FEEDBACK_ID`
+- Siri → Min informasjon: `prefs:root=SIRI&path=MY_INFO`
+- Helse | Helsedata: `prefs:root=HEALTH`
+- App Store: `prefs:root=STORE`
+- App Store → Automatiske nedlastinger: `prefs:root=STORE#Automatic%20Downloads`
+- App Store → Appoppdateringer: `prefs:root=STORE#App%20Updates`
+- App Store → Appnedlastinger: `prefs:root=STORE&path=App%20Downloads`
+- App Store → Autoavspilling av video: `prefs:root=STORE&path=Video%20Autoplay`
+- App Store → Vurderinger og omtaler i apper: `prefs:root=STORE#In-App%20Ratings%20&%20Reviews`
+- Flymodus: `prefs:root=ROOT#AIRPLANE_MODE`

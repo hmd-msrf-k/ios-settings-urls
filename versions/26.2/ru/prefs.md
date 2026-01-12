@@ -1,0 +1,414 @@
+- Аккумулятор: `prefs:root=BATTERY_USAGE`
+- Аккумулятор → Режим энергосбережения: `prefs:root=BATTERY_USAGE#BATTERY_SAVER_MODE`
+- Аккумулятор → Состояние аккумулятора: `prefs:root=BATTERY_USAGE#BATTERY_HEALTH_ID`
+- Основные: `prefs:root=General`
+- Основные → VPN и управление устройством: `prefs:root=General&path=ManagedConfigurationList`
+- Основные → Автозаполнение и пароли: `prefs:root=General&path=AUTOFILL`
+- Основные → Автозаполнение и пароли → Автозаполнение паролей: `prefs:root=General&path=AUTOFILL#AUTOFILL`
+- Основные → Автозаполнение и пароли → Удалить ненужные коды проверки: `prefs:root=General&path=AUTOFILL#CLEAN_UP_VERIFICATION_CODES`
+- Основные → Автозаполнение и пароли → Настроить коды проверки: `prefs:root=General&path=AUTOFILL#SET_UP_VERIFICATION_CODES`
+- Основные → AppleCare и гарантия: `prefs:root=General&path=COVERAGE/`
+- Основные → Словарь: `prefs:root=General&path=DICTIONARY`
+- Основные → Клавиатура: `prefs:root=General&path=Keyboard`
+- Основные → Клавиатура → Клавиатуры: `prefs:root=General&path=Keyboard/KEYBOARDS`
+- Основные → Клавиатура → Замена текста: `prefs:root=General&path=Keyboard/USER_DICTIONARY`
+- Основные → Клавиатура → Автопрописные: `prefs:root=General&path=Keyboard#KeyboardAutocapitalization`
+- Основные → Клавиатура → Автокоррекция: `prefs:root=General&path=Keyboard#KeyboardAutocorrection`
+- Основные → Клавиатура → Проверять правописание: `prefs:root=General&path=Keyboard#KeyboardCheckSpelling`
+- Основные → Клавиатура → Использование Caps Lock: `prefs:root=General&path=Keyboard#KeyboardCapsLock`
+- Основные → Клавиатура → Быстрые команды: `prefs:root=General&path=Keyboard#KeyboardAssistant`
+- Основные → Клавиатура → Предиктивный набор: `prefs:root=General&path=Keyboard#KeyboardPrediction`
+- Основные → Клавиатура → Смарт-пунктуация: `prefs:root=General&path=Keyboard#SmartTyping`
+- Основные → Клавиатура → Разделенная клавиатура: `prefs:root=General&path=Keyboard#RivenKeyboard`
+- Основные → Клавиатура → Включить чиркание клавиш: `prefs:root=General&path=Keyboard#GesturesEnabled`
+- Основные → Клавиатура → Просмотр символов: `prefs:root=General&path=Keyboard#KeyboardAllowPaddle`
+- Основные → Клавиатура → Быстрая клавиша «.»: `prefs:root=General&path=Keyboard#KeyboardPeriodShortcut`
+- Основные → Клавиатура → Проведение для набора: `prefs:root=General&path=Keyboard#KeyboardContinuousPathEnabled`
+- Основные → Клавиатура → Включить Диктовку: `prefs:root=General&path=Keyboard#Dictation`
+- Основные → Клавиатура → Автопунктуация: `prefs:root=General&path=Keyboard#AutoPunctuationSetting`
+- Основные → Обновление ПО: `prefs:root=General&path=SOFTWARE_UPDATE_LINK`
+- Основные → Обновление ПО → Автообновление: `prefs:root=General&path=SOFTWARE_UPDATE_LINK/SUAutomaticUpdateButton`
+- Основные → Хранилище: `prefs:root=General&path=STORAGE_MGMT`
+- Основные → Хранилище → Хранилище: `prefs:root=General&path=STORAGE_MGMT#MANAGE`
+- Основные → Хранилище → Сгружать неиспользуемые: `prefs:root=General&path=STORAGE_MGMT#OFFLOAD`
+- Основные → Картинка в картинке: `prefs:root=General&path=PiP_SPEC`
+- Основные → Трекпад | Трекпад и мышь: `prefs:root=General&path=POINTERS`
+- Основные → NFC: `prefs:root=General&path=NFC_LINK`
+- Основные → VPN: `prefs:root=General&path=VPN`
+- Основные → CarPlay: `prefs:root=General&path=CARPLAY`
+- Основные → Об этом устройстве: `prefs:root=General&path=About`
+- Основные → Об этом устройстве → Сертификаты достоверны, Надежные сертификаты, Достоверные сертификаты, Trusted Certificates, Доверие сертификатам: `prefs:root=General&path=About/CERT_TRUST_SETTINGS`
+- Основные → Об этом устройстве → Серийный номер: `prefs:root=General&path=About#SerialNumber`
+- Основные → Об этом устройстве → Номер модели: `prefs:root=General&path=About#ProductModel`
+- Основные → Об этом устройстве → Название модели: `prefs:root=General&path=About#ProductModelName`
+- Основные → Об этом устройстве → Версия iOS: `prefs:root=General&path=About/SW_VERSION_SPECIFIER`
+- Основные → Правовая информация: `prefs:root=General&path=LEGAL_AND_REGULATORY`
+- Основные → Правовая информация → Гарантия: `prefs:root=General&path=LEGAL_AND_REGULATORY#Warranty`
+- Основные → AirDrop: `prefs:root=General&path=AIRDROP_LINK`
+- Основные → AirDrop → Устройства рядом друг с другом: `prefs:root=General&path=AIRDROP_LINK#AIRDROP_NFC_ID`
+- Основные → Кнопка «Домой»: `prefs:root=General&path=HOME_BUTTON`
+- Основные → Боковой переключатель: `prefs:root=General#Rotation_Switch_Action_Group`
+- Основные → Обновление контента: `prefs:root=General&path=AUTO_CONTENT_DOWNLOAD`
+- Основные → Дата и время: `prefs:root=General&path=DATE_AND_TIME`
+- Основные → ТВ-выход: `prefs:root=General&path=TV_OUT`
+- Основные → Сброс: `prefs:root=General&path=Reset`
+- Основные → Сброс → Сбросить все настройки: `prefs:root=General&path=Reset#settingsErase`
+- Основные → Сброс → Стереть контент и настройки: `prefs:root=General&path=Reset#fullErase`
+- Основные → Сброс → Сбросить настройки сети: `prefs:root=General&path=Reset#RESET_NETWORK_LABEL`
+- Основные → Сброс → Удалить все тарифы сотовых данных: `prefs:root=General&path=Reset#cellularErase`
+- Основные → Сброс → Службы абонента: `prefs:root=General&path=Reset#SUBSCRIBER_SERVICES_ID`
+- Основные → Сброс → Сбросить словарь клавиатуры: `prefs:root=General&path=Reset#RESET_KEYBOARD_DICTIONARY_LABEL`
+- Основные → Сброс → Сбросить настройки «Домой»: `prefs:root=General&path=Reset#RESET_ICONS_LABEL`
+- Основные → Сброс → Сбросить геонастройки: `prefs:root=General&path=Reset#RESET_PRIVACY_LABEL`
+- Основные → Выключить: `prefs:root=General#SHUTDOWN_LABEL`
+- Основные → AirPlay и Непрерывность: `prefs:root=General&path=CONTINUITY_SPEC`
+- Основные → AirPlay и Непрерывность → Handoff: `prefs:root=General&path=CONTINUITY_SPEC#CONTINUITY`
+- Основные → AirPlay и Непрерывность → Перенос на HomePod: `prefs:root=General&path=CONTINUITY_SPEC#TRANSFER_TO_HOMEPOD`
+- Основные → AirPlay и Непрерывность → Авто‑AirPlay: `prefs:root=General&path=CONTINUITY_SPEC#AUTOMATICALLY_AIRPLAY`
+- Основные → AirPlay и Непрерывность → Непрерывная камера: `prefs:root=General&path=CONTINUITY_SPEC#WOMBAT_CAMERA`
+- Основные → Язык и регион: `prefs:root=General&path=INTERNATIONAL`
+- Основные → Язык и регион → Другие языки…: `prefs:root=General&path=INTERNATIONAL#NEW_PREFERRED_LANGUAGE`
+- Основные → Язык и регион → Предпочитаемый порядок языков: `prefs:root=General&path=INTERNATIONAL#PREFERRED_LANGUAGE_GROUP`
+- Основные → Язык и регион → Добавить язык…: `prefs:root=General&path=INTERNATIONAL#ADD_PREFERRED_LANGUAGE`
+- Основные → Язык и регион → Регион: `prefs:root=General&path=INTERNATIONAL/LOCALE`
+- Основные → Язык и регион → Цифры: `prefs:root=General&path=INTERNATIONAL/NUMBERING_SYSTEM`
+- Основные → Язык и регион → Календарь: `prefs:root=General&path=INTERNATIONAL/CALENDAR`
+- Основные → Язык и регион → Единицы температуры: `prefs:root=General&path=INTERNATIONAL/TEMPERATURE_UNIT`
+- Аккаунт Apple: `prefs:root=APPLE_ACCOUNT` or `settings-navigation://com.apple.Settings.AppleAccount`
+- Аккаунт Apple → Проверка ключа контакта: `prefs:root=APPLE_ACCOUNT&path=TRANSPARENCY` or `settings-navigation://com.apple.Settings.AppleAccount/TRANSPARENCY`
+- Аккаунт Apple → iCloud: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE` or `prefs:root=CASTLE`
+- Аккаунт Apple → iCloud → Хранилище iCloud: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/STORAGE_AND_BACKUP` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/STORAGE_AND_BACKUP` or `prefs:root=CASTLE&path=STORAGE_AND_BACKUP`
+- Аккаунт Apple → iCloud → iCloud Drive: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Ubiquity` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Ubiquity` or `prefs:root=CASTLE&path=com.apple.Dataclass.Ubiquity`
+- Аккаунт Apple → iCloud → Фото: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.MediaStream` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.MediaStream` or `prefs:root=CASTLE&path=com.apple.Dataclass.MediaStream`
+- Аккаунт Apple → iCloud → Почта: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Mail` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail` or `prefs:root=CASTLE&path=com.apple.Dataclass.Mail`
+- Аккаунт Apple → iCloud → Контакты: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Contacts` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Contacts` or `prefs:root=CASTLE&path=com.apple.Dataclass.Contacts`
+- Аккаунт Apple → iCloud → Календарь: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Calendars` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Calendars` or `prefs:root=CASTLE&path=com.apple.Dataclass.Calendars`
+- Аккаунт Apple → iCloud → Напоминания: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Reminders` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Reminders` or `prefs:root=CASTLE&path=com.apple.Dataclass.Reminders`
+- Аккаунт Apple → iCloud → Safari: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Bookmarks` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Bookmarks` or `prefs:root=CASTLE&path=com.apple.Dataclass.Bookmarks`
+- Аккаунт Apple → iCloud → Заметки: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Notes` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Notes` or `prefs:root=CASTLE&path=com.apple.Dataclass.Notes`
+- Аккаунт Apple → iCloud → Новости: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.News` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.News` or `prefs:root=CASTLE&path=com.apple.Dataclass.News`
+- Аккаунт Apple → iCloud → Резервная копия: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/BACKUP` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/BACKUP` or `prefs:root=CASTLE&path=BACKUP`
+- Аккаунт Apple → iCloud → Здоровье: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Health` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Health` or `prefs:root=CASTLE&path=com.apple.Dataclass.Health`
+- Аккаунт Apple → iCloud → Пароли и связка ключей: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.KeychainSync` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.KeychainSync` or `prefs:root=CASTLE&path=com.apple.Dataclass.KeychainSync`
+- Аккаунт Apple → iCloud → Скрыть e‑mail: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/PRIVATE_EMAIL_MANAGE` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/PRIVATE_EMAIL_MANAGE` or `prefs:root=CASTLE&path=PRIVATE_EMAIL_MANAGE`
+- Аккаунт Apple → Поделиться геопозицией: `prefs:root=APPLE_ACCOUNT&path=LOCATION_SHARING` or `settings-navigation://com.apple.Settings.AppleAccount/LOCATION_SHARING`
+- Аккаунт Apple → Поделиться геопозицией → Локатор: `prefs:root=APPLE_ACCOUNT&path=LOCATION_SHARING/FindMyDevice-Settings` or `settings-navigation://com.apple.Settings.AppleAccount/LOCATION_SHARING/FindMyDevice-Settings`
+- Аккаунт Apple → Имя, номера телефонов, e-mail: `prefs:root=APPLE_ACCOUNT&path=APPLE_ACCOUNT_CONTACT` or `settings-navigation://com.apple.Settings.AppleAccount/APPLE_ACCOUNT_CONTACT`
+- Аккаунт Apple → Пароль и безопасность: `prefs:root=APPLE_ACCOUNT&path=PASSWORD_AND_SECURITY` or `settings-navigation://com.apple.Settings.AppleAccount/PASSWORD_AND_SECURITY`
+- Аккаунт Apple → Оплата и доставка: `prefs:root=APPLE_ACCOUNT&path=PAYMENT_AND_SHIPPING` or `settings-navigation://com.apple.Settings.AppleAccount/PAYMENT_AND_SHIPPING`
+- Аккаунт Apple → Подписки: `prefs:root=APPLE_ACCOUNT&path=SUBSCRIPTIONS` or `settings-navigation://com.apple.Settings.AppleAccount/SUBSCRIPTIONS`
+- Аккаунт Apple → Семья: `prefs:root=APPLE_ACCOUNT&path=Family` or `settings-navigation://com.apple.Settings.AppleAccount/Family`
+- Уведомления: `prefs:root=NOTIFICATIONS_ID`
+- Уведомления → Сводка по расписанию: `prefs:root=NOTIFICATIONS_ID&path=SCHEDULED_DELIVERY_ID`
+- Погода: `prefs:root=WEATHER`
+- Freeform: `prefs:root=FREEFORM`
+- Фокусирование: `prefs:root=DO_NOT_DISTURB`
+- Фокусирование → Статус фокусирования: `prefs:root=DO_NOT_DISTURB&path=status`
+- Дневник: `prefs:root=JOURNAL`
+- Wallet и Apple Pay: `prefs:root=PASSBOOK`
+- Wallet и Apple Pay → Apple Cash: `prefs:root=PASSBOOK#Apple%C2%A0Cash`
+- Wallet и Apple Pay → Платежные карты: `prefs:root=PASSBOOK#SETTINGS_PAYMENT_CARDS_GROUP`
+- Wallet и Apple Pay → Добавить карту: `prefs:root=PASSBOOK#Add%20Card`
+- Wallet и Apple Pay → Двойное нажатие боковой кнопки: `prefs:root=PASSBOOK#Double-Click%20Side%20Button`
+- Wallet и Apple Pay → Отслеживание заказов: `prefs:root=PASSBOOK#ORDER_TRACKING`
+- Оформление | Экран и яркость: `prefs:root=DISPLAY`
+- Оформление | Экран и яркость → Оформление: `prefs:root=DISPLAY#DEVICE_APPEARANCE`
+- Оформление | Экран и яркость → True Tone: `prefs:root=DISPLAY#WHITE_BALANCE`
+- Оформление | Экран и яркость → Night Shift: `prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION`
+- Оформление | Экран и яркость → Night Shift → Запланировано: `prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION#SCHEDULED`
+- Оформление | Экран и яркость → Night Shift → Включить вручную до завтра: `prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION#MANUAL`
+- Оформление | Экран и яркость → Night Shift → Температура цвета: `prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION#COLOR_TEMPERATURE`
+- Оформление | Экран и яркость → Автоблокировка: `prefs:root=DISPLAY&path=AUTOLOCK`
+- Оформление | Экран и яркость → Поднятие для активации: `prefs:root=DISPLAY#RAISE_TO_WAKE`
+- Оформление | Экран и яркость → Блокировка и разблокировка: `prefs:root=DISPLAY#SMART_CASE_LOCK_SPEC`
+- Оформление | Экран и яркость → Размер текста: `prefs:root=DISPLAY&path=TEXT_SIZE`
+- Оформление | Экран и яркость → Жирный шрифт: `prefs:root=DISPLAY#BOLD_TEXT`
+- Оформление | Экран и яркость → Яркость: `prefs:root=DISPLAY#BRIGHTNESS`
+- Оформление | Экран и яркость → Масштаб: `prefs:root=DISPLAY#DISPLAY_ZOOM_GROUP`
+- Оформление | Экран и яркость → Оформление: `prefs:root=DISPLAY&path=APPEARANCE`
+- Оформление | Экран и яркость → Оформление → Окно: `prefs:root=DISPLAY&path=APPEARANCE#WINDOW_ZOOM`
+- Оформление | Экран и яркость → Оформление → Увеличение окна двумя руками: `prefs:root=DISPLAY&path=APPEARANCE#TWO_HANDED_WINDOW_ZOOM`
+- Оформление | Экран и яркость → Вид: `prefs:root=DISPLAY&path=MAGNIFY`
+- Оформление | Экран и яркость → Экран всегда включен: `prefs:root=DISPLAY&path=ALWAYS_ON`
+- Оформление | Экран и яркость → Экран всегда включен → Экран всегда включен: `prefs:root=DISPLAY&path=ALWAYS_ON#ALWAYS_ON`
+- Оформление | Экран и яркость → Совместимые приложения: `prefs:root=DISPLAY&path=COMPATIBLE_APPEARANCE`
+- Оформление | Экран и яркость → Совместимые приложения → Темное, светлое: `prefs:root=DISPLAY&path=COMPATIBLE_APPEARANCE#COMPATIBLE_APPEARANCE_CHOICES`
+- Рулетка: `prefs:root=MEASURE` or `settings-navigation://com.apple.Settings.Apps/com.apple.measure`
+- Рулетка → Единицы измерения, Measure Units: `prefs:root=MEASURE#MEASURE_UNITS` or `settings-navigation://com.apple.Settings.Apps/com.apple.measure#MEASURE_UNITS#MEASURE_UNITS`
+- Рулетка → Английские: `prefs:root=MEASURE#Imperial` or `settings-navigation://com.apple.Settings.Apps/com.apple.measure#Imperial#Imperial`
+- Рулетка → Метрические: `prefs:root=MEASURE#Metric` or `settings-navigation://com.apple.Settings.Apps/com.apple.measure#Metric#Metric`
+- Обои: `prefs:root=Wallpaper`
+- Пункт управления: `prefs:root=ControlCenter`
+- Пункт управления → Доступ в приложениях: `prefs:root=ControlCenter#ALLOWED_WITHIN_APPS`
+- Пункт управления → Настроить элем. управления: `prefs:root=ControlCenter&path=CUSTOMIZE_CONTROLS`
+- Диктофон: `prefs:root=VOICE_MEMOS`
+- Диктофон → Очистка удаленных: `prefs:root=VOICE_MEMOS&path=RCVoiceMemosRecentlyDeletedWindowKey`
+- Диктофон → Качество звука: `prefs:root=VOICE_MEMOS&path=RCVoiceMemosAudioQualityKey`
+- Диктофон → Геоконтекстные названия: `prefs:root=VOICE_MEMOS#RCVoiceMemosUseLocationBasedNaming`
+- Календарь: `prefs:root=CALENDAR`
+- Календарь → Фиксация часового пояса: `prefs:root=CALENDAR&path=TimeZoneCityArray`
+- Календарь → Другие календари: `prefs:root=CALENDAR&path=Alternate%20Calendars`
+- Календарь → Номера недель: `prefs:root=CALENDAR#Week%20Numbers`
+- Календарь → Показать отказы участника: `prefs:root=CALENDAR#Show%20Invitee%20Declines`
+- Календарь → Синхронизация: `prefs:root=CALENDAR&path=Sync`
+- Календарь → Напоминания по умолчанию: `prefs:root=CALENDAR&path=Default%20Alert%20Times`
+- Календарь → Начало недели: `prefs:root=CALENDAR&path=Start%20Week%20On`
+- Календарь → Предложения мест: `prefs:root=CALENDAR#Location%20Suggestions`
+- Разработчик: `prefs:root=DEVELOPER_SETTINGS`
+- Разработчик → Многоканальная сеть: `prefs:root=DEVELOPER_SETTINGS&path=MULTI_PATH_AGG`
+- Разработчик → Многоканальная сеть → Многоканальная сеть: `prefs:root=DEVELOPER_SETTINGS&path=MULTI_PATH_AGG#Multipath%20Networking`
+- Разработчик → Оформление: `prefs:root=DEVELOPER_SETTINGS#UIAppearanceGroup`
+- Разработчик → Темное оформление: `prefs:root=DEVELOPER_SETTINGS#UIAppearanceSettings`
+- Разработчик → Устройства в паре: `prefs:root=DEVELOPER_SETTINGS#DTPairedDevicesGroup`
+- Разработчик → Очистить доверенные компьютеры: `prefs:root=DEVELOPER_SETTINGS#CLEAR_TRUSTED_COMPUTERS`
+- Разработчик → Журнал: `prefs:root=DEVELOPER_SETTINGS&path=DTInstrumentsSettings`
+- Разработчик → Автоматизация интерфейса: `prefs:root=DEVELOPER_SETTINGS#UIAGroup`
+- Разработчик → Сети: `prefs:root=DEVELOPER_SETTINGS#NLCGroup`
+- Разработчик → Network Link Conditioner: `prefs:root=DEVELOPER_SETTINGS&path=NLC`
+- Разработчик → Дополнительные журналы: `prefs:root=DEVELOPER_SETTINGS#ADDITIONAL_LOGGING`
+- Разработчик → Разрешить HTTP‑службы: `prefs:root=DEVELOPER_SETTINGS#ALLOW_HTTP_SERVICES`
+- Разработчик → Выключить ограничение скорости: `prefs:root=DEVELOPER_SETTINGS#DISABLE_RATE_LIMITING`
+- Разработчик → Ключ доступа NFC (необязательно): `prefs:root=DEVELOPER_SETTINGS#NFC_PASS_KEY_OPTIONAL`
+- Разработчик → Тестирование мультимедийных служб: `prefs:root=DEVELOPER_SETTINGS#MEDIA_SERVICES_TESTING`
+- Разработчик → Сбросить мультимедийные службы: `prefs:root=DEVELOPER_SETTINGS#RESET_MEDIA_SERVICES`
+- Разработчик → Тестирование News: `prefs:root=DEVELOPER_SETTINGS#NEWS_TESTING`
+- Разработчик → Сброс локальных данных при след. запуске: `prefs:root=DEVELOPER_SETTINGS#RESET_LOCAL_DATA_ON_NEXT_LAUNCH`
+- Разработчик → Тестирование программной среды медиаплеера: `prefs:root=DEVELOPER_SETTINGS#RoutineSettingsGroup`
+- Разработчик → API воспроизводимого контента: `prefs:root=DEVELOPER_SETTINGS&path=RoutineSettings`
+- Разработчик → Телепровайдер: `prefs:root=DEVELOPER_SETTINGS&path=VideoSubscriberAccountSettings`
+- Разработчик → ClassKit API: `prefs:root=DEVELOPER_SETTINGS&path=ClassKitSettings`
+- Разработчик → Тестирование CoreSpotlight: `prefs:root=DEVELOPER_SETTINGS#CORESPOTLIGHT_TESTING`
+- Разработчик → Переиндексировать все объекты: `prefs:root=DEVELOPER_SETTINGS#REINDEX_ALL_ITEMS`
+- Разработчик → Переиндексировать все объекты с идентификаторами: `prefs:root=DEVELOPER_SETTINGS#REINDEX_ALL_ITEMS_WITH_IDENTIFIERS`
+- Разработчик → Тестирование Быстрых команд: `prefs:root=DEVELOPER_SETTINGS#SIRI_ACTIONS_TESTING`
+- Разработчик → Недавние быстрые команды: `prefs:root=DEVELOPER_SETTINGS#DISPLAY_DONATIONS_SPOTLIGHT`
+- Разработчик → Показ предстоящих медиаданных: `prefs:root=DEVELOPER_SETTINGS#DISPLAY_UPCOMING_MEDIA`
+- Разработчик → Недавние на экране блокировки: `prefs:root=DEVELOPER_SETTINGS#DISPLAY_DONATIONS_LOCKSCREEN`
+- Разработчик → Принудительная синхронизация Быстрых команд на часы: `prefs:root=DEVELOPER_SETTINGS#SIRI_ACTIONS_SYNC_WATCHOS`
+- Разработчик → Тестирование MIDI-CI: `prefs:root=DEVELOPER_SETTINGS#MIDI_CI_API_BETA`
+- Разработчик → Включить MIDI-CI: `prefs:root=DEVELOPER_SETTINGS#MIDI_CI_API_BETA_ENABLE`
+- Разработчик → Обнаружение зависаний: `prefs:root=DEVELOPER_SETTINGS#HANGTRACER_EXTERNAL_CONFIGURE`
+- Face ID и код‑пароль | Touch ID и код‑пароль | Код‑пароль: `prefs:root=PASSCODE`
+- Face ID и код‑пароль | Touch ID и код‑пароль | Код‑пароль → Выключить код‑пароль: `prefs:root=PASSCODE#PASSCODE_OFF`
+- Face ID и код‑пароль | Touch ID и код‑пароль | Код‑пароль → Сменить код‑пароль: `prefs:root=PASSCODE#CHANGE_PASSCODE`
+- Face ID и код‑пароль | Touch ID и код‑пароль | Код‑пароль → Запрос код‑пароля: `prefs:root=PASSCODE&path=PASSCODE_REQ`
+- Face ID и код‑пароль | Touch ID и код‑пароль | Код‑пароль → Голосовой набор: `prefs:root=PASSCODE#VOICE_DIAL`
+- Face ID и код‑пароль | Touch ID и код‑пароль | Код‑пароль → Доступ с блокировкой экрана: `prefs:root=PASSCODE#ALLOW_ACCESS_WHEN_LOCKED`
+- Face ID и код‑пароль | Touch ID и код‑пароль | Код‑пароль → Ответ сообщением: `prefs:root=PASSCODE#REPLY_WITH_MESSAGE_SWITCH`
+- Face ID и код‑пароль | Touch ID и код‑пароль | Код‑пароль → Управление домом: `prefs:root=PASSCODE#HOME_CONTROL_SWITCH`
+- Face ID и код‑пароль | Touch ID и код‑пароль | Код‑пароль → Wallet: `prefs:root=PASSCODE#WALLET_SWITCH`
+- Face ID и код‑пароль | Touch ID и код‑пароль | Код‑пароль → Набор пропущенных: `prefs:root=PASSCODE#RETURN_MISSED_CALLS_SWITCH`
+- Face ID и код‑пароль | Touch ID и код‑пароль | Код‑пароль → Стирание данных: `prefs:root=PASSCODE#WIPE_DEVICE`
+- Face ID и код‑пароль | Touch ID и код‑пароль | Код‑пароль → Разблокировка с Apple Watch: `prefs:root=PASSCODE#AUTO_UNLOCK_DEVICES_GROUP`
+- Face ID и код‑пароль | Touch ID и код‑пароль | Код‑пароль → Защита украденного устройства: `prefs:root=PASSCODE#DTO_GROUP_ID`
+- Телефон: `prefs:root=Phone`
+- Телефон → Мой номер: `prefs:root=Phone&path=My%20Number`
+- Телефон → Входящие вызовы: `prefs:root=Phone&path=INCOMING_CALL_STYLE`
+- Телефон → Объявлять вызовы: `prefs:root=Phone&path=ANNOUNCE_CALLS`
+- Телефон → Сообщения о спаме (SMS/вызовы): `prefs:root=Phone&path=CLASSIFICATION_AND_REPORTING`
+- Телефон → Ответ сообщением: `prefs:root=Phone&path=Respond%20with%20Text`
+- Телефон → Переадресация: `prefs:root=Phone&path=Call%20Forwarding`
+- Телефон → Переадресация → Переадресация: `prefs:root=Phone&path=Call%20Forwarding#idMasterOnOffSwitch`
+- Телефон → Ожидание вызова: `prefs:root=Phone&path=Call%20Waiting`
+- Телефон → Показ номера: `prefs:root=Phone&path=Show%20My%20Caller%20ID`
+- Телефон → Показ номера → Показ номера: `prefs:root=Phone&path=Show%20My%20Caller%20ID/Primary`
+- Телефон → Показ номера → Показ номера → Показ номера: `prefs:root=Phone&path=Show%20My%20Caller%20ID/Primary#Show%20My%20Caller%20ID`
+- Телефон → Заглушение неизвестных: `prefs:root=Phone#SILENCE_CALLS`
+- Телефон → Заблокированные контакты: `prefs:root=Phone&path=SPECIFIER_IDENTIFIER_BLACKLIST`
+- Телефон → Помощь в наборе: `prefs:root=Phone&path=Dial%20Assist`
+- Заметки: `prefs:root=NOTES` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes`
+- Заметки → По умолчанию: `prefs:root=NOTES&path=Default%20Account` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes/Default%20Account`
+- Заметки → Пароль: `prefs:root=NOTES&path=Password` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes/Password`
+- Заметки → Сортировка: `prefs:root=NOTES&path=Sort%20Notes%20By` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes/Sort%20Notes%20By`
+- Заметки → Первая строка заметки: `prefs:root=NOTES&path=New%20Notes%20Start%20With` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes/New%20Notes%20Start%20With`
+- Заметки → Отмеченные элементы: `prefs:root=NOTES&path=Sort%20Checked%20Items` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes/Sort%20Checked%20Items`
+- Заметки → Линии и клетки: `prefs:root=NOTES&path=Lines%20%26%20Grids` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes/Lines%20%26%20Grids`
+- Заметки → Сохранить в Фото: `prefs:root=NOTES#Save%20to%20Photos` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes#Save%20to%20Photos#Save%20to%20Photos`
+- Заметки → Заметки на заблок. экране: `prefs:root=NOTES&path=Access%20Notes%20from%20Lock%20Screen` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes/Access%20Notes%20from%20Lock%20Screen`
+- Книги: `prefs:root=IBOOKS`
+- Книги → Онлайн‑контент: `prefs:root=IBOOKS#BKAllowOnlineContent`
+- Книги → СИНХРОНИЗАЦИЯ: `prefs:root=IBOOKS#SYNCING`
+- Книги → Читаю сейчас: `prefs:root=IBOOKS#BKLibrary.ReadingNow`
+- Книги → iCloud Drive: `prefs:root=IBOOKS#BCSyncICloudDrive`
+- Книги → ЧТЕНИЕ: `prefs:root=IBOOKS#READING`
+- Книги → Полное выравнивание: `prefs:root=IBOOKS#BKFullJustification`
+- Книги → Автоперенос слов: `prefs:root=IBOOKS#BKAutoHyphenation`
+- Книги → Листание с обоих полей: `prefs:root=IBOOKS#BKLeftTapTurnToNext`
+- Книги → Цели по чтению: `prefs:root=IBOOKS#READING_GOALS`
+- Книги → Очистить данные целей по чтению: `prefs:root=IBOOKS#BKReadingGoalsShouldClearDataKey`
+- Книги → ПОИСК: `prefs:root=IBOOKS#SEARCHING`
+- Книги → Магазин книг: `prefs:root=IBOOKS#BKIncludeBookStoreResultsInSearch`
+- Книги → АУДИОКНИГИ: `prefs:root=IBOOKS#AUDIOBOOKS`
+- Книги → Переход вперед: `prefs:root=IBOOKS&path=BKAudioBookSkipForward`
+- Книги → Переход назад: `prefs:root=IBOOKS&path=BKAudioBookSkipBackward`
+- Книги → ВНЕШНИЕ ЭЛЕМЕНТЫ УПРАВЛЕНИЯ: `prefs:root=IBOOKS#BKRemoteSkipInsteadOfNextTrackDefaultKey`
+- Книги → Следующий или предыдущий: `prefs:root=IBOOKS#Next/Previous`
+- Книги → Переход вперед или назад: `prefs:root=IBOOKS#Skip%20Forward/Back`
+- Книги → КОНФИДЕНЦИАЛЬНОСТЬ: `prefs:root=IBOOKS#PRIVACY`
+- Книги → Сброс идентификатора: `prefs:root=IBOOKS#BAResetAnalyticsUserID`
+- Книги → Подтверждения: `prefs:root=IBOOKS&path=Acknowledgements`
+- Game Center: `prefs:root=GAMECENTER`
+- Экстренный вызов — SOS: `prefs:root=EMERGENCY_SOS`
+- Экстренный вызов — SOS → Вызов боковой кнопкой: `prefs:root=EMERGENCY_SOS#CALL_WITH_SIDE_BUTTON`
+- Экстренный вызов — SOS → Автовызов: `prefs:root=EMERGENCY_SOS#AUTO_CALL`
+- Экстренный вызов — SOS → Контакты на случай ЧП: `prefs:root=EMERGENCY_SOS#EMERGENCY_CONTACTS`
+- Экстренный вызов — SOS → Звук обратного отсчета: `prefs:root=EMERGENCY_SOS#ALARM_SOUND_SWITCH`
+- Напоминания: `prefs:root=REMINDERS`
+- Напоминания → Список по умолчанию: `prefs:root=REMINDERS&path=DEFAULT_LIST`
+- Напоминания → Список по умолчанию → Напоминания: `prefs:root=REMINDERS&path=DEFAULT_LIST#preferredDefaultListID`
+- Напоминания → Уведомление на сегодня: `prefs:root=REMINDERS#todayNotificationFireTime`
+- Напоминания → Статус просроченного: `prefs:root=REMINDERS#showRemindersAsOverdue`
+- Сотовая связь: `prefs:root=MOBILE_DATA_SETTINGS_ID`
+- Сотовая связь → Параметры: `prefs:root=MOBILE_DATA_SETTINGS_ID&path=CELLULAR_DATA_OPTIONS`
+- Сотовая связь → Параметры → Экономия данных: `prefs:root=MOBILE_DATA_SETTINGS_ID&path=CELLULAR_DATA_OPTIONS#Low%20Data%20Mode`
+- Сотовая связь → Сотовые данные: `prefs:root=MOBILE_DATA_SETTINGS_ID&path=SHOW_ALL`
+- WLAN | Wi‑Fi: `prefs:root=WIFI`
+- Контакты: `prefs:root=CONTACTS`
+- Контакты → Разрешить доступ приложению «Контакты»: `prefs:root=CONTACTS#Allow%20Contacts%20To%20Access`
+- Контакты → Siri: `prefs:root=CONTACTS&path=SIRI_AND_SEARCH`
+- Контакты → Сортировка: `prefs:root=CONTACTS&path=ContactsSortOrder`
+- Контакты → Отображение: `prefs:root=CONTACTS&path=PersonNameOrder`
+- Контакты → Краткое имя: `prefs:root=CONTACTS&path=PersonShortName`
+- Контакты → Краткое имя → Краткое имя: `prefs:root=CONTACTS&path=PersonShortName#Short%20Name`
+- Контакты → Краткое имя → Предпочитать псевдонимы: `prefs:root=CONTACTS&path=PersonShortName#Prefer%20Nicknames`
+- Контакты → Мои данные: `prefs:root=CONTACTS&path=MeCard`
+- Контакты → Импортировать контакты SIM: `prefs:root=CONTACTS#SIMImport`
+- Быстрые команды: `prefs:root=SHORTCUTS`
+- Быстрые команды → Синхронизация iCloud: `prefs:root=SHORTCUTS#WFCloudKitSyncEnabled`
+- Быстрые команды → Синхронизация порядка: `prefs:root=SHORTCUTS#WFCloudKitSyncOrderEnabled`
+- Быстрые команды → Правовые уведомления: `prefs:root=SHORTCUTS&path=Legal%20Notices`
+- TV | Видео: `prefs:root=TVAPP`
+- TV | Видео → Сотовые данные для воспр.: `prefs:root=TVAPP#com.apple.videos%3AVideosUseCellularDataEnabledSetting`
+- TV | Видео → Качество воспроизведения: `prefs:root=TVAPP#com.apple.videos%3APlaybackQualityGroup`
+- TV | Видео → Покупки и прокат: `prefs:root=TVAPP&path=com.apple.videos%3APreferredPurchaseResolution`
+- TV | Видео → Домашняя коллекция: `prefs:root=TVAPP#com.apple.videos%3AHomeSharingFooter`
+- Музыка: `prefs:root=MUSIC`
+- Музыка → Показ Apple Music: `prefs:root=MUSIC#com.apple.Music%3AAppleMusicEnabled`
+- Музыка → Добавление из плейлиста: `prefs:root=MUSIC#com.apple.Music%3AAddPlaylistSongsToMyMusicSwitch`
+- Музыка → Показ рейтинга звездами: `prefs:root=MUSIC#com.apple.Music%3AShowStarRatings`
+- Музыка → Синхронизация Медиатеки: `prefs:root=MUSIC#com.apple.Music%3ACloudMusicLibraryEnabled`
+- Музыка → Сотовые данные: `prefs:root=MUSIC&path=com.apple.Music%3ACellularData`
+- Музыка → Загруженная музыка: `prefs:root=MUSIC&path=com.apple.Music%3AMusicUsageLink`
+- Музыка → Оптимизация хранилища: `prefs:root=MUSIC&path=com.apple.Music%3AOptimizeStorage`
+- Музыка → Автоматические загрузки: `prefs:root=MUSIC#com.apple.Music%3AMusicAutomaticDownload`
+- Музыка → Эквалайзер: `prefs:root=MUSIC&path=com.apple.Music%3AEQ`
+- Музыка → Коррекция громкости: `prefs:root=MUSIC#com.apple.Music%3ASoundCheck`
+- Музыка → Использование истории: `prefs:root=MUSIC#com.apple.Music%3APrivateListening`
+- Камера: `prefs:root=CAMERA`
+- Камера → Форматы: `prefs:root=CAMERA&path=CameraFormatsSettingsList`
+- Камера → Форматы → Apple ProRaw: `prefs:root=CAMERA&path=CameraFormatsSettingsList#CAMUserPreferenceEnableLinearDNGControl`
+- Камера → Record Video: `prefs:root=CAMERA&path=Record%20Video`
+- Камера → Record Video → HDR-видео: `prefs:root=CAMERA&path=Record%20Video#HDR%20Video`
+- Камера → Сохранение настроек: `prefs:root=CAMERA&path=CameraPreserveSettingsSwitch`
+- Камера → Сохранение настроек → Режим камеры: `prefs:root=CAMERA&path=CameraPreserveSettingsSwitch#CAMUserPreferencePreserveCaptureMode`
+- Камера → Сетка: `prefs:root=CAMERA#CameraGridSwitch`
+- Камера → Сканирование QR‑кодов: `prefs:root=CAMERA#CameraQRBannerSwitch`
+- Компас: `prefs:root=COMPASS`
+- Компас → Применение истинного севера: `prefs:root=COMPASS#USE_TRUE_NORTH`
+- Уведомление о контакте: `prefs:root=EXPOSURE_NOTIFICATION`
+- Почта: `prefs:root=MAIL`
+- Почта → Учетные записи: `prefs:root=MAIL&path=ACCOUNTS`
+- Почта → Учетные записи → Новая учетная запись: `prefs:root=MAIL&path=ACCOUNTS#ADD_ACCOUNT`
+- Почта → Учетные записи → Новые данные: `prefs:root=MAIL&path=ACCOUNTS#FETCH_NEW_DATA`
+- Почта → Просмотр: `prefs:root=MAIL&path=Preview`
+- Почта → Этикетки Мне/Копия: `prefs:root=MAIL#Show%20To/Cc%20Labels`
+- Почта → Параметры смахивания: `prefs:root=MAIL&path=Swipe%20Options`
+- Почта → Подтверждение удаления: `prefs:root=MAIL#Ask%20Before%20Deleting`
+- Почта → Загрузка изображений: `prefs:root=MAIL#Load%20Remote%20Images`
+- Почта → Упорядочение по темам: `prefs:root=MAIL#Organize%20by%20Thread`
+- Почта → Сворачивание прочитанных: `prefs:root=MAIL#Collapse%20Read%20Messages`
+- Почта → Последнее письмо сверху: `prefs:root=MAIL#Most%20Recent%20Message%20on%20Top`
+- Почта → Показ тем целиком: `prefs:root=MAIL#Complete%20Threads`
+- Почта → С выкл. уведомлен.: `prefs:root=MAIL&path=Muted%20Thread%20Action`
+- Почта → Игнорирование заблокированных: `prefs:root=MAIL#Ignore%20Blocked%20Senders`
+- Почта → От заблокированных: `prefs:root=MAIL&path=Blocked%20Sender%20Options`
+- Почта → Заблокированные: `prefs:root=MAIL&path=Blocked`
+- Почта → Всегда копию себе: `prefs:root=MAIL#Always%20Bcc%20Myself`
+- Почта → Отметка адресов: `prefs:root=MAIL&path=Mark%20Addresses`
+- Почта → Уровень цитаты: `prefs:root=MAIL&path=Increase%20Quote%20Level`
+- Почта → Вкл. вложений в ответ: `prefs:root=MAIL&path=Include%20Attachments%20with%20Replies`
+- Почта → Подпись: `prefs:root=MAIL&path=Signature`
+- Bluetooth: `prefs:root=Bluetooth`
+- News: `prefs:root=NEWS`
+- News → Показ предпросмотра статей, Показ предпросмотра историй, Show Story Previews: `prefs:root=NEWS#show_excerpt_mode`
+- News → Ограничить статьи в виде «Сегодня», Ограничить истории в виде «Сегодня», Restrict Stories in Today: `prefs:root=NEWS#showStoriesFromFavoritesSpecifierID`
+- News → Конфиденциальность: `prefs:root=NEWS#Privacy`
+- News → Сброс идентификатора: `prefs:root=NEWS#reset_identifier`
+- News → Подтверждения: `prefs:root=NEWS&path=Acknowledgements`
+- Фото: `prefs:root=Photos`
+- Фото → Фото iCloud: `prefs:root=Photos#iCloudPhotosSwitch`
+- Фото → Оптимизация хранилища: `prefs:root=Photos#iCloudOptimizeStorageOption`
+- Фото → Сохранение оригиналов: `prefs:root=Photos#iCloudKeepOriginalsOption`
+- Фото → Общие альбомы: `prefs:root=Photos#SharedStreamsSwitch`
+- Фото → Сотовые данные: `prefs:root=Photos&path=CellularDataLinkList`
+- Фото → Автовоспроизведение видео: `prefs:root=Photos#VideoAutoplaySwitch`
+- Фото → Просмотр полного HDR: `prefs:root=Photos#ImageModulationSwitch`
+- Фото → Праздничные события: `prefs:root=Photos#MEMORIES_HOLIDAY_CALENDAR_EVENTS_SWITCH`
+- Фото → Перенос на Mac или ПК: `prefs:root=Photos#TransferGroup`
+- Подкасты: `prefs:root=PODCASTS`
+- Конфиденциальность и безопасность: `prefs:root=Privacy` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity`
+- Конфиденциальность и безопасность → Здоровье: `prefs:root=Privacy&path=HEALTH` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/HEALTH`
+- Конфиденциальность и безопасность → Медданные: `prefs:root=Privacy&path=HEALTH_DATA` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/HEALTH_DATA`
+- Конфиденциальность и безопасность → Геопозиция: `prefs:root=Privacy&path=LOCATION` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/LOCATION`
+- Конфиденциальность и безопасность → Геопозиция → Делиться геопозицией: `prefs:root=Privacy&path=LOCATION/LOCATION_SHARING` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/LOCATION/LOCATION_SHARING`
+- Конфиденциальность и безопасность → Контакты: `prefs:root=Privacy&path=CONTACTS` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/CONTACTS`
+- Конфиденциальность и безопасность → Календари: `prefs:root=Privacy&path=CALENDARS` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/CALENDARS`
+- Конфиденциальность и безопасность → Напоминания: `prefs:root=Privacy&path=REMINDERS` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/REMINDERS`
+- Конфиденциальность и безопасность → Фото: `prefs:root=Privacy&path=PHOTOS` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/PHOTOS`
+- Конфиденциальность и безопасность → Общий доступ к Bluetooth: `prefs:root=Privacy&path=BT_PERIPHERAL` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/BT_PERIPHERAL`
+- Конфиденциальность и безопасность → Микрофон: `prefs:root=Privacy&path=MICROPHONE` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/MICROPHONE`
+- Конфиденциальность и безопасность → Распознавание речи: `prefs:root=Privacy&path=SPEECH_RECOGNITION` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/SPEECH_RECOGNITION`
+- Конфиденциальность и безопасность → Камера: `prefs:root=Privacy&path=CAMERA` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/CAMERA`
+- Конфиденциальность и безопасность → HomeKit: `prefs:root=Privacy&path=WILLOW` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/WILLOW`
+- Конфиденциальность и безопасность → Медиа и Apple Music: `prefs:root=Privacy&path=MEDIALIBRARY` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/MEDIALIBRARY`
+- Конфиденциальность и безопасность → Аналитика: `prefs:root=Privacy&path=PROBLEM_REPORTING` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/PROBLEM_REPORTING`
+- Конфиденциальность и безопасность → Реклама: `prefs:root=Privacy&path=ADVERTISING` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/ADVERTISING`
+- Конфиденциальность и безопасность → Файлы и папки: `prefs:root=Privacy&path=FILEACCESS` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/FILEACCESS`
+- Конфиденциальность и безопасность → Отслеживание: `prefs:root=Privacy&path=USER_TRACKING` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/USER_TRACKING`
+- Конфиденциальность и безопасность → Отчет о конфиденциальности приложений: `prefs:root=Privacy&path=PRIVACY_REPORT` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/PRIVACY_REPORT`
+- Конфиденциальность и безопасность → Режим блокировки: `prefs:root=Privacy#LOCKDOWN_MODE` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity#LOCKDOWN_MODE#LOCKDOWN_MODE`
+- Конфиденциальность и безопасность → Откровенный контент: `prefs:root=Privacy#NUDITY_DETECTION` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity#NUDITY_DETECTION#NUDITY_DETECTION`
+- FaceTime: `prefs:root=FACETIME`
+- Экранное время: `prefs:root=SCREEN_TIME`
+- Звуки | Звуки и вибрация: `prefs:root=Sounds`
+- Звуки | Звуки и вибрация → Безопасность наушников: `prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING`
+- Звуки | Звуки и вибрация → Безопасность наушников → Адаптеры Lightning: `prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING/HEADPHONE_LIGHTNING_ADAPTERS`
+- Звуки | Звуки и вибрация → Безопасность наушников → Уведомления от наушников: `prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING#SHSHeadphoneWeeklyNotificationsKey`
+- Звуки | Звуки и вибрация → Безопасность наушников → Громкое аудио тише: `prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING#SHSHeadphoneLevelLimitSwitchKey`
+- Звуки | Звуки и вибрация → Звуковые эффекты: `prefs:root=Sounds&path=SOUND_EFFECTS`
+- Звуки | Звуки и вибрация → Звонок и предупреждения: `prefs:root=Sounds#RINGER_AND_ALERT_GROUP`
+- Звуки | Звуки и вибрация → Изменение кнопками: `prefs:root=Sounds#CHANGE_WITH_BUTTONS`
+- Звуки | Звуки и вибрация → Звуки и рисунки вибраций: `prefs:root=Sounds#SOUNDS_ALERT_GROUP`
+- Звуки | Звуки и вибрация → Рингтон: `prefs:root=Sounds&path=Ringtone`
+- Звуки | Звуки и вибрация → Звук сообщения: `prefs:root=Sounds&path=Text_Messages`
+- Звуки | Звуки и вибрация → Автоответчик: `prefs:root=Sounds&path=Voicemail`
+- Звуки | Звуки и вибрация → Новая почта: `prefs:root=Sounds&path=NEW_MAIL`
+- Звуки | Звуки и вибрация → Отправленные: `prefs:root=Sounds&path=SENT_MAIL`
+- Звуки | Звуки и вибрация → Уведомления в календарях: `prefs:root=Sounds&path=Calendar%20Alarm`
+- Звуки | Звуки и вибрация → Уведомления: `prefs:root=Sounds&path=Reminder%20Alerts`
+- Звуки | Звуки и вибрация → Щелчки клавиатуры: `prefs:root=Sounds#KEYBOARD_SOUND_SWITCH`
+- Звуки | Звуки и вибрация → Звук блокировки: `prefs:root=Sounds#LOCK_SOUND_SWITCH`
+- Звуки | Звуки и вибрация → Персональное пространственное аудио: `prefs:root=Sounds&path=Personalized%20Spatial%20Audio`
+- Apple Pencil: `prefs:root=Pencil`
+- Apple Pencil → Apple Pencil: `prefs:root=Pencil#PrefersPencilDraws`
+- Apple Pencil → Apple Pencil: `prefs:root=Pencil#PencilTextInput`
+- Сообщения: `prefs:root=MESSAGES`
+- Акции: `prefs:root=STOCKS`
+- Акции → Конфиденциальность: `prefs:root=STOCKS#Privacy`
+- Акции → Сброс идентификатора: `prefs:root=STOCKS#reset_identifier`
+- Перевод: `prefs:root=TRANSLATE`
+- Перевод → Режим локального перевода: `prefs:root=TRANSLATE#OnDeviceOnly`
+- Siri: `prefs:root=SIRI`
+- Siri → Siri с блокировкой экрана: `prefs:root=SIRI#ASSISTANT_LOCK_SCREEN_ACCESS`
+- Siri → Язык: `prefs:root=SIRI&path=LANGUAGE_ID`
+- Siri → Голос Siri: `prefs:root=SIRI&path=VOICE_ID`
+- Siri → Аудиоотзыв: `prefs:root=SIRI&path=VOICE_FEEDBACK_ID`
+- Siri → Моя информация: `prefs:root=SIRI&path=MY_INFO`
+- Здоровье | Медданные: `prefs:root=HEALTH`
+- App Store: `prefs:root=STORE`
+- App Store → Автоматические загрузки: `prefs:root=STORE#Automatic%20Downloads`
+- App Store → Обновления ПО: `prefs:root=STORE#App%20Updates`
+- App Store → Загрузки приложений: `prefs:root=STORE&path=App%20Downloads`
+- App Store → Автовоспр. видео: `prefs:root=STORE&path=Video%20Autoplay`
+- App Store → Оценки и отзывы: `prefs:root=STORE#In-App%20Ratings%20&%20Reviews`
+- Авиарежим: `prefs:root=ROOT#AIRPLANE_MODE`

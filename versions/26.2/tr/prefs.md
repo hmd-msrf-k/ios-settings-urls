@@ -1,0 +1,414 @@
+- Pil: `prefs:root=BATTERY_USAGE`
+- Pil → Düşük Güç Modu: `prefs:root=BATTERY_USAGE#BATTERY_SAVER_MODE`
+- Pil → Pil Sağlığı: `prefs:root=BATTERY_USAGE#BATTERY_HEALTH_ID`
+- Genel: `prefs:root=General`
+- Genel → VPN ve Aygıt Yönetimi: `prefs:root=General&path=ManagedConfigurationList`
+- Genel → Otomatik Doldurma ve Parolalar: `prefs:root=General&path=AUTOFILL`
+- Genel → Otomatik Doldurma ve Parolalar → Parolaları Otomatik Doldur: `prefs:root=General&path=AUTOFILL#AUTOFILL`
+- Genel → Otomatik Doldurma ve Parolalar → Doğrulama kodlarını temizle: `prefs:root=General&path=AUTOFILL#CLEAN_UP_VERIFICATION_CODES`
+- Genel → Otomatik Doldurma ve Parolalar → Doğrulama kodlarını ayarlayın: `prefs:root=General&path=AUTOFILL#SET_UP_VERIFICATION_CODES`
+- Genel → AppleCare ve Garanti: `prefs:root=General&path=COVERAGE/`
+- Genel → Sözlük: `prefs:root=General&path=DICTIONARY`
+- Genel → Klavye: `prefs:root=General&path=Keyboard`
+- Genel → Klavye → Klavyeler: `prefs:root=General&path=Keyboard/KEYBOARDS`
+- Genel → Klavye → Metin Değişimi: `prefs:root=General&path=Keyboard/USER_DICTIONARY`
+- Genel → Klavye → Otomatik Büyük Harf: `prefs:root=General&path=Keyboard#KeyboardAutocapitalization`
+- Genel → Klavye → Otomatik Düzeltme: `prefs:root=General&path=Keyboard#KeyboardAutocorrection`
+- Genel → Klavye → Yazım Denetimi Yap: `prefs:root=General&path=Keyboard#KeyboardCheckSpelling`
+- Genel → Klavye → Büyük Harf Kilidi: `prefs:root=General&path=Keyboard#KeyboardCapsLock`
+- Genel → Klavye → Kestirmeler: `prefs:root=General&path=Keyboard#KeyboardAssistant`
+- Genel → Klavye → Tahmin: `prefs:root=General&path=Keyboard#KeyboardPrediction`
+- Genel → Klavye → Akıllı Noktalama: `prefs:root=General&path=Keyboard#SmartTyping`
+- Genel → Klavye → Ayrık Klavye: `prefs:root=General&path=Keyboard#RivenKeyboard`
+- Genel → Klavye → Tuş Kaydırmayı Etkinleştir: `prefs:root=General&path=Keyboard#GesturesEnabled`
+- Genel → Klavye → Karakter Önizlemesi: `prefs:root=General&path=Keyboard#KeyboardAllowPaddle`
+- Genel → Klavye → “.” Kestirmesi: `prefs:root=General&path=Keyboard#KeyboardPeriodShortcut`
+- Genel → Klavye → Kaydırarak yazdırın: `prefs:root=General&path=Keyboard#KeyboardContinuousPathEnabled`
+- Genel → Klavye → Dikte’yi Etkinleştir: `prefs:root=General&path=Keyboard#Dictation`
+- Genel → Klavye → Otomatik Noktalama: `prefs:root=General&path=Keyboard#AutoPunctuationSetting`
+- Genel → Yazılım Güncelleme: `prefs:root=General&path=SOFTWARE_UPDATE_LINK`
+- Genel → Yazılım Güncelleme → Otomatik Güncellemeler: `prefs:root=General&path=SOFTWARE_UPDATE_LINK/SUAutomaticUpdateButton`
+- Genel → Saklama Alanı: `prefs:root=General&path=STORAGE_MGMT`
+- Genel → Saklama Alanı → Saklama Alanı: `prefs:root=General&path=STORAGE_MGMT#MANAGE`
+- Genel → Saklama Alanı → Kullanılmayanları Kaldır: `prefs:root=General&path=STORAGE_MGMT#OFFLOAD`
+- Genel → Resim İçinde Resim: `prefs:root=General&path=PiP_SPEC`
+- Genel → İzleme Dörtgeni | İzleme Dörtgeni ve Fare: `prefs:root=General&path=POINTERS`
+- Genel → NFC: `prefs:root=General&path=NFC_LINK`
+- Genel → VPN: `prefs:root=General&path=VPN`
+- Genel → CarPlay: `prefs:root=General&path=CARPLAY`
+- Genel → Hakkında: `prefs:root=General&path=About`
+- Genel → Hakkında → Güvenilen Sertifikalar: `prefs:root=General&path=About/CERT_TRUST_SETTINGS`
+- Genel → Hakkında → Seri Numarası: `prefs:root=General&path=About#SerialNumber`
+- Genel → Hakkında → Model Numarası: `prefs:root=General&path=About#ProductModel`
+- Genel → Hakkında → Model Adı: `prefs:root=General&path=About#ProductModelName`
+- Genel → Hakkında → iOS Sürümü: `prefs:root=General&path=About/SW_VERSION_SPECIFIER`
+- Genel → Yasal ve Mevzuat: `prefs:root=General&path=LEGAL_AND_REGULATORY`
+- Genel → Yasal ve Mevzuat → Garanti: `prefs:root=General&path=LEGAL_AND_REGULATORY#Warranty`
+- Genel → AirDrop: `prefs:root=General&path=AIRDROP_LINK`
+- Genel → AirDrop → Aygıtları Bir Araya Getirerek: `prefs:root=General&path=AIRDROP_LINK#AIRDROP_NFC_ID`
+- Genel → Ana Ekran Düğmesi: `prefs:root=General&path=HOME_BUTTON`
+- Genel → Yan Düğme: `prefs:root=General#Rotation_Switch_Action_Group`
+- Genel → Arka Planda Uygulama Yenile: `prefs:root=General&path=AUTO_CONTENT_DOWNLOAD`
+- Genel → Tarih ve Saat: `prefs:root=General&path=DATE_AND_TIME`
+- Genel → TV Çıkışı: `prefs:root=General&path=TV_OUT`
+- Genel → Sıfırla: `prefs:root=General&path=Reset`
+- Genel → Sıfırla → Tüm Ayarları Sıfırla: `prefs:root=General&path=Reset#settingsErase`
+- Genel → Sıfırla → Tüm İçerikleri ve Ayarları Sil: `prefs:root=General&path=Reset#fullErase`
+- Genel → Sıfırla → Ağ Ayarlarını Sıfırla: `prefs:root=General&path=Reset#RESET_NETWORK_LABEL`
+- Genel → Sıfırla → Hücresel Veri Planlarını Sil: `prefs:root=General&path=Reset#cellularErase`
+- Genel → Sıfırla → Abone Servisleri: `prefs:root=General&path=Reset#SUBSCRIBER_SERVICES_ID`
+- Genel → Sıfırla → Klavye Sözlüğünü Sıfırla: `prefs:root=General&path=Reset#RESET_KEYBOARD_DICTIONARY_LABEL`
+- Genel → Sıfırla → Ana Ekran Yerleşimini Sıfırla: `prefs:root=General&path=Reset#RESET_ICONS_LABEL`
+- Genel → Sıfırla → Konum ve Gizliliği Sıfırla: `prefs:root=General&path=Reset#RESET_PRIVACY_LABEL`
+- Genel → Sistemi Kapat: `prefs:root=General#SHUTDOWN_LABEL`
+- Genel → AirPlay ve Süreklilik: `prefs:root=General&path=CONTINUITY_SPEC`
+- Genel → AirPlay ve Süreklilik → Handoff: `prefs:root=General&path=CONTINUITY_SPEC#CONTINUITY`
+- Genel → AirPlay ve Süreklilik → HomePod’a Aktar: `prefs:root=General&path=CONTINUITY_SPEC#TRANSFER_TO_HOMEPOD`
+- Genel → AirPlay ve Süreklilik → Otomatik Olarak AirPlay: `prefs:root=General&path=CONTINUITY_SPEC#AUTOMATICALLY_AIRPLAY`
+- Genel → AirPlay ve Süreklilik → Süreklilik Kamerası: `prefs:root=General&path=CONTINUITY_SPEC#WOMBAT_CAMERA`
+- Genel → Dil ve Bölge: `prefs:root=General&path=INTERNATIONAL`
+- Genel → Dil ve Bölge → Diğer Diller…: `prefs:root=General&path=INTERNATIONAL#NEW_PREFERRED_LANGUAGE`
+- Genel → Dil ve Bölge → Tercih Edilen Dil Sırası: `prefs:root=General&path=INTERNATIONAL#PREFERRED_LANGUAGE_GROUP`
+- Genel → Dil ve Bölge → Dil Ekle…: `prefs:root=General&path=INTERNATIONAL#ADD_PREFERRED_LANGUAGE`
+- Genel → Dil ve Bölge → Bölge: `prefs:root=General&path=INTERNATIONAL/LOCALE`
+- Genel → Dil ve Bölge → Sayılar: `prefs:root=General&path=INTERNATIONAL/NUMBERING_SYSTEM`
+- Genel → Dil ve Bölge → Takvim: `prefs:root=General&path=INTERNATIONAL/CALENDAR`
+- Genel → Dil ve Bölge → Sıcaklık Birimi: `prefs:root=General&path=INTERNATIONAL/TEMPERATURE_UNIT`
+- Apple Hesabı: `prefs:root=APPLE_ACCOUNT` or `settings-navigation://com.apple.Settings.AppleAccount`
+- Apple Hesabı → Kişi Anahtarı Doğrulama: `prefs:root=APPLE_ACCOUNT&path=TRANSPARENCY` or `settings-navigation://com.apple.Settings.AppleAccount/TRANSPARENCY`
+- Apple Hesabı → iCloud: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE` or `prefs:root=CASTLE`
+- Apple Hesabı → iCloud → iCloud Saklama Alanı: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/STORAGE_AND_BACKUP` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/STORAGE_AND_BACKUP` or `prefs:root=CASTLE&path=STORAGE_AND_BACKUP`
+- Apple Hesabı → iCloud → iCloud Drive: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Ubiquity` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Ubiquity` or `prefs:root=CASTLE&path=com.apple.Dataclass.Ubiquity`
+- Apple Hesabı → iCloud → Fotoğraflar: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.MediaStream` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.MediaStream` or `prefs:root=CASTLE&path=com.apple.Dataclass.MediaStream`
+- Apple Hesabı → iCloud → Mail: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Mail` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail` or `prefs:root=CASTLE&path=com.apple.Dataclass.Mail`
+- Apple Hesabı → iCloud → Kişiler: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Contacts` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Contacts` or `prefs:root=CASTLE&path=com.apple.Dataclass.Contacts`
+- Apple Hesabı → iCloud → Takvim: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Calendars` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Calendars` or `prefs:root=CASTLE&path=com.apple.Dataclass.Calendars`
+- Apple Hesabı → iCloud → Anımsatıcılar: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Reminders` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Reminders` or `prefs:root=CASTLE&path=com.apple.Dataclass.Reminders`
+- Apple Hesabı → iCloud → Safari: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Bookmarks` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Bookmarks` or `prefs:root=CASTLE&path=com.apple.Dataclass.Bookmarks`
+- Apple Hesabı → iCloud → Notlar: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Notes` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Notes` or `prefs:root=CASTLE&path=com.apple.Dataclass.Notes`
+- Apple Hesabı → iCloud → News: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.News` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.News` or `prefs:root=CASTLE&path=com.apple.Dataclass.News`
+- Apple Hesabı → iCloud → Yedekleme: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/BACKUP` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/BACKUP` or `prefs:root=CASTLE&path=BACKUP`
+- Apple Hesabı → iCloud → Sağlık: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Health` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Health` or `prefs:root=CASTLE&path=com.apple.Dataclass.Health`
+- Apple Hesabı → iCloud → Parolalar ve Anahtar Zinciri: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.KeychainSync` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.KeychainSync` or `prefs:root=CASTLE&path=com.apple.Dataclass.KeychainSync`
+- Apple Hesabı → iCloud → E-Postamı Gizle: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/PRIVATE_EMAIL_MANAGE` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/PRIVATE_EMAIL_MANAGE` or `prefs:root=CASTLE&path=PRIVATE_EMAIL_MANAGE`
+- Apple Hesabı → Konumumu Paylaş: `prefs:root=APPLE_ACCOUNT&path=LOCATION_SHARING` or `settings-navigation://com.apple.Settings.AppleAccount/LOCATION_SHARING`
+- Apple Hesabı → Konumumu Paylaş → Bul: `prefs:root=APPLE_ACCOUNT&path=LOCATION_SHARING/FindMyDevice-Settings` or `settings-navigation://com.apple.Settings.AppleAccount/LOCATION_SHARING/FindMyDevice-Settings`
+- Apple Hesabı → Ad, Telefon Numarası ve E-posta: `prefs:root=APPLE_ACCOUNT&path=APPLE_ACCOUNT_CONTACT` or `settings-navigation://com.apple.Settings.AppleAccount/APPLE_ACCOUNT_CONTACT`
+- Apple Hesabı → Parola ve Güvenlik: `prefs:root=APPLE_ACCOUNT&path=PASSWORD_AND_SECURITY` or `settings-navigation://com.apple.Settings.AppleAccount/PASSWORD_AND_SECURITY`
+- Apple Hesabı → Ödeme ve Teslimat: `prefs:root=APPLE_ACCOUNT&path=PAYMENT_AND_SHIPPING` or `settings-navigation://com.apple.Settings.AppleAccount/PAYMENT_AND_SHIPPING`
+- Apple Hesabı → Abonelikler: `prefs:root=APPLE_ACCOUNT&path=SUBSCRIPTIONS` or `settings-navigation://com.apple.Settings.AppleAccount/SUBSCRIPTIONS`
+- Apple Hesabı → Aile: `prefs:root=APPLE_ACCOUNT&path=Family` or `settings-navigation://com.apple.Settings.AppleAccount/Family`
+- Bildirimler: `prefs:root=NOTIFICATIONS_ID`
+- Bildirimler → Zamanlanmış Özet: `prefs:root=NOTIFICATIONS_ID&path=SCHEDULED_DELIVERY_ID`
+- Hava Durumu: `prefs:root=WEATHER`
+- Freeform: `prefs:root=FREEFORM`
+- Odak: `prefs:root=DO_NOT_DISTURB`
+- Odak → Odak Durumu: `prefs:root=DO_NOT_DISTURB&path=status`
+- Günlük: `prefs:root=JOURNAL`
+- Cüzdan ve Apple Pay: `prefs:root=PASSBOOK`
+- Cüzdan ve Apple Pay → Apple Cash: `prefs:root=PASSBOOK#Apple%C2%A0Cash`
+- Cüzdan ve Apple Pay → Ödeme Kartları: `prefs:root=PASSBOOK#SETTINGS_PAYMENT_CARDS_GROUP`
+- Cüzdan ve Apple Pay → Kart Ekle: `prefs:root=PASSBOOK#Add%20Card`
+- Cüzdan ve Apple Pay → Yan Düğmeye İki Kez Bas: `prefs:root=PASSBOOK#Double-Click%20Side%20Button`
+- Cüzdan ve Apple Pay → Sipariş Takibi: `prefs:root=PASSBOOK#ORDER_TRACKING`
+- Ekran ve Parlaklık | Görünüş: `prefs:root=DISPLAY`
+- Ekran ve Parlaklık | Görünüş → Görünüş: `prefs:root=DISPLAY#DEVICE_APPEARANCE`
+- Ekran ve Parlaklık | Görünüş → True Tone: `prefs:root=DISPLAY#WHITE_BALANCE`
+- Ekran ve Parlaklık | Görünüş → Night Shift: `prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION`
+- Ekran ve Parlaklık | Görünüş → Night Shift → Zamanlanmış: `prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION#SCHEDULED`
+- Ekran ve Parlaklık | Görünüş → Night Shift → Yarına Kadar Açık Bırak: `prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION#MANUAL`
+- Ekran ve Parlaklık | Görünüş → Night Shift → Renk Sıcaklığı: `prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION#COLOR_TEMPERATURE`
+- Ekran ve Parlaklık | Görünüş → Otomatik Kilit: `prefs:root=DISPLAY&path=AUTOLOCK`
+- Ekran ve Parlaklık | Görünüş → Uyandırmak İçin Kaldır: `prefs:root=DISPLAY#RAISE_TO_WAKE`
+- Ekran ve Parlaklık | Görünüş → Kilitle/Kilidi Aç: `prefs:root=DISPLAY#SMART_CASE_LOCK_SPEC`
+- Ekran ve Parlaklık | Görünüş → Metin Puntosu: `prefs:root=DISPLAY&path=TEXT_SIZE`
+- Ekran ve Parlaklık | Görünüş → Kalın Metin: `prefs:root=DISPLAY#BOLD_TEXT`
+- Ekran ve Parlaklık | Görünüş → Parlaklık: `prefs:root=DISPLAY#BRIGHTNESS`
+- Ekran ve Parlaklık | Görünüş → Ekran Büyütme: `prefs:root=DISPLAY#DISPLAY_ZOOM_GROUP`
+- Ekran ve Parlaklık | Görünüş → Görünüş: `prefs:root=DISPLAY&path=APPEARANCE`
+- Ekran ve Parlaklık | Görünüş → Görünüş → Pencere Büyütme: `prefs:root=DISPLAY&path=APPEARANCE#WINDOW_ZOOM`
+- Ekran ve Parlaklık | Görünüş → Görünüş → İki Elle Pencere Büyütme: `prefs:root=DISPLAY&path=APPEARANCE#TWO_HANDED_WINDOW_ZOOM`
+- Ekran ve Parlaklık | Görünüş → Görüntü: `prefs:root=DISPLAY&path=MAGNIFY`
+- Ekran ve Parlaklık | Görünüş → Hep Açık Ekran: `prefs:root=DISPLAY&path=ALWAYS_ON`
+- Ekran ve Parlaklık | Görünüş → Hep Açık Ekran → Hep Açık Ekran: `prefs:root=DISPLAY&path=ALWAYS_ON#ALWAYS_ON`
+- Ekran ve Parlaklık | Görünüş → Uyumlu Uygulamalar: `prefs:root=DISPLAY&path=COMPATIBLE_APPEARANCE`
+- Ekran ve Parlaklık | Görünüş → Uyumlu Uygulamalar → Koyu, Açık: `prefs:root=DISPLAY&path=COMPATIBLE_APPEARANCE#COMPATIBLE_APPEARANCE_CHOICES`
+- Ölçüm: `prefs:root=MEASURE` or `settings-navigation://com.apple.Settings.Apps/com.apple.measure`
+- Ölçüm → Ölçü Birimleri: `prefs:root=MEASURE#MEASURE_UNITS` or `settings-navigation://com.apple.Settings.Apps/com.apple.measure#MEASURE_UNITS#MEASURE_UNITS`
+- Ölçüm → İmperial (İngiliz Ölçü Birimi): `prefs:root=MEASURE#Imperial` or `settings-navigation://com.apple.Settings.Apps/com.apple.measure#Imperial#Imperial`
+- Ölçüm → Metrik: `prefs:root=MEASURE#Metric` or `settings-navigation://com.apple.Settings.Apps/com.apple.measure#Metric#Metric`
+- Duvar Kâğıdı: `prefs:root=Wallpaper`
+- Denetim Merkezi: `prefs:root=ControlCenter`
+- Denetim Merkezi → Uygulama İçinden Erişim: `prefs:root=ControlCenter#ALLOWED_WITHIN_APPS`
+- Denetim Merkezi → Denetimleri Özelleştir: `prefs:root=ControlCenter&path=CUSTOMIZE_CONTROLS`
+- Sesli Notlar: `prefs:root=VOICE_MEMOS`
+- Sesli Notlar → Silineni Temizle: `prefs:root=VOICE_MEMOS&path=RCVoiceMemosRecentlyDeletedWindowKey`
+- Sesli Notlar → Ses Kalitesi: `prefs:root=VOICE_MEMOS&path=RCVoiceMemosAudioQualityKey`
+- Sesli Notlar → Konum Tabanlı Adlandırma: `prefs:root=VOICE_MEMOS#RCVoiceMemosUseLocationBasedNaming`
+- Takvim: `prefs:root=CALENDAR`
+- Takvim → Saat Dilimini Geçersiz Kıl: `prefs:root=CALENDAR&path=TimeZoneCityArray`
+- Takvim → Alternatif Takvimler: `prefs:root=CALENDAR&path=Alternate%20Calendars`
+- Takvim → Hafta Numaraları: `prefs:root=CALENDAR#Week%20Numbers`
+- Takvim → Reddeden Davetlileri Göster: `prefs:root=CALENDAR#Show%20Invitee%20Declines`
+- Takvim → Eşzamanla: `prefs:root=CALENDAR&path=Sync`
+- Takvim → Saptanmış Uyarı Süresi: `prefs:root=CALENDAR&path=Default%20Alert%20Times`
+- Takvim → Haftanın İlk Günü: `prefs:root=CALENDAR&path=Start%20Week%20On`
+- Takvim → Konum Önerileri: `prefs:root=CALENDAR#Location%20Suggestions`
+- Geliştirici: `prefs:root=DEVELOPER_SETTINGS`
+- Geliştirici → Çok Yollu Ağ: `prefs:root=DEVELOPER_SETTINGS&path=MULTI_PATH_AGG`
+- Geliştirici → Çok Yollu Ağ → Çok Yollu Ağ: `prefs:root=DEVELOPER_SETTINGS&path=MULTI_PATH_AGG#Multipath%20Networking`
+- Geliştirici → Görünüş: `prefs:root=DEVELOPER_SETTINGS#UIAppearanceGroup`
+- Geliştirici → Koyu Görünüş: `prefs:root=DEVELOPER_SETTINGS#UIAppearanceSettings`
+- Geliştirici → Eşlenmiş Aygıtlar: `prefs:root=DEVELOPER_SETTINGS#DTPairedDevicesGroup`
+- Geliştirici → Güvenilen Bilgisayarları Sil: `prefs:root=DEVELOPER_SETTINGS#CLEAR_TRUSTED_COMPUTERS`
+- Geliştirici → Günlük: `prefs:root=DEVELOPER_SETTINGS&path=DTInstrumentsSettings`
+- Geliştirici → Kullanıcı Arayüzü Otomasyonu | Kullanıcı Arayüzü Otomasyonunu Etkinleştir: `prefs:root=DEVELOPER_SETTINGS#UIAGroup`
+- Geliştirici → Ağ: `prefs:root=DEVELOPER_SETTINGS#NLCGroup`
+- Geliştirici → Ağ Bağlantısı Düzeltici: `prefs:root=DEVELOPER_SETTINGS&path=NLC`
+- Geliştirici → Ek Günlük: `prefs:root=DEVELOPER_SETTINGS#ADDITIONAL_LOGGING`
+- Geliştirici → HTTP Servislerine İzin Ver: `prefs:root=DEVELOPER_SETTINGS#ALLOW_HTTP_SERVICES`
+- Geliştirici → Derecelendirme Sınırlandırmayı Etkisizleştir: `prefs:root=DEVELOPER_SETTINGS#DISABLE_RATE_LIMITING`
+- Geliştirici → NFC Geçiş Tuşu İsteğe Bağlı: `prefs:root=DEVELOPER_SETTINGS#NFC_PASS_KEY_OPTIONAL`
+- Geliştirici → Ortam Servisleri Testi: `prefs:root=DEVELOPER_SETTINGS#MEDIA_SERVICES_TESTING`
+- Geliştirici → Ortam Servislerini Sıfırla: `prefs:root=DEVELOPER_SETTINGS#RESET_MEDIA_SERVICES`
+- Geliştirici → News Testi: `prefs:root=DEVELOPER_SETTINGS#NEWS_TESTING`
+- Geliştirici → Bir Sonraki Başlatmada Yerel Verileri Sıfırla: `prefs:root=DEVELOPER_SETTINGS#RESET_LOCAL_DATA_ON_NEXT_LAUNCH`
+- Geliştirici → Ortam Oynatıcı Framework Testi: `prefs:root=DEVELOPER_SETTINGS#RoutineSettingsGroup`
+- Geliştirici → Oynatılabilir İçerik API: `prefs:root=DEVELOPER_SETTINGS&path=RoutineSettings`
+- Geliştirici → TV Sağlayıcı: `prefs:root=DEVELOPER_SETTINGS&path=VideoSubscriberAccountSettings`
+- Geliştirici → ClassKit API: `prefs:root=DEVELOPER_SETTINGS&path=ClassKitSettings`
+- Geliştirici → CoreSpotlight Testi: `prefs:root=DEVELOPER_SETTINGS#CORESPOTLIGHT_TESTING`
+- Geliştirici → Tüm Öğeleri Yeniden Diz: `prefs:root=DEVELOPER_SETTINGS#REINDEX_ALL_ITEMS`
+- Geliştirici → Tanıtıcısı Olan Tüm Öğeleri Yeniden Diz: `prefs:root=DEVELOPER_SETTINGS#REINDEX_ALL_ITEMS_WITH_IDENTIFIERS`
+- Geliştirici → Kestirmeler Testi: `prefs:root=DEVELOPER_SETTINGS#SIRI_ACTIONS_TESTING`
+- Geliştirici → Son Kullanılan Kestirmeleri Görüntüle: `prefs:root=DEVELOPER_SETTINGS#DISPLAY_DONATIONS_SPOTLIGHT`
+- Geliştirici → Yakında Çıkacak Ortamları Görüntüle: `prefs:root=DEVELOPER_SETTINGS#DISPLAY_UPCOMING_MEDIA`
+- Geliştirici → Bağışları Kilitli Ekranda Görüntüle: `prefs:root=DEVELOPER_SETTINGS#DISPLAY_DONATIONS_LOCKSCREEN`
+- Geliştirici → Kestirmeleri Watch ile Eşzamanlamaya Zorla: `prefs:root=DEVELOPER_SETTINGS#SIRI_ACTIONS_SYNC_WATCHOS`
+- Geliştirici → MIDI-CI Testi: `prefs:root=DEVELOPER_SETTINGS#MIDI_CI_API_BETA`
+- Geliştirici → MIDI-CI’yi Etkinleştir: `prefs:root=DEVELOPER_SETTINGS#MIDI_CI_API_BETA_ENABLE`
+- Geliştirici → Takılma Algılama: `prefs:root=DEVELOPER_SETTINGS#HANGTRACER_EXTERNAL_CONFIGURE`
+- Face ID ve Parola | Parola | Touch ID ve Parola: `prefs:root=PASSCODE`
+- Face ID ve Parola | Parola | Touch ID ve Parola → Parolayı Kapat: `prefs:root=PASSCODE#PASSCODE_OFF`
+- Face ID ve Parola | Parola | Touch ID ve Parola → Parolayı Değiştir: `prefs:root=PASSCODE#CHANGE_PASSCODE`
+- Face ID ve Parola | Parola | Touch ID ve Parola → Parola Gereksin: `prefs:root=PASSCODE&path=PASSCODE_REQ`
+- Face ID ve Parola | Parola | Touch ID ve Parola → Sesle Arama: `prefs:root=PASSCODE#VOICE_DIAL`
+- Face ID ve Parola | Parola | Touch ID ve Parola → Kilitliyken Erişime İzin Ver: `prefs:root=PASSCODE#ALLOW_ACCESS_WHEN_LOCKED`
+- Face ID ve Parola | Parola | Touch ID ve Parola → Mesaj ile Yanıtla: `prefs:root=PASSCODE#REPLY_WITH_MESSAGE_SWITCH`
+- Face ID ve Parola | Parola | Touch ID ve Parola → Ev Denetimi: `prefs:root=PASSCODE#HOME_CONTROL_SWITCH`
+- Face ID ve Parola | Parola | Touch ID ve Parola → Cüzdan: `prefs:root=PASSCODE#WALLET_SWITCH`
+- Face ID ve Parola | Parola | Touch ID ve Parola → Cevapsız Aramalara Geri Dön: `prefs:root=PASSCODE#RETURN_MISSED_CALLS_SWITCH`
+- Face ID ve Parola | Parola | Touch ID ve Parola → Verileri Sil: `prefs:root=PASSCODE#WIPE_DEVICE`
+- Face ID ve Parola | Parola | Touch ID ve Parola → Kilidi Apple Watch ile Aç: `prefs:root=PASSCODE#AUTO_UNLOCK_DEVICES_GROUP`
+- Face ID ve Parola | Parola | Touch ID ve Parola → Çalınan Aygıt Koruması: `prefs:root=PASSCODE#DTO_GROUP_ID`
+- Telefon: `prefs:root=Phone`
+- Telefon → Numaram: `prefs:root=Phone&path=My%20Number`
+- Telefon → Gelen Aramalar: `prefs:root=Phone&path=INCOMING_CALL_STYLE`
+- Telefon → Aramaları Duyur: `prefs:root=Phone&path=ANNOUNCE_CALLS`
+- Telefon → SMS/Arama Raporu: `prefs:root=Phone&path=CLASSIFICATION_AND_REPORTING`
+- Telefon → Mesajla Yanıtla: `prefs:root=Phone&path=Respond%20with%20Text`
+- Telefon → Arama Yönlendirme: `prefs:root=Phone&path=Call%20Forwarding`
+- Telefon → Arama Yönlendirme → Arama Yönlendirme: `prefs:root=Phone&path=Call%20Forwarding#idMasterOnOffSwitch`
+- Telefon → Arama Bekletme: `prefs:root=Phone&path=Call%20Waiting`
+- Telefon → Numaramı Göster: `prefs:root=Phone&path=Show%20My%20Caller%20ID`
+- Telefon → Numaramı Göster → Numaramı Göster: `prefs:root=Phone&path=Show%20My%20Caller%20ID/Primary`
+- Telefon → Numaramı Göster → Numaramı Göster → Numaramı Göster: `prefs:root=Phone&path=Show%20My%20Caller%20ID/Primary#Show%20My%20Caller%20ID`
+- Telefon → Bilinmeyen Arayanları Sessize Al: `prefs:root=Phone#SILENCE_CALLS`
+- Telefon → Engellenen Kişiler: `prefs:root=Phone&path=SPECIFIER_IDENTIFIER_BLACKLIST`
+- Telefon → Çevirme Yardımı: `prefs:root=Phone&path=Dial%20Assist`
+- Notlar: `prefs:root=NOTES` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes`
+- Notlar → Saptanmış Hesap: `prefs:root=NOTES&path=Default%20Account` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes/Default%20Account`
+- Notlar → Parola: `prefs:root=NOTES&path=Password` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes/Password`
+- Notlar → Notları Sırala: `prefs:root=NOTES&path=Sort%20Notes%20By` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes/Sort%20Notes%20By`
+- Notlar → Yeni Not Başlangıcı: `prefs:root=NOTES&path=New%20Notes%20Start%20With` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes/New%20Notes%20Start%20With`
+- Notlar → İşaretlenen Öğeleri Sırala: `prefs:root=NOTES&path=Sort%20Checked%20Items` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes/Sort%20Checked%20Items`
+- Notlar → Satır ve Izgara Çizgisi: `prefs:root=NOTES&path=Lines%20%26%20Grids` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes/Lines%20%26%20Grids`
+- Notlar → Fotoğraflar’a Kaydet: `prefs:root=NOTES#Save%20to%20Photos` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes#Save%20to%20Photos#Save%20to%20Photos`
+- Notlar → Notlara Kilitli Ekrandan Erişim: `prefs:root=NOTES&path=Access%20Notes%20from%20Lock%20Screen` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes/Access%20Notes%20from%20Lock%20Screen`
+- Kitaplar: `prefs:root=IBOOKS`
+- Kitaplar → Çevrimiçi İçerik: `prefs:root=IBOOKS#BKAllowOnlineContent`
+- Kitaplar → EŞZAMANLAMA: `prefs:root=IBOOKS#SYNCING`
+- Kitaplar → Şu An Okunan: `prefs:root=IBOOKS#BKLibrary.ReadingNow`
+- Kitaplar → iCloud Drive: `prefs:root=IBOOKS#BCSyncICloudDrive`
+- Kitaplar → OKUMA: `prefs:root=IBOOKS#READING`
+- Kitaplar → Tam Yaslama: `prefs:root=IBOOKS#BKFullJustification`
+- Kitaplar → Otomatik Tireleme: `prefs:root=IBOOKS#BKAutoHyphenation`
+- Kitaplar → Her İki Marj ile İlerletme: `prefs:root=IBOOKS#BKLeftTapTurnToNext`
+- Kitaplar → Okuma Hedefleri: `prefs:root=IBOOKS#READING_GOALS`
+- Kitaplar → Okuma Hedefi Verilerini Sil: `prefs:root=IBOOKS#BKReadingGoalsShouldClearDataKey`
+- Kitaplar → ARAMA: `prefs:root=IBOOKS#SEARCHING`
+- Kitaplar → Kitapçı: `prefs:root=IBOOKS#BKIncludeBookStoreResultsInSearch`
+- Kitaplar → SESLİ KİTAPLAR: `prefs:root=IBOOKS#AUDIOBOOKS`
+- Kitaplar → İleriye Doğru Atla: `prefs:root=IBOOKS&path=BKAudioBookSkipForward`
+- Kitaplar → Geriye Doğru Atla: `prefs:root=IBOOKS&path=BKAudioBookSkipBackward`
+- Kitaplar → HARİCİ DENETİMLER: `prefs:root=IBOOKS#BKRemoteSkipInsteadOfNextTrackDefaultKey`
+- Kitaplar → Sonraki/Önceki: `prefs:root=IBOOKS#Next/Previous`
+- Kitaplar → İleriye/Geriye Atla: `prefs:root=IBOOKS#Skip%20Forward/Back`
+- Kitaplar → GİZLİLİK: `prefs:root=IBOOKS#PRIVACY`
+- Kitaplar → Tanıtıcıyı Sıfırla: `prefs:root=IBOOKS#BAResetAnalyticsUserID`
+- Kitaplar → Teşekkürler: `prefs:root=IBOOKS&path=Acknowledgements`
+- Game Center: `prefs:root=GAMECENTER`
+- Acil SOS: `prefs:root=EMERGENCY_SOS`
+- Acil SOS → Yan Düğme ile Ara: `prefs:root=EMERGENCY_SOS#CALL_WITH_SIDE_BUTTON`
+- Acil SOS → Otomatik Ara: `prefs:root=EMERGENCY_SOS#AUTO_CALL`
+- Acil SOS → Acil Durum Kişileri: `prefs:root=EMERGENCY_SOS#EMERGENCY_CONTACTS`
+- Acil SOS → Geri Sayım Sesi: `prefs:root=EMERGENCY_SOS#ALARM_SOUND_SWITCH`
+- Anımsatıcılar: `prefs:root=REMINDERS`
+- Anımsatıcılar → Saptanmış Liste: `prefs:root=REMINDERS&path=DEFAULT_LIST`
+- Anımsatıcılar → Saptanmış Liste → Anımsatıcılar: `prefs:root=REMINDERS&path=DEFAULT_LIST#preferredDefaultListID`
+- Anımsatıcılar → Bugün Bildirimi: `prefs:root=REMINDERS#todayNotificationFireTime`
+- Anımsatıcılar → Gecikmiş Olarak Göster: `prefs:root=REMINDERS#showRemindersAsOverdue`
+- Hücresel: `prefs:root=MOBILE_DATA_SETTINGS_ID`
+- Hücresel → Seçenekler: `prefs:root=MOBILE_DATA_SETTINGS_ID&path=CELLULAR_DATA_OPTIONS`
+- Hücresel → Seçenekler → Düşük Veri Modu: `prefs:root=MOBILE_DATA_SETTINGS_ID&path=CELLULAR_DATA_OPTIONS#Low%20Data%20Mode`
+- Hücresel → Hücresel Veri: `prefs:root=MOBILE_DATA_SETTINGS_ID&path=SHOW_ALL`
+- WLAN | Wi-Fi: `prefs:root=WIFI`
+- Kişiler: `prefs:root=CONTACTS`
+- Kişiler → Kişiler Erişebilsin: `prefs:root=CONTACTS#Allow%20Contacts%20To%20Access`
+- Kişiler → Siri: `prefs:root=CONTACTS&path=SIRI_AND_SEARCH`
+- Kişiler → Sıralama: `prefs:root=CONTACTS&path=ContactsSortOrder`
+- Kişiler → Görüntüleme Sırası: `prefs:root=CONTACTS&path=PersonNameOrder`
+- Kişiler → Kısa Ad: `prefs:root=CONTACTS&path=PersonShortName`
+- Kişiler → Kısa Ad → Kısa Ad: `prefs:root=CONTACTS&path=PersonShortName#Short%20Name`
+- Kişiler → Kısa Ad → Takma Adları Tercih Et: `prefs:root=CONTACTS&path=PersonShortName#Prefer%20Nicknames`
+- Kişiler → Bilgilerim: `prefs:root=CONTACTS&path=MeCard`
+- Kişiler → SIM’deki Kişileri Aktar: `prefs:root=CONTACTS#SIMImport`
+- Kestirmeler: `prefs:root=SHORTCUTS`
+- Kestirmeler → iCloud Eşzamanlama: `prefs:root=SHORTCUTS#WFCloudKitSyncEnabled`
+- Kestirmeler → Kestirme Sırasını Eşzamanla: `prefs:root=SHORTCUTS#WFCloudKitSyncOrderEnabled`
+- Kestirmeler → Yasal Uyarılar: `prefs:root=SHORTCUTS&path=Legal%20Notices`
+- TV | Videolar: `prefs:root=TVAPP`
+- TV | Videolar → Oynatma için Hücresel Veri: `prefs:root=TVAPP#com.apple.videos%3AVideosUseCellularDataEnabledSetting`
+- TV | Videolar → Oynatma Kalitesi: `prefs:root=TVAPP#com.apple.videos%3APlaybackQualityGroup`
+- TV | Videolar → Satın Alınanlar ve Kiralananlar: `prefs:root=TVAPP&path=com.apple.videos%3APreferredPurchaseResolution`
+- TV | Videolar → Ev Paylaşımı: `prefs:root=TVAPP#com.apple.videos%3AHomeSharingFooter`
+- Müzik: `prefs:root=MUSIC`
+- Müzik → Apple Music’i Göster: `prefs:root=MUSIC#com.apple.Music%3AAppleMusicEnabled`
+- Müzik → Liste Parçalarını Ekle: `prefs:root=MUSIC#com.apple.Music%3AAddPlaylistSongsToMyMusicSwitch`
+- Müzik → Yıldızlı Puan Düzeyini Göster: `prefs:root=MUSIC#com.apple.Music%3AShowStarRatings`
+- Müzik → Arşiv’i Eşzamanla: `prefs:root=MUSIC#com.apple.Music%3ACloudMusicLibraryEnabled`
+- Müzik → Hücresel Veri: `prefs:root=MUSIC&path=com.apple.Music%3ACellularData`
+- Müzik → İndirilen Müzik: `prefs:root=MUSIC&path=com.apple.Music%3AMusicUsageLink`
+- Müzik → En İyi Saklama: `prefs:root=MUSIC&path=com.apple.Music%3AOptimizeStorage`
+- Müzik → Otomatik İndirmeler: `prefs:root=MUSIC#com.apple.Music%3AMusicAutomaticDownload`
+- Müzik → EQ: `prefs:root=MUSIC&path=com.apple.Music%3AEQ`
+- Müzik → Ses Denetimi: `prefs:root=MUSIC#com.apple.Music%3ASoundCheck`
+- Müzik → Dinleme Geçmişini Kullan: `prefs:root=MUSIC#com.apple.Music%3APrivateListening`
+- Kamera: `prefs:root=CAMERA`
+- Kamera → Biçimler: `prefs:root=CAMERA&path=CameraFormatsSettingsList`
+- Kamera → Biçimler → Apple ProRaw: `prefs:root=CAMERA&path=CameraFormatsSettingsList#CAMUserPreferenceEnableLinearDNGControl`
+- Kamera → Record Video: `prefs:root=CAMERA&path=Record%20Video`
+- Kamera → Record Video → HDR Video: `prefs:root=CAMERA&path=Record%20Video#HDR%20Video`
+- Kamera → Ayarları Koru: `prefs:root=CAMERA&path=CameraPreserveSettingsSwitch`
+- Kamera → Ayarları Koru → Kamera Modu: `prefs:root=CAMERA&path=CameraPreserveSettingsSwitch#CAMUserPreferencePreserveCaptureMode`
+- Kamera → Izgara: `prefs:root=CAMERA#CameraGridSwitch`
+- Kamera → QR Kodlarını Tara: `prefs:root=CAMERA#CameraQRBannerSwitch`
+- Pusula: `prefs:root=COMPASS`
+- Pusula → Coğrafi Kuzeyi Kullan: `prefs:root=COMPASS#USE_TRUE_NORTH`
+- Maruz Kalma Bildirimleri: `prefs:root=EXPOSURE_NOTIFICATION`
+- Mail: `prefs:root=MAIL`
+- Mail → Hesaplar: `prefs:root=MAIL&path=ACCOUNTS`
+- Mail → Hesaplar → Hesap Ekle: `prefs:root=MAIL&path=ACCOUNTS#ADD_ACCOUNT`
+- Mail → Hesaplar → Yeni Verileri Al: `prefs:root=MAIL&path=ACCOUNTS#FETCH_NEW_DATA`
+- Mail → Önizleme: `prefs:root=MAIL&path=Preview`
+- Mail → Kime/Bilgi Etiketlerini Göster: `prefs:root=MAIL#Show%20To/Cc%20Labels`
+- Mail → Kaydırma Seçenekleri: `prefs:root=MAIL&path=Swipe%20Options`
+- Mail → Silmeden Önce Sor: `prefs:root=MAIL#Ask%20Before%20Deleting`
+- Mail → Uzaktaki Görüntüleri Yükle: `prefs:root=MAIL#Load%20Remote%20Images`
+- Mail → Konu Grubuna Göre Düzenle: `prefs:root=MAIL#Organize%20by%20Thread`
+- Mail → Okunmuş İleti İçeriğini Gizle: `prefs:root=MAIL#Collapse%20Read%20Messages`
+- Mail → En Son İleti En Üstte: `prefs:root=MAIL#Most%20Recent%20Message%20on%20Top`
+- Mail → Tam Konu Grupları: `prefs:root=MAIL#Complete%20Threads`
+- Mail → Bildirimi Kapalı Grup: `prefs:root=MAIL&path=Muted%20Thread%20Action`
+- Mail → Engellenenleri Yok Say: `prefs:root=MAIL#Ignore%20Blocked%20Senders`
+- Mail → Engellenen Gönderen Seçenekleri: `prefs:root=MAIL&path=Blocked%20Sender%20Options`
+- Mail → Engellenenler: `prefs:root=MAIL&path=Blocked`
+- Mail → Kendime Gizli Kopya: `prefs:root=MAIL#Always%20Bcc%20Myself`
+- Mail → Adresleri İşaretle: `prefs:root=MAIL&path=Mark%20Addresses`
+- Mail → Alıntı Düzeyini Artır: `prefs:root=MAIL&path=Increase%20Quote%20Level`
+- Mail → Yanıta İlişikleri Dahil Et: `prefs:root=MAIL&path=Include%20Attachments%20with%20Replies`
+- Mail → Özel: `prefs:root=MAIL&path=Signature`
+- Bluetooth: `prefs:root=Bluetooth`
+- News: `prefs:root=NEWS`
+- News → Yazı Önizlemesini Göster: `prefs:root=NEWS#show_excerpt_mode`
+- News → Bugün’de Yazıları Sınırla: `prefs:root=NEWS#showStoriesFromFavoritesSpecifierID`
+- News → Gizlilik: `prefs:root=NEWS#Privacy`
+- News → Tanıtıcıyı Sıfırla: `prefs:root=NEWS#reset_identifier`
+- News → Teşekkürler: `prefs:root=NEWS&path=Acknowledgements`
+- Fotoğraflar: `prefs:root=Photos`
+- Fotoğraflar → iCloud Fotoğrafları: `prefs:root=Photos#iCloudPhotosSwitch`
+- Fotoğraflar → En İyi Saklama: `prefs:root=Photos#iCloudOptimizeStorageOption`
+- Fotoğraflar → İndir ve Özgünleri Tut: `prefs:root=Photos#iCloudKeepOriginalsOption`
+- Fotoğraflar → Paylaşılan Albümler: `prefs:root=Photos#SharedStreamsSwitch`
+- Fotoğraflar → Hücresel Veri: `prefs:root=Photos&path=CellularDataLinkList`
+- Fotoğraflar → Videoları Otomatik Oynat: `prefs:root=Photos#VideoAutoplaySwitch`
+- Fotoğraflar → Full HDR Görüntüle: `prefs:root=Photos#ImageModulationSwitch`
+- Fotoğraflar → Tatil Günlerini Göster: `prefs:root=Photos#MEMORIES_HOLIDAY_CALENDAR_EVENTS_SWITCH`
+- Fotoğraflar → Mac’e veya PC’ye aktarma: `prefs:root=Photos#TransferGroup`
+- Podcast’ler: `prefs:root=PODCASTS`
+- Gizlilik ve Güvenlik: `prefs:root=Privacy` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity`
+- Gizlilik ve Güvenlik → Sağlık: `prefs:root=Privacy&path=HEALTH` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/HEALTH`
+- Gizlilik ve Güvenlik → Sağlık Verileri: `prefs:root=Privacy&path=HEALTH_DATA` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/HEALTH_DATA`
+- Gizlilik ve Güvenlik → Konum: `prefs:root=Privacy&path=LOCATION` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/LOCATION`
+- Gizlilik ve Güvenlik → Konum → Konumumu Paylaş: `prefs:root=Privacy&path=LOCATION/LOCATION_SHARING` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/LOCATION/LOCATION_SHARING`
+- Gizlilik ve Güvenlik → Kişiler: `prefs:root=Privacy&path=CONTACTS` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/CONTACTS`
+- Gizlilik ve Güvenlik → Takvimler: `prefs:root=Privacy&path=CALENDARS` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/CALENDARS`
+- Gizlilik ve Güvenlik → Anımsatıcılar: `prefs:root=Privacy&path=REMINDERS` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/REMINDERS`
+- Gizlilik ve Güvenlik → Fotoğraflar: `prefs:root=Privacy&path=PHOTOS` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/PHOTOS`
+- Gizlilik ve Güvenlik → Bluetooth Paylaşma: `prefs:root=Privacy&path=BT_PERIPHERAL` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/BT_PERIPHERAL`
+- Gizlilik ve Güvenlik → Mikrofon: `prefs:root=Privacy&path=MICROPHONE` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/MICROPHONE`
+- Gizlilik ve Güvenlik → Konuşma Tanıma: `prefs:root=Privacy&path=SPEECH_RECOGNITION` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/SPEECH_RECOGNITION`
+- Gizlilik ve Güvenlik → Kamera: `prefs:root=Privacy&path=CAMERA` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/CAMERA`
+- Gizlilik ve Güvenlik → HomeKit: `prefs:root=Privacy&path=WILLOW` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/WILLOW`
+- Gizlilik ve Güvenlik → Ortamlar ve Apple Music: `prefs:root=Privacy&path=MEDIALIBRARY` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/MEDIALIBRARY`
+- Gizlilik ve Güvenlik → Analiz: `prefs:root=Privacy&path=PROBLEM_REPORTING` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/PROBLEM_REPORTING`
+- Gizlilik ve Güvenlik → Reklam: `prefs:root=Privacy&path=ADVERTISING` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/ADVERTISING`
+- Gizlilik ve Güvenlik → Dosyalar ve Klasörler: `prefs:root=Privacy&path=FILEACCESS` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/FILEACCESS`
+- Gizlilik ve Güvenlik → Takip Etme: `prefs:root=Privacy&path=USER_TRACKING` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/USER_TRACKING`
+- Gizlilik ve Güvenlik → Uygulama Gizlilik Raporu: `prefs:root=Privacy&path=PRIVACY_REPORT` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/PRIVACY_REPORT`
+- Gizlilik ve Güvenlik → Kilit Modu: `prefs:root=Privacy#LOCKDOWN_MODE` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity#LOCKDOWN_MODE#LOCKDOWN_MODE`
+- Gizlilik ve Güvenlik → Hassas İçerik: `prefs:root=Privacy#NUDITY_DETECTION` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity#NUDITY_DETECTION#NUDITY_DETECTION`
+- FaceTime: `prefs:root=FACETIME`
+- Ekran Süresi: `prefs:root=SCREEN_TIME`
+- Ses ve Dokunuş | Sesler: `prefs:root=Sounds`
+- Ses ve Dokunuş | Sesler → Kulaklık Güvenliği: `prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING`
+- Ses ve Dokunuş | Sesler → Kulaklık Güvenliği → Lightning Adaptörleri: `prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING/HEADPHONE_LIGHTNING_ADAPTERS`
+- Ses ve Dokunuş | Sesler → Kulaklık Güvenliği → Kulaklık Bildirimleri: `prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING#SHSHeadphoneWeeklyNotificationsKey`
+- Ses ve Dokunuş | Sesler → Kulaklık Güvenliği → Yüksek Sesi Azalt: `prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING#SHSHeadphoneLevelLimitSwitchKey`
+- Ses ve Dokunuş | Sesler → Ses Efektleri: `prefs:root=Sounds&path=SOUND_EFFECTS`
+- Ses ve Dokunuş | Sesler → Zil Sesi ve Uyarılar: `prefs:root=Sounds#RINGER_AND_ALERT_GROUP`
+- Ses ve Dokunuş | Sesler → Düğmelerle Değiştir: `prefs:root=Sounds#CHANGE_WITH_BUTTONS`
+- Ses ve Dokunuş | Sesler → Sesler ve Titreşim Modelleri: `prefs:root=Sounds#SOUNDS_ALERT_GROUP`
+- Ses ve Dokunuş | Sesler → Zil Sesi: `prefs:root=Sounds&path=Ringtone`
+- Ses ve Dokunuş | Sesler → SMS Tonu: `prefs:root=Sounds&path=Text_Messages`
+- Ses ve Dokunuş | Sesler → Yeni Sesli Mesaj: `prefs:root=Sounds&path=Voicemail`
+- Ses ve Dokunuş | Sesler → Yeni Posta: `prefs:root=Sounds&path=NEW_MAIL`
+- Ses ve Dokunuş | Sesler → Giden Posta: `prefs:root=Sounds&path=SENT_MAIL`
+- Ses ve Dokunuş | Sesler → Takvim Uyarıları: `prefs:root=Sounds&path=Calendar%20Alarm`
+- Ses ve Dokunuş | Sesler → Anımsatıcı Uyarıları: `prefs:root=Sounds&path=Reminder%20Alerts`
+- Ses ve Dokunuş | Sesler → Klavye Tıklamaları: `prefs:root=Sounds#KEYBOARD_SOUND_SWITCH`
+- Ses ve Dokunuş | Sesler → Kilit Sesi: `prefs:root=Sounds#LOCK_SOUND_SWITCH`
+- Ses ve Dokunuş | Sesler → Kişiselleştirilmiş Uzamsal Ses: `prefs:root=Sounds&path=Personalized%20Spatial%20Audio`
+- Apple Pencil: `prefs:root=Pencil`
+- Apple Pencil → Apple Pencil: `prefs:root=Pencil#PrefersPencilDraws`
+- Apple Pencil → Apple Pencil: `prefs:root=Pencil#PencilTextInput`
+- Mesajlar: `prefs:root=MESSAGES`
+- Borsa: `prefs:root=STOCKS`
+- Borsa → Gizlilik: `prefs:root=STOCKS#Privacy`
+- Borsa → Tanıtıcıyı Sıfırla: `prefs:root=STOCKS#reset_identifier`
+- Çeviri: `prefs:root=TRANSLATE`
+- Çeviri → Aygıtta Çeviri Modu: `prefs:root=TRANSLATE#OnDeviceOnly`
+- Siri: `prefs:root=SIRI`
+- Siri → Kilitliyken Siri’ye İzin Ver: `prefs:root=SIRI#ASSISTANT_LOCK_SCREEN_ACCESS`
+- Siri → Dil: `prefs:root=SIRI&path=LANGUAGE_ID`
+- Siri → Siri Sesi: `prefs:root=SIRI&path=VOICE_ID`
+- Siri → Sesli Geri Bildirim: `prefs:root=SIRI&path=VOICE_FEEDBACK_ID`
+- Siri → Bilgilerim: `prefs:root=SIRI&path=MY_INFO`
+- Sağlık | Sağlık Verileri: `prefs:root=HEALTH`
+- App Store: `prefs:root=STORE`
+- App Store → Otomatik İndirmeler: `prefs:root=STORE#Automatic%20Downloads`
+- App Store → Güncellemeler: `prefs:root=STORE#App%20Updates`
+- App Store → Uygulama İndirmeleri: `prefs:root=STORE&path=App%20Downloads`
+- App Store → Otomatik Video Oynatma: `prefs:root=STORE&path=Video%20Autoplay`
+- App Store → Uygulama İçi Puan ve Yorum: `prefs:root=STORE#In-App%20Ratings%20&%20Reviews`
+- Uçak Modu: `prefs:root=ROOT#AIRPLANE_MODE`

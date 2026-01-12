@@ -1,0 +1,414 @@
+- סוללה: `prefs:root=BATTERY_USAGE`
+- סוללה → מצב סוללה חלשה: `prefs:root=BATTERY_USAGE#BATTERY_SAVER_MODE`
+- סוללה → בריאות הסוללה: `prefs:root=BATTERY_USAGE#BATTERY_HEALTH_ID`
+- כללי: `prefs:root=General`
+- כללי → ניהול מכשירים ו-VPN: `prefs:root=General&path=ManagedConfigurationList`
+- כללי → מילוי אוטומטי וסיסמאות: `prefs:root=General&path=AUTOFILL`
+- כללי → מילוי אוטומטי וסיסמאות → מילוי סיסמאות אוטומטי: `prefs:root=General&path=AUTOFILL#AUTOFILL`
+- כללי → מילוי אוטומטי וסיסמאות → מחיקת קודי האימות: `prefs:root=General&path=AUTOFILL#CLEAN_UP_VERIFICATION_CODES`
+- כללי → מילוי אוטומטי וסיסמאות → הגדרת קודי אימות: `prefs:root=General&path=AUTOFILL#SET_UP_VERIFICATION_CODES`
+- כללי → ‏AppleCare ואחריות: `prefs:root=General&path=COVERAGE/`
+- כללי → מילון: `prefs:root=General&path=DICTIONARY`
+- כללי → מקלדת: `prefs:root=General&path=Keyboard`
+- כללי → מקלדת → מקלדות: `prefs:root=General&path=Keyboard/KEYBOARDS`
+- כללי → מקלדת → החלפת מלל: `prefs:root=General&path=Keyboard/USER_DICTIONARY`
+- כללי → מקלדת → אותיות גדולות אוטומטיות: `prefs:root=General&path=Keyboard#KeyboardAutocapitalization`
+- כללי → מקלדת → תיקון אוטומטי: `prefs:root=General&path=Keyboard#KeyboardAutocorrection`
+- כללי → מקלדת → בדיקת איות: `prefs:root=General&path=Keyboard#KeyboardCheckSpelling`
+- כללי → מקלדת → הפעלת מקש Caps Lock: `prefs:root=General&path=Keyboard#KeyboardCapsLock`
+- כללי → מקלדת → קיצורים: `prefs:root=General&path=Keyboard#KeyboardAssistant`
+- כללי → מקלדת → חיזוי: `prefs:root=General&path=Keyboard#KeyboardPrediction`
+- כללי → מקלדת → פיסוק חכם: `prefs:root=General&path=Keyboard#SmartTyping`
+- כללי → מקלדת → פיצול המקלדת: `prefs:root=General&path=Keyboard#RivenKeyboard`
+- כללי → מקלדת → הפעלת ״החלקת מקשים״: `prefs:root=General&path=Keyboard#GesturesEnabled`
+- כללי → מקלדת → תצוגה מקדימה של תווים: `prefs:root=General&path=Keyboard#KeyboardAllowPaddle`
+- כללי → מקלדת → קיצור ״.״: `prefs:root=General&path=Keyboard#KeyboardPeriodShortcut`
+- כללי → מקלדת → הקלדה בהחלקה: `prefs:root=General&path=Keyboard#KeyboardContinuousPathEnabled`
+- כללי → מקלדת → הפעלת ״הכתבה״: `prefs:root=General&path=Keyboard#Dictation`
+- כללי → מקלדת → פיסוק אוטומטי: `prefs:root=General&path=Keyboard#AutoPunctuationSetting`
+- כללי → עדכוני תוכנה: `prefs:root=General&path=SOFTWARE_UPDATE_LINK`
+- כללי → עדכוני תוכנה → עדכונים אוטומטיים: `prefs:root=General&path=SOFTWARE_UPDATE_LINK/SUAutomaticUpdateButton`
+- כללי → אחסון: `prefs:root=General&path=STORAGE_MGMT`
+- כללי → אחסון → אחסון: `prefs:root=General&path=STORAGE_MGMT#MANAGE`
+- כללי → אחסון → הסרת יישומים שאינם בשימוש: `prefs:root=General&path=STORAGE_MGMT#OFFLOAD`
+- כללי → תמונה-בתוך-תמונה: `prefs:root=General&path=PiP_SPEC`
+- כללי → משטח המגע ועכבר | משטח מגע: `prefs:root=General&path=POINTERS`
+- כללי → NFC: `prefs:root=General&path=NFC_LINK`
+- כללי → ‏VPN: `prefs:root=General&path=VPN`
+- כללי → CarPlay: `prefs:root=General&path=CARPLAY`
+- כללי → מידע: `prefs:root=General&path=About`
+- כללי → מידע → אישורים מהימנים: `prefs:root=General&path=About/CERT_TRUST_SETTINGS`
+- כללי → מידע → מספר סידורי: `prefs:root=General&path=About#SerialNumber`
+- כללי → מידע → מספר דגם: `prefs:root=General&path=About#ProductModel`
+- כללי → מידע → שם דגם: `prefs:root=General&path=About#ProductModelName`
+- כללי → מידע → גירסת iOS: `prefs:root=General&path=About/SW_VERSION_SPECIFIER`
+- כללי → מידע משפטי ותקנים: `prefs:root=General&path=LEGAL_AND_REGULATORY`
+- כללי → מידע משפטי ותקנים → אחריות: `prefs:root=General&path=LEGAL_AND_REGULATORY#Warranty`
+- כללי → AirDrop: `prefs:root=General&path=AIRDROP_LINK`
+- כללי → AirDrop → קירוב מכשירים זה לזה: `prefs:root=General&path=AIRDROP_LINK#AIRDROP_NFC_ID`
+- כללי → כפתור הבית: `prefs:root=General&path=HOME_BUTTON`
+- כללי → מתג צד: `prefs:root=General#Rotation_Switch_Action_Group`
+- כללי → עדכון יישומים ברקע: `prefs:root=General&path=AUTO_CONTENT_DOWNLOAD`
+- כללי → תאריך ושעה: `prefs:root=General&path=DATE_AND_TIME`
+- כללי → יציאת טלוויזיה: `prefs:root=General&path=TV_OUT`
+- כללי → איפוס: `prefs:root=General&path=Reset`
+- כללי → איפוס → איפוס כל ההגדרות: `prefs:root=General&path=Reset#settingsErase`
+- כללי → איפוס → מחיקת כל התוכן וההגדרות: `prefs:root=General&path=Reset#fullErase`
+- כללי → איפוס → איפוס הגדרות הרשת: `prefs:root=General&path=Reset#RESET_NETWORK_LABEL`
+- כללי → איפוס → מחיקת כל תוכניות הנתונים הסלולריות: `prefs:root=General&path=Reset#cellularErase`
+- כללי → איפוס → שירותי מנוי: `prefs:root=General&path=Reset#SUBSCRIBER_SERVICES_ID`
+- כללי → איפוס → איפוס המילון של המקלדת: `prefs:root=General&path=Reset#RESET_KEYBOARD_DICTIONARY_LABEL`
+- כללי → איפוס → איפוס פריסת האייקונים במסך הבית: `prefs:root=General&path=Reset#RESET_ICONS_LABEL`
+- כללי → איפוס → איפוס הגדרות המיקום והפרטיות: `prefs:root=General&path=Reset#RESET_PRIVACY_LABEL`
+- כללי → כיבוי: `prefs:root=General#SHUTDOWN_LABEL`
+- כללי → ‏AirPlay והמשכיות: `prefs:root=General&path=CONTINUITY_SPEC`
+- כללי → ‏AirPlay והמשכיות → Handoff: `prefs:root=General&path=CONTINUITY_SPEC#CONTINUITY`
+- כללי → ‏AirPlay והמשכיות → העברה ל-HomePod: `prefs:root=General&path=CONTINUITY_SPEC#TRANSFER_TO_HOMEPOD`
+- כללי → ‏AirPlay והמשכיות → ‏AirPlay אוטומטי: `prefs:root=General&path=CONTINUITY_SPEC#AUTOMATICALLY_AIRPLAY`
+- כללי → ‏AirPlay והמשכיות → המשכיות במצלמה: `prefs:root=General&path=CONTINUITY_SPEC#WOMBAT_CAMERA`
+- כללי → שפה ואזור: `prefs:root=General&path=INTERNATIONAL`
+- כללי → שפה ואזור → שפות נוספות…: `prefs:root=General&path=INTERNATIONAL#NEW_PREFERRED_LANGUAGE`
+- כללי → שפה ואזור → סדר השפות המועדפות: `prefs:root=General&path=INTERNATIONAL#PREFERRED_LANGUAGE_GROUP`
+- כללי → שפה ואזור → הוספת שפה…: `prefs:root=General&path=INTERNATIONAL#ADD_PREFERRED_LANGUAGE`
+- כללי → שפה ואזור → אזור: `prefs:root=General&path=INTERNATIONAL/LOCALE`
+- כללי → שפה ואזור → מספרים: `prefs:root=General&path=INTERNATIONAL/NUMBERING_SYSTEM`
+- כללי → שפה ואזור → לוח שנה: `prefs:root=General&path=INTERNATIONAL/CALENDAR`
+- כללי → שפה ואזור → יחידת טמפרטורה: `prefs:root=General&path=INTERNATIONAL/TEMPERATURE_UNIT`
+- חשבון Apple: `prefs:root=APPLE_ACCOUNT` or `settings-navigation://com.apple.Settings.AppleAccount`
+- חשבון Apple → אימות של מפתחות אנשי קשר: `prefs:root=APPLE_ACCOUNT&path=TRANSPARENCY` or `settings-navigation://com.apple.Settings.AppleAccount/TRANSPARENCY`
+- חשבון Apple → ‏iCloud: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE` or `prefs:root=CASTLE`
+- חשבון Apple → ‏iCloud → אחסון ב-iCloud: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/STORAGE_AND_BACKUP` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/STORAGE_AND_BACKUP` or `prefs:root=CASTLE&path=STORAGE_AND_BACKUP`
+- חשבון Apple → ‏iCloud → ‏iCloud Drive: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Ubiquity` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Ubiquity` or `prefs:root=CASTLE&path=com.apple.Dataclass.Ubiquity`
+- חשבון Apple → ‏iCloud → תמונות: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.MediaStream` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.MediaStream` or `prefs:root=CASTLE&path=com.apple.Dataclass.MediaStream`
+- חשבון Apple → ‏iCloud → דואר: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Mail` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail` or `prefs:root=CASTLE&path=com.apple.Dataclass.Mail`
+- חשבון Apple → ‏iCloud → אנשי קשר: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Contacts` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Contacts` or `prefs:root=CASTLE&path=com.apple.Dataclass.Contacts`
+- חשבון Apple → ‏iCloud → לוח שנה: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Calendars` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Calendars` or `prefs:root=CASTLE&path=com.apple.Dataclass.Calendars`
+- חשבון Apple → ‏iCloud → תזכורות: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Reminders` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Reminders` or `prefs:root=CASTLE&path=com.apple.Dataclass.Reminders`
+- חשבון Apple → ‏iCloud → ‏Safari: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Bookmarks` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Bookmarks` or `prefs:root=CASTLE&path=com.apple.Dataclass.Bookmarks`
+- חשבון Apple → ‏iCloud → הערות: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Notes` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Notes` or `prefs:root=CASTLE&path=com.apple.Dataclass.Notes`
+- חשבון Apple → ‏iCloud → News: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.News` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.News` or `prefs:root=CASTLE&path=com.apple.Dataclass.News`
+- חשבון Apple → ‏iCloud → גיבוי: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/BACKUP` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/BACKUP` or `prefs:root=CASTLE&path=BACKUP`
+- חשבון Apple → ‏iCloud → בריאות: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Health` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Health` or `prefs:root=CASTLE&path=com.apple.Dataclass.Health`
+- חשבון Apple → ‏iCloud → סיסמאות וצרור המפתחות: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.KeychainSync` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.KeychainSync` or `prefs:root=CASTLE&path=com.apple.Dataclass.KeychainSync`
+- חשבון Apple → ‏iCloud → הסתרת הדוא״ל שלי: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/PRIVATE_EMAIL_MANAGE` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/PRIVATE_EMAIL_MANAGE` or `prefs:root=CASTLE&path=PRIVATE_EMAIL_MANAGE`
+- חשבון Apple → שיתוף המיקום שלי: `prefs:root=APPLE_ACCOUNT&path=LOCATION_SHARING` or `settings-navigation://com.apple.Settings.AppleAccount/LOCATION_SHARING`
+- חשבון Apple → שיתוף המיקום שלי → איתור: `prefs:root=APPLE_ACCOUNT&path=LOCATION_SHARING/FindMyDevice-Settings` or `settings-navigation://com.apple.Settings.AppleAccount/LOCATION_SHARING/FindMyDevice-Settings`
+- חשבון Apple → שם, מספרי טלפון, דוא״ל: `prefs:root=APPLE_ACCOUNT&path=APPLE_ACCOUNT_CONTACT` or `settings-navigation://com.apple.Settings.AppleAccount/APPLE_ACCOUNT_CONTACT`
+- חשבון Apple → סיסמה ואבטחה: `prefs:root=APPLE_ACCOUNT&path=PASSWORD_AND_SECURITY` or `settings-navigation://com.apple.Settings.AppleAccount/PASSWORD_AND_SECURITY`
+- חשבון Apple → תשלום ומשלוח: `prefs:root=APPLE_ACCOUNT&path=PAYMENT_AND_SHIPPING` or `settings-navigation://com.apple.Settings.AppleAccount/PAYMENT_AND_SHIPPING`
+- חשבון Apple → מינויים: `prefs:root=APPLE_ACCOUNT&path=SUBSCRIPTIONS` or `settings-navigation://com.apple.Settings.AppleAccount/SUBSCRIPTIONS`
+- חשבון Apple → משפחה: `prefs:root=APPLE_ACCOUNT&path=Family` or `settings-navigation://com.apple.Settings.AppleAccount/Family`
+- עדכונים: `prefs:root=NOTIFICATIONS_ID`
+- עדכונים → סיכום מתוזמן: `prefs:root=NOTIFICATIONS_ID&path=SCHEDULED_DELIVERY_ID`
+- מזג אוויר: `prefs:root=WEATHER`
+- ‏Freeform: `prefs:root=FREEFORM`
+- ריכוז: `prefs:root=DO_NOT_DISTURB`
+- ריכוז → סטטוס ריכוז: `prefs:root=DO_NOT_DISTURB&path=status`
+- יומן: `prefs:root=JOURNAL`
+- ארנק ו-Apple Pay: `prefs:root=PASSBOOK`
+- ארנק ו-Apple Pay → Apple Cash: `prefs:root=PASSBOOK#Apple%C2%A0Cash`
+- ארנק ו-Apple Pay → כרטיסי תשלום: `prefs:root=PASSBOOK#SETTINGS_PAYMENT_CARDS_GROUP`
+- ארנק ו-Apple Pay → הוספת כרטיס: `prefs:root=PASSBOOK#Add%20Card`
+- ארנק ו-Apple Pay → לחיצה כפולה על כפתור הצד: `prefs:root=PASSBOOK#Double-Click%20Side%20Button`
+- ארנק ו-Apple Pay → מעקב אחר הזמנות: `prefs:root=PASSBOOK#ORDER_TRACKING`
+- מראה | תצוגה ובהירות: `prefs:root=DISPLAY`
+- מראה | תצוגה ובהירות → מראה: `prefs:root=DISPLAY#DEVICE_APPEARANCE`
+- מראה | תצוגה ובהירות → ‏True Tone: `prefs:root=DISPLAY#WHITE_BALANCE`
+- מראה | תצוגה ובהירות → Night Shift: `prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION`
+- מראה | תצוגה ובהירות → Night Shift → מתוזמן: `prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION#SCHEDULED`
+- מראה | תצוגה ובהירות → Night Shift → הפעלה ידנית עד מחר: `prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION#MANUAL`
+- מראה | תצוגה ובהירות → Night Shift → טמפרטורת הצבע: `prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION#COLOR_TEMPERATURE`
+- מראה | תצוגה ובהירות → נעילה אוטומטית: `prefs:root=DISPLAY&path=AUTOLOCK`
+- מראה | תצוגה ובהירות → הרמה ליציאה ממצב שינה: `prefs:root=DISPLAY#RAISE_TO_WAKE`
+- מראה | תצוגה ובהירות → נעילה / ביטול הנעילה: `prefs:root=DISPLAY#SMART_CASE_LOCK_SPEC`
+- מראה | תצוגה ובהירות → גודל המלל: `prefs:root=DISPLAY&path=TEXT_SIZE`
+- מראה | תצוגה ובהירות → מלל עבה: `prefs:root=DISPLAY#BOLD_TEXT`
+- מראה | תצוגה ובהירות → בהירות: `prefs:root=DISPLAY#BRIGHTNESS`
+- מראה | תצוגה ובהירות → הגדלת התצוגה: `prefs:root=DISPLAY#DISPLAY_ZOOM_GROUP`
+- מראה | תצוגה ובהירות → מראה: `prefs:root=DISPLAY&path=APPEARANCE`
+- מראה | תצוגה ובהירות → מראה → הגדלת חלון: `prefs:root=DISPLAY&path=APPEARANCE#WINDOW_ZOOM`
+- מראה | תצוגה ובהירות → מראה → הגדלת חלון בשתי ידיים: `prefs:root=DISPLAY&path=APPEARANCE#TWO_HANDED_WINDOW_ZOOM`
+- מראה | תצוגה ובהירות → הצגה: `prefs:root=DISPLAY&path=MAGNIFY`
+- מראה | תצוגה ובהירות → תצוגה פעילה תמיד: `prefs:root=DISPLAY&path=ALWAYS_ON`
+- מראה | תצוגה ובהירות → תצוגה פעילה תמיד → תצוגה פעילה תמיד: `prefs:root=DISPLAY&path=ALWAYS_ON#ALWAYS_ON`
+- מראה | תצוגה ובהירות → יישומים תואמים: `prefs:root=DISPLAY&path=COMPATIBLE_APPEARANCE`
+- מראה | תצוגה ובהירות → יישומים תואמים → כהה, בהיר: `prefs:root=DISPLAY&path=COMPATIBLE_APPEARANCE#COMPATIBLE_APPEARANCE_CHOICES`
+- מדידה: `prefs:root=MEASURE` or `settings-navigation://com.apple.Settings.Apps/com.apple.measure`
+- מדידה → יחידות מידה: `prefs:root=MEASURE#MEASURE_UNITS` or `settings-navigation://com.apple.Settings.Apps/com.apple.measure#MEASURE_UNITS#MEASURE_UNITS`
+- מדידה → אימפריאלי: `prefs:root=MEASURE#Imperial` or `settings-navigation://com.apple.Settings.Apps/com.apple.measure#Imperial#Imperial`
+- מדידה → מטרי: `prefs:root=MEASURE#Metric` or `settings-navigation://com.apple.Settings.Apps/com.apple.measure#Metric#Metric`
+- תמונת רקע: `prefs:root=Wallpaper`
+- מרכז הבקרה: `prefs:root=ControlCenter`
+- מרכז הבקרה → גישה מתוך יישומים: `prefs:root=ControlCenter#ALLOWED_WITHIN_APPS`
+- מרכז הבקרה → התאמה אישית של פקדים: `prefs:root=ControlCenter&path=CUSTOMIZE_CONTROLS`
+- תזכורות קוליות: `prefs:root=VOICE_MEMOS`
+- תזכורות קוליות → הסרת פריטים שנמחקו: `prefs:root=VOICE_MEMOS&path=RCVoiceMemosRecentlyDeletedWindowKey`
+- תזכורות קוליות → איכות השמע: `prefs:root=VOICE_MEMOS&path=RCVoiceMemosAudioQualityKey`
+- תזכורות קוליות → בחירת שם לפי מיקום: `prefs:root=VOICE_MEMOS#RCVoiceMemosUseLocationBasedNaming`
+- לוח שנה: `prefs:root=CALENDAR`
+- לוח שנה → התעלמות משעונים מקומיים: `prefs:root=CALENDAR&path=TimeZoneCityArray`
+- לוח שנה → לוחות שנה משניים: `prefs:root=CALENDAR&path=Alternate%20Calendars`
+- לוח שנה → מספרי שבועות: `prefs:root=CALENDAR#Week%20Numbers`
+- לוח שנה → הצגת סירובים של מוזמנים: `prefs:root=CALENDAR#Show%20Invitee%20Declines`
+- לוח שנה → סנכרון: `prefs:root=CALENDAR&path=Sync`
+- לוח שנה → ברירות המחדל להתראות: `prefs:root=CALENDAR&path=Default%20Alert%20Times`
+- לוח שנה → היום הראשון בשבוע: `prefs:root=CALENDAR&path=Start%20Week%20On`
+- לוח שנה → הצעות למקומות: `prefs:root=CALENDAR#Location%20Suggestions`
+- מפתחים: `prefs:root=DEVELOPER_SETTINGS`
+- מפתחים → תקשורת מרובת נתיבים: `prefs:root=DEVELOPER_SETTINGS&path=MULTI_PATH_AGG`
+- מפתחים → תקשורת מרובת נתיבים → תקשורת מרובת נתיבים: `prefs:root=DEVELOPER_SETTINGS&path=MULTI_PATH_AGG#Multipath%20Networking`
+- מפתחים → מראה: `prefs:root=DEVELOPER_SETTINGS#UIAppearanceGroup`
+- מפתחים → מראה כהה: `prefs:root=DEVELOPER_SETTINGS#UIAppearanceSettings`
+- מפתחים → מכשירים מקושרים: `prefs:root=DEVELOPER_SETTINGS#DTPairedDevicesGroup`
+- מפתחים → ניקוי המחשבים המהימנים: `prefs:root=DEVELOPER_SETTINGS#CLEAR_TRUSTED_COMPUTERS`
+- מפתחים → דו״חות: `prefs:root=DEVELOPER_SETTINGS&path=DTInstrumentsSettings`
+- מפתחים → הפעלת ממשק אוטומטי | ממשק אוטומטי: `prefs:root=DEVELOPER_SETTINGS#UIAGroup`
+- מפתחים → תקשורת: `prefs:root=DEVELOPER_SETTINGS#NLCGroup`
+- מפתחים → מתאם קישור רשת: `prefs:root=DEVELOPER_SETTINGS&path=NLC`
+- מפתחים → רשימות נוספות ביומן: `prefs:root=DEVELOPER_SETTINGS#ADDITIONAL_LOGGING`
+- מפתחים → הרשאת שימוש בשירותי HTTP: `prefs:root=DEVELOPER_SETTINGS#ALLOW_HTTP_SERVICES`
+- מפתחים → ביטול מגבלת קצב: `prefs:root=DEVELOPER_SETTINGS#DISABLE_RATE_LIMITING`
+- מפתחים → מפתח גישה אופציונלי ב-NFC: `prefs:root=DEVELOPER_SETTINGS#NFC_PASS_KEY_OPTIONAL`
+- מפתחים → בדיקת שירותי מדיה: `prefs:root=DEVELOPER_SETTINGS#MEDIA_SERVICES_TESTING`
+- מפתחים → איפוס שירותי מדיה: `prefs:root=DEVELOPER_SETTINGS#RESET_MEDIA_SERVICES`
+- מפתחים → בדיקת News: `prefs:root=DEVELOPER_SETTINGS#NEWS_TESTING`
+- מפתחים → איפוס פרטים מקומיים בהפעלה הבאה: `prefs:root=DEVELOPER_SETTINGS#RESET_LOCAL_DATA_ON_NEXT_LAUNCH`
+- מפתחים → בדיקת מסגרת נגן המדיה: `prefs:root=DEVELOPER_SETTINGS#RoutineSettingsGroup`
+- מפתחים → ‏API עם תוכן למשחקים: `prefs:root=DEVELOPER_SETTINGS&path=RoutineSettings`
+- מפתחים → ספק שירותי טלוויזיה: `prefs:root=DEVELOPER_SETTINGS&path=VideoSubscriberAccountSettings`
+- מפתחים → ClassKit API: `prefs:root=DEVELOPER_SETTINGS&path=ClassKitSettings`
+- מפתחים → בדיקת CoreSpotlight: `prefs:root=DEVELOPER_SETTINGS#CORESPOTLIGHT_TESTING`
+- מפתחים → אינדקס מחודש של כל הפריטים: `prefs:root=DEVELOPER_SETTINGS#REINDEX_ALL_ITEMS`
+- מפתחים → אינדקס מחודש של כל הפריטים עם מזהים: `prefs:root=DEVELOPER_SETTINGS#REINDEX_ALL_ITEMS_WITH_IDENTIFIERS`
+- מפתחים → בדיקת קיצורים: `prefs:root=DEVELOPER_SETTINGS#SIRI_ACTIONS_TESTING`
+- מפתחים → הצגת קיצורים אחרונים: `prefs:root=DEVELOPER_SETTINGS#DISPLAY_DONATIONS_SPOTLIGHT`
+- מפתחים → הצגת פריטי המדיה הבאים: `prefs:root=DEVELOPER_SETTINGS#DISPLAY_UPCOMING_MEDIA`
+- מפתחים → הצגת תרומות במסך הנעילה: `prefs:root=DEVELOPER_SETTINGS#DISPLAY_DONATIONS_LOCKSCREEN`
+- מפתחים → סנכרון מיידי של קיצורים לשעון: `prefs:root=DEVELOPER_SETTINGS#SIRI_ACTIONS_SYNC_WATCHOS`
+- מפתחים → בדיקת MIDI-CI: `prefs:root=DEVELOPER_SETTINGS#MIDI_CI_API_BETA`
+- מפתחים → הפעלת MIDI-CI: `prefs:root=DEVELOPER_SETTINGS#MIDI_CI_API_BETA_ENABLE`
+- מפתחים → זיהוי היתקעות: `prefs:root=DEVELOPER_SETTINGS#HANGTRACER_EXTERNAL_CONFIGURE`
+- קוד גישה | ‏Face ID וקוד גישה | ‏Touch ID וקוד גישה: `prefs:root=PASSCODE`
+- קוד גישה | ‏Face ID וקוד גישה | ‏Touch ID וקוד גישה → ביטול קוד הגישה: `prefs:root=PASSCODE#PASSCODE_OFF`
+- קוד גישה | ‏Face ID וקוד גישה | ‏Touch ID וקוד גישה → שינוי קוד הגישה: `prefs:root=PASSCODE#CHANGE_PASSCODE`
+- קוד גישה | ‏Face ID וקוד גישה | ‏Touch ID וקוד גישה → דרישת קוד גישה: `prefs:root=PASSCODE&path=PASSCODE_REQ`
+- קוד גישה | ‏Face ID וקוד גישה | ‏Touch ID וקוד גישה → חיוג קולי: `prefs:root=PASSCODE#VOICE_DIAL`
+- קוד גישה | ‏Face ID וקוד גישה | ‏Touch ID וקוד גישה → אפשרויות גישה כאשר המכשיר נעול: `prefs:root=PASSCODE#ALLOW_ACCESS_WHEN_LOCKED`
+- קוד גישה | ‏Face ID וקוד גישה | ‏Touch ID וקוד גישה → תגובה באמצעות הודעה: `prefs:root=PASSCODE#REPLY_WITH_MESSAGE_SWITCH`
+- קוד גישה | ‏Face ID וקוד גישה | ‏Touch ID וקוד גישה → בקרת ״הבית שלי״: `prefs:root=PASSCODE#HOME_CONTROL_SWITCH`
+- קוד גישה | ‏Face ID וקוד גישה | ‏Touch ID וקוד גישה → ארנק: `prefs:root=PASSCODE#WALLET_SWITCH`
+- קוד גישה | ‏Face ID וקוד גישה | ‏Touch ID וקוד גישה → חזרה לשיחות שלא נענו: `prefs:root=PASSCODE#RETURN_MISSED_CALLS_SWITCH`
+- קוד גישה | ‏Face ID וקוד גישה | ‏Touch ID וקוד גישה → מחיקת הנתונים: `prefs:root=PASSCODE#WIPE_DEVICE`
+- קוד גישה | ‏Face ID וקוד גישה | ‏Touch ID וקוד גישה → ביטול הנעילה באמצעות ה-Apple Watch: `prefs:root=PASSCODE#AUTO_UNLOCK_DEVICES_GROUP`
+- קוד גישה | ‏Face ID וקוד גישה | ‏Touch ID וקוד גישה → הגנה על מכשיר שנגנב: `prefs:root=PASSCODE#DTO_GROUP_ID`
+- טלפון: `prefs:root=Phone`
+- טלפון → המספר שלי: `prefs:root=Phone&path=My%20Number`
+- טלפון → שיחות נכנסות: `prefs:root=Phone&path=INCOMING_CALL_STYLE`
+- טלפון → הכרזה על שיחות: `prefs:root=Phone&path=ANNOUNCE_CALLS`
+- טלפון → דיווח הודעות/שיחות: `prefs:root=Phone&path=CLASSIFICATION_AND_REPORTING`
+- טלפון → תגובה באמצעות הודעת טקסט: `prefs:root=Phone&path=Respond%20with%20Text`
+- טלפון → הפניית שיחות: `prefs:root=Phone&path=Call%20Forwarding`
+- טלפון → הפניית שיחות → הפניית שיחות: `prefs:root=Phone&path=Call%20Forwarding#idMasterOnOffSwitch`
+- טלפון → שיחה ממתינה: `prefs:root=Phone&path=Call%20Waiting`
+- טלפון → הצגת המספר שלי: `prefs:root=Phone&path=Show%20My%20Caller%20ID`
+- טלפון → הצגת המספר שלי → הצגת המספר שלי: `prefs:root=Phone&path=Show%20My%20Caller%20ID/Primary`
+- טלפון → הצגת המספר שלי → הצגת המספר שלי → הצגת המספר שלי: `prefs:root=Phone&path=Show%20My%20Caller%20ID/Primary#Show%20My%20Caller%20ID`
+- טלפון → השתקת מתקשרים לא מוכרים: `prefs:root=Phone#SILENCE_CALLS`
+- טלפון → אנשי קשר חסומים: `prefs:root=Phone&path=SPECIFIER_IDENTIFIER_BLACKLIST`
+- טלפון → סיוע בחיוג: `prefs:root=Phone&path=Dial%20Assist`
+- פתקים: `prefs:root=NOTES` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes`
+- פתקים → חשבון ברירת המחדל: `prefs:root=NOTES&path=Default%20Account` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes/Default%20Account`
+- פתקים → סיסמה: `prefs:root=NOTES&path=Password` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes/Password`
+- פתקים → מיון פתקים לפי: `prefs:root=NOTES&path=Sort%20Notes%20By` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes/Sort%20Notes%20By`
+- פתקים → פתקים חדשים מתחילים ב:: `prefs:root=NOTES&path=New%20Notes%20Start%20With` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes/New%20Notes%20Start%20With`
+- פתקים → מיון פריטים שסומנו: `prefs:root=NOTES&path=Sort%20Checked%20Items` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes/Sort%20Checked%20Items`
+- פתקים → שורות ורשתות: `prefs:root=NOTES&path=Lines%20%26%20Grids` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes/Lines%20%26%20Grids`
+- פתקים → שמירה ב״תמונות״: `prefs:root=NOTES#Save%20to%20Photos` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes#Save%20to%20Photos#Save%20to%20Photos`
+- פתקים → גישה ל״פתקים״ ממסך הנעילה: `prefs:root=NOTES&path=Access%20Notes%20from%20Lock%20Screen` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes/Access%20Notes%20from%20Lock%20Screen`
+- ספרים: `prefs:root=IBOOKS`
+- ספרים → תוכן מקוון: `prefs:root=IBOOKS#BKAllowOnlineContent`
+- ספרים → מסנכרן: `prefs:root=IBOOKS#SYNCING`
+- ספרים → בקריאה כעת: `prefs:root=IBOOKS#BKLibrary.ReadingNow`
+- ספרים → iCloud Drive: `prefs:root=IBOOKS#BCSyncICloudDrive`
+- ספרים → קריאה: `prefs:root=IBOOKS#READING`
+- ספרים → יישור לשני הצדדים: `prefs:root=IBOOKS#BKFullJustification`
+- ספרים → מיקוף אוטומטי: `prefs:root=IBOOKS#BKAutoHyphenation`
+- ספרים → התקדמות משני השוליים: `prefs:root=IBOOKS#BKLeftTapTurnToNext`
+- ספרים → יעדי קריאה: `prefs:root=IBOOKS#READING_GOALS`
+- ספרים → הסרת נתוני יעדי קריאה: `prefs:root=IBOOKS#BKReadingGoalsShouldClearDataKey`
+- ספרים → מחפש: `prefs:root=IBOOKS#SEARCHING`
+- ספרים → חנות הספרים: `prefs:root=IBOOKS#BKIncludeBookStoreResultsInSearch`
+- ספרים → ספרי שמע: `prefs:root=IBOOKS#AUDIOBOOKS`
+- ספרים → דילוג קדימה: `prefs:root=IBOOKS&path=BKAudioBookSkipForward`
+- ספרים → דילוג אחורה: `prefs:root=IBOOKS&path=BKAudioBookSkipBackward`
+- ספרים → פקדים חיצוניים: `prefs:root=IBOOKS#BKRemoteSkipInsteadOfNextTrackDefaultKey`
+- ספרים → הבא/הקודם: `prefs:root=IBOOKS#Next/Previous`
+- ספרים → דילוג קדימה/אחורה: `prefs:root=IBOOKS#Skip%20Forward/Back`
+- ספרים → פרטיות: `prefs:root=IBOOKS#PRIVACY`
+- ספרים → איפוס המזהה: `prefs:root=IBOOKS#BAResetAnalyticsUserID`
+- ספרים → תודות: `prefs:root=IBOOKS&path=Acknowledgements`
+- Game Center: `prefs:root=GAMECENTER`
+- חירום SOS: `prefs:root=EMERGENCY_SOS`
+- חירום SOS → חיוג בעזרת כפתור הצד: `prefs:root=EMERGENCY_SOS#CALL_WITH_SIDE_BUTTON`
+- חירום SOS → שיחה אוטומטית: `prefs:root=EMERGENCY_SOS#AUTO_CALL`
+- חירום SOS → אנשי קשר לשעת חירום: `prefs:root=EMERGENCY_SOS#EMERGENCY_CONTACTS`
+- חירום SOS → צליל ספירה לאחור: `prefs:root=EMERGENCY_SOS#ALARM_SOUND_SWITCH`
+- תזכורות: `prefs:root=REMINDERS`
+- תזכורות → רשימת ברירת המחדל: `prefs:root=REMINDERS&path=DEFAULT_LIST`
+- תזכורות → רשימת ברירת המחדל → תזכורות: `prefs:root=REMINDERS&path=DEFAULT_LIST#preferredDefaultListID`
+- תזכורות → עדכון של ״היום״: `prefs:root=REMINDERS#todayNotificationFireTime`
+- תזכורות → הצגה כתאריך יעד שחלף: `prefs:root=REMINDERS#showRemindersAsOverdue`
+- סלולרי: `prefs:root=MOBILE_DATA_SETTINGS_ID`
+- סלולרי → אפשרויות נתונים סלולריים: `prefs:root=MOBILE_DATA_SETTINGS_ID&path=CELLULAR_DATA_OPTIONS`
+- סלולרי → אפשרויות נתונים סלולריים → מצב צריכת נתונים נמוכה: `prefs:root=MOBILE_DATA_SETTINGS_ID&path=CELLULAR_DATA_OPTIONS#Low%20Data%20Mode`
+- סלולרי → נתונים סלולריים: `prefs:root=MOBILE_DATA_SETTINGS_ID&path=SHOW_ALL`
+- רשת אלחוטית | תקשורת WLAN: `prefs:root=WIFI`
+- אנשי קשר: `prefs:root=CONTACTS`
+- אנשי קשר → ניתן לאפשר ל״אנשי קשר״ גישה ל:: `prefs:root=CONTACTS#Allow%20Contacts%20To%20Access`
+- אנשי קשר → ‏Siri: `prefs:root=CONTACTS&path=SIRI_AND_SEARCH`
+- אנשי קשר → סדר מיון: `prefs:root=CONTACTS&path=ContactsSortOrder`
+- אנשי קשר → סדר הצגה: `prefs:root=CONTACTS&path=PersonNameOrder`
+- אנשי קשר → שם מקוצר: `prefs:root=CONTACTS&path=PersonShortName`
+- אנשי קשר → שם מקוצר → שם מקוצר: `prefs:root=CONTACTS&path=PersonShortName#Short%20Name`
+- אנשי קשר → שם מקוצר → שימוש בשמות חיבה: `prefs:root=CONTACTS&path=PersonShortName#Prefer%20Nicknames`
+- אנשי קשר → הפרטים שלי: `prefs:root=CONTACTS&path=MeCard`
+- אנשי קשר → ייבוא אנשי קשר מה-SIM: `prefs:root=CONTACTS#SIMImport`
+- קיצורים: `prefs:root=SHORTCUTS`
+- קיצורים → סנכרון iCloud: `prefs:root=SHORTCUTS#WFCloudKitSyncEnabled`
+- קיצורים → סנכרון סדר הקיצורים: `prefs:root=SHORTCUTS#WFCloudKitSyncOrderEnabled`
+- קיצורים → מידע משפטי: `prefs:root=SHORTCUTS&path=Legal%20Notices`
+- סרטים | ‏TV: `prefs:root=TVAPP`
+- סרטים | ‏TV → שימוש בנתונים סלולריים לצפייה: `prefs:root=TVAPP#com.apple.videos%3AVideosUseCellularDataEnabledSetting`
+- סרטים | ‏TV → איכות הפעלה: `prefs:root=TVAPP#com.apple.videos%3APlaybackQualityGroup`
+- סרטים | ‏TV → רכישות והשכרות: `prefs:root=TVAPP&path=com.apple.videos%3APreferredPurchaseResolution`
+- סרטים | ‏TV → שיתוף ביתי: `prefs:root=TVAPP#com.apple.videos%3AHomeSharingFooter`
+- מוזיקה: `prefs:root=MUSIC`
+- מוזיקה → הצגת Apple Music: `prefs:root=MUSIC#com.apple.Music%3AAppleMusicEnabled`
+- מוזיקה → הוספת שירים מפלייליסטים: `prefs:root=MUSIC#com.apple.Music%3AAddPlaylistSongsToMyMusicSwitch`
+- מוזיקה → הצגת דירוג כוכבים: `prefs:root=MUSIC#com.apple.Music%3AShowStarRatings`
+- מוזיקה → סנכרון הספריה: `prefs:root=MUSIC#com.apple.Music%3ACloudMusicLibraryEnabled`
+- מוזיקה → נתונים סלולריים: `prefs:root=MUSIC&path=com.apple.Music%3ACellularData`
+- מוזיקה → מוזיקה שהורדת: `prefs:root=MUSIC&path=com.apple.Music%3AMusicUsageLink`
+- מוזיקה → מיטוב שטח האחסון: `prefs:root=MUSIC&path=com.apple.Music%3AOptimizeStorage`
+- מוזיקה → הורדות אוטומטיות: `prefs:root=MUSIC#com.apple.Music%3AMusicAutomaticDownload`
+- מוזיקה → אקוולייזר: `prefs:root=MUSIC&path=com.apple.Music%3AEQ`
+- מוזיקה → בדיקת צליל: `prefs:root=MUSIC#com.apple.Music%3ASoundCheck`
+- מוזיקה → שימוש בהיסטוריית ההאזנה: `prefs:root=MUSIC#com.apple.Music%3APrivateListening`
+- מצלמה: `prefs:root=CAMERA`
+- מצלמה → פורמטים: `prefs:root=CAMERA&path=CameraFormatsSettingsList`
+- מצלמה → פורמטים → ‏Apple ProRaw: `prefs:root=CAMERA&path=CameraFormatsSettingsList#CAMUserPreferenceEnableLinearDNGControl`
+- מצלמה → Record Video: `prefs:root=CAMERA&path=Record%20Video`
+- מצלמה → Record Video → וידאו HDR: `prefs:root=CAMERA&path=Record%20Video#HDR%20Video`
+- מצלמה → שימור מצב קודם: `prefs:root=CAMERA&path=CameraPreserveSettingsSwitch`
+- מצלמה → שימור מצב קודם → מצב מצלמה: `prefs:root=CAMERA&path=CameraPreserveSettingsSwitch#CAMUserPreferencePreserveCaptureMode`
+- מצלמה → רשת: `prefs:root=CAMERA#CameraGridSwitch`
+- מצלמה → סריקת קודי QR: `prefs:root=CAMERA#CameraQRBannerSwitch`
+- מצפן: `prefs:root=COMPASS`
+- מצפן → שימוש בצפון אמיתי: `prefs:root=COMPASS#USE_TRUE_NORTH`
+- עדכוני חשיפה: `prefs:root=EXPOSURE_NOTIFICATION`
+- דואר: `prefs:root=MAIL`
+- דואר → חשבונות: `prefs:root=MAIL&path=ACCOUNTS`
+- דואר → חשבונות → הוספת חשבון: `prefs:root=MAIL&path=ACCOUNTS#ADD_ACCOUNT`
+- דואר → חשבונות → משיכת נתונים חדשים: `prefs:root=MAIL&path=ACCOUNTS#FETCH_NEW_DATA`
+- דואר → תצוגה מקדימה: `prefs:root=MAIL&path=Preview`
+- דואר → הצגת תוויות אל/עותק: `prefs:root=MAIL#Show%20To/Cc%20Labels`
+- דואר → אפשרויות החלקה: `prefs:root=MAIL&path=Swipe%20Options`
+- דואר → בקשת אישור לפני מחיקה: `prefs:root=MAIL#Ask%20Before%20Deleting`
+- דואר → טעינת תמונות מרוחקות: `prefs:root=MAIL#Load%20Remote%20Images`
+- דואר → ארגון לפי שרשור: `prefs:root=MAIL#Organize%20by%20Thread`
+- דואר → כיווץ הודעות שנקראו: `prefs:root=MAIL#Collapse%20Read%20Messages`
+- דואר → ההודעה החדשה ביותר למעלה: `prefs:root=MAIL#Most%20Recent%20Message%20on%20Top`
+- דואר → שרשורים מלאים: `prefs:root=MAIL#Complete%20Threads`
+- דואר → פעולות בשרשור שהושתק: `prefs:root=MAIL&path=Muted%20Thread%20Action`
+- דואר → התעלמות משולחים חסומים: `prefs:root=MAIL#Ignore%20Blocked%20Senders`
+- דואר → אפשרויות שולחים חסומים: `prefs:root=MAIL&path=Blocked%20Sender%20Options`
+- דואר → חסום: `prefs:root=MAIL&path=Blocked`
+- דואר → שליחה קבועה של עותק נסתר אלי: `prefs:root=MAIL#Always%20Bcc%20Myself`
+- דואר → סימון כתובות: `prefs:root=MAIL&path=Mark%20Addresses`
+- דואר → רמת ציטוט גבוהה יותר: `prefs:root=MAIL&path=Increase%20Quote%20Level`
+- דואר → קבצים מצורפים בתשובות: `prefs:root=MAIL&path=Include%20Attachments%20with%20Replies`
+- דואר → חתימה: `prefs:root=MAIL&path=Signature`
+- Bluetooth: `prefs:root=Bluetooth`
+- ‏News: `prefs:root=NEWS`
+- ‏News → תצוגות מקדימות של כתבות: `prefs:root=NEWS#show_excerpt_mode`
+- ‏News → הגבלת כתבות ב״היום״: `prefs:root=NEWS#showStoriesFromFavoritesSpecifierID`
+- ‏News → פרטיות: `prefs:root=NEWS#Privacy`
+- ‏News → איפוס המזהה: `prefs:root=NEWS#reset_identifier`
+- ‏News → תודות: `prefs:root=NEWS&path=Acknowledgements`
+- תמונות: `prefs:root=Photos`
+- תמונות → תמונות iCloud: `prefs:root=Photos#iCloudPhotosSwitch`
+- תמונות → מיטוב שטח האחסון: `prefs:root=Photos#iCloudOptimizeStorageOption`
+- תמונות → הורדה ושמירה של הקבצים המקוריים: `prefs:root=Photos#iCloudKeepOriginalsOption`
+- תמונות → אלבומים משותפים: `prefs:root=Photos#SharedStreamsSwitch`
+- תמונות → נתונים סלולריים: `prefs:root=Photos&path=CellularDataLinkList`
+- תמונות → הפעלה אוטומטית של סרטונים: `prefs:root=Photos#VideoAutoplaySwitch`
+- תמונות → הצגת HDR מלא: `prefs:root=Photos#ImageModulationSwitch`
+- תמונות → הצגת אירועי חגים: `prefs:root=Photos#MEMORIES_HOLIDAY_CALENDAR_EVENTS_SWITCH`
+- תמונות → העברה ל-Mac או ל-PC: `prefs:root=Photos#TransferGroup`
+- פודקאסטים: `prefs:root=PODCASTS`
+- פרטיות ואבטחה: `prefs:root=Privacy` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity`
+- פרטיות ואבטחה → בריאות: `prefs:root=Privacy&path=HEALTH` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/HEALTH`
+- פרטיות ואבטחה → נתוני בריאות: `prefs:root=Privacy&path=HEALTH_DATA` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/HEALTH_DATA`
+- פרטיות ואבטחה → מיקום: `prefs:root=Privacy&path=LOCATION` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/LOCATION`
+- פרטיות ואבטחה → מיקום → שיתוף המיקום שלי: `prefs:root=Privacy&path=LOCATION/LOCATION_SHARING` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/LOCATION/LOCATION_SHARING`
+- פרטיות ואבטחה → אנשי קשר: `prefs:root=Privacy&path=CONTACTS` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/CONTACTS`
+- פרטיות ואבטחה → לוחות שנה: `prefs:root=Privacy&path=CALENDARS` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/CALENDARS`
+- פרטיות ואבטחה → תזכורות: `prefs:root=Privacy&path=REMINDERS` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/REMINDERS`
+- פרטיות ואבטחה → תמונות: `prefs:root=Privacy&path=PHOTOS` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/PHOTOS`
+- פרטיות ואבטחה → שיתוף ב-Bluetooth: `prefs:root=Privacy&path=BT_PERIPHERAL` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/BT_PERIPHERAL`
+- פרטיות ואבטחה → מיקרופון: `prefs:root=Privacy&path=MICROPHONE` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/MICROPHONE`
+- פרטיות ואבטחה → זיהוי דיבור: `prefs:root=Privacy&path=SPEECH_RECOGNITION` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/SPEECH_RECOGNITION`
+- פרטיות ואבטחה → מצלמה: `prefs:root=Privacy&path=CAMERA` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/CAMERA`
+- פרטיות ואבטחה → HomeKit: `prefs:root=Privacy&path=WILLOW` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/WILLOW`
+- פרטיות ואבטחה → מדיה ו-Apple Music: `prefs:root=Privacy&path=MEDIALIBRARY` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/MEDIALIBRARY`
+- פרטיות ואבטחה → נתונים: `prefs:root=Privacy&path=PROBLEM_REPORTING` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/PROBLEM_REPORTING`
+- פרטיות ואבטחה → פרסום: `prefs:root=Privacy&path=ADVERTISING` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/ADVERTISING`
+- פרטיות ואבטחה → קבצים ותיקיות: `prefs:root=Privacy&path=FILEACCESS` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/FILEACCESS`
+- פרטיות ואבטחה → מעקב: `prefs:root=Privacy&path=USER_TRACKING` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/USER_TRACKING`
+- פרטיות ואבטחה → דו״ח פרטיות ביישומים: `prefs:root=Privacy&path=PRIVACY_REPORT` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/PRIVACY_REPORT`
+- פרטיות ואבטחה → מצב נעילה: `prefs:root=Privacy#LOCKDOWN_MODE` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity#LOCKDOWN_MODE#LOCKDOWN_MODE`
+- פרטיות ואבטחה → תוכן רגיש: `prefs:root=Privacy#NUDITY_DETECTION` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity#NUDITY_DETECTION#NUDITY_DETECTION`
+- FaceTime: `prefs:root=FACETIME`
+- זמן מסך: `prefs:root=SCREEN_TIME`
+- צלילים | צלילים ורטט אינטראקטיבי: `prefs:root=Sounds`
+- צלילים | צלילים ורטט אינטראקטיבי → שימוש בטוח באוזניות: `prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING`
+- צלילים | צלילים ורטט אינטראקטיבי → שימוש בטוח באוזניות → מתאמי Lightning: `prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING/HEADPHONE_LIGHTNING_ADAPTERS`
+- צלילים | צלילים ורטט אינטראקטיבי → שימוש בטוח באוזניות → עדכוני אוזניות: `prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING#SHSHeadphoneWeeklyNotificationsKey`
+- צלילים | צלילים ורטט אינטראקטיבי → שימוש בטוח באוזניות → הנמכת שמע חזק: `prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING#SHSHeadphoneLevelLimitSwitchKey`
+- צלילים | צלילים ורטט אינטראקטיבי → אפקטים קוליים: `prefs:root=Sounds&path=SOUND_EFFECTS`
+- צלילים | צלילים ורטט אינטראקטיבי → צלצולים והתראות: `prefs:root=Sounds#RINGER_AND_ALERT_GROUP`
+- צלילים | צלילים ורטט אינטראקטיבי → שינוי באמצעות הכפתורים: `prefs:root=Sounds#CHANGE_WITH_BUTTONS`
+- צלילים | צלילים ורטט אינטראקטיבי → צלילים וסוגי רטט: `prefs:root=Sounds#SOUNDS_ALERT_GROUP`
+- צלילים | צלילים ורטט אינטראקטיבי → צלצול: `prefs:root=Sounds&path=Ringtone`
+- צלילים | צלילים ורטט אינטראקטיבי → צליל להודעות: `prefs:root=Sounds&path=Text_Messages`
+- צלילים | צלילים ורטט אינטראקטיבי → הודעה קולית חדשה: `prefs:root=Sounds&path=Voicemail`
+- צלילים | צלילים ורטט אינטראקטיבי → דוא״ל חדש: `prefs:root=Sounds&path=NEW_MAIL`
+- צלילים | צלילים ורטט אינטראקטיבי → דוא״ל שנשלח: `prefs:root=Sounds&path=SENT_MAIL`
+- צלילים | צלילים ורטט אינטראקטיבי → התראות לוח שנה: `prefs:root=Sounds&path=Calendar%20Alarm`
+- צלילים | צלילים ורטט אינטראקטיבי → התראות של תזכורות: `prefs:root=Sounds&path=Reminder%20Alerts`
+- צלילים | צלילים ורטט אינטראקטיבי → הקלדה: `prefs:root=Sounds#KEYBOARD_SOUND_SWITCH`
+- צלילים | צלילים ורטט אינטראקטיבי → צליל נעילה: `prefs:root=Sounds#LOCK_SOUND_SWITCH`
+- צלילים | צלילים ורטט אינטראקטיבי → שמע מרחבי בהתאמה אישית: `prefs:root=Sounds&path=Personalized%20Spatial%20Audio`
+- ‏Apple Pencil: `prefs:root=Pencil`
+- ‏Apple Pencil → ‏Apple Pencil: `prefs:root=Pencil#PrefersPencilDraws`
+- ‏Apple Pencil → ‏Apple Pencil: `prefs:root=Pencil#PencilTextInput`
+- הודעות: `prefs:root=MESSAGES`
+- מניות: `prefs:root=STOCKS`
+- מניות → פרטיות: `prefs:root=STOCKS#Privacy`
+- מניות → איפוס המזהה: `prefs:root=STOCKS#reset_identifier`
+- תרגום: `prefs:root=TRANSLATE`
+- תרגום → מצב לא מקוון: `prefs:root=TRANSLATE#OnDeviceOnly`
+- ‏Siri: `prefs:root=SIRI`
+- ‏Siri → שימוש ב-Siri כאשר המכשיר נעול: `prefs:root=SIRI#ASSISTANT_LOCK_SCREEN_ACCESS`
+- ‏Siri → שפה: `prefs:root=SIRI&path=LANGUAGE_ID`
+- ‏Siri → הקול של Siri: `prefs:root=SIRI&path=VOICE_ID`
+- ‏Siri → משוב קולי: `prefs:root=SIRI&path=VOICE_FEEDBACK_ID`
+- ‏Siri → הפרטים שלי: `prefs:root=SIRI&path=MY_INFO`
+- בריאות | נתוני בריאות: `prefs:root=HEALTH`
+- App Store: `prefs:root=STORE`
+- App Store → הורדות אוטומטיות: `prefs:root=STORE#Automatic%20Downloads`
+- App Store → עדכונים ליישומים: `prefs:root=STORE#App%20Updates`
+- App Store → הורדות יישומים: `prefs:root=STORE&path=App%20Downloads`
+- App Store → הפעלת סרטונים אוטומטית: `prefs:root=STORE&path=Video%20Autoplay`
+- App Store → דירוגים וביקורות בתוך היישום: `prefs:root=STORE#In-App%20Ratings%20&%20Reviews`
+- מצב טיסה: `prefs:root=ROOT#AIRPLANE_MODE`

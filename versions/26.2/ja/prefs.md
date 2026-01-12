@@ -1,0 +1,414 @@
+- バッテリー: `prefs:root=BATTERY_USAGE`
+- バッテリー → 低電力モード: `prefs:root=BATTERY_USAGE#BATTERY_SAVER_MODE`
+- バッテリー → バッテリーの状態: `prefs:root=BATTERY_USAGE#BATTERY_HEALTH_ID`
+- 一般: `prefs:root=General`
+- 一般 → VPNとデバイス管理: `prefs:root=General&path=ManagedConfigurationList`
+- 一般 → 自動入力とパスワード: `prefs:root=General&path=AUTOFILL`
+- 一般 → 自動入力とパスワード → パスワードを自動入力: `prefs:root=General&path=AUTOFILL#AUTOFILL`
+- 一般 → 自動入力とパスワード → 確認コードを消去: `prefs:root=General&path=AUTOFILL#CLEAN_UP_VERIFICATION_CODES`
+- 一般 → 自動入力とパスワード → 確認コードを設定: `prefs:root=General&path=AUTOFILL#SET_UP_VERIFICATION_CODES`
+- 一般 → AppleCareと保証: `prefs:root=General&path=COVERAGE/`
+- 一般 → 辞書: `prefs:root=General&path=DICTIONARY`
+- 一般 → キーボード: `prefs:root=General&path=Keyboard`
+- 一般 → キーボード → キーボード: `prefs:root=General&path=Keyboard/KEYBOARDS`
+- 一般 → キーボード → テキストの置き換え: `prefs:root=General&path=Keyboard/USER_DICTIONARY`
+- 一般 → キーボード → 自動大文字入力: `prefs:root=General&path=Keyboard#KeyboardAutocapitalization`
+- 一般 → キーボード → 自動修正: `prefs:root=General&path=Keyboard#KeyboardAutocorrection`
+- 一般 → キーボード → スペルチェック: `prefs:root=General&path=Keyboard#KeyboardCheckSpelling`
+- 一般 → キーボード → Caps Lockの使用: `prefs:root=General&path=Keyboard#KeyboardCapsLock`
+- 一般 → キーボード → ショートカット: `prefs:root=General&path=Keyboard#KeyboardAssistant`
+- 一般 → キーボード → 予測: `prefs:root=General&path=Keyboard#KeyboardPrediction`
+- 一般 → キーボード → スマート句読点: `prefs:root=General&path=Keyboard#SmartTyping`
+- 一般 → キーボード → キーボードを分割: `prefs:root=General&path=Keyboard#RivenKeyboard`
+- 一般 → キーボード → キーフリックを使用: `prefs:root=General&path=Keyboard#GesturesEnabled`
+- 一般 → キーボード → 文字プレビュー: `prefs:root=General&path=Keyboard#KeyboardAllowPaddle`
+- 一般 → キーボード → ピリオドの簡易入力: `prefs:root=General&path=Keyboard#KeyboardPeriodShortcut`
+- 一般 → キーボード → なぞり入力: `prefs:root=General&path=Keyboard#KeyboardContinuousPathEnabled`
+- 一般 → キーボード → 音声入力を有効にする: `prefs:root=General&path=Keyboard#Dictation`
+- 一般 → キーボード → 自動句読点: `prefs:root=General&path=Keyboard#AutoPunctuationSetting`
+- 一般 → ソフトウェアアップデート: `prefs:root=General&path=SOFTWARE_UPDATE_LINK`
+- 一般 → ソフトウェアアップデート → 自動アップデート: `prefs:root=General&path=SOFTWARE_UPDATE_LINK/SUAutomaticUpdateButton`
+- 一般 → ストレージ: `prefs:root=General&path=STORAGE_MGMT`
+- 一般 → ストレージ → ストレージ: `prefs:root=General&path=STORAGE_MGMT#MANAGE`
+- 一般 → ストレージ → 非使用のアプリを取り除く: `prefs:root=General&path=STORAGE_MGMT#OFFLOAD`
+- 一般 → ピクチャインピクチャ: `prefs:root=General&path=PiP_SPEC`
+- 一般 → トラックパッド | トラックパッドとマウス: `prefs:root=General&path=POINTERS`
+- 一般 → NFC: `prefs:root=General&path=NFC_LINK`
+- 一般 → VPN: `prefs:root=General&path=VPN`
+- 一般 → CarPlay: `prefs:root=General&path=CARPLAY`
+- 一般 → 情報: `prefs:root=General&path=About`
+- 一般 → 情報 → 信頼できる証明書: `prefs:root=General&path=About/CERT_TRUST_SETTINGS`
+- 一般 → 情報 → シリアル番号: `prefs:root=General&path=About#SerialNumber`
+- 一般 → 情報 → モデル番号: `prefs:root=General&path=About#ProductModel`
+- 一般 → 情報 → 機種名: `prefs:root=General&path=About#ProductModelName`
+- 一般 → 情報 → iOSバージョン: `prefs:root=General&path=About/SW_VERSION_SPECIFIER`
+- 一般 → 法律に基づく情報および認証: `prefs:root=General&path=LEGAL_AND_REGULATORY`
+- 一般 → 法律に基づく情報および認証 → 保証: `prefs:root=General&path=LEGAL_AND_REGULATORY#Warranty`
+- 一般 → AirDrop: `prefs:root=General&path=AIRDROP_LINK`
+- 一般 → AirDrop → デバイス同士を近づける: `prefs:root=General&path=AIRDROP_LINK#AIRDROP_NFC_ID`
+- 一般 → ホームボタン: `prefs:root=General&path=HOME_BUTTON`
+- 一般 → サイドスイッチ: `prefs:root=General#Rotation_Switch_Action_Group`
+- 一般 → アプリのバックグラウンド更新: `prefs:root=General&path=AUTO_CONTENT_DOWNLOAD`
+- 一般 → 日付と時刻: `prefs:root=General&path=DATE_AND_TIME`
+- 一般 → テレビ出力: `prefs:root=General&path=TV_OUT`
+- 一般 → リセット: `prefs:root=General&path=Reset`
+- 一般 → リセット → すべての設定をリセット: `prefs:root=General&path=Reset#settingsErase`
+- 一般 → リセット → すべてのコンテンツと設定を消去: `prefs:root=General&path=Reset#fullErase`
+- 一般 → リセット → ネットワーク設定をリセット: `prefs:root=General&path=Reset#RESET_NETWORK_LABEL`
+- 一般 → リセット → モバイルデータ通信プランをすべて削除: `prefs:root=General&path=Reset#cellularErase`
+- 一般 → リセット → 加入中のサービス: `prefs:root=General&path=Reset#SUBSCRIBER_SERVICES_ID`
+- 一般 → リセット → キーボードの変換学習をリセット: `prefs:root=General&path=Reset#RESET_KEYBOARD_DICTIONARY_LABEL`
+- 一般 → リセット → ホーム画面のレイアウトをリセット: `prefs:root=General&path=Reset#RESET_ICONS_LABEL`
+- 一般 → リセット → 位置情報とプライバシーをリセット: `prefs:root=General&path=Reset#RESET_PRIVACY_LABEL`
+- 一般 → システム終了: `prefs:root=General#SHUTDOWN_LABEL`
+- 一般 → AirPlayと連係: `prefs:root=General&path=CONTINUITY_SPEC`
+- 一般 → AirPlayと連係 → Handoff: `prefs:root=General&path=CONTINUITY_SPEC#CONTINUITY`
+- 一般 → AirPlayと連係 → HomePodに転送: `prefs:root=General&path=CONTINUITY_SPEC#TRANSFER_TO_HOMEPOD`
+- 一般 → AirPlayと連係 → 自動的にAirPlay: `prefs:root=General&path=CONTINUITY_SPEC#AUTOMATICALLY_AIRPLAY`
+- 一般 → AirPlayと連係 → 連係カメラ: `prefs:root=General&path=CONTINUITY_SPEC#WOMBAT_CAMERA`
+- 一般 → 言語と地域: `prefs:root=General&path=INTERNATIONAL`
+- 一般 → 言語と地域 → ほかの言語…: `prefs:root=General&path=INTERNATIONAL#NEW_PREFERRED_LANGUAGE`
+- 一般 → 言語と地域 → 使用する言語の優先順序: `prefs:root=General&path=INTERNATIONAL#PREFERRED_LANGUAGE_GROUP`
+- 一般 → 言語と地域 → 言語を追加…: `prefs:root=General&path=INTERNATIONAL#ADD_PREFERRED_LANGUAGE`
+- 一般 → 言語と地域 → 地域: `prefs:root=General&path=INTERNATIONAL/LOCALE`
+- 一般 → 言語と地域 → 数: `prefs:root=General&path=INTERNATIONAL/NUMBERING_SYSTEM`
+- 一般 → 言語と地域 → カレンダー: `prefs:root=General&path=INTERNATIONAL/CALENDAR`
+- 一般 → 言語と地域 → 温度単位: `prefs:root=General&path=INTERNATIONAL/TEMPERATURE_UNIT`
+- Apple Account: `prefs:root=APPLE_ACCOUNT` or `settings-navigation://com.apple.Settings.AppleAccount`
+- Apple Account → 連絡先キー確認: `prefs:root=APPLE_ACCOUNT&path=TRANSPARENCY` or `settings-navigation://com.apple.Settings.AppleAccount/TRANSPARENCY`
+- Apple Account → iCloud: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE` or `prefs:root=CASTLE`
+- Apple Account → iCloud → iCloudストレージ: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/STORAGE_AND_BACKUP` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/STORAGE_AND_BACKUP` or `prefs:root=CASTLE&path=STORAGE_AND_BACKUP`
+- Apple Account → iCloud → iCloud Drive: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Ubiquity` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Ubiquity` or `prefs:root=CASTLE&path=com.apple.Dataclass.Ubiquity`
+- Apple Account → iCloud → 写真: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.MediaStream` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.MediaStream` or `prefs:root=CASTLE&path=com.apple.Dataclass.MediaStream`
+- Apple Account → iCloud → メール: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Mail` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail` or `prefs:root=CASTLE&path=com.apple.Dataclass.Mail`
+- Apple Account → iCloud → 連絡先: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Contacts` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Contacts` or `prefs:root=CASTLE&path=com.apple.Dataclass.Contacts`
+- Apple Account → iCloud → カレンダー: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Calendars` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Calendars` or `prefs:root=CASTLE&path=com.apple.Dataclass.Calendars`
+- Apple Account → iCloud → リマインダー: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Reminders` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Reminders` or `prefs:root=CASTLE&path=com.apple.Dataclass.Reminders`
+- Apple Account → iCloud → Safari: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Bookmarks` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Bookmarks` or `prefs:root=CASTLE&path=com.apple.Dataclass.Bookmarks`
+- Apple Account → iCloud → メモ: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Notes` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Notes` or `prefs:root=CASTLE&path=com.apple.Dataclass.Notes`
+- Apple Account → iCloud → News: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.News` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.News` or `prefs:root=CASTLE&path=com.apple.Dataclass.News`
+- Apple Account → iCloud → バックアップ: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/BACKUP` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/BACKUP` or `prefs:root=CASTLE&path=BACKUP`
+- Apple Account → iCloud → ヘルスケア: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Health` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Health` or `prefs:root=CASTLE&path=com.apple.Dataclass.Health`
+- Apple Account → iCloud → パスワードとキーチェーン: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.KeychainSync` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.KeychainSync` or `prefs:root=CASTLE&path=com.apple.Dataclass.KeychainSync`
+- Apple Account → iCloud → メールを非公開: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/PRIVATE_EMAIL_MANAGE` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/PRIVATE_EMAIL_MANAGE` or `prefs:root=CASTLE&path=PRIVATE_EMAIL_MANAGE`
+- Apple Account → 位置情報を共有: `prefs:root=APPLE_ACCOUNT&path=LOCATION_SHARING` or `settings-navigation://com.apple.Settings.AppleAccount/LOCATION_SHARING`
+- Apple Account → 位置情報を共有 → 探す: `prefs:root=APPLE_ACCOUNT&path=LOCATION_SHARING/FindMyDevice-Settings` or `settings-navigation://com.apple.Settings.AppleAccount/LOCATION_SHARING/FindMyDevice-Settings`
+- Apple Account → 名前、電話番号、メール: `prefs:root=APPLE_ACCOUNT&path=APPLE_ACCOUNT_CONTACT` or `settings-navigation://com.apple.Settings.AppleAccount/APPLE_ACCOUNT_CONTACT`
+- Apple Account → パスワードとセキュリティ: `prefs:root=APPLE_ACCOUNT&path=PASSWORD_AND_SECURITY` or `settings-navigation://com.apple.Settings.AppleAccount/PASSWORD_AND_SECURITY`
+- Apple Account → お支払いと配送先: `prefs:root=APPLE_ACCOUNT&path=PAYMENT_AND_SHIPPING` or `settings-navigation://com.apple.Settings.AppleAccount/PAYMENT_AND_SHIPPING`
+- Apple Account → サブスクリプション: `prefs:root=APPLE_ACCOUNT&path=SUBSCRIPTIONS` or `settings-navigation://com.apple.Settings.AppleAccount/SUBSCRIPTIONS`
+- Apple Account → ファミリー: `prefs:root=APPLE_ACCOUNT&path=Family` or `settings-navigation://com.apple.Settings.AppleAccount/Family`
+- 通知: `prefs:root=NOTIFICATIONS_ID`
+- 通知 → 時刻指定要約: `prefs:root=NOTIFICATIONS_ID&path=SCHEDULED_DELIVERY_ID`
+- 天気: `prefs:root=WEATHER`
+- フリーボード: `prefs:root=FREEFORM`
+- 集中モード: `prefs:root=DO_NOT_DISTURB`
+- 集中モード → 集中モード状況: `prefs:root=DO_NOT_DISTURB&path=status`
+- ジャーナル: `prefs:root=JOURNAL`
+- ウォレットとApple Pay: `prefs:root=PASSBOOK`
+- ウォレットとApple Pay → Apple Cash: `prefs:root=PASSBOOK#Apple%C2%A0Cash`
+- ウォレットとApple Pay → 支払い用カード: `prefs:root=PASSBOOK#SETTINGS_PAYMENT_CARDS_GROUP`
+- ウォレットとApple Pay → カードを追加: `prefs:root=PASSBOOK#Add%20Card`
+- ウォレットとApple Pay → サイドボタンをダブルクリック: `prefs:root=PASSBOOK#Double-Click%20Side%20Button`
+- ウォレットとApple Pay → 注文の追跡: `prefs:root=PASSBOOK#ORDER_TRACKING`
+- 外観モード | 画面表示と明るさ: `prefs:root=DISPLAY`
+- 外観モード | 画面表示と明るさ → 外観モード: `prefs:root=DISPLAY#DEVICE_APPEARANCE`
+- 外観モード | 画面表示と明るさ → True Tone: `prefs:root=DISPLAY#WHITE_BALANCE`
+- 外観モード | 画面表示と明るさ → Night Shift: `prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION`
+- 外観モード | 画面表示と明るさ → Night Shift → 時間指定: `prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION#SCHEDULED`
+- 外観モード | 画面表示と明るさ → Night Shift → 手動で明日まで有効にする: `prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION#MANUAL`
+- 外観モード | 画面表示と明るさ → Night Shift → 色温度: `prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION#COLOR_TEMPERATURE`
+- 外観モード | 画面表示と明るさ → 自動ロック: `prefs:root=DISPLAY&path=AUTOLOCK`
+- 外観モード | 画面表示と明るさ → 手前に傾けてスリープ解除: `prefs:root=DISPLAY#RAISE_TO_WAKE`
+- 外観モード | 画面表示と明るさ → ロック/ロック解除: `prefs:root=DISPLAY#SMART_CASE_LOCK_SPEC`
+- 外観モード | 画面表示と明るさ → テキストサイズを変更: `prefs:root=DISPLAY&path=TEXT_SIZE`
+- 外観モード | 画面表示と明るさ → 文字を太くする: `prefs:root=DISPLAY#BOLD_TEXT`
+- 外観モード | 画面表示と明るさ → 明るさ: `prefs:root=DISPLAY#BRIGHTNESS`
+- 外観モード | 画面表示と明るさ → 拡大表示: `prefs:root=DISPLAY#DISPLAY_ZOOM_GROUP`
+- 外観モード | 画面表示と明るさ → 外観モード: `prefs:root=DISPLAY&path=APPEARANCE`
+- 外観モード | 画面表示と明るさ → 外観モード → ウインドウズーム: `prefs:root=DISPLAY&path=APPEARANCE#WINDOW_ZOOM`
+- 外観モード | 画面表示と明るさ → 外観モード → 両手でウインドウズーム: `prefs:root=DISPLAY&path=APPEARANCE#TWO_HANDED_WINDOW_ZOOM`
+- 外観モード | 画面表示と明るさ → 表示: `prefs:root=DISPLAY&path=MAGNIFY`
+- 外観モード | 画面表示と明るさ → 常に画面オン: `prefs:root=DISPLAY&path=ALWAYS_ON`
+- 外観モード | 画面表示と明るさ → 常に画面オン → 常に画面オン: `prefs:root=DISPLAY&path=ALWAYS_ON#ALWAYS_ON`
+- 外観モード | 画面表示と明るさ → 互換性のあるアプリ: `prefs:root=DISPLAY&path=COMPATIBLE_APPEARANCE`
+- 外観モード | 画面表示と明るさ → 互換性のあるアプリ → ダーク、ライト: `prefs:root=DISPLAY&path=COMPATIBLE_APPEARANCE#COMPATIBLE_APPEARANCE_CHOICES`
+- 計測: `prefs:root=MEASURE` or `settings-navigation://com.apple.Settings.Apps/com.apple.measure`
+- 計測 → 計測単位: `prefs:root=MEASURE#MEASURE_UNITS` or `settings-navigation://com.apple.Settings.Apps/com.apple.measure#MEASURE_UNITS#MEASURE_UNITS`
+- 計測 → ヤード/ポンド法: `prefs:root=MEASURE#Imperial` or `settings-navigation://com.apple.Settings.Apps/com.apple.measure#Imperial#Imperial`
+- 計測 → メートル法: `prefs:root=MEASURE#Metric` or `settings-navigation://com.apple.Settings.Apps/com.apple.measure#Metric#Metric`
+- 壁紙: `prefs:root=Wallpaper`
+- コントロールセンター: `prefs:root=ControlCenter`
+- コントロールセンター → アプリ使用中のアクセス: `prefs:root=ControlCenter#ALLOWED_WITHIN_APPS`
+- コントロールセンター → コントロールをカスタマイズ: `prefs:root=ControlCenter&path=CUSTOMIZE_CONTROLS`
+- ボイスメモ: `prefs:root=VOICE_MEMOS`
+- ボイスメモ → 削除したものを消去: `prefs:root=VOICE_MEMOS&path=RCVoiceMemosRecentlyDeletedWindowKey`
+- ボイスメモ → オーディオの品質: `prefs:root=VOICE_MEMOS&path=RCVoiceMemosAudioQualityKey`
+- ボイスメモ → 位置情報を録音名に使用: `prefs:root=VOICE_MEMOS#RCVoiceMemosUseLocationBasedNaming`
+- カレンダー: `prefs:root=CALENDAR`
+- カレンダー → 時間帯を指定: `prefs:root=CALENDAR&path=TimeZoneCityArray`
+- カレンダー → 別の暦の表示: `prefs:root=CALENDAR&path=Alternate%20Calendars`
+- カレンダー → 週番号: `prefs:root=CALENDAR#Week%20Numbers`
+- カレンダー → 不参加者を表示: `prefs:root=CALENDAR#Show%20Invitee%20Declines`
+- カレンダー → 同期: `prefs:root=CALENDAR&path=Sync`
+- カレンダー → デフォルトの通知の時間: `prefs:root=CALENDAR&path=Default%20Alert%20Times`
+- カレンダー → 週の開始曜日: `prefs:root=CALENDAR&path=Start%20Week%20On`
+- カレンダー → 場所の提案: `prefs:root=CALENDAR#Location%20Suggestions`
+- デベロッパ: `prefs:root=DEVELOPER_SETTINGS`
+- デベロッパ → マルチパスネットワーク: `prefs:root=DEVELOPER_SETTINGS&path=MULTI_PATH_AGG`
+- デベロッパ → マルチパスネットワーク → マルチパスネットワーク: `prefs:root=DEVELOPER_SETTINGS&path=MULTI_PATH_AGG#Multipath%20Networking`
+- デベロッパ → 外観モード: `prefs:root=DEVELOPER_SETTINGS#UIAppearanceGroup`
+- デベロッパ → ダーク: `prefs:root=DEVELOPER_SETTINGS#UIAppearanceSettings`
+- デベロッパ → ペアリング済みのデバイス: `prefs:root=DEVELOPER_SETTINGS#DTPairedDevicesGroup`
+- デベロッパ → 信頼するコンピュータを消去: `prefs:root=DEVELOPER_SETTINGS#CLEAR_TRUSTED_COMPUTERS`
+- デベロッパ → ログ記録: `prefs:root=DEVELOPER_SETTINGS&path=DTInstrumentsSettings`
+- デベロッパ → UIオートメーション | UIオートメーションを有効: `prefs:root=DEVELOPER_SETTINGS#UIAGroup`
+- デベロッパ → ネットワーク: `prefs:root=DEVELOPER_SETTINGS#NLCGroup`
+- デベロッパ → ネットワークリンク調節器: `prefs:root=DEVELOPER_SETTINGS&path=NLC`
+- デベロッパ → 追加ログ記録: `prefs:root=DEVELOPER_SETTINGS#ADDITIONAL_LOGGING`
+- デベロッパ → HTTPサービスを許可: `prefs:root=DEVELOPER_SETTINGS#ALLOW_HTTP_SERVICES`
+- デベロッパ → レート制限を無効: `prefs:root=DEVELOPER_SETTINGS#DISABLE_RATE_LIMITING`
+- デベロッパ → NFCパスキー（オプション）: `prefs:root=DEVELOPER_SETTINGS#NFC_PASS_KEY_OPTIONAL`
+- デベロッパ → メディアサービステスト: `prefs:root=DEVELOPER_SETTINGS#MEDIA_SERVICES_TESTING`
+- デベロッパ → メディアサービスをリセット: `prefs:root=DEVELOPER_SETTINGS#RESET_MEDIA_SERVICES`
+- デベロッパ → Newsテスト: `prefs:root=DEVELOPER_SETTINGS#NEWS_TESTING`
+- デベロッパ → 次回起動時にローカルデータをリセット: `prefs:root=DEVELOPER_SETTINGS#RESET_LOCAL_DATA_ON_NEXT_LAUNCH`
+- デベロッパ → Media Player Frameworkテスト: `prefs:root=DEVELOPER_SETTINGS#RoutineSettingsGroup`
+- デベロッパ → 再生可能コンテンツAPI: `prefs:root=DEVELOPER_SETTINGS&path=RoutineSettings`
+- デベロッパ → TVプロバイダ: `prefs:root=DEVELOPER_SETTINGS&path=VideoSubscriberAccountSettings`
+- デベロッパ → ClassKit API: `prefs:root=DEVELOPER_SETTINGS&path=ClassKitSettings`
+- デベロッパ → CoreSpotlightテスト: `prefs:root=DEVELOPER_SETTINGS#CORESPOTLIGHT_TESTING`
+- デベロッパ → 全項目を再インデックス: `prefs:root=DEVELOPER_SETTINGS#REINDEX_ALL_ITEMS`
+- デベロッパ → 識別子を使用して全項目を再インデックス: `prefs:root=DEVELOPER_SETTINGS#REINDEX_ALL_ITEMS_WITH_IDENTIFIERS`
+- デベロッパ → ショートカットテスト: `prefs:root=DEVELOPER_SETTINGS#SIRI_ACTIONS_TESTING`
+- デベロッパ → 最近使ったショートカットを表示: `prefs:root=DEVELOPER_SETTINGS#DISPLAY_DONATIONS_SPOTLIGHT`
+- デベロッパ → 次のメディアを表示: `prefs:root=DEVELOPER_SETTINGS#DISPLAY_UPCOMING_MEDIA`
+- デベロッパ → ロック画面にドネーションを表示: `prefs:root=DEVELOPER_SETTINGS#DISPLAY_DONATIONS_LOCKSCREEN`
+- デベロッパ → ショートカットをWatchに強制同期: `prefs:root=DEVELOPER_SETTINGS#SIRI_ACTIONS_SYNC_WATCHOS`
+- デベロッパ → MIDI-CIテスト: `prefs:root=DEVELOPER_SETTINGS#MIDI_CI_API_BETA`
+- デベロッパ → MIDI-CIを有効: `prefs:root=DEVELOPER_SETTINGS#MIDI_CI_API_BETA_ENABLE`
+- デベロッパ → ハング検出: `prefs:root=DEVELOPER_SETTINGS#HANGTRACER_EXTERNAL_CONFIGURE`
+- Face IDとパスコード | Touch IDとパスコード | パスコード: `prefs:root=PASSCODE`
+- Face IDとパスコード | Touch IDとパスコード | パスコード → パスコードをオフにする: `prefs:root=PASSCODE#PASSCODE_OFF`
+- Face IDとパスコード | Touch IDとパスコード | パスコード → パスコードを変更: `prefs:root=PASSCODE#CHANGE_PASSCODE`
+- Face IDとパスコード | Touch IDとパスコード | パスコード → パスコードが必要: `prefs:root=PASSCODE&path=PASSCODE_REQ`
+- Face IDとパスコード | Touch IDとパスコード | パスコード → 音声ダイヤル: `prefs:root=PASSCODE#VOICE_DIAL`
+- Face IDとパスコード | Touch IDとパスコード | パスコード → ロック中にアクセスを許可: `prefs:root=PASSCODE#ALLOW_ACCESS_WHEN_LOCKED`
+- Face IDとパスコード | Touch IDとパスコード | パスコード → メッセージで返信: `prefs:root=PASSCODE#REPLY_WITH_MESSAGE_SWITCH`
+- Face IDとパスコード | Touch IDとパスコード | パスコード → ホームコントロール: `prefs:root=PASSCODE#HOME_CONTROL_SWITCH`
+- Face IDとパスコード | Touch IDとパスコード | パスコード → ウォレット: `prefs:root=PASSCODE#WALLET_SWITCH`
+- Face IDとパスコード | Touch IDとパスコード | パスコード → 不在着信にかけ直す: `prefs:root=PASSCODE#RETURN_MISSED_CALLS_SWITCH`
+- Face IDとパスコード | Touch IDとパスコード | パスコード → データを消去: `prefs:root=PASSCODE#WIPE_DEVICE`
+- Face IDとパスコード | Touch IDとパスコード | パスコード → Apple Watchでロック解除: `prefs:root=PASSCODE#AUTO_UNLOCK_DEVICES_GROUP`
+- Face IDとパスコード | Touch IDとパスコード | パスコード → 盗難デバイスの保護: `prefs:root=PASSCODE#DTO_GROUP_ID`
+- 電話: `prefs:root=Phone`
+- 電話 → 自分の番号: `prefs:root=Phone&path=My%20Number`
+- 電話 → 着信: `prefs:root=Phone&path=INCOMING_CALL_STYLE`
+- 電話 → 音声で着信を知らせる: `prefs:root=Phone&path=ANNOUNCE_CALLS`
+- 電話 → SMS/通話の報告: `prefs:root=Phone&path=CLASSIFICATION_AND_REPORTING`
+- 電話 → テキストメッセージで返信: `prefs:root=Phone&path=Respond%20with%20Text`
+- 電話 → 自動電話転送: `prefs:root=Phone&path=Call%20Forwarding`
+- 電話 → 自動電話転送 → 自動電話転送: `prefs:root=Phone&path=Call%20Forwarding#idMasterOnOffSwitch`
+- 電話 → 割込通話: `prefs:root=Phone&path=Call%20Waiting`
+- 電話 → 発信者番号通知: `prefs:root=Phone&path=Show%20My%20Caller%20ID`
+- 電話 → 発信者番号通知 → 発信者番号通知: `prefs:root=Phone&path=Show%20My%20Caller%20ID/Primary`
+- 電話 → 発信者番号通知 → 発信者番号通知 → 発信者番号通知: `prefs:root=Phone&path=Show%20My%20Caller%20ID/Primary#Show%20My%20Caller%20ID`
+- 電話 → 不明な発信者を消音: `prefs:root=Phone#SILENCE_CALLS`
+- 電話 → 着信拒否した連絡先: `prefs:root=Phone&path=SPECIFIER_IDENTIFIER_BLACKLIST`
+- 電話 → ダイヤルアシスト: `prefs:root=Phone&path=Dial%20Assist`
+- メモ: `prefs:root=NOTES` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes`
+- メモ → デフォルトアカウント: `prefs:root=NOTES&path=Default%20Account` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes/Default%20Account`
+- メモ → パスワード: `prefs:root=NOTES&path=Password` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes/Password`
+- メモ → メモの表示順序: `prefs:root=NOTES&path=Sort%20Notes%20By` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes/Sort%20Notes%20By`
+- メモ → 新規メモ開始スタイル: `prefs:root=NOTES&path=New%20Notes%20Start%20With` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes/New%20Notes%20Start%20With`
+- メモ → チェックした項目を並べ替え: `prefs:root=NOTES&path=Sort%20Checked%20Items` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes/Sort%20Checked%20Items`
+- メモ → 罫線と方眼: `prefs:root=NOTES&path=Lines%20%26%20Grids` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes/Lines%20%26%20Grids`
+- メモ → “写真”に保存: `prefs:root=NOTES#Save%20to%20Photos` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes#Save%20to%20Photos#Save%20to%20Photos`
+- メモ → ロック画面からメモにアクセス: `prefs:root=NOTES&path=Access%20Notes%20from%20Lock%20Screen` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes/Access%20Notes%20from%20Lock%20Screen`
+- ブック: `prefs:root=IBOOKS`
+- ブック → オンラインコンテンツ: `prefs:root=IBOOKS#BKAllowOnlineContent`
+- ブック → 同期: `prefs:root=IBOOKS#SYNCING`
+- ブック → 今すぐ読む: `prefs:root=IBOOKS#BKLibrary.ReadingNow`
+- ブック → iCloud Drive: `prefs:root=IBOOKS#BCSyncICloudDrive`
+- ブック → 読書: `prefs:root=IBOOKS#READING`
+- ブック → 両端揃え: `prefs:root=IBOOKS#BKFullJustification`
+- ブック → 自動行末ハイフン処理: `prefs:root=IBOOKS#BKAutoHyphenation`
+- ブック → 両方の余白で進む: `prefs:root=IBOOKS#BKLeftTapTurnToNext`
+- ブック → 読書目標: `prefs:root=IBOOKS#READING_GOALS`
+- ブック → 読書目標のデータを消去: `prefs:root=IBOOKS#BKReadingGoalsShouldClearDataKey`
+- ブック → 検索: `prefs:root=IBOOKS#SEARCHING`
+- ブック → ブックストア: `prefs:root=IBOOKS#BKIncludeBookStoreResultsInSearch`
+- ブック → オーディオブック: `prefs:root=IBOOKS#AUDIOBOOKS`
+- ブック → 順方向にスキップ: `prefs:root=IBOOKS&path=BKAudioBookSkipForward`
+- ブック → 逆方向にスキップ: `prefs:root=IBOOKS&path=BKAudioBookSkipBackward`
+- ブック → 外部コントロール: `prefs:root=IBOOKS#BKRemoteSkipInsteadOfNextTrackDefaultKey`
+- ブック → 次/前: `prefs:root=IBOOKS#Next/Previous`
+- ブック → スキップして進む/戻る: `prefs:root=IBOOKS#Skip%20Forward/Back`
+- ブック → プライバシー: `prefs:root=IBOOKS#PRIVACY`
+- ブック → 識別子をリセット: `prefs:root=IBOOKS#BAResetAnalyticsUserID`
+- ブック → 謝辞: `prefs:root=IBOOKS&path=Acknowledgements`
+- Game Center: `prefs:root=GAMECENTER`
+- 緊急SOS: `prefs:root=EMERGENCY_SOS`
+- 緊急SOS → サイドボタンで通報: `prefs:root=EMERGENCY_SOS#CALL_WITH_SIDE_BUTTON`
+- 緊急SOS → 自動通報: `prefs:root=EMERGENCY_SOS#AUTO_CALL`
+- 緊急SOS → 緊急連絡先: `prefs:root=EMERGENCY_SOS#EMERGENCY_CONTACTS`
+- 緊急SOS → カウントダウンで音を出す: `prefs:root=EMERGENCY_SOS#ALARM_SOUND_SWITCH`
+- リマインダー: `prefs:root=REMINDERS`
+- リマインダー → デフォルトのリスト: `prefs:root=REMINDERS&path=DEFAULT_LIST`
+- リマインダー → デフォルトのリスト → リマインダー: `prefs:root=REMINDERS&path=DEFAULT_LIST#preferredDefaultListID`
+- リマインダー → 今日の通知: `prefs:root=REMINDERS#todayNotificationFireTime`
+- リマインダー → 期限超過として表示: `prefs:root=REMINDERS#showRemindersAsOverdue`
+- モバイル通信: `prefs:root=MOBILE_DATA_SETTINGS_ID`
+- モバイル通信 → モバイルデータ通信のオプション: `prefs:root=MOBILE_DATA_SETTINGS_ID&path=CELLULAR_DATA_OPTIONS`
+- モバイル通信 → モバイルデータ通信のオプション → 省データモード: `prefs:root=MOBILE_DATA_SETTINGS_ID&path=CELLULAR_DATA_OPTIONS#Low%20Data%20Mode`
+- モバイル通信 → モバイルデータ通信: `prefs:root=MOBILE_DATA_SETTINGS_ID&path=SHOW_ALL`
+- WLAN | Wi-Fi: `prefs:root=WIFI`
+- 連絡先: `prefs:root=CONTACTS`
+- 連絡先 → “連絡先”にアクセスを許可: `prefs:root=CONTACTS#Allow%20Contacts%20To%20Access`
+- 連絡先 → Siri: `prefs:root=CONTACTS&path=SIRI_AND_SEARCH`
+- 連絡先 → 並べ替え順序: `prefs:root=CONTACTS&path=ContactsSortOrder`
+- 連絡先 → 表示順序: `prefs:root=CONTACTS&path=PersonNameOrder`
+- 連絡先 → 略称: `prefs:root=CONTACTS&path=PersonShortName`
+- 連絡先 → 略称 → 略称: `prefs:root=CONTACTS&path=PersonShortName#Short%20Name`
+- 連絡先 → 略称 → ニックネームを優先: `prefs:root=CONTACTS&path=PersonShortName#Prefer%20Nicknames`
+- 連絡先 → 自分の情報: `prefs:root=CONTACTS&path=MeCard`
+- 連絡先 → SIMの連絡先を読み込む: `prefs:root=CONTACTS#SIMImport`
+- ショートカット: `prefs:root=SHORTCUTS`
+- ショートカット → iCloud同期: `prefs:root=SHORTCUTS#WFCloudKitSyncEnabled`
+- ショートカット → ショートカットの順序を同期: `prefs:root=SHORTCUTS#WFCloudKitSyncOrderEnabled`
+- ショートカット → 法律に基づく情報: `prefs:root=SHORTCUTS&path=Legal%20Notices`
+- TV | ビデオ: `prefs:root=TVAPP`
+- TV | ビデオ → 再生にモバイルデータ通信を使用: `prefs:root=TVAPP#com.apple.videos%3AVideosUseCellularDataEnabledSetting`
+- TV | ビデオ → 再生画質: `prefs:root=TVAPP#com.apple.videos%3APlaybackQualityGroup`
+- TV | ビデオ → 購入とレンタル: `prefs:root=TVAPP&path=com.apple.videos%3APreferredPurchaseResolution`
+- TV | ビデオ → ホームシェアリング: `prefs:root=TVAPP#com.apple.videos%3AHomeSharingFooter`
+- ミュージック: `prefs:root=MUSIC`
+- ミュージック → Apple Musicを表示: `prefs:root=MUSIC#com.apple.Music%3AAppleMusicEnabled`
+- ミュージック → プレイリストの曲を追加: `prefs:root=MUSIC#com.apple.Music%3AAddPlaylistSongsToMyMusicSwitch`
+- ミュージック → 星印の評価を表示: `prefs:root=MUSIC#com.apple.Music%3AShowStarRatings`
+- ミュージック → ライブラリを同期: `prefs:root=MUSIC#com.apple.Music%3ACloudMusicLibraryEnabled`
+- ミュージック → モバイルデータ通信: `prefs:root=MUSIC&path=com.apple.Music%3ACellularData`
+- ミュージック → ダウンロード済み: `prefs:root=MUSIC&path=com.apple.Music%3AMusicUsageLink`
+- ミュージック → ストレージを最適化: `prefs:root=MUSIC&path=com.apple.Music%3AOptimizeStorage`
+- ミュージック → 自動ダウンロード: `prefs:root=MUSIC#com.apple.Music%3AMusicAutomaticDownload`
+- ミュージック → EQ: `prefs:root=MUSIC&path=com.apple.Music%3AEQ`
+- ミュージック → 音量を自動調整: `prefs:root=MUSIC#com.apple.Music%3ASoundCheck`
+- ミュージック → 視聴履歴を使用: `prefs:root=MUSIC#com.apple.Music%3APrivateListening`
+- カメラ: `prefs:root=CAMERA`
+- カメラ → フォーマット: `prefs:root=CAMERA&path=CameraFormatsSettingsList`
+- カメラ → フォーマット → Apple ProRaw: `prefs:root=CAMERA&path=CameraFormatsSettingsList#CAMUserPreferenceEnableLinearDNGControl`
+- カメラ → Record Video: `prefs:root=CAMERA&path=Record%20Video`
+- カメラ → Record Video → HDRビデオ: `prefs:root=CAMERA&path=Record%20Video#HDR%20Video`
+- カメラ → 設定を保持: `prefs:root=CAMERA&path=CameraPreserveSettingsSwitch`
+- カメラ → 設定を保持 → カメラモード: `prefs:root=CAMERA&path=CameraPreserveSettingsSwitch#CAMUserPreferencePreserveCaptureMode`
+- カメラ → グリッド: `prefs:root=CAMERA#CameraGridSwitch`
+- カメラ → QRコードをスキャン: `prefs:root=CAMERA#CameraQRBannerSwitch`
+- コンパス: `prefs:root=COMPASS`
+- コンパス → 真北を使用: `prefs:root=COMPASS#USE_TRUE_NORTH`
+- 接触通知: `prefs:root=EXPOSURE_NOTIFICATION`
+- メール: `prefs:root=MAIL`
+- メール → アカウント: `prefs:root=MAIL&path=ACCOUNTS`
+- メール → アカウント → アカウントを追加: `prefs:root=MAIL&path=ACCOUNTS#ADD_ACCOUNT`
+- メール → アカウント → データの取得方法: `prefs:root=MAIL&path=ACCOUNTS#FETCH_NEW_DATA`
+- メール → プレビュー: `prefs:root=MAIL&path=Preview`
+- メール → TO/CCラベルを表示: `prefs:root=MAIL#Show%20To/Cc%20Labels`
+- メール → スワイプオプション: `prefs:root=MAIL&path=Swipe%20Options`
+- メール → 削除前に確認: `prefs:root=MAIL#Ask%20Before%20Deleting`
+- メール → サーバ上の画像を読み込む: `prefs:root=MAIL#Load%20Remote%20Images`
+- メール → スレッドにまとめる: `prefs:root=MAIL#Organize%20by%20Thread`
+- メール → 開封メッセージを閉じる: `prefs:root=MAIL#Collapse%20Read%20Messages`
+- メール → 最新のメッセージを一番上へ: `prefs:root=MAIL#Most%20Recent%20Message%20on%20Top`
+- メール → スレッドを全部そろえる: `prefs:root=MAIL#Complete%20Threads`
+- メール → ミュートしたスレッドの操作: `prefs:root=MAIL&path=Muted%20Thread%20Action`
+- メール → 受信拒否の送信者を無視: `prefs:root=MAIL#Ignore%20Blocked%20Senders`
+- メール → 受信拒否差出人オプション: `prefs:root=MAIL&path=Blocked%20Sender%20Options`
+- メール → 受信拒否設定: `prefs:root=MAIL&path=Blocked`
+- メール → 常にBccに自分を追加: `prefs:root=MAIL#Always%20Bcc%20Myself`
+- メール → アドレスをマーク: `prefs:root=MAIL&path=Mark%20Addresses`
+- メール → 引用マークを増やす: `prefs:root=MAIL&path=Increase%20Quote%20Level`
+- メール → 返信に添付ファイルを含める: `prefs:root=MAIL&path=Include%20Attachments%20with%20Replies`
+- メール → 署名: `prefs:root=MAIL&path=Signature`
+- Bluetooth: `prefs:root=Bluetooth`
+- News: `prefs:root=NEWS`
+- News → 記事のプレビューを表示: `prefs:root=NEWS#show_excerpt_mode`
+- News → Todayの記事を制限: `prefs:root=NEWS#showStoriesFromFavoritesSpecifierID`
+- News → プライバシー: `prefs:root=NEWS#Privacy`
+- News → 識別子をリセット: `prefs:root=NEWS#reset_identifier`
+- News → 謝辞: `prefs:root=NEWS&path=Acknowledgements`
+- 写真: `prefs:root=Photos`
+- 写真 → iCloud写真: `prefs:root=Photos#iCloudPhotosSwitch`
+- 写真 → ストレージを最適化: `prefs:root=Photos#iCloudOptimizeStorageOption`
+- 写真 → オリジナルをダウンロード: `prefs:root=Photos#iCloudKeepOriginalsOption`
+- 写真 → 共有アルバム: `prefs:root=Photos#SharedStreamsSwitch`
+- 写真 → モバイルデータ通信: `prefs:root=Photos&path=CellularDataLinkList`
+- 写真 → ビデオを自動再生: `prefs:root=Photos#VideoAutoplaySwitch`
+- 写真 → フルHDRで表示: `prefs:root=Photos#ImageModulationSwitch`
+- 写真 → 祝日イベントを表示: `prefs:root=Photos#MEMORIES_HOLIDAY_CALENDAR_EVENTS_SWITCH`
+- 写真 → MacまたはPCに転送: `prefs:root=Photos#TransferGroup`
+- ポッドキャスト: `prefs:root=PODCASTS`
+- プライバシーとセキュリティ: `prefs:root=Privacy` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity`
+- プライバシーとセキュリティ → ヘルスケア: `prefs:root=Privacy&path=HEALTH` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/HEALTH`
+- プライバシーとセキュリティ → ヘルスケアデータ: `prefs:root=Privacy&path=HEALTH_DATA` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/HEALTH_DATA`
+- プライバシーとセキュリティ → 位置情報: `prefs:root=Privacy&path=LOCATION` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/LOCATION`
+- プライバシーとセキュリティ → 位置情報 → 位置情報を共有: `prefs:root=Privacy&path=LOCATION/LOCATION_SHARING` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/LOCATION/LOCATION_SHARING`
+- プライバシーとセキュリティ → 連絡先: `prefs:root=Privacy&path=CONTACTS` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/CONTACTS`
+- プライバシーとセキュリティ → カレンダー: `prefs:root=Privacy&path=CALENDARS` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/CALENDARS`
+- プライバシーとセキュリティ → リマインダー: `prefs:root=Privacy&path=REMINDERS` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/REMINDERS`
+- プライバシーとセキュリティ → 写真: `prefs:root=Privacy&path=PHOTOS` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/PHOTOS`
+- プライバシーとセキュリティ → Bluetooth共有: `prefs:root=Privacy&path=BT_PERIPHERAL` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/BT_PERIPHERAL`
+- プライバシーとセキュリティ → マイク: `prefs:root=Privacy&path=MICROPHONE` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/MICROPHONE`
+- プライバシーとセキュリティ → 音声認識: `prefs:root=Privacy&path=SPEECH_RECOGNITION` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/SPEECH_RECOGNITION`
+- プライバシーとセキュリティ → カメラ: `prefs:root=Privacy&path=CAMERA` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/CAMERA`
+- プライバシーとセキュリティ → HomeKit: `prefs:root=Privacy&path=WILLOW` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/WILLOW`
+- プライバシーとセキュリティ → メディアとApple Music: `prefs:root=Privacy&path=MEDIALIBRARY` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/MEDIALIBRARY`
+- プライバシーとセキュリティ → 解析: `prefs:root=Privacy&path=PROBLEM_REPORTING` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/PROBLEM_REPORTING`
+- プライバシーとセキュリティ → 広告: `prefs:root=Privacy&path=ADVERTISING` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/ADVERTISING`
+- プライバシーとセキュリティ → ファイルとフォルダ: `prefs:root=Privacy&path=FILEACCESS` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/FILEACCESS`
+- プライバシーとセキュリティ → トラッキング: `prefs:root=Privacy&path=USER_TRACKING` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/USER_TRACKING`
+- プライバシーとセキュリティ → アプリプライバシーレポート: `prefs:root=Privacy&path=PRIVACY_REPORT` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/PRIVACY_REPORT`
+- プライバシーとセキュリティ → ロックダウンモード: `prefs:root=Privacy#LOCKDOWN_MODE` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity#LOCKDOWN_MODE#LOCKDOWN_MODE`
+- プライバシーとセキュリティ → センシティブな内容: `prefs:root=Privacy#NUDITY_DETECTION` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity#NUDITY_DETECTION#NUDITY_DETECTION`
+- FaceTime: `prefs:root=FACETIME`
+- スクリーンタイム: `prefs:root=SCREEN_TIME`
+- サウンド | サウンドと触覚: `prefs:root=Sounds`
+- サウンド | サウンドと触覚 → ヘッドフォンの安全性: `prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING`
+- サウンド | サウンドと触覚 → ヘッドフォンの安全性 → Lightningアダプタ: `prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING/HEADPHONE_LIGHTNING_ADAPTERS`
+- サウンド | サウンドと触覚 → ヘッドフォンの安全性 → ヘッドフォン通知: `prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING#SHSHeadphoneWeeklyNotificationsKey`
+- サウンド | サウンドと触覚 → ヘッドフォンの安全性 → 大きな音量を低減: `prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING#SHSHeadphoneLevelLimitSwitchKey`
+- サウンド | サウンドと触覚 → サウンドエフェクト: `prefs:root=Sounds&path=SOUND_EFFECTS`
+- サウンド | サウンドと触覚 → 着信音と通知音: `prefs:root=Sounds#RINGER_AND_ALERT_GROUP`
+- サウンド | サウンドと触覚 → ボタンで変更: `prefs:root=Sounds#CHANGE_WITH_BUTTONS`
+- サウンド | サウンドと触覚 → サウンドとバイブレーションのパターン: `prefs:root=Sounds#SOUNDS_ALERT_GROUP`
+- サウンド | サウンドと触覚 → 着信音: `prefs:root=Sounds&path=Ringtone`
+- サウンド | サウンドと触覚 → メッセージ: `prefs:root=Sounds&path=Text_Messages`
+- サウンド | サウンドと触覚 → 新着留守番電話: `prefs:root=Sounds&path=Voicemail`
+- サウンド | サウンドと触覚 → 新着メール: `prefs:root=Sounds&path=NEW_MAIL`
+- サウンド | サウンドと触覚 → メール送信: `prefs:root=Sounds&path=SENT_MAIL`
+- サウンド | サウンドと触覚 → カレンダーの通知音: `prefs:root=Sounds&path=Calendar%20Alarm`
+- サウンド | サウンドと触覚 → リマインダーの通知音: `prefs:root=Sounds&path=Reminder%20Alerts`
+- サウンド | サウンドと触覚 → キーボードのクリック: `prefs:root=Sounds#KEYBOARD_SOUND_SWITCH`
+- サウンド | サウンドと触覚 → ロック時の音: `prefs:root=Sounds#LOCK_SOUND_SWITCH`
+- サウンド | サウンドと触覚 → パーソナライズされた空間オーディオ: `prefs:root=Sounds&path=Personalized%20Spatial%20Audio`
+- Apple Pencil: `prefs:root=Pencil`
+- Apple Pencil → Apple Pencil: `prefs:root=Pencil#PrefersPencilDraws`
+- Apple Pencil → Apple Pencil: `prefs:root=Pencil#PencilTextInput`
+- メッセージ: `prefs:root=MESSAGES`
+- 株価: `prefs:root=STOCKS`
+- 株価 → プライバシー: `prefs:root=STOCKS#Privacy`
+- 株価 → 識別子をリセット: `prefs:root=STOCKS#reset_identifier`
+- 翻訳: `prefs:root=TRANSLATE`
+- 翻訳 → オンデバイスモード: `prefs:root=TRANSLATE#OnDeviceOnly`
+- Siri: `prefs:root=SIRI`
+- Siri → ロック中にSiriを許可: `prefs:root=SIRI#ASSISTANT_LOCK_SCREEN_ACCESS`
+- Siri → 言語: `prefs:root=SIRI&path=LANGUAGE_ID`
+- Siri → Siriの声: `prefs:root=SIRI&path=VOICE_ID`
+- Siri → 音声フィードバック: `prefs:root=SIRI&path=VOICE_FEEDBACK_ID`
+- Siri → 自分の情報: `prefs:root=SIRI&path=MY_INFO`
+- ヘルスケア | ヘルスケアデータ: `prefs:root=HEALTH`
+- App Store: `prefs:root=STORE`
+- App Store → 自動ダウンロード: `prefs:root=STORE#Automatic%20Downloads`
+- App Store → アプリのアップデート: `prefs:root=STORE#App%20Updates`
+- App Store → アプリのダウンロード: `prefs:root=STORE&path=App%20Downloads`
+- App Store → ビデオの自動再生: `prefs:root=STORE&path=Video%20Autoplay`
+- App Store → アプリ内評価とレビュー: `prefs:root=STORE#In-App%20Ratings%20&%20Reviews`
+- 機内モード: `prefs:root=ROOT#AIRPLANE_MODE`

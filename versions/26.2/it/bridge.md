@@ -1,0 +1,519 @@
+- Livelli O₂: `bridge:root=com.apple.OxygenSaturationSettings`
+- Igiene mani: `bridge:root=com.apple.BrookBridgeSettings`
+- Igiene mani → Consenti notifiche: `bridge:root=com.apple.BrookBridgeSettings#ALLOW_NOTIFICATIONS_ID`
+- Igiene mani → Invia a Centro Notifiche: `bridge:root=com.apple.BrookBridgeSettings#SEND_TO_NOTIFICATION_CENTER_ID`
+- Igiene mani → Notifiche disattivate: `bridge:root=com.apple.BrookBridgeSettings#NOTIFICATIONS_OFF_ID`
+- Igiene mani → Raggruppamento notifiche: `bridge:root=com.apple.BrookBridgeSettings&path=NOTIFICATION_COALESCING_ID`
+- Igiene mani → Timer lavaggio mani: `bridge:root=com.apple.BrookBridgeSettings#HANDWASHING_TIMER_ID`
+- Schermo e luminosità: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID`
+- Schermo e luminosità → Durata attivazione: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=WAKE_DURATION_SELECTION_KEY`
+- Schermo e luminosità → Durata attivazione → AL TOCCO: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=WAKE_DURATION_SELECTION_KEY#ON_TAP_GROUP_ID`
+- Schermo e luminosità → Durata attivazione → Attiva per 15 secondi: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=WAKE_DURATION_SELECTION_KEY#SHORT_WAKE_ID`
+- Schermo e luminosità → Durata attivazione → Attiva per 70 secondi: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=WAKE_DURATION_SELECTION_KEY#LONG_WAKE_ID`
+- Schermo e luminosità → Luminosità: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID#BRIGHTNESS_LABEL`
+- Schermo e luminosità → Sempre attivo: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID`
+- Schermo e luminosità → Sempre attivo → Sempre attivo: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID#TRITIUM_ID`
+- Schermo e luminosità → Sempre attivo → POLSO ABBASSATO: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID#TRITIUM_PRIVACY_GROUP_ID`
+- Schermo e luminosità → Sempre attivo → Mostra attività in tempo reale: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_LIVE_ACTIVITIES_ID`
+- Schermo e luminosità → Sempre attivo → Mostra attività in tempo reale → Mostra attività in tempo reale: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_LIVE_ACTIVITIES_ID#APP_BACKLIGHT_PRIVACY_GLOBAL_APP`
+- Schermo e luminosità → Sempre attivo → Mostra app: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_APPS_ID`
+- Schermo e luminosità → Sempre attivo → Mostra app → Mostra app: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_APPS_ID#APP_BACKLIGHT_PRIVACY_GLOBAL_APP`
+- Schermo e luminosità → Sempre attivo → Mostra app → APP: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_APPS_ID#APP_GROUP_ID`
+- Schermo e luminosità → Sempre attivo → Mostra app → App Store: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_APPS_ID#com.apple.AppStore`
+- Schermo e luminosità → Sempre attivo → Mostra app → Nike Run Club: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_APPS_ID#com.nike.nikeplus-gps.watchkitapp`
+- Schermo e luminosità → Sempre attivo → Mostra app → Telefono: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_APPS_ID#com.apple.NanoPhone`
+- Schermo e luminosità → Sempre attivo → Mostra app → Foto: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_APPS_ID#com.apple.NanoPhotos`
+- Schermo e luminosità → Sempre attivo → Mostra app → Impostazioni: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_APPS_ID#com.apple.NanoSettings`
+- Schermo e luminosità → Sempre attivo → Mostra app → Radar: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_APPS_ID#com.apple.NanoTapToRadar`
+- Schermo e luminosità → Sempre attivo → Mostra notifiche: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID`
+- Schermo e luminosità → Sempre attivo → Mostra notifiche → Mostra notifiche: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#APP_BACKLIGHT_PRIVACY_GLOBAL_APP`
+- Schermo e luminosità → Sempre attivo → Mostra notifiche → APP PER APPLE WATCH | APP PER IPHONE: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#APP_GROUP_ID`
+- Schermo e luminosità → Sempre attivo → Mostra notifiche → App Store: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.AppStore`
+- Schermo e luminosità → Sempre attivo → Mostra notifiche → Nike Run Club: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.nike.nikeplus-gps.watchkitapp`
+- Schermo e luminosità → Sempre attivo → Mostra notifiche → Telefono: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.NanoPhone`
+- Schermo e luminosità → Sempre attivo → Mostra notifiche → Foto: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.NanoPhotos`
+- Schermo e luminosità → Sempre attivo → Mostra notifiche → Impostazioni: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.NanoSettings`
+- Schermo e luminosità → Sempre attivo → Mostra notifiche → Radar: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.NanoTapToRadar`
+- Schermo e luminosità → Sempre attivo → Mostra notifiche → Impostazioni di accessibilità: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.accessibility.TeachableMomentsNotifications`
+- Schermo e luminosità → Sempre attivo → Mostra notifiche → Libri: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.iBooks`
+- Schermo e luminosità → Sempre attivo → Mostra notifiche → Caffè Macs: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.ist.CaffeMacsApp`
+- Schermo e luminosità → Sempre attivo → Mostra notifiche → Calendario: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.mobilecal`
+- Schermo e luminosità → Sempre attivo → Mostra notifiche → Fotocamera: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.camera`
+- Schermo e luminosità → Sempre attivo → Mostra notifiche → Connetti: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.ist.AppleConnect`
+- Schermo e luminosità → Sempre attivo → Mostra notifiche → Segnalazione Diagnosi: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.DiagnosticsReporter`
+- Schermo e luminosità → Sempre attivo → Mostra notifiche → Feedback interno: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.FeedbackInternal`
+- Schermo e luminosità → Sempre attivo → Mostra notifiche → Fitness: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.Fitness`
+- Schermo e luminosità → Sempre attivo → Mostra notifiche → Game Center: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.gamecenter`
+- Schermo e luminosità → Sempre attivo → Mostra notifiche → Salute: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.Health`
+- Schermo e luminosità → Sempre attivo → Mostra notifiche → Livability: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.Livability`
+- Schermo e luminosità → Sempre attivo → Mostra notifiche → Mail: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.mobilemail`
+- Schermo e luminosità → Sempre attivo → Mostra notifiche → Messaggi: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.MobileSMS`
+- Schermo e luminosità → Sempre attivo → Mostra notifiche → Self Service: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.jamfsoftware.selfservice`
+- Schermo e luminosità → Sempre attivo → Mostra notifiche → Notifiche di tracciamento: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.FindMySafetyAlertsNotifications`
+- Schermo e luminosità → Sempre attivo → Mostra notifiche → Meteo: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.weather`
+- Schermo e luminosità → Sempre attivo → Mostra dati complicazioni: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_COMPLICATIONS_DATA_ID`
+- Schermo e luminosità → Sempre attivo → Mostra dati complicazioni → Mostra i dati delle complicazioni: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_COMPLICATIONS_DATA_ID#Show%20Complication%20Data`
+- Schermo e luminosità → Sempre attivo → Mostra dati complicazioni → App: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_COMPLICATIONS_DATA_ID#Apps`
+- Schermo e luminosità → Sempre attivo → Mostra dati complicazioni → Carico…: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_COMPLICATIONS_DATA_ID#Loading%E2%80%A6`
+- Schermo e luminosità → Sempre attivo → Mostra dati complicazioni → Siri: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_COMPLICATIONS_DATA_ID#Siri`
+- Schermo e luminosità → Sempre attivo → Mostra dati complicazioni → Schede di Siri: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_COMPLICATIONS_DATA_ID#Siri%20Cards`
+- Schermo e luminosità → Dimensioni testo: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID#TEXT_SIZE`
+- Schermo e luminosità → Testo in grassetto: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID#BOLD_TEXT`
+- Schermo e luminosità → Attiva: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID#Wake`
+- Schermo e luminosità → Quando alzi il polso: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID#WAKE_SCREEN_ON_WRIST_RAISE_SWITCH_ID`
+- Schermo e luminosità → Attiva ruotando la Digital Crown: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID#WAKE_SCREEN_ON_CROWN_UP_SWITCH_ID`
+- Foto: `bridge:root=com.apple.NanoPhotosBridgeSettings`
+- Foto → Sincronizzazione foto: `bridge:root=com.apple.NanoPhotosBridgeSettings#Photo%20Syncing`
+- Foto → Ricordi: `bridge:root=com.apple.NanoPhotosBridgeSettings#Memories`
+- Foto → Sincronizza ricordi: `bridge:root=com.apple.NanoPhotosBridgeSettings#Sync%20Memories`
+- Foto → Foto in primo piano: `bridge:root=com.apple.NanoPhotosBridgeSettings#Featured%20Photos`
+- Foto → Sincronizza foto in primo piano: `bridge:root=com.apple.NanoPhotosBridgeSettings#Sync%20Featured%20Photos`
+- Foto → Album: `bridge:root=com.apple.NanoPhotosBridgeSettings#Album`
+- Foto → Sincronizza album: `bridge:root=com.apple.NanoPhotosBridgeSettings&path=Sync%20Album`
+- Foto → Limite foto: `bridge:root=com.apple.NanoPhotosBridgeSettings&path=Photos%20Limit`
+- Foto → Impostazioni notifiche: `bridge:root=com.apple.NanoPhotosBridgeSettings#MIRROR_RADIO_GROUP_ID`
+- Foto → Duplica iPhone: `bridge:root=com.apple.NanoPhotosBridgeSettings#MIRROR_MY_COMPANION_ID`
+- Foto → Personalizza: `bridge:root=com.apple.NanoPhotosBridgeSettings#CUSTOM_ID`
+- Complicazioni: `bridge:root=COMPLICATIONS`
+- Centro di Controllo: `bridge:root=CONTROL_CENTER_ID`
+- Centro di Controllo → Ripristina il layout di Centro di Controllo: `bridge:root=CONTROL_CENTER_ID#CONTROL_CENTER_RESET_ID`
+- Vista app: `bridge:root=APP_VIEW_ID`
+- Generali: `bridge:root=GENERAL_LINK`
+- Generali → Info: `bridge:root=GENERAL_LINK&path=ABOUT`
+- Generali → Info → Nome: `bridge:root=GENERAL_LINK&path=ABOUT/NAME_CELL_ID`
+- Generali → Info → Versione di watchOS: `bridge:root=GENERAL_LINK&path=ABOUT#OS_VERSION_CELL_ID`
+- Generali → Info → Nome modello: `bridge:root=GENERAL_LINK&path=ABOUT#DEVICE_MARKETING_NAME_CELL_ID`
+- Generali → Info → Dettagli modello: `bridge:root=GENERAL_LINK&path=ABOUT#DEVICE_DETAIL_CELL_ID`
+- Generali → Info → Numero modello: `bridge:root=GENERAL_LINK&path=ABOUT#DEVICE_MODEL_CELL_ID`
+- Generali → Info → Numero di serie: `bridge:root=GENERAL_LINK&path=ABOUT#DEVICE_SERIAL_NUMBER_CELL_ID`
+- Generali → Info → Brani: `bridge:root=GENERAL_LINK&path=ABOUT#SONGS_CELL_ID`
+- Generali → Info → Foto: `bridge:root=GENERAL_LINK&path=ABOUT#PHOTOS_CELL_ID`
+- Generali → Info → Applicazioni: `bridge:root=GENERAL_LINK&path=ABOUT#APPLICATIONS_CELL_ID`
+- Generali → Info → Capacità: `bridge:root=GENERAL_LINK&path=ABOUT#STORAGE_CAPACITY_CELL_ID`
+- Generali → Info → Disponibile: `bridge:root=GENERAL_LINK&path=ABOUT#STORAGE_AVAILABLE_CELL_ID`
+- Generali → Info → Gestore: `bridge:root=GENERAL_LINK&path=ABOUT#CARRIER_CELL_ID`
+- Generali → Info → Bluetooth: `bridge:root=GENERAL_LINK&path=ABOUT#DEVICE_BLUETOOTH_ADDRESS_CELL_ID`
+- Generali → Info → IMEI: `bridge:root=GENERAL_LINK&path=ABOUT#IMEI_CELL_ID`
+- Generali → Info → ICCID: `bridge:root=GENERAL_LINK&path=ABOUT#ICCID_CELL_ID`
+- Generali → Info → EID: `bridge:root=GENERAL_LINK&path=ABOUT/EID_CELL_ID`
+- Generali → Info → SEID: `bridge:root=GENERAL_LINK&path=ABOUT/DEVICE_SEID_CELL_ID`
+- Generali → Info → Note legali: `bridge:root=GENERAL_LINK&path=ABOUT/LEGAL_CELL_ID`
+- Generali → Info → Manuale Utente Apple Watch: `bridge:root=GENERAL_LINK&path=ABOUT#SHOW_MANUAL_CELL_ID`
+- Generali → Aggiornamento software: `bridge:root=GENERAL_LINK&path=SOFTWARE_UPDATE_LINK`
+- Generali → Installazione automatica app: `bridge:root=GENERAL_LINK#AUTO_APP_INSTALL_SWITCH_ID`
+- Generali → Modalità Aereo: `bridge:root=GENERAL_LINK&path=AIRPLANE_MODE_ID`
+- Generali → Full immersion: `bridge:root=GENERAL_LINK&path=FOCUS_ID`
+- Generali → Full immersion → Duplica iPhone: `bridge:root=GENERAL_LINK&path=FOCUS_ID#Mirror%20my%20iPhone`
+- Generali → Posizione: `bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION_ID`
+- Generali → Posizione → Posizione Apple Watch: `bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION_ID#WRIST_CHOICE_ID`
+- Generali → Posizione → Polso sinistro: `bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION_ID#LEFT_HAND_ID`
+- Generali → Posizione → Polso destro: `bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION_ID#RIGHT_HAND_ID`
+- Generali → Posizione → Digital Crown a sinistra: `bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION_ID#LISA_ON_LEFT_ID`
+- Generali → Posizione → Digital Crown a destra: `bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION_ID#LISA_ON_RIGHT_ID`
+- Generali → Apple Account: `bridge:root=GENERAL_LINK&path=LINK_WITH_ICLOUD_LINK`
+- Generali → Abilita Dettatura: `bridge:root=GENERAL_LINK#DICTATION_CELL_ID`
+- Generali → Punteggiatura automatica: `bridge:root=GENERAL_LINK#DICTATION_AUTO_PUNCTUATION_CELL_ID`
+- Generali → Abilita Handoff: `bridge:root=GENERAL_LINK#CONTINUITY_ID`
+- Generali → Modalità Notte: `bridge:root=GENERAL_LINK#NIGHTSTAND_CELL_ID`
+- Generali → Abilita screenshot: `bridge:root=GENERAL_LINK#BUTTON_CHORD_CELL_ID`
+- Generali → Batteria in riserva | Spazio | Standby | Tempo dall’ultima carica completa: `bridge:root=GENERAL_LINK&path=USAGE_LINK`
+- Generali → Profilo: `bridge:root=GENERAL_LINK&path=ManagedConfigurationList`
+- Generali → Log di diagnosi: `bridge:root=GENERAL_LINK&path=DIAGNOSTIC_LOG_BROWSER`
+- Generali → Log di diagnosi → Carico…: `bridge:root=GENERAL_LINK&path=DIAGNOSTIC_LOG_BROWSER#Loading%E2%80%A6`
+- Generali → Copia dati di analisi Apple Watch: `bridge:root=GENERAL_LINK#LOGS_CELL_ID`
+- Generali → Inizializza: `bridge:root=GENERAL_LINK&path=RESET_ID`
+- Generali → TORNA AL QUADRANTE: `bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK_ID`
+- Generali → TORNA AL QUADRANTE → TORNA AL QUADRANTE: `bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK_ID#CSLPRFReturnToClockGroupID`
+- Generali → TORNA AL QUADRANTE → Sempre: `bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK_ID#RETURN_TO_CLOCK_ALWAYS`
+- Generali → TORNA AL QUADRANTE → Dopo 2 minuti: `bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK_ID#RETURN_TO_CLOCK_AFTER_2_MINUTES`
+- Generali → TORNA AL QUADRANTE → Dopo un’ora: `bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK_ID#RETURN_TO_CLOCK_AFTER_1_HOUR`
+- Generali → TORNA AL QUADRANTE → APP: `bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK_ID#APP_GROUP_ID`
+- Generali → Aggiorna app in background: `bridge:root=GENERAL_LINK&path=BAR_ROW_ID`
+- Generali → Aggiorna app in background → Aggiorna app in background: `bridge:root=GENERAL_LINK&path=BAR_ROW_ID#BACKGROUND_APP_UPDATING_CELL_ID`
+- Generali → Lingua e zona: `bridge:root=GENERAL_LINK&path=LANGUAGE_AND_REGION_ID`
+- Generali → Lingua e zona → Duplica iPhone: `bridge:root=GENERAL_LINK&path=LANGUAGE_AND_REGION_ID#MIRROR_MY_COMPANION_ID`
+- Generali → Lingua e zona → Personalizza: `bridge:root=GENERAL_LINK&path=LANGUAGE_AND_REGION_ID#CUSTOM_ID`
+- Generali → Avvia automaticamente quando è sott’acqua: `bridge:root=GENERAL_LINK&path=AUTO_LAUNCH`
+- Generali → Apertura automatica: `bridge:root=GENERAL_LINK&path=AUTO_LAUNCH_ID`
+- Generali → Wake Screen: `bridge:root=GENERAL_LINK&path=WAKE_SCREEN`
+- Generali → Wake Screen → In riproduzione: `bridge:root=GENERAL_LINK&path=WAKE_SCREEN#AUTO_LAUNCH_MEDIA`
+- Suoni e feedback aptico: `bridge:root=SOUNDS_ID`
+- Suoni e feedback aptico → Volume avvisi: `bridge:root=SOUNDS_ID#AUDIO_SLIDER`
+- Suoni e feedback aptico → Suoneria e avvisi: `bridge:root=SOUNDS_ID#RINGTONE_AND_ALERTS_SECTION_TITLE`
+- Suoni e feedback aptico → Silenzioso: `bridge:root=SOUNDS_ID#audio_mute_switch`
+- Suoni e feedback aptico → Regola volume in automatico: `bridge:root=SOUNDS_ID#contextual_volume_switch`
+- Suoni e feedback aptico → Livello: `bridge:root=SOUNDS_ID&path=contextual_volume_profile`
+- Suoni e feedback aptico → Livello → Più forte: `bridge:root=SOUNDS_ID&path=contextual_volume_profile#CONTEXTUAL_VOLUME_PROFILE_LOUDER_ID`
+- Suoni e feedback aptico → Livello → Default: `bridge:root=SOUNDS_ID&path=contextual_volume_profile#CONTEXTUAL_VOLUME_PROFILE_DEFAULT_ID`
+- Suoni e feedback aptico → Livello → Più basso: `bridge:root=SOUNDS_ID&path=contextual_volume_profile#CONTEXTUAL_VOLUME_PROFILE_QUIETER_ID`
+- Suoni e feedback aptico → Feedback aptici: `bridge:root=SOUNDS_ID&path=HAPTICS_ID`
+- Suoni e feedback aptico → Feedback aptici → No: `bridge:root=SOUNDS_ID&path=HAPTICS_ID#OFF_ITEM_ID`
+- Suoni e feedback aptico → Feedback aptici → Default: `bridge:root=SOUNDS_ID&path=HAPTICS_ID#DEFAULT_ITEM_ID`
+- Suoni e feedback aptico → Feedback aptici → Distintivi: `bridge:root=SOUNDS_ID&path=HAPTICS_ID#PROMINENT_ITEM_ID`
+- Suoni e feedback aptico → Suoneria: `bridge:root=SOUNDS_ID&path=SOUND_AND_HAPTIC_PATTERNS_RINGTONE_ID`
+- Suoni e feedback aptico → Suoneria messaggi: `bridge:root=SOUNDS_ID&path=SOUND_AND_HAPTIC_PATTERNS_TEXTTONE_ID`
+- Suoni e feedback aptico → Nuova email: `bridge:root=SOUNDS_ID&path=SOUND_AND_HAPTIC_PATTERNS_NEWMAIL_ID`
+- Suoni e feedback aptico → Avvisi calendario: `bridge:root=SOUNDS_ID&path=SOUND_AND_HAPTIC_PATTERNS_CALENDARALERTS_ID`
+- Suoni e feedback aptico → Avvisi promemoria: `bridge:root=SOUNDS_ID&path=SOUND_AND_HAPTIC_PATTERNS_REMINDERALERTS_ID`
+- Suoni e feedback aptico → Avvisi di default: `bridge:root=SOUNDS_ID&path=SOUND_AND_HAPTIC_PATTERNS_DEFAULTALERTS_ID`
+- Suoni e feedback aptico → Audio cuffie: `bridge:root=SOUNDS_ID#HEADPHONE_AUDIO_GROUP`
+- Suoni e feedback aptico → Salute dell’udito: `bridge:root=SOUNDS_ID&path=HEADPHONE_LEVEL_LIMIT_SETTING`
+- Suoni e feedback aptico → Salute dell’udito → Notifiche cuffie: `bridge:root=SOUNDS_ID&path=HEADPHONE_LEVEL_LIMIT_SETTING#COSHeadphoneNotificationsSwitchKey`
+- Suoni e feedback aptico → Salute dell’udito → Riduci audio suoni intensi: `bridge:root=SOUNDS_ID&path=HEADPHONE_LEVEL_LIMIT_SETTING#COSHeadphoneLevelLimitSwitchKey`
+- Suoni e feedback aptico → Suoni di sistema e feedback aptici: `bridge:root=SOUNDS_ID#JACKRABBIT_GROUP_ID`
+- Suoni e feedback aptico → Feedback aptici Digital Crown: `bridge:root=SOUNDS_ID#JACKRABBIT_ID`
+- Suoni e feedback aptico → Feedback aptici di sistema: `bridge:root=SOUNDS_ID#SYSTEM_HAPTICS_ID`
+- SOS emergenze: `bridge:root=SOS_MODE_ID`
+- Privacy: `bridge:root=PRIVACY_ID`
+- Privacy → Temperatura polso: `bridge:root=PRIVACY_ID#WRIST_TEMPERATURE_SWITCH_ID`
+- Tempo di utilizzo: `bridge:root=SCREEN_TIME_ID`
+- Nike Run Club: `bridge:root=VICTORY_ROW_ID`
+- Nike Run Club → Mostra l'app su Apple Watch: `bridge:root=VICTORY_ROW_ID#SHOWS_ON_GIZMO`
+- Suggerimenti: `bridge:root=com.apple.NanoTipsBridgeSettings`
+- Suggerimenti → Consenti notifiche: `bridge:root=com.apple.NanoTipsBridgeSettings#ALLOW_NOTIFICATIONS_ID`
+- Suggerimenti → Invia a Centro Notifiche: `bridge:root=com.apple.NanoTipsBridgeSettings#SEND_TO_NOTIFICATION_CENTER_ID`
+- Suggerimenti → Notifiche disattivate: `bridge:root=com.apple.NanoTipsBridgeSettings#NOTIFICATIONS_OFF_ID`
+- Suggerimenti → Raggruppamento notifiche: `bridge:root=com.apple.NanoTipsBridgeSettings&path=NOTIFICATION_COALESCING_ID`
+- Orologio: `bridge:root=com.apple.NanoClockBridgeSettings`
+- Orologio → 24 ore: `bridge:root=com.apple.NanoClockBridgeSettings#24-Hour%20Time`
+- Orologio → Rintocchi: `bridge:root=com.apple.NanoClockBridgeSettings#Chimes`
+- Orologio → Suoni: `bridge:root=com.apple.NanoClockBridgeSettings&path=Sounds`
+- Orologio → Suoni → Campane: `bridge:root=com.apple.NanoClockBridgeSettings&path=Sounds#Bells`
+- Orologio → Suoni → Uccelli: `bridge:root=com.apple.NanoClockBridgeSettings&path=Sounds#Birds`
+- Orologio → Leggi l’ora: `bridge:root=com.apple.NanoClockBridgeSettings#Speak%20Time`
+- Orologio → In base alla modalità Silenzioso: `bridge:root=com.apple.NanoClockBridgeSettings#Control%20With%20Silent%20Mode`
+- Orologio → Leggi sempre: `bridge:root=com.apple.NanoClockBridgeSettings#Always%20Speak`
+- Orologio → Ora esatta aptica: `bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time`
+- Orologio → Ora esatta aptica → Ora esatta aptica: `bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time#Taptic%20Time`
+- Orologio → Ora esatta aptica → Cifre: `bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time#Digits`
+- Orologio → Ora esatta aptica → Concisa: `bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time#Terse`
+- Orologio → Ora esatta aptica → Codice Morse: `bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time#Morse%20Code`
+- Orologio → Duplica avvisi da iPhone: `bridge:root=com.apple.NanoClockBridgeSettings#Push%20Alerts%20from%20iPhone`
+- Orologio → Indicatore notifiche: `bridge:root=com.apple.NanoClockBridgeSettings#Notifications%20Indicator`
+- Orologio → Monogramma: `bridge:root=com.apple.NanoClockBridgeSettings&path=MONOGRAM_ID`
+- Orologio → Notifiche sui quadranti: `bridge:root=com.apple.NanoClockBridgeSettings#Watch%20Face%20Notifications`
+- Orologio → Abbreviazioni città: `bridge:root=com.apple.NanoClockBridgeSettings&path=City%20Abbreviations`
+- Orologio → Sorgenti di dati quadrante di Siri: `bridge:root=com.apple.NanoClockBridgeSettings&path=Siri%20Face%20Data%20Sources`
+- Tasto Azione: `bridge:root=ACTION_BUTTON_ID`
+- Tasto Azione → Azione | Gesti: `bridge:root=ACTION_BUTTON_ID#StingSystemSettingsActionTypeGroupID`
+- Tasto Azione → Allenamento: `bridge:root=ACTION_BUTTON_ID&path=StingSystemSettingsActionTypeItem`
+- Tasto Azione → Allenamento → Nessuno: `bridge:root=ACTION_BUTTON_ID&path=StingSystemSettingsActionTypeItem#StingSystemSettingsSelectedActionTypeItem`
+- Tasto Azione → Prima pressione: `bridge:root=ACTION_BUTTON_ID#StingSystemSettingsWorkoutGroupID`
+- Tasto Azione → Scambio rapido: `bridge:root=ACTION_BUTTON_ID&path=ShowQuickSwitch`
+- Tasto Azione → Scambio rapido → Scambio rapido: `bridge:root=ACTION_BUTTON_ID&path=ShowQuickSwitch#StingQuickSwitchToggleGroup`
+- Tasto Azione → Scambio rapido → Scambio rapido: `bridge:root=ACTION_BUTTON_ID&path=ShowQuickSwitch#Quick%20Switch`
+- Tasto Azione → Scambio rapido → App incluse: `bridge:root=ACTION_BUTTON_ID&path=ShowQuickSwitch#StingQuickSwitchAppGroup`
+- Rumore: `bridge:root=com.apple.Noise.settings`
+- Rumore → Misurazioni rumore ambientale: `bridge:root=com.apple.Noise.settings#ENABLE_MEASUREMENTS_ID`
+- Rumore → Notifiche rumore: `bridge:root=com.apple.Noise.settings#LOUD_NOTIFICATION_GROUP_ID`
+- Rumore → Soglia di rumore: `bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID`
+- Rumore → Soglia di rumore → No: `bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#OFF`
+- Rumore → Soglia di rumore → 80 decibel: `bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_80`
+- Rumore → Soglia di rumore → 85 decibel: `bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_85`
+- Rumore → Soglia di rumore → 90 decibel: `bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_90`
+- Rumore → Soglia di rumore → 95 decibel: `bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_95`
+- Rumore → Soglia di rumore → 100 decibel: `bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_100`
+- Rumore → Raggruppamento notifiche: `bridge:root=com.apple.Noise.settings&path=NOTIFICATION_COALESCING_ID`
+- Calendario: `bridge:root=com.apple.NanoCalendarBridgeSettings`
+- Calendario → NOTIFICHE: `bridge:root=com.apple.NanoCalendarBridgeSettings#MIRROR_RADIO_GROUP_ID`
+- Calendario → Duplica iPhone: `bridge:root=com.apple.NanoCalendarBridgeSettings#MIRROR_MY_COMPANION_ID`
+- Calendario → Personalizza…: `bridge:root=com.apple.NanoCalendarBridgeSettings#CUSTOM_ID`
+- Calendario → CALENDARI: `bridge:root=com.apple.NanoCalendarBridgeSettings#CALENDARS_MIRROR_RADIO_GROUP_ID`
+- Calendario → Duplica iPhone: `bridge:root=com.apple.NanoCalendarBridgeSettings#CALENDARS_MIRROR_MY_COMPANION_ID`
+- Calendario → Personalizza…: `bridge:root=com.apple.NanoCalendarBridgeSettings&path=CALENDARS_CUSTOM_ID`
+- Calendario → Prossimi eventi: `bridge:root=com.apple.NanoCalendarBridgeSettings&path=Upcoming%20Events`
+- Calendario → Inviti: `bridge:root=com.apple.NanoCalendarBridgeSettings&path=Invitations`
+- Calendario → Risposte invitati: `bridge:root=com.apple.NanoCalendarBridgeSettings&path=Invitee%20Responses`
+- Calendario → Modifiche calendario condiviso: `bridge:root=com.apple.NanoCalendarBridgeSettings&path=Shared%20Calendar%20Alerts`
+- Walkie-Talkie: `bridge:root=com.apple.tincan.settings`
+- Walkie-Talkie → Consenti notifiche: `bridge:root=com.apple.tincan.settings#ALLOW_NOTIFICATIONS_ID`
+- Walkie-Talkie → Invia a Centro Notifiche: `bridge:root=com.apple.tincan.settings#SEND_TO_NOTIFICATION_CENTER_ID`
+- Walkie-Talkie → Notifiche disattivate: `bridge:root=com.apple.tincan.settings#NOTIFICATIONS_OFF_ID`
+- Walkie-Talkie → Raggruppamento notifiche: `bridge:root=com.apple.tincan.settings&path=NOTIFICATION_COALESCING_ID`
+- Walkie-Talkie → Amici: `bridge:root=com.apple.tincan.settings#Friends`
+- Siri: `bridge:root=SIRI_WATCH_SETTINGS_ID`
+- Siri → Chiedi a Siri: `bridge:root=SIRI_WATCH_SETTINGS_ID#ASK_SIRI_GROUP_ID`
+- Siri → Rileva: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_TRIGGER_ID`
+- Siri → Rileva → “Siri” o “Ehi Siri”: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_TRIGGER_ID#HS_JS_ID`
+- Siri → Rileva → “Ehi Siri”: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_TRIGGER_ID#HEY_SIRI_ID`
+- Siri → Rileva → No: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_TRIGGER_ID#VOICE_TRIGGER_DISABLED_ID`
+- Siri → Alza per parlare: `bridge:root=SIRI_WATCH_SETTINGS_ID#RAISE_TO_SPEAK_SWITCH_ID`
+- Siri → Premi la Digital Crown: `bridge:root=SIRI_WATCH_SETTINGS_ID#DIGITAL_CROWN_SWITCH_ID`
+- Siri → Invia messaggi in automatico: `bridge:root=SIRI_WATCH_SETTINGS_ID#AUTOMATICALLY_SEND_MESSAGES_SWITCH_ID`
+- Siri → Risposte di Siri: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=SIRI_RESPONSES_ID`
+- Siri → Risposte di Siri → Mostra sempre la trascrizione dei dialoghi di Siri: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=SIRI_RESPONSES_ID#ALWAYS_SHOW_SIRI_CAPTIONS_SWITCH_ID`
+- Siri → Risposte di Siri → Mostra sempre il parlato: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=SIRI_RESPONSES_ID#ALWAYS_SHOW_SPEECH_SWITCH_ID`
+- Siri → Risposte di Siri → Volume voce: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=SIRI_RESPONSES_ID#CONSIDERATE_VOLUME_GROUP_ID`
+- Siri → Risposte di Siri → Regola volume in automatico: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=SIRI_RESPONSES_ID#CONSIDERATE_VOLUME_SWITCH_ID`
+- Siri → Risposte di Siri → Livello: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=SIRI_RESPONSES_ID/CONSIDERATE_VOLUME_PROFILE_ID`
+- Siri → Risposte di Siri → Livello → Più forte: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=SIRI_RESPONSES_ID/CONSIDERATE_VOLUME_PROFILE_ID#CONSIDERATE_VOLUME_PROFILE_LOUDER_ID`
+- Siri → Risposte di Siri → Livello → Default: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=SIRI_RESPONSES_ID/CONSIDERATE_VOLUME_PROFILE_ID#CONSIDERATE_VOLUME_PROFILE_DEFAULT_ID`
+- Siri → Risposte di Siri → Livello → Più basso: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=SIRI_RESPONSES_ID/CONSIDERATE_VOLUME_PROFILE_ID#CONSIDERATE_VOLUME_PROFILE_QUIETER_ID`
+- Siri → Feedback vocale: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_FEEDBACK_ID`
+- Siri → Feedback vocale → Sempre attivo: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_FEEDBACK_ID#VOICE_FEEDBACK_ALWAYS_ON_ID`
+- Siri → Feedback vocale → In base alla modalità Silenzioso: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_FEEDBACK_ID#VOICE_FEEDBACK_CONTROL_WITH_SILENT_MODE_ID`
+- Siri → Feedback vocale → Solo cuffie: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_FEEDBACK_ID#VOICE_FEEDBACK_HEADPHONES_ONLY_ID`
+- Siri → Volume voce: `bridge:root=SIRI_WATCH_SETTINGS_ID#VOICE_VOLUME_GROUP_ID`
+- Siri → Suggerimenti di Siri: `bridge:root=SIRI_WATCH_SETTINGS_ID#ASSISTANT_SUGGESTIONS_GROUP_ID`
+- Allenamento: `bridge:root=com.apple.SessionTrackerAppSettings`
+- Allenamento → Mostra dati obiettivo: `bridge:root=com.apple.SessionTrackerAppSettings#PRO_SETTING_ENABLED_LABEL`
+- Allenamento → Visualizzazione: `bridge:root=com.apple.SessionTrackerAppSettings&path=METRIC_VIEW_ID`
+- Allenamento → Pausa automatica: `bridge:root=com.apple.SessionTrackerAppSettings&path=AUTO_PAUSE_ID`
+- Allenamento → Pausa automatica → Pausa automatica: `bridge:root=com.apple.SessionTrackerAppSettings&path=AUTO_PAUSE_ID#WorkoutAutoPauseSwitch`
+- Allenamento → Promemoria inizio: `bridge:root=com.apple.SessionTrackerAppSettings#AUTO_START_WORKOUT_NOTIFICATIONS_ENABLED_LABEL`
+- Allenamento → Promemoria fine: `bridge:root=com.apple.SessionTrackerAppSettings#END_REMINDERS_ENABLED_LABEL`
+- Allenamento → Premi per mettere in pausa: `bridge:root=com.apple.SessionTrackerAppSettings#CHORD_PRESS_PAUSE_WORKOUT_ENABLED_LABEL`
+- Allenamento → Rileva attrezzature sportive: `bridge:root=com.apple.SessionTrackerAppSettings#NFC_ENABLED_LABEL_ID`
+- Allenamento → Vista ritmo/velocità: `bridge:root=com.apple.SessionTrackerAppSettings&path=PACE_VIEW_LABEL`
+- Allenamento → Vista ritmo/velocità → Attuale: `bridge:root=com.apple.SessionTrackerAppSettings&path=PACE_VIEW_LABEL#CURRENT_PACE_ID`
+- Allenamento → Vista ritmo/velocità → Media: `bridge:root=com.apple.SessionTrackerAppSettings&path=PACE_VIEW_LABEL#AVERAGE_PACE_ID`
+- Allenamento → Playlist allenamento: `bridge:root=com.apple.SessionTrackerAppSettings&path=MUSIC_AUTOSTART_TITLE_ID`
+- Allenamento → Playlist allenamento → Nessuna: `bridge:root=com.apple.SessionTrackerAppSettings&path=MUSIC_AUTOSTART_TITLE_ID#NONE_AUTOSTART_ID`
+- Allenamento → Playlist allenamento → Playlist: `bridge:root=com.apple.SessionTrackerAppSettings&path=MUSIC_AUTOSTART_TITLE_ID#MUSIC_PLAYLIST_GROUP_ID`
+- Allenamento → Riproduci dall’inizio: `bridge:root=com.apple.SessionTrackerAppSettings#WORKOUT_MUSIC_PLAY_FROM_BEGINNING_SETTING_ID`
+- Allenamento → Casuale: `bridge:root=com.apple.SessionTrackerAppSettings#WORKOUT_MUSIC_SHUFFLE_SETTING_ID`
+- Allenamento → Unità di misura: `bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID`
+- Allenamento → Unità di misura → Calorie: `bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#ENERGY_UNITS_CALORIES_ID`
+- Allenamento → Unità di misura → Chilocalorie: `bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#ENERGY_UNITS_KILOCALORIES_ID`
+- Allenamento → Unità di misura → Chilojoule: `bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#ENERGY_UNITS_KILOJOULES_ID`
+- Allenamento → Unità di misura → Iarde: `bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#POOL_LENGTH_YARDS_ID`
+- Allenamento → Unità di misura → Metri: `bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#POOL_LENGTH_METERS_ID`
+- Allenamento → Unità di misura → Miglia: `bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#CYCLING_WORKOUTS_MILES_ID`
+- Allenamento → Unità di misura → Chilometri: `bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#CYCLING_WORKOUTS_KILOMETERS_ID`
+- Allenamento → Unità di misura → Miglia: `bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#WALKING_AND_RUNNING_WORKOUTS_MILES_ID`
+- Allenamento → Unità di misura → Chilometri: `bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#WALKING_AND_RUNNING_WORKOUTS_KILOMETERS_ID`
+- Allenamento → Feedback vocale: `bridge:root=com.apple.SessionTrackerAppSettings#WORKOUT_VOICE_FEEDBACK_LABEL`
+- Allenamento → Passeggiamo: `bridge:root=com.apple.SessionTrackerAppSettings#GUIDED_WORKOUT_PREFETCH_FOOTER_ID`
+- Allenamento → Aggiungi nuovi allenamenti ad Apple Watch: `bridge:root=com.apple.SessionTrackerAppSettings#GUIDED_WORKOUT_PREFETCH_LABEL_ID`
+- Allenamento → Risparmio energetico: `bridge:root=com.apple.SessionTrackerAppSettings#LOW_POWER_MODE`
+- Messaggi: `bridge:root=com.apple.MessagesBridgeSettings`
+- Messaggi → Duplica iPhone: `bridge:root=com.apple.MessagesBridgeSettings#MIRROR_MY_COMPANION_ID`
+- Messaggi → Personalizza: `bridge:root=com.apple.MessagesBridgeSettings#CUSTOM_ID`
+- Messaggi → Risposte di default: `bridge:root=com.apple.MessagesBridgeSettings&path=DEFAULT_REPLIES`
+- Messaggi → Risposte di default → Risposte di default: `bridge:root=com.apple.MessagesBridgeSettings&path=DEFAULT_REPLIES#Default%20Replies`
+- Messaggi → Risposte di default → Risposte veloci: `bridge:root=com.apple.MessagesBridgeSettings&path=DEFAULT_REPLIES#Smart%20Replies`
+- Messaggi → Risposte di default → Aggiungi risposta…: `bridge:root=com.apple.MessagesBridgeSettings&path=DEFAULT_REPLIES#Add%20reply%E2%80%A6`
+- Messaggi → Ripeti avvisi: `bridge:root=com.apple.MessagesBridgeSettings&path=PLAY_ALERT_TONE`
+- Messaggi → Messaggi audio: `bridge:root=com.apple.MessagesBridgeSettings&path=AudioMessagesMode`
+- A scuola: `bridge:root=SCHOOLTIME`
+- A scuola → A scuola: `bridge:root=SCHOOLTIME#SCHEDULE_FEATURE_ACTIVE_TITLE`
+- Attiva codice | Cambia codice | Codice | Codice semplice | Disattiva codice | Inizializza dati | Rilevamento polso | Sblocca con iPhone: `bridge:root=PASSCODE_ID`
+- Attiva codice | Cambia codice | Codice | Codice semplice | Disattiva codice | Inizializza dati | Rilevamento polso | Sblocca con iPhone → Abilita codice: `bridge:root=PASSCODE_ID#TOGGLE_PASSCODE_ID`
+- Attiva codice | Cambia codice | Codice | Codice semplice | Disattiva codice | Inizializza dati | Rilevamento polso | Sblocca con iPhone → Cambia codice: `bridge:root=PASSCODE_ID#CHANGE_PASSCODE_ID`
+- Attiva codice | Cambia codice | Codice | Codice semplice | Disattiva codice | Inizializza dati | Rilevamento polso | Sblocca con iPhone → Codice semplice: `bridge:root=PASSCODE_ID#SIMPLE_PASSCODE_SWITCH_ID`
+- Attiva codice | Cambia codice | Codice | Codice semplice | Disattiva codice | Inizializza dati | Rilevamento polso | Sblocca con iPhone → Sblocca con iPhone: `bridge:root=PASSCODE_ID#AUTO_UNLOCK_SWITCH_ID`
+- Attiva codice | Cambia codice | Codice | Codice semplice | Disattiva codice | Inizializza dati | Rilevamento polso | Sblocca con iPhone → Inizializza dati: `bridge:root=PASSCODE_ID#ERASE_DATA_SWITCH_ID`
+- Attiva codice | Cambia codice | Codice | Codice semplice | Disattiva codice | Inizializza dati | Rilevamento polso | Sblocca con iPhone → Rilevamento polso: `bridge:root=PASSCODE_ID#WRIST_DETECTION_CELL_ID`
+- Attiva codice | Cambia codice | Codice | Codice semplice | Disattiva codice | Inizializza dati | Rilevamento polso | Sblocca con iPhone → Complicazioni: `bridge:root=PASSCODE_ID#SHOW_COMPLICATION_DATA_WHEN_LOCKED_GROUP_ID`
+- Attiva codice | Cambia codice | Codice | Codice semplice | Disattiva codice | Inizializza dati | Rilevamento polso | Sblocca con iPhone → Mostra dati quando bloccato: `bridge:root=PASSCODE_ID#SHOW_COMPLICATION_DATA_WHEN_LOCKED_SWITCH_ID`
+- Mail: `bridge:root=com.apple.NanoMailBridgeSettings`
+- Mail → Duplica iPhone: `bridge:root=com.apple.NanoMailBridgeSettings#MIRROR_MY_COMPANION_ID`
+- Mail → Personalizza: `bridge:root=com.apple.NanoMailBridgeSettings#CUSTOM_ID`
+- Mail → Impostazioni Mail: `bridge:root=com.apple.NanoMailBridgeSettings#Mail%20Settings`
+- Mail → Account: `bridge:root=com.apple.NanoMailBridgeSettings&path=Accounts`
+- Mail → Includi Mail: `bridge:root=com.apple.NanoMailBridgeSettings&path=Include%20Mail`
+- Mail → Anteprima messaggio: `bridge:root=com.apple.NanoMailBridgeSettings&path=Message%20Preview`
+- Mail → Anteprima messaggio → Nessuna: `bridge:root=com.apple.NanoMailBridgeSettings&path=Message%20Preview#0`
+- Mail → Anteprima messaggio → 1 linea: `bridge:root=com.apple.NanoMailBridgeSettings&path=Message%20Preview#1`
+- Mail → Anteprima messaggio → 2 linee: `bridge:root=com.apple.NanoMailBridgeSettings&path=Message%20Preview#2`
+- Mail → Risposte di default: `bridge:root=com.apple.NanoMailBridgeSettings&path=Default%20Replies`
+- Mail → Risposte di default → Risposte di default: `bridge:root=com.apple.NanoMailBridgeSettings&path=Default%20Replies#Default%20Replies`
+- Mail → Risposte di default → Aggiungi risposta…: `bridge:root=com.apple.NanoMailBridgeSettings&path=Default%20Replies#Add%20reply%E2%80%A6`
+- Mail → Firma: `bridge:root=com.apple.NanoMailBridgeSettings&path=Signature`
+- Borsa | Capitalizzazione | Prezzo attuale | Titolo selezionato per la scheda Siri | Variazione percentuale | Variazione punti: `bridge:root=com.apple.StocksBridgeSettings`
+- Borsa | Capitalizzazione | Prezzo attuale | Titolo selezionato per la scheda Siri | Variazione percentuale | Variazione punti → La complicazione quadrante mostra: `bridge:root=com.apple.StocksBridgeSettings#Clock%20Face%20Complication%20Shows`
+- Borsa | Capitalizzazione | Prezzo attuale | Titolo selezionato per la scheda Siri | Variazione percentuale | Variazione punti → Prezzo attuale: `bridge:root=com.apple.StocksBridgeSettings#Current%20Price`
+- Borsa | Capitalizzazione | Prezzo attuale | Titolo selezionato per la scheda Siri | Variazione percentuale | Variazione punti → Variazione punti: `bridge:root=com.apple.StocksBridgeSettings#Points%20Change`
+- Borsa | Capitalizzazione | Prezzo attuale | Titolo selezionato per la scheda Siri | Variazione percentuale | Variazione punti → Variazione percentuale: `bridge:root=com.apple.StocksBridgeSettings#Percentage%20Change`
+- Borsa | Capitalizzazione | Prezzo attuale | Titolo selezionato per la scheda Siri | Variazione percentuale | Variazione punti → Capitalizzazione: `bridge:root=com.apple.StocksBridgeSettings#Market%20Cap`
+- Borsa | Capitalizzazione | Prezzo attuale | Titolo selezionato per la scheda Siri | Variazione percentuale | Variazione punti → Il quadrante Siri mostra la quotazione per: `bridge:root=com.apple.StocksBridgeSettings#Siri%20Face%20Shows%20Quote%20For`
+- Borsa | Capitalizzazione | Prezzo attuale | Titolo selezionato per la scheda Siri | Variazione percentuale | Variazione punti → Titolo selezionato: `bridge:root=com.apple.StocksBridgeSettings&path=Selected%20Stock`
+- Borsa | Capitalizzazione | Prezzo attuale | Titolo selezionato per la scheda Siri | Variazione percentuale | Variazione punti → Titolo selezionato → Titolo selezionato: `bridge:root=com.apple.StocksBridgeSettings&path=Selected%20Stock#Selected%20Stock`
+- Attività: `bridge:root=com.apple.HealthAppsSettings`
+- Attività → Aggiornamenti: `bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL`
+- Attività → Aggiornamenti → Nessuna: `bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#ZERO_HOURS_ID`
+- Attività → Aggiornamenti → Ogni 2 ore: `bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#TWO_HOURS_ID`
+- Attività → Aggiornamenti → Ogni 4 ore: `bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#FOUR_HOURS_ID`
+- Attività → Aggiornamenti → Ogni 6 ore: `bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#SIX_HOURS_ID`
+- Attività → Aggiornamenti → Ogni 8 ore: `bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#EIGHT_HOURS_ID`
+- Attività → Medaglie: `bridge:root=com.apple.HealthAppsSettings#ACHIEVEMENTS_ENABLED_LABEL`
+- Attività → Riepilogo settimanale: `bridge:root=com.apple.HealthAppsSettings#WEEKLY_SUMMARY_ENABLED_LABEL`
+- Attività → Obiettivi giornalieri: `bridge:root=com.apple.HealthAppsSettings#DAILY_PROGRESS_ENABLED_LABEL`
+- Attività → Obiettivi raggiunti: `bridge:root=com.apple.HealthAppsSettings#GOAL_COMPLETIONS_ENABLED_LABEL`
+- Attività → Sfide speciali: `bridge:root=com.apple.HealthAppsSettings#REMOTE_ACHIEVEMENTS_ENABLED_LABEL`
+- Attività → Notifiche condivisione Attività: `bridge:root=com.apple.HealthAppsSettings#ACTIVITY_SHARING_NOTIFICATIONS_ENABLED`
+- Raccolta smart: `bridge:root=SMARTSTACK_LINK`
+- Meteo: `bridge:root=com.apple.weatherbridgesettings`
+- Meteo → Città di default: `bridge:root=com.apple.weatherbridgesettings&path=Default%20City`
+- Meteo → Città di default → Città di default: `bridge:root=com.apple.weatherbridgesettings&path=Default%20City#Default%20City`
+- Meteo → Città di default → Posizione attuale: `bridge:root=com.apple.weatherbridgesettings&path=Default%20City#Current%20Location`
+- Contatti: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired`
+- Contatti → Ordinamento: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=contactsSortOrder`
+- Contatti → Ordinamento → Nome, Cognome: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=contactsSortOrder#0`
+- Contatti → Ordinamento → Cognome, Nome: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=contactsSortOrder#1`
+- Contatti → Visualizza per: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=NSPersonNameDefaultDisplayNameOrder`
+- Contatti → Visualizza per → Nome, Cognome: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=NSPersonNameDefaultDisplayNameOrder#1`
+- Contatti → Visualizza per → Cognome, Nome: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=NSPersonNameDefaultDisplayNameOrder#2`
+- Contatti → Nome breve: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName`
+- Contatti → Nome breve → Nome breve: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#Short%20Name`
+- Contatti → Nome breve → Nome e iniziale del cognome: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#First%20Name%20&%20Last%20Initial`
+- Contatti → Nome breve → Iniziale nome e cognome: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#First%20Initial%20&%20Last%20Name`
+- Contatti → Nome breve → Solo nome: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#First%20Name%20Only`
+- Contatti → Nome breve → Solo cognome: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#Last%20Name%20Only`
+- Contatti → Nome breve → Preferisci soprannome: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#Prefer%20Nicknames`
+- Accessibilità: `bridge:root=ACCESSIBILITY_ID`
+- Accessibilità → Vista: `bridge:root=ACCESSIBILITY_ID#VISION_GROUP`
+- Accessibilità → VoiceOver: `bridge:root=ACCESSIBILITY_ID&path=VOICEOVER_ID`
+- Accessibilità → Zoom: `bridge:root=ACCESSIBILITY_ID&path=ZOOM_ID`
+- Accessibilità → Etichette Sì/No: `bridge:root=ACCESSIBILITY_ID#OnOffLabelsEnabled`
+- Accessibilità → Scala di grigi: `bridge:root=ACCESSIBILITY_ID#GrayscaleDisplay`
+- Accessibilità → Riduci trasparenza: `bridge:root=ACCESSIBILITY_ID#REDUCE_TRANSPARENCY`
+- Accessibilità → Aumenta contrasto: `bridge:root=ACCESSIBILITY_ID#INCREASE_CONTRAST`
+- Accessibilità → Dimensioni testo: `bridge:root=ACCESSIBILITY_ID#TEXT_SIZE`
+- Accessibilità → Testo in grassetto: `bridge:root=ACCESSIBILITY_ID#BoldTextEnabled`
+- Accessibilità → Riduci movimento: `bridge:root=ACCESSIBILITY_ID&path=ReduceMotion`
+- Accessibilità → Rintocchi: `bridge:root=ACCESSIBILITY_ID&path=TapticChimesCell`
+- Accessibilità → Rintocchi → Rintocchi: `bridge:root=ACCESSIBILITY_ID&path=TapticChimesCell#Chimes`
+- Accessibilità → Rintocchi → Intervallo: `bridge:root=ACCESSIBILITY_ID&path=TapticChimesCell/CHIMES_SCHEDULE_ID`
+- Accessibilità → Rintocchi → Intervallo → Ogni ora: `bridge:root=ACCESSIBILITY_ID&path=TapticChimesCell/CHIMES_SCHEDULE_ID#Hourly`
+- Accessibilità → Rintocchi → Intervallo → Ogni 30 minuti: `bridge:root=ACCESSIBILITY_ID&path=TapticChimesCell/CHIMES_SCHEDULE_ID#30%20minutes`
+- Accessibilità → Rintocchi → Intervallo → Ogni 15 minuti: `bridge:root=ACCESSIBILITY_ID&path=TapticChimesCell/CHIMES_SCHEDULE_ID#15%20minutes`
+- Accessibilità → Rintocchi → Suoni: `bridge:root=ACCESSIBILITY_ID&path=TapticChimesCell/CHIMES_SOUNDS_ID`
+- Accessibilità → Rintocchi → Suoni → Campane: `bridge:root=ACCESSIBILITY_ID&path=TapticChimesCell/CHIMES_SOUNDS_ID#Bells`
+- Accessibilità → Rintocchi → Suoni → Uccelli: `bridge:root=ACCESSIBILITY_ID&path=TapticChimesCell/CHIMES_SOUNDS_ID#Birds`
+- Accessibilità → Capacità motoria: `bridge:root=ACCESSIBILITY_ID#MotorGroupCell`
+- Accessibilità → Velocità pressione tasto laterale: `bridge:root=ACCESSIBILITY_ID&path=SideButton`
+- Accessibilità → Velocità pressione tasto laterale → Velocità pressione: `bridge:root=ACCESSIBILITY_ID&path=SideButton#CLICK_SPEED_GROUP_CELL`
+- Accessibilità → Velocità pressione tasto laterale → Default: `bridge:root=ACCESSIBILITY_ID&path=SideButton#SIDE_CLICK_SPEED_DEFAULT`
+- Accessibilità → Velocità pressione tasto laterale → Lenta: `bridge:root=ACCESSIBILITY_ID&path=SideButton#SIDE_CLICK_SPEED_SLOW`
+- Accessibilità → Velocità pressione tasto laterale → Lentissima: `bridge:root=ACCESSIBILITY_ID&path=SideButton#SIDE_CLICK_SPEED_SLOWEST`
+- Accessibilità → Regolazione tocco: `bridge:root=ACCESSIBILITY_ID&path=TouchAccommodationsCell`
+- Accessibilità → Regolazione tocco → Regolazione tocco: `bridge:root=ACCESSIBILITY_ID&path=TouchAccommodationsCell#TOUCH_ACCOMMODATIONS_SWITCHER`
+- Accessibilità → Regolazione tocco → Durata pressione: `bridge:root=ACCESSIBILITY_ID&path=TouchAccommodationsCell#HoldDurationGroup`
+- Accessibilità → Regolazione tocco → Durata pressione: `bridge:root=ACCESSIBILITY_ID&path=TouchAccommodationsCell#HoldDuration`
+- Accessibilità → Regolazione tocco → Ignora ripetizione: `bridge:root=ACCESSIBILITY_ID&path=TouchAccommodationsCell#IgnoreRepeatGroup`
+- Accessibilità → Regolazione tocco → Ignora ripetizione: `bridge:root=ACCESSIBILITY_ID&path=TouchAccommodationsCell#IgnoreRepeat`
+- Accessibilità → Regolazione tocco → Assistente tocco: `bridge:root=ACCESSIBILITY_ID&path=TouchAccommodationsCell#Tap%20Assistance`
+- Accessibilità → Regolazione tocco → No: `bridge:root=ACCESSIBILITY_ID&path=TouchAccommodationsCell#OFF`
+- Accessibilità → Regolazione tocco → Usa posizione tocco iniziale: `bridge:root=ACCESSIBILITY_ID&path=TouchAccommodationsCell#ACTIVATE_ON_TOUCH`
+- Accessibilità → Regolazione tocco → Usa posizione tocco finale: `bridge:root=ACCESSIBILITY_ID&path=TouchAccommodationsCell#ACTIVATE_ON_RELEASE`
+- Accessibilità → Attività su sedia a rotelle: `bridge:root=ACCESSIBILITY_ID#MOBILITY`
+- Accessibilità → Walkie-Talkie: `bridge:root=ACCESSIBILITY_ID#WalkieTalkieTapToTalkGroup`
+- Accessibilità → Tocca per parlare: `bridge:root=ACCESSIBILITY_ID#WalkieTalkieTapToTalk`
+- Accessibilità → Elenco
+applicazioni: `bridge:root=ACCESSIBILITY_ID#AppSwitcherAutoSelectGroup`
+- Accessibilità → Seleziona automaticamente app in evidenza: `bridge:root=ACCESSIBILITY_ID#AppSwitcherAutoSelect`
+- Accessibilità → Siri: `bridge:root=ACCESSIBILITY_ID&path=SIRI_CELL_ID`
+- Accessibilità → Siri → Scrivi a Siri: `bridge:root=ACCESSIBILITY_ID&path=SIRI_CELL_ID#Type%20to%20Siri`
+- Accessibilità → Udito: `bridge:root=ACCESSIBILITY_ID#HEARING`
+- Accessibilità → RTT: `bridge:root=ACCESSIBILITY_ID&path=RTT_ID`
+- Accessibilità → RTT → RTT: `bridge:root=ACCESSIBILITY_ID&path=RTT_ID#RTT_ROW_ID`
+- Accessibilità → Audio mono: `bridge:root=ACCESSIBILITY_ID#MonoAudioEnabled`
+- Accessibilità → Bilanciamento stereo sinistra-destra: `bridge:root=ACCESSIBILITY_ID#LEFT_RIGHT_BALANCE_SPOKEN`
+- Accessibilità → Notifiche cuffie: `bridge:root=ACCESSIBILITY_ID#HeadphoneNotificationsID`
+- Accessibilità → Apparecchi acustici: `bridge:root=ACCESSIBILITY_ID#HearingDevicesComplicationGroupID`
+- Accessibilità → Complicazione: `bridge:root=ACCESSIBILITY_ID&path=HearingDevicesComplicationRowID`
+- Accessibilità → Complicazione → Volume microfono: `bridge:root=ACCESSIBILITY_ID&path=HearingDevicesComplicationRowID#Mic%20Volume`
+- Accessibilità → Complicazione → Programma: `bridge:root=ACCESSIBILITY_ID&path=HearingDevicesComplicationRowID#Program`
+- Accessibilità → Velocità ora esatta aptica: `bridge:root=ACCESSIBILITY_ID#TapticTimeSpeedAdjustmentGroup`
+- Accessibilità → Abbreviazione: `bridge:root=ACCESSIBILITY_ID&path=AX_SHORTCUT_ID`
+- Avvisi svolte | Mappe: `bridge:root=com.apple.NanoMapsBridgeSettings`
+- Avvisi svolte | Mappe → Avvisi svolte: `bridge:root=com.apple.NanoMapsBridgeSettings#Turn%20Alerts`
+- Avvisi svolte | Mappe → In auto: `bridge:root=com.apple.NanoMapsBridgeSettings#Driving`
+- Avvisi svolte | Mappe → Guida con CarPlay: `bridge:root=com.apple.NanoMapsBridgeSettings#Driving%20with%20CarPlay`
+- Avvisi svolte | Mappe → A piedi: `bridge:root=com.apple.NanoMapsBridgeSettings#Walking`
+- Avvisi svolte | Mappe → In bici: `bridge:root=com.apple.NanoMapsBridgeSettings#Cycling`
+- Avvisi svolte | Mappe → Mostra navigazione: `bridge:root=com.apple.NanoMapsBridgeSettings#Show%20Navigation`
+- Avvisi svolte | Mappe → Trasporti: `bridge:root=com.apple.NanoMapsBridgeSettings#Transit`
+- Avvisi svolte | Mappe → Versione: `bridge:root=com.apple.NanoMapsBridgeSettings#Build%20Info%3A`
+- Mail e Calendario: `bridge:root=com.apple.BridgeRemoteAccounts`
+- Mail e Calendario → Account: `bridge:root=com.apple.BridgeRemoteAccounts#Accounts`
+- Mail e Calendario → Aggiungi account Google…: `bridge:root=com.apple.BridgeRemoteAccounts#ADD_GOOGLE_ACCOUNT`
+- Mail e Calendario → Recupera: `bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch`
+- Mail e Calendario → Recupera → No: `bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch#Off`
+- Mail e Calendario → Recupera → Ogni ora: `bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch#Hourly`
+- Mail e Calendario → Recupera → 30 min: `bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch#30%20min`
+- Mail e Calendario → Recupera → 15 min: `bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch#15%20min`
+- Battito: `bridge:root=com.apple.HeartRateSettings`
+- Battito → Battito: `bridge:root=com.apple.HeartRateSettings#1`
+- Battito → Notifiche frequenza cardiaca: `bridge:root=com.apple.HeartRateSettings#2`
+- Battito → Frequenza cardiaca elevata: `bridge:root=com.apple.HeartRateSettings#3`
+- Battito → Frequenza cardiaca ridotta: `bridge:root=com.apple.HeartRateSettings#4`
+- Battito → Frequenza irregolare: `bridge:root=com.apple.HeartRateSettings#5`
+- Battito → Visualizza gli ECG sull’app Salute: `bridge:root=com.apple.HeartRateSettings#6`
+- Battito → ECG: `bridge:root=com.apple.HeartRateSettings#7`
+- App Store: `bridge:root=com.apple.BridgeAppStoreDaemonSettings`
+- App Store → Download automatici: `bridge:root=com.apple.BridgeAppStoreDaemonSettings#automaticDownloadSpecifier`
+- App Store → Aggiornamenti automatici: `bridge:root=com.apple.BridgeAppStoreDaemonSettings#Automatic%20Updates`
+- Gesti: `bridge:root=ELTON_SETTINGS_ID`
+- Gesti → Gesti: `bridge:root=ELTON_SETTINGS_ID#Gestures`
+- Gesti → Tocco doppio: `bridge:root=ELTON_SETTINGS_ID&path=ELTON_DOUBLE_TAP_ID`
+- Gesti → Tocco doppio → Tocco doppio: `bridge:root=ELTON_SETTINGS_ID&path=ELTON_DOUBLE_TAP_ID#Double%20Tap`
+- Gesti → Tocco doppio → Riproduzione: `bridge:root=ELTON_SETTINGS_ID&path=ELTON_DOUBLE_TAP_ID#playbackSettingsGroup`
+- Gesti → Tocco doppio → Riproduci/Pausa: `bridge:root=ELTON_SETTINGS_ID&path=ELTON_DOUBLE_TAP_ID#playbackSettingsPlayPause`
+- Gesti → Tocco doppio → Salta: `bridge:root=ELTON_SETTINGS_ID&path=ELTON_DOUBLE_TAP_ID#playbackSettingsSkip`
+- Gesti → Tocco doppio → Raccolta smart: `bridge:root=ELTON_SETTINGS_ID&path=ELTON_DOUBLE_TAP_ID#smartStackGroup`
+- Gesti → Tocco doppio → Avanza: `bridge:root=ELTON_SETTINGS_ID&path=ELTON_DOUBLE_TAP_ID#smartStackSettingsAdvance`
+- Gesti → Tocco doppio → Seleziona: `bridge:root=ELTON_SETTINGS_ID&path=ELTON_DOUBLE_TAP_ID#smartStackSettingsSelect`
+- Gesti → Tocco doppio → Quando Apple Vision Pro è in uso: `bridge:root=ELTON_SETTINGS_ID&path=ELTON_DOUBLE_TAP_ID#ignoreWhileVisionProDonned`
+- Gesti → Tocco doppio → Ignora “Tocco doppio”: `bridge:root=ELTON_SETTINGS_ID&path=ELTON_DOUBLE_TAP_ID#ignoreDoubleTap`
+- Gesti → Scatto del polso: `bridge:root=ELTON_SETTINGS_ID#Wrist%20Flick`
+- Gesti → Copri per disattivare audio: `bridge:root=ELTON_SETTINGS_ID#Cover%20to%20Mute`
+- Sonno: `bridge:root=com.apple.NanoBedtimeBridgeSettings`
+- Sonno → Configura Sonno nell’app Salute: `bridge:root=com.apple.NanoBedtimeBridgeSettings#SET_UP_SLEEP_CELL_ID`
+- Brani sincronizzati | Limite spazio | Musica: `bridge:root=com.apple.NanoMusicBridgeSettings`
+- Brani sincronizzati | Limite spazio | Musica → PLAYLIST E ALBUM: `bridge:root=com.apple.NanoMusicBridgeSettings#PLAYLISTS%20&%20ALBUMS`
+- Brani sincronizzati | Limite spazio | Musica → Aggiungi musica…: `bridge:root=com.apple.NanoMusicBridgeSettings#Add%20Music%E2%80%A6`
+- Wallet e Apple Pay: `bridge:root=com.apple.NanoPassbookBridgeSettings`
+- Wallet e Apple Pay → Apple Cash: `bridge:root=com.apple.NanoPassbookBridgeSettings#Apple%C2%A0Cash`
+- Wallet e Apple Pay → Aggiungi carta: `bridge:root=com.apple.NanoPassbookBridgeSettings#Add%20Card`
+- Wallet e Apple Pay → Notifiche: `bridge:root=com.apple.NanoPassbookBridgeSettings#MIRROR_RADIO_GROUP_ID`
+- Wallet e Apple Pay → Duplica iPhone: `bridge:root=com.apple.NanoPassbookBridgeSettings#MIRROR_MY_COMPANION_ID`
+- Wallet e Apple Pay → Personalizza: `bridge:root=com.apple.NanoPassbookBridgeSettings#CUSTOM_ID`
+- Salute: `bridge:root=com.apple.BridgeHealthSettings`
+- Trova il mio Apple Watch: `bridge:root=ActiveWatch`
+- Trova il mio Apple Watch → Abbina un nuovo Apple Watch: `bridge:root=ActiveWatch&path=Pair%20New%20Watch`
+- Mindfulness: `bridge:root=com.apple.MindSettings`
+- Mindfulness → Consenti notifiche: `bridge:root=com.apple.MindSettings#ALLOW_NOTIFICATIONS_ID`
+- Mindfulness → Invia a Centro Notifiche: `bridge:root=com.apple.MindSettings#SEND_TO_NOTIFICATION_CENTER_ID`
+- Mindfulness → Notifiche disattivate: `bridge:root=com.apple.MindSettings#NOTIFICATIONS_OFF_ID`
+- Mindfulness → Promemoria di Mindfulness: `bridge:root=com.apple.MindSettings#MIND_GROUP_ID`
+- Mindfulness → Inizio giornata: `bridge:root=com.apple.MindSettings#MIND_START_OF_DAY_REMINDER`
+- Mindfulness → Fine giornata: `bridge:root=com.apple.MindSettings#MIND_END_OF_DAY_REMINDER`
+- Mindfulness → Aggiungi promemoria…: `bridge:root=com.apple.MindSettings#Add%20Reminder%E2%80%A6`
+- Mindfulness → Riepilogo settimanale: `bridge:root=com.apple.MindSettings#MIND_WEEKLY_SUMMARY_ID`
+- Mindfulness → Niente avvisi oggi: `bridge:root=com.apple.MindSettings#MIND_MUTE_FOR_TODAY_ID`
+- Mindfulness → Ritmo respirazione: `bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID`
+- Mindfulness → Ritmo respirazione → 4 respiri al minuto: `bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_4`
+- Mindfulness → Ritmo respirazione → 5 respiri al minuto: `bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_5`
+- Mindfulness → Ritmo respirazione → 6 respiri al minuto: `bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_6`
+- Mindfulness → Ritmo respirazione → 7 respiri al minuto: `bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_7`
+- Mindfulness → Ritmo respirazione → 8 respiri al minuto: `bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_8`
+- Mindfulness → Ritmo respirazione → 9 respiri al minuto: `bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_9`
+- Mindfulness → Ritmo respirazione → 10 respiri al minuto: `bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_10`
+- Mindfulness → Feedback aptici: `bridge:root=com.apple.MindSettings&path=MIND_HAPTICS_ID`
+- Mindfulness → Feedback aptici → Nessuno: `bridge:root=com.apple.MindSettings&path=MIND_HAPTICS_ID#NONE_ID`
+- Mindfulness → Feedback aptici → Minimi: `bridge:root=com.apple.MindSettings&path=MIND_HAPTICS_ID#MINIMAL_ID`
+- Mindfulness → Feedback aptici → Intensi: `bridge:root=com.apple.MindSettings&path=MIND_HAPTICS_ID#PROMINENT_ID`
+- Podcast: `bridge:root=com.apple.private.PodcastsBridgeSettings`
+- Telefono: `bridge:root=com.apple.PhoneBridgeSettings`
+- Telefono → Chiamate: `bridge:root=com.apple.PhoneBridgeSettings#carrier_direct_calling_group_id`
+- Telefono → Suoneria: `bridge:root=com.apple.PhoneBridgeSettings#RINGTONE`
+- Telefono → Suoni: `bridge:root=com.apple.PhoneBridgeSettings#INCOMING_CALL_SOUND`
+- Telefono → Feedback aptico: `bridge:root=com.apple.PhoneBridgeSettings#INCOMING_CALL_HAPTIC`
+- Profondità: `bridge:root=com.apple.DepthCompanionSettings`
+- Tasto Azione: `bridge:root=STING_TITLE`
+- Impostazioni gestore: `bridge:root=CARRIER_SETTINGS`
+- Cellulare: `bridge:root=CELLULAR_ID`
+- Dock: `bridge:root=DOCK`
+- Dock → Ordine Dock: `bridge:root=DOCK#OrderingOptionGroup`
+- Dock → Recenti: `bridge:root=DOCK#Recents`
+- Dock → Preferiti: `bridge:root=DOCK#Favorites`
+- Dock: `bridge:root=DOCK.0`
+- Dock → Ordine Dock: `bridge:root=DOCK.0#OrderingOptionGroup`
+- Dock → Recenti: `bridge:root=DOCK.0#Recents`
+- Dock → Preferiti: `bridge:root=DOCK.0#Favorites`
+- Audiolibri: `bridge:root=com.apple.NanoBooks.BridgeSettings`
+- Audiolibri → Accedi: `bridge:root=com.apple.NanoBooks.BridgeSettings#Sign%20In`
+- Album di foto selezionato | Limite foto: `bridge:root=com.apple.mobileslideshow`
+- Invia ricevute di lettura: `bridge:root=com.apple.MessagesBridgeSettings%23READ_RECEIPTS`

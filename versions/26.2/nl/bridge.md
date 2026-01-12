@@ -1,0 +1,518 @@
+- Satu­ratie: `bridge:root=com.apple.OxygenSaturationSettings`
+- Handen wassen: `bridge:root=com.apple.BrookBridgeSettings`
+- Handen wassen → Sta meldingen toe: `bridge:root=com.apple.BrookBridgeSettings#ALLOW_NOTIFICATIONS_ID`
+- Handen wassen → Stuur naar meldingencentrum: `bridge:root=com.apple.BrookBridgeSettings#SEND_TO_NOTIFICATION_CENTER_ID`
+- Handen wassen → Meldingen uit: `bridge:root=com.apple.BrookBridgeSettings#NOTIFICATIONS_OFF_ID`
+- Handen wassen → Meldingen groeperen: `bridge:root=com.apple.BrookBridgeSettings&path=NOTIFICATION_COALESCING_ID`
+- Handen wassen → Timer voor handen wassen: `bridge:root=com.apple.BrookBridgeSettings#HANDWASHING_TIMER_ID`
+- Beeldscherm en helderheid: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID`
+- Beeldscherm en helderheid → Activerings­duur: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=WAKE_DURATION_SELECTION_KEY`
+- Beeldscherm en helderheid → Activerings­duur → BIJ TIKKEN: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=WAKE_DURATION_SELECTION_KEY#ON_TAP_GROUP_ID`
+- Beeldscherm en helderheid → Activerings­duur → 15 seconden actief: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=WAKE_DURATION_SELECTION_KEY#SHORT_WAKE_ID`
+- Beeldscherm en helderheid → Activerings­duur → 70 seconden actief: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=WAKE_DURATION_SELECTION_KEY#LONG_WAKE_ID`
+- Beeldscherm en helderheid → Helderheid: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID#BRIGHTNESS_LABEL`
+- Beeldscherm en helderheid → Altijd ingeschakeld: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID`
+- Beeldscherm en helderheid → Altijd ingeschakeld → Altijd ingeschakeld: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID#TRITIUM_ID`
+- Beeldscherm en helderheid → Altijd ingeschakeld → POLS OMLAAG: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID#TRITIUM_PRIVACY_GROUP_ID`
+- Beeldscherm en helderheid → Altijd ingeschakeld → Toon 'Live activiteiten': `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_LIVE_ACTIVITIES_ID`
+- Beeldscherm en helderheid → Altijd ingeschakeld → Toon 'Live activiteiten' → Toon 'Live activiteiten': `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_LIVE_ACTIVITIES_ID#APP_BACKLIGHT_PRIVACY_GLOBAL_APP`
+- Beeldscherm en helderheid → Altijd ingeschakeld → Toon apps: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_APPS_ID`
+- Beeldscherm en helderheid → Altijd ingeschakeld → Toon apps → Toon apps: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_APPS_ID#APP_BACKLIGHT_PRIVACY_GLOBAL_APP`
+- Beeldscherm en helderheid → Altijd ingeschakeld → Toon apps → APPS: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_APPS_ID#APP_GROUP_ID`
+- Beeldscherm en helderheid → Altijd ingeschakeld → Toon apps → App Store: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_APPS_ID#com.apple.AppStore`
+- Beeldscherm en helderheid → Altijd ingeschakeld → Toon apps → Nike Run Club: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_APPS_ID#com.nike.nikeplus-gps.watchkitapp`
+- Beeldscherm en helderheid → Altijd ingeschakeld → Toon apps → Telefoon: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_APPS_ID#com.apple.NanoPhone`
+- Beeldscherm en helderheid → Altijd ingeschakeld → Toon apps → Foto's: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_APPS_ID#com.apple.NanoPhotos`
+- Beeldscherm en helderheid → Altijd ingeschakeld → Toon apps → Instellingen: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_APPS_ID#com.apple.NanoSettings`
+- Beeldscherm en helderheid → Altijd ingeschakeld → Toon apps → Tap-to-Radar: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_APPS_ID#com.apple.NanoTapToRadar`
+- Beeldscherm en helderheid → Altijd ingeschakeld → Toon meldingen: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID`
+- Beeldscherm en helderheid → Altijd ingeschakeld → Toon meldingen → Toon meldingen: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#APP_BACKLIGHT_PRIVACY_GLOBAL_APP`
+- Beeldscherm en helderheid → Altijd ingeschakeld → Toon meldingen → APPLE WATCH-APPS | IPHONE-APPS: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#APP_GROUP_ID`
+- Beeldscherm en helderheid → Altijd ingeschakeld → Toon meldingen → App Store: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.AppStore`
+- Beeldscherm en helderheid → Altijd ingeschakeld → Toon meldingen → Nike Run Club: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.nike.nikeplus-gps.watchkitapp`
+- Beeldscherm en helderheid → Altijd ingeschakeld → Toon meldingen → Telefoon: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.NanoPhone`
+- Beeldscherm en helderheid → Altijd ingeschakeld → Toon meldingen → Foto's: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.NanoPhotos`
+- Beeldscherm en helderheid → Altijd ingeschakeld → Toon meldingen → Instellingen: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.NanoSettings`
+- Beeldscherm en helderheid → Altijd ingeschakeld → Toon meldingen → Tap-to-Radar: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.NanoTapToRadar`
+- Beeldscherm en helderheid → Altijd ingeschakeld → Toon meldingen → Toegankelijkheidsinstellingen: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.accessibility.TeachableMomentsNotifications`
+- Beeldscherm en helderheid → Altijd ingeschakeld → Toon meldingen → Boeken: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.iBooks`
+- Beeldscherm en helderheid → Altijd ingeschakeld → Toon meldingen → Caffè Macs: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.ist.CaffeMacsApp`
+- Beeldscherm en helderheid → Altijd ingeschakeld → Toon meldingen → Agenda: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.mobilecal`
+- Beeldscherm en helderheid → Altijd ingeschakeld → Toon meldingen → Camera: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.camera`
+- Beeldscherm en helderheid → Altijd ingeschakeld → Toon meldingen → Verbind: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.ist.AppleConnect`
+- Beeldscherm en helderheid → Altijd ingeschakeld → Toon meldingen → Diagnosemelding: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.DiagnosticsReporter`
+- Beeldscherm en helderheid → Altijd ingeschakeld → Toon meldingen → Interne feedback: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.FeedbackInternal`
+- Beeldscherm en helderheid → Altijd ingeschakeld → Toon meldingen → Conditie: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.Fitness`
+- Beeldscherm en helderheid → Altijd ingeschakeld → Toon meldingen → Game Center: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.gamecenter`
+- Beeldscherm en helderheid → Altijd ingeschakeld → Toon meldingen → Gezondheid: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.Health`
+- Beeldscherm en helderheid → Altijd ingeschakeld → Toon meldingen → Livability: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.Livability`
+- Beeldscherm en helderheid → Altijd ingeschakeld → Toon meldingen → Mail: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.mobilemail`
+- Beeldscherm en helderheid → Altijd ingeschakeld → Toon meldingen → Berichten: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.MobileSMS`
+- Beeldscherm en helderheid → Altijd ingeschakeld → Toon meldingen → Self Service: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.jamfsoftware.selfservice`
+- Beeldscherm en helderheid → Altijd ingeschakeld → Toon meldingen → Volgmeldingen: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.FindMySafetyAlertsNotifications`
+- Beeldscherm en helderheid → Altijd ingeschakeld → Toon meldingen → Weer: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.weather`
+- Beeldscherm en helderheid → Altijd ingeschakeld → Toon complicatiegegevens: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_COMPLICATIONS_DATA_ID`
+- Beeldscherm en helderheid → Altijd ingeschakeld → Toon complicatiegegevens → Toon complicatie­gegevens: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_COMPLICATIONS_DATA_ID#Show%20Complication%20Data`
+- Beeldscherm en helderheid → Altijd ingeschakeld → Toon complicatiegegevens → Apps: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_COMPLICATIONS_DATA_ID#Apps`
+- Beeldscherm en helderheid → Altijd ingeschakeld → Toon complicatiegegevens → Laden…: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_COMPLICATIONS_DATA_ID#Loading%E2%80%A6`
+- Beeldscherm en helderheid → Altijd ingeschakeld → Toon complicatiegegevens → Siri: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_COMPLICATIONS_DATA_ID#Siri`
+- Beeldscherm en helderheid → Altijd ingeschakeld → Toon complicatiegegevens → Siri-kaarten: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID&path=TRITIUM_ID/SHOW_COMPLICATIONS_DATA_ID#Siri%20Cards`
+- Beeldscherm en helderheid → Tekstgrootte: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID#TEXT_SIZE`
+- Beeldscherm en helderheid → Vette tekst: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID#BOLD_TEXT`
+- Beeldscherm en helderheid → Activering: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID#Wake`
+- Beeldscherm en helderheid → Activeer bij pols optillen: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID#WAKE_SCREEN_ON_WRIST_RAISE_SWITCH_ID`
+- Beeldscherm en helderheid → Activeer bij Crown draaien: `bridge:root=DISPLAY_AND_BRIGHTNESS_ID#WAKE_SCREEN_ON_CROWN_UP_SWITCH_ID`
+- Foto's: `bridge:root=com.apple.NanoPhotosBridgeSettings`
+- Foto's → Fotosynchronisatie: `bridge:root=com.apple.NanoPhotosBridgeSettings#Photo%20Syncing`
+- Foto's → Terugblikken: `bridge:root=com.apple.NanoPhotosBridgeSettings#Memories`
+- Foto's → Synchroniseer terugblikken: `bridge:root=com.apple.NanoPhotosBridgeSettings#Sync%20Memories`
+- Foto's → Uitgelichte foto's: `bridge:root=com.apple.NanoPhotosBridgeSettings#Featured%20Photos`
+- Foto's → Synchroniseer uitgelichte foto's: `bridge:root=com.apple.NanoPhotosBridgeSettings#Sync%20Featured%20Photos`
+- Foto's → Album: `bridge:root=com.apple.NanoPhotosBridgeSettings#Album`
+- Foto's → Synchroniseer album: `bridge:root=com.apple.NanoPhotosBridgeSettings&path=Sync%20Album`
+- Foto's → Fotolimiet: `bridge:root=com.apple.NanoPhotosBridgeSettings&path=Photos%20Limit`
+- Foto's → Meldingsinstellingen: `bridge:root=com.apple.NanoPhotosBridgeSettings#MIRROR_RADIO_GROUP_ID`
+- Foto's → Match iPhone: `bridge:root=com.apple.NanoPhotosBridgeSettings#MIRROR_MY_COMPANION_ID`
+- Foto's → Aangepast: `bridge:root=com.apple.NanoPhotosBridgeSettings#CUSTOM_ID`
+- Complicaties: `bridge:root=COMPLICATIONS`
+- Bedieningspaneel: `bridge:root=CONTROL_CENTER_ID`
+- Bedieningspaneel → Stel indeling bedieningspaneel opnieuw in: `bridge:root=CONTROL_CENTER_ID#CONTROL_CENTER_RESET_ID`
+- Appweergave: `bridge:root=APP_VIEW_ID`
+- Algemeen: `bridge:root=GENERAL_LINK`
+- Algemeen → Info: `bridge:root=GENERAL_LINK&path=ABOUT`
+- Algemeen → Info → Naam: `bridge:root=GENERAL_LINK&path=ABOUT/NAME_CELL_ID`
+- Algemeen → Info → watchOS-versie: `bridge:root=GENERAL_LINK&path=ABOUT#OS_VERSION_CELL_ID`
+- Algemeen → Info → Modelnaam: `bridge:root=GENERAL_LINK&path=ABOUT#DEVICE_MARKETING_NAME_CELL_ID`
+- Algemeen → Info → Details over model: `bridge:root=GENERAL_LINK&path=ABOUT#DEVICE_DETAIL_CELL_ID`
+- Algemeen → Info → Modelnummer: `bridge:root=GENERAL_LINK&path=ABOUT#DEVICE_MODEL_CELL_ID`
+- Algemeen → Info → Serienummer: `bridge:root=GENERAL_LINK&path=ABOUT#DEVICE_SERIAL_NUMBER_CELL_ID`
+- Algemeen → Info → Nummers: `bridge:root=GENERAL_LINK&path=ABOUT#SONGS_CELL_ID`
+- Algemeen → Info → Foto's: `bridge:root=GENERAL_LINK&path=ABOUT#PHOTOS_CELL_ID`
+- Algemeen → Info → Apps: `bridge:root=GENERAL_LINK&path=ABOUT#APPLICATIONS_CELL_ID`
+- Algemeen → Info → Capaciteit: `bridge:root=GENERAL_LINK&path=ABOUT#STORAGE_CAPACITY_CELL_ID`
+- Algemeen → Info → Beschikbaar: `bridge:root=GENERAL_LINK&path=ABOUT#STORAGE_AVAILABLE_CELL_ID`
+- Algemeen → Info → Aanbieder: `bridge:root=GENERAL_LINK&path=ABOUT#CARRIER_CELL_ID`
+- Algemeen → Info → Bluetooth: `bridge:root=GENERAL_LINK&path=ABOUT#DEVICE_BLUETOOTH_ADDRESS_CELL_ID`
+- Algemeen → Info → IMEI: `bridge:root=GENERAL_LINK&path=ABOUT#IMEI_CELL_ID`
+- Algemeen → Info → ICCID: `bridge:root=GENERAL_LINK&path=ABOUT#ICCID_CELL_ID`
+- Algemeen → Info → EID: `bridge:root=GENERAL_LINK&path=ABOUT/EID_CELL_ID`
+- Algemeen → Info → SEID: `bridge:root=GENERAL_LINK&path=ABOUT/DEVICE_SEID_CELL_ID`
+- Algemeen → Info → Juridische informatie: `bridge:root=GENERAL_LINK&path=ABOUT/LEGAL_CELL_ID`
+- Algemeen → Info → Bekijk de Apple Watch-handleiding : `bridge:root=GENERAL_LINK&path=ABOUT#SHOW_MANUAL_CELL_ID`
+- Algemeen → Software-update: `bridge:root=GENERAL_LINK&path=SOFTWARE_UPDATE_LINK`
+- Algemeen → Installeer apps automatisch: `bridge:root=GENERAL_LINK#AUTO_APP_INSTALL_SWITCH_ID`
+- Algemeen → Vliegtuigmodus: `bridge:root=GENERAL_LINK&path=AIRPLANE_MODE_ID`
+- Algemeen → Focus: `bridge:root=GENERAL_LINK&path=FOCUS_ID`
+- Algemeen → Focus → Match iPhone: `bridge:root=GENERAL_LINK&path=FOCUS_ID#Mirror%20my%20iPhone`
+- Algemeen → Draagpositie: `bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION_ID`
+- Algemeen → Draagpositie → Draagpositie Apple Watch: `bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION_ID#WRIST_CHOICE_ID`
+- Algemeen → Draagpositie → Linkerpols: `bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION_ID#LEFT_HAND_ID`
+- Algemeen → Draagpositie → Rechterpols: `bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION_ID#RIGHT_HAND_ID`
+- Algemeen → Draagpositie → Digital Crown links: `bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION_ID#LISA_ON_LEFT_ID`
+- Algemeen → Draagpositie → Digital Crown rechts: `bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION_ID#LISA_ON_RIGHT_ID`
+- Algemeen → Apple Account: `bridge:root=GENERAL_LINK&path=LINK_WITH_ICLOUD_LINK`
+- Algemeen → Schakel dicteerfunctie in: `bridge:root=GENERAL_LINK#DICTATION_CELL_ID`
+- Algemeen → Automatische leestekens: `bridge:root=GENERAL_LINK#DICTATION_AUTO_PUNCTUATION_CELL_ID`
+- Algemeen → Schakel Handoff in: `bridge:root=GENERAL_LINK#CONTINUITY_ID`
+- Algemeen → Nachtklokmodus: `bridge:root=GENERAL_LINK#NIGHTSTAND_CELL_ID`
+- Algemeen → Maak schermafbeeldingen: `bridge:root=GENERAL_LINK#BUTTON_CHORD_CELL_ID`
+- Algemeen → Opslag | Spaarstand | Stand-by | Tijd sinds laatste volle batterij: `bridge:root=GENERAL_LINK&path=USAGE_LINK`
+- Algemeen → Profiel: `bridge:root=GENERAL_LINK&path=ManagedConfigurationList`
+- Algemeen → Diagnostische logs: `bridge:root=GENERAL_LINK&path=DIAGNOSTIC_LOG_BROWSER`
+- Algemeen → Diagnostische logs → Laden…: `bridge:root=GENERAL_LINK&path=DIAGNOSTIC_LOG_BROWSER#Loading%E2%80%A6`
+- Algemeen → Kopieer Watch-analyse: `bridge:root=GENERAL_LINK#LOGS_CELL_ID`
+- Algemeen → Stel opnieuw in: `bridge:root=GENERAL_LINK&path=RESET_ID`
+- Algemeen → TERUG NAAR KLOK: `bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK_ID`
+- Algemeen → TERUG NAAR KLOK → TERUG NAAR KLOK: `bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK_ID#CSLPRFReturnToClockGroupID`
+- Algemeen → TERUG NAAR KLOK → Altijd: `bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK_ID#RETURN_TO_CLOCK_ALWAYS`
+- Algemeen → TERUG NAAR KLOK → Na 2 minuten: `bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK_ID#RETURN_TO_CLOCK_AFTER_2_MINUTES`
+- Algemeen → TERUG NAAR KLOK → Na 1 uur: `bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK_ID#RETURN_TO_CLOCK_AFTER_1_HOUR`
+- Algemeen → TERUG NAAR KLOK → APPS: `bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK_ID#APP_GROUP_ID`
+- Algemeen → Ververs op achtergrond: `bridge:root=GENERAL_LINK&path=BAR_ROW_ID`
+- Algemeen → Ververs op achtergrond → Ververs op achtergrond: `bridge:root=GENERAL_LINK&path=BAR_ROW_ID#BACKGROUND_APP_UPDATING_CELL_ID`
+- Algemeen → Taal en regio: `bridge:root=GENERAL_LINK&path=LANGUAGE_AND_REGION_ID`
+- Algemeen → Taal en regio → Match iPhone: `bridge:root=GENERAL_LINK&path=LANGUAGE_AND_REGION_ID#MIRROR_MY_COMPANION_ID`
+- Algemeen → Taal en regio → Aangepast: `bridge:root=GENERAL_LINK&path=LANGUAGE_AND_REGION_ID#CUSTOM_ID`
+- Algemeen → Start automatisch indien ondergedompeld: `bridge:root=GENERAL_LINK&path=AUTO_LAUNCH`
+- Algemeen → Start automatisch: `bridge:root=GENERAL_LINK&path=AUTO_LAUNCH_ID`
+- Algemeen → Wake Screen: `bridge:root=GENERAL_LINK&path=WAKE_SCREEN`
+- Algemeen → Wake Screen → Huidige: `bridge:root=GENERAL_LINK&path=WAKE_SCREEN#AUTO_LAUNCH_MEDIA`
+- Horen en voelen: `bridge:root=SOUNDS_ID`
+- Horen en voelen → Meldingsvolume: `bridge:root=SOUNDS_ID#AUDIO_SLIDER`
+- Horen en voelen → Beltoon en meldingen: `bridge:root=SOUNDS_ID#RINGTONE_AND_ALERTS_SECTION_TITLE`
+- Horen en voelen → Stille modus: `bridge:root=SOUNDS_ID#audio_mute_switch`
+- Horen en voelen → Pas volume automatisch aan: `bridge:root=SOUNDS_ID#contextual_volume_switch`
+- Horen en voelen → Niveau: `bridge:root=SOUNDS_ID&path=contextual_volume_profile`
+- Horen en voelen → Niveau → Harder: `bridge:root=SOUNDS_ID&path=contextual_volume_profile#CONTEXTUAL_VOLUME_PROFILE_LOUDER_ID`
+- Horen en voelen → Niveau → Standaard: `bridge:root=SOUNDS_ID&path=contextual_volume_profile#CONTEXTUAL_VOLUME_PROFILE_DEFAULT_ID`
+- Horen en voelen → Niveau → Zachter: `bridge:root=SOUNDS_ID&path=contextual_volume_profile#CONTEXTUAL_VOLUME_PROFILE_QUIETER_ID`
+- Horen en voelen → Voelen: `bridge:root=SOUNDS_ID&path=HAPTICS_ID`
+- Horen en voelen → Voelen → Uit: `bridge:root=SOUNDS_ID&path=HAPTICS_ID#OFF_ITEM_ID`
+- Horen en voelen → Voelen → Standaard: `bridge:root=SOUNDS_ID&path=HAPTICS_ID#DEFAULT_ITEM_ID`
+- Horen en voelen → Voelen → Prominent: `bridge:root=SOUNDS_ID&path=HAPTICS_ID#PROMINENT_ITEM_ID`
+- Horen en voelen → Beltoon: `bridge:root=SOUNDS_ID&path=SOUND_AND_HAPTIC_PATTERNS_RINGTONE_ID`
+- Horen en voelen → Sms-toon: `bridge:root=SOUNDS_ID&path=SOUND_AND_HAPTIC_PATTERNS_TEXTTONE_ID`
+- Horen en voelen → Nieuwe e‑mail: `bridge:root=SOUNDS_ID&path=SOUND_AND_HAPTIC_PATTERNS_NEWMAIL_ID`
+- Horen en voelen → Agendameldingen: `bridge:root=SOUNDS_ID&path=SOUND_AND_HAPTIC_PATTERNS_CALENDARALERTS_ID`
+- Horen en voelen → Herinneringsmeldingen: `bridge:root=SOUNDS_ID&path=SOUND_AND_HAPTIC_PATTERNS_REMINDERALERTS_ID`
+- Horen en voelen → Standaardmeldingen: `bridge:root=SOUNDS_ID&path=SOUND_AND_HAPTIC_PATTERNS_DEFAULTALERTS_ID`
+- Horen en voelen → Koptelefoongeluid: `bridge:root=SOUNDS_ID#HEADPHONE_AUDIO_GROUP`
+- Horen en voelen → Koptelefoonveiligheid: `bridge:root=SOUNDS_ID&path=HEADPHONE_LEVEL_LIMIT_SETTING`
+- Horen en voelen → Koptelefoonveiligheid → Koptelefoon­meldingen: `bridge:root=SOUNDS_ID&path=HEADPHONE_LEVEL_LIMIT_SETTING#COSHeadphoneNotificationsSwitchKey`
+- Horen en voelen → Koptelefoonveiligheid → Verminder harde geluiden: `bridge:root=SOUNDS_ID&path=HEADPHONE_LEVEL_LIMIT_SETTING#COSHeadphoneLevelLimitSwitchKey`
+- Horen en voelen → Systeemgeluiden en voelbare signalen: `bridge:root=SOUNDS_ID#JACKRABBIT_GROUP_ID`
+- Horen en voelen → Voelbare signalen via Crown: `bridge:root=SOUNDS_ID#JACKRABBIT_ID`
+- Horen en voelen → Voelbare systeemsignalen: `bridge:root=SOUNDS_ID#SYSTEM_HAPTICS_ID`
+- SOS-noodmelding: `bridge:root=SOS_MODE_ID`
+- Privacy: `bridge:root=PRIVACY_ID`
+- Privacy → Polstemperatuur: `bridge:root=PRIVACY_ID#WRIST_TEMPERATURE_SWITCH_ID`
+- Schermtijd: `bridge:root=SCREEN_TIME_ID`
+- Nike Run Club: `bridge:root=VICTORY_ROW_ID`
+- Nike Run Club → Toon app op de Apple Watch: `bridge:root=VICTORY_ROW_ID#SHOWS_ON_GIZMO`
+- Tips: `bridge:root=com.apple.NanoTipsBridgeSettings`
+- Tips → Sta meldingen toe: `bridge:root=com.apple.NanoTipsBridgeSettings#ALLOW_NOTIFICATIONS_ID`
+- Tips → Stuur naar meldingencentrum: `bridge:root=com.apple.NanoTipsBridgeSettings#SEND_TO_NOTIFICATION_CENTER_ID`
+- Tips → Meldingen uit: `bridge:root=com.apple.NanoTipsBridgeSettings#NOTIFICATIONS_OFF_ID`
+- Tips → Meldingen groeperen: `bridge:root=com.apple.NanoTipsBridgeSettings&path=NOTIFICATION_COALESCING_ID`
+- Klok: `bridge:root=com.apple.NanoClockBridgeSettings`
+- Klok → 24 uursklok: `bridge:root=com.apple.NanoClockBridgeSettings#24-Hour%20Time`
+- Klok → Buisklokken: `bridge:root=com.apple.NanoClockBridgeSettings#Chimes`
+- Klok → Geluiden: `bridge:root=com.apple.NanoClockBridgeSettings&path=Sounds`
+- Klok → Geluiden → Klokken: `bridge:root=com.apple.NanoClockBridgeSettings&path=Sounds#Bells`
+- Klok → Geluiden → Vogels: `bridge:root=com.apple.NanoClockBridgeSettings&path=Sounds#Birds`
+- Klok → Spreek tijd uit: `bridge:root=com.apple.NanoClockBridgeSettings#Speak%20Time`
+- Klok → Regel met stille modus: `bridge:root=com.apple.NanoClockBridgeSettings#Control%20With%20Silent%20Mode`
+- Klok → Spreek altijd uit: `bridge:root=com.apple.NanoClockBridgeSettings#Always%20Speak`
+- Klok → Voelbare tijd: `bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time`
+- Klok → Voelbare tijd → Voelbare tijd: `bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time#Taptic%20Time`
+- Klok → Voelbare tijd → Cijfers: `bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time#Digits`
+- Klok → Voelbare tijd → Kort: `bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time#Terse`
+- Klok → Voelbare tijd → Morsecode: `bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time#Morse%20Code`
+- Klok → Push iPhone-meldingen: `bridge:root=com.apple.NanoClockBridgeSettings#Push%20Alerts%20from%20iPhone`
+- Klok → Meldingsaanduiding: `bridge:root=com.apple.NanoClockBridgeSettings#Notifications%20Indicator`
+- Klok → Monogram: `bridge:root=com.apple.NanoClockBridgeSettings&path=MONOGRAM_ID`
+- Klok → Meldingen over wijzer­plaat: `bridge:root=com.apple.NanoClockBridgeSettings#Watch%20Face%20Notifications`
+- Klok → Afgekorte steden: `bridge:root=com.apple.NanoClockBridgeSettings&path=City%20Abbreviations`
+- Klok → Gegevensbronnen voor Siri-wijzerplaat: `bridge:root=com.apple.NanoClockBridgeSettings&path=Siri%20Face%20Data%20Sources`
+- Actieknop: `bridge:root=ACTION_BUTTON_ID`
+- Actieknop → Gebaren | Taak: `bridge:root=ACTION_BUTTON_ID#StingSystemSettingsActionTypeGroupID`
+- Actieknop → Work‑out: `bridge:root=ACTION_BUTTON_ID&path=StingSystemSettingsActionTypeItem`
+- Actieknop → Work‑out → Geen: `bridge:root=ACTION_BUTTON_ID&path=StingSystemSettingsActionTypeItem#StingSystemSettingsSelectedActionTypeItem`
+- Actieknop → Eerste keer drukken: `bridge:root=ACTION_BUTTON_ID#StingSystemSettingsWorkoutGroupID`
+- Actieknop → Wissel snel: `bridge:root=ACTION_BUTTON_ID&path=ShowQuickSwitch`
+- Actieknop → Wissel snel → Wissel snel: `bridge:root=ACTION_BUTTON_ID&path=ShowQuickSwitch#StingQuickSwitchToggleGroup`
+- Actieknop → Wissel snel → Wissel snel: `bridge:root=ACTION_BUTTON_ID&path=ShowQuickSwitch#Quick%20Switch`
+- Actieknop → Wissel snel → Inbegrepen apps: `bridge:root=ACTION_BUTTON_ID&path=ShowQuickSwitch#StingQuickSwitchAppGroup`
+- Geluid: `bridge:root=com.apple.Noise.settings`
+- Geluid → Geluidsmetingen (omgeving): `bridge:root=com.apple.Noise.settings#ENABLE_MEASUREMENTS_ID`
+- Geluid → Geluidsmeldingen: `bridge:root=com.apple.Noise.settings#LOUD_NOTIFICATION_GROUP_ID`
+- Geluid → Geluidsdrempel: `bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID`
+- Geluid → Geluidsdrempel → Uit: `bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#OFF`
+- Geluid → Geluidsdrempel → 80 decibel: `bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_80`
+- Geluid → Geluidsdrempel → 85 decibel: `bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_85`
+- Geluid → Geluidsdrempel → 90 decibel: `bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_90`
+- Geluid → Geluidsdrempel → 95 decibel: `bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_95`
+- Geluid → Geluidsdrempel → 100 decibel: `bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_100`
+- Geluid → Meldingen groeperen: `bridge:root=com.apple.Noise.settings&path=NOTIFICATION_COALESCING_ID`
+- Agenda: `bridge:root=com.apple.NanoCalendarBridgeSettings`
+- Agenda → MELDINGEN: `bridge:root=com.apple.NanoCalendarBridgeSettings#MIRROR_RADIO_GROUP_ID`
+- Agenda → Match iPhone: `bridge:root=com.apple.NanoCalendarBridgeSettings#MIRROR_MY_COMPANION_ID`
+- Agenda → Aangepast…: `bridge:root=com.apple.NanoCalendarBridgeSettings#CUSTOM_ID`
+- Agenda → AGENDA'S: `bridge:root=com.apple.NanoCalendarBridgeSettings#CALENDARS_MIRROR_RADIO_GROUP_ID`
+- Agenda → Match iPhone: `bridge:root=com.apple.NanoCalendarBridgeSettings#CALENDARS_MIRROR_MY_COMPANION_ID`
+- Agenda → Aangepast…: `bridge:root=com.apple.NanoCalendarBridgeSettings&path=CALENDARS_CUSTOM_ID`
+- Agenda → Komende activiteiten: `bridge:root=com.apple.NanoCalendarBridgeSettings&path=Upcoming%20Events`
+- Agenda → Uitnodigingen: `bridge:root=com.apple.NanoCalendarBridgeSettings&path=Invitations`
+- Agenda → Reacties genodigden: `bridge:root=com.apple.NanoCalendarBridgeSettings&path=Invitee%20Responses`
+- Agenda → Wijzigingen in gedeelde agenda: `bridge:root=com.apple.NanoCalendarBridgeSettings&path=Shared%20Calendar%20Alerts`
+- Walkietalkie: `bridge:root=com.apple.tincan.settings`
+- Walkietalkie → Sta meldingen toe: `bridge:root=com.apple.tincan.settings#ALLOW_NOTIFICATIONS_ID`
+- Walkietalkie → Stuur naar meldingencentrum: `bridge:root=com.apple.tincan.settings#SEND_TO_NOTIFICATION_CENTER_ID`
+- Walkietalkie → Meldingen uit: `bridge:root=com.apple.tincan.settings#NOTIFICATIONS_OFF_ID`
+- Walkietalkie → Meldingen groeperen: `bridge:root=com.apple.tincan.settings&path=NOTIFICATION_COALESCING_ID`
+- Walkietalkie → Vrienden: `bridge:root=com.apple.tincan.settings#Friends`
+- Siri: `bridge:root=SIRI_WATCH_SETTINGS_ID`
+- Siri → Vraag het aan Siri: `bridge:root=SIRI_WATCH_SETTINGS_ID#ASK_SIRI_GROUP_ID`
+- Siri → Luister naar: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_TRIGGER_ID`
+- Siri → Luister naar → "Siri" of "Hé, Siri": `bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_TRIGGER_ID#HS_JS_ID`
+- Siri → Luister naar → "Hé, Siri": `bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_TRIGGER_ID#HEY_SIRI_ID`
+- Siri → Luister naar → Uit: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_TRIGGER_ID#VOICE_TRIGGER_DISABLED_ID`
+- Siri → Til op om te spreken: `bridge:root=SIRI_WATCH_SETTINGS_ID#RAISE_TO_SPEAK_SWITCH_ID`
+- Siri → Druk op de Digital Crown: `bridge:root=SIRI_WATCH_SETTINGS_ID#DIGITAL_CROWN_SWITCH_ID`
+- Siri → Stuur automatisch berichten: `bridge:root=SIRI_WATCH_SETTINGS_ID#AUTOMATICALLY_SEND_MESSAGES_SWITCH_ID`
+- Siri → Siri-reacties: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=SIRI_RESPONSES_ID`
+- Siri → Siri-reacties → Toon Siri-bijschriften altijd: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=SIRI_RESPONSES_ID#ALWAYS_SHOW_SIRI_CAPTIONS_SWITCH_ID`
+- Siri → Siri-reacties → Toon spraak altijd: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=SIRI_RESPONSES_ID#ALWAYS_SHOW_SPEECH_SWITCH_ID`
+- Siri → Siri-reacties → Stemvolume: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=SIRI_RESPONSES_ID#CONSIDERATE_VOLUME_GROUP_ID`
+- Siri → Siri-reacties → Pas volume automatisch aan: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=SIRI_RESPONSES_ID#CONSIDERATE_VOLUME_SWITCH_ID`
+- Siri → Siri-reacties → Niveau: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=SIRI_RESPONSES_ID/CONSIDERATE_VOLUME_PROFILE_ID`
+- Siri → Siri-reacties → Niveau → Harder: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=SIRI_RESPONSES_ID/CONSIDERATE_VOLUME_PROFILE_ID#CONSIDERATE_VOLUME_PROFILE_LOUDER_ID`
+- Siri → Siri-reacties → Niveau → Standaard: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=SIRI_RESPONSES_ID/CONSIDERATE_VOLUME_PROFILE_ID#CONSIDERATE_VOLUME_PROFILE_DEFAULT_ID`
+- Siri → Siri-reacties → Niveau → Zachter: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=SIRI_RESPONSES_ID/CONSIDERATE_VOLUME_PROFILE_ID#CONSIDERATE_VOLUME_PROFILE_QUIETER_ID`
+- Siri → Gesproken feedback: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_FEEDBACK_ID`
+- Siri → Gesproken feedback → Altijd ingeschakeld: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_FEEDBACK_ID#VOICE_FEEDBACK_ALWAYS_ON_ID`
+- Siri → Gesproken feedback → Regel met stille modus: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_FEEDBACK_ID#VOICE_FEEDBACK_CONTROL_WITH_SILENT_MODE_ID`
+- Siri → Gesproken feedback → Alleen koptelefoon: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_FEEDBACK_ID#VOICE_FEEDBACK_HEADPHONES_ONLY_ID`
+- Siri → Stemvolume: `bridge:root=SIRI_WATCH_SETTINGS_ID#VOICE_VOLUME_GROUP_ID`
+- Siri → Siri-suggesties: `bridge:root=SIRI_WATCH_SETTINGS_ID#ASSISTANT_SUGGESTIONS_GROUP_ID`
+- Work‑out: `bridge:root=com.apple.SessionTrackerAppSettings`
+- Work‑out → Toon doelwaarde: `bridge:root=com.apple.SessionTrackerAppSettings#PRO_SETTING_ENABLED_LABEL`
+- Work‑out → Work‑outweergave: `bridge:root=com.apple.SessionTrackerAppSettings&path=METRIC_VIEW_ID`
+- Work‑out → Autom. pauze: `bridge:root=com.apple.SessionTrackerAppSettings&path=AUTO_PAUSE_ID`
+- Work‑out → Autom. pauze → Autom. pauze: `bridge:root=com.apple.SessionTrackerAppSettings&path=AUTO_PAUSE_ID#WorkoutAutoPauseSwitch`
+- Work‑out → Herinnering om te starten: `bridge:root=com.apple.SessionTrackerAppSettings#AUTO_START_WORKOUT_NOTIFICATIONS_ENABLED_LABEL`
+- Work‑out → Herinnering om te stoppen: `bridge:root=com.apple.SessionTrackerAppSettings#END_REMINDERS_ENABLED_LABEL`
+- Work‑out → Druk om te pauzeren: `bridge:root=com.apple.SessionTrackerAppSettings#CHORD_PRESS_PAUSE_WORKOUT_ENABLED_LABEL`
+- Work‑out → Detecteer fitnessapparaat: `bridge:root=com.apple.SessionTrackerAppSettings#NFC_ENABLED_LABEL_ID`
+- Work‑out → Tempo/snelheid: `bridge:root=com.apple.SessionTrackerAppSettings&path=PACE_VIEW_LABEL`
+- Work‑out → Tempo/snelheid → Huidige: `bridge:root=com.apple.SessionTrackerAppSettings&path=PACE_VIEW_LABEL#CURRENT_PACE_ID`
+- Work‑out → Tempo/snelheid → Gemiddelde: `bridge:root=com.apple.SessionTrackerAppSettings&path=PACE_VIEW_LABEL#AVERAGE_PACE_ID`
+- Work‑out → Work-outafspeellijst: `bridge:root=com.apple.SessionTrackerAppSettings&path=MUSIC_AUTOSTART_TITLE_ID`
+- Work‑out → Work-outafspeellijst → Geen: `bridge:root=com.apple.SessionTrackerAppSettings&path=MUSIC_AUTOSTART_TITLE_ID#NONE_AUTOSTART_ID`
+- Work‑out → Work-outafspeellijst → Afspeellijsten: `bridge:root=com.apple.SessionTrackerAppSettings&path=MUSIC_AUTOSTART_TITLE_ID#MUSIC_PLAYLIST_GROUP_ID`
+- Work‑out → Speel af vanaf begin: `bridge:root=com.apple.SessionTrackerAppSettings#WORKOUT_MUSIC_PLAY_FROM_BEGINNING_SETTING_ID`
+- Work‑out → Shuffle: `bridge:root=com.apple.SessionTrackerAppSettings#WORKOUT_MUSIC_SHUFFLE_SETTING_ID`
+- Work‑out → Meet­eenheden: `bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID`
+- Work‑out → Meet­eenheden → Calorieën: `bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#ENERGY_UNITS_CALORIES_ID`
+- Work‑out → Meet­eenheden → Kilo­calorieën: `bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#ENERGY_UNITS_KILOCALORIES_ID`
+- Work‑out → Meet­eenheden → Kilojoules: `bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#ENERGY_UNITS_KILOJOULES_ID`
+- Work‑out → Meet­eenheden → Yard: `bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#POOL_LENGTH_YARDS_ID`
+- Work‑out → Meet­eenheden → Meter: `bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#POOL_LENGTH_METERS_ID`
+- Work‑out → Meet­eenheden → Mijl: `bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#CYCLING_WORKOUTS_MILES_ID`
+- Work‑out → Meet­eenheden → Kilometer: `bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#CYCLING_WORKOUTS_KILOMETERS_ID`
+- Work‑out → Meet­eenheden → Mijl: `bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#WALKING_AND_RUNNING_WORKOUTS_MILES_ID`
+- Work‑out → Meet­eenheden → Kilometer: `bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#WALKING_AND_RUNNING_WORKOUTS_KILOMETERS_ID`
+- Work‑out → Gesproken feedback: `bridge:root=com.apple.SessionTrackerAppSettings#WORKOUT_VOICE_FEEDBACK_LABEL`
+- Work‑out → Tijd om te wandelen: `bridge:root=com.apple.SessionTrackerAppSettings#GUIDED_WORKOUT_PREFETCH_FOOTER_ID`
+- Work‑out → Voeg nieuwe work-outs toe aan Watch: `bridge:root=com.apple.SessionTrackerAppSettings#GUIDED_WORKOUT_PREFETCH_LABEL_ID`
+- Work‑out → Energiebesparingsmodus: `bridge:root=com.apple.SessionTrackerAppSettings#LOW_POWER_MODE`
+- Berichten: `bridge:root=com.apple.MessagesBridgeSettings`
+- Berichten → Match iPhone: `bridge:root=com.apple.MessagesBridgeSettings#MIRROR_MY_COMPANION_ID`
+- Berichten → Aangepast: `bridge:root=com.apple.MessagesBridgeSettings#CUSTOM_ID`
+- Berichten → Standaardantwoorden: `bridge:root=com.apple.MessagesBridgeSettings&path=DEFAULT_REPLIES`
+- Berichten → Standaardantwoorden → Standaardantwoorden: `bridge:root=com.apple.MessagesBridgeSettings&path=DEFAULT_REPLIES#Default%20Replies`
+- Berichten → Standaardantwoorden → Slimme antwoorden: `bridge:root=com.apple.MessagesBridgeSettings&path=DEFAULT_REPLIES#Smart%20Replies`
+- Berichten → Standaardantwoorden → Voeg antwoord toe…: `bridge:root=com.apple.MessagesBridgeSettings&path=DEFAULT_REPLIES#Add%20reply%E2%80%A6`
+- Berichten → Herhaal meldingen: `bridge:root=com.apple.MessagesBridgeSettings&path=PLAY_ALERT_TONE`
+- Berichten → Audioberichten: `bridge:root=com.apple.MessagesBridgeSettings&path=AudioMessagesMode`
+- Schooltijd: `bridge:root=SCHOOLTIME`
+- Schooltijd → Schooltijd: `bridge:root=SCHOOLTIME#SCHEDULE_FEATURE_ACTIVE_TITLE`
+- Draagdetectie | Eenvoudige code | Ontgrendel met iPhone | Toegangscode | Wijzig toegangscode | Wis gegevens | Zet code aan | Zet code uit: `bridge:root=PASSCODE_ID`
+- Draagdetectie | Eenvoudige code | Ontgrendel met iPhone | Toegangscode | Wijzig toegangscode | Wis gegevens | Zet code aan | Zet code uit → Zet code aan: `bridge:root=PASSCODE_ID#TOGGLE_PASSCODE_ID`
+- Draagdetectie | Eenvoudige code | Ontgrendel met iPhone | Toegangscode | Wijzig toegangscode | Wis gegevens | Zet code aan | Zet code uit → Wijzig toegangscode: `bridge:root=PASSCODE_ID#CHANGE_PASSCODE_ID`
+- Draagdetectie | Eenvoudige code | Ontgrendel met iPhone | Toegangscode | Wijzig toegangscode | Wis gegevens | Zet code aan | Zet code uit → Eenvoudige code: `bridge:root=PASSCODE_ID#SIMPLE_PASSCODE_SWITCH_ID`
+- Draagdetectie | Eenvoudige code | Ontgrendel met iPhone | Toegangscode | Wijzig toegangscode | Wis gegevens | Zet code aan | Zet code uit → Ontgrendel met iPhone: `bridge:root=PASSCODE_ID#AUTO_UNLOCK_SWITCH_ID`
+- Draagdetectie | Eenvoudige code | Ontgrendel met iPhone | Toegangscode | Wijzig toegangscode | Wis gegevens | Zet code aan | Zet code uit → Wis gegevens: `bridge:root=PASSCODE_ID#ERASE_DATA_SWITCH_ID`
+- Draagdetectie | Eenvoudige code | Ontgrendel met iPhone | Toegangscode | Wijzig toegangscode | Wis gegevens | Zet code aan | Zet code uit → Draagdetectie: `bridge:root=PASSCODE_ID#WRIST_DETECTION_CELL_ID`
+- Draagdetectie | Eenvoudige code | Ontgrendel met iPhone | Toegangscode | Wijzig toegangscode | Wis gegevens | Zet code aan | Zet code uit → Complicaties: `bridge:root=PASSCODE_ID#SHOW_COMPLICATION_DATA_WHEN_LOCKED_GROUP_ID`
+- Draagdetectie | Eenvoudige code | Ontgrendel met iPhone | Toegangscode | Wijzig toegangscode | Wis gegevens | Zet code aan | Zet code uit → Toon gegevens bij vergrendeling: `bridge:root=PASSCODE_ID#SHOW_COMPLICATION_DATA_WHEN_LOCKED_SWITCH_ID`
+- Mail: `bridge:root=com.apple.NanoMailBridgeSettings`
+- Mail → Match iPhone: `bridge:root=com.apple.NanoMailBridgeSettings#MIRROR_MY_COMPANION_ID`
+- Mail → Aangepast: `bridge:root=com.apple.NanoMailBridgeSettings#CUSTOM_ID`
+- Mail → Mail-instellingen: `bridge:root=com.apple.NanoMailBridgeSettings#Mail%20Settings`
+- Mail → Accounts: `bridge:root=com.apple.NanoMailBridgeSettings&path=Accounts`
+- Mail → Voeg Mail toe: `bridge:root=com.apple.NanoMailBridgeSettings&path=Include%20Mail`
+- Mail → Voorvertoning bericht: `bridge:root=com.apple.NanoMailBridgeSettings&path=Message%20Preview`
+- Mail → Voorvertoning bericht → Geen: `bridge:root=com.apple.NanoMailBridgeSettings&path=Message%20Preview#0`
+- Mail → Voorvertoning bericht → 1 regel: `bridge:root=com.apple.NanoMailBridgeSettings&path=Message%20Preview#1`
+- Mail → Voorvertoning bericht → 2 regels: `bridge:root=com.apple.NanoMailBridgeSettings&path=Message%20Preview#2`
+- Mail → Standaardantwoorden: `bridge:root=com.apple.NanoMailBridgeSettings&path=Default%20Replies`
+- Mail → Standaardantwoorden → Standaardantwoorden: `bridge:root=com.apple.NanoMailBridgeSettings&path=Default%20Replies#Default%20Replies`
+- Mail → Standaardantwoorden → Voeg antwoord toe…: `bridge:root=com.apple.NanoMailBridgeSettings&path=Default%20Replies#Add%20reply%E2%80%A6`
+- Mail → Handtekening: `bridge:root=com.apple.NanoMailBridgeSettings&path=Signature`
+- Aandelen | Geselecteerd aandeel Siri-kaart | Huidige prijs | Marktkap. | Procentuele wijziging | Puntenwijziging: `bridge:root=com.apple.StocksBridgeSettings`
+- Aandelen | Geselecteerd aandeel Siri-kaart | Huidige prijs | Marktkap. | Procentuele wijziging | Puntenwijziging → Wijzer­plaat­complicatie toont: `bridge:root=com.apple.StocksBridgeSettings#Clock%20Face%20Complication%20Shows`
+- Aandelen | Geselecteerd aandeel Siri-kaart | Huidige prijs | Marktkap. | Procentuele wijziging | Puntenwijziging → Huidige prijs: `bridge:root=com.apple.StocksBridgeSettings#Current%20Price`
+- Aandelen | Geselecteerd aandeel Siri-kaart | Huidige prijs | Marktkap. | Procentuele wijziging | Puntenwijziging → Puntenwijziging: `bridge:root=com.apple.StocksBridgeSettings#Points%20Change`
+- Aandelen | Geselecteerd aandeel Siri-kaart | Huidige prijs | Marktkap. | Procentuele wijziging | Puntenwijziging → Procentuele wijziging: `bridge:root=com.apple.StocksBridgeSettings#Percentage%20Change`
+- Aandelen | Geselecteerd aandeel Siri-kaart | Huidige prijs | Marktkap. | Procentuele wijziging | Puntenwijziging → Marktkap.: `bridge:root=com.apple.StocksBridgeSettings#Market%20Cap`
+- Aandelen | Geselecteerd aandeel Siri-kaart | Huidige prijs | Marktkap. | Procentuele wijziging | Puntenwijziging → Siri-wijzer­plaat toont koers voor: `bridge:root=com.apple.StocksBridgeSettings#Siri%20Face%20Shows%20Quote%20For`
+- Aandelen | Geselecteerd aandeel Siri-kaart | Huidige prijs | Marktkap. | Procentuele wijziging | Puntenwijziging → Geselecteerd aandeel: `bridge:root=com.apple.StocksBridgeSettings&path=Selected%20Stock`
+- Aandelen | Geselecteerd aandeel Siri-kaart | Huidige prijs | Marktkap. | Procentuele wijziging | Puntenwijziging → Geselecteerd aandeel → Geselecteerd aandeel: `bridge:root=com.apple.StocksBridgeSettings&path=Selected%20Stock#Selected%20Stock`
+- Activiteit: `bridge:root=com.apple.HealthAppsSettings`
+- Activiteit → Voortgangsinfo: `bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL`
+- Activiteit → Voortgangsinfo → Geen: `bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#ZERO_HOURS_ID`
+- Activiteit → Voortgangsinfo → Elke 2 uur: `bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#TWO_HOURS_ID`
+- Activiteit → Voortgangsinfo → Elke 4 uur: `bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#FOUR_HOURS_ID`
+- Activiteit → Voortgangsinfo → Elke 6 uur: `bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#SIX_HOURS_ID`
+- Activiteit → Voortgangsinfo → Elke 8 uur: `bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#EIGHT_HOURS_ID`
+- Activiteit → Prestaties: `bridge:root=com.apple.HealthAppsSettings#ACHIEVEMENTS_ENABLED_LABEL`
+- Activiteit → Weekoverzicht: `bridge:root=com.apple.HealthAppsSettings#WEEKLY_SUMMARY_ENABLED_LABEL`
+- Activiteit → Dagelijkse begeleiding: `bridge:root=com.apple.HealthAppsSettings#DAILY_PROGRESS_ENABLED_LABEL`
+- Activiteit → Behaalde doelen: `bridge:root=com.apple.HealthAppsSettings#GOAL_COMPLETIONS_ENABLED_LABEL`
+- Activiteit → Speciale uitdagingen: `bridge:root=com.apple.HealthAppsSettings#REMOTE_ACHIEVEMENTS_ENABLED_LABEL`
+- Activiteit → Activiteit-delingsmeldingen: `bridge:root=com.apple.HealthAppsSettings#ACTIVITY_SHARING_NOTIFICATIONS_ENABLED`
+- Slimme stapel: `bridge:root=SMARTSTACK_LINK`
+- Weer: `bridge:root=com.apple.weatherbridgesettings`
+- Weer → Standaardplaats: `bridge:root=com.apple.weatherbridgesettings&path=Default%20City`
+- Weer → Standaardplaats → Standaardplaats: `bridge:root=com.apple.weatherbridgesettings&path=Default%20City#Default%20City`
+- Weer → Standaardplaats → Huidige locatie: `bridge:root=com.apple.weatherbridgesettings&path=Default%20City#Current%20Location`
+- Contacten: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired`
+- Contacten → Sorteervolgorde: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=contactsSortOrder`
+- Contacten → Sorteervolgorde → Voornaam, Achternaam: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=contactsSortOrder#0`
+- Contacten → Sorteervolgorde → Achternaam, Voornaam: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=contactsSortOrder#1`
+- Contacten → Geef weer: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=NSPersonNameDefaultDisplayNameOrder`
+- Contacten → Geef weer → Voornaam, Achternaam: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=NSPersonNameDefaultDisplayNameOrder#1`
+- Contacten → Geef weer → Achternaam, Voornaam: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=NSPersonNameDefaultDisplayNameOrder#2`
+- Contacten → Korte naam: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName`
+- Contacten → Korte naam → Korte naam: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#Short%20Name`
+- Contacten → Korte naam → Voornaam en initiaal achternaam: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#First%20Name%20&%20Last%20Initial`
+- Contacten → Korte naam → Initiaal voornaam en achternaam: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#First%20Initial%20&%20Last%20Name`
+- Contacten → Korte naam → Alleen voornaam: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#First%20Name%20Only`
+- Contacten → Korte naam → Alleen achternaam: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#Last%20Name%20Only`
+- Contacten → Korte naam → Gebruik bijnamen: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#Prefer%20Nicknames`
+- Toegankelijkheid: `bridge:root=ACCESSIBILITY_ID`
+- Toegankelijkheid → Zien: `bridge:root=ACCESSIBILITY_ID#VISION_GROUP`
+- Toegankelijkheid → VoiceOver: `bridge:root=ACCESSIBILITY_ID&path=VOICEOVER_ID`
+- Toegankelijkheid → Vergroot/verklein: `bridge:root=ACCESSIBILITY_ID&path=ZOOM_ID`
+- Toegankelijkheid → Labels voor aan/uit: `bridge:root=ACCESSIBILITY_ID#OnOffLabelsEnabled`
+- Toegankelijkheid → Grijstinten: `bridge:root=ACCESSIBILITY_ID#GrayscaleDisplay`
+- Toegankelijkheid → Maak minder doorzichtig: `bridge:root=ACCESSIBILITY_ID#REDUCE_TRANSPARENCY`
+- Toegankelijkheid → Verhoog contrast: `bridge:root=ACCESSIBILITY_ID#INCREASE_CONTRAST`
+- Toegankelijkheid → Tekstgrootte: `bridge:root=ACCESSIBILITY_ID#TEXT_SIZE`
+- Toegankelijkheid → Vette tekst: `bridge:root=ACCESSIBILITY_ID#BoldTextEnabled`
+- Toegankelijkheid → Minder beweging: `bridge:root=ACCESSIBILITY_ID&path=ReduceMotion`
+- Toegankelijkheid → Buisklokken: `bridge:root=ACCESSIBILITY_ID&path=TapticChimesCell`
+- Toegankelijkheid → Buisklokken → Buisklokken: `bridge:root=ACCESSIBILITY_ID&path=TapticChimesCell#Chimes`
+- Toegankelijkheid → Buisklokken → Schema: `bridge:root=ACCESSIBILITY_ID&path=TapticChimesCell/CHIMES_SCHEDULE_ID`
+- Toegankelijkheid → Buisklokken → Schema → Elk uur: `bridge:root=ACCESSIBILITY_ID&path=TapticChimesCell/CHIMES_SCHEDULE_ID#Hourly`
+- Toegankelijkheid → Buisklokken → Schema → 30 minuten: `bridge:root=ACCESSIBILITY_ID&path=TapticChimesCell/CHIMES_SCHEDULE_ID#30%20minutes`
+- Toegankelijkheid → Buisklokken → Schema → 15 minuten: `bridge:root=ACCESSIBILITY_ID&path=TapticChimesCell/CHIMES_SCHEDULE_ID#15%20minutes`
+- Toegankelijkheid → Buisklokken → Geluiden: `bridge:root=ACCESSIBILITY_ID&path=TapticChimesCell/CHIMES_SOUNDS_ID`
+- Toegankelijkheid → Buisklokken → Geluiden → Klokken: `bridge:root=ACCESSIBILITY_ID&path=TapticChimesCell/CHIMES_SOUNDS_ID#Bells`
+- Toegankelijkheid → Buisklokken → Geluiden → Vogels: `bridge:root=ACCESSIBILITY_ID&path=TapticChimesCell/CHIMES_SOUNDS_ID#Birds`
+- Toegankelijkheid → Motorisch: `bridge:root=ACCESSIBILITY_ID#MotorGroupCell`
+- Toegankelijkheid → Druksnelheid zijknop: `bridge:root=ACCESSIBILITY_ID&path=SideButton`
+- Toegankelijkheid → Druksnelheid zijknop → Druksnelheid: `bridge:root=ACCESSIBILITY_ID&path=SideButton#CLICK_SPEED_GROUP_CELL`
+- Toegankelijkheid → Druksnelheid zijknop → Standaard: `bridge:root=ACCESSIBILITY_ID&path=SideButton#SIDE_CLICK_SPEED_DEFAULT`
+- Toegankelijkheid → Druksnelheid zijknop → Traag: `bridge:root=ACCESSIBILITY_ID&path=SideButton#SIDE_CLICK_SPEED_SLOW`
+- Toegankelijkheid → Druksnelheid zijknop → Traagst: `bridge:root=ACCESSIBILITY_ID&path=SideButton#SIDE_CLICK_SPEED_SLOWEST`
+- Toegankelijkheid → Aangepaste aanraking: `bridge:root=ACCESSIBILITY_ID&path=TouchAccommodationsCell`
+- Toegankelijkheid → Aangepaste aanraking → Aangepaste aanraking: `bridge:root=ACCESSIBILITY_ID&path=TouchAccommodationsCell#TOUCH_ACCOMMODATIONS_SWITCHER`
+- Toegankelijkheid → Aangepaste aanraking → Vasthoudduur: `bridge:root=ACCESSIBILITY_ID&path=TouchAccommodationsCell#HoldDurationGroup`
+- Toegankelijkheid → Aangepaste aanraking → Vasthoudduur: `bridge:root=ACCESSIBILITY_ID&path=TouchAccommodationsCell#HoldDuration`
+- Toegankelijkheid → Aangepaste aanraking → Negeer herhaling: `bridge:root=ACCESSIBILITY_ID&path=TouchAccommodationsCell#IgnoreRepeatGroup`
+- Toegankelijkheid → Aangepaste aanraking → Negeer herhaling: `bridge:root=ACCESSIBILITY_ID&path=TouchAccommodationsCell#IgnoreRepeat`
+- Toegankelijkheid → Aangepaste aanraking → Tikassistentie: `bridge:root=ACCESSIBILITY_ID&path=TouchAccommodationsCell#Tap%20Assistance`
+- Toegankelijkheid → Aangepaste aanraking → Uit: `bridge:root=ACCESSIBILITY_ID&path=TouchAccommodationsCell#OFF`
+- Toegankelijkheid → Aangepaste aanraking → Gebruik positie van eerste aanraking: `bridge:root=ACCESSIBILITY_ID&path=TouchAccommodationsCell#ACTIVATE_ON_TOUCH`
+- Toegankelijkheid → Aangepaste aanraking → Gebruik positie van laatste aanraking: `bridge:root=ACCESSIBILITY_ID&path=TouchAccommodationsCell#ACTIVATE_ON_RELEASE`
+- Toegankelijkheid → Rolstoelactiviteit: `bridge:root=ACCESSIBILITY_ID#MOBILITY`
+- Toegankelijkheid → Walkietalkie: `bridge:root=ACCESSIBILITY_ID#WalkieTalkieTapToTalkGroup`
+- Toegankelijkheid → Tik om te praten: `bridge:root=ACCESSIBILITY_ID#WalkieTalkieTapToTalk`
+- Toegankelijkheid → Appkiezer: `bridge:root=ACCESSIBILITY_ID#AppSwitcherAutoSelectGroup`
+- Toegankelijkheid → Selecteer app met de focus automatisch: `bridge:root=ACCESSIBILITY_ID#AppSwitcherAutoSelect`
+- Toegankelijkheid → Siri: `bridge:root=ACCESSIBILITY_ID&path=SIRI_CELL_ID`
+- Toegankelijkheid → Siri → Typ voor Siri: `bridge:root=ACCESSIBILITY_ID&path=SIRI_CELL_ID#Type%20to%20Siri`
+- Toegankelijkheid → Horen: `bridge:root=ACCESSIBILITY_ID#HEARING`
+- Toegankelijkheid → RTT: `bridge:root=ACCESSIBILITY_ID&path=RTT_ID`
+- Toegankelijkheid → RTT → RTT: `bridge:root=ACCESSIBILITY_ID&path=RTT_ID#RTT_ROW_ID`
+- Toegankelijkheid → Monogeluid: `bridge:root=ACCESSIBILITY_ID#MonoAudioEnabled`
+- Toegankelijkheid → Stereobalans links rechts: `bridge:root=ACCESSIBILITY_ID#LEFT_RIGHT_BALANCE_SPOKEN`
+- Toegankelijkheid → Koptelefoon­meldingen: `bridge:root=ACCESSIBILITY_ID#HeadphoneNotificationsID`
+- Toegankelijkheid → Hoortoestellen: `bridge:root=ACCESSIBILITY_ID#HearingDevicesComplicationGroupID`
+- Toegankelijkheid → Complicatie: `bridge:root=ACCESSIBILITY_ID&path=HearingDevicesComplicationRowID`
+- Toegankelijkheid → Complicatie → Microfoonvolume: `bridge:root=ACCESSIBILITY_ID&path=HearingDevicesComplicationRowID#Mic%20Volume`
+- Toegankelijkheid → Complicatie → Programmeer: `bridge:root=ACCESSIBILITY_ID&path=HearingDevicesComplicationRowID#Program`
+- Toegankelijkheid → Snelheid voelbare tijd: `bridge:root=ACCESSIBILITY_ID#TapticTimeSpeedAdjustmentGroup`
+- Toegankelijkheid → Activeringsknop: `bridge:root=ACCESSIBILITY_ID&path=AX_SHORTCUT_ID`
+- Afslagmeldingen | Kaarten: `bridge:root=com.apple.NanoMapsBridgeSettings`
+- Afslagmeldingen | Kaarten → Afslagmeldingen: `bridge:root=com.apple.NanoMapsBridgeSettings#Turn%20Alerts`
+- Afslagmeldingen | Kaarten → Auto: `bridge:root=com.apple.NanoMapsBridgeSettings#Driving`
+- Afslagmeldingen | Kaarten → Rijden met CarPlay: `bridge:root=com.apple.NanoMapsBridgeSettings#Driving%20with%20CarPlay`
+- Afslagmeldingen | Kaarten → Te voet: `bridge:root=com.apple.NanoMapsBridgeSettings#Walking`
+- Afslagmeldingen | Kaarten → Fietsen: `bridge:root=com.apple.NanoMapsBridgeSettings#Cycling`
+- Afslagmeldingen | Kaarten → Toon navigatie: `bridge:root=com.apple.NanoMapsBridgeSettings#Show%20Navigation`
+- Afslagmeldingen | Kaarten → Openbaar vervoer: `bridge:root=com.apple.NanoMapsBridgeSettings#Transit`
+- Afslagmeldingen | Kaarten → Buildinfo: `bridge:root=com.apple.NanoMapsBridgeSettings#Build%20Info%3A`
+- Mail en Agenda: `bridge:root=com.apple.BridgeRemoteAccounts`
+- Mail en Agenda → Accounts: `bridge:root=com.apple.BridgeRemoteAccounts#Accounts`
+- Mail en Agenda → Voeg Google-account toe…: `bridge:root=com.apple.BridgeRemoteAccounts#ADD_GOOGLE_ACCOUNT`
+- Mail en Agenda → Ophalen: `bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch`
+- Mail en Agenda → Ophalen → Uit: `bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch#Off`
+- Mail en Agenda → Ophalen → Elk uur: `bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch#Hourly`
+- Mail en Agenda → Ophalen → 30 min.: `bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch#30%20min`
+- Mail en Agenda → Ophalen → 15 min.: `bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch#15%20min`
+- Hart: `bridge:root=com.apple.HeartRateSettings`
+- Hart → Hart: `bridge:root=com.apple.HeartRateSettings#1`
+- Hart → Hartslag­meldingen: `bridge:root=com.apple.HeartRateSettings#2`
+- Hart → Hoge hartslag: `bridge:root=com.apple.HeartRateSettings#3`
+- Hart → Lage hartslag: `bridge:root=com.apple.HeartRateSettings#4`
+- Hart → Onregelmatig ritme: `bridge:root=com.apple.HeartRateSettings#5`
+- Hart → Bekijk ecg's in Gezondheid: `bridge:root=com.apple.HeartRateSettings#6`
+- Hart → Ecg: `bridge:root=com.apple.HeartRateSettings#7`
+- App Store: `bridge:root=com.apple.BridgeAppStoreDaemonSettings`
+- App Store → Automatische downloads: `bridge:root=com.apple.BridgeAppStoreDaemonSettings#automaticDownloadSpecifier`
+- App Store → Automatische updates: `bridge:root=com.apple.BridgeAppStoreDaemonSettings#Automatic%20Updates`
+- Gebaren: `bridge:root=ELTON_SETTINGS_ID`
+- Gebaren → Gebaren: `bridge:root=ELTON_SETTINGS_ID#Gestures`
+- Gebaren → Tik dubbel: `bridge:root=ELTON_SETTINGS_ID&path=ELTON_DOUBLE_TAP_ID`
+- Gebaren → Tik dubbel → Tik dubbel: `bridge:root=ELTON_SETTINGS_ID&path=ELTON_DOUBLE_TAP_ID#Double%20Tap`
+- Gebaren → Tik dubbel → Afspelen: `bridge:root=ELTON_SETTINGS_ID&path=ELTON_DOUBLE_TAP_ID#playbackSettingsGroup`
+- Gebaren → Tik dubbel → Speel af/pauzeer: `bridge:root=ELTON_SETTINGS_ID&path=ELTON_DOUBLE_TAP_ID#playbackSettingsPlayPause`
+- Gebaren → Tik dubbel → Sla over: `bridge:root=ELTON_SETTINGS_ID&path=ELTON_DOUBLE_TAP_ID#playbackSettingsSkip`
+- Gebaren → Tik dubbel → Slimme stapel: `bridge:root=ELTON_SETTINGS_ID&path=ELTON_DOUBLE_TAP_ID#smartStackGroup`
+- Gebaren → Tik dubbel → Ga door: `bridge:root=ELTON_SETTINGS_ID&path=ELTON_DOUBLE_TAP_ID#smartStackSettingsAdvance`
+- Gebaren → Tik dubbel → Selecteer: `bridge:root=ELTON_SETTINGS_ID&path=ELTON_DOUBLE_TAP_ID#smartStackSettingsSelect`
+- Gebaren → Tik dubbel → Bij gebruik van de Apple Vision Pro: `bridge:root=ELTON_SETTINGS_ID&path=ELTON_DOUBLE_TAP_ID#ignoreWhileVisionProDonned`
+- Gebaren → Tik dubbel → Negeer 'Tik dubbel': `bridge:root=ELTON_SETTINGS_ID&path=ELTON_DOUBLE_TAP_ID#ignoreDoubleTap`
+- Gebaren → Snelle polsbeweging: `bridge:root=ELTON_SETTINGS_ID#Wrist%20Flick`
+- Gebaren → Bedek voor stilhouden: `bridge:root=ELTON_SETTINGS_ID#Cover%20to%20Mute`
+- Slaap: `bridge:root=com.apple.NanoBedtimeBridgeSettings`
+- Slaap → Configureer Slaap in de Gezondheid-app: `bridge:root=com.apple.NanoBedtimeBridgeSettings#SET_UP_SLEEP_CELL_ID`
+- Gesynchroniseerde muziek | Muziek | Opslaglimiet: `bridge:root=com.apple.NanoMusicBridgeSettings`
+- Gesynchroniseerde muziek | Muziek | Opslaglimiet → AFSPEELLIJSTEN EN ALBUMS: `bridge:root=com.apple.NanoMusicBridgeSettings#PLAYLISTS%20&%20ALBUMS`
+- Gesynchroniseerde muziek | Muziek | Opslaglimiet → Voeg muziek toe…: `bridge:root=com.apple.NanoMusicBridgeSettings#Add%20Music%E2%80%A6`
+- Wallet en Apple Pay: `bridge:root=com.apple.NanoPassbookBridgeSettings`
+- Wallet en Apple Pay → Apple Cash: `bridge:root=com.apple.NanoPassbookBridgeSettings#Apple%C2%A0Cash`
+- Wallet en Apple Pay → Voeg kaart toe: `bridge:root=com.apple.NanoPassbookBridgeSettings#Add%20Card`
+- Wallet en Apple Pay → Meldingen: `bridge:root=com.apple.NanoPassbookBridgeSettings#MIRROR_RADIO_GROUP_ID`
+- Wallet en Apple Pay → Match iPhone: `bridge:root=com.apple.NanoPassbookBridgeSettings#MIRROR_MY_COMPANION_ID`
+- Wallet en Apple Pay → Aangepast: `bridge:root=com.apple.NanoPassbookBridgeSettings#CUSTOM_ID`
+- Gezondheid: `bridge:root=com.apple.BridgeHealthSettings`
+- Zoek mijn Apple Watch: `bridge:root=ActiveWatch`
+- Zoek mijn Apple Watch → Koppel nieuwe Watch: `bridge:root=ActiveWatch&path=Pair%20New%20Watch`
+- Mindfulness: `bridge:root=com.apple.MindSettings`
+- Mindfulness → Sta meldingen toe: `bridge:root=com.apple.MindSettings#ALLOW_NOTIFICATIONS_ID`
+- Mindfulness → Stuur meldingencentrum: `bridge:root=com.apple.MindSettings#SEND_TO_NOTIFICATION_CENTER_ID`
+- Mindfulness → Meldingen uit: `bridge:root=com.apple.MindSettings#NOTIFICATIONS_OFF_ID`
+- Mindfulness → Mindfulness­herinneringen: `bridge:root=com.apple.MindSettings#MIND_GROUP_ID`
+- Mindfulness → Begin van de dag: `bridge:root=com.apple.MindSettings#MIND_START_OF_DAY_REMINDER`
+- Mindfulness → Einde van de dag: `bridge:root=com.apple.MindSettings#MIND_END_OF_DAY_REMINDER`
+- Mindfulness → Voeg herinnering toe…: `bridge:root=com.apple.MindSettings#Add%20Reminder%E2%80%A6`
+- Mindfulness → Weekoverzicht: `bridge:root=com.apple.MindSettings#MIND_WEEKLY_SUMMARY_ID`
+- Mindfulness → Houd vandaag stil: `bridge:root=com.apple.MindSettings#MIND_MUTE_FOR_TODAY_ID`
+- Mindfulness → Ademfrequentie: `bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID`
+- Mindfulness → Ademfrequentie → 4 adem­halingen per minuut: `bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_4`
+- Mindfulness → Ademfrequentie → 5 adem­halingen per minuut: `bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_5`
+- Mindfulness → Ademfrequentie → 6 adem­halingen per minuut: `bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_6`
+- Mindfulness → Ademfrequentie → 7 adem­halingen per minuut: `bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_7`
+- Mindfulness → Ademfrequentie → 8 adem­halingen per minuut: `bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_8`
+- Mindfulness → Ademfrequentie → 9 adem­halingen per minuut: `bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_9`
+- Mindfulness → Ademfrequentie → 10 adem­halingen per minuut: `bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_10`
+- Mindfulness → Voelen: `bridge:root=com.apple.MindSettings&path=MIND_HAPTICS_ID`
+- Mindfulness → Voelen → Geen: `bridge:root=com.apple.MindSettings&path=MIND_HAPTICS_ID#NONE_ID`
+- Mindfulness → Voelen → Minimaal: `bridge:root=com.apple.MindSettings&path=MIND_HAPTICS_ID#MINIMAL_ID`
+- Mindfulness → Voelen → Prominent: `bridge:root=com.apple.MindSettings&path=MIND_HAPTICS_ID#PROMINENT_ID`
+- Podcasts: `bridge:root=com.apple.private.PodcastsBridgeSettings`
+- Telefoon: `bridge:root=com.apple.PhoneBridgeSettings`
+- Telefoon → Oproepen: `bridge:root=com.apple.PhoneBridgeSettings#carrier_direct_calling_group_id`
+- Telefoon → Beltoon: `bridge:root=com.apple.PhoneBridgeSettings#RINGTONE`
+- Telefoon → Geluid: `bridge:root=com.apple.PhoneBridgeSettings#INCOMING_CALL_SOUND`
+- Telefoon → Voelbaar: `bridge:root=com.apple.PhoneBridgeSettings#INCOMING_CALL_HAPTIC`
+- Diepte: `bridge:root=com.apple.DepthCompanionSettings`
+- Actieknop: `bridge:root=STING_TITLE`
+- Aanbieder­instellingen: `bridge:root=CARRIER_SETTINGS`
+- Mobiel netwerk: `bridge:root=CELLULAR_ID`
+- Dock: `bridge:root=DOCK`
+- Dock → Rangschikking Dock: `bridge:root=DOCK#OrderingOptionGroup`
+- Dock → Recent: `bridge:root=DOCK#Recents`
+- Dock → Favorieten: `bridge:root=DOCK#Favorites`
+- Dock: `bridge:root=DOCK.0`
+- Dock → Rangschikking Dock: `bridge:root=DOCK.0#OrderingOptionGroup`
+- Dock → Recent: `bridge:root=DOCK.0#Recents`
+- Dock → Favorieten: `bridge:root=DOCK.0#Favorites`
+- Audioboeken: `bridge:root=com.apple.NanoBooks.BridgeSettings`
+- Audioboeken → Log in: `bridge:root=com.apple.NanoBooks.BridgeSettings#Sign%20In`
+- Fotolimiet | Geselecteerd fotoalbum: `bridge:root=com.apple.mobileslideshow`
+- Stuur leesbewijzen: `bridge:root=com.apple.MessagesBridgeSettings%23READ_RECEIPTS`

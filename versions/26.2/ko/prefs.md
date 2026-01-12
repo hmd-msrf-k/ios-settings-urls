@@ -1,0 +1,414 @@
+- 배터리: `prefs:root=BATTERY_USAGE`
+- 배터리 → 저전력 모드: `prefs:root=BATTERY_USAGE#BATTERY_SAVER_MODE`
+- 배터리 → 배터리 성능 상태: `prefs:root=BATTERY_USAGE#BATTERY_HEALTH_ID`
+- 일반: `prefs:root=General`
+- 일반 → VPN 및 기기 관리: `prefs:root=General&path=ManagedConfigurationList`
+- 일반 → 자동 완성 및 암호: `prefs:root=General&path=AUTOFILL`
+- 일반 → 자동 완성 및 암호 → 암호 자동 완성: `prefs:root=General&path=AUTOFILL#AUTOFILL`
+- 일반 → 자동 완성 및 암호 → 확인 코드 정리: `prefs:root=General&path=AUTOFILL#CLEAN_UP_VERIFICATION_CODES`
+- 일반 → 자동 완성 및 암호 → 확인 코드 설정: `prefs:root=General&path=AUTOFILL#SET_UP_VERIFICATION_CODES`
+- 일반 → AppleCare 및 보증: `prefs:root=General&path=COVERAGE/`
+- 일반 → 사전: `prefs:root=General&path=DICTIONARY`
+- 일반 → 키보드: `prefs:root=General&path=Keyboard`
+- 일반 → 키보드 → 키보드: `prefs:root=General&path=Keyboard/KEYBOARDS`
+- 일반 → 키보드 → 텍스트 대치: `prefs:root=General&path=Keyboard/USER_DICTIONARY`
+- 일반 → 키보드 → 자동 대문자: `prefs:root=General&path=Keyboard#KeyboardAutocapitalization`
+- 일반 → 키보드 → 자동 수정: `prefs:root=General&path=Keyboard#KeyboardAutocorrection`
+- 일반 → 키보드 → 맞춤법 검사: `prefs:root=General&path=Keyboard#KeyboardCheckSpelling`
+- 일반 → 키보드 → Caps Lock 활성화: `prefs:root=General&path=Keyboard#KeyboardCapsLock`
+- 일반 → 키보드 → 단축키: `prefs:root=General&path=Keyboard#KeyboardAssistant`
+- 일반 → 키보드 → 자동 완성: `prefs:root=General&path=Keyboard#KeyboardPrediction`
+- 일반 → 키보드 → 스마트 구두점: `prefs:root=General&path=Keyboard#SmartTyping`
+- 일반 → 키보드 → 키보드 분리: `prefs:root=General&path=Keyboard#RivenKeyboard`
+- 일반 → 키보드 → 키 휙 넘기기 활성화: `prefs:root=General&path=Keyboard#GesturesEnabled`
+- 일반 → 키보드 → 문자 미리보기: `prefs:root=General&path=Keyboard#KeyboardAllowPaddle`
+- 일반 → 키보드 → ‘.’ 단축키: `prefs:root=General&path=Keyboard#KeyboardPeriodShortcut`
+- 일반 → 키보드 → 슬라이딩 입력: `prefs:root=General&path=Keyboard#KeyboardContinuousPathEnabled`
+- 일반 → 키보드 → 받아쓰기 활성화: `prefs:root=General&path=Keyboard#Dictation`
+- 일반 → 키보드 → 자동 구두점: `prefs:root=General&path=Keyboard#AutoPunctuationSetting`
+- 일반 → 소프트웨어 업데이트: `prefs:root=General&path=SOFTWARE_UPDATE_LINK`
+- 일반 → 소프트웨어 업데이트 → 자동 업데이트: `prefs:root=General&path=SOFTWARE_UPDATE_LINK/SUAutomaticUpdateButton`
+- 일반 → 저장 공간: `prefs:root=General&path=STORAGE_MGMT`
+- 일반 → 저장 공간 → 저장 공간: `prefs:root=General&path=STORAGE_MGMT#MANAGE`
+- 일반 → 저장 공간 → 사용하지 않는 앱 정리하기: `prefs:root=General&path=STORAGE_MGMT#OFFLOAD`
+- 일반 → 화면 속 화면: `prefs:root=General&path=PiP_SPEC`
+- 일반 → 트랙패드 | 트랙패드 및 마우스: `prefs:root=General&path=POINTERS`
+- 일반 → NFC: `prefs:root=General&path=NFC_LINK`
+- 일반 → VPN: `prefs:root=General&path=VPN`
+- 일반 → CarPlay: `prefs:root=General&path=CARPLAY`
+- 일반 → 정보: `prefs:root=General&path=About`
+- 일반 → 정보 → 신뢰하는 인증서: `prefs:root=General&path=About/CERT_TRUST_SETTINGS`
+- 일반 → 정보 → 일련 번호: `prefs:root=General&path=About#SerialNumber`
+- 일반 → 정보 → 모델 번호: `prefs:root=General&path=About#ProductModel`
+- 일반 → 정보 → 모델명: `prefs:root=General&path=About#ProductModelName`
+- 일반 → 정보 → iOS 버전: `prefs:root=General&path=About/SW_VERSION_SPECIFIER`
+- 일반 → 법률 및 규제 정보: `prefs:root=General&path=LEGAL_AND_REGULATORY`
+- 일반 → 법률 및 규제 정보 → 보증: `prefs:root=General&path=LEGAL_AND_REGULATORY#Warranty`
+- 일반 → AirDrop: `prefs:root=General&path=AIRDROP_LINK`
+- 일반 → AirDrop → 기기를 서로 가까이 가져오기: `prefs:root=General&path=AIRDROP_LINK#AIRDROP_NFC_ID`
+- 일반 → 홈 버튼: `prefs:root=General&path=HOME_BUTTON`
+- 일반 → 옆면 스위치: `prefs:root=General#Rotation_Switch_Action_Group`
+- 일반 → 백그라운드 앱 새로 고침: `prefs:root=General&path=AUTO_CONTENT_DOWNLOAD`
+- 일반 → 날짜 및 시간: `prefs:root=General&path=DATE_AND_TIME`
+- 일반 → TV 출력: `prefs:root=General&path=TV_OUT`
+- 일반 → 재설정: `prefs:root=General&path=Reset`
+- 일반 → 재설정 → 모든 설정 재설정: `prefs:root=General&path=Reset#settingsErase`
+- 일반 → 재설정 → 모든 콘텐츠 및 설정 지우기: `prefs:root=General&path=Reset#fullErase`
+- 일반 → 재설정 → 네트워크 설정 재설정: `prefs:root=General&path=Reset#RESET_NETWORK_LABEL`
+- 일반 → 재설정 → 모든 셀룰러 데이터 요금제 제거: `prefs:root=General&path=Reset#cellularErase`
+- 일반 → 재설정 → 가입자 서비스: `prefs:root=General&path=Reset#SUBSCRIBER_SERVICES_ID`
+- 일반 → 재설정 → 키보드 사전 재설정: `prefs:root=General&path=Reset#RESET_KEYBOARD_DICTIONARY_LABEL`
+- 일반 → 재설정 → 홈 화면 레이아웃 재설정: `prefs:root=General&path=Reset#RESET_ICONS_LABEL`
+- 일반 → 재설정 → 위치 및 개인정보 보호 재설정: `prefs:root=General&path=Reset#RESET_PRIVACY_LABEL`
+- 일반 → 시스템 종료: `prefs:root=General#SHUTDOWN_LABEL`
+- 일반 → AirPlay 및 연속성: `prefs:root=General&path=CONTINUITY_SPEC`
+- 일반 → AirPlay 및 연속성 → Handoff: `prefs:root=General&path=CONTINUITY_SPEC#CONTINUITY`
+- 일반 → AirPlay 및 연속성 → HomePod으로 전송: `prefs:root=General&path=CONTINUITY_SPEC#TRANSFER_TO_HOMEPOD`
+- 일반 → AirPlay 및 연속성 → 자동으로 AirPlay: `prefs:root=General&path=CONTINUITY_SPEC#AUTOMATICALLY_AIRPLAY`
+- 일반 → AirPlay 및 연속성 → 연속성 카메라: `prefs:root=General&path=CONTINUITY_SPEC#WOMBAT_CAMERA`
+- 일반 → 언어 및 지역: `prefs:root=General&path=INTERNATIONAL`
+- 일반 → 언어 및 지역 → 기타 언어…: `prefs:root=General&path=INTERNATIONAL#NEW_PREFERRED_LANGUAGE`
+- 일반 → 언어 및 지역 → 선호하는 언어 순서: `prefs:root=General&path=INTERNATIONAL#PREFERRED_LANGUAGE_GROUP`
+- 일반 → 언어 및 지역 → 언어 추가…: `prefs:root=General&path=INTERNATIONAL#ADD_PREFERRED_LANGUAGE`
+- 일반 → 언어 및 지역 → 지역: `prefs:root=General&path=INTERNATIONAL/LOCALE`
+- 일반 → 언어 및 지역 → 숫자: `prefs:root=General&path=INTERNATIONAL/NUMBERING_SYSTEM`
+- 일반 → 언어 및 지역 → 캘린더: `prefs:root=General&path=INTERNATIONAL/CALENDAR`
+- 일반 → 언어 및 지역 → 온도 단위: `prefs:root=General&path=INTERNATIONAL/TEMPERATURE_UNIT`
+- Apple 계정: `prefs:root=APPLE_ACCOUNT` or `settings-navigation://com.apple.Settings.AppleAccount`
+- Apple 계정 → 연락처 키 확인: `prefs:root=APPLE_ACCOUNT&path=TRANSPARENCY` or `settings-navigation://com.apple.Settings.AppleAccount/TRANSPARENCY`
+- Apple 계정 → iCloud: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE` or `prefs:root=CASTLE`
+- Apple 계정 → iCloud → iCloud 저장 공간: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/STORAGE_AND_BACKUP` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/STORAGE_AND_BACKUP` or `prefs:root=CASTLE&path=STORAGE_AND_BACKUP`
+- Apple 계정 → iCloud → iCloud Drive: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Ubiquity` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Ubiquity` or `prefs:root=CASTLE&path=com.apple.Dataclass.Ubiquity`
+- Apple 계정 → iCloud → 사진: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.MediaStream` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.MediaStream` or `prefs:root=CASTLE&path=com.apple.Dataclass.MediaStream`
+- Apple 계정 → iCloud → Mail: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Mail` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail` or `prefs:root=CASTLE&path=com.apple.Dataclass.Mail`
+- Apple 계정 → iCloud → 연락처: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Contacts` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Contacts` or `prefs:root=CASTLE&path=com.apple.Dataclass.Contacts`
+- Apple 계정 → iCloud → 캘린더: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Calendars` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Calendars` or `prefs:root=CASTLE&path=com.apple.Dataclass.Calendars`
+- Apple 계정 → iCloud → 미리 알림: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Reminders` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Reminders` or `prefs:root=CASTLE&path=com.apple.Dataclass.Reminders`
+- Apple 계정 → iCloud → Safari: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Bookmarks` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Bookmarks` or `prefs:root=CASTLE&path=com.apple.Dataclass.Bookmarks`
+- Apple 계정 → iCloud → 메모: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Notes` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Notes` or `prefs:root=CASTLE&path=com.apple.Dataclass.Notes`
+- Apple 계정 → iCloud → News: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.News` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.News` or `prefs:root=CASTLE&path=com.apple.Dataclass.News`
+- Apple 계정 → iCloud → 백업: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/BACKUP` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/BACKUP` or `prefs:root=CASTLE&path=BACKUP`
+- Apple 계정 → iCloud → 건강: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Health` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Health` or `prefs:root=CASTLE&path=com.apple.Dataclass.Health`
+- Apple 계정 → iCloud → 암호 및 키체인: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.KeychainSync` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.KeychainSync` or `prefs:root=CASTLE&path=com.apple.Dataclass.KeychainSync`
+- Apple 계정 → iCloud → 나의 이메일 가리기: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/PRIVATE_EMAIL_MANAGE` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/PRIVATE_EMAIL_MANAGE` or `prefs:root=CASTLE&path=PRIVATE_EMAIL_MANAGE`
+- Apple 계정 → 나의 위치 공유: `prefs:root=APPLE_ACCOUNT&path=LOCATION_SHARING` or `settings-navigation://com.apple.Settings.AppleAccount/LOCATION_SHARING`
+- Apple 계정 → 나의 위치 공유 → 나의 찾기: `prefs:root=APPLE_ACCOUNT&path=LOCATION_SHARING/FindMyDevice-Settings` or `settings-navigation://com.apple.Settings.AppleAccount/LOCATION_SHARING/FindMyDevice-Settings`
+- Apple 계정 → 이름, 전화번호, 이메일: `prefs:root=APPLE_ACCOUNT&path=APPLE_ACCOUNT_CONTACT` or `settings-navigation://com.apple.Settings.AppleAccount/APPLE_ACCOUNT_CONTACT`
+- Apple 계정 → 암호 및 보안: `prefs:root=APPLE_ACCOUNT&path=PASSWORD_AND_SECURITY` or `settings-navigation://com.apple.Settings.AppleAccount/PASSWORD_AND_SECURITY`
+- Apple 계정 → 결제 및 배송: `prefs:root=APPLE_ACCOUNT&path=PAYMENT_AND_SHIPPING` or `settings-navigation://com.apple.Settings.AppleAccount/PAYMENT_AND_SHIPPING`
+- Apple 계정 → 구독: `prefs:root=APPLE_ACCOUNT&path=SUBSCRIPTIONS` or `settings-navigation://com.apple.Settings.AppleAccount/SUBSCRIPTIONS`
+- Apple 계정 → 가족: `prefs:root=APPLE_ACCOUNT&path=Family` or `settings-navigation://com.apple.Settings.AppleAccount/Family`
+- 알림: `prefs:root=NOTIFICATIONS_ID`
+- 알림 → 시간 지정 요약: `prefs:root=NOTIFICATIONS_ID&path=SCHEDULED_DELIVERY_ID`
+- 날씨: `prefs:root=WEATHER`
+- Freeform: `prefs:root=FREEFORM`
+- 집중 모드: `prefs:root=DO_NOT_DISTURB`
+- 집중 모드 → 집중 모드 상태: `prefs:root=DO_NOT_DISTURB&path=status`
+- 일기: `prefs:root=JOURNAL`
+- 지갑 및 Apple Pay: `prefs:root=PASSBOOK`
+- 지갑 및 Apple Pay → Apple Cash: `prefs:root=PASSBOOK#Apple%C2%A0Cash`
+- 지갑 및 Apple Pay → 결제 카드: `prefs:root=PASSBOOK#SETTINGS_PAYMENT_CARDS_GROUP`
+- 지갑 및 Apple Pay → 카드 추가: `prefs:root=PASSBOOK#Add%20Card`
+- 지갑 및 Apple Pay → 측면 버튼 두 번 클릭: `prefs:root=PASSBOOK#Double-Click%20Side%20Button`
+- 지갑 및 Apple Pay → 주문 추적: `prefs:root=PASSBOOK#ORDER_TRACKING`
+- 디스플레이 및 밝기 | 화면 모드: `prefs:root=DISPLAY`
+- 디스플레이 및 밝기 | 화면 모드 → 화면 모드: `prefs:root=DISPLAY#DEVICE_APPEARANCE`
+- 디스플레이 및 밝기 | 화면 모드 → True Tone: `prefs:root=DISPLAY#WHITE_BALANCE`
+- 디스플레이 및 밝기 | 화면 모드 → Night Shift: `prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION`
+- 디스플레이 및 밝기 | 화면 모드 → Night Shift → 시간 지정: `prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION#SCHEDULED`
+- 디스플레이 및 밝기 | 화면 모드 → Night Shift → 내일까지 수동으로 활성화: `prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION#MANUAL`
+- 디스플레이 및 밝기 | 화면 모드 → Night Shift → 색 온도: `prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION#COLOR_TEMPERATURE`
+- 디스플레이 및 밝기 | 화면 모드 → 자동 잠금: `prefs:root=DISPLAY&path=AUTOLOCK`
+- 디스플레이 및 밝기 | 화면 모드 → 들어서 깨우기: `prefs:root=DISPLAY#RAISE_TO_WAKE`
+- 디스플레이 및 밝기 | 화면 모드 → 잠금 / 잠금 해제: `prefs:root=DISPLAY#SMART_CASE_LOCK_SPEC`
+- 디스플레이 및 밝기 | 화면 모드 → 텍스트 크기: `prefs:root=DISPLAY&path=TEXT_SIZE`
+- 디스플레이 및 밝기 | 화면 모드 → 볼드체 텍스트: `prefs:root=DISPLAY#BOLD_TEXT`
+- 디스플레이 및 밝기 | 화면 모드 → 밝기: `prefs:root=DISPLAY#BRIGHTNESS`
+- 디스플레이 및 밝기 | 화면 모드 → 디스플레이 확대/축소: `prefs:root=DISPLAY#DISPLAY_ZOOM_GROUP`
+- 디스플레이 및 밝기 | 화면 모드 → 화면 모드: `prefs:root=DISPLAY&path=APPEARANCE`
+- 디스플레이 및 밝기 | 화면 모드 → 화면 모드 → 윈도우 확대/축소: `prefs:root=DISPLAY&path=APPEARANCE#WINDOW_ZOOM`
+- 디스플레이 및 밝기 | 화면 모드 → 화면 모드 → 양손으로 윈도우 확대/축소: `prefs:root=DISPLAY&path=APPEARANCE#TWO_HANDED_WINDOW_ZOOM`
+- 디스플레이 및 밝기 | 화면 모드 → 보기: `prefs:root=DISPLAY&path=MAGNIFY`
+- 디스플레이 및 밝기 | 화면 모드 → 화면 상시표시: `prefs:root=DISPLAY&path=ALWAYS_ON`
+- 디스플레이 및 밝기 | 화면 모드 → 화면 상시표시 → 화면 상시표시: `prefs:root=DISPLAY&path=ALWAYS_ON#ALWAYS_ON`
+- 디스플레이 및 밝기 | 화면 모드 → 호환 가능한 앱: `prefs:root=DISPLAY&path=COMPATIBLE_APPEARANCE`
+- 디스플레이 및 밝기 | 화면 모드 → 호환 가능한 앱 → 다크, 라이트: `prefs:root=DISPLAY&path=COMPATIBLE_APPEARANCE#COMPATIBLE_APPEARANCE_CHOICES`
+- 측정: `prefs:root=MEASURE` or `settings-navigation://com.apple.Settings.Apps/com.apple.measure`
+- 측정 → 측정 단위: `prefs:root=MEASURE#MEASURE_UNITS` or `settings-navigation://com.apple.Settings.Apps/com.apple.measure#MEASURE_UNITS#MEASURE_UNITS`
+- 측정 → 영국식: `prefs:root=MEASURE#Imperial` or `settings-navigation://com.apple.Settings.Apps/com.apple.measure#Imperial#Imperial`
+- 측정 → 미터법: `prefs:root=MEASURE#Metric` or `settings-navigation://com.apple.Settings.Apps/com.apple.measure#Metric#Metric`
+- 배경화면: `prefs:root=Wallpaper`
+- 제어 센터: `prefs:root=ControlCenter`
+- 제어 센터 → 앱 내 접근: `prefs:root=ControlCenter#ALLOWED_WITHIN_APPS`
+- 제어 센터 → 제어 항목 사용자화: `prefs:root=ControlCenter&path=CUSTOMIZE_CONTROLS`
+- 음성 메모: `prefs:root=VOICE_MEMOS`
+- 음성 메모 → 삭제된 항목 지우기: `prefs:root=VOICE_MEMOS&path=RCVoiceMemosRecentlyDeletedWindowKey`
+- 음성 메모 → 오디오 음질: `prefs:root=VOICE_MEMOS&path=RCVoiceMemosAudioQualityKey`
+- 음성 메모 → 위치 기반 이름 지정: `prefs:root=VOICE_MEMOS#RCVoiceMemosUseLocationBasedNaming`
+- 캘린더: `prefs:root=CALENDAR`
+- 캘린더 → 지정 시간대 적용: `prefs:root=CALENDAR&path=TimeZoneCityArray`
+- 캘린더 → 대체 캘린더: `prefs:root=CALENDAR&path=Alternate%20Calendars`
+- 캘린더 → 주 차수: `prefs:root=CALENDAR#Week%20Numbers`
+- 캘린더 → 초대 거절 보기: `prefs:root=CALENDAR#Show%20Invitee%20Declines`
+- 캘린더 → 동기화: `prefs:root=CALENDAR&path=Sync`
+- 캘린더 → 기본 알림 시간: `prefs:root=CALENDAR&path=Default%20Alert%20Times`
+- 캘린더 → 시작 요일: `prefs:root=CALENDAR&path=Start%20Week%20On`
+- 캘린더 → 위치 제안: `prefs:root=CALENDAR#Location%20Suggestions`
+- 개발자: `prefs:root=DEVELOPER_SETTINGS`
+- 개발자 → 멀티패스 네트워크: `prefs:root=DEVELOPER_SETTINGS&path=MULTI_PATH_AGG`
+- 개발자 → 멀티패스 네트워크 → 멀티패스 네트워크: `prefs:root=DEVELOPER_SETTINGS&path=MULTI_PATH_AGG#Multipath%20Networking`
+- 개발자 → 화면 모드: `prefs:root=DEVELOPER_SETTINGS#UIAppearanceGroup`
+- 개발자 → 다크 화면 모드: `prefs:root=DEVELOPER_SETTINGS#UIAppearanceSettings`
+- 개발자 → 페어링된 기기: `prefs:root=DEVELOPER_SETTINGS#DTPairedDevicesGroup`
+- 개발자 → 신뢰하는 컴퓨터 지우기: `prefs:root=DEVELOPER_SETTINGS#CLEAR_TRUSTED_COMPUTERS`
+- 개발자 → 로그 기록: `prefs:root=DEVELOPER_SETTINGS&path=DTInstrumentsSettings`
+- 개발자 → UI 자동화 | UI 자동화 활성화: `prefs:root=DEVELOPER_SETTINGS#UIAGroup`
+- 개발자 → 네트워크: `prefs:root=DEVELOPER_SETTINGS#NLCGroup`
+- 개발자 → 네트워크 링크 컨디셔너: `prefs:root=DEVELOPER_SETTINGS&path=NLC`
+- 개발자 → 추가 로그 기록: `prefs:root=DEVELOPER_SETTINGS#ADDITIONAL_LOGGING`
+- 개발자 → HTTP 서비스 허용: `prefs:root=DEVELOPER_SETTINGS#ALLOW_HTTP_SERVICES`
+- 개발자 → 비율 제한 비활성화: `prefs:root=DEVELOPER_SETTINGS#DISABLE_RATE_LIMITING`
+- 개발자 → NFC 패스키 선택사항: `prefs:root=DEVELOPER_SETTINGS#NFC_PASS_KEY_OPTIONAL`
+- 개발자 → 미디어 서비스 테스트: `prefs:root=DEVELOPER_SETTINGS#MEDIA_SERVICES_TESTING`
+- 개발자 → 미디어 서비스 재설정: `prefs:root=DEVELOPER_SETTINGS#RESET_MEDIA_SERVICES`
+- 개발자 → News 테스트: `prefs:root=DEVELOPER_SETTINGS#NEWS_TESTING`
+- 개발자 → 다음번 실행 시 로컬 데이터 재설정: `prefs:root=DEVELOPER_SETTINGS#RESET_LOCAL_DATA_ON_NEXT_LAUNCH`
+- 개발자 → 미디어 플레이어 프레임워크 테스트: `prefs:root=DEVELOPER_SETTINGS#RoutineSettingsGroup`
+- 개발자 → 재생 가능한 콘텐츠 API: `prefs:root=DEVELOPER_SETTINGS&path=RoutineSettings`
+- 개발자 → TV 제공업체: `prefs:root=DEVELOPER_SETTINGS&path=VideoSubscriberAccountSettings`
+- 개발자 → ClassKit API: `prefs:root=DEVELOPER_SETTINGS&path=ClassKitSettings`
+- 개발자 → CoreSpotlight 테스트: `prefs:root=DEVELOPER_SETTINGS#CORESPOTLIGHT_TESTING`
+- 개발자 → 모든 항목 다시 인덱스: `prefs:root=DEVELOPER_SETTINGS#REINDEX_ALL_ITEMS`
+- 개발자 → 모든 항목을 식별자로 다시 인덱스: `prefs:root=DEVELOPER_SETTINGS#REINDEX_ALL_ITEMS_WITH_IDENTIFIERS`
+- 개발자 → 단축어 테스트: `prefs:root=DEVELOPER_SETTINGS#SIRI_ACTIONS_TESTING`
+- 개발자 → 최근 단축어 표시: `prefs:root=DEVELOPER_SETTINGS#DISPLAY_DONATIONS_SPOTLIGHT`
+- 개발자 → 예정된 미디어 표시: `prefs:root=DEVELOPER_SETTINGS#DISPLAY_UPCOMING_MEDIA`
+- 개발자 → 잠금 화면에 기부 표시: `prefs:root=DEVELOPER_SETTINGS#DISPLAY_DONATIONS_LOCKSCREEN`
+- 개발자 → 시계로 단축어 강제 동기화: `prefs:root=DEVELOPER_SETTINGS#SIRI_ACTIONS_SYNC_WATCHOS`
+- 개발자 → MIDI-CI 테스트: `prefs:root=DEVELOPER_SETTINGS#MIDI_CI_API_BETA`
+- 개발자 → MIDI-CI 활성화: `prefs:root=DEVELOPER_SETTINGS#MIDI_CI_API_BETA_ENABLE`
+- 개발자 → 행(Hang) 감지: `prefs:root=DEVELOPER_SETTINGS#HANGTRACER_EXTERNAL_CONFIGURE`
+- Face ID 및 암호 | Touch ID 및 암호 | 암호: `prefs:root=PASSCODE`
+- Face ID 및 암호 | Touch ID 및 암호 | 암호 → 암호 끄기: `prefs:root=PASSCODE#PASSCODE_OFF`
+- Face ID 및 암호 | Touch ID 및 암호 | 암호 → 암호 변경: `prefs:root=PASSCODE#CHANGE_PASSCODE`
+- Face ID 및 암호 | Touch ID 및 암호 | 암호 → 암호 필요: `prefs:root=PASSCODE&path=PASSCODE_REQ`
+- Face ID 및 암호 | Touch ID 및 암호 | 암호 → 음성으로 전화걸기: `prefs:root=PASSCODE#VOICE_DIAL`
+- Face ID 및 암호 | Touch ID 및 암호 | 암호 → 잠겨 있는 동안 접근 허용: `prefs:root=PASSCODE#ALLOW_ACCESS_WHEN_LOCKED`
+- Face ID 및 암호 | Touch ID 및 암호 | 암호 → 메시지 답장: `prefs:root=PASSCODE#REPLY_WITH_MESSAGE_SWITCH`
+- Face ID 및 암호 | Touch ID 및 암호 | 암호 → 홈 제어: `prefs:root=PASSCODE#HOME_CONTROL_SWITCH`
+- Face ID 및 암호 | Touch ID 및 암호 | 암호 → 지갑: `prefs:root=PASSCODE#WALLET_SWITCH`
+- Face ID 및 암호 | Touch ID 및 암호 | 암호 → 부재중 전화 회답: `prefs:root=PASSCODE#RETURN_MISSED_CALLS_SWITCH`
+- Face ID 및 암호 | Touch ID 및 암호 | 암호 → 데이터 지우기: `prefs:root=PASSCODE#WIPE_DEVICE`
+- Face ID 및 암호 | Touch ID 및 암호 | 암호 → Apple Watch로 잠금 해제: `prefs:root=PASSCODE#AUTO_UNLOCK_DEVICES_GROUP`
+- Face ID 및 암호 | Touch ID 및 암호 | 암호 → 도난당한 기기 보호: `prefs:root=PASSCODE#DTO_GROUP_ID`
+- 전화: `prefs:root=Phone`
+- 전화 → 나의 전화번호: `prefs:root=Phone&path=My%20Number`
+- 전화 → 착신 통화: `prefs:root=Phone&path=INCOMING_CALL_STYLE`
+- 전화 → 발신자 알리기: `prefs:root=Phone&path=ANNOUNCE_CALLS`
+- 전화 → SMS/통화 리포트: `prefs:root=Phone&path=CLASSIFICATION_AND_REPORTING`
+- 전화 → 메시지로 응답: `prefs:root=Phone&path=Respond%20with%20Text`
+- 전화 → 착신통화전환: `prefs:root=Phone&path=Call%20Forwarding`
+- 전화 → 착신통화전환 → 착신통화전환: `prefs:root=Phone&path=Call%20Forwarding#idMasterOnOffSwitch`
+- 전화 → 통화 대기: `prefs:root=Phone&path=Call%20Waiting`
+- 전화 → 나의 발신번호 표시: `prefs:root=Phone&path=Show%20My%20Caller%20ID`
+- 전화 → 나의 발신번호 표시 → 나의 발신번호 표시: `prefs:root=Phone&path=Show%20My%20Caller%20ID/Primary`
+- 전화 → 나의 발신번호 표시 → 나의 발신번호 표시 → 나의 발신번호 표시: `prefs:root=Phone&path=Show%20My%20Caller%20ID/Primary#Show%20My%20Caller%20ID`
+- 전화 → 알 수 없는 발신자 음소거: `prefs:root=Phone#SILENCE_CALLS`
+- 전화 → 차단된 연락처: `prefs:root=Phone&path=SPECIFIER_IDENTIFIER_BLACKLIST`
+- 전화 → 전화 걸기 지원: `prefs:root=Phone&path=Dial%20Assist`
+- 메모: `prefs:root=NOTES` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes`
+- 메모 → 기본 계정: `prefs:root=NOTES&path=Default%20Account` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes/Default%20Account`
+- 메모 → 암호: `prefs:root=NOTES&path=Password` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes/Password`
+- 메모 → 다음 순서로 메모 정렬: `prefs:root=NOTES&path=Sort%20Notes%20By` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes/Sort%20Notes%20By`
+- 메모 → 새로운 메모 시작 스타일: `prefs:root=NOTES&path=New%20Notes%20Start%20With` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes/New%20Notes%20Start%20With`
+- 메모 → 확인한 항목 정렬: `prefs:root=NOTES&path=Sort%20Checked%20Items` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes/Sort%20Checked%20Items`
+- 메모 → 줄 및 격자: `prefs:root=NOTES&path=Lines%20%26%20Grids` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes/Lines%20%26%20Grids`
+- 메모 → 사진 앱에 저장: `prefs:root=NOTES#Save%20to%20Photos` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes#Save%20to%20Photos#Save%20to%20Photos`
+- 메모 → 잠금 화면에서 메모에 접근: `prefs:root=NOTES&path=Access%20Notes%20from%20Lock%20Screen` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes/Access%20Notes%20from%20Lock%20Screen`
+- 도서: `prefs:root=IBOOKS`
+- 도서 → 온라인 콘텐츠: `prefs:root=IBOOKS#BKAllowOnlineContent`
+- 도서 → 동기화: `prefs:root=IBOOKS#SYNCING`
+- 도서 → 읽고 있는 책: `prefs:root=IBOOKS#BKLibrary.ReadingNow`
+- 도서 → iCloud Drive: `prefs:root=IBOOKS#BCSyncICloudDrive`
+- 도서 → 독서: `prefs:root=IBOOKS#READING`
+- 도서 → 양쪽 정렬: `prefs:root=IBOOKS#BKFullJustification`
+- 도서 → 자동 하이픈: `prefs:root=IBOOKS#BKAutoHyphenation`
+- 도서 → 양쪽 여백 이동: `prefs:root=IBOOKS#BKLeftTapTurnToNext`
+- 도서 → 독서 목표: `prefs:root=IBOOKS#READING_GOALS`
+- 도서 → 독서 목표 데이터 지우기: `prefs:root=IBOOKS#BKReadingGoalsShouldClearDataKey`
+- 도서 → 검색: `prefs:root=IBOOKS#SEARCHING`
+- 도서 → 북스토어: `prefs:root=IBOOKS#BKIncludeBookStoreResultsInSearch`
+- 도서 → 오디오북: `prefs:root=IBOOKS#AUDIOBOOKS`
+- 도서 → 앞으로 건너뛰기: `prefs:root=IBOOKS&path=BKAudioBookSkipForward`
+- 도서 → 뒤로 건너뛰기: `prefs:root=IBOOKS&path=BKAudioBookSkipBackward`
+- 도서 → 외부 제어기: `prefs:root=IBOOKS#BKRemoteSkipInsteadOfNextTrackDefaultKey`
+- 도서 → 다음/이전: `prefs:root=IBOOKS#Next/Previous`
+- 도서 → 앞으로/뒤로 건너뛰기: `prefs:root=IBOOKS#Skip%20Forward/Back`
+- 도서 → 개인정보 보호: `prefs:root=IBOOKS#PRIVACY`
+- 도서 → 식별자 재설정: `prefs:root=IBOOKS#BAResetAnalyticsUserID`
+- 도서 → 승인서: `prefs:root=IBOOKS&path=Acknowledgements`
+- Game Center: `prefs:root=GAMECENTER`
+- 긴급 구조 요청: `prefs:root=EMERGENCY_SOS`
+- 긴급 구조 요청 → 측면 버튼으로 전화걸기: `prefs:root=EMERGENCY_SOS#CALL_WITH_SIDE_BUTTON`
+- 긴급 구조 요청 → 자동 통화: `prefs:root=EMERGENCY_SOS#AUTO_CALL`
+- 긴급 구조 요청 → 긴급 연락처: `prefs:root=EMERGENCY_SOS#EMERGENCY_CONTACTS`
+- 긴급 구조 요청 → 카운트다운 사운드: `prefs:root=EMERGENCY_SOS#ALARM_SOUND_SWITCH`
+- 미리 알림: `prefs:root=REMINDERS`
+- 미리 알림 → 기본 목록: `prefs:root=REMINDERS&path=DEFAULT_LIST`
+- 미리 알림 → 기본 목록 → 미리 알림: `prefs:root=REMINDERS&path=DEFAULT_LIST#preferredDefaultListID`
+- 미리 알림 → 오늘 알림: `prefs:root=REMINDERS#todayNotificationFireTime`
+- 미리 알림 → 기한 지난 항목으로 표시: `prefs:root=REMINDERS#showRemindersAsOverdue`
+- 셀룰러: `prefs:root=MOBILE_DATA_SETTINGS_ID`
+- 셀룰러 → 셀룰러 데이터 옵션: `prefs:root=MOBILE_DATA_SETTINGS_ID&path=CELLULAR_DATA_OPTIONS`
+- 셀룰러 → 셀룰러 데이터 옵션 → 저데이터 모드: `prefs:root=MOBILE_DATA_SETTINGS_ID&path=CELLULAR_DATA_OPTIONS#Low%20Data%20Mode`
+- 셀룰러 → 셀룰러 데이터: `prefs:root=MOBILE_DATA_SETTINGS_ID&path=SHOW_ALL`
+- WLAN | Wi‑Fi: `prefs:root=WIFI`
+- 연락처: `prefs:root=CONTACTS`
+- 연락처 → 연락처 앱 접근 허용: `prefs:root=CONTACTS#Allow%20Contacts%20To%20Access`
+- 연락처 → Siri: `prefs:root=CONTACTS&path=SIRI_AND_SEARCH`
+- 연락처 → 정렬 순서: `prefs:root=CONTACTS&path=ContactsSortOrder`
+- 연락처 → 표시 순서: `prefs:root=CONTACTS&path=PersonNameOrder`
+- 연락처 → 줄인 이름: `prefs:root=CONTACTS&path=PersonShortName`
+- 연락처 → 줄인 이름 → 줄인 이름: `prefs:root=CONTACTS&path=PersonShortName#Short%20Name`
+- 연락처 → 줄인 이름 → 별명 사용: `prefs:root=CONTACTS&path=PersonShortName#Prefer%20Nicknames`
+- 연락처 → 나의 정보: `prefs:root=CONTACTS&path=MeCard`
+- 연락처 → SIM 연락처 가져오기: `prefs:root=CONTACTS#SIMImport`
+- 단축어: `prefs:root=SHORTCUTS`
+- 단축어 → iCloud 동기화: `prefs:root=SHORTCUTS#WFCloudKitSyncEnabled`
+- 단축어 → 단축어 순서 동기화: `prefs:root=SHORTCUTS#WFCloudKitSyncOrderEnabled`
+- 단축어 → 법적 공지: `prefs:root=SHORTCUTS&path=Legal%20Notices`
+- TV | 비디오: `prefs:root=TVAPP`
+- TV | 비디오 → 재생에 셀룰러 데이터 사용: `prefs:root=TVAPP#com.apple.videos%3AVideosUseCellularDataEnabledSetting`
+- TV | 비디오 → 재생 화질: `prefs:root=TVAPP#com.apple.videos%3APlaybackQualityGroup`
+- TV | 비디오 → 구입 및 대여 항목: `prefs:root=TVAPP&path=com.apple.videos%3APreferredPurchaseResolution`
+- TV | 비디오 → 홈 공유: `prefs:root=TVAPP#com.apple.videos%3AHomeSharingFooter`
+- 음악: `prefs:root=MUSIC`
+- 음악 → Apple Music 보기: `prefs:root=MUSIC#com.apple.Music%3AAppleMusicEnabled`
+- 음악 → 플레이리스트 노래 추가: `prefs:root=MUSIC#com.apple.Music%3AAddPlaylistSongsToMyMusicSwitch`
+- 음악 → 별점 평가 보기: `prefs:root=MUSIC#com.apple.Music%3AShowStarRatings`
+- 음악 → 보관함 동기화: `prefs:root=MUSIC#com.apple.Music%3ACloudMusicLibraryEnabled`
+- 음악 → 셀룰러 데이터: `prefs:root=MUSIC&path=com.apple.Music%3ACellularData`
+- 음악 → 다운로드한 음악: `prefs:root=MUSIC&path=com.apple.Music%3AMusicUsageLink`
+- 음악 → 저장 공간 최적화: `prefs:root=MUSIC&path=com.apple.Music%3AOptimizeStorage`
+- 음악 → 자동 다운로드: `prefs:root=MUSIC#com.apple.Music%3AMusicAutomaticDownload`
+- 음악 → EQ: `prefs:root=MUSIC&path=com.apple.Music%3AEQ`
+- 음악 → 사운드 자동 조절: `prefs:root=MUSIC#com.apple.Music%3ASoundCheck`
+- 음악 → 청취 기록 사용: `prefs:root=MUSIC#com.apple.Music%3APrivateListening`
+- 카메라: `prefs:root=CAMERA`
+- 카메라 → 포맷: `prefs:root=CAMERA&path=CameraFormatsSettingsList`
+- 카메라 → 포맷 → Apple ProRaw: `prefs:root=CAMERA&path=CameraFormatsSettingsList#CAMUserPreferenceEnableLinearDNGControl`
+- 카메라 → Record Video: `prefs:root=CAMERA&path=Record%20Video`
+- 카메라 → Record Video → HDR 비디오: `prefs:root=CAMERA&path=Record%20Video#HDR%20Video`
+- 카메라 → 설정 유지: `prefs:root=CAMERA&path=CameraPreserveSettingsSwitch`
+- 카메라 → 설정 유지 → 카메라 모드: `prefs:root=CAMERA&path=CameraPreserveSettingsSwitch#CAMUserPreferencePreserveCaptureMode`
+- 카메라 → 격자: `prefs:root=CAMERA#CameraGridSwitch`
+- 카메라 → QR 코드 스캔: `prefs:root=CAMERA#CameraQRBannerSwitch`
+- 나침반: `prefs:root=COMPASS`
+- 나침반 → 진북 사용: `prefs:root=COMPASS#USE_TRUE_NORTH`
+- 노출 알림: `prefs:root=EXPOSURE_NOTIFICATION`
+- Mail: `prefs:root=MAIL`
+- Mail → 계정: `prefs:root=MAIL&path=ACCOUNTS`
+- Mail → 계정 → 계정 추가: `prefs:root=MAIL&path=ACCOUNTS#ADD_ACCOUNT`
+- Mail → 계정 → 데이터 업데이트: `prefs:root=MAIL&path=ACCOUNTS#FETCH_NEW_DATA`
+- Mail → 미리보기: `prefs:root=MAIL&path=Preview`
+- Mail → 받는 사람/참조 레이블 보기: `prefs:root=MAIL#Show%20To/Cc%20Labels`
+- Mail → 쓸어넘기기 옵션: `prefs:root=MAIL&path=Swipe%20Options`
+- Mail → 삭제 전에 확인: `prefs:root=MAIL#Ask%20Before%20Deleting`
+- Mail → 원격 이미지 로드: `prefs:root=MAIL#Load%20Remote%20Images`
+- Mail → 스레드로 구성: `prefs:root=MAIL#Organize%20by%20Thread`
+- Mail → 읽은 메시지 접기: `prefs:root=MAIL#Collapse%20Read%20Messages`
+- Mail → 가장 최근 메시지를 맨 위로: `prefs:root=MAIL#Most%20Recent%20Message%20on%20Top`
+- Mail → 스레드 유지: `prefs:root=MAIL#Complete%20Threads`
+- Mail → 알림 비활성화한 스레드 동작: `prefs:root=MAIL&path=Muted%20Thread%20Action`
+- Mail → 차단된 발신자 무시: `prefs:root=MAIL#Ignore%20Blocked%20Senders`
+- Mail → 차단된 발신자 옵션: `prefs:root=MAIL&path=Blocked%20Sender%20Options`
+- Mail → 차단 목록: `prefs:root=MAIL&path=Blocked`
+- Mail → 자신을 항상 숨은 참조: `prefs:root=MAIL#Always%20Bcc%20Myself`
+- Mail → 주소 표시: `prefs:root=MAIL&path=Mark%20Addresses`
+- Mail → 인용 단계 증가: `prefs:root=MAIL&path=Increase%20Quote%20Level`
+- Mail → 답장에 첨부 파일 포함: `prefs:root=MAIL&path=Include%20Attachments%20with%20Replies`
+- Mail → 서명: `prefs:root=MAIL&path=Signature`
+- Bluetooth: `prefs:root=Bluetooth`
+- News: `prefs:root=NEWS`
+- News → 기사 미리보기 표시: `prefs:root=NEWS#show_excerpt_mode`
+- News → 투데이에서 기사 제한: `prefs:root=NEWS#showStoriesFromFavoritesSpecifierID`
+- News → 개인정보 보호: `prefs:root=NEWS#Privacy`
+- News → 식별자 재설정: `prefs:root=NEWS#reset_identifier`
+- News → 승인서: `prefs:root=NEWS&path=Acknowledgements`
+- 사진: `prefs:root=Photos`
+- 사진 → iCloud 사진: `prefs:root=Photos#iCloudPhotosSwitch`
+- 사진 → 저장 공간 최적화: `prefs:root=Photos#iCloudOptimizeStorageOption`
+- 사진 → 다운로드 및 원본 유지: `prefs:root=Photos#iCloudKeepOriginalsOption`
+- 사진 → 공유 앨범: `prefs:root=Photos#SharedStreamsSwitch`
+- 사진 → 셀룰러 데이터: `prefs:root=Photos&path=CellularDataLinkList`
+- 사진 → 비디오 자동 재생: `prefs:root=Photos#VideoAutoplaySwitch`
+- 사진 → Full HDR 보기: `prefs:root=Photos#ImageModulationSwitch`
+- 사진 → 공휴일 이벤트 보기: `prefs:root=Photos#MEMORIES_HOLIDAY_CALENDAR_EVENTS_SWITCH`
+- 사진 → Mac 또는 PC로 전송: `prefs:root=Photos#TransferGroup`
+- 팟캐스트: `prefs:root=PODCASTS`
+- 개인정보 보호 및 보안: `prefs:root=Privacy` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity`
+- 개인정보 보호 및 보안 → 건강: `prefs:root=Privacy&path=HEALTH` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/HEALTH`
+- 개인정보 보호 및 보안 → 건강 데이터: `prefs:root=Privacy&path=HEALTH_DATA` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/HEALTH_DATA`
+- 개인정보 보호 및 보안 → 위치: `prefs:root=Privacy&path=LOCATION` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/LOCATION`
+- 개인정보 보호 및 보안 → 위치 → 나의 위치 공유: `prefs:root=Privacy&path=LOCATION/LOCATION_SHARING` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/LOCATION/LOCATION_SHARING`
+- 개인정보 보호 및 보안 → 연락처: `prefs:root=Privacy&path=CONTACTS` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/CONTACTS`
+- 개인정보 보호 및 보안 → 캘린더: `prefs:root=Privacy&path=CALENDARS` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/CALENDARS`
+- 개인정보 보호 및 보안 → 미리 알림: `prefs:root=Privacy&path=REMINDERS` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/REMINDERS`
+- 개인정보 보호 및 보안 → 사진: `prefs:root=Privacy&path=PHOTOS` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/PHOTOS`
+- 개인정보 보호 및 보안 → Bluetooth 공유: `prefs:root=Privacy&path=BT_PERIPHERAL` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/BT_PERIPHERAL`
+- 개인정보 보호 및 보안 → 마이크: `prefs:root=Privacy&path=MICROPHONE` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/MICROPHONE`
+- 개인정보 보호 및 보안 → 음성 인식: `prefs:root=Privacy&path=SPEECH_RECOGNITION` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/SPEECH_RECOGNITION`
+- 개인정보 보호 및 보안 → 카메라: `prefs:root=Privacy&path=CAMERA` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/CAMERA`
+- 개인정보 보호 및 보안 → HomeKit: `prefs:root=Privacy&path=WILLOW` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/WILLOW`
+- 개인정보 보호 및 보안 → 미디어 및 Apple Music: `prefs:root=Privacy&path=MEDIALIBRARY` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/MEDIALIBRARY`
+- 개인정보 보호 및 보안 → 분석: `prefs:root=Privacy&path=PROBLEM_REPORTING` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/PROBLEM_REPORTING`
+- 개인정보 보호 및 보안 → 광고: `prefs:root=Privacy&path=ADVERTISING` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/ADVERTISING`
+- 개인정보 보호 및 보안 → 파일 및 폴더: `prefs:root=Privacy&path=FILEACCESS` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/FILEACCESS`
+- 개인정보 보호 및 보안 → 추적: `prefs:root=Privacy&path=USER_TRACKING` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/USER_TRACKING`
+- 개인정보 보호 및 보안 → 앱 개인정보 보호 리포트: `prefs:root=Privacy&path=PRIVACY_REPORT` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/PRIVACY_REPORT`
+- 개인정보 보호 및 보안 → 차단 모드: `prefs:root=Privacy#LOCKDOWN_MODE` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity#LOCKDOWN_MODE#LOCKDOWN_MODE`
+- 개인정보 보호 및 보안 → 민감한 콘텐츠: `prefs:root=Privacy#NUDITY_DETECTION` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity#NUDITY_DETECTION#NUDITY_DETECTION`
+- FaceTime: `prefs:root=FACETIME`
+- 스크린 타임: `prefs:root=SCREEN_TIME`
+- 사운드 | 사운드 및 햅틱: `prefs:root=Sounds`
+- 사운드 | 사운드 및 햅틱 → 헤드폰 안전성: `prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING`
+- 사운드 | 사운드 및 햅틱 → 헤드폰 안전성 → Lightning 어댑터: `prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING/HEADPHONE_LIGHTNING_ADAPTERS`
+- 사운드 | 사운드 및 햅틱 → 헤드폰 안전성 → 헤드폰 알림: `prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING#SHSHeadphoneWeeklyNotificationsKey`
+- 사운드 | 사운드 및 햅틱 → 헤드폰 안전성 → 큰 오디오 소리 줄이기: `prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING#SHSHeadphoneLevelLimitSwitchKey`
+- 사운드 | 사운드 및 햅틱 → 사운드 효과: `prefs:root=Sounds&path=SOUND_EFFECTS`
+- 사운드 | 사운드 및 햅틱 → 벨소리 및 알림: `prefs:root=Sounds#RINGER_AND_ALERT_GROUP`
+- 사운드 | 사운드 및 햅틱 → 버튼을 사용하여 변경: `prefs:root=Sounds#CHANGE_WITH_BUTTONS`
+- 사운드 | 사운드 및 햅틱 → 사운드 및 진동 패턴: `prefs:root=Sounds#SOUNDS_ALERT_GROUP`
+- 사운드 | 사운드 및 햅틱 → 벨소리: `prefs:root=Sounds&path=Ringtone`
+- 사운드 | 사운드 및 햅틱 → 메시지 수신음: `prefs:root=Sounds&path=Text_Messages`
+- 사운드 | 사운드 및 햅틱 → 음성 메시지 수신: `prefs:root=Sounds&path=Voicemail`
+- 사운드 | 사운드 및 햅틱 → 메일 수신: `prefs:root=Sounds&path=NEW_MAIL`
+- 사운드 | 사운드 및 햅틱 → 메일 발신: `prefs:root=Sounds&path=SENT_MAIL`
+- 사운드 | 사운드 및 햅틱 → 캘린더 알림: `prefs:root=Sounds&path=Calendar%20Alarm`
+- 사운드 | 사운드 및 햅틱 → 미리 알림: `prefs:root=Sounds&path=Reminder%20Alerts`
+- 사운드 | 사운드 및 햅틱 → 키보드 입력 사운드: `prefs:root=Sounds#KEYBOARD_SOUND_SWITCH`
+- 사운드 | 사운드 및 햅틱 → 잠금 사운드: `prefs:root=Sounds#LOCK_SOUND_SWITCH`
+- 사운드 | 사운드 및 햅틱 → 개인 맞춤형 공간 음향: `prefs:root=Sounds&path=Personalized%20Spatial%20Audio`
+- Apple Pencil: `prefs:root=Pencil`
+- Apple Pencil → Apple Pencil: `prefs:root=Pencil#PrefersPencilDraws`
+- Apple Pencil → Apple Pencil: `prefs:root=Pencil#PencilTextInput`
+- 메시지: `prefs:root=MESSAGES`
+- 주식: `prefs:root=STOCKS`
+- 주식 → 개인정보 보호: `prefs:root=STOCKS#Privacy`
+- 주식 → 식별자 재설정: `prefs:root=STOCKS#reset_identifier`
+- 번역: `prefs:root=TRANSLATE`
+- 번역 → 온디바이스 모드: `prefs:root=TRANSLATE#OnDeviceOnly`
+- Siri: `prefs:root=SIRI`
+- Siri → 잠겨 있는 동안 Siri 허용: `prefs:root=SIRI#ASSISTANT_LOCK_SCREEN_ACCESS`
+- Siri → 언어: `prefs:root=SIRI&path=LANGUAGE_ID`
+- Siri → Siri 음성: `prefs:root=SIRI&path=VOICE_ID`
+- Siri → 음성 피드백: `prefs:root=SIRI&path=VOICE_FEEDBACK_ID`
+- Siri → 나의 정보: `prefs:root=SIRI&path=MY_INFO`
+- 건강 | 건강 데이터: `prefs:root=HEALTH`
+- App Store: `prefs:root=STORE`
+- App Store → 자동 다운로드: `prefs:root=STORE#Automatic%20Downloads`
+- App Store → 앱 업데이트: `prefs:root=STORE#App%20Updates`
+- App Store → 앱 다운로드: `prefs:root=STORE&path=App%20Downloads`
+- App Store → 비디오 자동 재생: `prefs:root=STORE&path=Video%20Autoplay`
+- App Store → 앱 내 평가 및 리뷰: `prefs:root=STORE#In-App%20Ratings%20&%20Reviews`
+- 에어플레인 모드: `prefs:root=ROOT#AIRPLANE_MODE`

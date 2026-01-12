@@ -1,0 +1,414 @@
+- Batteri: `prefs:root=BATTERY_USAGE`
+- Batteri → Strömsparläge: `prefs:root=BATTERY_USAGE#BATTERY_SAVER_MODE`
+- Batteri → Batterihälsa: `prefs:root=BATTERY_USAGE#BATTERY_HEALTH_ID`
+- Allmänt: `prefs:root=General`
+- Allmänt → VPN och enhetshantering: `prefs:root=General&path=ManagedConfigurationList`
+- Allmänt → Autofyll och lösenord: `prefs:root=General&path=AUTOFILL`
+- Allmänt → Autofyll och lösenord → Autofyll lösenord: `prefs:root=General&path=AUTOFILL#AUTOFILL`
+- Allmänt → Autofyll och lösenord → Rensa verifieringskoder: `prefs:root=General&path=AUTOFILL#CLEAN_UP_VERIFICATION_CODES`
+- Allmänt → Autofyll och lösenord → Ställ in verifieringskoder: `prefs:root=General&path=AUTOFILL#SET_UP_VERIFICATION_CODES`
+- Allmänt → AppleCare och garanti: `prefs:root=General&path=COVERAGE/`
+- Allmänt → Ordbok: `prefs:root=General&path=DICTIONARY`
+- Allmänt → Tangentbord: `prefs:root=General&path=Keyboard`
+- Allmänt → Tangentbord → Tangentbord: `prefs:root=General&path=Keyboard/KEYBOARDS`
+- Allmänt → Tangentbord → Textersättning: `prefs:root=General&path=Keyboard/USER_DICTIONARY`
+- Allmänt → Tangentbord → Automatiska versaler: `prefs:root=General&path=Keyboard#KeyboardAutocapitalization`
+- Allmänt → Tangentbord → Automatisk korrigering: `prefs:root=General&path=Keyboard#KeyboardAutocorrection`
+- Allmänt → Tangentbord → Kontrollera stavning: `prefs:root=General&path=Keyboard#KeyboardCheckSpelling`
+- Allmänt → Tangentbord → Aktivera skiftlås: `prefs:root=General&path=Keyboard#KeyboardCapsLock`
+- Allmänt → Tangentbord → Genvägar: `prefs:root=General&path=Keyboard#KeyboardAssistant`
+- Allmänt → Tangentbord → Förslag: `prefs:root=General&path=Keyboard#KeyboardPrediction`
+- Allmänt → Tangentbord → Smart interpunktion: `prefs:root=General&path=Keyboard#SmartTyping`
+- Allmänt → Tangentbord → Delat tangentbord: `prefs:root=General&path=Keyboard#RivenKeyboard`
+- Allmänt → Tangentbord → Aktivera tangentsvepningar: `prefs:root=General&path=Keyboard#GesturesEnabled`
+- Allmänt → Tangentbord → Förhandsvisning av tecken: `prefs:root=General&path=Keyboard#KeyboardAllowPaddle`
+- Allmänt → Tangentbord → ”.”-kortkommando: `prefs:root=General&path=Keyboard#KeyboardPeriodShortcut`
+- Allmänt → Tangentbord → Dra för att skriva: `prefs:root=General&path=Keyboard#KeyboardContinuousPathEnabled`
+- Allmänt → Tangentbord → Aktivera diktering: `prefs:root=General&path=Keyboard#Dictation`
+- Allmänt → Tangentbord → Automatiska skiljetecken: `prefs:root=General&path=Keyboard#AutoPunctuationSetting`
+- Allmänt → Programuppdatering: `prefs:root=General&path=SOFTWARE_UPDATE_LINK`
+- Allmänt → Programuppdatering → Uppdatera automatiskt: `prefs:root=General&path=SOFTWARE_UPDATE_LINK/SUAutomaticUpdateButton`
+- Allmänt → Lagring: `prefs:root=General&path=STORAGE_MGMT`
+- Allmänt → Lagring → Lagring: `prefs:root=General&path=STORAGE_MGMT#MANAGE`
+- Allmänt → Lagring → Avlasta oanvända: `prefs:root=General&path=STORAGE_MGMT#OFFLOAD`
+- Allmänt → Bild-i-bild: `prefs:root=General&path=PiP_SPEC`
+- Allmänt → Styrplatta | Styrplatta och mus: `prefs:root=General&path=POINTERS`
+- Allmänt → NFC: `prefs:root=General&path=NFC_LINK`
+- Allmänt → VPN: `prefs:root=General&path=VPN`
+- Allmänt → CarPlay: `prefs:root=General&path=CARPLAY`
+- Allmänt → Om: `prefs:root=General&path=About`
+- Allmänt → Om → Betrodda certifikat: `prefs:root=General&path=About/CERT_TRUST_SETTINGS`
+- Allmänt → Om → Serienummer: `prefs:root=General&path=About#SerialNumber`
+- Allmänt → Om → Modellnummer: `prefs:root=General&path=About#ProductModel`
+- Allmänt → Om → Modellnamn: `prefs:root=General&path=About#ProductModelName`
+- Allmänt → Om → iOS-version: `prefs:root=General&path=About/SW_VERSION_SPECIFIER`
+- Allmänt → Juridik och regelverk: `prefs:root=General&path=LEGAL_AND_REGULATORY`
+- Allmänt → Juridik och regelverk → Garanti: `prefs:root=General&path=LEGAL_AND_REGULATORY#Warranty`
+- Allmänt → AirDrop: `prefs:root=General&path=AIRDROP_LINK`
+- Allmänt → AirDrop → Sammanföra enheter: `prefs:root=General&path=AIRDROP_LINK#AIRDROP_NFC_ID`
+- Allmänt → Hemknapp: `prefs:root=General&path=HOME_BUTTON`
+- Allmänt → Sidoknapp: `prefs:root=General#Rotation_Switch_Action_Group`
+- Allmänt → Appaktiviteter i bakgrunden: `prefs:root=General&path=AUTO_CONTENT_DOWNLOAD`
+- Allmänt → Datum och tid: `prefs:root=General&path=DATE_AND_TIME`
+- Allmänt → TV ut: `prefs:root=General&path=TV_OUT`
+- Allmänt → Nollställ: `prefs:root=General&path=Reset`
+- Allmänt → Nollställ → Nollställ alla inställningar: `prefs:root=General&path=Reset#settingsErase`
+- Allmänt → Nollställ → Radera allt innehåll och alla inställningar: `prefs:root=General&path=Reset#fullErase`
+- Allmänt → Nollställ → Nollställ nätverk: `prefs:root=General&path=Reset#RESET_NETWORK_LABEL`
+- Allmänt → Nollställ → Ta bort alla mobildataabonnemang: `prefs:root=General&path=Reset#cellularErase`
+- Allmänt → Nollställ → Abonnemangstjänster: `prefs:root=General&path=Reset#SUBSCRIBER_SERVICES_ID`
+- Allmänt → Nollställ → Nollställ tangentbordsordbok: `prefs:root=General&path=Reset#RESET_KEYBOARD_DICTIONARY_LABEL`
+- Allmänt → Nollställ → Nollställ hemskärmens layout: `prefs:root=General&path=Reset#RESET_ICONS_LABEL`
+- Allmänt → Nollställ → Nollställ plats och integritet: `prefs:root=General&path=Reset#RESET_PRIVACY_LABEL`
+- Allmänt → Stäng av: `prefs:root=General#SHUTDOWN_LABEL`
+- Allmänt → AirPlay och kontinuitet: `prefs:root=General&path=CONTINUITY_SPEC`
+- Allmänt → AirPlay och kontinuitet → Handoff: `prefs:root=General&path=CONTINUITY_SPEC#CONTINUITY`
+- Allmänt → AirPlay och kontinuitet → Överför till HomePod: `prefs:root=General&path=CONTINUITY_SPEC#TRANSFER_TO_HOMEPOD`
+- Allmänt → AirPlay och kontinuitet → Automatiskt med AirPlay: `prefs:root=General&path=CONTINUITY_SPEC#AUTOMATICALLY_AIRPLAY`
+- Allmänt → AirPlay och kontinuitet → Kontinuitetskamera: `prefs:root=General&path=CONTINUITY_SPEC#WOMBAT_CAMERA`
+- Allmänt → Språk och region: `prefs:root=General&path=INTERNATIONAL`
+- Allmänt → Språk och region → Andra språk…: `prefs:root=General&path=INTERNATIONAL#NEW_PREFERRED_LANGUAGE`
+- Allmänt → Språk och region → Föredragen språkordning: `prefs:root=General&path=INTERNATIONAL#PREFERRED_LANGUAGE_GROUP`
+- Allmänt → Språk och region → Lägg till språk…: `prefs:root=General&path=INTERNATIONAL#ADD_PREFERRED_LANGUAGE`
+- Allmänt → Språk och region → Region: `prefs:root=General&path=INTERNATIONAL/LOCALE`
+- Allmänt → Språk och region → Siffror: `prefs:root=General&path=INTERNATIONAL/NUMBERING_SYSTEM`
+- Allmänt → Språk och region → Kalender: `prefs:root=General&path=INTERNATIONAL/CALENDAR`
+- Allmänt → Språk och region → Temperaturenhet: `prefs:root=General&path=INTERNATIONAL/TEMPERATURE_UNIT`
+- Apple-konto: `prefs:root=APPLE_ACCOUNT` or `settings-navigation://com.apple.Settings.AppleAccount`
+- Apple-konto → Verifiering av kontaktnyckel: `prefs:root=APPLE_ACCOUNT&path=TRANSPARENCY` or `settings-navigation://com.apple.Settings.AppleAccount/TRANSPARENCY`
+- Apple-konto → iCloud: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE` or `prefs:root=CASTLE`
+- Apple-konto → iCloud → iCloud-lagring: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/STORAGE_AND_BACKUP` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/STORAGE_AND_BACKUP` or `prefs:root=CASTLE&path=STORAGE_AND_BACKUP`
+- Apple-konto → iCloud → iCloud Drive: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Ubiquity` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Ubiquity` or `prefs:root=CASTLE&path=com.apple.Dataclass.Ubiquity`
+- Apple-konto → iCloud → Bilder: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.MediaStream` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.MediaStream` or `prefs:root=CASTLE&path=com.apple.Dataclass.MediaStream`
+- Apple-konto → iCloud → Mail: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Mail` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail` or `prefs:root=CASTLE&path=com.apple.Dataclass.Mail`
+- Apple-konto → iCloud → Kontakter: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Contacts` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Contacts` or `prefs:root=CASTLE&path=com.apple.Dataclass.Contacts`
+- Apple-konto → iCloud → Kalender: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Calendars` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Calendars` or `prefs:root=CASTLE&path=com.apple.Dataclass.Calendars`
+- Apple-konto → iCloud → Påminnelser: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Reminders` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Reminders` or `prefs:root=CASTLE&path=com.apple.Dataclass.Reminders`
+- Apple-konto → iCloud → Safari: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Bookmarks` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Bookmarks` or `prefs:root=CASTLE&path=com.apple.Dataclass.Bookmarks`
+- Apple-konto → iCloud → Anteckningar: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Notes` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Notes` or `prefs:root=CASTLE&path=com.apple.Dataclass.Notes`
+- Apple-konto → iCloud → News: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.News` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.News` or `prefs:root=CASTLE&path=com.apple.Dataclass.News`
+- Apple-konto → iCloud → Säkerhetskopiering: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/BACKUP` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/BACKUP` or `prefs:root=CASTLE&path=BACKUP`
+- Apple-konto → iCloud → Hälsa: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Health` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Health` or `prefs:root=CASTLE&path=com.apple.Dataclass.Health`
+- Apple-konto → iCloud → Lösenord och nyckelring: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.KeychainSync` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.KeychainSync` or `prefs:root=CASTLE&path=com.apple.Dataclass.KeychainSync`
+- Apple-konto → iCloud → Dölj min e-postadress: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/PRIVATE_EMAIL_MANAGE` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/PRIVATE_EMAIL_MANAGE` or `prefs:root=CASTLE&path=PRIVATE_EMAIL_MANAGE`
+- Apple-konto → Dela min platsinfo: `prefs:root=APPLE_ACCOUNT&path=LOCATION_SHARING` or `settings-navigation://com.apple.Settings.AppleAccount/LOCATION_SHARING`
+- Apple-konto → Dela min platsinfo → Hitta: `prefs:root=APPLE_ACCOUNT&path=LOCATION_SHARING/FindMyDevice-Settings` or `settings-navigation://com.apple.Settings.AppleAccount/LOCATION_SHARING/FindMyDevice-Settings`
+- Apple-konto → Namn, telefon, e-post: `prefs:root=APPLE_ACCOUNT&path=APPLE_ACCOUNT_CONTACT` or `settings-navigation://com.apple.Settings.AppleAccount/APPLE_ACCOUNT_CONTACT`
+- Apple-konto → Lösenord och säkerhet: `prefs:root=APPLE_ACCOUNT&path=PASSWORD_AND_SECURITY` or `settings-navigation://com.apple.Settings.AppleAccount/PASSWORD_AND_SECURITY`
+- Apple-konto → Betalning och leverans: `prefs:root=APPLE_ACCOUNT&path=PAYMENT_AND_SHIPPING` or `settings-navigation://com.apple.Settings.AppleAccount/PAYMENT_AND_SHIPPING`
+- Apple-konto → Abonnemang: `prefs:root=APPLE_ACCOUNT&path=SUBSCRIPTIONS` or `settings-navigation://com.apple.Settings.AppleAccount/SUBSCRIPTIONS`
+- Apple-konto → Familj: `prefs:root=APPLE_ACCOUNT&path=Family` or `settings-navigation://com.apple.Settings.AppleAccount/Family`
+- Notiser: `prefs:root=NOTIFICATIONS_ID`
+- Notiser → Schemalagd sammanfattning: `prefs:root=NOTIFICATIONS_ID&path=SCHEDULED_DELIVERY_ID`
+- Väder: `prefs:root=WEATHER`
+- Freeform: `prefs:root=FREEFORM`
+- Fokus: `prefs:root=DO_NOT_DISTURB`
+- Fokus → Fokusstatus: `prefs:root=DO_NOT_DISTURB&path=status`
+- Dagbok: `prefs:root=JOURNAL`
+- Plånbok och Apple Pay: `prefs:root=PASSBOOK`
+- Plånbok och Apple Pay → Apple Cash: `prefs:root=PASSBOOK#Apple%C2%A0Cash`
+- Plånbok och Apple Pay → Kontokort: `prefs:root=PASSBOOK#SETTINGS_PAYMENT_CARDS_GROUP`
+- Plånbok och Apple Pay → Lägg till kort: `prefs:root=PASSBOOK#Add%20Card`
+- Plånbok och Apple Pay → Dubbelklicka på sidoknappen: `prefs:root=PASSBOOK#Double-Click%20Side%20Button`
+- Plånbok och Apple Pay → Beställningsspårning: `prefs:root=PASSBOOK#ORDER_TRACKING`
+- Utseende | Visning och ljusstyrka: `prefs:root=DISPLAY`
+- Utseende | Visning och ljusstyrka → Utseende: `prefs:root=DISPLAY#DEVICE_APPEARANCE`
+- Utseende | Visning och ljusstyrka → True Tone: `prefs:root=DISPLAY#WHITE_BALANCE`
+- Utseende | Visning och ljusstyrka → Night Shift: `prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION`
+- Utseende | Visning och ljusstyrka → Night Shift → Schemalagd: `prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION#SCHEDULED`
+- Utseende | Visning och ljusstyrka → Night Shift → Aktivera manuellt tills imorgon: `prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION#MANUAL`
+- Utseende | Visning och ljusstyrka → Night Shift → Färgtemperatur: `prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION#COLOR_TEMPERATURE`
+- Utseende | Visning och ljusstyrka → Autolås: `prefs:root=DISPLAY&path=AUTOLOCK`
+- Utseende | Visning och ljusstyrka → Håll upp för att väcka: `prefs:root=DISPLAY#RAISE_TO_WAKE`
+- Utseende | Visning och ljusstyrka → Lås/Lås upp: `prefs:root=DISPLAY#SMART_CASE_LOCK_SPEC`
+- Utseende | Visning och ljusstyrka → Textstorlek: `prefs:root=DISPLAY&path=TEXT_SIZE`
+- Utseende | Visning och ljusstyrka → Fet text: `prefs:root=DISPLAY#BOLD_TEXT`
+- Utseende | Visning och ljusstyrka → Ljusstyrka: `prefs:root=DISPLAY#BRIGHTNESS`
+- Utseende | Visning och ljusstyrka → Visningszoom: `prefs:root=DISPLAY#DISPLAY_ZOOM_GROUP`
+- Utseende | Visning och ljusstyrka → Utseende: `prefs:root=DISPLAY&path=APPEARANCE`
+- Utseende | Visning och ljusstyrka → Utseende → Fönsterzoom: `prefs:root=DISPLAY&path=APPEARANCE#WINDOW_ZOOM`
+- Utseende | Visning och ljusstyrka → Utseende → Fönsterzoom med två händer: `prefs:root=DISPLAY&path=APPEARANCE#TWO_HANDED_WINDOW_ZOOM`
+- Utseende | Visning och ljusstyrka → Visa: `prefs:root=DISPLAY&path=MAGNIFY`
+- Utseende | Visning och ljusstyrka → Alltid på: `prefs:root=DISPLAY&path=ALWAYS_ON`
+- Utseende | Visning och ljusstyrka → Alltid på → Alltid på: `prefs:root=DISPLAY&path=ALWAYS_ON#ALWAYS_ON`
+- Utseende | Visning och ljusstyrka → Kompatibla appar: `prefs:root=DISPLAY&path=COMPATIBLE_APPEARANCE`
+- Utseende | Visning och ljusstyrka → Kompatibla appar → Mörkt, ljust: `prefs:root=DISPLAY&path=COMPATIBLE_APPEARANCE#COMPATIBLE_APPEARANCE_CHOICES`
+- Mätverktyg: `prefs:root=MEASURE` or `settings-navigation://com.apple.Settings.Apps/com.apple.measure`
+- Mätverktyg → Måttenheter: `prefs:root=MEASURE#MEASURE_UNITS` or `settings-navigation://com.apple.Settings.Apps/com.apple.measure#MEASURE_UNITS#MEASURE_UNITS`
+- Mätverktyg → Brittiska: `prefs:root=MEASURE#Imperial` or `settings-navigation://com.apple.Settings.Apps/com.apple.measure#Imperial#Imperial`
+- Mätverktyg → Metriska: `prefs:root=MEASURE#Metric` or `settings-navigation://com.apple.Settings.Apps/com.apple.measure#Metric#Metric`
+- Bakgrundsbild: `prefs:root=Wallpaper`
+- Kontrollcenter: `prefs:root=ControlCenter`
+- Kontrollcenter → Åtkomst inuti appar: `prefs:root=ControlCenter#ALLOWED_WITHIN_APPS`
+- Kontrollcenter → Anpassa reglage: `prefs:root=ControlCenter&path=CUSTOMIZE_CONTROLS`
+- Röstmemon: `prefs:root=VOICE_MEMOS`
+- Röstmemon → Rensa raderade: `prefs:root=VOICE_MEMOS&path=RCVoiceMemosRecentlyDeletedWindowKey`
+- Röstmemon → Ljudkvalitet: `prefs:root=VOICE_MEMOS&path=RCVoiceMemosAudioQualityKey`
+- Röstmemon → Platsbaserade namn: `prefs:root=VOICE_MEMOS#RCVoiceMemosUseLocationBasedNaming`
+- Kalender: `prefs:root=CALENDAR`
+- Kalender → Fast tidszon: `prefs:root=CALENDAR&path=TimeZoneCityArray`
+- Kalender → Alternativa kalendrar: `prefs:root=CALENDAR&path=Alternate%20Calendars`
+- Kalender → Veckonummer: `prefs:root=CALENDAR#Week%20Numbers`
+- Kalender → Visa inbjudna som tackat nej: `prefs:root=CALENDAR#Show%20Invitee%20Declines`
+- Kalender → Synka: `prefs:root=CALENDAR&path=Sync`
+- Kalender → Förvalda påminnelser: `prefs:root=CALENDAR&path=Default%20Alert%20Times`
+- Kalender → Veckan börjar på: `prefs:root=CALENDAR&path=Start%20Week%20On`
+- Kalender → Platsförslag: `prefs:root=CALENDAR#Location%20Suggestions`
+- Utvecklare: `prefs:root=DEVELOPER_SETTINGS`
+- Utvecklare → Multipath-nätverk: `prefs:root=DEVELOPER_SETTINGS&path=MULTI_PATH_AGG`
+- Utvecklare → Multipath-nätverk → Multipath-nätverk: `prefs:root=DEVELOPER_SETTINGS&path=MULTI_PATH_AGG#Multipath%20Networking`
+- Utvecklare → Utseende: `prefs:root=DEVELOPER_SETTINGS#UIAppearanceGroup`
+- Utvecklare → Mörkt utseende: `prefs:root=DEVELOPER_SETTINGS#UIAppearanceSettings`
+- Utvecklare → Parkopplade enheter: `prefs:root=DEVELOPER_SETTINGS#DTPairedDevicesGroup`
+- Utvecklare → Rensa betrodda datorer: `prefs:root=DEVELOPER_SETTINGS#CLEAR_TRUSTED_COMPUTERS`
+- Utvecklare → Loggning: `prefs:root=DEVELOPER_SETTINGS&path=DTInstrumentsSettings`
+- Utvecklare → Aktivera UI-automatisering | UI-automatisering: `prefs:root=DEVELOPER_SETTINGS#UIAGroup`
+- Utvecklare → Nätverk: `prefs:root=DEVELOPER_SETTINGS#NLCGroup`
+- Utvecklare → Network Link Conditioner: `prefs:root=DEVELOPER_SETTINGS&path=NLC`
+- Utvecklare → Ytterligare loggning: `prefs:root=DEVELOPER_SETTINGS#ADDITIONAL_LOGGING`
+- Utvecklare → Tillåt HTTP-tjänster: `prefs:root=DEVELOPER_SETTINGS#ALLOW_HTTP_SERVICES`
+- Utvecklare → Avaktivera begränsning för antal förfrågningar: `prefs:root=DEVELOPER_SETTINGS#DISABLE_RATE_LIMITING`
+- Utvecklare → NFC-nyckel (frivilligt): `prefs:root=DEVELOPER_SETTINGS#NFC_PASS_KEY_OPTIONAL`
+- Utvecklare → Testning av medietjänster: `prefs:root=DEVELOPER_SETTINGS#MEDIA_SERVICES_TESTING`
+- Utvecklare → Nollställ medietjänster: `prefs:root=DEVELOPER_SETTINGS#RESET_MEDIA_SERVICES`
+- Utvecklare → News-testning: `prefs:root=DEVELOPER_SETTINGS#NEWS_TESTING`
+- Utvecklare → Nollställ lokala data vid nästa öppning: `prefs:root=DEVELOPER_SETTINGS#RESET_LOCAL_DATA_ON_NEXT_LAUNCH`
+- Utvecklare → Testning av ramverk för mediespelare: `prefs:root=DEVELOPER_SETTINGS#RoutineSettingsGroup`
+- Utvecklare → API för uppspelningsbart innehåll: `prefs:root=DEVELOPER_SETTINGS&path=RoutineSettings`
+- Utvecklare → TV-leverantör: `prefs:root=DEVELOPER_SETTINGS&path=VideoSubscriberAccountSettings`
+- Utvecklare → ClassKit-API: `prefs:root=DEVELOPER_SETTINGS&path=ClassKitSettings`
+- Utvecklare → CoreSpotlight-testning: `prefs:root=DEVELOPER_SETTINGS#CORESPOTLIGHT_TESTING`
+- Utvecklare → Indexera om alla objekt: `prefs:root=DEVELOPER_SETTINGS#REINDEX_ALL_ITEMS`
+- Utvecklare → Indexera om alla objekt med ID: `prefs:root=DEVELOPER_SETTINGS#REINDEX_ALL_ITEMS_WITH_IDENTIFIERS`
+- Utvecklare → Genvägstestning: `prefs:root=DEVELOPER_SETTINGS#SIRI_ACTIONS_TESTING`
+- Utvecklare → Visa senaste genvägar: `prefs:root=DEVELOPER_SETTINGS#DISPLAY_DONATIONS_SPOTLIGHT`
+- Utvecklare → Visa kommande medier: `prefs:root=DEVELOPER_SETTINGS#DISPLAY_UPCOMING_MEDIA`
+- Utvecklare → Visa donationer på låsskärmen: `prefs:root=DEVELOPER_SETTINGS#DISPLAY_DONATIONS_LOCKSCREEN`
+- Utvecklare → Tvinga synkronisering av genvägar till Apple Watch: `prefs:root=DEVELOPER_SETTINGS#SIRI_ACTIONS_SYNC_WATCHOS`
+- Utvecklare → MIDI-CI-testning: `prefs:root=DEVELOPER_SETTINGS#MIDI_CI_API_BETA`
+- Utvecklare → Aktivera MIDI-CI: `prefs:root=DEVELOPER_SETTINGS#MIDI_CI_API_BETA_ENABLE`
+- Utvecklare → Frysningsdetektering: `prefs:root=DEVELOPER_SETTINGS#HANGTRACER_EXTERNAL_CONFIGURE`
+- Face ID och lösenkod | Lösenkod | Touch ID och lösenkod: `prefs:root=PASSCODE`
+- Face ID och lösenkod | Lösenkod | Touch ID och lösenkod → Stäng av lösenkod: `prefs:root=PASSCODE#PASSCODE_OFF`
+- Face ID och lösenkod | Lösenkod | Touch ID och lösenkod → Ändra lösenkod: `prefs:root=PASSCODE#CHANGE_PASSCODE`
+- Face ID och lösenkod | Lösenkod | Touch ID och lösenkod → Kräv lösenkod: `prefs:root=PASSCODE&path=PASSCODE_REQ`
+- Face ID och lösenkod | Lösenkod | Touch ID och lösenkod → Röststyrd uppringning: `prefs:root=PASSCODE#VOICE_DIAL`
+- Face ID och lösenkod | Lösenkod | Touch ID och lösenkod → Tillåt åtkomst från låst skärm: `prefs:root=PASSCODE#ALLOW_ACCESS_WHEN_LOCKED`
+- Face ID och lösenkod | Lösenkod | Touch ID och lösenkod → Svara med meddelande: `prefs:root=PASSCODE#REPLY_WITH_MESSAGE_SWITCH`
+- Face ID och lösenkod | Lösenkod | Touch ID och lösenkod → Hemkontroll: `prefs:root=PASSCODE#HOME_CONTROL_SWITCH`
+- Face ID och lösenkod | Lösenkod | Touch ID och lösenkod → Plånbok: `prefs:root=PASSCODE#WALLET_SWITCH`
+- Face ID och lösenkod | Lösenkod | Touch ID och lösenkod → Ring upp missade samtal: `prefs:root=PASSCODE#RETURN_MISSED_CALLS_SWITCH`
+- Face ID och lösenkod | Lösenkod | Touch ID och lösenkod → Radera data: `prefs:root=PASSCODE#WIPE_DEVICE`
+- Face ID och lösenkod | Lösenkod | Touch ID och lösenkod → Lås upp med Apple Watch: `prefs:root=PASSCODE#AUTO_UNLOCK_DEVICES_GROUP`
+- Face ID och lösenkod | Lösenkod | Touch ID och lösenkod → Skydd för stulen enhet: `prefs:root=PASSCODE#DTO_GROUP_ID`
+- Telefon: `prefs:root=Phone`
+- Telefon → Mitt nummer: `prefs:root=Phone&path=My%20Number`
+- Telefon → Inkommande samtal: `prefs:root=Phone&path=INCOMING_CALL_STYLE`
+- Telefon → Tillkännage samtal: `prefs:root=Phone&path=ANNOUNCE_CALLS`
+- Telefon → Rapportering av SMS och samtal: `prefs:root=Phone&path=CLASSIFICATION_AND_REPORTING`
+- Telefon → Svara med meddelande: `prefs:root=Phone&path=Respond%20with%20Text`
+- Telefon → Vidarekoppling: `prefs:root=Phone&path=Call%20Forwarding`
+- Telefon → Vidarekoppling → Vidarekoppling: `prefs:root=Phone&path=Call%20Forwarding#idMasterOnOffSwitch`
+- Telefon → Samtal väntar: `prefs:root=Phone&path=Call%20Waiting`
+- Telefon → Visa mitt nummer: `prefs:root=Phone&path=Show%20My%20Caller%20ID`
+- Telefon → Visa mitt nummer → Visa mitt nummer: `prefs:root=Phone&path=Show%20My%20Caller%20ID/Primary`
+- Telefon → Visa mitt nummer → Visa mitt nummer → Visa mitt nummer: `prefs:root=Phone&path=Show%20My%20Caller%20ID/Primary#Show%20My%20Caller%20ID`
+- Telefon → Tysta ned okända uppringare: `prefs:root=Phone#SILENCE_CALLS`
+- Telefon → Blockerade kontakter: `prefs:root=Phone&path=SPECIFIER_IDENTIFIER_BLACKLIST`
+- Telefon → Ringassistans: `prefs:root=Phone&path=Dial%20Assist`
+- Anteckningar: `prefs:root=NOTES` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes`
+- Anteckningar → Förvalt konto: `prefs:root=NOTES&path=Default%20Account` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes/Default%20Account`
+- Anteckningar → Lösenord: `prefs:root=NOTES&path=Password` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes/Password`
+- Anteckningar → Sortera efter: `prefs:root=NOTES&path=Sort%20Notes%20By` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes/Sort%20Notes%20By`
+- Anteckningar → Nya ant. börjar med: `prefs:root=NOTES&path=New%20Notes%20Start%20With` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes/New%20Notes%20Start%20With`
+- Anteckningar → Sortera avbockade objekt: `prefs:root=NOTES&path=Sort%20Checked%20Items` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes/Sort%20Checked%20Items`
+- Anteckningar → Linjer och rutnät: `prefs:root=NOTES&path=Lines%20%26%20Grids` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes/Lines%20%26%20Grids`
+- Anteckningar → Spara i Bilder: `prefs:root=NOTES#Save%20to%20Photos` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes#Save%20to%20Photos#Save%20to%20Photos`
+- Anteckningar → Anteckningar från låsskärmen: `prefs:root=NOTES&path=Access%20Notes%20from%20Lock%20Screen` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes/Access%20Notes%20from%20Lock%20Screen`
+- Böcker: `prefs:root=IBOOKS`
+- Böcker → Innehåll på internet: `prefs:root=IBOOKS#BKAllowOnlineContent`
+- Böcker → SYNKRONISERING: `prefs:root=IBOOKS#SYNCING`
+- Böcker → Läser nu: `prefs:root=IBOOKS#BKLibrary.ReadingNow`
+- Böcker → iCloud Drive: `prefs:root=IBOOKS#BCSyncICloudDrive`
+- Böcker → LÄSNING: `prefs:root=IBOOKS#READING`
+- Böcker → Marginaljustering: `prefs:root=IBOOKS#BKFullJustification`
+- Böcker → Avstavning: `prefs:root=IBOOKS#BKAutoHyphenation`
+- Böcker → Bläddra med båda marginaler: `prefs:root=IBOOKS#BKLeftTapTurnToNext`
+- Böcker → Läsmål: `prefs:root=IBOOKS#READING_GOALS`
+- Böcker → Rensa data för läsmål: `prefs:root=IBOOKS#BKReadingGoalsShouldClearDataKey`
+- Böcker → SÖKER: `prefs:root=IBOOKS#SEARCHING`
+- Böcker → Bokhandel: `prefs:root=IBOOKS#BKIncludeBookStoreResultsInSearch`
+- Böcker → LJUDBÖCKER: `prefs:root=IBOOKS#AUDIOBOOKS`
+- Böcker → Hoppa framåt: `prefs:root=IBOOKS&path=BKAudioBookSkipForward`
+- Böcker → Hoppa bakåt: `prefs:root=IBOOKS&path=BKAudioBookSkipBackward`
+- Böcker → EXTERNA REGLAGE: `prefs:root=IBOOKS#BKRemoteSkipInsteadOfNextTrackDefaultKey`
+- Böcker → Nästa/föregående: `prefs:root=IBOOKS#Next/Previous`
+- Böcker → Hoppa framåt/bakåt: `prefs:root=IBOOKS#Skip%20Forward/Back`
+- Böcker → INTEGRITET: `prefs:root=IBOOKS#PRIVACY`
+- Böcker → Nollställ ID: `prefs:root=IBOOKS#BAResetAnalyticsUserID`
+- Böcker → Tillkännagivanden: `prefs:root=IBOOKS&path=Acknowledgements`
+- Game Center: `prefs:root=GAMECENTER`
+- Nödanrop SOS: `prefs:root=EMERGENCY_SOS`
+- Nödanrop SOS → Ring med sidoknappen: `prefs:root=EMERGENCY_SOS#CALL_WITH_SIDE_BUTTON`
+- Nödanrop SOS → Ring automatiskt: `prefs:root=EMERGENCY_SOS#AUTO_CALL`
+- Nödanrop SOS → Nödkontakter: `prefs:root=EMERGENCY_SOS#EMERGENCY_CONTACTS`
+- Nödanrop SOS → Nedräkningsljud: `prefs:root=EMERGENCY_SOS#ALARM_SOUND_SWITCH`
+- Påminnelser: `prefs:root=REMINDERS`
+- Påminnelser → Förvald lista: `prefs:root=REMINDERS&path=DEFAULT_LIST`
+- Påminnelser → Förvald lista → Påminnelser: `prefs:root=REMINDERS&path=DEFAULT_LIST#preferredDefaultListID`
+- Påminnelser → Notis för idag: `prefs:root=REMINDERS#todayNotificationFireTime`
+- Påminnelser → Visa som försenade: `prefs:root=REMINDERS#showRemindersAsOverdue`
+- Mobilnät: `prefs:root=MOBILE_DATA_SETTINGS_ID`
+- Mobilnät → Alternativ för mobildata: `prefs:root=MOBILE_DATA_SETTINGS_ID&path=CELLULAR_DATA_OPTIONS`
+- Mobilnät → Alternativ för mobildata → Låg dataförbrukning: `prefs:root=MOBILE_DATA_SETTINGS_ID&path=CELLULAR_DATA_OPTIONS#Low%20Data%20Mode`
+- Mobilnät → Mobildata: `prefs:root=MOBILE_DATA_SETTINGS_ID&path=SHOW_ALL`
+- WLAN | Wi-Fi: `prefs:root=WIFI`
+- Kontakter: `prefs:root=CONTACTS`
+- Kontakter → Ge Kontakter tillgång: `prefs:root=CONTACTS#Allow%20Contacts%20To%20Access`
+- Kontakter → Siri: `prefs:root=CONTACTS&path=SIRI_AND_SEARCH`
+- Kontakter → Sorteringsordning: `prefs:root=CONTACTS&path=ContactsSortOrder`
+- Kontakter → Visa efter: `prefs:root=CONTACTS&path=PersonNameOrder`
+- Kontakter → Kortnamn: `prefs:root=CONTACTS&path=PersonShortName`
+- Kontakter → Kortnamn → Kortnamn: `prefs:root=CONTACTS&path=PersonShortName#Short%20Name`
+- Kontakter → Kortnamn → Föredra smeknamn: `prefs:root=CONTACTS&path=PersonShortName#Prefer%20Nicknames`
+- Kontakter → Min info: `prefs:root=CONTACTS&path=MeCard`
+- Kontakter → Importera SIM-kontakter: `prefs:root=CONTACTS#SIMImport`
+- Genvägar: `prefs:root=SHORTCUTS`
+- Genvägar → iCloud-synkronisering: `prefs:root=SHORTCUTS#WFCloudKitSyncEnabled`
+- Genvägar → Synka genvägsordning: `prefs:root=SHORTCUTS#WFCloudKitSyncOrderEnabled`
+- Genvägar → Juridiska anmärkningar: `prefs:root=SHORTCUTS&path=Legal%20Notices`
+- TV | Videor: `prefs:root=TVAPP`
+- TV | Videor → Uppspelning med mobildata: `prefs:root=TVAPP#com.apple.videos%3AVideosUseCellularDataEnabledSetting`
+- TV | Videor → Uppspelningskvalitet: `prefs:root=TVAPP#com.apple.videos%3APlaybackQualityGroup`
+- TV | Videor → Inköp och hyrfilmer: `prefs:root=TVAPP&path=com.apple.videos%3APreferredPurchaseResolution`
+- TV | Videor → Hemmadelning: `prefs:root=TVAPP#com.apple.videos%3AHomeSharingFooter`
+- Musik: `prefs:root=MUSIC`
+- Musik → Visa Apple Music: `prefs:root=MUSIC#com.apple.Music%3AAppleMusicEnabled`
+- Musik → Lägg till spellistelåtar: `prefs:root=MUSIC#com.apple.Music%3AAddPlaylistSongsToMyMusicSwitch`
+- Musik → Visa betyg med stjärnor: `prefs:root=MUSIC#com.apple.Music%3AShowStarRatings`
+- Musik → Synkronisera bibliotek: `prefs:root=MUSIC#com.apple.Music%3ACloudMusicLibraryEnabled`
+- Musik → Mobildata: `prefs:root=MUSIC&path=com.apple.Music%3ACellularData`
+- Musik → Hämtad musik: `prefs:root=MUSIC&path=com.apple.Music%3AMusicUsageLink`
+- Musik → Optimera lagring: `prefs:root=MUSIC&path=com.apple.Music%3AOptimizeStorage`
+- Musik → Automatiska hämtningar: `prefs:root=MUSIC#com.apple.Music%3AMusicAutomaticDownload`
+- Musik → EQ: `prefs:root=MUSIC&path=com.apple.Music%3AEQ`
+- Musik → Ljudkontroll: `prefs:root=MUSIC#com.apple.Music%3ASoundCheck`
+- Musik → Använd lyssningshistorik: `prefs:root=MUSIC#com.apple.Music%3APrivateListening`
+- Kamera: `prefs:root=CAMERA`
+- Kamera → Format: `prefs:root=CAMERA&path=CameraFormatsSettingsList`
+- Kamera → Format → Apple ProRaw: `prefs:root=CAMERA&path=CameraFormatsSettingsList#CAMUserPreferenceEnableLinearDNGControl`
+- Kamera → Record Video: `prefs:root=CAMERA&path=Record%20Video`
+- Kamera → Record Video → HDR-video: `prefs:root=CAMERA&path=Record%20Video#HDR%20Video`
+- Kamera → Förvalsinställningar: `prefs:root=CAMERA&path=CameraPreserveSettingsSwitch`
+- Kamera → Förvalsinställningar → Kameraläge: `prefs:root=CAMERA&path=CameraPreserveSettingsSwitch#CAMUserPreferencePreserveCaptureMode`
+- Kamera → Rutnät: `prefs:root=CAMERA#CameraGridSwitch`
+- Kamera → Skanna QR-koder: `prefs:root=CAMERA#CameraQRBannerSwitch`
+- Kompass: `prefs:root=COMPASS`
+- Kompass → Använd geografisk nord: `prefs:root=COMPASS#USE_TRUE_NORTH`
+- Exponeringsnotiser: `prefs:root=EXPOSURE_NOTIFICATION`
+- Mail: `prefs:root=MAIL`
+- Mail → Konton: `prefs:root=MAIL&path=ACCOUNTS`
+- Mail → Konton → Lägg till konto: `prefs:root=MAIL&path=ACCOUNTS#ADD_ACCOUNT`
+- Mail → Konton → Hämta nya data: `prefs:root=MAIL&path=ACCOUNTS#FETCH_NEW_DATA`
+- Mail → Förhandsvisning: `prefs:root=MAIL&path=Preview`
+- Mail → Visa etiketter för Till/Kopia: `prefs:root=MAIL#Show%20To/Cc%20Labels`
+- Mail → Svepalternativ: `prefs:root=MAIL&path=Swipe%20Options`
+- Mail → Fråga före radering: `prefs:root=MAIL#Ask%20Before%20Deleting`
+- Mail → Visa bilder från server: `prefs:root=MAIL#Load%20Remote%20Images`
+- Mail → Ordna trådvis: `prefs:root=MAIL#Organize%20by%20Thread`
+- Mail → Minimera lästa mejl: `prefs:root=MAIL#Collapse%20Read%20Messages`
+- Mail → Senaste mejl högst upp: `prefs:root=MAIL#Most%20Recent%20Message%20on%20Top`
+- Mail → Fullständiga trådar: `prefs:root=MAIL#Complete%20Threads`
+- Mail → Åtgärd för tråd utan notiser: `prefs:root=MAIL&path=Muted%20Thread%20Action`
+- Mail → Ignorera blockerade avsändare: `prefs:root=MAIL#Ignore%20Blocked%20Senders`
+- Mail → Alternativ för blockerade avsändare: `prefs:root=MAIL&path=Blocked%20Sender%20Options`
+- Mail → Blockerade: `prefs:root=MAIL&path=Blocked`
+- Mail → Dold kopia till mig: `prefs:root=MAIL#Always%20Bcc%20Myself`
+- Mail → Markera adresser: `prefs:root=MAIL&path=Mark%20Addresses`
+- Mail → Öka citatnivån: `prefs:root=MAIL&path=Increase%20Quote%20Level`
+- Mail → Inkludera bilagor med svar: `prefs:root=MAIL&path=Include%20Attachments%20with%20Replies`
+- Mail → Signatur: `prefs:root=MAIL&path=Signature`
+- Bluetooth: `prefs:root=Bluetooth`
+- News: `prefs:root=NEWS`
+- News → Visa förhandsvisning av artiklar: `prefs:root=NEWS#show_excerpt_mode`
+- News → Begränsa artiklar i Idag: `prefs:root=NEWS#showStoriesFromFavoritesSpecifierID`
+- News → Integritet: `prefs:root=NEWS#Privacy`
+- News → Nollställ ID: `prefs:root=NEWS#reset_identifier`
+- News → Tillkännagivanden: `prefs:root=NEWS&path=Acknowledgements`
+- Bilder: `prefs:root=Photos`
+- Bilder → iCloud-bilder: `prefs:root=Photos#iCloudPhotosSwitch`
+- Bilder → Optimera lagring: `prefs:root=Photos#iCloudOptimizeStorageOption`
+- Bilder → Hämta och behåll original: `prefs:root=Photos#iCloudKeepOriginalsOption`
+- Bilder → Delade album: `prefs:root=Photos#SharedStreamsSwitch`
+- Bilder → Mobildata: `prefs:root=Photos&path=CellularDataLinkList`
+- Bilder → Spela upp videor automatiskt: `prefs:root=Photos#VideoAutoplaySwitch`
+- Bilder → Visa fullständig HDR: `prefs:root=Photos#ImageModulationSwitch`
+- Bilder → Visa helgdagsaktiviteter: `prefs:root=Photos#MEMORIES_HOLIDAY_CALENDAR_EVENTS_SWITCH`
+- Bilder → Överför till Mac eller PC: `prefs:root=Photos#TransferGroup`
+- Podcaster: `prefs:root=PODCASTS`
+- Integritet och säkerhet: `prefs:root=Privacy` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity`
+- Integritet och säkerhet → Hälsa: `prefs:root=Privacy&path=HEALTH` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/HEALTH`
+- Integritet och säkerhet → Hälsodata: `prefs:root=Privacy&path=HEALTH_DATA` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/HEALTH_DATA`
+- Integritet och säkerhet → Platstjänster: `prefs:root=Privacy&path=LOCATION` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/LOCATION`
+- Integritet och säkerhet → Platstjänster → Dela min platsinfo: `prefs:root=Privacy&path=LOCATION/LOCATION_SHARING` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/LOCATION/LOCATION_SHARING`
+- Integritet och säkerhet → Kontakter: `prefs:root=Privacy&path=CONTACTS` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/CONTACTS`
+- Integritet och säkerhet → Kalendrar: `prefs:root=Privacy&path=CALENDARS` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/CALENDARS`
+- Integritet och säkerhet → Påminnelser: `prefs:root=Privacy&path=REMINDERS` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/REMINDERS`
+- Integritet och säkerhet → Bilder: `prefs:root=Privacy&path=PHOTOS` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/PHOTOS`
+- Integritet och säkerhet → Bluetooth-delning: `prefs:root=Privacy&path=BT_PERIPHERAL` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/BT_PERIPHERAL`
+- Integritet och säkerhet → Mikrofon: `prefs:root=Privacy&path=MICROPHONE` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/MICROPHONE`
+- Integritet och säkerhet → Röstigenkänning: `prefs:root=Privacy&path=SPEECH_RECOGNITION` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/SPEECH_RECOGNITION`
+- Integritet och säkerhet → Kamera: `prefs:root=Privacy&path=CAMERA` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/CAMERA`
+- Integritet och säkerhet → HomeKit: `prefs:root=Privacy&path=WILLOW` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/WILLOW`
+- Integritet och säkerhet → Medier och Apple Music: `prefs:root=Privacy&path=MEDIALIBRARY` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/MEDIALIBRARY`
+- Integritet och säkerhet → Analys: `prefs:root=Privacy&path=PROBLEM_REPORTING` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/PROBLEM_REPORTING`
+- Integritet och säkerhet → Reklam: `prefs:root=Privacy&path=ADVERTISING` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/ADVERTISING`
+- Integritet och säkerhet → Filer och mappar: `prefs:root=Privacy&path=FILEACCESS` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/FILEACCESS`
+- Integritet och säkerhet → Spårning: `prefs:root=Privacy&path=USER_TRACKING` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/USER_TRACKING`
+- Integritet och säkerhet → Rapport om appintegritet: `prefs:root=Privacy&path=PRIVACY_REPORT` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/PRIVACY_REPORT`
+- Integritet och säkerhet → Låst läge: `prefs:root=Privacy#LOCKDOWN_MODE` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity#LOCKDOWN_MODE#LOCKDOWN_MODE`
+- Integritet och säkerhet → Känsligt innehåll: `prefs:root=Privacy#NUDITY_DETECTION` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity#NUDITY_DETECTION#NUDITY_DETECTION`
+- FaceTime: `prefs:root=FACETIME`
+- Skärmtid: `prefs:root=SCREEN_TIME`
+- Ljud | Ljud och haptik: `prefs:root=Sounds`
+- Ljud | Ljud och haptik → Säkerhet med hörlurar: `prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING`
+- Ljud | Ljud och haptik → Säkerhet med hörlurar → Lightning-adaptrar: `prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING/HEADPHONE_LIGHTNING_ADAPTERS`
+- Ljud | Ljud och haptik → Säkerhet med hörlurar → Notiser om hörlurar: `prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING#SHSHeadphoneWeeklyNotificationsKey`
+- Ljud | Ljud och haptik → Säkerhet med hörlurar → Minska starkt ljud: `prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING#SHSHeadphoneLevelLimitSwitchKey`
+- Ljud | Ljud och haptik → Ljudeffekter: `prefs:root=Sounds&path=SOUND_EFFECTS`
+- Ljud | Ljud och haptik → Ringsignal och påminnelser: `prefs:root=Sounds#RINGER_AND_ALERT_GROUP`
+- Ljud | Ljud och haptik → Ändra med knappar: `prefs:root=Sounds#CHANGE_WITH_BUTTONS`
+- Ljud | Ljud och haptik → Ljud och vibreringsmönster: `prefs:root=Sounds#SOUNDS_ALERT_GROUP`
+- Ljud | Ljud och haptik → Ringsignal: `prefs:root=Sounds&path=Ringtone`
+- Ljud | Ljud och haptik → SMS-signal: `prefs:root=Sounds&path=Text_Messages`
+- Ljud | Ljud och haptik → Nytt röstmeddelande: `prefs:root=Sounds&path=Voicemail`
+- Ljud | Ljud och haptik → Nytt mejl: `prefs:root=Sounds&path=NEW_MAIL`
+- Ljud | Ljud och haptik → Skickat mejl: `prefs:root=Sounds&path=SENT_MAIL`
+- Ljud | Ljud och haptik → Kalenderpåminnelser: `prefs:root=Sounds&path=Calendar%20Alarm`
+- Ljud | Ljud och haptik → Påminnelseljud: `prefs:root=Sounds&path=Reminder%20Alerts`
+- Ljud | Ljud och haptik → Tangentbordsljud: `prefs:root=Sounds#KEYBOARD_SOUND_SWITCH`
+- Ljud | Ljud och haptik → Låsljud: `prefs:root=Sounds#LOCK_SOUND_SWITCH`
+- Ljud | Ljud och haptik → Personanpassat rumsligt ljud: `prefs:root=Sounds&path=Personalized%20Spatial%20Audio`
+- Apple Pencil: `prefs:root=Pencil`
+- Apple Pencil → Apple Pencil: `prefs:root=Pencil#PrefersPencilDraws`
+- Apple Pencil → Apple Pencil: `prefs:root=Pencil#PencilTextInput`
+- Meddelanden: `prefs:root=MESSAGES`
+- Aktier: `prefs:root=STOCKS`
+- Aktier → Integritet: `prefs:root=STOCKS#Privacy`
+- Aktier → Nollställ ID: `prefs:root=STOCKS#reset_identifier`
+- Översätt: `prefs:root=TRANSLATE`
+- Översätt → Lokalt på enheten: `prefs:root=TRANSLATE#OnDeviceOnly`
+- Siri: `prefs:root=SIRI`
+- Siri → Tillåt Siri när skärmen är låst: `prefs:root=SIRI#ASSISTANT_LOCK_SCREEN_ACCESS`
+- Siri → Språk: `prefs:root=SIRI&path=LANGUAGE_ID`
+- Siri → Siri-röst: `prefs:root=SIRI&path=VOICE_ID`
+- Siri → Röst-feedback: `prefs:root=SIRI&path=VOICE_FEEDBACK_ID`
+- Siri → Min information: `prefs:root=SIRI&path=MY_INFO`
+- Hälsa | Hälsodata: `prefs:root=HEALTH`
+- App Store: `prefs:root=STORE`
+- App Store → Automatiska hämtningar: `prefs:root=STORE#Automatic%20Downloads`
+- App Store → Appuppdateringar: `prefs:root=STORE#App%20Updates`
+- App Store → Apphämtningar: `prefs:root=STORE&path=App%20Downloads`
+- App Store → Autouppspelning av video: `prefs:root=STORE&path=Video%20Autoplay`
+- App Store → Betyg och recensioner i appar: `prefs:root=STORE#In-App%20Ratings%20&%20Reviews`
+- Flygplansläge: `prefs:root=ROOT#AIRPLANE_MODE`

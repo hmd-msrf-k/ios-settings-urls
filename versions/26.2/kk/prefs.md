@@ -1,0 +1,414 @@
+- Аккумулятор: `prefs:root=BATTERY_USAGE`
+- Аккумулятор → Заряд үнемдеу режимі: `prefs:root=BATTERY_USAGE#BATTERY_SAVER_MODE`
+- Аккумулятор → Аккумулятор күйі: `prefs:root=BATTERY_USAGE#BATTERY_HEALTH_ID`
+- Жалпы: `prefs:root=General`
+- Жалпы → VPN және құрылғыларды басқару: `prefs:root=General&path=ManagedConfigurationList`
+- Жалпы → Авто толтыру және құпиясөздер: `prefs:root=General&path=AUTOFILL`
+- Жалпы → Авто толтыру және құпиясөздер → Құпиясөздерді автоматты түрде толтыру: `prefs:root=General&path=AUTOFILL#AUTOFILL`
+- Жалпы → Авто толтыру және құпиясөздер → Растау кодтарын жою: `prefs:root=General&path=AUTOFILL#CLEAN_UP_VERIFICATION_CODES`
+- Жалпы → Авто толтыру және құпиясөздер → Растау кодтарын баптау: `prefs:root=General&path=AUTOFILL#SET_UP_VERIFICATION_CODES`
+- Жалпы → AppleCare және кепілдік: `prefs:root=General&path=COVERAGE/`
+- Жалпы → Сөздік: `prefs:root=General&path=DICTIONARY`
+- Жалпы → Пернетақта: `prefs:root=General&path=Keyboard`
+- Жалпы → Пернетақта → Пернетақталар: `prefs:root=General&path=Keyboard/KEYBOARDS`
+- Жалпы → Пернетақта → Мәтін ауыстыру: `prefs:root=General&path=Keyboard/USER_DICTIONARY`
+- Жалпы → Пернетақта → Бас әріппен авто теру: `prefs:root=General&path=Keyboard#KeyboardAutocapitalization`
+- Жалпы → Пернетақта → Авто түзету: `prefs:root=General&path=Keyboard#KeyboardAutocorrection`
+- Жалпы → Пернетақта → Емлені тексеру: `prefs:root=General&path=Keyboard#KeyboardCheckSpelling`
+- Жалпы → Пернетақта → Caps Lock функциясын қосу: `prefs:root=General&path=Keyboard#KeyboardCapsLock`
+- Жалпы → Пернетақта → Пәрмендер: `prefs:root=General&path=Keyboard#KeyboardAssistant`
+- Жалпы → Пернетақта → Сөзді болжау: `prefs:root=General&path=Keyboard#KeyboardPrediction`
+- Жалпы → Пернетақта → Смарт тыныс белгісі: `prefs:root=General&path=Keyboard#SmartTyping`
+- Жалпы → Пернетақта → Бөлінген пернетақта: `prefs:root=General&path=Keyboard#RivenKeyboard`
+- Жалпы → Пернетақта → Пернелердің жыпылықтауын қосу: `prefs:root=General&path=Keyboard#GesturesEnabled`
+- Жалпы → Пернетақта → Таңбаны алдын ала қарау: `prefs:root=General&path=Keyboard#KeyboardAllowPaddle`
+- Жалпы → Пернетақта → «.» жылдам пәрмені: `prefs:root=General&path=Keyboard#KeyboardPeriodShortcut`
+- Жалпы → Пернетақта → Теру үшін сырғыту: `prefs:root=General&path=Keyboard#KeyboardContinuousPathEnabled`
+- Жалпы → Пернетақта → Дауыспен теруді қосу: `prefs:root=General&path=Keyboard#Dictation`
+- Жалпы → Пернетақта → Тыныс белгілерін авто қою: `prefs:root=General&path=Keyboard#AutoPunctuationSetting`
+- Жалпы → БЖ жаңартуы: `prefs:root=General&path=SOFTWARE_UPDATE_LINK`
+- Жалпы → БЖ жаңартуы → Автоматты жаңартулар: `prefs:root=General&path=SOFTWARE_UPDATE_LINK/SUAutomaticUpdateButton`
+- Жалпы → Сақтау орны: `prefs:root=General&path=STORAGE_MGMT`
+- Жалпы → Сақтау орны → Сақтау орны: `prefs:root=General&path=STORAGE_MGMT#MANAGE`
+- Жалпы → Сақтау орны → Ашылмағандарды шығару: `prefs:root=General&path=STORAGE_MGMT#OFFLOAD`
+- Жалпы → Сурет ішіндегі сурет: `prefs:root=General&path=PiP_SPEC`
+- Жалпы → Трекпад | Трекпад және тінтуір: `prefs:root=General&path=POINTERS`
+- Жалпы → NFC: `prefs:root=General&path=NFC_LINK`
+- Жалпы → VPN: `prefs:root=General&path=VPN`
+- Жалпы → CarPlay: `prefs:root=General&path=CARPLAY`
+- Жалпы → Ақпарат: `prefs:root=General&path=About`
+- Жалпы → Ақпарат → Сенімді сертификаттар: `prefs:root=General&path=About/CERT_TRUST_SETTINGS`
+- Жалпы → Ақпарат → Сериялық нөмірі: `prefs:root=General&path=About#SerialNumber`
+- Жалпы → Ақпарат → Модель нөмірі: `prefs:root=General&path=About#ProductModel`
+- Жалпы → Ақпарат → Модель атауы: `prefs:root=General&path=About#ProductModelName`
+- Жалпы → Ақпарат → iOS нұсқасы: `prefs:root=General&path=About/SW_VERSION_SPECIFIER`
+- Жалпы → Нормативтік-құқықтық құжат: `prefs:root=General&path=LEGAL_AND_REGULATORY`
+- Жалпы → Нормативтік-құқықтық құжат → Кепілдік: `prefs:root=General&path=LEGAL_AND_REGULATORY#Warranty`
+- Жалпы → AirDrop: `prefs:root=General&path=AIRDROP_LINK`
+- Жалпы → AirDrop → Құрылғыларды жақындату: `prefs:root=General&path=AIRDROP_LINK#AIRDROP_NFC_ID`
+- Жалпы → «Басты бет» түймесі: `prefs:root=General&path=HOME_BUTTON`
+- Жалпы → Бүйірлік ауыстырып-қосқыш: `prefs:root=General#Rotation_Switch_Action_Group`
+- Жалпы → Қолданбаны фонда жаңарту: `prefs:root=General&path=AUTO_CONTENT_DOWNLOAD`
+- Жалпы → Күні мен уақыты: `prefs:root=General&path=DATE_AND_TIME`
+- Жалпы → Теледидар шығысы: `prefs:root=General&path=TV_OUT`
+- Жалпы → Бастапқы күйге қайтару: `prefs:root=General&path=Reset`
+- Жалпы → Бастапқы күйге қайтару → Барлық реттеуді бастапқы күйге қайтару: `prefs:root=General&path=Reset#settingsErase`
+- Жалпы → Бастапқы күйге қайтару → Барлық контент пен реттеулерді өшіру: `prefs:root=General&path=Reset#fullErase`
+- Жалпы → Бастапқы күйге қайтару → Желілік реттеулерді бастапқы күйге қайтару: `prefs:root=General&path=Reset#RESET_NETWORK_LABEL`
+- Жалпы → Бастапқы күйге қайтару → Барлық ұялы деректің тарифтік жоспарын жою: `prefs:root=General&path=Reset#cellularErase`
+- Жалпы → Бастапқы күйге қайтару → Абонент сервистері: `prefs:root=General&path=Reset#SUBSCRIBER_SERVICES_ID`
+- Жалпы → Бастапқы күйге қайтару → Пернетақта сөздігін бастапқы күйге қайтару: `prefs:root=General&path=Reset#RESET_KEYBOARD_DICTIONARY_LABEL`
+- Жалпы → Бастапқы күйге қайтару → Басты экранның орнын бастапқы күйге қайтару: `prefs:root=General&path=Reset#RESET_ICONS_LABEL`
+- Жалпы → Бастапқы күйге қайтару → Геолокация мен құпиялылықты бастапқы күйге қайтару: `prefs:root=General&path=Reset#RESET_PRIVACY_LABEL`
+- Жалпы → Өшіру: `prefs:root=General#SHUTDOWN_LABEL`
+- Жалпы → AirPlay және үздіксіздік: `prefs:root=General&path=CONTINUITY_SPEC`
+- Жалпы → AirPlay және үздіксіздік → Handoff: `prefs:root=General&path=CONTINUITY_SPEC#CONTINUITY`
+- Жалпы → AirPlay және үздіксіздік → HomePod ішіне көшіру: `prefs:root=General&path=CONTINUITY_SPEC#TRANSFER_TO_HOMEPOD`
+- Жалпы → AirPlay және үздіксіздік → Авто-AirPlay: `prefs:root=General&path=CONTINUITY_SPEC#AUTOMATICALLY_AIRPLAY`
+- Жалпы → AirPlay және үздіксіздік → Үздіксіз камера: `prefs:root=General&path=CONTINUITY_SPEC#WOMBAT_CAMERA`
+- Жалпы → Тіл және аймақ: `prefs:root=General&path=INTERNATIONAL`
+- Жалпы → Тіл және аймақ → Басқа тілдер…: `prefs:root=General&path=INTERNATIONAL#NEW_PREFERRED_LANGUAGE`
+- Жалпы → Тіл және аймақ → Таңдаулы тілдер реттілігі: `prefs:root=General&path=INTERNATIONAL#PREFERRED_LANGUAGE_GROUP`
+- Жалпы → Тіл және аймақ → Тіл қосу…: `prefs:root=General&path=INTERNATIONAL#ADD_PREFERRED_LANGUAGE`
+- Жалпы → Тіл және аймақ → Аймақ: `prefs:root=General&path=INTERNATIONAL/LOCALE`
+- Жалпы → Тіл және аймақ → Нөмірлер: `prefs:root=General&path=INTERNATIONAL/NUMBERING_SYSTEM`
+- Жалпы → Тіл және аймақ → Күнтізбе: `prefs:root=General&path=INTERNATIONAL/CALENDAR`
+- Жалпы → Тіл және аймақ → Температура бірлігі: `prefs:root=General&path=INTERNATIONAL/TEMPERATURE_UNIT`
+- Apple аккаунты: `prefs:root=APPLE_ACCOUNT` or `settings-navigation://com.apple.Settings.AppleAccount`
+- Apple аккаунты → Контакт кілтін растау: `prefs:root=APPLE_ACCOUNT&path=TRANSPARENCY` or `settings-navigation://com.apple.Settings.AppleAccount/TRANSPARENCY`
+- Apple аккаунты → iCloud: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE` or `prefs:root=CASTLE`
+- Apple аккаунты → iCloud → iCloud сақтау орны: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/STORAGE_AND_BACKUP` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/STORAGE_AND_BACKUP` or `prefs:root=CASTLE&path=STORAGE_AND_BACKUP`
+- Apple аккаунты → iCloud → iCloud Drive: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Ubiquity` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Ubiquity` or `prefs:root=CASTLE&path=com.apple.Dataclass.Ubiquity`
+- Apple аккаунты → iCloud → Фотолар: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.MediaStream` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.MediaStream` or `prefs:root=CASTLE&path=com.apple.Dataclass.MediaStream`
+- Apple аккаунты → iCloud → Пошта: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Mail` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail` or `prefs:root=CASTLE&path=com.apple.Dataclass.Mail`
+- Apple аккаунты → iCloud → Контактілер: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Contacts` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Contacts` or `prefs:root=CASTLE&path=com.apple.Dataclass.Contacts`
+- Apple аккаунты → iCloud → Күнтізбе: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Calendars` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Calendars` or `prefs:root=CASTLE&path=com.apple.Dataclass.Calendars`
+- Apple аккаунты → iCloud → Еске салғыш: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Reminders` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Reminders` or `prefs:root=CASTLE&path=com.apple.Dataclass.Reminders`
+- Apple аккаунты → iCloud → Safari: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Bookmarks` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Bookmarks` or `prefs:root=CASTLE&path=com.apple.Dataclass.Bookmarks`
+- Apple аккаунты → iCloud → Жазбалар: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Notes` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Notes` or `prefs:root=CASTLE&path=com.apple.Dataclass.Notes`
+- Apple аккаунты → iCloud → Жаңалықтар: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.News` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.News` or `prefs:root=CASTLE&path=com.apple.Dataclass.News`
+- Apple аккаунты → iCloud → Сақтық көшірме: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/BACKUP` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/BACKUP` or `prefs:root=CASTLE&path=BACKUP`
+- Apple аккаунты → iCloud → Денсаулық: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Health` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Health` or `prefs:root=CASTLE&path=com.apple.Dataclass.Health`
+- Apple аккаунты → iCloud → Құпиясөздер мен кілттер: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.KeychainSync` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.KeychainSync` or `prefs:root=CASTLE&path=com.apple.Dataclass.KeychainSync`
+- Apple аккаунты → iCloud → Эл. поштамды жасыру: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/PRIVATE_EMAIL_MANAGE` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/PRIVATE_EMAIL_MANAGE` or `prefs:root=CASTLE&path=PRIVATE_EMAIL_MANAGE`
+- Apple аккаунты → Геолокациямды бөлісу: `prefs:root=APPLE_ACCOUNT&path=LOCATION_SHARING` or `settings-navigation://com.apple.Settings.AppleAccount/LOCATION_SHARING`
+- Apple аккаунты → Геолокациямды бөлісу → Локатор: `prefs:root=APPLE_ACCOUNT&path=LOCATION_SHARING/FindMyDevice-Settings` or `settings-navigation://com.apple.Settings.AppleAccount/LOCATION_SHARING/FindMyDevice-Settings`
+- Apple аккаунты → Аты, тел. нөмірлері, эл. поштасы: `prefs:root=APPLE_ACCOUNT&path=APPLE_ACCOUNT_CONTACT` or `settings-navigation://com.apple.Settings.AppleAccount/APPLE_ACCOUNT_CONTACT`
+- Apple аккаунты → Құпиясөз және қауіпсіздік: `prefs:root=APPLE_ACCOUNT&path=PASSWORD_AND_SECURITY` or `settings-navigation://com.apple.Settings.AppleAccount/PASSWORD_AND_SECURITY`
+- Apple аккаунты → Төлем және жеткізілім: `prefs:root=APPLE_ACCOUNT&path=PAYMENT_AND_SHIPPING` or `settings-navigation://com.apple.Settings.AppleAccount/PAYMENT_AND_SHIPPING`
+- Apple аккаунты → Жазылымдар: `prefs:root=APPLE_ACCOUNT&path=SUBSCRIPTIONS` or `settings-navigation://com.apple.Settings.AppleAccount/SUBSCRIPTIONS`
+- Apple аккаунты → Отбасы: `prefs:root=APPLE_ACCOUNT&path=Family` or `settings-navigation://com.apple.Settings.AppleAccount/Family`
+- Хабарландырулар: `prefs:root=NOTIFICATIONS_ID`
+- Хабарландырулар → Кесте бойынша жеткізу: `prefs:root=NOTIFICATIONS_ID&path=SCHEDULED_DELIVERY_ID`
+- Ауа райы: `prefs:root=WEATHER`
+- Freeform: `prefs:root=FREEFORM`
+- Зейін қою: `prefs:root=DO_NOT_DISTURB`
+- Зейін қою → Зейін қою күйі: `prefs:root=DO_NOT_DISTURB&path=status`
+- Күнделік: `prefs:root=JOURNAL`
+- Wallet және Apple Pay: `prefs:root=PASSBOOK`
+- Wallet және Apple Pay → Apple Cash: `prefs:root=PASSBOOK#Apple%C2%A0Cash`
+- Wallet және Apple Pay → Төлем карталары: `prefs:root=PASSBOOK#SETTINGS_PAYMENT_CARDS_GROUP`
+- Wallet және Apple Pay → Картаны қосу: `prefs:root=PASSBOOK#Add%20Card`
+- Wallet және Apple Pay → Бүйірлік түймені екі рет басу: `prefs:root=PASSBOOK#Double-Click%20Side%20Button`
+- Wallet және Apple Pay → Тапсырысты қадағалау: `prefs:root=PASSBOOK#ORDER_TRACKING`
+- Дисплей және жарықтық | Көрініс: `prefs:root=DISPLAY`
+- Дисплей және жарықтық | Көрініс → Көрініс: `prefs:root=DISPLAY#DEVICE_APPEARANCE`
+- Дисплей және жарықтық | Көрініс → True Tone: `prefs:root=DISPLAY#WHITE_BALANCE`
+- Дисплей және жарықтық | Көрініс → Night Shift: `prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION`
+- Дисплей және жарықтық | Көрініс → Night Shift → Жоспарланған: `prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION#SCHEDULED`
+- Дисплей және жарықтық | Көрініс → Night Shift → Ертеңге дейін қолмен қосу: `prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION#MANUAL`
+- Дисплей және жарықтық | Көрініс → Night Shift → Түс температурасы: `prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION#COLOR_TEMPERATURE`
+- Дисплей және жарықтық | Көрініс → Автоматты түрде құлыптау: `prefs:root=DISPLAY&path=AUTOLOCK`
+- Дисплей және жарықтық | Көрініс → Іске қосу үшін көтеру: `prefs:root=DISPLAY#RAISE_TO_WAKE`
+- Дисплей және жарықтық | Көрініс → Құлыптау/құлпын ашу: `prefs:root=DISPLAY#SMART_CASE_LOCK_SPEC`
+- Дисплей және жарықтық | Көрініс → Мәтін өлшемі: `prefs:root=DISPLAY&path=TEXT_SIZE`
+- Дисплей және жарықтық | Көрініс → Қалың қаріпті мәтін: `prefs:root=DISPLAY#BOLD_TEXT`
+- Дисплей және жарықтық | Көрініс → Жарықтық: `prefs:root=DISPLAY#BRIGHTNESS`
+- Дисплей және жарықтық | Көрініс → Дисплей масштабы: `prefs:root=DISPLAY#DISPLAY_ZOOM_GROUP`
+- Дисплей және жарықтық | Көрініс → Көрініс: `prefs:root=DISPLAY&path=APPEARANCE`
+- Дисплей және жарықтық | Көрініс → Көрініс → Терезе: `prefs:root=DISPLAY&path=APPEARANCE#WINDOW_ZOOM`
+- Дисплей және жарықтық | Көрініс → Көрініс → Екі қолмен терезені масштабтау: `prefs:root=DISPLAY&path=APPEARANCE#TWO_HANDED_WINDOW_ZOOM`
+- Дисплей және жарықтық | Көрініс → Көру: `prefs:root=DISPLAY&path=MAGNIFY`
+- Дисплей және жарықтық | Көрініс → Әрдайым қосулы дисплей: `prefs:root=DISPLAY&path=ALWAYS_ON`
+- Дисплей және жарықтық | Көрініс → Әрдайым қосулы дисплей → Әрдайым қосулы дисплей: `prefs:root=DISPLAY&path=ALWAYS_ON#ALWAYS_ON`
+- Дисплей және жарықтық | Көрініс → Үйлесімді қолданбалар: `prefs:root=DISPLAY&path=COMPATIBLE_APPEARANCE`
+- Дисплей және жарықтық | Көрініс → Үйлесімді қолданбалар → Қараңғы, жарық: `prefs:root=DISPLAY&path=COMPATIBLE_APPEARANCE#COMPATIBLE_APPEARANCE_CHOICES`
+- Өлшем: `prefs:root=MEASURE` or `settings-navigation://com.apple.Settings.Apps/com.apple.measure`
+- Өлшем → Өлшем бірліктер: `prefs:root=MEASURE#MEASURE_UNITS` or `settings-navigation://com.apple.Settings.Apps/com.apple.measure#MEASURE_UNITS#MEASURE_UNITS`
+- Өлшем → Империялық: `prefs:root=MEASURE#Imperial` or `settings-navigation://com.apple.Settings.Apps/com.apple.measure#Imperial#Imperial`
+- Өлшем → Метрлік: `prefs:root=MEASURE#Metric` or `settings-navigation://com.apple.Settings.Apps/com.apple.measure#Metric#Metric`
+- Тұсқағаз: `prefs:root=Wallpaper`
+- Басқару орталығы: `prefs:root=ControlCenter`
+- Басқару орталығы → Қолданбалардағы қол жеткізу: `prefs:root=ControlCenter#ALLOWED_WITHIN_APPS`
+- Басқару орталығы → Басқару элементтерін бейімдеу: `prefs:root=ControlCenter&path=CUSTOMIZE_CONTROLS`
+- Диктофон: `prefs:root=VOICE_MEMOS`
+- Диктофон → Жойылғандардан тазалау: `prefs:root=VOICE_MEMOS&path=RCVoiceMemosRecentlyDeletedWindowKey`
+- Диктофон → Дыбыс сапасы: `prefs:root=VOICE_MEMOS&path=RCVoiceMemosAudioQualityKey`
+- Диктофон → Геоконтекстік атау: `prefs:root=VOICE_MEMOS#RCVoiceMemosUseLocationBasedNaming`
+- Күнтізбе: `prefs:root=CALENDAR`
+- Күнтізбе → Уақыт белдеуін бекіту: `prefs:root=CALENDAR&path=TimeZoneCityArray`
+- Күнтізбе → Басқа күнтізбелер: `prefs:root=CALENDAR&path=Alternate%20Calendars`
+- Күнтізбе → Апта нөмірлері: `prefs:root=CALENDAR#Week%20Numbers`
+- Күнтізбе → Қатысушының бас тарту әрекеттерін көрсету: `prefs:root=CALENDAR#Show%20Invitee%20Declines`
+- Күнтізбе → Синхрондау: `prefs:root=CALENDAR&path=Sync`
+- Күнтізбе → Әдепкі ескерту уақыттары: `prefs:root=CALENDAR&path=Default%20Alert%20Times`
+- Күнтізбе → Апта басы:: `prefs:root=CALENDAR&path=Start%20Week%20On`
+- Күнтізбе → Геолокациялық ұсыныстар: `prefs:root=CALENDAR#Location%20Suggestions`
+- Әзірлеуші: `prefs:root=DEVELOPER_SETTINGS`
+- Әзірлеуші → Көп арналы желі: `prefs:root=DEVELOPER_SETTINGS&path=MULTI_PATH_AGG`
+- Әзірлеуші → Көп арналы желі → Көп арналы желі: `prefs:root=DEVELOPER_SETTINGS&path=MULTI_PATH_AGG#Multipath%20Networking`
+- Әзірлеуші → Көрініс: `prefs:root=DEVELOPER_SETTINGS#UIAppearanceGroup`
+- Әзірлеуші → Қараңғы көрініс: `prefs:root=DEVELOPER_SETTINGS#UIAppearanceSettings`
+- Әзірлеуші → Жұптастырылған құрылғылар: `prefs:root=DEVELOPER_SETTINGS#DTPairedDevicesGroup`
+- Әзірлеуші → Сенім берілген компьютерлерден тазалау: `prefs:root=DEVELOPER_SETTINGS#CLEAR_TRUSTED_COMPUTERS`
+- Әзірлеуші → Журнал: `prefs:root=DEVELOPER_SETTINGS&path=DTInstrumentsSettings`
+- Әзірлеуші → Пайдаланушы интерфейсін автоматтандыру | Пайдаланушы интерфейсін автоматтандыру функциясын қосу: `prefs:root=DEVELOPER_SETTINGS#UIAGroup`
+- Әзірлеуші → Желіге қосылу: `prefs:root=DEVELOPER_SETTINGS#NLCGroup`
+- Әзірлеуші → Желілік қосылым реттеушіcі: `prefs:root=DEVELOPER_SETTINGS&path=NLC`
+- Әзірлеуші → Қосымша журналдар: `prefs:root=DEVELOPER_SETTINGS#ADDITIONAL_LOGGING`
+- Әзірлеуші → HTTP сервистеріне рұқсат беру: `prefs:root=DEVELOPER_SETTINGS#ALLOW_HTTP_SERVICES`
+- Әзірлеуші → Жылдамдық шектеуін өшіру: `prefs:root=DEVELOPER_SETTINGS#DISABLE_RATE_LIMITING`
+- Әзірлеуші → NFC кіру кілті (қосымша): `prefs:root=DEVELOPER_SETTINGS#NFC_PASS_KEY_OPTIONAL`
+- Әзірлеуші → Медиа сервистерді сынау: `prefs:root=DEVELOPER_SETTINGS#MEDIA_SERVICES_TESTING`
+- Әзірлеуші → Медиа сервистерді бастапқы күйге қайтару: `prefs:root=DEVELOPER_SETTINGS#RESET_MEDIA_SERVICES`
+- Әзірлеуші → «News» қолданбасын сынау: `prefs:root=DEVELOPER_SETTINGS#NEWS_TESTING`
+- Әзірлеуші → Келесі іске қосу кезінде құрылғыдағы деректерді бастапқы күйге қайтару: `prefs:root=DEVELOPER_SETTINGS#RESET_LOCAL_DATA_ON_NEXT_LAUNCH`
+- Әзірлеуші → Медиаплеердің бағдарламалық ортасын сынау: `prefs:root=DEVELOPER_SETTINGS#RoutineSettingsGroup`
+- Әзірлеуші → Ойнатылатын контент API: `prefs:root=DEVELOPER_SETTINGS&path=RoutineSettings`
+- Әзірлеуші → Теледидар провайдері: `prefs:root=DEVELOPER_SETTINGS&path=VideoSubscriberAccountSettings`
+- Әзірлеуші → ClassKit API: `prefs:root=DEVELOPER_SETTINGS&path=ClassKitSettings`
+- Әзірлеуші → CoreSpotlight функциясын сынау: `prefs:root=DEVELOPER_SETTINGS#CORESPOTLIGHT_TESTING`
+- Әзірлеуші → Барлық элементті қайта индекстеу: `prefs:root=DEVELOPER_SETTINGS#REINDEX_ALL_ITEMS`
+- Әзірлеуші → Барлық элементті идентификаторлармен қайта индекстеу: `prefs:root=DEVELOPER_SETTINGS#REINDEX_ALL_ITEMS_WITH_IDENTIFIERS`
+- Әзірлеуші → Пернелер тіркесімдерін сынау: `prefs:root=DEVELOPER_SETTINGS#SIRI_ACTIONS_TESTING`
+- Әзірлеуші → Соңғы пернелер тіркесімін көрсету: `prefs:root=DEVELOPER_SETTINGS#DISPLAY_DONATIONS_SPOTLIGHT`
+- Әзірлеуші → Алдағы медиадеректерді көрсету: `prefs:root=DEVELOPER_SETTINGS#DISPLAY_UPCOMING_MEDIA`
+- Әзірлеуші → Құлыптау экранындағы донорлықтарды көрсету: `prefs:root=DEVELOPER_SETTINGS#DISPLAY_DONATIONS_LOCKSCREEN`
+- Әзірлеуші → Пернелер тіркесімін сағатқа мәжбүрлі түрде синхрондау: `prefs:root=DEVELOPER_SETTINGS#SIRI_ACTIONS_SYNC_WATCHOS`
+- Әзірлеуші → MIDI-CI сынағы: `prefs:root=DEVELOPER_SETTINGS#MIDI_CI_API_BETA`
+- Әзірлеуші → MIDI-CI функциясын қосу: `prefs:root=DEVELOPER_SETTINGS#MIDI_CI_API_BETA_ENABLE`
+- Әзірлеуші → Қатып қалуды анықтау: `prefs:root=DEVELOPER_SETTINGS#HANGTRACER_EXTERNAL_CONFIGURE`
+- Face ID және құпиякод | Touch ID және құпиякод | Құпиякод: `prefs:root=PASSCODE`
+- Face ID және құпиякод | Touch ID және құпиякод | Құпиякод → Құпиякодты өшіру: `prefs:root=PASSCODE#PASSCODE_OFF`
+- Face ID және құпиякод | Touch ID және құпиякод | Құпиякод → Құпиякодты өзгерту: `prefs:root=PASSCODE#CHANGE_PASSCODE`
+- Face ID және құпиякод | Touch ID және құпиякод | Құпиякод → Құпиякод сұрауы: `prefs:root=PASSCODE&path=PASSCODE_REQ`
+- Face ID және құпиякод | Touch ID және құпиякод | Құпиякод → Дауыстап теру: `prefs:root=PASSCODE#VOICE_DIAL`
+- Face ID және құпиякод | Touch ID және құпиякод | Құпиякод → Экран құлыптаулы кезде қол жеткізу: `prefs:root=PASSCODE#ALLOW_ACCESS_WHEN_LOCKED`
+- Face ID және құпиякод | Touch ID және құпиякод | Құпиякод → Хабар арқылы жауап беру: `prefs:root=PASSCODE#REPLY_WITH_MESSAGE_SWITCH`
+- Face ID және құпиякод | Touch ID және құпиякод | Құпиякод → Үйді басқару: `prefs:root=PASSCODE#HOME_CONTROL_SWITCH`
+- Face ID және құпиякод | Touch ID және құпиякод | Құпиякод → Wallet: `prefs:root=PASSCODE#WALLET_SWITCH`
+- Face ID және құпиякод | Touch ID және құпиякод | Құпиякод → Өткізілгендерге қайту: `prefs:root=PASSCODE#RETURN_MISSED_CALLS_SWITCH`
+- Face ID және құпиякод | Touch ID және құпиякод | Құпиякод → Деректерді өшіру: `prefs:root=PASSCODE#WIPE_DEVICE`
+- Face ID және құпиякод | Touch ID және құпиякод | Құпиякод → Apple Watch сағатымен құлыптан ашу: `prefs:root=PASSCODE#AUTO_UNLOCK_DEVICES_GROUP`
+- Face ID және құпиякод | Touch ID және құпиякод | Құпиякод → Ұрланған құрылғыны қорғау: `prefs:root=PASSCODE#DTO_GROUP_ID`
+- Телефон: `prefs:root=Phone`
+- Телефон → Менің нөмірім: `prefs:root=Phone&path=My%20Number`
+- Телефон → Кіріс қоңыраулар: `prefs:root=Phone&path=INCOMING_CALL_STYLE`
+- Телефон → Қоңырауларды жариялау: `prefs:root=Phone&path=ANNOUNCE_CALLS`
+- Телефон → SMS/қоңырау туралы хабарлау: `prefs:root=Phone&path=CLASSIFICATION_AND_REPORTING`
+- Телефон → Мәтіндік хабармен жауап беру: `prefs:root=Phone&path=Respond%20with%20Text`
+- Телефон → Қоңырауды қайта бағыттау: `prefs:root=Phone&path=Call%20Forwarding`
+- Телефон → Қоңырауды қайта бағыттау → Қоңырауды қайта бағыттау: `prefs:root=Phone&path=Call%20Forwarding#idMasterOnOffSwitch`
+- Телефон → Қоңырауды күту: `prefs:root=Phone&path=Call%20Waiting`
+- Телефон → Нөмірімді көрсету: `prefs:root=Phone&path=Show%20My%20Caller%20ID`
+- Телефон → Нөмірімді көрсету → Нөмірімді көрсету: `prefs:root=Phone&path=Show%20My%20Caller%20ID/Primary`
+- Телефон → Нөмірімді көрсету → Нөмірімді көрсету → Нөмірімді көрсету: `prefs:root=Phone&path=Show%20My%20Caller%20ID/Primary#Show%20My%20Caller%20ID`
+- Телефон → Белгісіз қоңырау дыбысын өшіру: `prefs:root=Phone#SILENCE_CALLS`
+- Телефон → Блокталған контактілер: `prefs:root=Phone&path=SPECIFIER_IDENTIFIER_BLACKLIST`
+- Телефон → Теру көмекшісі: `prefs:root=Phone&path=Dial%20Assist`
+- Жазбалар: `prefs:root=NOTES` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes`
+- Жазбалар → Әдепкі аккаунт: `prefs:root=NOTES&path=Default%20Account` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes/Default%20Account`
+- Жазбалар → Құпиясөз: `prefs:root=NOTES&path=Password` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes/Password`
+- Жазбалар → Жазбаларды сұрыптау:: `prefs:root=NOTES&path=Sort%20Notes%20By` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes/Sort%20Notes%20By`
+- Жазбалар → Жаңа жазбалар басы: `prefs:root=NOTES&path=New%20Notes%20Start%20With` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes/New%20Notes%20Start%20With`
+- Жазбалар → Тексерілген элементтерді сұрыптау: `prefs:root=NOTES&path=Sort%20Checked%20Items` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes/Sort%20Checked%20Items`
+- Жазбалар → Сызықтар мен торлар: `prefs:root=NOTES&path=Lines%20%26%20Grids` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes/Lines%20%26%20Grids`
+- Жазбалар → Фотоларға сақтау: `prefs:root=NOTES#Save%20to%20Photos` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes#Save%20to%20Photos#Save%20to%20Photos`
+- Жазбалар → Құлыптау экранындағы жазбалар: `prefs:root=NOTES&path=Access%20Notes%20from%20Lock%20Screen` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes/Access%20Notes%20from%20Lock%20Screen`
+- Кітаптар: `prefs:root=IBOOKS`
+- Кітаптар → Онлайн контент: `prefs:root=IBOOKS#BKAllowOnlineContent`
+- Кітаптар → СИНХРОНДАУ: `prefs:root=IBOOKS#SYNCING`
+- Кітаптар → Қазір оқу: `prefs:root=IBOOKS#BKLibrary.ReadingNow`
+- Кітаптар → iCloud Drive: `prefs:root=IBOOKS#BCSyncICloudDrive`
+- Кітаптар → ОҚУ: `prefs:root=IBOOKS#READING`
+- Кітаптар → Толық теңестіру: `prefs:root=IBOOKS#BKFullJustification`
+- Кітаптар → Сөзді авто тасымалдау: `prefs:root=IBOOKS#BKAutoHyphenation`
+- Кітаптар → Екі жолдан да парақтау: `prefs:root=IBOOKS#BKLeftTapTurnToNext`
+- Кітаптар → Оқу бойынша мақсаттар: `prefs:root=IBOOKS#READING_GOALS`
+- Кітаптар → Оқу мақсаттары дерегін тазалау: `prefs:root=IBOOKS#BKReadingGoalsShouldClearDataKey`
+- Кітаптар → ІЗДЕЛУДЕ: `prefs:root=IBOOKS#SEARCHING`
+- Кітаптар → Кітаптар дүкені: `prefs:root=IBOOKS#BKIncludeBookStoreResultsInSearch`
+- Кітаптар → АУДИОКІТАПТАР: `prefs:root=IBOOKS#AUDIOBOOKS`
+- Кітаптар → Алға өту: `prefs:root=IBOOKS&path=BKAudioBookSkipForward`
+- Кітаптар → Артқа өту: `prefs:root=IBOOKS&path=BKAudioBookSkipBackward`
+- Кітаптар → СЫРТҚЫ БАСҚАРУ ЭЛЕМЕНТТЕРІ: `prefs:root=IBOOKS#BKRemoteSkipInsteadOfNextTrackDefaultKey`
+- Кітаптар → Келесі/алдыңғы: `prefs:root=IBOOKS#Next/Previous`
+- Кітаптар → Алға/артқа өту: `prefs:root=IBOOKS#Skip%20Forward/Back`
+- Кітаптар → ҚҰПИЯЛЫЛЫҚ: `prefs:root=IBOOKS#PRIVACY`
+- Кітаптар → Идентификаторды нөлдеу: `prefs:root=IBOOKS#BAResetAnalyticsUserID`
+- Кітаптар → Растаулар: `prefs:root=IBOOKS&path=Acknowledgements`
+- Game Center: `prefs:root=GAMECENTER`
+- Төтенше қоңырау — SOS: `prefs:root=EMERGENCY_SOS`
+- Төтенше қоңырау — SOS → Бүйірлік түйме арқылы қоңырау шалу: `prefs:root=EMERGENCY_SOS#CALL_WITH_SIDE_BUTTON`
+- Төтенше қоңырау — SOS → Авто қоңырау: `prefs:root=EMERGENCY_SOS#AUTO_CALL`
+- Төтенше қоңырау — SOS → Төтенше контактілер: `prefs:root=EMERGENCY_SOS#EMERGENCY_CONTACTS`
+- Төтенше қоңырау — SOS → Кері санау дыбысы: `prefs:root=EMERGENCY_SOS#ALARM_SOUND_SWITCH`
+- Еске салғыш: `prefs:root=REMINDERS`
+- Еске салғыш → Әдепкі тізім: `prefs:root=REMINDERS&path=DEFAULT_LIST`
+- Еске салғыш → Әдепкі тізім → Еске салғыш: `prefs:root=REMINDERS&path=DEFAULT_LIST#preferredDefaultListID`
+- Еске салғыш → Бүгінгі хабарландыру: `prefs:root=REMINDERS#todayNotificationFireTime`
+- Еске салғыш → Мерзімі өткен ретінде көрсету: `prefs:root=REMINDERS#showRemindersAsOverdue`
+- Ұялы байланыс: `prefs:root=MOBILE_DATA_SETTINGS_ID`
+- Ұялы байланыс → Ұялы деректер опциялары: `prefs:root=MOBILE_DATA_SETTINGS_ID&path=CELLULAR_DATA_OPTIONS`
+- Ұялы байланыс → Ұялы деректер опциялары → Деректерді үнемдеу режимі: `prefs:root=MOBILE_DATA_SETTINGS_ID&path=CELLULAR_DATA_OPTIONS#Low%20Data%20Mode`
+- Ұялы байланыс → Ұялы деректер: `prefs:root=MOBILE_DATA_SETTINGS_ID&path=SHOW_ALL`
+- WLAN | Wi-Fi: `prefs:root=WIFI`
+- Контактілер: `prefs:root=CONTACTS`
+- Контактілер → «Контактілер» қолданбасына қол жеткізуге рұқсат беру: `prefs:root=CONTACTS#Allow%20Contacts%20To%20Access`
+- Контактілер → Siri: `prefs:root=CONTACTS&path=SIRI_AND_SEARCH`
+- Контактілер → Сұрыптау реті: `prefs:root=CONTACTS&path=ContactsSortOrder`
+- Контактілер → Дисплей реттілігі: `prefs:root=CONTACTS&path=PersonNameOrder`
+- Контактілер → Қысқа ат: `prefs:root=CONTACTS&path=PersonShortName`
+- Контактілер → Қысқа ат → Қысқа ат: `prefs:root=CONTACTS&path=PersonShortName#Short%20Name`
+- Контактілер → Қысқа ат → Лақап аттар таңдау: `prefs:root=CONTACTS&path=PersonShortName#Prefer%20Nicknames`
+- Контактілер → Менің ақпаратым: `prefs:root=CONTACTS&path=MeCard`
+- Контактілер → SIM карта контактілерін импорттау: `prefs:root=CONTACTS#SIMImport`
+- Пәрмендер: `prefs:root=SHORTCUTS`
+- Пәрмендер → iCloud синхрондау әрекеті: `prefs:root=SHORTCUTS#WFCloudKitSyncEnabled`
+- Пәрмендер → Ретті синхрондау: `prefs:root=SHORTCUTS#WFCloudKitSyncOrderEnabled`
+- Пәрмендер → Құқықтық ескертпелер: `prefs:root=SHORTCUTS&path=Legal%20Notices`
+- Видеолар | Теледидар: `prefs:root=TVAPP`
+- Видеолар | Теледидар → Ойнату үшін ұялы деректерді пайдалану: `prefs:root=TVAPP#com.apple.videos%3AVideosUseCellularDataEnabledSetting`
+- Видеолар | Теледидар → Ойнату сапасы: `prefs:root=TVAPP#com.apple.videos%3APlaybackQualityGroup`
+- Видеолар | Теледидар → Сатып алулар және жалға алынған нысандар: `prefs:root=TVAPP&path=com.apple.videos%3APreferredPurchaseResolution`
+- Видеолар | Теледидар → Үй топтамасы: `prefs:root=TVAPP#com.apple.videos%3AHomeSharingFooter`
+- Музыка: `prefs:root=MUSIC`
+- Музыка → Apple Music қолданбасын көрсету: `prefs:root=MUSIC#com.apple.Music%3AAppleMusicEnabled`
+- Музыка → Плейлист әндерін қосу: `prefs:root=MUSIC#com.apple.Music%3AAddPlaylistSongsToMyMusicSwitch`
+- Музыка → Жұлдыз қойылатын рейтингтерін көрсету: `prefs:root=MUSIC#com.apple.Music%3AShowStarRatings`
+- Музыка → Медиатеканы синхрондау: `prefs:root=MUSIC#com.apple.Music%3ACloudMusicLibraryEnabled`
+- Музыка → Ұялы деректер: `prefs:root=MUSIC&path=com.apple.Music%3ACellularData`
+- Музыка → Жүктеп алынған музыка: `prefs:root=MUSIC&path=com.apple.Music%3AMusicUsageLink`
+- Музыка → Сақтау орнын оңтайландыру: `prefs:root=MUSIC&path=com.apple.Music%3AOptimizeStorage`
+- Музыка → Авто жүктеп алулар: `prefs:root=MUSIC#com.apple.Music%3AMusicAutomaticDownload`
+- Музыка → Эквалайзер: `prefs:root=MUSIC&path=com.apple.Music%3AEQ`
+- Музыка → Дыбысты түзету: `prefs:root=MUSIC#com.apple.Music%3ASoundCheck`
+- Музыка → Тыңдау тарихын пайдалану: `prefs:root=MUSIC#com.apple.Music%3APrivateListening`
+- Камера: `prefs:root=CAMERA`
+- Камера → Форматтар: `prefs:root=CAMERA&path=CameraFormatsSettingsList`
+- Камера → Форматтар → Apple ProRaw: `prefs:root=CAMERA&path=CameraFormatsSettingsList#CAMUserPreferenceEnableLinearDNGControl`
+- Камера → Record Video: `prefs:root=CAMERA&path=Record%20Video`
+- Камера → Record Video → HDR видео: `prefs:root=CAMERA&path=Record%20Video#HDR%20Video`
+- Камера → Реттеулерді сақтау: `prefs:root=CAMERA&path=CameraPreserveSettingsSwitch`
+- Камера → Реттеулерді сақтау → Камера режимі: `prefs:root=CAMERA&path=CameraPreserveSettingsSwitch#CAMUserPreferencePreserveCaptureMode`
+- Камера → Тор: `prefs:root=CAMERA#CameraGridSwitch`
+- Камера → QR кодтарын сканерлеу: `prefs:root=CAMERA#CameraQRBannerSwitch`
+- Компас: `prefs:root=COMPASS`
+- Компас → Нағыз солтүстікті пайдалану: `prefs:root=COMPASS#USE_TRUE_NORTH`
+- Байланыс туралы хабарлар: `prefs:root=EXPOSURE_NOTIFICATION`
+- Пошта: `prefs:root=MAIL`
+- Пошта → Аккаунттар: `prefs:root=MAIL&path=ACCOUNTS`
+- Пошта → Аккаунттар → Аккаунт қосу: `prefs:root=MAIL&path=ACCOUNTS#ADD_ACCOUNT`
+- Пошта → Аккаунттар → Жаңа деректер алу: `prefs:root=MAIL&path=ACCOUNTS#FETCH_NEW_DATA`
+- Пошта → Алдын ала қарау: `prefs:root=MAIL&path=Preview`
+- Пошта → Маған/көшіру белгілерін көрсету: `prefs:root=MAIL#Show%20To/Cc%20Labels`
+- Пошта → Жанап өту опциялары: `prefs:root=MAIL&path=Swipe%20Options`
+- Пошта → Жоюдан бұрын сұрау: `prefs:root=MAIL#Ask%20Before%20Deleting`
+- Пошта → Қашықтағы кескіндерді жүктеу: `prefs:root=MAIL#Load%20Remote%20Images`
+- Пошта → Тақырыбы бойынша реттеу: `prefs:root=MAIL#Organize%20by%20Thread`
+- Пошта → Оқылған хабарларды жию: `prefs:root=MAIL#Collapse%20Read%20Messages`
+- Пошта → Жаңа хабар үстінде: `prefs:root=MAIL#Most%20Recent%20Message%20on%20Top`
+- Пошта → Тақырыптарды аяқтау: `prefs:root=MAIL#Complete%20Threads`
+- Пошта → Дыбысы өшірілген хабарландыру: `prefs:root=MAIL&path=Muted%20Thread%20Action`
+- Пошта → Блокталған жіберушілерді елемеу: `prefs:root=MAIL#Ignore%20Blocked%20Senders`
+- Пошта → Блокталған жіберуші опциялары: `prefs:root=MAIL&path=Blocked%20Sender%20Options`
+- Пошта → Блокталған: `prefs:root=MAIL&path=Blocked`
+- Пошта → Әрқашан көшірмесін өзімде қалдыру: `prefs:root=MAIL#Always%20Bcc%20Myself`
+- Пошта → Мекенжайлар белгісі: `prefs:root=MAIL&path=Mark%20Addresses`
+- Пошта → Цитата деңгейін көтеру: `prefs:root=MAIL&path=Increase%20Quote%20Level`
+- Пошта → Жауабы бар тіркемелер қосу: `prefs:root=MAIL&path=Include%20Attachments%20with%20Replies`
+- Пошта → Қолтаңба: `prefs:root=MAIL&path=Signature`
+- Bluetooth: `prefs:root=Bluetooth`
+- News: `prefs:root=NEWS`
+- News → Оқиғаның алдын ала қарау көріністерін көрсету: `prefs:root=NEWS#show_excerpt_mode`
+- News → Мақалаларды «Бүгінгі» бойынша шектеу: `prefs:root=NEWS#showStoriesFromFavoritesSpecifierID`
+- News → Құпиялылық: `prefs:root=NEWS#Privacy`
+- News → Идентификаторды нөлдеу: `prefs:root=NEWS#reset_identifier`
+- News → Растаулар: `prefs:root=NEWS&path=Acknowledgements`
+- Фотолар: `prefs:root=Photos`
+- Фотолар → iCloud фотолары: `prefs:root=Photos#iCloudPhotosSwitch`
+- Фотолар → Сақтау орнын оңтайландыру: `prefs:root=Photos#iCloudOptimizeStorageOption`
+- Фотолар → Жүктеп алу және түпнұсқаларды сақтау: `prefs:root=Photos#iCloudKeepOriginalsOption`
+- Фотолар → Ортақ альбомдар: `prefs:root=Photos#SharedStreamsSwitch`
+- Фотолар → Ұялы деректер: `prefs:root=Photos&path=CellularDataLinkList`
+- Фотолар → Видеоларды авто ойнату: `prefs:root=Photos#VideoAutoplaySwitch`
+- Фотолар → Толық HDR сапасында көру: `prefs:root=Photos#ImageModulationSwitch`
+- Фотолар → Мерекелік оқиғаларды көрсету: `prefs:root=Photos#MEMORIES_HOLIDAY_CALENDAR_EVENTS_SWITCH`
+- Фотолар → Mac немесе компьютерге көшіру: `prefs:root=Photos#TransferGroup`
+- Подкасттар: `prefs:root=PODCASTS`
+- Құпиялылық және қауіпсіздік: `prefs:root=Privacy` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity`
+- Құпиялылық және қауіпсіздік → Денсаулық: `prefs:root=Privacy&path=HEALTH` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/HEALTH`
+- Құпиялылық және қауіпсіздік → Медициналық деректер: `prefs:root=Privacy&path=HEALTH_DATA` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/HEALTH_DATA`
+- Құпиялылық және қауіпсіздік → Орналасқан жері: `prefs:root=Privacy&path=LOCATION` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/LOCATION`
+- Құпиялылық және қауіпсіздік → Орналасқан жері → Геолокацияммен бөлісу: `prefs:root=Privacy&path=LOCATION/LOCATION_SHARING` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/LOCATION/LOCATION_SHARING`
+- Құпиялылық және қауіпсіздік → Контактілер: `prefs:root=Privacy&path=CONTACTS` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/CONTACTS`
+- Құпиялылық және қауіпсіздік → Күнтізбелер: `prefs:root=Privacy&path=CALENDARS` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/CALENDARS`
+- Құпиялылық және қауіпсіздік → Еске салғыш: `prefs:root=Privacy&path=REMINDERS` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/REMINDERS`
+- Құпиялылық және қауіпсіздік → Фотолар: `prefs:root=Privacy&path=PHOTOS` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/PHOTOS`
+- Құпиялылық және қауіпсіздік → Bluetooth арқылы бөлісу: `prefs:root=Privacy&path=BT_PERIPHERAL` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/BT_PERIPHERAL`
+- Құпиялылық және қауіпсіздік → Микрофон: `prefs:root=Privacy&path=MICROPHONE` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/MICROPHONE`
+- Құпиялылық және қауіпсіздік → Сөйлеуді тану: `prefs:root=Privacy&path=SPEECH_RECOGNITION` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/SPEECH_RECOGNITION`
+- Құпиялылық және қауіпсіздік → Камера: `prefs:root=Privacy&path=CAMERA` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/CAMERA`
+- Құпиялылық және қауіпсіздік → HomeKit: `prefs:root=Privacy&path=WILLOW` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/WILLOW`
+- Құпиялылық және қауіпсіздік → Медиа және Apple Music: `prefs:root=Privacy&path=MEDIALIBRARY` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/MEDIALIBRARY`
+- Құпиялылық және қауіпсіздік → Аналитика: `prefs:root=Privacy&path=PROBLEM_REPORTING` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/PROBLEM_REPORTING`
+- Құпиялылық және қауіпсіздік → Жарнама: `prefs:root=Privacy&path=ADVERTISING` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/ADVERTISING`
+- Құпиялылық және қауіпсіздік → Файлдар мен қалталар: `prefs:root=Privacy&path=FILEACCESS` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/FILEACCESS`
+- Құпиялылық және қауіпсіздік → Бақылау: `prefs:root=Privacy&path=USER_TRACKING` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/USER_TRACKING`
+- Құпиялылық және қауіпсіздік → Қолданбаның құпиялылық есебі: `prefs:root=Privacy&path=PRIVACY_REPORT` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/PRIVACY_REPORT`
+- Құпиялылық және қауіпсіздік → Блоктау режимі: `prefs:root=Privacy#LOCKDOWN_MODE` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity#LOCKDOWN_MODE#LOCKDOWN_MODE`
+- Құпиялылық және қауіпсіздік → Орынсыз контент: `prefs:root=Privacy#NUDITY_DETECTION` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity#NUDITY_DETECTION#NUDITY_DETECTION`
+- FaceTime: `prefs:root=FACETIME`
+- Экран уақыты: `prefs:root=SCREEN_TIME`
+- Дыбыс, жанасу сигналдары | Дыбыстар: `prefs:root=Sounds`
+- Дыбыс, жанасу сигналдары | Дыбыстар → Құлаққап қауіпсіздігі: `prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING`
+- Дыбыс, жанасу сигналдары | Дыбыстар → Құлаққап қауіпсіздігі → Lightning адаптерлері: `prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING/HEADPHONE_LIGHTNING_ADAPTERS`
+- Дыбыс, жанасу сигналдары | Дыбыстар → Құлаққап қауіпсіздігі → Құлаққап хабарландырулары: `prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING#SHSHeadphoneWeeklyNotificationsKey`
+- Дыбыс, жанасу сигналдары | Дыбыстар → Құлаққап қауіпсіздігі → Қатты дыбысты азайту: `prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING#SHSHeadphoneLevelLimitSwitchKey`
+- Дыбыс, жанасу сигналдары | Дыбыстар → Дыбыс әсерлері: `prefs:root=Sounds&path=SOUND_EFFECTS`
+- Дыбыс, жанасу сигналдары | Дыбыстар → Қоңырау және ескертулер: `prefs:root=Sounds#RINGER_AND_ALERT_GROUP`
+- Дыбыс, жанасу сигналдары | Дыбыстар → Түймелермен өзгерту: `prefs:root=Sounds#CHANGE_WITH_BUTTONS`
+- Дыбыс, жанасу сигналдары | Дыбыстар → Дыбыс және діріл үлгілері: `prefs:root=Sounds#SOUNDS_ALERT_GROUP`
+- Дыбыс, жанасу сигналдары | Дыбыстар → Рингтон: `prefs:root=Sounds&path=Ringtone`
+- Дыбыс, жанасу сигналдары | Дыбыстар → Хабар дыбысы: `prefs:root=Sounds&path=Text_Messages`
+- Дыбыс, жанасу сигналдары | Дыбыстар → Жаңа дауыстық пошта: `prefs:root=Sounds&path=Voicemail`
+- Дыбыс, жанасу сигналдары | Дыбыстар → Жаңа пошта: `prefs:root=Sounds&path=NEW_MAIL`
+- Дыбыс, жанасу сигналдары | Дыбыстар → Жіберілгендер: `prefs:root=Sounds&path=SENT_MAIL`
+- Дыбыс, жанасу сигналдары | Дыбыстар → Күнтізбе ескертулері: `prefs:root=Sounds&path=Calendar%20Alarm`
+- Дыбыс, жанасу сигналдары | Дыбыстар → Еске салғыш ескертулері: `prefs:root=Sounds&path=Reminder%20Alerts`
+- Дыбыс, жанасу сигналдары | Дыбыстар → Пернетақтаның шертпе дыбыстары: `prefs:root=Sounds#KEYBOARD_SOUND_SWITCH`
+- Дыбыс, жанасу сигналдары | Дыбыстар → Құлыптау дыбысы: `prefs:root=Sounds#LOCK_SOUND_SWITCH`
+- Дыбыс, жанасу сигналдары | Дыбыстар → Жекелен­дірілген ке­ңістіктік дыбыс: `prefs:root=Sounds&path=Personalized%20Spatial%20Audio`
+- Apple Pencil: `prefs:root=Pencil`
+- Apple Pencil → Apple Pencil: `prefs:root=Pencil#PrefersPencilDraws`
+- Apple Pencil → Apple Pencil: `prefs:root=Pencil#PencilTextInput`
+- Хабарлар: `prefs:root=MESSAGES`
+- Акциялар: `prefs:root=STOCKS`
+- Акциялар → Құпиялылық: `prefs:root=STOCKS#Privacy`
+- Акциялар → Идентификаторды нөлдеу: `prefs:root=STOCKS#reset_identifier`
+- Аудару: `prefs:root=TRANSLATE`
+- Аудару → Құрылғыдағы аударма режимі: `prefs:root=TRANSLATE#OnDeviceOnly`
+- Siri: `prefs:root=SIRI`
+- Siri → Құлыптаулы кезде Siri функциясына рұқсат беру: `prefs:root=SIRI#ASSISTANT_LOCK_SCREEN_ACCESS`
+- Siri → Тіл: `prefs:root=SIRI&path=LANGUAGE_ID`
+- Siri → Siri дауысы: `prefs:root=SIRI&path=VOICE_ID`
+- Siri → Дыбыстық пікір: `prefs:root=SIRI&path=VOICE_FEEDBACK_ID`
+- Siri → Менің ақпаратым: `prefs:root=SIRI&path=MY_INFO`
+- Денсаулық | Медициналық деректер: `prefs:root=HEALTH`
+- App Store: `prefs:root=STORE`
+- App Store → Авто жүктеп алулар: `prefs:root=STORE#Automatic%20Downloads`
+- App Store → Қолданба жаңартулары: `prefs:root=STORE#App%20Updates`
+- App Store → Қолданбалар: `prefs:root=STORE&path=App%20Downloads`
+- App Store → Видеоны авто ойнату: `prefs:root=STORE&path=Video%20Autoplay`
+- App Store → Бағалар мен пікірлер: `prefs:root=STORE#In-App%20Ratings%20&%20Reviews`
+- Ұшақ режимі: `prefs:root=ROOT#AIRPLANE_MODE`

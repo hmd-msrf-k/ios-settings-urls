@@ -1,0 +1,14 @@
+- ความเป็นส่วนตัวและความปลอดภัย: `settings-navigation://com.apple.Settings.PrivacyAndSecurity`
+- ความเป็นส่วนตัวและความปลอดภัย → การตรวจสอบด้านความปลอดภัย: `settings-navigation://com.apple.Settings.PrivacyAndSecurity/SAFETY_CHECK`
+- Apps: `settings-navigation://com.apple.Settings.Apps`
+- Apps → Safari: `settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari/` or `prefs:root=SAFARI`
+- Apps → Safari → ส่วนขยาย: `settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari/WEB_EXTENSIONS` or `prefs:root=SAFARI&path=WEB_EXTENSIONS`
+- Apps → Safari → ปิดกั้นหน้าต่างที่แสดงขึ้น: `settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari#BLOCK_POPUPS`
+- Apps → Safari → ป้องกันการติดตามข้ามไซต์: `settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari#TRACKER_PROTECTION`
+- Apps → Safari → ป้อนอัตโนมัติ: `settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari/AUTO_FILL` or `prefs:root=SAFARI&path=AUTO_FILL`
+- Apps → Safari → รายการดาวน์โหลด: `settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari/DOWNLOADS` or `prefs:root=SAFARI&path=DOWNLOADS`
+- Apps → รหัสผ่าน: `settings-navigation://com.apple.Settings.Apps/com.apple.Passwords`
+- Apps → รหัสผ่าน → คำแนะนำเพื่อความปลอดภัย: `settings-navigation://com.apple.Settings.Apps/com.apple.Passwords#SECURITY_RECOMMENDATIONS`
+- บ้าน: `settings-navigation://com.apple.Settings.HomeKit`
+- Search: `settings-navigation://com.apple.Settings.Search`
+- ผู้ให้บริการทีวี: `settings-navigation://com.apple.Settings.TVProvider`

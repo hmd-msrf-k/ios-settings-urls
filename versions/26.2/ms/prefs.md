@@ -1,0 +1,414 @@
+- Bateri: `prefs:root=BATTERY_USAGE`
+- Bateri → Mod Kuasa Rendah: `prefs:root=BATTERY_USAGE#BATTERY_SAVER_MODE`
+- Bateri → Kesihatan Bateri: `prefs:root=BATTERY_USAGE#BATTERY_HEALTH_ID`
+- Umum: `prefs:root=General`
+- Umum → VPN & Pengurusan Peranti: `prefs:root=General&path=ManagedConfigurationList`
+- Umum → Isi Auto & Kata Laluan: `prefs:root=General&path=AUTOFILL`
+- Umum → Isi Auto & Kata Laluan → Kata Laluan Isi Auto: `prefs:root=General&path=AUTOFILL#AUTOFILL`
+- Umum → Isi Auto & Kata Laluan → Bersihkan kod pengesahan: `prefs:root=General&path=AUTOFILL#CLEAN_UP_VERIFICATION_CODES`
+- Umum → Isi Auto & Kata Laluan → Sediakan kod pengesahan: `prefs:root=General&path=AUTOFILL#SET_UP_VERIFICATION_CODES`
+- Umum → AppleCare & Waranti: `prefs:root=General&path=COVERAGE/`
+- Umum → Kamus: `prefs:root=General&path=DICTIONARY`
+- Umum → Papan Kekunci: `prefs:root=General&path=Keyboard`
+- Umum → Papan Kekunci → Papan Kekunci: `prefs:root=General&path=Keyboard/KEYBOARDS`
+- Umum → Papan Kekunci → Penggantian Teks: `prefs:root=General&path=Keyboard/USER_DICTIONARY`
+- Umum → Papan Kekunci → Huruf Besar Auto: `prefs:root=General&path=Keyboard#KeyboardAutocapitalization`
+- Umum → Papan Kekunci → Pembetulan Auto: `prefs:root=General&path=Keyboard#KeyboardAutocorrection`
+- Umum → Papan Kekunci → Semak Ejaan: `prefs:root=General&path=Keyboard#KeyboardCheckSpelling`
+- Umum → Papan Kekunci → Dayakan Caps Lock: `prefs:root=General&path=Keyboard#KeyboardCapsLock`
+- Umum → Papan Kekunci → Pintasan: `prefs:root=General&path=Keyboard#KeyboardAssistant`
+- Umum → Papan Kekunci → Ramalan: `prefs:root=General&path=Keyboard#KeyboardPrediction`
+- Umum → Papan Kekunci → Tanda Baca Pintar: `prefs:root=General&path=Keyboard#SmartTyping`
+- Umum → Papan Kekunci → Papan Kekunci Terpisah: `prefs:root=General&path=Keyboard#RivenKeyboard`
+- Umum → Papan Kekunci → Dayakan Kuisan Kekunci: `prefs:root=General&path=Keyboard#GesturesEnabled`
+- Umum → Papan Kekunci → Pratonton Aksara: `prefs:root=General&path=Keyboard#KeyboardAllowPaddle`
+- Umum → Papan Kekunci → Pintasan “.”: `prefs:root=General&path=Keyboard#KeyboardPeriodShortcut`
+- Umum → Papan Kekunci → Luncur untuk taip: `prefs:root=General&path=Keyboard#KeyboardContinuousPathEnabled`
+- Umum → Papan Kekunci → Dayakan Perencanaan: `prefs:root=General&path=Keyboard#Dictation`
+- Umum → Papan Kekunci → Tanda Baca Auto: `prefs:root=General&path=Keyboard#AutoPunctuationSetting`
+- Umum → Kemas Kini Perisian: `prefs:root=General&path=SOFTWARE_UPDATE_LINK`
+- Umum → Kemas Kini Perisian → Kemas Kini Automatik: `prefs:root=General&path=SOFTWARE_UPDATE_LINK/SUAutomaticUpdateButton`
+- Umum → Storan: `prefs:root=General&path=STORAGE_MGMT`
+- Umum → Storan → Storan: `prefs:root=General&path=STORAGE_MGMT#MANAGE`
+- Umum → Storan → Keluarkan App Tak Diguna: `prefs:root=General&path=STORAGE_MGMT#OFFLOAD`
+- Umum → Gambar dalam Gambar: `prefs:root=General&path=PiP_SPEC`
+- Umum → Trackpad | Trackpad & Tetikus: `prefs:root=General&path=POINTERS`
+- Umum → NFC: `prefs:root=General&path=NFC_LINK`
+- Umum → VPN: `prefs:root=General&path=VPN`
+- Umum → CarPlay: `prefs:root=General&path=CARPLAY`
+- Umum → Perihal: `prefs:root=General&path=About`
+- Umum → Perihal → Sijil Dipercayai: `prefs:root=General&path=About/CERT_TRUST_SETTINGS`
+- Umum → Perihal → Nombor Siri: `prefs:root=General&path=About#SerialNumber`
+- Umum → Perihal → Nombor Model: `prefs:root=General&path=About#ProductModel`
+- Umum → Perihal → Model: `prefs:root=General&path=About#ProductModelName`
+- Umum → Perihal → Versi iOS: `prefs:root=General&path=About/SW_VERSION_SPECIFIER`
+- Umum → Undang-undang & Kawal Selia: `prefs:root=General&path=LEGAL_AND_REGULATORY`
+- Umum → Undang-undang & Kawal Selia → Waranti: `prefs:root=General&path=LEGAL_AND_REGULATORY#Warranty`
+- Umum → AirDrop: `prefs:root=General&path=AIRDROP_LINK`
+- Umum → AirDrop → Mendekatkan Peranti: `prefs:root=General&path=AIRDROP_LINK#AIRDROP_NFC_ID`
+- Umum → Butang Utama: `prefs:root=General&path=HOME_BUTTON`
+- Umum → Suis Sisi: `prefs:root=General#Rotation_Switch_Action_Group`
+- Umum → Segar Semula App Latar: `prefs:root=General&path=AUTO_CONTENT_DOWNLOAD`
+- Umum → Tarikh & Masa: `prefs:root=General&path=DATE_AND_TIME`
+- Umum → TV Keluar: `prefs:root=General&path=TV_OUT`
+- Umum → Reset: `prefs:root=General&path=Reset`
+- Umum → Reset → Reset Semua Seting: `prefs:root=General&path=Reset#settingsErase`
+- Umum → Reset → Padam Semua Kandungan dan Seting: `prefs:root=General&path=Reset#fullErase`
+- Umum → Reset → Reset Seting Rangkaian: `prefs:root=General&path=Reset#RESET_NETWORK_LABEL`
+- Umum → Reset → Keluarkan Semua Pelan Data Selular: `prefs:root=General&path=Reset#cellularErase`
+- Umum → Reset → Khidmat Pelanggan: `prefs:root=General&path=Reset#SUBSCRIBER_SERVICES_ID`
+- Umum → Reset → Reset Kamus Papan Kekunci: `prefs:root=General&path=Reset#RESET_KEYBOARD_DICTIONARY_LABEL`
+- Umum → Reset → Reset Tataletak Skrin Utama: `prefs:root=General&path=Reset#RESET_ICONS_LABEL`
+- Umum → Reset → Reset Lokasi & Privasi: `prefs:root=General&path=Reset#RESET_PRIVACY_LABEL`
+- Umum → Tutup: `prefs:root=General#SHUTDOWN_LABEL`
+- Umum → AirPlay & Kesinambungan: `prefs:root=General&path=CONTINUITY_SPEC`
+- Umum → AirPlay & Kesinambungan → Handoff: `prefs:root=General&path=CONTINUITY_SPEC#CONTINUITY`
+- Umum → AirPlay & Kesinambungan → Pindahkan ke HomePod: `prefs:root=General&path=CONTINUITY_SPEC#TRANSFER_TO_HOMEPOD`
+- Umum → AirPlay & Kesinambungan → AirPlay Secara Automatik: `prefs:root=General&path=CONTINUITY_SPEC#AUTOMATICALLY_AIRPLAY`
+- Umum → AirPlay & Kesinambungan → Kamera Kesinambungan: `prefs:root=General&path=CONTINUITY_SPEC#WOMBAT_CAMERA`
+- Umum → Bahasa & Rantau: `prefs:root=General&path=INTERNATIONAL`
+- Umum → Bahasa & Rantau → Bahasa Lain…: `prefs:root=General&path=INTERNATIONAL#NEW_PREFERRED_LANGUAGE`
+- Umum → Bahasa & Rantau → Tertib Bahasa Pilihan: `prefs:root=General&path=INTERNATIONAL#PREFERRED_LANGUAGE_GROUP`
+- Umum → Bahasa & Rantau → Tambah Bahasa…: `prefs:root=General&path=INTERNATIONAL#ADD_PREFERRED_LANGUAGE`
+- Umum → Bahasa & Rantau → Rantau: `prefs:root=General&path=INTERNATIONAL/LOCALE`
+- Umum → Bahasa & Rantau → Nombor: `prefs:root=General&path=INTERNATIONAL/NUMBERING_SYSTEM`
+- Umum → Bahasa & Rantau → Kalendar: `prefs:root=General&path=INTERNATIONAL/CALENDAR`
+- Umum → Bahasa & Rantau → Unit Suhu: `prefs:root=General&path=INTERNATIONAL/TEMPERATURE_UNIT`
+- Akaun Apple: `prefs:root=APPLE_ACCOUNT` or `settings-navigation://com.apple.Settings.AppleAccount`
+- Akaun Apple → Pengesahan Kunci Kenalan: `prefs:root=APPLE_ACCOUNT&path=TRANSPARENCY` or `settings-navigation://com.apple.Settings.AppleAccount/TRANSPARENCY`
+- Akaun Apple → iCloud: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE` or `prefs:root=CASTLE`
+- Akaun Apple → iCloud → Storan iCloud: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/STORAGE_AND_BACKUP` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/STORAGE_AND_BACKUP` or `prefs:root=CASTLE&path=STORAGE_AND_BACKUP`
+- Akaun Apple → iCloud → iCloud Drive: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Ubiquity` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Ubiquity` or `prefs:root=CASTLE&path=com.apple.Dataclass.Ubiquity`
+- Akaun Apple → iCloud → Foto: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.MediaStream` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.MediaStream` or `prefs:root=CASTLE&path=com.apple.Dataclass.MediaStream`
+- Akaun Apple → iCloud → Mail: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Mail` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail` or `prefs:root=CASTLE&path=com.apple.Dataclass.Mail`
+- Akaun Apple → iCloud → Kenalan: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Contacts` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Contacts` or `prefs:root=CASTLE&path=com.apple.Dataclass.Contacts`
+- Akaun Apple → iCloud → Kalendar: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Calendars` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Calendars` or `prefs:root=CASTLE&path=com.apple.Dataclass.Calendars`
+- Akaun Apple → iCloud → Peringatan: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Reminders` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Reminders` or `prefs:root=CASTLE&path=com.apple.Dataclass.Reminders`
+- Akaun Apple → iCloud → Safari: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Bookmarks` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Bookmarks` or `prefs:root=CASTLE&path=com.apple.Dataclass.Bookmarks`
+- Akaun Apple → iCloud → Nota: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Notes` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Notes` or `prefs:root=CASTLE&path=com.apple.Dataclass.Notes`
+- Akaun Apple → iCloud → News: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.News` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.News` or `prefs:root=CASTLE&path=com.apple.Dataclass.News`
+- Akaun Apple → iCloud → Sandaran: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/BACKUP` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/BACKUP` or `prefs:root=CASTLE&path=BACKUP`
+- Akaun Apple → iCloud → Kesihatan: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Health` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Health` or `prefs:root=CASTLE&path=com.apple.Dataclass.Health`
+- Akaun Apple → iCloud → Kata Laluan & Rantai Kunci: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.KeychainSync` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.KeychainSync` or `prefs:root=CASTLE&path=com.apple.Dataclass.KeychainSync`
+- Akaun Apple → iCloud → Sembunyikan E‑mel Saya: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/PRIVATE_EMAIL_MANAGE` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/PRIVATE_EMAIL_MANAGE` or `prefs:root=CASTLE&path=PRIVATE_EMAIL_MANAGE`
+- Akaun Apple → Kongsi Lokasi Saya: `prefs:root=APPLE_ACCOUNT&path=LOCATION_SHARING` or `settings-navigation://com.apple.Settings.AppleAccount/LOCATION_SHARING`
+- Akaun Apple → Kongsi Lokasi Saya → Cari: `prefs:root=APPLE_ACCOUNT&path=LOCATION_SHARING/FindMyDevice-Settings` or `settings-navigation://com.apple.Settings.AppleAccount/LOCATION_SHARING/FindMyDevice-Settings`
+- Akaun Apple → Nama, Nombor Telefon, E-mel: `prefs:root=APPLE_ACCOUNT&path=APPLE_ACCOUNT_CONTACT` or `settings-navigation://com.apple.Settings.AppleAccount/APPLE_ACCOUNT_CONTACT`
+- Akaun Apple → Kata Laluan & Keselamatan: `prefs:root=APPLE_ACCOUNT&path=PASSWORD_AND_SECURITY` or `settings-navigation://com.apple.Settings.AppleAccount/PASSWORD_AND_SECURITY`
+- Akaun Apple → Bayaran & Penghantaran: `prefs:root=APPLE_ACCOUNT&path=PAYMENT_AND_SHIPPING` or `settings-navigation://com.apple.Settings.AppleAccount/PAYMENT_AND_SHIPPING`
+- Akaun Apple → Langganan: `prefs:root=APPLE_ACCOUNT&path=SUBSCRIPTIONS` or `settings-navigation://com.apple.Settings.AppleAccount/SUBSCRIPTIONS`
+- Akaun Apple → Keluarga: `prefs:root=APPLE_ACCOUNT&path=Family` or `settings-navigation://com.apple.Settings.AppleAccount/Family`
+- Pemberitahuan: `prefs:root=NOTIFICATIONS_ID`
+- Pemberitahuan → Ringkasan Berjadual: `prefs:root=NOTIFICATIONS_ID&path=SCHEDULED_DELIVERY_ID`
+- Cuaca: `prefs:root=WEATHER`
+- Freeform: `prefs:root=FREEFORM`
+- Fokus: `prefs:root=DO_NOT_DISTURB`
+- Fokus → Status Fokus: `prefs:root=DO_NOT_DISTURB&path=status`
+- Jurnal: `prefs:root=JOURNAL`
+- Wallet & Apple Pay: `prefs:root=PASSBOOK`
+- Wallet & Apple Pay → Apple Cash: `prefs:root=PASSBOOK#Apple%C2%A0Cash`
+- Wallet & Apple Pay → Kad Bayaran: `prefs:root=PASSBOOK#SETTINGS_PAYMENT_CARDS_GROUP`
+- Wallet & Apple Pay → Tambah Kad: `prefs:root=PASSBOOK#Add%20Card`
+- Wallet & Apple Pay → Dwiklik Butang Sisi: `prefs:root=PASSBOOK#Double-Click%20Side%20Button`
+- Wallet & Apple Pay → Penjejakan Pesanan: `prefs:root=PASSBOOK#ORDER_TRACKING`
+- Paparan & Kecerahan | Penampilan: `prefs:root=DISPLAY`
+- Paparan & Kecerahan | Penampilan → Penampilan: `prefs:root=DISPLAY#DEVICE_APPEARANCE`
+- Paparan & Kecerahan | Penampilan → True Tone: `prefs:root=DISPLAY#WHITE_BALANCE`
+- Paparan & Kecerahan | Penampilan → Night Shift: `prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION`
+- Paparan & Kecerahan | Penampilan → Night Shift → Dijadualkan: `prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION#SCHEDULED`
+- Paparan & Kecerahan | Penampilan → Night Shift → Sehingga Esok Secara Manual: `prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION#MANUAL`
+- Paparan & Kecerahan | Penampilan → Night Shift → Suhu Warna: `prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION#COLOR_TEMPERATURE`
+- Paparan & Kecerahan | Penampilan → Kunci Auto: `prefs:root=DISPLAY&path=AUTOLOCK`
+- Paparan & Kecerahan | Penampilan → Angkat untuk Bangun: `prefs:root=DISPLAY#RAISE_TO_WAKE`
+- Paparan & Kecerahan | Penampilan → Kunci / Buka Kunci: `prefs:root=DISPLAY#SMART_CASE_LOCK_SPEC`
+- Paparan & Kecerahan | Penampilan → Saiz Teks: `prefs:root=DISPLAY&path=TEXT_SIZE`
+- Paparan & Kecerahan | Penampilan → Teks Tebal: `prefs:root=DISPLAY#BOLD_TEXT`
+- Paparan & Kecerahan | Penampilan → Kecerahan: `prefs:root=DISPLAY#BRIGHTNESS`
+- Paparan & Kecerahan | Penampilan → Zum Paparan: `prefs:root=DISPLAY#DISPLAY_ZOOM_GROUP`
+- Paparan & Kecerahan | Penampilan → Penampilan: `prefs:root=DISPLAY&path=APPEARANCE`
+- Paparan & Kecerahan | Penampilan → Penampilan → Zum Tetingkap: `prefs:root=DISPLAY&path=APPEARANCE#WINDOW_ZOOM`
+- Paparan & Kecerahan | Penampilan → Penampilan → Zum Tetingkap Dua Tangan: `prefs:root=DISPLAY&path=APPEARANCE#TWO_HANDED_WINDOW_ZOOM`
+- Paparan & Kecerahan | Penampilan → Paparan: `prefs:root=DISPLAY&path=MAGNIFY`
+- Paparan & Kecerahan | Penampilan → Paparan Sentiasa Aktif: `prefs:root=DISPLAY&path=ALWAYS_ON`
+- Paparan & Kecerahan | Penampilan → Paparan Sentiasa Aktif → Paparan Sentiasa Aktif: `prefs:root=DISPLAY&path=ALWAYS_ON#ALWAYS_ON`
+- Paparan & Kecerahan | Penampilan → App Serasi: `prefs:root=DISPLAY&path=COMPATIBLE_APPEARANCE`
+- Paparan & Kecerahan | Penampilan → App Serasi → Gelap, Cerah: `prefs:root=DISPLAY&path=COMPATIBLE_APPEARANCE#COMPATIBLE_APPEARANCE_CHOICES`
+- Ukur: `prefs:root=MEASURE` or `settings-navigation://com.apple.Settings.Apps/com.apple.measure`
+- Ukur → Unit Ukuran: `prefs:root=MEASURE#MEASURE_UNITS` or `settings-navigation://com.apple.Settings.Apps/com.apple.measure#MEASURE_UNITS#MEASURE_UNITS`
+- Ukur → Imperial: `prefs:root=MEASURE#Imperial` or `settings-navigation://com.apple.Settings.Apps/com.apple.measure#Imperial#Imperial`
+- Ukur → Metrik: `prefs:root=MEASURE#Metric` or `settings-navigation://com.apple.Settings.Apps/com.apple.measure#Metric#Metric`
+- Hias Latar: `prefs:root=Wallpaper`
+- Pusat Kawalan: `prefs:root=ControlCenter`
+- Pusat Kawalan → Akses dalam App: `prefs:root=ControlCenter#ALLOWED_WITHIN_APPS`
+- Pusat Kawalan → Sesuaikan Kawalan: `prefs:root=ControlCenter&path=CUSTOMIZE_CONTROLS`
+- Memo Suara: `prefs:root=VOICE_MEMOS`
+- Memo Suara → Kosongkan Dipadam: `prefs:root=VOICE_MEMOS&path=RCVoiceMemosRecentlyDeletedWindowKey`
+- Memo Suara → Kualiti Audio: `prefs:root=VOICE_MEMOS&path=RCVoiceMemosAudioQualityKey`
+- Memo Suara → Penamaan Berdasarkan Lokasi: `prefs:root=VOICE_MEMOS#RCVoiceMemosUseLocationBasedNaming`
+- Kalendar: `prefs:root=CALENDAR`
+- Kalendar → Penggantian Zon Waktu: `prefs:root=CALENDAR&path=TimeZoneCityArray`
+- Kalendar → Kalendar Alternatif: `prefs:root=CALENDAR&path=Alternate%20Calendars`
+- Kalendar → Nombor Minggu: `prefs:root=CALENDAR#Week%20Numbers`
+- Kalendar → Tunjukkan Penolakan Jemputan: `prefs:root=CALENDAR#Show%20Invitee%20Declines`
+- Kalendar → Selaraskan: `prefs:root=CALENDAR&path=Sync`
+- Kalendar → Masa Isyarat Lalai: `prefs:root=CALENDAR&path=Default%20Alert%20Times`
+- Kalendar → Mulakan Minggu Pada Hari: `prefs:root=CALENDAR&path=Start%20Week%20On`
+- Kalendar → Cadangan Lokasi: `prefs:root=CALENDAR#Location%20Suggestions`
+- Pembangun: `prefs:root=DEVELOPER_SETTINGS`
+- Pembangun → Perangkaian Berbilang Laluan: `prefs:root=DEVELOPER_SETTINGS&path=MULTI_PATH_AGG`
+- Pembangun → Perangkaian Berbilang Laluan → Perangkaian Berbilang Laluan: `prefs:root=DEVELOPER_SETTINGS&path=MULTI_PATH_AGG#Multipath%20Networking`
+- Pembangun → Penampilan: `prefs:root=DEVELOPER_SETTINGS#UIAppearanceGroup`
+- Pembangun → Penampilan Gelap: `prefs:root=DEVELOPER_SETTINGS#UIAppearanceSettings`
+- Pembangun → Peranti Berpasangan: `prefs:root=DEVELOPER_SETTINGS#DTPairedDevicesGroup`
+- Pembangun → Kosongkan Komputer Dipercayai: `prefs:root=DEVELOPER_SETTINGS#CLEAR_TRUSTED_COMPUTERS`
+- Pembangun → Pengelogan: `prefs:root=DEVELOPER_SETTINGS&path=DTInstrumentsSettings`
+- Pembangun → Automasi UI | Dayakan Automasi UI: `prefs:root=DEVELOPER_SETTINGS#UIAGroup`
+- Pembangun → Perangkaian: `prefs:root=DEVELOPER_SETTINGS#NLCGroup`
+- Pembangun → Penyesuai Pautan Rangkaian: `prefs:root=DEVELOPER_SETTINGS&path=NLC`
+- Pembangun → Pengelogan Tambahan: `prefs:root=DEVELOPER_SETTINGS#ADDITIONAL_LOGGING`
+- Pembangun → Benarkan Perkhidmatan HTTP: `prefs:root=DEVELOPER_SETTINGS#ALLOW_HTTP_SERVICES`
+- Pembangun → Nyahdayakan Pengehadan Kadar: `prefs:root=DEVELOPER_SETTINGS#DISABLE_RATE_LIMITING`
+- Pembangun → Kunci Laluan NFC Pilihan: `prefs:root=DEVELOPER_SETTINGS#NFC_PASS_KEY_OPTIONAL`
+- Pembangun → Ujian Perkhidmatan Media: `prefs:root=DEVELOPER_SETTINGS#MEDIA_SERVICES_TESTING`
+- Pembangun → Reset Perkhidmatan Media: `prefs:root=DEVELOPER_SETTINGS#RESET_MEDIA_SERVICES`
+- Pembangun → Ujian News: `prefs:root=DEVELOPER_SETTINGS#NEWS_TESTING`
+- Pembangun → Reset Data Setempat pada Pelancaran Seterusnya: `prefs:root=DEVELOPER_SETTINGS#RESET_LOCAL_DATA_ON_NEXT_LAUNCH`
+- Pembangun → Ujian Rangka Kerja Pemain Media: `prefs:root=DEVELOPER_SETTINGS#RoutineSettingsGroup`
+- Pembangun → API Kandungan Boleh Main: `prefs:root=DEVELOPER_SETTINGS&path=RoutineSettings`
+- Pembangun → Penyedia TV: `prefs:root=DEVELOPER_SETTINGS&path=VideoSubscriberAccountSettings`
+- Pembangun → API ClassKit: `prefs:root=DEVELOPER_SETTINGS&path=ClassKitSettings`
+- Pembangun → Ujian CoreSpotlight: `prefs:root=DEVELOPER_SETTINGS#CORESPOTLIGHT_TESTING`
+- Pembangun → Indeks Semula Semua Item: `prefs:root=DEVELOPER_SETTINGS#REINDEX_ALL_ITEMS`
+- Pembangun → Indeks Semula Semua Item dengan Pengecam: `prefs:root=DEVELOPER_SETTINGS#REINDEX_ALL_ITEMS_WITH_IDENTIFIERS`
+- Pembangun → Ujian Pintasan: `prefs:root=DEVELOPER_SETTINGS#SIRI_ACTIONS_TESTING`
+- Pembangun → Paparkan Pintasan Terbaharu: `prefs:root=DEVELOPER_SETTINGS#DISPLAY_DONATIONS_SPOTLIGHT`
+- Pembangun → Paparkan Media Akan Datang: `prefs:root=DEVELOPER_SETTINGS#DISPLAY_UPCOMING_MEDIA`
+- Pembangun → Paparkan Derma pada Skrin Kunci: `prefs:root=DEVELOPER_SETTINGS#DISPLAY_DONATIONS_LOCKSCREEN`
+- Pembangun → Paksa Selaras Pintasan ke Jam: `prefs:root=DEVELOPER_SETTINGS#SIRI_ACTIONS_SYNC_WATCHOS`
+- Pembangun → Ujian MIDI-CI: `prefs:root=DEVELOPER_SETTINGS#MIDI_CI_API_BETA`
+- Pembangun → Dayakan MIDI-CI: `prefs:root=DEVELOPER_SETTINGS#MIDI_CI_API_BETA_ENABLE`
+- Pembangun → Pengesanan Kegendalaan: `prefs:root=DEVELOPER_SETTINGS#HANGTRACER_EXTERNAL_CONFIGURE`
+- Face ID & Kod Laluan | Kod Laluan | Touch ID & Kod Laluan: `prefs:root=PASSCODE`
+- Face ID & Kod Laluan | Kod Laluan | Touch ID & Kod Laluan → Nyahaktifkan Kod Laluan: `prefs:root=PASSCODE#PASSCODE_OFF`
+- Face ID & Kod Laluan | Kod Laluan | Touch ID & Kod Laluan → Tukar Kod Laluan: `prefs:root=PASSCODE#CHANGE_PASSCODE`
+- Face ID & Kod Laluan | Kod Laluan | Touch ID & Kod Laluan → Perlukan Kod Laluan: `prefs:root=PASSCODE&path=PASSCODE_REQ`
+- Face ID & Kod Laluan | Kod Laluan | Touch ID & Kod Laluan → Dail Suara: `prefs:root=PASSCODE#VOICE_DIAL`
+- Face ID & Kod Laluan | Kod Laluan | Touch ID & Kod Laluan → Benarkan Akses Apabila Dikunci: `prefs:root=PASSCODE#ALLOW_ACCESS_WHEN_LOCKED`
+- Face ID & Kod Laluan | Kod Laluan | Touch ID & Kod Laluan → Balas dengan Mesej: `prefs:root=PASSCODE#REPLY_WITH_MESSAGE_SWITCH`
+- Face ID & Kod Laluan | Kod Laluan | Touch ID & Kod Laluan → Kawalan Rumah: `prefs:root=PASSCODE#HOME_CONTROL_SWITCH`
+- Face ID & Kod Laluan | Kod Laluan | Touch ID & Kod Laluan → Wallet: `prefs:root=PASSCODE#WALLET_SWITCH`
+- Face ID & Kod Laluan | Kod Laluan | Touch ID & Kod Laluan → Balas Panggilan Tidak Dijawab: `prefs:root=PASSCODE#RETURN_MISSED_CALLS_SWITCH`
+- Face ID & Kod Laluan | Kod Laluan | Touch ID & Kod Laluan → Padam Data: `prefs:root=PASSCODE#WIPE_DEVICE`
+- Face ID & Kod Laluan | Kod Laluan | Touch ID & Kod Laluan → Buka Kunci dengan Apple Watch: `prefs:root=PASSCODE#AUTO_UNLOCK_DEVICES_GROUP`
+- Face ID & Kod Laluan | Kod Laluan | Touch ID & Kod Laluan → Perlindungan Peranti Dicuri: `prefs:root=PASSCODE#DTO_GROUP_ID`
+- Telefon: `prefs:root=Phone`
+- Telefon → Nombor Saya: `prefs:root=Phone&path=My%20Number`
+- Telefon → Panggilan Masuk: `prefs:root=Phone&path=INCOMING_CALL_STYLE`
+- Telefon → Umumkan Panggilan: `prefs:root=Phone&path=ANNOUNCE_CALLS`
+- Telefon → Pelaporan SMS/Panggilan: `prefs:root=Phone&path=CLASSIFICATION_AND_REPORTING`
+- Telefon → Balas dengan Teks: `prefs:root=Phone&path=Respond%20with%20Text`
+- Telefon → Pemajuan Panggilan: `prefs:root=Phone&path=Call%20Forwarding`
+- Telefon → Pemajuan Panggilan → Pemajuan Panggilan: `prefs:root=Phone&path=Call%20Forwarding#idMasterOnOffSwitch`
+- Telefon → Panggilan Menunggu: `prefs:root=Phone&path=Call%20Waiting`
+- Telefon → Tunjukkan ID Pemanggil Saya: `prefs:root=Phone&path=Show%20My%20Caller%20ID`
+- Telefon → Tunjukkan ID Pemanggil Saya → Tunjukkan ID Pemanggil Saya: `prefs:root=Phone&path=Show%20My%20Caller%20ID/Primary`
+- Telefon → Tunjukkan ID Pemanggil Saya → Tunjukkan ID Pemanggil Saya → Tunjukkan ID Pemanggil Saya: `prefs:root=Phone&path=Show%20My%20Caller%20ID/Primary#Show%20My%20Caller%20ID`
+- Telefon → Pemanggil Tidak Dikenali: `prefs:root=Phone#SILENCE_CALLS`
+- Telefon → Kenalan Disekat: `prefs:root=Phone&path=SPECIFIER_IDENTIFIER_BLACKLIST`
+- Telefon → Bantuan Pendailan: `prefs:root=Phone&path=Dial%20Assist`
+- Nota: `prefs:root=NOTES` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes`
+- Nota → Akaun Lalai: `prefs:root=NOTES&path=Default%20Account` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes/Default%20Account`
+- Nota → Kata Laluan: `prefs:root=NOTES&path=Password` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes/Password`
+- Nota → Isih Nota Ikut: `prefs:root=NOTES&path=Sort%20Notes%20By` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes/Sort%20Notes%20By`
+- Nota → Nota Baharu Bermula dengan: `prefs:root=NOTES&path=New%20Notes%20Start%20With` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes/New%20Notes%20Start%20With`
+- Nota → Isih Item Ditanda: `prefs:root=NOTES&path=Sort%20Checked%20Items` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes/Sort%20Checked%20Items`
+- Nota → Garis & Grid: `prefs:root=NOTES&path=Lines%20%26%20Grids` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes/Lines%20%26%20Grids`
+- Nota → Simpan ke Foto: `prefs:root=NOTES#Save%20to%20Photos` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes#Save%20to%20Photos#Save%20to%20Photos`
+- Nota → Akses Nota daripada Skrin Kunci: `prefs:root=NOTES&path=Access%20Notes%20from%20Lock%20Screen` or `settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes/Access%20Notes%20from%20Lock%20Screen`
+- Buku: `prefs:root=IBOOKS`
+- Buku → Kandungan Dalam Talian: `prefs:root=IBOOKS#BKAllowOnlineContent`
+- Buku → PENYELARASAN: `prefs:root=IBOOKS#SYNCING`
+- Buku → Sedang Dibaca: `prefs:root=IBOOKS#BKLibrary.ReadingNow`
+- Buku → iCloud Drive: `prefs:root=IBOOKS#BCSyncICloudDrive`
+- Buku → MEMBACA: `prefs:root=IBOOKS#READING`
+- Buku → Penjajaran Penuh: `prefs:root=IBOOKS#BKFullJustification`
+- Buku → Tanda Sempang Auto: `prefs:root=IBOOKS#BKAutoHyphenation`
+- Buku → Maju Kedua-dua Margin: `prefs:root=IBOOKS#BKLeftTapTurnToNext`
+- Buku → Matlamat Membaca: `prefs:root=IBOOKS#READING_GOALS`
+- Buku → Kosongkan Data Matlamat Membaca: `prefs:root=IBOOKS#BKReadingGoalsShouldClearDataKey`
+- Buku → MENCARI: `prefs:root=IBOOKS#SEARCHING`
+- Buku → Kedai Buku: `prefs:root=IBOOKS#BKIncludeBookStoreResultsInSearch`
+- Buku → BUKU AUDIO: `prefs:root=IBOOKS#AUDIOBOOKS`
+- Buku → Langkau ke Depan: `prefs:root=IBOOKS&path=BKAudioBookSkipForward`
+- Buku → Langkau ke Belakang: `prefs:root=IBOOKS&path=BKAudioBookSkipBackward`
+- Buku → KAWALAN LUARAN: `prefs:root=IBOOKS#BKRemoteSkipInsteadOfNextTrackDefaultKey`
+- Buku → Seterusnya/Sebelumnya: `prefs:root=IBOOKS#Next/Previous`
+- Buku → Langkau ke Depan/Belakang: `prefs:root=IBOOKS#Skip%20Forward/Back`
+- Buku → PRIVASI: `prefs:root=IBOOKS#PRIVACY`
+- Buku → Reset Pengecam: `prefs:root=IBOOKS#BAResetAnalyticsUserID`
+- Buku → Perakuan: `prefs:root=IBOOKS&path=Acknowledgements`
+- Game Center: `prefs:root=GAMECENTER`
+- SOS Kecemasan: `prefs:root=EMERGENCY_SOS`
+- SOS Kecemasan → Panggil dengan Butang Sisi: `prefs:root=EMERGENCY_SOS#CALL_WITH_SIDE_BUTTON`
+- SOS Kecemasan → Panggilan Auto: `prefs:root=EMERGENCY_SOS#AUTO_CALL`
+- SOS Kecemasan → Kenalan Kecemasan: `prefs:root=EMERGENCY_SOS#EMERGENCY_CONTACTS`
+- SOS Kecemasan → Bunyi Kira Detik: `prefs:root=EMERGENCY_SOS#ALARM_SOUND_SWITCH`
+- Peringatan: `prefs:root=REMINDERS`
+- Peringatan → Senarai Lalai: `prefs:root=REMINDERS&path=DEFAULT_LIST`
+- Peringatan → Senarai Lalai → Peringatan: `prefs:root=REMINDERS&path=DEFAULT_LIST#preferredDefaultListID`
+- Peringatan → Pemberitahuan Hari Ini: `prefs:root=REMINDERS#todayNotificationFireTime`
+- Peringatan → Tunjukkan sebagai Lewat: `prefs:root=REMINDERS#showRemindersAsOverdue`
+- Selular: `prefs:root=MOBILE_DATA_SETTINGS_ID`
+- Selular → Pilihan Data Selular: `prefs:root=MOBILE_DATA_SETTINGS_ID&path=CELLULAR_DATA_OPTIONS`
+- Selular → Pilihan Data Selular → Mod Data Rendah: `prefs:root=MOBILE_DATA_SETTINGS_ID&path=CELLULAR_DATA_OPTIONS#Low%20Data%20Mode`
+- Selular → Data Selular: `prefs:root=MOBILE_DATA_SETTINGS_ID&path=SHOW_ALL`
+- WLAN | Wi‑Fi: `prefs:root=WIFI`
+- Kenalan: `prefs:root=CONTACTS`
+- Kenalan → Benarkan Kenalan Mengakses: `prefs:root=CONTACTS#Allow%20Contacts%20To%20Access`
+- Kenalan → Siri: `prefs:root=CONTACTS&path=SIRI_AND_SEARCH`
+- Kenalan → Tertib Isih: `prefs:root=CONTACTS&path=ContactsSortOrder`
+- Kenalan → Tertib Paparan: `prefs:root=CONTACTS&path=PersonNameOrder`
+- Kenalan → Nama Pendek: `prefs:root=CONTACTS&path=PersonShortName`
+- Kenalan → Nama Pendek → Nama Pendek: `prefs:root=CONTACTS&path=PersonShortName#Short%20Name`
+- Kenalan → Nama Pendek → Utamakan Nama Panggilan: `prefs:root=CONTACTS&path=PersonShortName#Prefer%20Nicknames`
+- Kenalan → Info Saya: `prefs:root=CONTACTS&path=MeCard`
+- Kenalan → Import Kenalan SIM: `prefs:root=CONTACTS#SIMImport`
+- Pintasan: `prefs:root=SHORTCUTS`
+- Pintasan → Penyelarasan iCloud: `prefs:root=SHORTCUTS#WFCloudKitSyncEnabled`
+- Pintasan → Selaraskan Tertib Pintasan: `prefs:root=SHORTCUTS#WFCloudKitSyncOrderEnabled`
+- Pintasan → Notis Undang-undang: `prefs:root=SHORTCUTS&path=Legal%20Notices`
+- TV | Video: `prefs:root=TVAPP`
+- TV | Video → Data Selular untuk Main Balik: `prefs:root=TVAPP#com.apple.videos%3AVideosUseCellularDataEnabledSetting`
+- TV | Video → Kualiti Main Balik: `prefs:root=TVAPP#com.apple.videos%3APlaybackQualityGroup`
+- TV | Video → Pembelian dan Sewaan: `prefs:root=TVAPP&path=com.apple.videos%3APreferredPurchaseResolution`
+- TV | Video → Perkongsian Rumah: `prefs:root=TVAPP#com.apple.videos%3AHomeSharingFooter`
+- Muzik: `prefs:root=MUSIC`
+- Muzik → Tunjukkan Apple Music: `prefs:root=MUSIC#com.apple.Music%3AAppleMusicEnabled`
+- Muzik → Tambah Lagu Senarai Main: `prefs:root=MUSIC#com.apple.Music%3AAddPlaylistSongsToMyMusicSwitch`
+- Muzik → Tunjukkan Penilaian Bintang: `prefs:root=MUSIC#com.apple.Music%3AShowStarRatings`
+- Muzik → Selaraskan Pustaka: `prefs:root=MUSIC#com.apple.Music%3ACloudMusicLibraryEnabled`
+- Muzik → Data Selular: `prefs:root=MUSIC&path=com.apple.Music%3ACellularData`
+- Muzik → Muzik Dimuat Turun: `prefs:root=MUSIC&path=com.apple.Music%3AMusicUsageLink`
+- Muzik → Optimumkan Storan: `prefs:root=MUSIC&path=com.apple.Music%3AOptimizeStorage`
+- Muzik → Muat Turun Automatik: `prefs:root=MUSIC#com.apple.Music%3AMusicAutomaticDownload`
+- Muzik → EQ: `prefs:root=MUSIC&path=com.apple.Music%3AEQ`
+- Muzik → Periksa Bunyi: `prefs:root=MUSIC#com.apple.Music%3ASoundCheck`
+- Muzik → Guna Sejarah Pendengaran: `prefs:root=MUSIC#com.apple.Music%3APrivateListening`
+- Kamera: `prefs:root=CAMERA`
+- Kamera → Format: `prefs:root=CAMERA&path=CameraFormatsSettingsList`
+- Kamera → Format → Apple ProRaw: `prefs:root=CAMERA&path=CameraFormatsSettingsList#CAMUserPreferenceEnableLinearDNGControl`
+- Kamera → Record Video: `prefs:root=CAMERA&path=Record%20Video`
+- Kamera → Record Video → Video HDR: `prefs:root=CAMERA&path=Record%20Video#HDR%20Video`
+- Kamera → Kekalkan Seting: `prefs:root=CAMERA&path=CameraPreserveSettingsSwitch`
+- Kamera → Kekalkan Seting → Mod Kamera: `prefs:root=CAMERA&path=CameraPreserveSettingsSwitch#CAMUserPreferencePreserveCaptureMode`
+- Kamera → Grid: `prefs:root=CAMERA#CameraGridSwitch`
+- Kamera → Imbas Kod QR: `prefs:root=CAMERA#CameraQRBannerSwitch`
+- Kompas: `prefs:root=COMPASS`
+- Kompas → Gunakan Utara Benar: `prefs:root=COMPASS#USE_TRUE_NORTH`
+- Notis Pendedahan: `prefs:root=EXPOSURE_NOTIFICATION`
+- Mail: `prefs:root=MAIL`
+- Mail → Akaun: `prefs:root=MAIL&path=ACCOUNTS`
+- Mail → Akaun → Tambah Akaun: `prefs:root=MAIL&path=ACCOUNTS#ADD_ACCOUNT`
+- Mail → Akaun → Ambil Data Baharu: `prefs:root=MAIL&path=ACCOUNTS#FETCH_NEW_DATA`
+- Mail → Pratonton: `prefs:root=MAIL&path=Preview`
+- Mail → Tunjukkan Label Kepada/Sk: `prefs:root=MAIL#Show%20To/Cc%20Labels`
+- Mail → Pilihan Leretan: `prefs:root=MAIL&path=Swipe%20Options`
+- Mail → Tanya Sebelum Padam: `prefs:root=MAIL#Ask%20Before%20Deleting`
+- Mail → Muatkan Imej Jauh: `prefs:root=MAIL#Load%20Remote%20Images`
+- Mail → Susun ikut Jaluran: `prefs:root=MAIL#Organize%20by%20Thread`
+- Mail → Runtuhkan Mesej Dibaca: `prefs:root=MAIL#Collapse%20Read%20Messages`
+- Mail → Mesej Terbaharu di Atas: `prefs:root=MAIL#Most%20Recent%20Message%20on%20Top`
+- Mail → Jaluran Lengkap: `prefs:root=MAIL#Complete%20Threads`
+- Mail → Tindakan Jaluran Diredamkan: `prefs:root=MAIL&path=Muted%20Thread%20Action`
+- Mail → Abaikan Pengirim Disekat: `prefs:root=MAIL#Ignore%20Blocked%20Senders`
+- Mail → Pilihan Pengirim Disekat: `prefs:root=MAIL&path=Blocked%20Sender%20Options`
+- Mail → Disekat: `prefs:root=MAIL&path=Blocked`
+- Mail → Sentiasa Skt Sendiri: `prefs:root=MAIL#Always%20Bcc%20Myself`
+- Mail → Tandakan Alamat: `prefs:root=MAIL&path=Mark%20Addresses`
+- Mail → Tambah Paras Petikan: `prefs:root=MAIL&path=Increase%20Quote%20Level`
+- Mail → Sertakan Lampiran dengan Balasan: `prefs:root=MAIL&path=Include%20Attachments%20with%20Replies`
+- Mail → Tandatangan: `prefs:root=MAIL&path=Signature`
+- Bluetooth: `prefs:root=Bluetooth`
+- News: `prefs:root=NEWS`
+- News → Tunjukkan Pratonton Cerita: `prefs:root=NEWS#show_excerpt_mode`
+- News → Hadkan Cerita dalam Hari Ini: `prefs:root=NEWS#showStoriesFromFavoritesSpecifierID`
+- News → Privasi: `prefs:root=NEWS#Privacy`
+- News → Reset Pengecam: `prefs:root=NEWS#reset_identifier`
+- News → Perakuan: `prefs:root=NEWS&path=Acknowledgements`
+- Foto: `prefs:root=Photos`
+- Foto → Foto iCloud: `prefs:root=Photos#iCloudPhotosSwitch`
+- Foto → Optimumkan Storan: `prefs:root=Photos#iCloudOptimizeStorageOption`
+- Foto → Muat Turun dan Kekalkan Asal: `prefs:root=Photos#iCloudKeepOriginalsOption`
+- Foto → Album Dikongsi: `prefs:root=Photos#SharedStreamsSwitch`
+- Foto → Data Selular: `prefs:root=Photos&path=CellularDataLinkList`
+- Foto → Main Auto Video: `prefs:root=Photos#VideoAutoplaySwitch`
+- Foto → Lihat HDR Penuh: `prefs:root=Photos#ImageModulationSwitch`
+- Foto → Tunjukkan Peristiwa Percutian: `prefs:root=Photos#MEMORIES_HOLIDAY_CALENDAR_EVENTS_SWITCH`
+- Foto → Pindahkan ke Mac atau PC: `prefs:root=Photos#TransferGroup`
+- Podcast: `prefs:root=PODCASTS`
+- Privasi & Keselamatan: `prefs:root=Privacy` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity`
+- Privasi & Keselamatan → Kesihatan: `prefs:root=Privacy&path=HEALTH` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/HEALTH`
+- Privasi & Keselamatan → Data Kesihatan: `prefs:root=Privacy&path=HEALTH_DATA` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/HEALTH_DATA`
+- Privasi & Keselamatan → Lokasi: `prefs:root=Privacy&path=LOCATION` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/LOCATION`
+- Privasi & Keselamatan → Lokasi → Kongsi Lokasi Saya: `prefs:root=Privacy&path=LOCATION/LOCATION_SHARING` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/LOCATION/LOCATION_SHARING`
+- Privasi & Keselamatan → Kenalan: `prefs:root=Privacy&path=CONTACTS` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/CONTACTS`
+- Privasi & Keselamatan → Kalendar: `prefs:root=Privacy&path=CALENDARS` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/CALENDARS`
+- Privasi & Keselamatan → Peringatan: `prefs:root=Privacy&path=REMINDERS` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/REMINDERS`
+- Privasi & Keselamatan → Foto: `prefs:root=Privacy&path=PHOTOS` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/PHOTOS`
+- Privasi & Keselamatan → Perkongsian Bluetooth: `prefs:root=Privacy&path=BT_PERIPHERAL` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/BT_PERIPHERAL`
+- Privasi & Keselamatan → Mikrofon: `prefs:root=Privacy&path=MICROPHONE` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/MICROPHONE`
+- Privasi & Keselamatan → Pengecaman Pertuturan: `prefs:root=Privacy&path=SPEECH_RECOGNITION` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/SPEECH_RECOGNITION`
+- Privasi & Keselamatan → Kamera: `prefs:root=Privacy&path=CAMERA` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/CAMERA`
+- Privasi & Keselamatan → HomeKit: `prefs:root=Privacy&path=WILLOW` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/WILLOW`
+- Privasi & Keselamatan → Media & Apple Music: `prefs:root=Privacy&path=MEDIALIBRARY` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/MEDIALIBRARY`
+- Privasi & Keselamatan → Analitis: `prefs:root=Privacy&path=PROBLEM_REPORTING` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/PROBLEM_REPORTING`
+- Privasi & Keselamatan → Pengiklanan: `prefs:root=Privacy&path=ADVERTISING` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/ADVERTISING`
+- Privasi & Keselamatan → Fail dan Folder: `prefs:root=Privacy&path=FILEACCESS` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/FILEACCESS`
+- Privasi & Keselamatan → Penjejakan: `prefs:root=Privacy&path=USER_TRACKING` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/USER_TRACKING`
+- Privasi & Keselamatan → Laporan Privasi App: `prefs:root=Privacy&path=PRIVACY_REPORT` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/PRIVACY_REPORT`
+- Privasi & Keselamatan → Mod Penyekatan: `prefs:root=Privacy#LOCKDOWN_MODE` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity#LOCKDOWN_MODE#LOCKDOWN_MODE`
+- Privasi & Keselamatan → Kandungan Sensitif: `prefs:root=Privacy#NUDITY_DETECTION` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity#NUDITY_DETECTION#NUDITY_DETECTION`
+- FaceTime: `prefs:root=FACETIME`
+- Masa Skrin: `prefs:root=SCREEN_TIME`
+- Bunyi | Bunyi & Haptik: `prefs:root=Sounds`
+- Bunyi | Bunyi & Haptik → Keselamatan Fon Kepala: `prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING`
+- Bunyi | Bunyi & Haptik → Keselamatan Fon Kepala → Penyesuai Lightning: `prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING/HEADPHONE_LIGHTNING_ADAPTERS`
+- Bunyi | Bunyi & Haptik → Keselamatan Fon Kepala → Pemberitahuan Fon Kepala: `prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING#SHSHeadphoneWeeklyNotificationsKey`
+- Bunyi | Bunyi & Haptik → Keselamatan Fon Kepala → Kurangkan Audio Kuat: `prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING#SHSHeadphoneLevelLimitSwitchKey`
+- Bunyi | Bunyi & Haptik → Kesan Bunyi: `prefs:root=Sounds&path=SOUND_EFFECTS`
+- Bunyi | Bunyi & Haptik → Pendering dan Isyarat: `prefs:root=Sounds#RINGER_AND_ALERT_GROUP`
+- Bunyi | Bunyi & Haptik → Tukar dengan Butang: `prefs:root=Sounds#CHANGE_WITH_BUTTONS`
+- Bunyi | Bunyi & Haptik → Bunyi dan Corak Getaran: `prefs:root=Sounds#SOUNDS_ALERT_GROUP`
+- Bunyi | Bunyi & Haptik → Nada Dering: `prefs:root=Sounds&path=Ringtone`
+- Bunyi | Bunyi & Haptik → Nada Mesej: `prefs:root=Sounds&path=Text_Messages`
+- Bunyi | Bunyi & Haptik → Mel Suara Baharu: `prefs:root=Sounds&path=Voicemail`
+- Bunyi | Bunyi & Haptik → Mel Baharu: `prefs:root=Sounds&path=NEW_MAIL`
+- Bunyi | Bunyi & Haptik → Mel Dihantar: `prefs:root=Sounds&path=SENT_MAIL`
+- Bunyi | Bunyi & Haptik → Isyarat Kalendar: `prefs:root=Sounds&path=Calendar%20Alarm`
+- Bunyi | Bunyi & Haptik → Isyarat Peringatan: `prefs:root=Sounds&path=Reminder%20Alerts`
+- Bunyi | Bunyi & Haptik → Klik Papan Kekunci: `prefs:root=Sounds#KEYBOARD_SOUND_SWITCH`
+- Bunyi | Bunyi & Haptik → Bunyi Kunci: `prefs:root=Sounds#LOCK_SOUND_SWITCH`
+- Bunyi | Bunyi & Haptik → Audio Ruang Diperibadikan: `prefs:root=Sounds&path=Personalized%20Spatial%20Audio`
+- Apple Pencil: `prefs:root=Pencil`
+- Apple Pencil → Apple Pencil: `prefs:root=Pencil#PrefersPencilDraws`
+- Apple Pencil → Apple Pencil: `prefs:root=Pencil#PencilTextInput`
+- Mesej: `prefs:root=MESSAGES`
+- Saham: `prefs:root=STOCKS`
+- Saham → Privasi: `prefs:root=STOCKS#Privacy`
+- Saham → Reset Pengecam: `prefs:root=STOCKS#reset_identifier`
+- Terjemah: `prefs:root=TRANSLATE`
+- Terjemah → Mod Pada Peranti: `prefs:root=TRANSLATE#OnDeviceOnly`
+- Siri: `prefs:root=SIRI`
+- Siri → Benarkan Siri apabila Dikunci: `prefs:root=SIRI#ASSISTANT_LOCK_SCREEN_ACCESS`
+- Siri → Bahasa: `prefs:root=SIRI&path=LANGUAGE_ID`
+- Siri → Suara Siri: `prefs:root=SIRI&path=VOICE_ID`
+- Siri → Maklum Balas Suara: `prefs:root=SIRI&path=VOICE_FEEDBACK_ID`
+- Siri → Maklumat Saya: `prefs:root=SIRI&path=MY_INFO`
+- Data Kesihatan | Kesihatan: `prefs:root=HEALTH`
+- App Store: `prefs:root=STORE`
+- App Store → Muat Turun Automatik: `prefs:root=STORE#Automatic%20Downloads`
+- App Store → Kemas Kini App: `prefs:root=STORE#App%20Updates`
+- App Store → Muat Turun App: `prefs:root=STORE&path=App%20Downloads`
+- App Store → Main Auto Video: `prefs:root=STORE&path=Video%20Autoplay`
+- App Store → Penilaian & Ulasan In-App: `prefs:root=STORE#In-App%20Ratings%20&%20Reviews`
+- Mod Pesawat: `prefs:root=ROOT#AIRPLANE_MODE`
